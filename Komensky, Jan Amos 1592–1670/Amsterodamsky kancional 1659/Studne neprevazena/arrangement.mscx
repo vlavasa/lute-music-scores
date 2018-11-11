@@ -102,6 +102,7 @@
         <Channel>
           <program value="52"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           </Channel>
         </Instrument>
       </Part>
@@ -570,6 +571,10 @@ arr. Vladimír Váša 2018</text>
       </Staff>
     <Staff id="2">
       <Measure number="1">
+        <Clef>
+          <concertClefType>G8vb</concertClefType>
+          <transposingClefType>G8vb</transposingClefType>
+          </Clef>
         <KeySig>
           <accidental>-3</accidental>
           </KeySig>
@@ -599,6 +604,27 @@ arr. Vladimír Váša 2018</text>
         <Chord>
           <lid>121</lid>
           <durationType>half</durationType>
+          <Note>
+            <lid>199</lid>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <fret>0</fret>
+            <string>6</string>
+            </Note>
+          <Note>
+            <lid>208</lid>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            <fret>3</fret>
+            <string>3</string>
+            </Note>
+          <Note>
+            <lid>207</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>2</string>
+            </Note>
           <Note>
             <lid>122</lid>
             <pitch>65</pitch>
@@ -1103,6 +1129,27 @@ arr. Vladimír Váša 2018</text>
         <Chord>
           <lid>121</lid>
           <durationType>half</durationType>
+          <Note>
+            <lid>199</lid>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <fret>0</fret>
+            <string>6</string>
+            </Note>
+          <Note>
+            <lid>208</lid>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            <fret>3</fret>
+            <string>3</string>
+            </Note>
+          <Note>
+            <lid>207</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>2</string>
+            </Note>
           <Note>
             <lid>122</lid>
             <pitch>65</pitch>
