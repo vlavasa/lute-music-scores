@@ -1,3 +1,3 @@
 # licences diferrent than CC BY-SA 4.0
 - **facsimile_1659.jpg** is facsimile of the original work from year 1659 and it is **public domain** work.
-- **harmony-cce_psalter_1979.jpg** is harmony of the song as it was published in (organ part of) psalter of Evangelical Church of Czech Brethren (see www.e-cirkev.cz) from year 1879. Author of the harmony is unknown and it is most probably hudred years old and it is **public domain** work.
+- **harmony-cce_psalter_1979.jpg** is harmony of the song as it was published in (organ part of) psalter of Evangelical Church of Czech Brethren (see www.e-cirkev.cz) from year 1979. Author of the harmony is unknown and it is **most probably** hudred years old and it is **public domain** work.
