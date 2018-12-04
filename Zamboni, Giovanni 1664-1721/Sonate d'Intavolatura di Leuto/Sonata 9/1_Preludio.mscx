@@ -104,6 +104,7 @@
           <upsideDown>1</upsideDown>
           <useNumbers>1</useNumbers>
           </StaffType>
+        <defaultClef>F</defaultClef>
         </Staff>
       <Staff id="3">
         <linkedTo>1</linkedTo>
@@ -204,20 +205,19 @@
       <Staff id="5">
         <linkedTo>4</linkedTo>
         <StaffType group="tablature">
-          <name>tab6StrSimple</name>
+          <name>tab6StrCommon</name>
           <lines>6</lines>
           <lineDistance>1.5</lineDistance>
-          <slashStyle>1</slashStyle>
           <timesig>0</timesig>
           <durations>0</durations>
           <durationFontName>MuseScore Tab Modern</durationFontName>
           <durationFontSize>15</durationFontSize>
           <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Sans</fretFontName>
+          <fretFontName>MuseScore Tab Serif</fretFontName>
           <fretFontSize>9</fretFontSize>
           <fretFontY>0</fretFontY>
           <linesThrough>0</linesThrough>
-          <minimStyle>0</minimStyle>
+          <minimStyle>1</minimStyle>
           <onLines>1</onLines>
           <showRests>0</showRests>
           <stemsDown>1</stemsDown>
@@ -12124,6 +12124,10 @@ rewritten by Vladimír Váša</text>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
           </Tuplet>
         <Chord>
           <lid>435</lid>
@@ -12975,6 +12979,10 @@ rewritten by Vladimír Váša</text>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
           </Tuplet>
         <Chord>
           <lid>558</lid>
@@ -13110,6 +13118,10 @@ rewritten by Vladimír Váša</text>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
           </Tuplet>
         <Chord>
           <lid>578</lid>
@@ -24252,7 +24264,7 @@ rewritten by Vladimír Váša</text>
             <name>stdNormal</name>
             </StaffType>
           <defaultClef>G8vb</defaultClef>
-          <bracket type="1" span="2"/>
+          <bracket type="1" span="1"/>
           </Staff>
         <trackName>Klasická kytara</trackName>
         <Instrument>
