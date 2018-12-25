@@ -467,6 +467,7 @@ rewritten by Vladimír Váša</text>
                 <name>mensuralProportion3</name>
                 <font>Bravura</font>
                 <linkedMain/>
+                <offset x="0" y="-2.5"/>
                 <visible>0</visible>
                 </Symbol>
               <pitch>62</pitch>
@@ -1412,6 +1413,7 @@ rewritten by Vladimír Váša</text>
                 <name>mensuralProportion3</name>
                 <font>Bravura</font>
                 <linkedMain/>
+                <offset x="0" y="-4"/>
                 <visible>0</visible>
                 </Symbol>
               <pitch>56</pitch>
@@ -1549,6 +1551,9 @@ rewritten by Vladimír Váša</text>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <offset x="0" y="0.5"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1563,6 +1568,7 @@ rewritten by Vladimír Váša</text>
                 <name>mensuralProportion3</name>
                 <font>Bravura</font>
                 <linkedMain/>
+                <offset x="0" y="-8"/>
                 <visible>0</visible>
                 </Symbol>
               <pitch>43</pitch>
@@ -5951,17 +5957,17 @@ rewritten by Vladimír Váša</text>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>69</velocity>
-              <fret>5</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>5</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             </Chord>
           <Beam>
@@ -22040,9 +22046,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <velocity>69</velocity>
@@ -24674,18 +24677,18 @@ rewritten by Vladimír Váša</text>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>69</velocity>
-              <fret>5</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linked>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>5</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             </Chord>
           <Chord>
@@ -27846,9 +27849,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <velocity>69</velocity>
@@ -42015,9 +42015,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <velocity>69</velocity>
@@ -44693,18 +44690,18 @@ rewritten by Vladimír Váša</text>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>69</velocity>
-              <fret>5</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linked>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>5</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             </Chord>
           <Chord>
@@ -47911,9 +47908,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <velocity>69</velocity>
@@ -74583,18 +74577,18 @@ rewritten by Vladimír Váša</text>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>69</velocity>
-                <fret>5</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>5</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               </Chord>
             <Chord>
@@ -94848,18 +94842,18 @@ rewritten by Vladimír Váša</text>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>69</velocity>
-                <fret>5</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>5</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               </Chord>
             <Chord>
@@ -115229,18 +115223,18 @@ rewritten by Vladimír Váša</text>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>69</velocity>
-                <fret>5</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>5</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               </Chord>
             <Chord>
