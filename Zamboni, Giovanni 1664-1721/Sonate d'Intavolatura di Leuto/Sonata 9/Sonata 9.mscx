@@ -312,7 +312,7 @@ arr.</longName>
         <Text>
           <linkedMain/>
           <style>Title</style>
-          <text>Sonata 9</text>
+          <text>Sonata 9<sup>a</sup></text>
           </Text>
         <Text>
           <linkedMain/>
@@ -322,6 +322,7 @@ rewritten by Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure len="1/8">
+        <startRepeat/>
         <voice>
           <KeySig>
             <linkedMain/>
@@ -344,6 +345,12 @@ rewritten by Vladimír Váša</text>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteItalianTempoNeitherFastNorSlow</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>71</velocity>
@@ -3568,6 +3575,13 @@ rewritten by Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteItalianTempoNeitherFastNorSlow</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-6" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>72</velocity>
@@ -8112,11 +8126,11 @@ rewritten by Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               <velocity>69</velocity>
               <fret>0</fret>
-              <string>1</string>
+              <string>0</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8918,6 +8932,12 @@ rewritten by Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>71</velocity>
@@ -15390,6 +15410,13 @@ rewritten by Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-5" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -17147,6 +17174,10 @@ rewritten by Vladimír Váša</text>
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
+        <LayoutBreak>
+          <linkedMain/>
+          <subtype>section</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -17190,13 +17221,19 @@ rewritten by Vladimír Váša</text>
           <SystemText>
             <linkedMain/>
             <style>Tempo</style>
-            <text>Gavotta Alle</text>
+            <text>Gavotta Alle<sup>o</sup></text>
             </SystemText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteItalianTempoSlow</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>72</velocity>
@@ -18589,6 +18626,14 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>6</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTempoNeitherFastNorSlow</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>6</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>71</velocity>
@@ -22054,9 +22099,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>70</velocity>
@@ -22086,6 +22128,15 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTempoNeitherFastNorSlow</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <offset x="-6" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>72</velocity>
@@ -27027,11 +27078,11 @@ rewritten by Vladimír Váša</text>
             <Note>
               <linked>
                 </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               <velocity>69</velocity>
               <fret>0</fret>
-              <string>1</string>
+              <string>0</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -27857,9 +27908,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>70</velocity>
@@ -27893,6 +27941,14 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>71</velocity>
@@ -35014,6 +35070,14 @@ rewritten by Vladimír Váša</text>
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="-5" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -36966,6 +37030,14 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTempoSlow</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>72</velocity>
@@ -38524,6 +38596,14 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>6</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTempoNeitherFastNorSlow</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>6</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>71</velocity>
@@ -42023,9 +42103,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>70</velocity>
@@ -42055,6 +42132,15 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTempoNeitherFastNorSlow</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <offset x="-6" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>72</velocity>
@@ -47074,11 +47160,11 @@ rewritten by Vladimír Váša</text>
             <Note>
               <linked>
                 </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               <velocity>69</velocity>
               <fret>0</fret>
-              <string>1</string>
+              <string>0</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -47916,9 +48002,6 @@ rewritten by Vladimír Váša</text>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>70</velocity>
@@ -47952,6 +48035,14 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>71</velocity>
@@ -55166,6 +55257,14 @@ rewritten by Vladimír Váša</text>
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="-5" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -57164,6 +57263,14 @@ rewritten by Vladimír Váša</text>
               <linked>
                 <indexDiff>1</indexDiff>
                 </linked>
+              <Symbol>
+                <name>luteItalianTempoSlow</name>
+                <font>Bravura</font>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>72</velocity>
@@ -68401,7 +68508,7 @@ rewritten by Vladimír Váša</text>
             <linked>
               </linked>
             <style>Title</style>
-            <text>Sonata 9</text>
+            <text>Sonata 9<sup>a</sup></text>
             </Text>
           <Text>
             <linked>
@@ -68412,6 +68519,7 @@ rewritten by Vladimír Váša</text>
             </Text>
           </VBox>
         <Measure len="1/8">
+          <startRepeat/>
           <voice>
             <KeySig>
               <linked>
@@ -68439,6 +68547,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoNeitherFastNorSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>71</velocity>
@@ -71988,6 +72103,14 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoNeitherFastNorSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-6" y="-0.7"/>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>72</velocity>
@@ -76931,11 +77054,11 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
                 <velocity>69</velocity>
                 <fret>0</fret>
-                <string>1</string>
+                <string>0</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -77815,6 +77938,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>71</velocity>
@@ -84991,6 +85121,14 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-5" y="-0.7"/>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>0</fret>
@@ -86902,6 +87040,12 @@ rewritten by Vladimír Váša</text>
           <LayoutBreak>
             <subtype>line</subtype>
             </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <durationType>half</durationType>
@@ -86939,7 +87083,7 @@ rewritten by Vladimír Váša</text>
               <linked>
                 </linked>
               <style>Tempo</style>
-              <text>Gavotta Alle</text>
+              <text>Gavotta Alle<sup>o</sup></text>
               </SystemText>
             <Chord>
               <linked>
@@ -86948,6 +87092,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>72</velocity>
@@ -88582,6 +88733,7 @@ rewritten by Vladimír Váša</text>
             <lineDistance>1.5</lineDistance>
             <clef>0</clef>
             <slashStyle>1</slashStyle>
+            <timesig>0</timesig>
             <durations>1</durations>
             <durationFontName>MuseScore French Baroque</durationFontName>
             <durationFontSize>15</durationFontSize>
@@ -88670,7 +88822,7 @@ rewritten by Vladimír Váša</text>
             <linked>
               </linked>
             <style>Title</style>
-            <text>Sonata 9</text>
+            <text>Sonata 9<sup>a</sup></text>
             </Text>
           <Text>
             <linked>
@@ -88681,6 +88833,7 @@ rewritten by Vladimír Váša</text>
             </Text>
           </VBox>
         <Measure len="1/8">
+          <startRepeat/>
           <voice>
             <KeySig>
               <linked>
@@ -88702,7 +88855,7 @@ rewritten by Vladimír Váša</text>
                 <indexDiff>5</indexDiff>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Preludio</text>
               </SystemText>
             <Chord>
@@ -88715,6 +88868,14 @@ rewritten by Vladimír Váša</text>
                 <linked>
                   <indexDiff>5</indexDiff>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoNeitherFastNorSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    <indexDiff>5</indexDiff>
+                    </linked>
+                  <offset x="-6" y="-0.7"/>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>71</velocity>
@@ -92233,7 +92394,7 @@ rewritten by Vladimír Váša</text>
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Allemanda</text>
               </SystemText>
             <Chord>
@@ -92243,6 +92404,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoNeitherFastNorSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-6" y="-3.7"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>72</velocity>
@@ -97197,11 +97365,11 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
                 <velocity>69</velocity>
                 <fret>0</fret>
-                <string>1</string>
+                <string>0</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -98080,7 +98248,7 @@ rewritten by Vladimír Váša</text>
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Giga</text>
               </SystemText>
             <Chord>
@@ -98090,6 +98258,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-5" y="-0.7"/>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>71</velocity>
@@ -105278,7 +105453,7 @@ rewritten by Vladimír Váša</text>
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Sarabanda Largo</text>
               </SystemText>
             <Rest>
@@ -105293,6 +105468,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-5" y="-3.7"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>0</fret>
@@ -107208,7 +107390,10 @@ rewritten by Vladimír Váša</text>
         <Measure len="2/4">
           <endRepeat>2</endRepeat>
           <LayoutBreak>
-            <subtype>line</subtype>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <subtype>section</subtype>
             </LayoutBreak>
           <voice>
             <Chord>
@@ -107237,6 +107422,7 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/4">
+          <startRepeat/>
           <voice>
             <TimeSig>
               <subtype>2</subtype>
@@ -107247,8 +107433,8 @@ rewritten by Vladimír Váša</text>
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
-              <text>Gavotta Alle</text>
+              <offset x="0" y="-5"/>
+              <text>Gavotta Alle<sup>o</sup></text>
               </SystemText>
             <Chord>
               <linked>
@@ -107257,6 +107443,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-6" y="-3.7"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>72</velocity>
@@ -107916,6 +108109,7 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/4">
+          <startRepeat/>
           <voice>
             <Chord>
               <linked>
@@ -108973,7 +109167,7 @@ rewritten by Vladimír Váša</text>
             <linked>
               </linked>
             <style>Title</style>
-            <text>Sonata 9</text>
+            <text>Sonata 9<sup>a</sup></text>
             </Text>
           <Text>
             <linked>
@@ -108984,6 +109178,7 @@ rewritten by Vladimír Váša</text>
             </Text>
           </VBox>
         <Measure len="1/8">
+          <startRepeat/>
           <voice>
             <KeySig>
               <linked>
@@ -109018,6 +109213,14 @@ rewritten by Vladimír Váša</text>
                 <linked>
                   <indexDiff>5</indexDiff>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoNeitherFastNorSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    <indexDiff>5</indexDiff>
+                    </linked>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>71</velocity>
@@ -112580,6 +112783,14 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoNeitherFastNorSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-6" y="-0.7"/>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>72</velocity>
@@ -117616,11 +117827,11 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
                 <velocity>69</velocity>
                 <fret>0</fret>
-                <string>1</string>
+                <string>0</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -118513,6 +118724,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>71</velocity>
@@ -125787,6 +126005,14 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-5" y="-0.7"/>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>0</fret>
@@ -127747,6 +127973,12 @@ rewritten by Vladimír Váša</text>
           <LayoutBreak>
             <subtype>line</subtype>
             </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <durationType>half</durationType>
@@ -127776,6 +128008,7 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/4">
+          <startRepeat/>
           <voice>
             <TimeSig>
               <subtype>2</subtype>
@@ -127787,7 +128020,7 @@ rewritten by Vladimír Váša</text>
                 </linked>
               <style>Tempo</style>
               <offset x="0" y="-5.5"/>
-              <text>Gavotta Alle</text>
+              <text>Gavotta Alle<sup>o</sup></text>
               </SystemText>
             <Chord>
               <linked>
@@ -127796,6 +128029,13 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTempoSlow</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <visible>0</visible>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>72</velocity>
@@ -128457,6 +128697,7 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/4">
+          <startRepeat/>
           <voice>
             <Chord>
               <linked>
@@ -129495,7 +129736,7 @@ arr.</longName>
                 </location>
               </linked>
             <style>Title</style>
-            <text>Sonata 9</text>
+            <text>Sonata 9<sup>a</sup></text>
             </Text>
           <Text>
             <linked>
@@ -129513,6 +129754,7 @@ rewritten by Vladimír Váša</text>
             </Text>
           </VBox>
         <Measure len="1/8">
+          <startRepeat/>
           <voice>
             <TimeSig>
               <subtype>1</subtype>
@@ -134385,6 +134627,14 @@ rewritten by Vladimír Váša</text>
               </linked>
             <subtype>section</subtype>
             </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -134406,7 +134656,7 @@ rewritten by Vladimír Váša</text>
                   <staves>-3</staves>
                   </location>
                 </linked>
-              <text>Gavotta Alle</text>
+              <text>Gavotta Alle<sup>o</sup></text>
               </SystemText>
             <Rest>
               <linked>
@@ -134813,7 +135063,7 @@ arr.</longName>
                 </location>
               </linked>
             <style>Title</style>
-            <text>Sonata 9</text>
+            <text>Sonata 9<sup>a</sup></text>
             </Text>
           <Text>
             <linked>
@@ -134830,6 +135080,7 @@ rewritten by Vladimír Váša</text>
             </Text>
           </VBox>
         <Measure len="1/8">
+          <startRepeat/>
           <voice>
             <KeySig>
               <linked>
@@ -139695,6 +139946,14 @@ rewritten by Vladimír Váša</text>
               </linked>
             <subtype>section</subtype>
             </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              <location>
+                <staves>-3</staves>
+                </location>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -139716,7 +139975,7 @@ rewritten by Vladimír Váša</text>
                   <staves>-3</staves>
                   </location>
                 </linked>
-              <text>Gavotta Alle</text>
+              <text>Gavotta Alle<sup>o</sup></text>
               </SystemText>
             <Rest>
               <linked>
