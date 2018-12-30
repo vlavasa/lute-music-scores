@@ -81,15 +81,15 @@
     <metaTag name="copyright">© 2018 Italian tab is exactly transcription of the original Zamboni's work which is public domain. / Everything added that is not a public domain is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2018-12-03</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber">1.</metaTag>
-    <metaTag name="movementTitle">Preludio</metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="originalFormat"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">from original (1718)</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">9</metaTag>
-    <metaTag name="workTitle">Sonata</metaTag>
+    <metaTag name="workTitle">Sonata 9:a</metaTag>
     <Part>
       <Staff id="1">
         <linkedTo>2</linkedTo>
@@ -228,7 +228,23 @@
           <linkedMain/>
           <style>Composer</style>
           <text>Giovanni Zamboni (1664 - 1721)
-rewritten by Vladimír Váša</text>
+rewritten from original (1718)
+by Vladimír Váša
+</text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Lyricist</style>
+          <text></text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Lyricist</style>
+          <text>Archlute (10 course needed) tuning:
+C-D-Eb-F-G-c-f-a-d'-g'
+<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+
+</text>
           </Text>
         </VBox>
       <Measure len="1/8">
@@ -18530,7 +18546,7 @@ rewritten by Vladimír Váša</text>
         <voice>
           <KeySig>
             <linked>
-              <indexDiff>3</indexDiff>
+              <indexDiff>5</indexDiff>
               </linked>
             <accidental>-3</accidental>
             </KeySig>
@@ -18542,13 +18558,13 @@ rewritten by Vladimír Váša</text>
             </TimeSig>
           <Chord>
             <linked>
-              <indexDiff>6</indexDiff>
+              <indexDiff>8</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
-                <indexDiff>6</indexDiff>
+                <indexDiff>8</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -38487,7 +38503,7 @@ rewritten by Vladimír Váša</text>
         <voice>
           <KeySig>
             <linked>
-              <indexDiff>3</indexDiff>
+              <indexDiff>5</indexDiff>
               </linked>
             <accidental>-3</accidental>
             </KeySig>
@@ -38499,13 +38515,13 @@ rewritten by Vladimír Váša</text>
             </TimeSig>
           <Chord>
             <linked>
-              <indexDiff>6</indexDiff>
+              <indexDiff>8</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
-                <indexDiff>6</indexDiff>
+                <indexDiff>8</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -58842,7 +58858,25 @@ rewritten by Vladimír Váša</text>
               </linked>
             <style>Composer</style>
             <text>Giovanni Zamboni (1664 - 1721)
-rewritten by Vladimír Váša</text>
+rewritten from original (1718)
+by Vladimír Váša
+</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Subtitle</style>
+            <text></text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Lyricist</style>
+            <text>Archlute (10 course needed) tuning:
+C-D-Eb-F-G-c-f-a-d'-g'
+<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+
+</text>
             </Text>
           </VBox>
         <Measure len="1/8">
@@ -79157,7 +79191,25 @@ rewritten by Vladimír Váša</text>
               </linked>
             <style>Composer</style>
             <text>Giovanni Zamboni (1664 - 1721)
-rewritten by Vladimír Váša</text>
+rewritten from original (1718)
+by Vladimír Váša
+</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Subtitle</style>
+            <text></text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Lyricist</style>
+            <text>Archlute (10 course needed) tuning:
+C-D-Eb-F-G-c-f-a-d'-g'
+<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+
+</text>
             </Text>
           </VBox>
         <Measure len="1/8">
@@ -79180,7 +79232,7 @@ rewritten by Vladimír Váša</text>
               </TimeSig>
             <SystemText>
               <linked>
-                <indexDiff>5</indexDiff>
+                <indexDiff>7</indexDiff>
                 </linked>
               <style>Tempo</style>
               <offset x="0" y="-5"/>
@@ -79188,13 +79240,13 @@ rewritten by Vladimír Váša</text>
               </SystemText>
             <Chord>
               <linked>
-                <indexDiff>5</indexDiff>
+                <indexDiff>7</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
-                  <indexDiff>5</indexDiff>
+                  <indexDiff>7</indexDiff>
                   </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
@@ -99505,7 +99557,25 @@ rewritten by Vladimír Váša</text>
               </linked>
             <style>Composer</style>
             <text>Giovanni Zamboni (1664 - 1721)
-rewritten by Vladimír Váša</text>
+rewritten from original (1718)
+by Vladimír Váša
+</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Subtitle</style>
+            <text></text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Lyricist</style>
+            <text>Archlute (10 course needed) tuning:
+C-D-Eb-F-G-c-f-a-d'-g'
+<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+
+</text>
             </Text>
           </VBox>
         <Measure len="1/8">
@@ -99528,7 +99598,7 @@ rewritten by Vladimír Váša</text>
               </TimeSig>
             <SystemText>
               <linked>
-                <indexDiff>5</indexDiff>
+                <indexDiff>7</indexDiff>
                 </linked>
               <style>Tempo</style>
               <offset x="0" y="-5.5"/>
@@ -99536,13 +99606,13 @@ rewritten by Vladimír Váša</text>
               </SystemText>
             <Chord>
               <linked>
-                <indexDiff>5</indexDiff>
+                <indexDiff>7</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
-                  <indexDiff>5</indexDiff>
+                  <indexDiff>7</indexDiff>
                   </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
