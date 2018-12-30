@@ -237,7 +237,7 @@ by Vladimír Váša
           <style>Lyricist</style>
           <text>Archlute (10 course needed) tuning:
 C-D-Eb-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
           </Text>
@@ -58863,7 +58863,7 @@ by Vladimír Váša
             <style>Lyricist</style>
             <text>Archlute (10 course needed) tuning:
 C-D-Eb-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
             </Text>
@@ -74337,6 +74337,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                 <Slur>
                   <linked>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -74445,6 +74446,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                 <Slur>
                   <linked>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -74553,6 +74555,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                 <Slur>
                   <linked>
                     </linked>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -75972,6 +75975,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -76209,9 +76215,6 @@ C-D-Eb-F-G-c-f-a-d'-g'
           </Measure>
         <Measure len="2/4">
           <endRepeat>2</endRepeat>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -76222,8 +76225,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <o1 x="-0.032984" y="-4.96198"/>
-                    <o3 x="1.39853" y="0.266387"/>
+                    <o1 x="0" y="-4.9434"/>
+                    <o2 x="-0.1" y="-0.3"/>
+                    <o3 x="0.9" y="0.4"/>
                     <o4 x="0.1" y="0"/>
                     </SlurSegment>
                   <up>down</up>
@@ -76578,6 +76582,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -77432,6 +77439,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="1/4">
+          <startRepeat/>
           <voice>
             <TimeSig>
               <subtype>2</subtype>
@@ -78042,8 +78050,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <o1 x="-0.0665968" y="-4.96178"/>
-                    <o3 x="1.73152" y="0.466178"/>
+                    <o1 x="-0.0930259" y="-4.93493"/>
+                    <o3 x="1.1" y="0.2"/>
+                    <o4 x="0.1" y="0"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -78113,6 +78122,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="1/4">
+          <startRepeat/>
           <voice>
             <Chord>
               <linked>
@@ -79190,7 +79200,7 @@ by Vladimír Váša
             <style>Lyricist</style>
             <text>Archlute (10 course needed) tuning:
 C-D-Eb-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
             </Text>
@@ -99550,7 +99560,7 @@ by Vladimír Váša
             <style>Lyricist</style>
             <text>Archlute (10 course needed) tuning:
 C-D-Eb-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
             </Text>
@@ -99578,7 +99588,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                 <indexDiff>6</indexDiff>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-5"/>
+              <offset x="0" y="-5.4"/>
               <text>Preludio</text>
               </SystemText>
             <Chord>
@@ -99694,7 +99704,8 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <autoplace>0</autoplace>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -99888,7 +99899,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -100584,7 +100595,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -100664,7 +100675,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -100738,7 +100749,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -100906,7 +100917,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -101050,7 +101061,8 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <o4 x="-0.2" y="0"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -101209,7 +101221,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -101698,7 +101710,8 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <o4 x="-0.2" y="0"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -102225,7 +102238,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <autoplace>0</autoplace>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -102323,7 +102336,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <autoplace>0</autoplace>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -102508,7 +102521,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -102674,7 +102687,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -103143,7 +103156,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-5"/>
+              <offset x="0" y="-5.4"/>
               <text>Alemanda</text>
               </SystemText>
             <Chord>
@@ -103337,7 +103350,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <o1 x="0.1" y="0"/>
+                    <o4 x="-0.3" y="0"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -103535,7 +103550,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <o1 x="-0.0665968" y="-4.59518"/>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -103734,7 +103749,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -103851,7 +103866,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -103902,7 +103917,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -103963,7 +103978,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104018,7 +104033,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104162,7 +104177,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <o1 x="0.1" y="0"/>
+                    <o4 x="-0.3" y="0"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104207,6 +104224,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -104217,7 +104237,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104345,7 +104365,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <autoplace>0</autoplace>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104412,7 +104432,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <autoplace>0</autoplace>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104585,7 +104605,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <o1 x="0.1" y="0"/>
+                    <o4 x="-0.3" y="0"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104756,7 +104778,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104808,7 +104830,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <autoplace>0</autoplace>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -104894,7 +104916,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <o1 x="0.113215" y="-4.6418"/>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -105287,7 +105309,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -105339,7 +105361,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -105391,7 +105413,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -105518,7 +105540,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <o1 x="-0.113215" y="-4.6418"/>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -105893,7 +105915,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -106051,7 +106073,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -106203,7 +106225,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -106524,9 +106546,9 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
-                  <up>down</up>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -106751,7 +106773,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -106931,7 +106953,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107107,7 +107129,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107168,7 +107190,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107219,7 +107241,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107280,7 +107302,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107370,7 +107392,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107717,7 +107739,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107829,7 +107851,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -107928,7 +107950,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <o1 x="-0.113215" y="-4.52858"/>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -108048,7 +108070,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -108323,7 +108345,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -108517,7 +108539,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -108578,7 +108600,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -108696,7 +108718,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -109086,7 +109108,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-5"/>
+              <offset x="0" y="-5.4"/>
               <text>Giga</text>
               </SystemText>
             <Chord>
@@ -109424,7 +109446,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -109603,7 +109625,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -109739,7 +109761,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -110046,7 +110068,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -110166,7 +110188,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -110294,7 +110316,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -110419,7 +110441,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -110554,7 +110576,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -110635,7 +110657,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -111054,7 +111076,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -111205,7 +111227,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -111289,7 +111311,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -111406,7 +111428,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -111509,7 +111531,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -111623,7 +111645,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -111830,7 +111852,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -111910,7 +111932,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -112622,7 +112644,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -112822,7 +112844,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -113022,7 +113044,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -113239,7 +113261,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -113349,7 +113371,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -113425,7 +113447,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -113505,7 +113527,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -113581,7 +113603,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -114266,7 +114288,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115083,7 +115105,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115233,7 +115255,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115347,7 +115369,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115458,7 +115480,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115566,7 +115588,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115677,7 +115699,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -115756,7 +115778,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -116395,7 +116417,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-5"/>
+              <offset x="0" y="-5.4"/>
               <text>Sarabanda Largo</text>
               </SystemText>
             <Chord>
@@ -116424,7 +116446,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -116521,7 +116543,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -116717,7 +116739,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -116797,7 +116819,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -116909,7 +116931,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -117013,7 +117035,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -117156,7 +117178,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <o1 x="-0.299581" y="-4.49539"/>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -117256,7 +117278,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -117353,7 +117375,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -117609,7 +117631,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -117761,7 +117783,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -117822,7 +117844,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -117890,7 +117912,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -117944,7 +117966,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -118024,7 +118046,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   </Slur>
                 <next>
@@ -118129,7 +118151,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -118241,7 +118263,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>up</up>
                   </Slur>
@@ -118407,7 +118429,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-5"/>
+              <offset x="0" y="-5.4"/>
               <text>Gauotta Alle:<sup>o</sup></text>
               </SystemText>
             <Chord>
@@ -119009,7 +119031,7 @@ C-D-Eb-F-G-c-f-a-d'-g'
                     </linked>
                   <SlurSegment no="0">
                     <o1 x="-0.0871918" y="-4.39555"/>
-                    <offset x="0" y="-0.5"/>
+                    <offset x="0" y="-0.6"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
