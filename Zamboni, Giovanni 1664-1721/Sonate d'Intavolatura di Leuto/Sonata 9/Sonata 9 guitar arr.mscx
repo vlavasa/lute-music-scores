@@ -211,10 +211,6 @@ for guitar arr. Vladimír Váša
       <Measure len="1/8">
         <startRepeat/>
         <voice>
-          <KeySig>
-            <linkedMain/>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <linkedMain/>
@@ -5824,17 +5820,17 @@ for guitar arr. Vladimír Váša
               <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>4</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <velocity>69</velocity>
-              <fret>4</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Beam>
@@ -17054,16 +17050,15 @@ for guitar arr. Vladimír Váša
           </LayoutBreak>
         <voice>
           <Chord>
+            <linkedMain/>
             <durationType>half</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <linkedMain/>
               <anchor>3</anchor>
               </Articulation>
-            <Articulation>
-              <subtype>ornamentTrill</subtype>
-              <linkedMain/>
-              </Articulation>
             <Note>
+              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <velocity>68</velocity>
@@ -17072,10 +17067,11 @@ for guitar arr. Vladimír Váša
               <veloType>user</veloType>
               </Note>
             <Note>
+              <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <velocity>70</velocity>
-              <fret>3</fret>
+              <fret>2</fret>
               <string>2</string>
               <veloType>user</veloType>
               </Note>
@@ -18476,12 +18472,6 @@ for guitar arr. Vladimír Váša
     <Staff id="2">
       <Measure len="1/8">
         <voice>
-          <KeySig>
-            <linked>
-              <indexDiff>5</indexDiff>
-              </linked>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <subtype>1</subtype>
             <linkedMain/>
@@ -18490,13 +18480,13 @@ for guitar arr. Vladimír Váša
             </TimeSig>
           <Chord>
             <linked>
-              <indexDiff>8</indexDiff>
+              <indexDiff>7</indexDiff>
               </linked>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
-                <indexDiff>8</indexDiff>
+                <indexDiff>7</indexDiff>
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -24577,18 +24567,18 @@ for guitar arr. Vladimír Váša
                 </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>4</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             <Note>
               <linked>
                 </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <velocity>69</velocity>
-              <fret>4</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -35680,7 +35670,7 @@ for guitar arr. Vladimír Váša
                 <linked>
                   </linked>
                 <SlurSegment no="0">
-                  <o1 x="0" y="4.46261"/>
+                  <o1 x="0" y="-4.53739"/>
                   </SlurSegment>
                 <up>down</up>
                 </Slur>
@@ -36856,30 +36846,33 @@ for guitar arr. Vladimír Váša
       <Measure len="2/4">
         <voice>
           <Chord>
+            <linked>
+              </linked>
             <durationType>half</durationType>
-            <Articulation>
-              <subtype>ornamentTrill</subtype>
-              <anchor>4</anchor>
-              </Articulation>
             <Articulation>
               <subtype>ornamentTrill</subtype>
               <linked>
                 </linked>
+              <anchor>3</anchor>
               </Articulation>
             <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               <velocity>68</velocity>
-              <fret>3</fret>
+              <fret>0</fret>
               <string>4</string>
               <veloType>user</veloType>
               </Note>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               <velocity>70</velocity>
-              <fret>1</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -38622,11 +38615,6 @@ for guitar arr. Vladimír Váša
         <Measure len="1/8">
           <startRepeat/>
           <voice>
-            <KeySig>
-              <linked>
-                </linked>
-              <accidental>0</accidental>
-              </KeySig>
             <TimeSig>
               <subtype>1</subtype>
               <linked>
@@ -44778,18 +44766,18 @@ for guitar arr. Vladimír Váša
                   </linked>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>4</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
-                <velocity>69</velocity>
-                <fret>4</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -57168,6 +57156,8 @@ for guitar arr. Vladimír Váša
             </LayoutBreak>
           <voice>
             <Chord>
+              <linked>
+                </linked>
               <durationType>half</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
@@ -57176,18 +57166,22 @@ for guitar arr. Vladimír Váša
                 <anchor>3</anchor>
                 </Articulation>
               <Note>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
                 <velocity>68</velocity>
                 <fret>0</fret>
                 <string>4</string>
                 <veloType>user</veloType>
                 </Note>
               <Note>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
+                <linked>
+                  </linked>
+                <pitch>57</pitch>
+                <tpc>17</tpc>
                 <velocity>70</velocity>
-                <fret>3</fret>
+                <fret>2</fret>
                 <string>2</string>
                 <veloType>user</veloType>
                 </Note>
@@ -58959,11 +58953,6 @@ for guitar arr. Vladimír Váša
         <Measure len="1/8">
           <startRepeat/>
           <voice>
-            <KeySig>
-              <linked>
-                </linked>
-              <accidental>0</accidental>
-              </KeySig>
             <TimeSig>
               <subtype>1</subtype>
               <linked>
@@ -58976,7 +58965,7 @@ for guitar arr. Vladimír Váša
               </TimeSig>
             <SystemText>
               <linked>
-                <indexDiff>7</indexDiff>
+                <indexDiff>6</indexDiff>
                 </linked>
               <style>Tempo</style>
               <offset x="0" y="-5"/>
@@ -58984,13 +58973,13 @@ for guitar arr. Vladimír Váša
               </SystemText>
             <Chord>
               <linked>
-                <indexDiff>7</indexDiff>
+                <indexDiff>6</indexDiff>
                 </linked>
               <durationType>eighth</durationType>
               <StemDirection>up</StemDirection>
               <Note>
                 <linked>
-                  <indexDiff>7</indexDiff>
+                  <indexDiff>6</indexDiff>
                   </linked>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
@@ -65119,18 +65108,18 @@ for guitar arr. Vladimír Váša
                   </linked>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>4</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
-                <velocity>69</velocity>
-                <fret>4</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -77526,6 +77515,8 @@ for guitar arr. Vladimír Váša
             </LayoutBreak>
           <voice>
             <Chord>
+              <linked>
+                </linked>
               <durationType>half</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
@@ -77534,19 +77525,23 @@ for guitar arr. Vladimír Váša
                 <anchor>3</anchor>
                 </Articulation>
               <Note>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
+                <linked>
+                  </linked>
+                <pitch>45</pitch>
+                <tpc>17</tpc>
                 <velocity>68</velocity>
-                <fret>3</fret>
+                <fret>0</fret>
                 <string>4</string>
                 <veloType>user</veloType>
                 </Note>
               <Note>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
+                <linked>
+                  </linked>
+                <pitch>57</pitch>
+                <tpc>17</tpc>
                 <velocity>70</velocity>
-                <fret>1</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
