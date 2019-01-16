@@ -15261,7 +15261,7 @@ for guitar arr. Vladimír Váša
             </Chord>
           </voice>
         </Measure>
-      <Measure len="1/8">
+      <Measure len="1/4">
         <startRepeat/>
         <voice>
           <TimeSig>
@@ -15276,6 +15276,21 @@ for guitar arr. Vladimír Váša
             <style>Tempo</style>
             <text>Sarabanda Largo</text>
             </SystemText>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Symbol>
+              <name>timeSigParensLeftSmall</name>
+              <font>Bravura</font>
+              <Symbol>
+                <name>timeSigParensRightSmall</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <z>499</z>
+                </Symbol>
+              <linkedMain/>
+              </Symbol>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -34901,7 +34916,7 @@ for guitar arr. Vladimír Váša
             </Chord>
           </voice>
         </Measure>
-      <Measure len="1/8">
+      <Measure len="1/4">
         <voice>
           <TimeSig>
             <sigN>3</sigN>
@@ -34910,14 +34925,31 @@ for guitar arr. Vladimír Váša
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
-          <Chord>
+          <Rest>
             <linked>
               <indexDiff>1</indexDiff>
               </linked>
             <durationType>eighth</durationType>
+            <Symbol>
+              <name>timeSigParensLeftSmall</name>
+              <font>Bravura</font>
+              <Symbol>
+                <name>timeSigParensRightSmall</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <z>499</z>
+                </Symbol>
+              <linked>
+                </linked>
+              </Symbol>
+            </Rest>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -55171,7 +55203,7 @@ for guitar arr. Vladimír Váša
               </Chord>
             </voice>
           </Measure>
-        <Measure len="1/8">
+        <Measure len="1/4">
           <startRepeat/>
           <voice>
             <TimeSig>
@@ -55187,6 +55219,26 @@ for guitar arr. Vladimír Váša
               <style>Tempo</style>
               <text>Sarabanda Largo</text>
               </SystemText>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Symbol>
+                <name>timeSigParensLeftSmall</name>
+                <font>Bravura</font>
+                <Symbol>
+                  <name>timeSigParensRightSmall</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.8" y="0"/>
+                  <z>499</z>
+                  </Symbol>
+                <linked>
+                  </linked>
+                <offset x="-0.6" y="0"/>
+                </Symbol>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -75509,7 +75561,7 @@ for guitar arr. Vladimír Váša
               </Chord>
             </voice>
           </Measure>
-        <Measure len="1/8">
+        <Measure len="1/4">
           <startRepeat/>
           <voice>
             <TimeSig>
@@ -75525,6 +75577,26 @@ for guitar arr. Vladimír Váša
               <style>Tempo</style>
               <text>Sarabanda Largo</text>
               </SystemText>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Symbol>
+                <name>timeSigParensLeftSmall</name>
+                <font>Bravura</font>
+                <Symbol>
+                  <name>timeSigParensRightSmall</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.8" y="0"/>
+                  <z>499</z>
+                  </Symbol>
+                <linked>
+                  </linked>
+                <offset x="-0.6" y="0"/>
+                </Symbol>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
