@@ -567,12 +567,11 @@ by Vladimír Váša
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <offset x="1" y="0"/>
-            <text>bis</text>
-            </StaffText>
           <Beam>
+            <Fragment>
+              <y1>0.25</y1>
+              <y2>-0.5</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -582,6 +581,11 @@ by Vladimír Váša
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <offset x="0" y="0"/>
+            <text>bis</text>
+            </StaffText>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -631,10 +635,6 @@ by Vladimír Váša
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
@@ -4079,7 +4079,7 @@ by Vladimír Váša
           <Beam>
             <Fragment>
               <y1>0.75</y1>
-              <y2>0</y2>
+              <y2>-8.35546e-17</y2>
               </Fragment>
             </Beam>
           <Chord>
