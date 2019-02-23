@@ -2834,15 +2834,9 @@ by Vladimír Váša
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0.115385" y="2.07692"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -2864,15 +2858,9 @@ by Vladimír Váša
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0.115385" y="2.07692"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -4080,12 +4068,11 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              <fret>1</fret>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
               <string>0</string>
               </Note>
             </Chord>
@@ -4386,12 +4373,11 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>4</fret>
               <string>4</string>
               </Note>
             </Chord>
@@ -4947,9 +4933,13 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              <fret>1</fret>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
               <string>5</string>
               </Note>
             </Chord>
@@ -5308,13 +5298,9 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
               <string>5</string>
               </Note>
             </Chord>
@@ -7370,11 +7356,12 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -7417,20 +7404,47 @@ by Vladimír Váša
               <string>1</string>
               </Note>
             </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  </location>
+                </next>
+              </Spanner>
+            <acciaccatura/>
+            <Note>
+              <linkedMain/>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
           <Beam>
             </Beam>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              <linkedMain/>
+              <anchor>3</anchor>
+              </Articulation>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>ornamentShake3</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-4.15385"/>
-                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -7455,9 +7469,9 @@ by Vladimír Váša
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <fret>3</fret>
               <string>3</string>
               </Note>
             </Chord>
@@ -10679,16 +10693,9 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linked>
-                  </linked>
-                <offset x="0.115385" y="-1.96154"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -10714,16 +10721,9 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linked>
-                  </linked>
-                <offset x="0.115385" y="-1.96154"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -12115,13 +12115,9 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              <fret>1</fret>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
               <string>0</string>
               </Note>
             </Chord>
@@ -12467,13 +12463,9 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>4</fret>
               <string>4</string>
               </Note>
             </Chord>
@@ -13112,11 +13104,12 @@ by Vladimír Váša
               <linked>
                 </linked>
               <Accidental>
+                <role>1</role>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              <fret>1</fret>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
               <string>5</string>
               </Note>
             </Chord>
@@ -13518,13 +13511,9 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
               <string>5</string>
               </Note>
             </Chord>
@@ -15899,9 +15888,13 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -15950,6 +15943,35 @@ by Vladimír Váša
               <string>1</string>
               </Note>
             </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o2 x="0" y="0.2"/>
+                  <o3 x="0" y="0.2"/>
+                  <offset x="0" y="-0.5"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  </location>
+                </next>
+              </Spanner>
+            <acciaccatura/>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
           <Beam>
             </Beam>
           <Chord>
@@ -15957,16 +15979,22 @@ by Vladimír Váša
               </linked>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              <linked>
+                </linked>
+              <anchor>3</anchor>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
-              <Symbol>
-                <name>ornamentShake3</name>
-                <font>Bravura</font>
-                <linked>
-                  </linked>
-                <offset x="0" y="1.2"/>
-                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -15995,9 +16023,9 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <fret>3</fret>
               <string>3</string>
               </Note>
             </Chord>

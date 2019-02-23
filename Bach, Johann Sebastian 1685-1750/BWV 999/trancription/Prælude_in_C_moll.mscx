@@ -1779,13 +1779,8 @@ by Vladimír Váša
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <offset x="0" y="-1.4"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -1801,13 +1796,8 @@ by Vladimír Váša
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <offset x="0" y="-1.4"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -2532,6 +2522,10 @@ by Vladimír Váša
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -2539,12 +2533,8 @@ by Vladimír Váša
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Beam>
@@ -4724,8 +4714,8 @@ by Vladimír Váša
             <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -5610,11 +5600,10 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <Accidental>
-                <role>1</role>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
+              <pitch>52</pitch>
+              <tpc>6</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -5729,10 +5718,11 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <Accidental>
+                <role>1</role>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -5790,12 +5780,8 @@ by Vladimír Váša
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
