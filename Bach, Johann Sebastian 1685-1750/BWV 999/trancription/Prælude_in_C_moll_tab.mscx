@@ -5793,6 +5793,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -5989,7 +5990,8 @@ by Vladimír Váša
       <Measure len="1/4">
         <voice>
           <Fermata>
-            <subtype>fermataAbove</subtype>
+            <subtype>fermataBelow</subtype>
+            <placement>below</placement>
             </Fermata>
           <Fermata>
             <subtype>fermataAbove</subtype>
