@@ -14,7 +14,7 @@
       <pagePrintableWidth>10.9028</pagePrintableWidth>
       <composerAlign>right,top</composerAlign>
       <lyricistAlign>left,top</lyricistAlign>
-      <Spatium>1.764</Spatium>
+      <Spatium>1.6</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -106,7 +106,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>11.5</height>
+        <height>12.5</height>
         <linkedMain/>
         <Text>
           <linkedMain/>
@@ -2596,6 +2596,9 @@ Bb-Eb-Ab-C-F-Bb
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
