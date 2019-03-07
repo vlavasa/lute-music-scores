@@ -11246,6 +11246,9 @@ rewritten from original by Vladimír Váša
         <pageWidth>11.6902</pageWidth>
         <pageHeight>8.27008</pageHeight>
         <pagePrintableWidth>10.9028</pagePrintableWidth>
+        <pageOddBottomMargin>0.354331</pageOddBottomMargin>
+        <minSystemDistance>7.5</minSystemDistance>
+        <frameSystemDistance>5.5</frameSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <composerAlign>right,top</composerAlign>
         <lyricistAlign>left,top</lyricistAlign>
@@ -11260,8 +11263,27 @@ rewritten from original by Vladimír Váša
       <Part>
         <Staff id="1">
           <linkedTo>1</linkedTo>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
+          <StaffType group="tablature">
+            <name>tab6StrFrench</name>
+            <lines>6</lines>
+            <lineDistance>1.5</lineDistance>
+            <clef>0</clef>
+            <slashStyle>1</slashStyle>
+            <durations>1</durations>
+            <durationFontName>MuseScore Tab French</durationFontName>
+            <durationFontSize>15</durationFontSize>
+            <durationFontY>0</durationFontY>
+            <fretFontName>MuseScore Tab Renaiss</fretFontName>
+            <fretFontSize>10</fretFontSize>
+            <fretFontY>0</fretFontY>
+            <linesThrough>1</linesThrough>
+            <minimStyle>0</minimStyle>
+            <onLines>0</onLines>
+            <showRests>0</showRests>
+            <stemsDown>0</stemsDown>
+            <stemsThrough>0</stemsThrough>
+            <upsideDown>0</upsideDown>
+            <useNumbers>0</useNumbers>
             </StaffType>
           </Staff>
         <trackName>Vihuela</trackName>
@@ -11331,7 +11353,7 @@ rewritten from original by Vladimír Váša
         </Part>
       <Staff id="1">
         <VBox>
-          <height>12.5</height>
+          <height>11.5</height>
           <linked>
             </linked>
           <Text>
@@ -11366,10 +11388,6 @@ rewritten from original by Vladimír Váša
           </VBox>
         <Measure>
           <voice>
-            <Clef>
-              <concertClefType>G8vb</concertClefType>
-              <transposingClefType>G8vb</transposingClefType>
-              </Clef>
             <KeySig>
               <accidental>-2</accidental>
               </KeySig>
@@ -11475,8 +11493,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -11503,8 +11519,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -11561,8 +11575,6 @@ rewritten from original by Vladimír Váša
           </Measure>
         <Measure>
           <voice>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -11661,8 +11673,6 @@ rewritten from original by Vladimír Váša
           </Measure>
         <Measure>
           <voice>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12223,8 +12233,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12318,8 +12326,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12346,8 +12352,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12466,8 +12470,6 @@ rewritten from original by Vladimír Váša
           </Measure>
         <Measure>
           <voice>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12536,8 +12538,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12796,8 +12796,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12824,8 +12822,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -12944,8 +12940,6 @@ rewritten from original by Vladimír Váša
           </Measure>
         <Measure>
           <voice>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13014,8 +13008,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13276,8 +13268,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13304,8 +13294,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13424,8 +13412,6 @@ rewritten from original by Vladimír Váša
           </Measure>
         <Measure>
           <voice>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13494,8 +13480,6 @@ rewritten from original by Vladimír Váša
                 <string>2</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13581,8 +13565,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13609,8 +13591,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13742,8 +13722,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -13770,8 +13748,6 @@ rewritten from original by Vladimír Váša
                 <string>2</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -14024,8 +14000,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -14130,8 +14104,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -14328,8 +14300,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -14356,8 +14326,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -14427,8 +14395,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -14700,8 +14666,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -15358,8 +15322,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -15483,8 +15445,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -15611,8 +15571,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -15639,8 +15597,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -15950,8 +15906,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16187,8 +16141,6 @@ rewritten from original by Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16215,8 +16167,6 @@ rewritten from original by Vladimír Váša
                 <string>4</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16463,8 +16413,6 @@ rewritten from original by Vladimír Váša
                 <string>2</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16550,8 +16498,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16578,8 +16524,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16834,8 +16778,6 @@ rewritten from original by Vladimír Váša
                 <string>2</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16921,8 +16863,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -16949,8 +16889,6 @@ rewritten from original by Vladimír Váša
                 <string>1</string>
                 </Note>
               </Chord>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
