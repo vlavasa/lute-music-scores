@@ -136,7 +136,6 @@ rewritten from original by Vladimír Váša
           <Clef>
             <concertClefType>G8vb</concertClefType>
             <transposingClefType>G8vb</transposingClefType>
-            <linkedMain/>
             </Clef>
           <KeySig>
             <linkedMain/>
@@ -5223,8 +5222,27 @@ rewritten from original by Vladimír Váša
       <Part>
         <Staff id="1">
           <linkedTo>1</linkedTo>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
+          <StaffType group="tablature">
+            <name>tab6StrItalian</name>
+            <lines>6</lines>
+            <lineDistance>1.5</lineDistance>
+            <clef>0</clef>
+            <slashStyle>1</slashStyle>
+            <durations>1</durations>
+            <durationFontName>MuseScore Tab Italian</durationFontName>
+            <durationFontSize>15</durationFontSize>
+            <durationFontY>0</durationFontY>
+            <fretFontName>MuseScore Tab Renaiss</fretFontName>
+            <fretFontSize>10</fretFontSize>
+            <fretFontY>0</fretFontY>
+            <linesThrough>1</linesThrough>
+            <minimStyle>0</minimStyle>
+            <onLines>1</onLines>
+            <showRests>1</showRests>
+            <stemsDown>0</stemsDown>
+            <stemsThrough>0</stemsThrough>
+            <upsideDown>1</upsideDown>
+            <useNumbers>1</useNumbers>
             </StaffType>
           </Staff>
         <trackName>Vihuela</trackName>
@@ -5294,7 +5312,7 @@ rewritten from original by Vladimír Váša
         </Part>
       <Staff id="1">
         <VBox>
-          <height>12.5</height>
+          <height>11.5</height>
           <linked>
             </linked>
           <Text>
@@ -5329,12 +5347,6 @@ rewritten from original by Vladimír Váša
           </VBox>
         <Measure>
           <voice>
-            <Clef>
-              <concertClefType>G8vb</concertClefType>
-              <transposingClefType>G8vb</transposingClefType>
-              <linked>
-                </linked>
-              </Clef>
             <KeySig>
               <linked>
                 </linked>
