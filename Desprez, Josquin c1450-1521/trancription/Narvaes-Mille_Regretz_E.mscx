@@ -42,25 +42,27 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <defaultClef>G8vb</defaultClef>
         </Staff>
-      <trackName>Vihuela</trackName>
+      <trackName>Guitar</trackName>
       <Instrument>
-        <longName>Vihuela</longName>
-        <shortName>Vih.</shortName>
-        <trackName>Loutna</trackName>
-        <minPitchP>33</minPitchP>
-        <maxPitchP>79</maxPitchP>
-        <minPitchA>33</minPitchA>
-        <maxPitchA>79</maxPitchA>
-        <instrumentId>pluck.lute</instrumentId>
+        <longName>Klasická kytara</longName>
+        <shortName>Kyt.</shortName>
+        <trackName>Klasická kytara</trackName>
+        <minPitchP>40</minPitchP>
+        <maxPitchP>83</maxPitchP>
+        <minPitchA>40</minPitchA>
+        <maxPitchA>83</maxPitchA>
+        <instrumentId>pluck.guitar.nylon-string</instrumentId>
+        <clef>G8vb</clef>
         <StringData>
-          <frets>13</frets>
-          <string>43</string>
-          <string>48</string>
-          <string>53</string>
-          <string>57</string>
-          <string>62</string>
-          <string>67</string>
+          <frets>19</frets>
+          <string>40</string>
+          <string>45</string>
+          <string>50</string>
+          <string>55</string>
+          <string>59</string>
+          <string>64</string>
           </StringData>
         <Articulation>
           <velocity>100</velocity>
@@ -103,7 +105,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="25"/>
+          <program value="24"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="mute">
+          <program value="28"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -111,21 +117,17 @@
     <Staff id="1">
       <VBox>
         <height>12.5</height>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>La cãciõ del Emperador.</text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Subtitle</style>
           <text>mille regres. del quarto Tono.
 El tercero libro del Delphin de musica. (1538)
 </text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Composer</style>
           <text>Luys de Narváez (c.1500 - c.1550)
 vihuela arrangement of Mille Regretz
@@ -136,9 +138,9 @@ rewritten from original by Vladimír Váša
           </Text>
         <Text>
           <style>Instrument Name (Part)</style>
-          <text>Modern notation for
-vihuela/guitar tunning in E:
-E-A-d-f#/g-b'-e'
+          <text>Notation for
+modern guitar
+(tunning in E)
 </text>
           </Text>
         </VBox>
@@ -192,14 +194,14 @@ E-A-d-f#/g-b'-e'
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
