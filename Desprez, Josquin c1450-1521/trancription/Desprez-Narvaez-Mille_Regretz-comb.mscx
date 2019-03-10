@@ -17,7 +17,7 @@
       <oddFooterL>$P</oddFooterL>
       <oddFooterR></oddFooterR>
       <composerAlign>right,top</composerAlign>
-      <partInstrumentFontSize>14</partInstrumentFontSize>
+      <partInstrumentFontSize>12</partInstrumentFontSize>
       <Spatium>1.6</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -25,18 +25,18 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger">rewritten from originals by Vladimír Váša</metaTag>
-    <metaTag name="composer">Luys de Narváez (c.1500 - c.1550) vihuela arrangement of Mille Regretz by Josquin des Prez (c.1450 - 1521)</metaTag>
+    <metaTag name="composer">Iosquin des Pres (c.1450 - 1521) - Tylman Susato ed. (1549) / Luys de Narbaez (c.1500 - c.1550) - vihuela arr. (1538)</metaTag>
     <metaTag name="copyright">© 2019 Italian tab is exactly transcription of the original Narvaes's work which is public domain. / Everything added that is not a public domain is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2019-03-02</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle">La cãciõ del Emperador. mille regres. del quarto Tono.</metaTag>
+    <metaTag name="movementTitle">Mille regretz - La cãciõ del Emperador</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">El tercero libro del Delphin de musica. (1538)</metaTag>
+    <metaTag name="source">des Pres - Susato - L’unziesme livre Contenant Vingt &amp; neuf Chãsons (1549) / Narbaez - El tercero libro del Delphin de musica. (1538)</metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">Libro tercero.</metaTag>
-    <metaTag name="workTitle">Los seys libros del Delphín de musíca</metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">L’unziesme livre Contenant Vingt &amp; neuf Chãsons / Los seys libros del Delphín de musíca, Libro tercero.</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -180,30 +180,32 @@
         <Text>
           <linkedMain/>
           <style>Title</style>
-          <text>La cãciõ del Emperador.</text>
+          <text>Mille regretz - La cãciõ del Emperador</text>
           </Text>
         <Text>
           <linkedMain/>
           <style>Subtitle</style>
-          <text>mille regres. del quarto Tono.
-El tercero libro del Delphin de musica. (1538)
+          <text>des Pres - Susato - L’unziesme livre des Chãsons (1549)
+Narbaez - El tercero libro del Delphin de musica. (1538)
 </text>
           </Text>
         <Text>
           <linkedMain/>
           <style>Composer</style>
-          <text>Luys de Narváez (c.1500 - c.1550)
-vihuela arrangement of Mille Regretz
-by Josquin des Prez (c.1450 - 1521)
-rewritten from originals by Vladimír Váša
+          <text>Iosquin des Pres (c.1450 - 1521)
+Tylman Susato ed. (1549)
 
+Luys de Narbaez (c.1500 - c.1550)
+vihuela arr. (1538)
 </text>
           </Text>
         <Text>
           <style>Instrument Name (Part)</style>
-          <text>Modern notation for
-vihuela tuning in G:
-G-c-f-a-d'-g'
+          <text>rewritten from originals
+by Vladimír Váša
+
+Modern notation for G size
+vihuela: G-c-f-a-d'-g'
 </text>
           </Text>
         </VBox>
@@ -747,7 +749,7 @@ G-c-f-a-d'-g'
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>middle</syllabic>
-              <text>che_a</text>
+              <text>che'<font face="ScoreText"/> <font face="FreeSerif"/>a</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -7011,8 +7013,7 @@ G-c-f-a-d'-g'
    </oddFooterC>
         <oddFooterR></oddFooterR>
         <composerAlign>right,top</composerAlign>
-        <lyricistAlign>left,top</lyricistAlign>
-        <partInstrumentFontSize>14</partInstrumentFontSize>
+        <partInstrumentFontSize>12</partInstrumentFontSize>
         <Spatium>1.6</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -7126,7 +7127,7 @@ G-c-f-a-d'-g'
                 </location>
               </linked>
             <style>Title</style>
-            <text>La cãciõ del Emperador.</text>
+            <text>Mille regretz - La cãciõ del Emperador</text>
             </Text>
           <Text>
             <linked>
@@ -7135,8 +7136,8 @@ G-c-f-a-d'-g'
                 </location>
               </linked>
             <style>Subtitle</style>
-            <text>mille regres. del quarto Tono.
-El tercero libro del Delphin de musica. (1538)
+            <text>des Pres - Susato - L’unziesme livre des Chãsons (1549)
+Narbaez - El tercero libro del Delphin de musica. (1538)
 </text>
             </Text>
           <Text>
@@ -7146,16 +7147,20 @@ El tercero libro del Delphin de musica. (1538)
                 </location>
               </linked>
             <style>Composer</style>
-            <text>Luys de Narváez (c.1500 - c.1550)
-vihuela arrangement of Mille Regretz
-by Josquin des Prez (c.1450 - 1521)
-rewritten from originals by Vladimír Váša
+            <text>Iosquin des Pres (c.1450 - 1521)
+Tylman Susato ed. (1549)
 
+Luys de Narbaez (c.1500 - c.1550)
+vihuela arr. (1538)
 </text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
-            <text>Italian tab (original)</text>
+            <text>rewritten from originals
+by Vladimír Váša
+
+Italian tab (original)
+</text>
             </Text>
           </VBox>
         <Measure>
@@ -13071,8 +13076,7 @@ rewritten from originals by Vladimír Váša
    </oddFooterC>
         <oddFooterR></oddFooterR>
         <composerAlign>right,top</composerAlign>
-        <lyricistAlign>left,top</lyricistAlign>
-        <partInstrumentFontSize>14</partInstrumentFontSize>
+        <partInstrumentFontSize>12</partInstrumentFontSize>
         <Spatium>1.6</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -13186,7 +13190,7 @@ rewritten from originals by Vladimír Váša
                 </location>
               </linked>
             <style>Title</style>
-            <text>La cãciõ del Emperador.</text>
+            <text>Mille regretz - La cãciõ del Emperador</text>
             </Text>
           <Text>
             <linked>
@@ -13195,8 +13199,8 @@ rewritten from originals by Vladimír Váša
                 </location>
               </linked>
             <style>Subtitle</style>
-            <text>mille regres. del quarto Tono.
-El tercero libro del Delphin de musica. (1538)
+            <text>des Pres - Susato - L’unziesme livre des Chãsons (1549)
+Narbaez - El tercero libro del Delphin de musica. (1538)
 </text>
             </Text>
           <Text>
@@ -13206,16 +13210,20 @@ El tercero libro del Delphin de musica. (1538)
                 </location>
               </linked>
             <style>Composer</style>
-            <text>Luys de Narváez (c.1500 - c.1550)
-vihuela arrangement of Mille Regretz
-by Josquin des Prez (c.1450 - 1521)
-rewritten from originals by Vladimír Váša
+            <text>Iosquin des Pres (c.1450 - 1521)
+Tylman Susato ed. (1549)
 
+Luys de Narbaez (c.1500 - c.1550)
+vihuela arr. (1538)
 </text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
-            <text>French tab</text>
+            <text>rewritten from originals
+by Vladimír Váša
+
+French tab
+</text>
             </Text>
           </VBox>
         <Measure>
