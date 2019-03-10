@@ -896,8 +896,11 @@ G-c-f-a-d'-g'
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           </voice>
