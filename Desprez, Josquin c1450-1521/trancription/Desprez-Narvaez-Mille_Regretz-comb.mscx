@@ -459,6 +459,15 @@ G-c-f-a-d'-g'
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -470,6 +479,13 @@ G-c-f-a-d'-g'
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -483,10 +499,6 @@ G-c-f-a-d'-g'
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -542,6 +554,15 @@ G-c-f-a-d'-g'
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -553,6 +574,13 @@ G-c-f-a-d'-g'
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -566,10 +594,6 @@ G-c-f-a-d'-g'
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -1441,15 +1465,15 @@ G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -6685,8 +6709,8 @@ rewritten from original by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -6694,8 +6718,8 @@ rewritten from original by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
@@ -12710,8 +12734,8 @@ rewritten from original by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -12719,8 +12743,8 @@ rewritten from original by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
