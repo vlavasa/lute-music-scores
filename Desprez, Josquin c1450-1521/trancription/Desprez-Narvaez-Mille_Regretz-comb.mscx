@@ -1338,8 +1338,6 @@ vihuela: G-c-f-a-d'-g'
           <location>
             <fractions>3/4</fractions>
             </location>
-          <Beam>
-            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1480,8 +1478,6 @@ vihuela: G-c-f-a-d'-g'
           <location>
             <fractions>3/4</fractions>
             </location>
-          <Beam>
-            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1697,6 +1693,11 @@ vihuela: G-c-f-a-d'-g'
               <subtype>3</subtype>
               <endText></endText>
               <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-2"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1863,15 +1864,15 @@ vihuela: G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -1903,8 +1904,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -1927,8 +1926,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -1977,8 +1974,6 @@ vihuela: G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2063,8 +2058,6 @@ vihuela: G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2551,8 +2544,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2633,8 +2624,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2657,8 +2646,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2761,8 +2748,6 @@ vihuela: G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2821,8 +2806,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3047,8 +3030,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3071,8 +3052,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3175,8 +3154,6 @@ vihuela: G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3235,8 +3212,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3462,8 +3437,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3486,8 +3459,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3590,8 +3561,6 @@ vihuela: G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3650,8 +3619,6 @@ vihuela: G-c-f-a-d'-g'
               <string>2</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3725,8 +3692,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3749,8 +3714,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3864,8 +3827,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3888,8 +3849,6 @@ vihuela: G-c-f-a-d'-g'
               <string>2</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4108,8 +4067,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4200,8 +4157,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4372,8 +4327,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4396,8 +4349,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4457,8 +4408,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4694,8 +4643,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -5265,8 +5212,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -5373,8 +5318,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -5484,8 +5427,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -5508,8 +5449,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -5778,8 +5717,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -5983,8 +5920,6 @@ vihuela: G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6007,8 +5942,6 @@ vihuela: G-c-f-a-d'-g'
               <string>4</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6222,8 +6155,6 @@ vihuela: G-c-f-a-d'-g'
               <string>2</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6297,8 +6228,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6321,8 +6250,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6543,8 +6470,6 @@ vihuela: G-c-f-a-d'-g'
               <string>2</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6618,8 +6543,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6642,8 +6565,6 @@ vihuela: G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -7219,8 +7140,8 @@ Italian tab (original)
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -7228,8 +7149,8 @@ Italian tab (original)
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
@@ -13282,8 +13203,8 @@ French tab
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -13291,8 +13212,8 @@ French tab
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
