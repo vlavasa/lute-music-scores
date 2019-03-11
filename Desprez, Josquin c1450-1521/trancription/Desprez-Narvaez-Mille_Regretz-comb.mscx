@@ -583,9 +583,6 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>whole</durationType>
@@ -593,6 +590,9 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -828,6 +828,9 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -836,9 +839,6 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -1045,9 +1045,6 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1073,6 +1070,9 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1276,9 +1276,6 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1303,6 +1300,9 @@ vihuela: G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1697,11 +1697,6 @@ vihuela: G-c-f-a-d'-g'
               <subtype>3</subtype>
               <endText></endText>
               <placement>above</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1868,15 +1863,15 @@ vihuela: G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -7224,8 +7219,8 @@ Italian tab (original)
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
@@ -7233,8 +7228,8 @@ Italian tab (original)
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             </voice>
@@ -13287,8 +13282,8 @@ French tab
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
@@ -13296,8 +13291,8 @@ French tab
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             </voice>
