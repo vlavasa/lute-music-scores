@@ -7184,7 +7184,7 @@ G-c-f-a-d'-g'
         <pageOddBottomMargin>0.0787402</pageOddBottomMargin>
         <staffUpperBorder>2</staffUpperBorder>
         <staffDistance>9.5</staffDistance>
-        <maxSystemDistance>15.3</maxSystemDistance>
+        <maxSystemDistance>15.7</maxSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <evenFooterL></evenFooterL>
         <evenFooterC>$:copyright:
@@ -15179,7 +15179,7 @@ G-c-f-a-d'-g'
                   </linked>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="0" y="3"/>
+                  <offset x="0" y="2"/>
                   <off2 x="0" y="0"/>
                   </Segment>
                 </HairPin>
@@ -15487,8 +15487,9 @@ G-c-f-a-d'-g'
         <pageEvenBottomMargin>0.0787402</pageEvenBottomMargin>
         <pageOddBottomMargin>0.0787402</pageOddBottomMargin>
         <staffUpperBorder>2</staffUpperBorder>
-        <staffDistance>9.5</staffDistance>
-        <maxSystemDistance>15.3</maxSystemDistance>
+        <staffDistance>10.2</staffDistance>
+        <minSystemDistance>8</minSystemDistance>
+        <maxSystemDistance>15.7</maxSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <evenFooterL></evenFooterL>
         <evenFooterC>$:copyright:
@@ -15936,6 +15937,9 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -16228,6 +16232,9 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -16553,6 +16560,9 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -16831,6 +16841,7 @@ G-c-f-a-d'-g'
                 <subtype>ornamentTurn</subtype>
                 <linked>
                   </linked>
+                <offset x="0" y="1"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -16878,6 +16889,9 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -17171,6 +17185,9 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -17421,6 +17438,9 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -17442,6 +17462,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -17467,6 +17488,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17503,6 +17525,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17523,6 +17546,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17544,6 +17568,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17581,6 +17606,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17617,6 +17643,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17637,6 +17664,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17658,6 +17686,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17690,6 +17719,11 @@ G-c-f-a-d'-g'
                 <placement>above</placement>
                 <linked>
                   </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="0" y="-2"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
                 </HairPin>
               <next>
                 <location>
@@ -17717,6 +17751,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17753,6 +17788,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17773,6 +17809,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -17809,6 +17846,7 @@ G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="4/2">
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="HairPin">
               <prev>
@@ -23444,6 +23482,11 @@ G-c-f-a-d'-g'
                 <continueText>(rit.)</continueText>
                 <linked>
                   </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="0" y="2"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
                 </HairPin>
               <next>
                 <location>
