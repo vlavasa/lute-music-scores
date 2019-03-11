@@ -2127,15 +2127,15 @@ vihuela: G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -7123,10 +7123,6 @@ vihuela: G-c-f-a-d'-g'
         </Measure>
       <Measure len="4/2">
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            <linkedMain/>
-            </Fermata>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -7180,10 +7176,25 @@ vihuela: G-c-f-a-d'-g'
         <pageWidth>11.6902</pageWidth>
         <pageHeight>8.27008</pageHeight>
         <pagePrintableWidth>10.9028</pagePrintableWidth>
+        <pageEvenBottomMargin>0.0787402</pageEvenBottomMargin>
+        <pageOddBottomMargin>0.0787402</pageOddBottomMargin>
+        <staffUpperBorder>2</staffUpperBorder>
+        <staffDistance>9.5</staffDistance>
+        <maxSystemDistance>15.3</maxSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <evenFooterL></evenFooterL>
-        <evenFooterR>$P</evenFooterR>
-        <oddFooterL>$P</oddFooterL>
+        <evenFooterC>$:copyright:
+   
+   </evenFooterC>
+        <evenFooterR>$P
+   
+   </evenFooterR>
+        <oddFooterL>$P
+   
+   </oddFooterL>
+        <oddFooterC>$:copyright:
+   
+   </oddFooterC>
         <oddFooterR></oddFooterR>
         <composerAlign>right,top</composerAlign>
         <partInstrumentFontSize>12</partInstrumentFontSize>
@@ -8521,6 +8532,7 @@ vihuela: G-c-f-a-d'-g'
                 <subtype>ornamentTurn</subtype>
                 <linked>
                   </linked>
+                <offset x="0" y="1"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -8912,6 +8924,8 @@ vihuela: G-c-f-a-d'-g'
             <location>
               <fractions>3/4</fractions>
               </location>
+            <Beam>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -9086,6 +9100,8 @@ vihuela: G-c-f-a-d'-g'
             <location>
               <fractions>3/4</fractions>
               </location>
+            <Beam>
+              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -9615,8 +9631,8 @@ vihuela: G-c-f-a-d'-g'
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
@@ -9624,8 +9640,8 @@ vihuela: G-c-f-a-d'-g'
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             </voice>
@@ -15153,6 +15169,11 @@ vihuela: G-c-f-a-d'-g'
                 <endText></endText>
                 <linked>
                   </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="0" y="3"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
                 </HairPin>
               <next>
                 <location>
@@ -15395,11 +15416,6 @@ vihuela: G-c-f-a-d'-g'
           </Measure>
         <Measure len="4/2">
           <voice>
-            <Fermata>
-              <subtype>fermataAbove</subtype>
-              <linked>
-                </linked>
-              </Fermata>
             <Spanner type="HairPin">
               <prev>
                 <location>
@@ -15687,8 +15703,8 @@ French tab
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               <Note>
                 <linked>
@@ -15696,8 +15712,8 @@ French tab
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             </voice>
@@ -21489,11 +21505,6 @@ French tab
           </Measure>
         <Measure len="4/2">
           <voice>
-            <Fermata>
-              <subtype>fermataAbove</subtype>
-              <linked>
-                </linked>
-              </Fermata>
             <Spanner type="HairPin">
               <prev>
                 <location>
