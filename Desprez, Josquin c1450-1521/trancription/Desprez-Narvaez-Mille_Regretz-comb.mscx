@@ -7617,6 +7617,9 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -7909,6 +7912,9 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8234,6 +8240,9 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Rest>
               <linked>
@@ -8559,6 +8568,9 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8852,6 +8864,9 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8897,8 +8912,6 @@ vihuela: G-c-f-a-d'-g'
             <location>
               <fractions>3/4</fractions>
               </location>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -9073,8 +9086,6 @@ vihuela: G-c-f-a-d'-g'
             <location>
               <fractions>3/4</fractions>
               </location>
-            <Beam>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -9102,6 +9113,9 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -9123,6 +9137,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Rest>
               <linked>
@@ -9148,6 +9163,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9184,6 +9200,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9204,6 +9221,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9225,6 +9243,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9262,6 +9281,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9298,6 +9318,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9318,6 +9339,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9339,6 +9361,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9369,6 +9392,11 @@ vihuela: G-c-f-a-d'-g'
                 <placement>above</placement>
                 <linked>
                   </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="0" y="-2"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
                 </HairPin>
               <next>
                 <location>
@@ -9396,6 +9424,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9432,6 +9461,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9452,6 +9482,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Chord>
               <linked>
@@ -9488,6 +9519,7 @@ vihuela: G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="4/2">
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="HairPin">
               <prev>
