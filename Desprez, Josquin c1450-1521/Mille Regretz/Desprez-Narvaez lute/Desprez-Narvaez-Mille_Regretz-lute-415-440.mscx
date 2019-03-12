@@ -184,21 +184,17 @@
     <Staff id="1">
       <VBox>
         <height>12.5</height>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Mille regretz - La cãciõ del Emperador</text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Subtitle</style>
           <text>des Pres - Susato - L’unziesme livre des Chãsons (1549)
 Narbaez - El tercero libro del Delphin de musica. (1538)
 </text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Composer</style>
           <text>Iosquin des Pres (c.1450 - 1521)
 Tylman Susato ed. (1549)
@@ -208,7 +204,6 @@ vihuela arr. (1538)
 </text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Instrument Name (Part)</style>
           <text>for 10 c. lute arr.
 Vladimír Váša
@@ -237,7 +232,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -311,7 +305,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -524,7 +517,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -586,10 +578,10 @@ C-D-E-F-G-c-f-a-d'-g'
               </Lyrics>
             <Note>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>72</pitch>
-              <tpc>14</tpc>
+              <tpc>26</tpc>
               </Note>
             </Chord>
           </voice>
@@ -644,7 +636,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -809,7 +800,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -871,7 +861,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -970,7 +959,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1072,7 +1060,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1210,7 +1197,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1294,7 +1280,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1430,7 +1415,6 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1852,14 +1836,14 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <fret>8</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>3</string>
               </Note>
             <Note>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>8</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -2248,6 +2232,10 @@ C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>48</pitch>
               <tpc>26</tpc>
               <fret>0</fret>
@@ -2757,10 +2745,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>60</pitch>
-              <tpc>14</tpc>
+              <tpc>26</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
@@ -4192,6 +4180,10 @@ C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>26</tpc>
               <fret>3</fret>
@@ -4379,10 +4371,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>48</pitch>
-              <tpc>14</tpc>
+              <tpc>26</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
@@ -4390,9 +4382,6 @@ C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>49</pitch>
               <tpc>21</tpc>
               <fret>1</fret>
@@ -4403,10 +4392,11 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>48</pitch>
-              <tpc>14</tpc>
+              <tpc>26</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
@@ -5090,10 +5080,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>48</pitch>
-              <tpc>14</tpc>
+              <tpc>26</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
@@ -5101,9 +5091,6 @@ C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>49</pitch>
               <tpc>21</tpc>
               <fret>1</fret>
@@ -5114,6 +5101,7 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
+                <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>48</pitch>

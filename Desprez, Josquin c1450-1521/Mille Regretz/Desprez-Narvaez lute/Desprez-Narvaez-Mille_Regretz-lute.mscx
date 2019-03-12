@@ -2148,15 +2148,15 @@ C-D-E-F-G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -2619,6 +2619,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>49</pitch>
               <tpc>21</tpc>
               <fret>1</fret>
@@ -4922,6 +4926,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
               <fret>4</fret>
@@ -5167,6 +5175,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>49</pitch>
               <tpc>21</tpc>
               <fret>1</fret>
@@ -6001,6 +6013,10 @@ C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>49</pitch>
               <tpc>21</tpc>
               <fret>1</fret>
@@ -9710,8 +9726,8 @@ C-D-E-F-G-c-f-a-d'-g'
                   </linked>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
-                <fret>0</fret>
-                <string>2</string>
+                <fret>4</fret>
+                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -9719,8 +9735,8 @@ C-D-E-F-G-c-f-a-d'-g'
                   </linked>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
-                <fret>4</fret>
-                <string>3</string>
+                <fret>0</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             </voice>
@@ -10256,7 +10272,8 @@ C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <Accidental>
-                  <subtype>accidentalFlat</subtype>
+                  <role>1</role>
+                  <subtype>accidentalSharp</subtype>
                   </Accidental>
                 <pitch>49</pitch>
                 <tpc>21</tpc>
@@ -12880,7 +12897,8 @@ C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <Accidental>
-                  <subtype>accidentalFlat</subtype>
+                  <role>1</role>
+                  <subtype>accidentalSharp</subtype>
                   </Accidental>
                 <pitch>61</pitch>
                 <tpc>21</tpc>
@@ -13167,7 +13185,8 @@ C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <Accidental>
-                  <subtype>accidentalFlat</subtype>
+                  <role>1</role>
+                  <subtype>accidentalSharp</subtype>
                   </Accidental>
                 <pitch>49</pitch>
                 <tpc>21</tpc>
@@ -14128,7 +14147,8 @@ C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <Accidental>
-                  <subtype>accidentalFlat</subtype>
+                  <role>1</role>
+                  <subtype>accidentalSharp</subtype>
                   </Accidental>
                 <pitch>49</pitch>
                 <tpc>21</tpc>
