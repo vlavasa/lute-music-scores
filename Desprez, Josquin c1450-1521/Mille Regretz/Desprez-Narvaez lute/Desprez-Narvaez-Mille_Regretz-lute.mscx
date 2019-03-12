@@ -48,15 +48,15 @@
           </StaffType>
         <bracket type="0" span="2" col="0"/>
         </Staff>
-      <trackName>Voce</trackName>
+      <trackName>Soprano</trackName>
       <Instrument>
-        <longName>Voce</longName>
-        <trackName>Hlas</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>94</maxPitchP>
-        <minPitchA>40</minPitchA>
+        <longName>Soprano</longName>
+        <trackName>Soprán</trackName>
+        <minPitchP>60</minPitchP>
+        <maxPitchP>84</maxPitchP>
+        <minPitchA>60</minPitchA>
         <maxPitchA>79</maxPitchA>
-        <instrumentId>voice.vocals</instrumentId>
+        <instrumentId>voice.soprano</instrumentId>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -111,17 +111,21 @@
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>Vihuela</trackName>
+      <trackName>Liuto</trackName>
       <Instrument>
-        <longName>Vihuela</longName>
-        <trackName>Loutna</trackName>
-        <minPitchP>33</minPitchP>
+        <longName>Liuto</longName>
+        <trackName>Desítistrunná loutna</trackName>
+        <minPitchP>36</minPitchP>
         <maxPitchP>79</maxPitchP>
-        <minPitchA>33</minPitchA>
+        <minPitchA>36</minPitchA>
         <maxPitchA>79</maxPitchA>
         <instrumentId>pluck.lute</instrumentId>
         <StringData>
           <frets>13</frets>
+          <string open="1">36</string>
+          <string open="1">38</string>
+          <string>40</string>
+          <string>41</string>
           <string>43</string>
           <string>48</string>
           <string>53</string>
@@ -7322,15 +7326,15 @@ C-D-E-F-G-c-f-a-d'-g'
             </StaffType>
           <bracket type="0" span="2" col="0"/>
           </Staff>
-        <trackName>Voce</trackName>
+        <trackName>Soprano</trackName>
         <Instrument>
-          <longName>Voce</longName>
-          <trackName>Hlas</trackName>
-          <minPitchP>36</minPitchP>
-          <maxPitchP>94</maxPitchP>
-          <minPitchA>40</minPitchA>
+          <longName>Soprano</longName>
+          <trackName>Soprán</trackName>
+          <minPitchP>60</minPitchP>
+          <maxPitchP>84</maxPitchP>
+          <minPitchA>60</minPitchA>
           <maxPitchA>79</maxPitchA>
-          <instrumentId>voice.vocals</instrumentId>
+          <instrumentId>voice.soprano</instrumentId>
           <Articulation>
             <velocity>100</velocity>
             <gateTime>100</gateTime>
@@ -7403,17 +7407,21 @@ C-D-E-F-G-c-f-a-d'-g'
             <useNumbers>0</useNumbers>
             </StaffType>
           </Staff>
-        <trackName>Vihuela</trackName>
+        <trackName>Liuto</trackName>
         <Instrument>
-          <longName>Vihuela</longName>
-          <trackName>Loutna</trackName>
-          <minPitchP>33</minPitchP>
+          <longName>Liuto</longName>
+          <trackName>Desítistrunná loutna</trackName>
+          <minPitchP>36</minPitchP>
           <maxPitchP>79</maxPitchP>
-          <minPitchA>33</minPitchA>
+          <minPitchA>36</minPitchA>
           <maxPitchA>79</maxPitchA>
           <instrumentId>pluck.lute</instrumentId>
           <StringData>
             <frets>13</frets>
+            <string open="1">36</string>
+            <string open="1">38</string>
+            <string>40</string>
+            <string>41</string>
             <string>43</string>
             <string>48</string>
             <string>53</string>
