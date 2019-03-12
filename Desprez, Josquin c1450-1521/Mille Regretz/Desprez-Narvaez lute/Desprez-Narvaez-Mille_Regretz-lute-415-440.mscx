@@ -1677,6 +1677,12 @@ C-D-E-F-G-c-f-a-d'-g'
               <subtype>3</subtype>
               <endText></endText>
               <beginText>rit.</beginText>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-2"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1836,14 +1842,14 @@ C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>8</fret>
+              <string>4</string>
               </Note>
             <Note>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <fret>8</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
