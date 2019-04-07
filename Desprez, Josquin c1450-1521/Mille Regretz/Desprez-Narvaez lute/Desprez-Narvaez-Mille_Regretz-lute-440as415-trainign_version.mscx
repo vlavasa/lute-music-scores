@@ -2569,6 +2569,10 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>23</tpc>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>26</tpc>
               </Note>
@@ -3187,25 +3191,25 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>17</tpc>
               </Note>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             <Note>
-              <pitch>54</pitch>
+              <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>56</pitch>
+              <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>54</pitch>
+              <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -3225,6 +3229,18 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               </Note>
             <Note>
               <pitch>56</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              </Note>
+            <Note>
+              <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
@@ -3674,11 +3690,11 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>22</tpc>
               </Note>
             <Note>
-              <pitch>47</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
             <Note>
-              <pitch>52</pitch>
+              <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -3693,14 +3709,18 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>51</pitch>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <pitch>63</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -3711,11 +3731,11 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>18</tpc>
               </Note>
             <Note>
-              <pitch>44</pitch>
+              <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -3730,7 +3750,7 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>23</tpc>
               </Note>
             <Note>
-              <pitch>42</pitch>
+              <pitch>54</pitch>
               <tpc>20</tpc>
               </Note>
             </Chord>
@@ -3740,21 +3760,25 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>48</pitch>
+              <pitch>60</pitch>
               <tpc>26</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>48</pitch>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>60</pitch>
               <tpc>26</tpc>
               </Note>
             </Chord>
@@ -3769,11 +3793,11 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>21</tpc>
               </Note>
             <Note>
-              <pitch>44</pitch>
+              <pitch>56</pitch>
               <tpc>22</tpc>
               </Note>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -4185,10 +4209,6 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>37</pitch>
-              <tpc>21</tpc>
-              </Note>
-            <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -4204,18 +4224,22 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>22</tpc>
               </Note>
             <Note>
-              <pitch>51</pitch>
+              <pitch>63</pitch>
               <tpc>23</tpc>
               </Note>
             <Note>
-              <pitch>56</pitch>
+              <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>52</pitch>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            <Note>
+              <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
@@ -4233,7 +4257,7 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>51</pitch>
+              <pitch>63</pitch>
               <tpc>23</tpc>
               </Note>
             </Chord>
@@ -4244,7 +4268,7 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>20</tpc>
               </Note>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -4269,14 +4293,14 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>48</pitch>
+              <pitch>60</pitch>
               <tpc>26</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
@@ -4287,7 +4311,7 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>48</pitch>
+              <pitch>60</pitch>
               <tpc>26</tpc>
               </Note>
             </Chord>
@@ -4302,7 +4326,7 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <tpc>21</tpc>
               </Note>
             <Note>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
             <Note>
@@ -4904,7 +4928,7 @@ C#minor/a~440 &lt;-&gt; Dminor/a~415
               <beginText>rit.</beginText>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="7"/>
+                <offset x="0" y="6"/>
                 <off2 x="0" y="0"/>
                 <autoplace>0</autoplace>
                 </Segment>
