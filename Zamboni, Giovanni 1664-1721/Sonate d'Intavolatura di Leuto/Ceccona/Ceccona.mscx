@@ -12,7 +12,9 @@
       <pageWidth>11.6902</pageWidth>
       <pageHeight>8.27008</pageHeight>
       <pagePrintableWidth>10.9028</pagePrintableWidth>
-      <frameSystemDistance>15.3</frameSystemDistance>
+      <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
+      <pageOddBottomMargin>0.393701</pageOddBottomMargin>
+      <frameSystemDistance>16.1</frameSystemDistance>
       <evenFooterL></evenFooterL>
       <evenFooterR>$P</evenFooterR>
       <oddFooterL>$P</oddFooterL>
@@ -932,6 +934,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-9.3"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1472,6 +1478,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1595,6 +1602,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1718,6 +1726,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1757,6 +1766,7 @@ by Vladimír Váša
       <Measure>
         <voice>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1832,6 +1842,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1963,6 +1974,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -2535,6 +2547,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -3161,6 +3174,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-0.1"/>
+                  <o4 x="0.2" y="-0.2"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -3288,6 +3305,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-4.4"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -5785,6 +5806,7 @@ by Vladimír Váša
             </Chord>
           <endTuplet/>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -8234,6 +8256,9 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-5"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -8398,6 +8423,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-4.4"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -9835,6 +9864,7 @@ by Vladimír Váša
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -9890,6 +9920,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-5.5"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10031,6 +10065,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-6.5"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -10172,6 +10210,10 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="-0.0126163" y="-5.32161"/>
+                  <autoplace>0</autoplace>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -13333,6 +13375,7 @@ by Vladimír Váša
               </Number>
             </Tuplet>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
