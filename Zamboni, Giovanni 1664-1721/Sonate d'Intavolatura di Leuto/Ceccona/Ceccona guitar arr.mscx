@@ -4614,8 +4614,8 @@ for guitar arr. Vladimír Váša
               <pitch>50</pitch>
               <tpc>16</tpc>
               <velocity>68</velocity>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -14522,7 +14522,11 @@ for guitar arr. Vladimír Váša
         <pageWidth>11.6902</pageWidth>
         <pageHeight>8.27008</pageHeight>
         <pagePrintableWidth>10.9028</pagePrintableWidth>
-        <frameSystemDistance>16</frameSystemDistance>
+        <pageEvenTopMargin>0.19685</pageEvenTopMargin>
+        <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
+        <pageOddBottomMargin>0.393701</pageOddBottomMargin>
+        <staffLowerBorder>10</staffLowerBorder>
+        <frameSystemDistance>13</frameSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <evenFooterL></evenFooterL>
         <evenFooterR>$P</evenFooterR>
@@ -14550,7 +14554,7 @@ for guitar arr. Vladimír Váša
             <durationFontSize>15</durationFontSize>
             <durationFontY>0</durationFontY>
             <fretFontName>MuseScore Tab Serif</fretFontName>
-            <fretFontSize>9</fretFontSize>
+            <fretFontSize>9.5</fretFontSize>
             <fretFontY>0</fretFontY>
             <linesThrough>0</linesThrough>
             <minimStyle>1</minimStyle>
@@ -15906,6 +15910,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -17441,6 +17448,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -18985,6 +18995,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -19655,8 +19668,8 @@ for guitar arr. Vladimír Váša
                 <pitch>50</pitch>
                 <tpc>16</tpc>
                 <velocity>68</velocity>
-                <fret>0</fret>
-                <string>3</string>
+                <fret>5</fret>
+                <string>4</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -20442,6 +20455,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -21570,6 +21586,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -24106,6 +24125,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -25955,6 +25977,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -26115,6 +26140,7 @@ for guitar arr. Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="Volta">
               <prev>
@@ -26246,6 +26272,7 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <startRepeat/>
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="Volta">
               <prev>
@@ -26403,6 +26430,7 @@ for guitar arr. Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Beam>
               </Beam>
@@ -26623,6 +26651,7 @@ for guitar arr. Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Beam>
               </Beam>
@@ -26775,6 +26804,7 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -26903,6 +26933,7 @@ for guitar arr. Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="Volta">
               <prev>
@@ -27103,6 +27134,7 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <startRepeat/>
+          <stretch>0.9</stretch>
           <voice>
             <Spanner type="Volta">
               <prev>
@@ -27305,6 +27337,7 @@ for guitar arr. Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Tuplet>
               <linked>
@@ -27540,6 +27573,7 @@ for guitar arr. Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <stretch>0.9</stretch>
           <voice>
             <Tuplet>
               <linked>
@@ -27744,6 +27778,10 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <stretch>0.9</stretch>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -28738,6 +28776,9 @@ for guitar arr. Vladimír Váša
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Spanner type="Volta">
               <Volta>
