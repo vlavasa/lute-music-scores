@@ -43,6 +43,8 @@
       <evenFooterR>$P</evenFooterR>
       <oddFooterL>$P</oddFooterL>
       <oddFooterR></oddFooterR>
+      <composerAlign>right,top</composerAlign>
+      <lyricistAlign>left,top</lyricistAlign>
       <Spatium>1.764</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -51,8 +53,7 @@
     <showMargins>0</showMargins>
     <metaTag name="arranger">Vladimír Váša</metaTag>
     <metaTag name="composer">Johann Sebastian Bach (1685 - 1750)</metaTag>
-    <metaTag name="copyright">© 2019 Rewritten just from Johann Peter Kellner's manuscript (ca.1727) which is public domain.
-Everything added that is not a public domain is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
+    <metaTag name="copyright">© 2019 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2019-01-22</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -148,8 +149,16 @@ di Johann Sebastian Bach
           <text>rewritten from
 Johann Peter Kellner's
 manuscript (ca.1727)
-by Vladimír Váša
+</text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Lyricist</style>
+          <text>for 10c. lute arr.
+Vladimír Váša
 
+Lute tuning:
+C-D-Eb-F#-G-c-f-a-d'-g'
 </text>
           </Text>
         </VBox>
@@ -7296,6 +7305,8 @@ by Vladimír Váša
         <evenFooterR>$P</evenFooterR>
         <oddFooterL>$P</oddFooterL>
         <oddFooterR></oddFooterR>
+        <composerAlign>right,top</composerAlign>
+        <lyricistAlign>left,top</lyricistAlign>
         <Spatium>1.764</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -7410,13 +7421,18 @@ di Johann Sebastian Bach
             <text>rewritten from
 Johann Peter Kellner's
 manuscript (ca.1727)
-by Vladimír Váša
-
 </text>
             </Text>
           <Text>
-            <style>Instrument Name (Part)</style>
-            <text>tab</text>
+            <linked>
+              </linked>
+            <style>Lyricist</style>
+            <text>for 10c. lute arr.
+Vladimír Váša
+
+Lute tuning:
+C-D-Eb-F#-G-c-f-a-d'-g'
+</text>
             </Text>
           </VBox>
         <Measure>
