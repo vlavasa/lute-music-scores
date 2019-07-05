@@ -106,6 +106,31 @@
         <val id="8">0.5</val>
         <val id="9">0.33</val>
         </Zita1>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
@@ -228,6 +253,13 @@
         </VBox>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <linkedMain/>
+          <subtype>section</subtype>
+          </LayoutBreak>
         <voice>
           <Clef>
             <concertClefType>G8vb</concertClefType>
@@ -250,6 +282,10 @@
       <Measure len="1/8">
         <startRepeat/>
         <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <SystemText>
             <linkedMain/>
             <style>Tempo</style>
@@ -6466,7 +6502,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="5/8">
         <voice>
           <Chord>
             <linkedMain/>
@@ -6517,6 +6553,20 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <Marker>
+          <linkedMain/>
+          <style>Repeat Text Left</style>
+          <text><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
+        <voice>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -6524,10 +6574,8 @@
               <linkedMain/>
               <pitch>50</pitch>
               <tpc>16</tpc>
-              <velocity>68</velocity>
               <fret>2</fret>
               <string>4</string>
-              <veloType>user</veloType>
               </Note>
             </Chord>
           </voice>
@@ -6590,6 +6638,13 @@
         </Measure>
       <Measure len="5/8">
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <linkedMain/>
+          <subtype>section</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -6742,11 +6797,411 @@
             </Chord>
           </voice>
         </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       </Staff>
     <Score>
       <LayerTag id="0" tag="default"></LayerTag>
       <currentLayer>0</currentLayer>
       <Synthesizer>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         <master>
           <val id="0">Zita1</val>
           <val id="1">NoEffect</val>
@@ -7105,6 +7560,14 @@
           </VBox>
         <Measure>
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>page</subtype>
+            </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <KeySig>
               <accidental>1</accidental>
@@ -7128,6 +7591,7 @@
               <linked>
                 </linked>
               <style>Tempo</style>
+              <offset x="0" y="-4"/>
               <text>Giga</text>
               </SystemText>
             <Chord>
@@ -14155,7 +14619,7 @@
               </Chord>
             </voice>
           </Measure>
-        <Measure>
+        <Measure len="5/8">
           <voice>
             <Chord>
               <linked>
@@ -14213,6 +14677,22 @@
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <BarLine>
+              <subtype>dashed</subtype>
+              <linked>
+                </linked>
+              </BarLine>
+            </voice>
+          </Measure>
+        <Measure len="1/8">
+          <Marker>
+            <linked>
+              </linked>
+            <style>Repeat Text Left</style>
+            <text><sym>segno</sym></text>
+            <label>segno</label>
+            </Marker>
+          <voice>
             <Chord>
               <linked>
                 </linked>
@@ -14222,10 +14702,8 @@
                   </linked>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
-                <velocity>68</velocity>
                 <fret>2</fret>
                 <string>4</string>
-                <veloType>user</veloType>
                 </Note>
               </Chord>
             </voice>
@@ -14296,6 +14774,11 @@
           </Measure>
         <Measure len="5/8">
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <linked>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -14462,6 +14945,325 @@
               </Chord>
             </voice>
           </Measure>
+        <Measure>
+          <voice>
+            <TimeSig>
+              <linked>
+                </linked>
+              <sigN>3</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure len="90/4">
+          <multiMeasureRest>30</multiMeasureRest>
+          <voice>
+            <TimeSig>
+              <sigN>3</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
+            <Rest>
+              <durationType>measure</durationType>
+              <duration>90/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
         </Staff>
       <name>Italian tab</name>
       </Score>
@@ -14469,6 +15271,131 @@
       <LayerTag id="0" tag="default"></LayerTag>
       <currentLayer>0</currentLayer>
       <Synthesizer>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         <master>
           <val id="0">Zita1</val>
           <val id="1">NoEffect</val>
@@ -14830,6 +15757,11 @@
           <LayoutBreak>
             <subtype>page</subtype>
             </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <KeySig>
               <accidental>1</accidental>
@@ -14849,6 +15781,10 @@
         <Measure len="1/8">
           <startRepeat/>
           <voice>
+            <TimeSig>
+              <sigN>6</sigN>
+              <sigD>8</sigD>
+              </TimeSig>
             <SystemText>
               <linked>
                 </linked>
@@ -21915,7 +22851,7 @@
               </Chord>
             </voice>
           </Measure>
-        <Measure>
+        <Measure len="5/8">
           <voice>
             <Chord>
               <linked>
@@ -21973,6 +22909,22 @@
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <BarLine>
+              <subtype>dashed</subtype>
+              <linked>
+                </linked>
+              </BarLine>
+            </voice>
+          </Measure>
+        <Measure len="1/8">
+          <Marker>
+            <linked>
+              </linked>
+            <style>Repeat Text Left</style>
+            <text><sym>segno</sym></text>
+            <label>segno</label>
+            </Marker>
+          <voice>
             <Chord>
               <linked>
                 </linked>
@@ -21982,10 +22934,8 @@
                   </linked>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
-                <velocity>68</velocity>
                 <fret>2</fret>
                 <string>4</string>
-                <veloType>user</veloType>
                 </Note>
               </Chord>
             </voice>
@@ -22056,6 +23006,14 @@
           </Measure>
         <Measure len="5/8">
           <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>page</subtype>
+            </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -22221,6 +23179,325 @@
                 <veloType>user</veloType>
                 </Note>
               </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <TimeSig>
+              <linked>
+                </linked>
+              <sigN>3</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure len="90/4">
+          <multiMeasureRest>30</multiMeasureRest>
+          <voice>
+            <TimeSig>
+              <sigN>3</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
+            <Rest>
+              <durationType>measure</durationType>
+              <duration>90/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>measure</durationType>
+              <duration>3/4</duration>
+              </Rest>
             </voice>
           </Measure>
         </Staff>
