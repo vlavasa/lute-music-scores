@@ -206,6 +206,31 @@
         <val id="8">0.5</val>
         <val id="9">0.33</val>
         </Zita1>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
@@ -2782,6 +2807,12 @@ by Vladimír Váša
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>9.09437e-15</y1>
+              <y2>-1</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -3499,10 +3530,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>46</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>3</fret>
               <string>5</string>
@@ -3574,9 +3605,6 @@ by Vladimír Váša
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>47</pitch>
               <tpc>19</tpc>
               <velocity>68</velocity>
@@ -3599,6 +3627,9 @@ by Vladimír Váša
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <velocity>69</velocity>
@@ -3785,10 +3816,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
               <string>2</string>
@@ -3822,9 +3853,6 @@ by Vladimír Váša
               </Note>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>70</velocity>
@@ -3920,10 +3948,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>70</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>71</velocity>
               <fret>3</fret>
               <string>0</string>
@@ -3935,9 +3963,6 @@ by Vladimír Váša
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <velocity>70</velocity>
@@ -4027,10 +4052,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>46</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>3</fret>
               <string>5</string>
@@ -4119,9 +4144,6 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>47</pitch>
               <tpc>19</tpc>
               <velocity>68</velocity>
@@ -4154,10 +4176,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>70</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>70</velocity>
               <fret>3</fret>
               <string>0</string>
@@ -4169,9 +4191,6 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <velocity>73</velocity>
@@ -4231,6 +4250,12 @@ by Vladimír Váša
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>1</y1>
+              <y2>1.421e-16</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4250,10 +4275,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>5</fret>
               <string>3</string>
@@ -4285,7 +4310,7 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>70</velocity>
               <fret>5</fret>
               <string>3</string>
@@ -4304,9 +4329,6 @@ by Vladimír Váša
               </Spanner>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>71</velocity>
@@ -5049,17 +5071,17 @@ by Vladimír Váša
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <velocity>70</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>70</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -11943,6 +11965,10 @@ by Vladimír Váša
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.3"/>
+                    </TieSegment>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -11962,6 +11988,9 @@ by Vladimír Váša
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.3"/>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -12622,6 +12651,9 @@ by Vladimír Váša
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -13304,6 +13336,9 @@ by Vladimír Váša
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -14460,6 +14495,9 @@ by Vladimír Váša
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -14730,9 +14768,6 @@ by Vladimír Váša
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -14939,6 +14974,9 @@ by Vladimír Váša
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -22887,10 +22925,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>1</fret>
               <string>2</string>
@@ -22902,9 +22940,6 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>70</velocity>
@@ -22932,10 +22967,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>46</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>3</fret>
               <string>5</string>
@@ -23085,10 +23120,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>1</fret>
               <string>2</string>
@@ -23196,10 +23231,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>70</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>70</velocity>
               <fret>3</fret>
               <string>0</string>
@@ -23807,10 +23842,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>70</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>70</velocity>
               <fret>3</fret>
               <string>0</string>
@@ -24341,10 +24376,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>70</velocity>
               <fret>5</fret>
               <string>3</string>
@@ -24378,9 +24413,6 @@ by Vladimír Váša
               </Note>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>70</velocity>
@@ -24394,11 +24426,8 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>5</fret>
               <string>3</string>
@@ -24410,9 +24439,6 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>70</velocity>
@@ -24486,10 +24512,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>68</velocity>
               <fret>5</fret>
               <string>3</string>
@@ -26029,10 +26055,10 @@ by Vladimír Váša
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>70</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <velocity>71</velocity>
               <fret>3</fret>
               <string>0</string>
@@ -26770,6 +26796,231 @@ by Vladimír Váša
       <LayerTag id="0" tag="default"></LayerTag>
       <currentLayer>0</currentLayer>
       <Synthesizer>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         <master>
           <val id="0">Zita1</val>
           <val id="1">NoEffect</val>
@@ -31389,7 +31640,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>46</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>3</fret>
                 <string>5</string>
@@ -31712,7 +31963,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
                 <string>2</string>
@@ -31864,7 +32115,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>71</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -31985,7 +32236,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>46</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>3</fret>
                 <string>5</string>
@@ -32128,7 +32379,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -32236,7 +32487,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -32273,7 +32524,7 @@ by Vladimír Váša
                 <linked>
                   </linked>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -33147,10 +33398,8 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>70</velocity>
-                <fret>0</fret>
-                <string>1</string>
-                <veloType>user</veloType>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -33158,8 +33407,10 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <velocity>70</velocity>
+                <fret>0</fret>
+                <string>1</string>
+                <veloType>user</veloType>
                 </Note>
               </Chord>
             <Chord>
@@ -42085,6 +42336,9 @@ by Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -42209,9 +42463,6 @@ by Vladimír Váša
             </voice>
           </Measure>
         <Measure>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -53408,7 +53659,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>1</fret>
                 <string>2</string>
@@ -53459,7 +53710,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>46</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>3</fret>
                 <string>5</string>
@@ -53634,7 +53885,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>1</fret>
                 <string>2</string>
@@ -53761,7 +54012,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -54452,7 +54703,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -55049,7 +55300,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -55110,7 +55361,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -55213,7 +55464,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -56973,7 +57224,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>71</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -57801,6 +58052,231 @@ by Vladimír Váša
       <LayerTag id="0" tag="default"></LayerTag>
       <currentLayer>0</currentLayer>
       <Synthesizer>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         <master>
           <val id="0">Zita1</val>
           <val id="1">NoEffect</val>
@@ -62379,7 +62855,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>46</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>3</fret>
                 <string>5</string>
@@ -62702,7 +63178,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
                 <string>2</string>
@@ -62854,7 +63330,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>71</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -62974,7 +63450,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>46</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>3</fret>
                 <string>5</string>
@@ -63116,7 +63592,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -63224,7 +63700,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -63260,7 +63736,7 @@ by Vladimír Váša
                 <linked>
                   </linked>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -64122,10 +64598,8 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>70</velocity>
-                <fret>0</fret>
-                <string>1</string>
-                <veloType>user</veloType>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -64133,8 +64607,10 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <velocity>70</velocity>
+                <fret>0</fret>
+                <string>1</string>
+                <veloType>user</veloType>
                 </Note>
               </Chord>
             <Chord>
@@ -73066,6 +73542,9 @@ by Vladimír Váša
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -73190,9 +73669,6 @@ by Vladimír Váša
             </voice>
           </Measure>
         <Measure>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -84389,7 +84865,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>1</fret>
                 <string>2</string>
@@ -84440,7 +84916,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>46</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>3</fret>
                 <string>5</string>
@@ -84615,7 +85091,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>1</fret>
                 <string>2</string>
@@ -84742,7 +85218,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -85430,7 +85906,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
                 <string>0</string>
@@ -86027,7 +86503,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>70</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -86088,7 +86564,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -86191,7 +86667,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>58</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>68</velocity>
                 <fret>5</fret>
                 <string>3</string>
@@ -87948,7 +88424,7 @@ by Vladimír Váša
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
                 <pitch>70</pitch>
-                <tpc>12</tpc>
+                <tpc>24</tpc>
                 <velocity>71</velocity>
                 <fret>3</fret>
                 <string>0</string>
