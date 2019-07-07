@@ -262,6 +262,8 @@
       <pageWidth>11.6929</pageWidth>
       <pageHeight>8.26772</pageHeight>
       <pagePrintableWidth>10.9055</pagePrintableWidth>
+      <staffDistance>7</staffDistance>
+      <akkoladeDistance>7</akkoladeDistance>
       <Spatium>1.764</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -411,6 +413,7 @@ by Vladimír Váša
           <SystemText>
             <linkedMain/>
             <style>Tempo</style>
+            <offset x="0" y="-4"/>
             <text>Alem:</text>
             </SystemText>
           <Chord>
@@ -5579,6 +5582,7 @@ by Vladimír Váša
           <SystemText>
             <linkedMain/>
             <style>Tempo</style>
+            <offset x="0" y="-4"/>
             <text>Giga</text>
             </SystemText>
           <Chord>
@@ -12133,6 +12137,7 @@ by Vladimír Váša
           <SystemText>
             <linkedMain/>
             <style>Tempo</style>
+            <offset x="0" y="-4"/>
             <text>Sarabanda Andante</text>
             </SystemText>
           <Chord>
@@ -15795,6 +15800,7 @@ by Vladimír Váša
           <SystemText>
             <linkedMain/>
             <style>Tempo</style>
+            <minDistance>0.478155</minDistance>
             <offset x="0" y="-4"/>
             <text>Fuga
 </text>
@@ -28178,6 +28184,8 @@ by Vladimír Váša
         <pageWidth>11.6902</pageWidth>
         <pageHeight>8.27008</pageHeight>
         <pagePrintableWidth>10.9028</pagePrintableWidth>
+        <staffDistance>7</staffDistance>
+        <akkoladeDistance>7</akkoladeDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.764</Spatium>
         </Style>
@@ -28339,7 +28347,7 @@ by Vladimír Váša
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Alem:</text>
               </SystemText>
             <Chord>
@@ -34223,7 +34231,7 @@ by Vladimír Váša
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Giga</text>
               </SystemText>
             <Chord>
@@ -41621,7 +41629,7 @@ by Vladimír Váša
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Sarabanda Andante</text>
               </SystemText>
             <Chord>
@@ -45764,7 +45772,7 @@ by Vladimír Váša
               <linked>
                 </linked>
               <style>Tempo</style>
-              <offset x="0" y="-4"/>
+              <offset x="0" y="-5"/>
               <text>Fuga
 </text>
               </SystemText>
@@ -59652,6 +59660,8 @@ by Vladimír Váša
         <pageWidth>11.6902</pageWidth>
         <pageHeight>8.27008</pageHeight>
         <pagePrintableWidth>10.9028</pagePrintableWidth>
+        <staffDistance>7</staffDistance>
+        <akkoladeDistance>7</akkoladeDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <Spatium>1.764</Spatium>
         </Style>
