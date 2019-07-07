@@ -181,6 +181,31 @@
         <val id="8">0.5</val>
         <val id="9">0.33</val>
         </Zita1>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
@@ -5024,17 +5049,17 @@ by Vladimír Váša
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>70</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <velocity>70</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
               </Note>
             </Chord>
           <Chord>
@@ -11557,7 +11582,7 @@ by Vladimír Váša
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -11583,6 +11608,13 @@ by Vladimír Váša
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -11596,13 +11628,6 @@ by Vladimír Váša
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -26384,7 +26409,7 @@ by Vladimír Váša
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -26401,13 +26426,6 @@ by Vladimír Váša
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -26421,6 +26439,13 @@ by Vladimír Váša
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -27420,6 +27445,206 @@ by Vladimír Váša
           <val id="8">0.5</val>
           <val id="9">0.33</val>
           </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         </Synthesizer>
       <Division>480</Division>
       <Style>
@@ -27459,6 +27684,7 @@ by Vladimír Váša
             <stemsThrough>0</stemsThrough>
             <upsideDown>1</upsideDown>
             <useNumbers>1</useNumbers>
+            <showBackTied>1</showBackTied>
             </StaffType>
           </Staff>
         <trackName>Arciloutna</trackName>
@@ -32921,8 +33147,10 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <velocity>70</velocity>
+                <fret>0</fret>
+                <string>1</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
@@ -32930,10 +33158,8 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>70</velocity>
-                <fret>0</fret>
-                <string>1</string>
-                <veloType>user</veloType>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -34004,7 +34230,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -37013,7 +37239,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -37349,7 +37575,10 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <SlurSegment no="0">
+                    <o1 x="-0.00834123" y="7.4581"/>
+                    </SlurSegment>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -40014,7 +40243,10 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <SlurSegment no="0">
+                    <o1 x="-0.0369605" y="7.46754"/>
+                    </SlurSegment>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -40088,7 +40320,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -40156,7 +40388,10 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <SlurSegment no="0">
+                    <o1 x="0.0430553" y="8.97777"/>
+                    </SlurSegment>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -40230,7 +40465,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
-                  <up>down</up>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -40302,7 +40537,7 @@ by Vladimír Váša
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -40331,6 +40566,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -40346,13 +40588,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -40449,6 +40684,7 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>1</anchor>
                 <linked>
                   </linked>
                 </Articulation>
@@ -40686,6 +40922,7 @@ by Vladimír Váša
                   <Tie>
                     <linked>
                       </linked>
+                    <up>up</up>
                     </Tie>
                   <next>
                     <location>
@@ -40707,6 +40944,7 @@ by Vladimír Váša
                   <Tie>
                     <linked>
                       </linked>
+                    <up>down</up>
                     </Tie>
                   <next>
                     <location>
@@ -40728,6 +40966,7 @@ by Vladimír Váša
                   <Tie>
                     <linked>
                       </linked>
+                    <up>down</up>
                     </Tie>
                   <next>
                     <location>
@@ -40749,6 +40988,7 @@ by Vladimír Váša
                   <Tie>
                     <linked>
                       </linked>
+                    <up>down</up>
                     </Tie>
                   <next>
                     <location>
@@ -40852,6 +41092,7 @@ by Vladimír Váša
               <linked>
                 </linked>
               <style>Tempo</style>
+              <offset x="0" y="-4"/>
               <text>Sarabanda Andante</text>
               </SystemText>
             <Chord>
@@ -54073,6 +54314,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -54124,6 +54366,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -54172,6 +54415,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -55882,6 +56126,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -55964,6 +56209,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -56012,6 +56258,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -56783,6 +57030,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -57063,6 +57311,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -57141,10 +57390,11 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/16</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -57163,13 +57413,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -57185,6 +57428,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -57234,6 +57484,7 @@ by Vladimír Váša
                 <Slur>
                   <linked>
                     </linked>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -58225,6 +58476,206 @@ by Vladimír Váša
           <val id="8">0.5</val>
           <val id="9">0.33</val>
           </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         </Synthesizer>
       <Division>480</Division>
       <Style>
@@ -58264,6 +58715,7 @@ by Vladimír Váša
             <stemsThrough>0</stemsThrough>
             <upsideDown>0</upsideDown>
             <useNumbers>0</useNumbers>
+            <showBackTied>1</showBackTied>
             </StaffType>
           </Staff>
         <trackName>Arciloutna</trackName>
@@ -63670,8 +64122,10 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <velocity>70</velocity>
+                <fret>0</fret>
+                <string>1</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
@@ -63679,10 +64133,8 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>70</velocity>
-                <fret>0</fret>
-                <string>1</string>
-                <veloType>user</veloType>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -71066,7 +71518,7 @@ by Vladimír Váša
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -71095,6 +71547,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -71110,13 +71569,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -71454,7 +71906,7 @@ by Vladimír Váša
                   <Tie>
                     <linked>
                       </linked>
-                    <up>up</up>
+                    <up>down</up>
                     </Tie>
                   <next>
                     <location>
@@ -87914,7 +88366,7 @@ by Vladimír Váša
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/16</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -87933,13 +88385,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -87955,6 +88400,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
