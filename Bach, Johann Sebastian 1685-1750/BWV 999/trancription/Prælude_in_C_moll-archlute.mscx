@@ -281,6 +281,31 @@
         <val id="8">0.5</val>
         <val id="9">0.33</val>
         </Zita1>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
@@ -7550,11 +7575,39 @@ G-c-f-a-d'-g'
               <string>1</string>
               </Note>
             </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>32nd</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  </location>
+                </next>
+              </Spanner>
+            <grace32/>
+            <Note>
+              <linkedMain/>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
           <Beam>
             </Beam>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </prev>
+              </Spanner>
             <Articulation>
               <subtype>ornamentTrill</subtype>
               <anchor>3</anchor>
@@ -7562,9 +7615,9 @@ G-c-f-a-d'-g'
               </Articulation>
             <Note>
               <linkedMain/>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              <fret>1</fret>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
               <string>1</string>
               </Note>
             </Chord>
@@ -9763,6 +9816,306 @@ G-c-f-a-d'-g'
           <val id="8">0.5</val>
           <val id="9">0.33</val>
           </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         </Synthesizer>
       <Division>480</Division>
       <Style>
@@ -10089,6 +10442,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10281,10 +10638,6 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <offset x="0" y="1.03758"/>
-                <userLen>-1.03758</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10477,6 +10830,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10672,10 +11029,6 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <offset x="0" y="1.03758"/>
-                <userLen>-1.03758</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10901,6 +11254,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11126,10 +11483,6 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <offset x="0" y="1.03758"/>
-                <userLen>-1.03758</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11322,6 +11675,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11517,6 +11874,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11709,6 +12070,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11901,6 +12266,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12503,6 +12872,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13089,10 +13462,6 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <offset x="0" y="1.03758"/>
-                <userLen>-1.03758</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -15121,6 +15490,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -15319,6 +15692,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -15517,6 +15894,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -15734,6 +16115,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -15932,6 +16317,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16127,6 +16516,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16333,6 +16726,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16744,6 +17141,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17347,6 +17748,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17741,6 +18146,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -18298,12 +18707,46 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
                 <string>1</string>
                 </Note>
               </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>32nd</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </SlurSegment>
+                  </Slur>
+                <next>
+                  <location>
+                    </location>
+                  </next>
+                </Spanner>
+              <grace32/>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>63</pitch>
+                <tpc>11</tpc>
+                <fret>1</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
             <Beam>
               </Beam>
             <Chord>
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </prev>
+                </Spanner>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
                 <anchor>3</anchor>
@@ -18313,9 +18756,9 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
-                <fret>1</fret>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
                 <string>1</string>
                 </Note>
               </Chord>
@@ -18422,7 +18865,14 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
                 </Note>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  </linked>
+                <pitch>55</pitch>
+                <tpc>15</tpc>
+                <fret>2</fret>
+                <string>3</string>
+                </Note>
+              <Note>
+                <linked>
                   </linked>
                 <Accidental>
                   <role>1</role>
@@ -18432,15 +18882,6 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
                 <tpc>19</tpc>
                 <fret>2</fret>
                 <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  <indexDiff>-1</indexDiff>
-                  </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -18465,6 +18906,10 @@ F#'-G'-Ab'-Bb'-C-D-Eb-F#-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1.04"/>
+                <userLen>-1.04</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
