@@ -126,18 +126,22 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Desítistrunná loutna</trackName>
+      <trackName>Arciloutna</trackName>
       <Instrument>
-        <longName>Loutna</longName>
-        <shortName>Lout.</shortName>
-        <trackName>Desítistrunná loutna</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>79</maxPitchP>
-        <minPitchA>36</minPitchA>
-        <maxPitchA>79</maxPitchA>
-        <instrumentId>pluck.lute</instrumentId>
+        <longName>Arciloutna</longName>
+        <shortName>A. lout.</shortName>
+        <trackName>Arciloutna</trackName>
+        <minPitchP>29</minPitchP>
+        <maxPitchP>77</maxPitchP>
+        <minPitchA>29</minPitchA>
+        <maxPitchA>77</maxPitchA>
+        <instrumentId>pluck.archlute</instrumentId>
         <StringData>
           <frets>13</frets>
+          <string open="1">29</string>
+          <string open="1">31</string>
+          <string open="1">33</string>
+          <string open="1">35</string>
           <string open="1">36</string>
           <string open="1">38</string>
           <string>40</string>
