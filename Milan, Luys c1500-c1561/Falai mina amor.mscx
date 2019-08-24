@@ -37,8 +37,6 @@
         </Staff>
       <trackName>Zpěv</trackName>
       <Instrument>
-        <longName>Zpěv</longName>
-        <shortName>Hl.</shortName>
         <trackName>Zpěv</trackName>
         <minPitchP>36</minPitchP>
         <maxPitchP>94</maxPitchP>
@@ -95,13 +93,6 @@
       </Part>
     <Part>
       <Staff id="2">
-        <linkedTo>3</linkedTo>
-        <StaffType group="pitched">
-          <name>stdNormal</name>
-          </StaffType>
-        </Staff>
-      <Staff id="3">
-        <linkedTo>2</linkedTo>
         <StaffType group="tablature">
           <name>tab6StrSimple</name>
           <lines>6</lines>
@@ -127,8 +118,6 @@
         </Staff>
       <trackName>Loutna</trackName>
       <Instrument>
-        <longName>Loutna</longName>
-        <shortName>Lout.</shortName>
         <trackName>Loutna</trackName>
         <minPitchP>33</minPitchP>
         <maxPitchP>79</maxPitchP>
@@ -1022,27 +1011,20 @@
     <Staff id="2">
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G8vb</concertClefType>
-            <transposingClefType>G8vb</transposingClefType>
-            </Clef>
           <TimeSig>
             <subtype>2</subtype>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1050,7 +1032,6 @@
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1058,10 +1039,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1074,17 +1053,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1092,7 +1068,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1100,10 +1075,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1115,24 +1088,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1140,7 +1109,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -1152,24 +1120,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1177,7 +1141,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1189,24 +1152,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1214,7 +1173,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1226,24 +1184,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1252,10 +1206,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1268,17 +1220,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1287,10 +1236,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1298,10 +1245,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -1313,10 +1258,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1324,10 +1267,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1335,10 +1276,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1346,10 +1285,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -1361,31 +1298,26 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1398,31 +1330,26 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1435,10 +1362,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1447,10 +1372,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1463,17 +1386,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1481,7 +1401,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1489,10 +1408,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1504,17 +1421,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1522,7 +1436,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -1530,17 +1443,14 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1548,7 +1458,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1560,10 +1469,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1571,17 +1478,14 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1589,7 +1493,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1601,17 +1504,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1619,14 +1519,12 @@
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -1634,10 +1532,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -1645,10 +1541,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -1656,10 +1550,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1671,10 +1563,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -1682,13 +1572,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -1696,10 +1581,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -1711,17 +1594,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1729,7 +1609,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1737,10 +1616,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1752,17 +1629,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1770,7 +1644,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1778,10 +1651,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1793,17 +1664,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1811,7 +1679,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -1819,10 +1686,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1835,24 +1700,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1860,7 +1721,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1872,24 +1732,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1902,17 +1758,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1920,7 +1773,6 @@
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1928,10 +1780,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1944,17 +1794,14 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1962,7 +1809,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1970,10 +1816,8 @@
               </Note>
             </Chord>
           <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1985,24 +1829,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2010,7 +1850,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -2022,24 +1861,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -2047,7 +1882,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2059,24 +1893,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -2084,7 +1914,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2096,31 +1925,26 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -2133,37 +1957,26 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
               <string>5</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -2176,24 +1989,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
               <string>5</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -2206,31 +2015,26 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>43</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>5</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -2243,1439 +2047,20 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>whole</durationType>
             <Note>
-              <linkedMain/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
-              <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      </Staff>
-    <Staff id="3">
-      <Measure>
-        <voice>
-          <TimeSig>
-            <subtype>2</subtype>
-            <sigN>2</sigN>
-            <sigD>2</sigD>
-            </TimeSig>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
