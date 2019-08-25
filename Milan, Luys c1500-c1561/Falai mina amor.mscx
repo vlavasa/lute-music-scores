@@ -114,6 +114,7 @@
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
           <useNumbers>1</useNumbers>
+          <showBackTied>1</showBackTied>
           </StaffType>
         </Staff>
       <trackName>Loutna</trackName>
@@ -303,20 +304,49 @@
             <durationType>whole</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks_f>0/2</ticks_f>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>mor</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <ticks_f>0/2</ticks_f>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>der</text>
               </Lyrics>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
               <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           </voice>
@@ -358,16 +388,16 @@
             <durationType>whole</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks>3840</ticks>
-              <ticks_f>4/2</ticks_f>
-              <text>lai</text>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
+              <text>la</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <ticks>3840</ticks>
-              <ticks_f>4/2</ticks_f>
-              <text>lai</text>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
+              <text>la</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -420,6 +450,13 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
+            <Lyrics>
+              <text>i</text>
+              </Lyrics>
+            <Lyrics>
+              <no>1</no>
+              <text>i</text>
+              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -432,6 +469,39 @@
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Lyrics>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
+              <text>me</text>
+              </Lyrics>
+            <Lyrics>
+              <no>1</no>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
+              <text>me</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -443,18 +513,16 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
-            <Lyrics>
-              <text>me</text>
-              </Lyrics>
-            <Lyrics>
-              <no>1</no>
-              <text>me</text>
-              </Lyrics>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -545,16 +613,14 @@
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks>960</ticks>
-              <ticks_f>1/2</ticks_f>
-              <text>llays</text>
+              <ticks_f>0/2</ticks_f>
+              <text>lla_</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <ticks>960</ticks>
-              <ticks_f>1/2</ticks_f>
-              <text>llays</text>
+              <ticks_f>0/2</ticks_f>
+              <text>lla_</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -579,6 +645,13 @@
         <voice>
           <Chord>
             <durationType>half</durationType>
+            <Lyrics>
+              <text>ys</text>
+              </Lyrics>
+            <Lyrics>
+              <no>1</no>
+              <text>ys</text>
+              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -618,16 +691,16 @@
             <durationType>whole</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks>1920</ticks>
-              <ticks_f>2/2</ticks_f>
-              <text>tay</text>
+              <ticks>1</ticks>
+              <ticks_f>1/1920</ticks_f>
+              <text>ta</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <ticks>1920</ticks>
-              <ticks_f>2/2</ticks_f>
-              <text>tay</text>
+              <ticks>1</ticks>
+              <ticks_f>1/1920</ticks_f>
+              <text>ta</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -651,6 +724,13 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
+            <Lyrics>
+              <text>y</text>
+              </Lyrics>
+            <Lyrics>
+              <no>1</no>
+              <text>y</text>
+              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -758,6 +838,39 @@
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Lyrics>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
+              <text>me</text>
+              </Lyrics>
+            <Lyrics>
+              <no>1</no>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
+              <text>me</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -765,18 +878,16 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
-            <Lyrics>
-              <text>me</text>
-              </Lyrics>
-            <Lyrics>
-              <no>1</no>
-              <text>me</text>
-              </Lyrics>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -883,17 +994,52 @@
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>mor</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <text>lays</text>
+              <ticks>1</ticks>
+              <ticks_f>1/1920</ticks_f>
+              <text>la</text>
               </Lyrics>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
               <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Lyrics>
+              <no>1</no>
+              <text>ys</text>
+              </Lyrics>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           </voice>
@@ -986,23 +1132,54 @@
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>ber</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>ser</text>
               </Lyrics>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
@@ -1154,12 +1331,30 @@
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1167,12 +1362,90 @@
               </Note>
             <Note>
               <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
               <string>1</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1332,18 +1605,45 @@
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1351,6 +1651,75 @@
               </Note>
             <Note>
               <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -1510,13 +1879,6 @@
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
               </Note>
             <Note>
               <pitch>65</pitch>
@@ -1734,12 +2096,30 @@
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -1747,6 +2127,62 @@
               </Note>
             <Note>
               <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1895,12 +2331,30 @@
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1908,12 +2362,90 @@
               </Note>
             <Note>
               <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
               <string>1</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2049,12 +2581,30 @@
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -2062,6 +2612,62 @@
               </Note>
             <Note>
               <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <color r="170" g="0" b="0" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
