@@ -121,8 +121,6 @@
         </Staff>
       <trackName>Desítistrunná loutna</trackName>
       <Instrument>
-        <longName>Loutna</longName>
-        <shortName>Lout.</shortName>
         <trackName>Desítistrunná loutna</trackName>
         <minPitchP>36</minPitchP>
         <maxPitchP>79</maxPitchP>
@@ -1354,7 +1352,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   <TieSegment no="0">
                     <offset x="0" y="-0.5"/>
                     </TieSegment>
@@ -1374,7 +1371,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1391,7 +1387,6 @@ D-E-F-G-c-f-a-d'-g
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1407,7 +1402,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1636,7 +1630,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   <TieSegment no="0">
                     <offset x="0" y="-0.5"/>
                     </TieSegment>
@@ -1655,7 +1648,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1671,7 +1663,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1688,7 +1679,6 @@ D-E-F-G-c-f-a-d'-g
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2134,7 +2124,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   <TieSegment no="0">
                     <offset x="0" y="-0.5"/>
                     </TieSegment>
@@ -2153,7 +2142,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2170,7 +2158,6 @@ D-E-F-G-c-f-a-d'-g
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2375,7 +2362,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   <TieSegment no="0">
                     <offset x="0" y="-0.5"/>
                     </TieSegment>
@@ -2394,7 +2380,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2411,7 +2396,6 @@ D-E-F-G-c-f-a-d'-g
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2427,7 +2411,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2571,17 +2554,17 @@ D-E-F-G-c-f-a-d'-g
               <string>7</string>
               </Note>
             <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
               <color r="170" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -2597,12 +2580,6 @@ D-E-F-G-c-f-a-d'-g
               <string>8</string>
               </Note>
             <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
@@ -2615,6 +2592,12 @@ D-E-F-G-c-f-a-d'-g
               <fret>1</fret>
               <string>3</string>
               </Note>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>2</string>
+              </Note>
             </Chord>
           </voice>
         </Measure>
@@ -2625,7 +2608,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   <TieSegment no="0">
                     <offset x="0" y="-0.5"/>
                     </TieSegment>
@@ -2644,7 +2626,6 @@ D-E-F-G-c-f-a-d'-g
             <Note>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2661,7 +2642,6 @@ D-E-F-G-c-f-a-d'-g
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
