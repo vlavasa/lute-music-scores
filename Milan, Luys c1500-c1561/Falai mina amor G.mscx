@@ -107,7 +107,7 @@
           <fretFontName>MuseScore Tab Renaiss</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
-          <symbolRepeat>2</symbolRepeat>
+          <symbolRepeat>3</symbolRepeat>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
           <onLines>0</onLines>
@@ -121,6 +121,8 @@
         </Staff>
       <trackName>Desítistrunná loutna</trackName>
       <Instrument>
+        <longName>Loutna</longName>
+        <shortName>Lout.</shortName>
         <trackName>Desítistrunná loutna</trackName>
         <minPitchP>36</minPitchP>
         <maxPitchP>79</maxPitchP>
@@ -204,9 +206,9 @@
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>Transposed a fourth lower
-for 9c. lute with tuning:
-D-E-F-G-c-f-a-d'-g' 
+          <text>Transposed for soprano
+and 9c. lute with tuning:
+D-E-F-G-c-f-a-d'-g
 </text>
           </Text>
         </VBox>
@@ -229,7 +231,9 @@ D-E-F-G-c-f-a-d'-g'
             <Lyrics>
               <no>1</no>
               <syllabic>end</syllabic>
-              <text>2. po_</text>
+              <ticks>1</ticks>
+              <ticks_f>1/1920</ticks_f>
+              <text>2. pois</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -240,10 +244,6 @@ D-E-F-G-c-f-a-d'-g'
             </Chord>
           <Chord>
             <durationType>half</durationType>
-            <Lyrics>
-              <no>1</no>
-              <text>is</text>
-              </Lyrics>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -496,10 +496,14 @@ D-E-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>me</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>me</text>
               </Lyrics>
             <Note>
@@ -856,14 +860,14 @@ D-E-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
-              <ticks>1</ticks>
-              <ticks_f>1/1920</ticks_f>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>me</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
-              <ticks>1</ticks>
-              <ticks_f>1/1920</ticks_f>
+              <ticks>1920</ticks>
+              <ticks_f>2/2</ticks_f>
               <text>me</text>
               </Lyrics>
             <Note>
@@ -1202,6 +1206,9 @@ D-E-F-G-c-f-a-d'-g'
     <Staff id="2">
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>1</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>2</subtype>
             <sigN>2</sigN>
@@ -1347,6 +1354,11 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </TieSegment>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -1362,6 +1374,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1378,6 +1391,7 @@ D-E-F-G-c-f-a-d'-g'
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1393,6 +1407,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1621,6 +1636,10 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -1636,6 +1655,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1651,6 +1671,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -1667,6 +1688,7 @@ D-E-F-G-c-f-a-d'-g'
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2112,6 +2134,10 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -2127,6 +2153,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2143,6 +2170,7 @@ D-E-F-G-c-f-a-d'-g'
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2347,6 +2375,10 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -2362,6 +2394,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2378,6 +2411,7 @@ D-E-F-G-c-f-a-d'-g'
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2393,6 +2427,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2489,13 +2524,6 @@ D-E-F-G-c-f-a-d'-g'
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <color r="170" g="0" b="0" a="255"/>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -2543,10 +2571,10 @@ D-E-F-G-c-f-a-d'-g'
               <string>7</string>
               </Note>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             <Note>
               <color r="170" g="0" b="0" a="255"/>
@@ -2569,10 +2597,10 @@ D-E-F-G-c-f-a-d'-g'
               <string>8</string>
               </Note>
             <Note>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             <Note>
               <pitch>50</pitch>
@@ -2597,6 +2625,10 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
+                  <TieSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -2612,6 +2644,7 @@ D-E-F-G-c-f-a-d'-g'
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -2628,6 +2661,7 @@ D-E-F-G-c-f-a-d'-g'
               <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
