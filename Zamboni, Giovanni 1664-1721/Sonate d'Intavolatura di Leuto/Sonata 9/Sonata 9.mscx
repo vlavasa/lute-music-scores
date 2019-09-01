@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.1.0</programVersion>
-  <programRevision>e26f7c4</programRevision>
+  <programVersion>3.2.3</programVersion>
+  <programRevision>d2d863f</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       <master>
         <val id="0">Zita1</val>
         <val id="1">NoEffect</val>
@@ -262,7 +287,7 @@ by Vladimír Váša
           <style>Lyricist</style>
           <text>Archlute (10 course needed, Eb not used) tuning:
 (F'-G'-Ab'-Bb')-C-D-(Eb)-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
           </Text>
@@ -5917,17 +5942,17 @@ by Vladimír Váša
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>5</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>69</velocity>
-              <fret>5</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Beam>
@@ -9828,11 +9853,11 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9853,11 +9878,11 @@ by Vladimír Váša
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9873,11 +9898,11 @@ by Vladimír Váša
               </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <velocity>70</velocity>
               <fret>3</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9886,11 +9911,11 @@ by Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>72</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -15860,9 +15885,6 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.1" y="0"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -15958,7 +15980,7 @@ by Vladimír Váša
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -15984,6 +16006,13 @@ by Vladimír Váša
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -16002,29 +16031,6 @@ by Vladimír Váša
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <staves>1</staves>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <staves>2</staves>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -16099,9 +16105,6 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="-0.266404" y="-4.99507"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -16976,9 +16979,6 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o4 x="0.1" y="0"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -17768,10 +17768,6 @@ by Vladimír Váša
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <SlurSegment no="0">
-                  <o1 x="0" y="-4.92816"/>
-                  <o3 x="0.7" y="0.4"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -24730,18 +24726,18 @@ by Vladimír Váša
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>5</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             <Note>
               <linked>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>69</velocity>
-              <fret>5</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -28996,11 +28992,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -29022,11 +29018,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -29044,11 +29040,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <velocity>70</velocity>
               <fret>3</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -29059,11 +29055,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>72</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -35729,8 +35725,7 @@ by Vladimír Váša
                 </Slur>
               <next>
                 <location>
-                  <staves>-1</staves>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -35759,6 +35754,13 @@ by Vladimír Váša
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -35855,9 +35857,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <o1 x="0" y="4.46261"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -37672,9 +37671,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <o1 x="-0.0331936" y="4.49581"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -44812,18 +44808,18 @@ by Vladimír Váša
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <velocity>69</velocity>
+              <fret>5</fret>
+              <string>2</string>
+              <veloType>user</veloType>
               </Note>
             <Note>
               <linked>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <velocity>69</velocity>
-              <fret>5</fret>
-              <string>2</string>
-              <veloType>user</veloType>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -49129,11 +49125,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -49158,11 +49154,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>70</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -49180,11 +49176,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <velocity>70</velocity>
               <fret>3</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -49195,11 +49191,11 @@ by Vladimír Váša
             <Note>
               <linked>
                 </linked>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <velocity>72</velocity>
               <fret>1</fret>
-              <string>1</string>
+              <string>2</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -50260,9 +50256,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -51592,9 +51585,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -51793,9 +51783,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -51998,10 +51985,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <autoplace>0</autoplace>
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -52213,9 +52196,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -52323,9 +52303,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -52399,9 +52376,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -52479,9 +52453,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -52555,9 +52526,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -53237,9 +53205,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -54051,9 +54016,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -54201,9 +54163,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -54312,9 +54271,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -54423,9 +54379,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -55349,9 +55302,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -55446,9 +55396,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -55639,9 +55586,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -55719,9 +55663,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -55831,9 +55772,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -55935,14 +55873,10 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <staves>-2</staves>
-                  <fractions>1/4</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -55971,6 +55905,13 @@ by Vladimír Váša
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -56067,10 +56008,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <o1 x="-0.133194" y="-4.39581"/>
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -56164,9 +56101,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -56265,9 +56199,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56521,9 +56452,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -56673,9 +56601,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56734,9 +56659,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56802,9 +56724,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56856,9 +56775,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -56936,9 +56852,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -57041,9 +56954,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -57153,9 +57063,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -57276,9 +57183,9 @@ by Vladimír Váša
             <durationType>half</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <anchor>3</anchor>
               <autoplace>0</autoplace>
               <offset x="0.8" y="-2"/>
-              <anchor>3</anchor>
               </Articulation>
             <Articulation>
               <subtype>ornamentTrill</subtype>
@@ -57912,10 +57819,6 @@ by Vladimír Váša
               <Slur>
                 <linked>
                   </linked>
-                <SlurSegment no="0">
-                  <o1 x="-0.0323551" y="-4.46261"/>
-                  <offset x="0" y="-0.5"/>
-                  </SlurSegment>
                 <up>down</up>
                 </Slur>
               <next>
@@ -58890,6 +58793,56 @@ by Vladimír Váša
           <val id="8">0.5</val>
           <val id="9">0.33</val>
           </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         </Synthesizer>
       <Division>480</Division>
       <Style>
@@ -59062,7 +59015,7 @@ by Vladimír Váša
             <style>Lyricist</style>
             <text>Archlute (10 course needed, Eb not used) tuning:
 (F'-G'-Ab'-Bb')-C-D-(Eb)-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
             </Text>
@@ -60502,9 +60455,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -60680,9 +60633,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -60837,9 +60790,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -64566,10 +64519,10 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
                 <offset x="1.8" y="0"/>
-                <anchor>3</anchor>
                 </Articulation>
               <StemDirection>down</StemDirection>
               <Note>
@@ -65255,18 +65208,18 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>5</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>69</velocity>
-                <fret>5</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -66931,9 +66884,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -67871,9 +67824,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -68234,9 +68187,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -69551,11 +69504,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -69577,11 +69530,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -69599,11 +69552,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
+                <pitch>60</pitch>
+                <tpc>14</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -69614,11 +69567,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>72</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -70314,9 +70267,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -71952,9 +71905,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -72151,9 +72104,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -72350,9 +72303,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -75955,9 +75908,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -76340,7 +76293,7 @@ by Vladimír Váša
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -76369,6 +76322,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -76387,13 +76347,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -77601,9 +77554,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -77668,9 +77621,9 @@ by Vladimír Váša
               <durationType>half</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <pitch>48</pitch>
@@ -79286,6 +79239,56 @@ by Vladimír Váša
           <val id="8">0.5</val>
           <val id="9">0.33</val>
           </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         </Synthesizer>
       <Division>480</Division>
       <Style>
@@ -79478,7 +79481,7 @@ by Vladimír Váša
             <style>Lyricist</style>
             <text>Archlute (10 course needed, Eb not used) tuning:
 (F'-G'-Ab'-Bb')-C-D-(Eb)-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
             </Text>
@@ -80898,9 +80901,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -81077,9 +81080,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -81237,9 +81240,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -84974,11 +84977,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="1.4" y="2.6"/>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -85664,18 +85667,18 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>5</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>69</velocity>
-                <fret>5</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -87342,9 +87345,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -88282,9 +88285,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -88647,9 +88650,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -89975,11 +89978,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -90002,11 +90005,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -90024,11 +90027,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
+                <pitch>60</pitch>
+                <tpc>14</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -90039,11 +90042,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>72</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -90742,9 +90745,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -92386,9 +92389,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -92586,9 +92589,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -92786,9 +92789,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -96403,9 +96406,9 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -96787,7 +96790,7 @@ by Vladimír Váša
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -96816,6 +96819,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -96834,13 +96844,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -98049,9 +98052,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -98116,9 +98119,9 @@ by Vladimír Váša
               <durationType>half</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>4</anchor>
                 <linked>
                   </linked>
-                <anchor>4</anchor>
                 </Articulation>
               <Note>
                 <pitch>48</pitch>
@@ -99728,6 +99731,56 @@ by Vladimír Váša
           <val id="8">0.5</val>
           <val id="9">0.33</val>
           </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
+        <master>
+          <val id="0">Zita1</val>
+          <val id="1">NoEffect</val>
+          <val id="2">0.1</val>
+          <val id="3">440</val>
+          <val id="4">1</val>
+          <val id="5">1</val>
+          </master>
+        <Fluid>
+          <val id="0">MuseScore_General.sf3</val>
+          </Fluid>
+        <Zerberus>
+          </Zerberus>
+        <Zita1>
+          <val id="0">0.25</val>
+          <val id="1">0.462756</val>
+          <val id="2">0.161809</val>
+          <val id="3">0.333333</val>
+          <val id="4">0.25</val>
+          <val id="5">0.335245</val>
+          <val id="6">0.5</val>
+          <val id="7">0.664755</val>
+          <val id="8">0.5</val>
+          <val id="9">0.33</val>
+          </Zita1>
         </Synthesizer>
       <Division>480</Division>
       <Style>
@@ -99920,7 +99973,7 @@ by Vladimír Váša
             <style>Lyricist</style>
             <text>Archlute (10 course needed, Eb not used) tuning:
 (F'-G'-Ab'-Bb')-C-D-(Eb)-F-G-c-f-a-d'-g'
-<font size="16"/><font face="ScoreText"/><font size="12"/><font face="FreeSerif"/> means an ornament according to the context
+<font size="16"></font><font face="ScoreText"></font><font size="12"></font><font face="FreeSerif"></font> means an ornament according to the context
 
 </text>
             </Text>
@@ -101357,11 +101410,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="1.4" y="0.2"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -101541,9 +101594,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -101704,9 +101757,9 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <linked>
                   </linked>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -105495,11 +105548,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="1.2" y="-0.8"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -106197,18 +106250,18 @@ by Vladimír Váša
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <velocity>69</velocity>
+                <fret>5</fret>
+                <string>2</string>
+                <veloType>user</veloType>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <velocity>69</velocity>
-                <fret>5</fret>
-                <string>2</string>
-                <veloType>user</veloType>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -107902,11 +107955,11 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-0.6"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -108855,11 +108908,11 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-0.4"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -109228,11 +109281,11 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-0.4"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -110560,11 +110613,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -110589,11 +110642,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>70</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -110611,11 +110664,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
+                <pitch>60</pitch>
+                <tpc>14</tpc>
                 <velocity>70</velocity>
                 <fret>3</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -110626,11 +110679,11 @@ by Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>63</pitch>
-                <tpc>11</tpc>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
                 <velocity>72</velocity>
                 <fret>1</fret>
-                <string>1</string>
+                <string>2</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -111339,11 +111392,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="1.4" y="0"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -113000,11 +113053,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-0.6"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -113204,11 +113257,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="1.4" y="0.2"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -113408,11 +113461,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-0.6"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -117057,11 +117110,11 @@ by Vladimír Váša
               <durationType>quarter</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="1.6" y="0.2"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -117453,7 +117506,7 @@ by Vladimír Váša
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -117482,6 +117535,13 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -117500,13 +117560,6 @@ by Vladimír Váša
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -118740,11 +118793,11 @@ by Vladimír Váša
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-0.6"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <linked>
@@ -118809,11 +118862,11 @@ by Vladimír Váša
               <durationType>half</durationType>
               <Articulation>
                 <subtype>ornamentTrill</subtype>
+                <anchor>3</anchor>
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
                 <offset x="0.6" y="-2"/>
-                <anchor>3</anchor>
                 </Articulation>
               <Note>
                 <pitch>48</pitch>
