@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.0.5</programVersion>
-  <programRevision>58dd23d</programRevision>
+  <programVersion>3.2.3</programVersion>
+  <programRevision>d2d863f</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
-    <Synthesizer>
-      </Synthesizer>
     <Division>480</Division>
     <Style>
       <pageWidth>11.6902</pageWidth>
@@ -18,8 +16,14 @@
       <staffLowerBorder>9</staffLowerBorder>
       <frameSystemDistance>15.7</frameSystemDistance>
       <evenFooterL></evenFooterL>
-      <evenFooterR>$P</evenFooterR>
-      <oddFooterL>$P</oddFooterL>
+      <evenFooterC>$:copyright:
+ </evenFooterC>
+      <evenFooterR>$P
+ </evenFooterR>
+      <oddFooterL>$P
+ </oddFooterL>
+      <oddFooterC>$:copyright:
+ </oddFooterC>
       <oddFooterR></oddFooterR>
       <composerAlign>right,top</composerAlign>
       <partInstrumentFontSize>12</partInstrumentFontSize>
@@ -99,6 +103,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -329,6 +335,7 @@ D-E-F-G-c-f-a-d'-g'
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks>7680</ticks>
+              <ticks_f>4/1</ticks_f>
               <linkedMain/>
               <text>gretz</text>
               </Lyrics>
@@ -920,6 +927,7 @@ D-E-F-G-c-f-a-d'-g'
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks>1920</ticks>
+              <ticks_f>1/1</ticks_f>
               <linkedMain/>
               <text>se,</text>
               </Lyrics>
@@ -989,6 +997,7 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>whole</durationType>
             <Lyrics>
               <ticks>1920</ticks>
+              <ticks_f>1/1</ticks_f>
               <linkedMain/>
               <text>Iay</text>
               </Lyrics>
@@ -1225,6 +1234,7 @@ D-E-F-G-c-f-a-d'-g'
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks>1920</ticks>
+              <ticks_f>1/1</ticks_f>
               <linkedMain/>
               <text>se,</text>
               </Lyrics>
@@ -1384,6 +1394,7 @@ D-E-F-G-c-f-a-d'-g'
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks>1920</ticks>
+              <ticks_f>1/1</ticks_f>
               <linkedMain/>
               <text>ra</text>
               </Lyrics>
@@ -1483,6 +1494,7 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>whole</durationType>
             <Lyrics>
               <ticks>1920</ticks>
+              <ticks_f>1/1</ticks_f>
               <linkedMain/>
               <text>iours</text>
               </Lyrics>
@@ -1640,6 +1652,7 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>whole</durationType>
             <Lyrics>
               <ticks>1920</ticks>
+              <ticks_f>1/1</ticks_f>
               <linkedMain/>
               <text>me</text>
               </Lyrics>
@@ -2135,29 +2148,8 @@ D-E-F-G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
+              <fret>0</fret>
               <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -4311,17 +4303,17 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -4329,10 +4321,10 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>69</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -4340,10 +4332,10 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -4373,27 +4365,6 @@ D-E-F-G-c-f-a-d'-g'
               <tpc>17</tpc>
               <fret>4</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -5084,6 +5055,7 @@ D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>45</pitch>
@@ -5093,17 +5065,17 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>60</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>65</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -5113,42 +5085,45 @@ D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
+              <fret>2</fret>
+              <string>6</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
               <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
+              <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -5158,17 +5133,17 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>57</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>2</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -5178,6 +5153,7 @@ D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>40</pitch>
@@ -5187,50 +5163,53 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>5</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>61</pitch>
+              <pitch>49</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>61</pitch>
+              <pitch>49</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -5240,6 +5219,7 @@ D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>38</pitch>
@@ -5249,17 +5229,17 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>57</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>2</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -5898,6 +5878,13 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>8</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -5920,17 +5907,17 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>64</pitch>
+              <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>69</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -5938,17 +5925,10 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -5971,10 +5951,10 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>64</pitch>
+              <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -5989,10 +5969,10 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -6025,10 +6005,10 @@ D-E-F-G-c-f-a-d'-g'
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>61</pitch>
+              <pitch>49</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -6036,10 +6016,10 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -6047,14 +6027,10 @@ D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>61</pitch>
+              <pitch>49</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -6073,10 +6049,10 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -6399,10 +6375,10 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -6717,10 +6693,10 @@ D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -7287,8 +7263,6 @@ D-E-F-G-c-f-a-d'-g'
     <Score>
       <LayerTag id="0" tag="default"></LayerTag>
       <currentLayer>0</currentLayer>
-      <Synthesizer>
-        </Synthesizer>
       <Division>480</Division>
       <Style>
         <pageWidth>11.6902</pageWidth>
@@ -7302,8 +7276,18 @@ D-E-F-G-c-f-a-d'-g'
         <frameSystemDistance>9</frameSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <evenFooterL></evenFooterL>
-        <evenFooterR>$P</evenFooterR>
-        <oddFooterL>$P</oddFooterL>
+        <evenFooterC>$:copyright:
+ 
+ </evenFooterC>
+        <evenFooterR>$P
+ 
+ </evenFooterR>
+        <oddFooterL>$P
+ 
+ </oddFooterL>
+        <oddFooterC>$:copyright:
+ 
+ </oddFooterC>
         <oddFooterR></oddFooterR>
         <composerAlign>right,top</composerAlign>
         <partInstrumentFontSize>12</partInstrumentFontSize>
@@ -7639,6 +7623,7 @@ D-E-F-G-c-f-a-d'-g'
               <Lyrics>
                 <syllabic>end</syllabic>
                 <ticks>7680</ticks>
+                <ticks_f>4/1</ticks_f>
                 <linked>
                   </linked>
                 <text>gretz</text>
@@ -8326,6 +8311,7 @@ D-E-F-G-c-f-a-d'-g'
               <Lyrics>
                 <syllabic>end</syllabic>
                 <ticks>1920</ticks>
+                <ticks_f>1/1</ticks_f>
                 <linked>
                   </linked>
                 <text>se,</text>
@@ -8403,6 +8389,7 @@ D-E-F-G-c-f-a-d'-g'
               <durationType>whole</durationType>
               <Lyrics>
                 <ticks>1920</ticks>
+                <ticks_f>1/1</ticks_f>
                 <linked>
                   </linked>
                 <text>Iay</text>
@@ -8677,6 +8664,7 @@ D-E-F-G-c-f-a-d'-g'
               <Lyrics>
                 <syllabic>end</syllabic>
                 <ticks>1920</ticks>
+                <ticks_f>1/1</ticks_f>
                 <linked>
                   </linked>
                 <text>se,</text>
@@ -8858,6 +8846,7 @@ D-E-F-G-c-f-a-d'-g'
               <Lyrics>
                 <syllabic>end</syllabic>
                 <ticks>1920</ticks>
+                <ticks_f>1/1</ticks_f>
                 <linked>
                   </linked>
                 <text>ra</text>
@@ -8973,6 +8962,7 @@ D-E-F-G-c-f-a-d'-g'
               <durationType>whole</durationType>
               <Lyrics>
                 <ticks>1920</ticks>
+                <ticks_f>1/1</ticks_f>
                 <linked>
                   </linked>
                 <text>iours</text>
@@ -9152,6 +9142,7 @@ D-E-F-G-c-f-a-d'-g'
               <durationType>whole</durationType>
               <Lyrics>
                 <ticks>1920</ticks>
+                <ticks_f>1/1</ticks_f>
                 <linked>
                   </linked>
                 <text>me</text>
@@ -9739,32 +9730,8 @@ D-E-F-G-c-f-a-d'-g'
                   </linked>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
-                <fret>4</fret>
-                <string>3</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
-                <fret>3</fret>
+                <fret>0</fret>
                 <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
                 </Note>
               </Chord>
             </voice>
@@ -12218,18 +12185,18 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
+                <pitch>55</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
+                <fret>2</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             <Chord>
@@ -12239,10 +12206,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>69</pitch>
+                <pitch>57</pitch>
                 <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
+                <fret>0</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -12252,10 +12219,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
+                <pitch>55</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
+                <fret>2</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             </voice>
@@ -12289,30 +12256,6 @@ D-E-F-G-c-f-a-d'-g'
                 <tpc>17</tpc>
                 <fret>4</fret>
                 <string>3</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
-                <fret>3</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
                 </Note>
               </Chord>
             <Chord>
@@ -13112,18 +13055,18 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>60</pitch>
+                <pitch>48</pitch>
                 <tpc>14</tpc>
-                <fret>3</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
-                <pitch>65</pitch>
+                <pitch>53</pitch>
                 <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
+                <fret>0</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             </voice>
@@ -13139,24 +13082,24 @@ D-E-F-G-c-f-a-d'-g'
                   </linked>
                 <pitch>43</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
+                <fret>2</fret>
+                <string>6</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>46</pitch>
+                <tpc>12</tpc>
+                <fret>3</fret>
                 <string>5</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
-                <pitch>58</pitch>
-                <tpc>12</tpc>
-                <fret>1</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>64</pitch>
+                <pitch>52</pitch>
                 <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
+                <fret>4</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             <Chord>
@@ -13166,10 +13109,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             <Chord>
@@ -13187,18 +13130,18 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>57</pitch>
+                <pitch>45</pitch>
                 <tpc>17</tpc>
-                <fret>0</fret>
-                <string>2</string>
+                <fret>2</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             </voice>
@@ -13220,36 +13163,36 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>55</pitch>
+                <pitch>43</pitch>
                 <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>61</pitch>
-                <tpc>21</tpc>
-                <fret>4</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
                 <fret>0</fret>
-                <string>1</string>
+                <string>5</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>49</pitch>
+                <tpc>21</tpc>
+                <fret>1</fret>
+                <string>4</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>50</pitch>
+                <tpc>16</tpc>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             <Chord>
@@ -13263,10 +13206,10 @@ D-E-F-G-c-f-a-d'-g'
                   <role>1</role>
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
-                <pitch>61</pitch>
+                <pitch>49</pitch>
                 <tpc>21</tpc>
-                <fret>4</fret>
-                <string>2</string>
+                <fret>1</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             </voice>
@@ -13288,18 +13231,18 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>57</pitch>
+                <pitch>45</pitch>
                 <tpc>17</tpc>
-                <fret>0</fret>
-                <string>2</string>
+                <fret>2</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             </voice>
@@ -14030,6 +13973,14 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <pitch>38</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>8</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
                 <pitch>53</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -14055,18 +14006,18 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>64</pitch>
+                <pitch>52</pitch>
                 <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
+                <fret>4</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
-                <pitch>69</pitch>
+                <pitch>57</pitch>
                 <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
+                <fret>0</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14076,18 +14027,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>38</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>8</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>65</pitch>
+                <pitch>53</pitch>
                 <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
+                <fret>0</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             </voice>
@@ -14114,10 +14057,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>64</pitch>
+                <pitch>52</pitch>
                 <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
+                <fret>4</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14135,10 +14078,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             </voice>
@@ -14173,10 +14116,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>61</pitch>
+                <pitch>49</pitch>
                 <tpc>21</tpc>
-                <fret>4</fret>
-                <string>2</string>
+                <fret>1</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14186,10 +14129,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14199,14 +14142,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Accidental>
-                  <role>1</role>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>61</pitch>
+                <pitch>49</pitch>
                 <tpc>21</tpc>
-                <fret>4</fret>
-                <string>2</string>
+                <fret>1</fret>
+                <string>4</string>
                 </Note>
               </Chord>
             </voice>
@@ -14228,10 +14167,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -14600,10 +14539,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>53</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>3</string>
+                <pitch>50</pitch>
+                <tpc>16</tpc>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -14962,10 +14901,10 @@ D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>53</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>3</string>
+                <pitch>50</pitch>
+                <tpc>16</tpc>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
