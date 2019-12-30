@@ -1434,20 +1434,6 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Harmony>
-          <name>II.</name>
-          <pos x="-0.9" y="-3.7"/>
-          </Harmony>
-        <TextLine id="15">
-          <lid>1195</lid>
-          <lineWidth>0.15</lineWidth>
-          <lineStyle>2</lineStyle>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-3.25455" y="0"/>
-            <pos x="80.2773" y="-3.23"/>
-            </Segment>
-          </TextLine>
         <Chord>
           <lid>970</lid>
           <durationType>16th</durationType>
@@ -1463,13 +1449,6 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <fret>2</fret>
             <string>5</string>
             </Note>
-          <Arpeggio>
-            <lid>968</lid>
-            <pos x="-0.98" y="5.44906"/>
-            <subtype>3</subtype>
-            <userLen1>8.67144</userLen1>
-            <userLen2>0.446326</userLen2>
-            </Arpeggio>
           </Chord>
         <Chord>
           <lid>967</lid>
@@ -1554,7 +1533,6 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="7">
-        <endSpanner id="15"/>
         <Chord>
           <lid>953</lid>
           <durationType>16th</durationType>
@@ -1577,7 +1555,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="16">
+        <Slur id="15">
           <lid>1194</lid>
           <track>0</track>
           <up>2</up>
@@ -1585,7 +1563,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>949</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="16"/>
+          <Slur type="start" id="15"/>
           <Note>
             <lid>948</lid>
             <pitch>57</pitch>
@@ -1597,7 +1575,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>947</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="15"/>
           <Note>
             <lid>946</lid>
             <pitch>59</pitch>
@@ -1721,7 +1699,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="17">
+        <Slur id="16">
           <lid>1193</lid>
           <track>0</track>
           <up>2</up>
@@ -1729,7 +1707,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>927</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="17"/>
+          <Slur type="start" id="16"/>
           <Note>
             <lid>926</lid>
             <pitch>60</pitch>
@@ -1741,7 +1719,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>925</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="17"/>
+          <Slur type="stop" id="16"/>
           <Note>
             <lid>924</lid>
             <pitch>57</pitch>
@@ -1809,7 +1787,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Slur id="18">
+        <Slur id="17">
           <lid>1192</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -1822,7 +1800,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>912</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="18"/>
+          <Slur type="start" id="17"/>
           <acciaccatura/>
           <Note>
             <lid>911</lid>
@@ -1839,7 +1817,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>916</lid>
             </Articulation>
-          <Slur type="stop" id="18"/>
+          <Slur type="stop" id="17"/>
           <Note>
             <lid>915</lid>
             <Fingering>
@@ -1921,7 +1899,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>3</string>
             </Note>
           </Chord>
-        <Slur id="19">
+        <Slur id="18">
           <lid>1191</lid>
           <track>0</track>
           <up>2</up>
@@ -1929,7 +1907,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>902</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="19"/>
+          <Slur type="start" id="18"/>
           <Note>
             <lid>901</lid>
             <pitch>60</pitch>
@@ -1941,7 +1919,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>900</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="19"/>
+          <Slur type="stop" id="18"/>
           <Note>
             <lid>899</lid>
             <pitch>57</pitch>
@@ -2016,7 +1994,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="20">
+        <Slur id="19">
           <lid>1190</lid>
           <track>0</track>
           <up>2</up>
@@ -2024,7 +2002,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>884</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="20"/>
+          <Slur type="start" id="19"/>
           <Note>
             <lid>883</lid>
             <Accidental>
@@ -2040,7 +2018,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>882</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="20"/>
+          <Slur type="stop" id="19"/>
           <Note>
             <lid>881</lid>
             <pitch>62</pitch>
@@ -2210,7 +2188,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="21">
+        <Slur id="20">
           <lid>1189</lid>
           <track>0</track>
           <up>2</up>
@@ -2218,7 +2196,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>852</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="21"/>
+          <Slur type="start" id="20"/>
           <Note>
             <lid>851</lid>
             <pitch>64</pitch>
@@ -2230,7 +2208,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>850</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="21"/>
+          <Slur type="stop" id="20"/>
           <Note>
             <lid>849</lid>
             <Accidental>
@@ -2387,7 +2365,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="22">
+        <Slur id="21">
           <lid>1188</lid>
           <track>0</track>
           <up>2</up>
@@ -2395,7 +2373,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>824</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="22"/>
+          <Slur type="start" id="21"/>
           <Note>
             <lid>823</lid>
             <pitch>66</pitch>
@@ -2407,7 +2385,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>822</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="22"/>
+          <Slur type="stop" id="21"/>
           <Note>
             <lid>821</lid>
             <pitch>62</pitch>
@@ -2534,7 +2512,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="11">
-        <Slur id="23">
+        <Slur id="22">
           <lid>1187</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -2548,7 +2526,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>800</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="23"/>
+          <Slur type="start" id="22"/>
           <acciaccatura/>
           <Note>
             <lid>799</lid>
@@ -2571,7 +2549,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>803</lid>
             </Articulation>
-          <Slur type="stop" id="23"/>
+          <Slur type="stop" id="22"/>
           <Note>
             <lid>1208</lid>
             <Fingering>
@@ -2642,7 +2620,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="24">
+        <Slur id="23">
           <lid>1186</lid>
           <track>0</track>
           <up>2</up>
@@ -2650,7 +2628,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>792</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="24"/>
+          <Slur type="start" id="23"/>
           <Note>
             <lid>791</lid>
             <pitch>59</pitch>
@@ -2662,7 +2640,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>790</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="24"/>
+          <Slur type="stop" id="23"/>
           <Note>
             <lid>789</lid>
             <pitch>57</pitch>
@@ -2792,7 +2770,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Slur id="25">
+        <Slur id="24">
           <lid>1185</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -2803,7 +2781,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>765</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="25"/>
+          <Slur type="start" id="24"/>
           <acciaccatura/>
           <Note>
             <lid>764</lid>
@@ -2826,7 +2804,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>767</lid>
             </Articulation>
-          <Slur type="stop" id="25"/>
+          <Slur type="stop" id="24"/>
           <Note>
             <lid>766</lid>
             <Fingering>
@@ -2856,7 +2834,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="26">
+        <Slur id="25">
           <lid>1184</lid>
           <track>0</track>
           <up>2</up>
@@ -2864,7 +2842,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>761</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="26"/>
+          <Slur type="start" id="25"/>
           <Note>
             <lid>760</lid>
             <pitch>55</pitch>
@@ -2876,7 +2854,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>759</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="26"/>
+          <Slur type="stop" id="25"/>
           <Note>
             <lid>758</lid>
             <pitch>53</pitch>
@@ -2951,7 +2929,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="27">
+        <Slur id="26">
           <lid>1183</lid>
           <track>0</track>
           <up>2</up>
@@ -2959,7 +2937,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>745</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="27"/>
+          <Slur type="start" id="26"/>
           <Note>
             <lid>744</lid>
             <pitch>52</pitch>
@@ -2971,7 +2949,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>743</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="27"/>
+          <Slur type="stop" id="26"/>
           <Note>
             <lid>742</lid>
             <pitch>48</pitch>
@@ -3330,7 +3308,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>12</string>
             </Note>
           </Chord>
-        <Slur id="28">
+        <Slur id="27">
           <lid>1182</lid>
           <track>0</track>
           <up>2</up>
@@ -3338,7 +3316,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>695</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="28"/>
+          <Slur type="start" id="27"/>
           <Note>
             <lid>694</lid>
             <Fingering>
@@ -3355,7 +3333,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>693</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="28"/>
+          <Slur type="stop" id="27"/>
           <Note>
             <lid>692</lid>
             <Fingering>
@@ -3478,7 +3456,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="29">
+        <Slur id="28">
           <lid>1181</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -3489,7 +3467,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>666</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="29"/>
+          <Slur type="start" id="28"/>
           <acciaccatura/>
           <Note>
             <lid>665</lid>
@@ -3512,7 +3490,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>670</lid>
             </Articulation>
-          <Slur type="stop" id="29"/>
+          <Slur type="stop" id="28"/>
           <Note>
             <lid>669</lid>
             <pitch>55</pitch>
@@ -4024,7 +4002,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <durationType>quarter</durationType>
           <Note>
             <lid>594</lid>
-            <Tie id="30">
+            <Tie id="29">
               <lid>4</lid>
               </Tie>
             <pitch>55</pitch>
@@ -4034,7 +4012,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>593</lid>
-            <Tie id="31">
+            <Tie id="30">
               <lid>5</lid>
               </Tie>
             <pitch>59</pitch>
@@ -4044,7 +4022,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>592</lid>
-            <Tie id="32">
+            <Tie id="31">
               <lid>6</lid>
               </Tie>
             <pitch>62</pitch>
@@ -4058,7 +4036,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <durationType>16th</durationType>
           <Note>
             <lid>590</lid>
-            <endSpanner id="30"/>
+            <endSpanner id="29"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>2</fret>
@@ -4066,7 +4044,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>589</lid>
-            <endSpanner id="31"/>
+            <endSpanner id="30"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             <fret>2</fret>
@@ -4074,7 +4052,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>588</lid>
-            <endSpanner id="32"/>
+            <endSpanner id="31"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             <fret>0</fret>
@@ -4136,7 +4114,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="33">
+        <Slur id="32">
           <lid>1180</lid>
           <track>0</track>
           <up>2</up>
@@ -4144,7 +4122,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>577</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="33"/>
+          <Slur type="start" id="32"/>
           <Note>
             <lid>576</lid>
             <pitch>59</pitch>
@@ -4156,7 +4134,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>575</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="33"/>
+          <Slur type="stop" id="32"/>
           <Note>
             <lid>574</lid>
             <pitch>60</pitch>
@@ -4187,7 +4165,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="34">
+        <Slur id="33">
           <lid>1179</lid>
           <track>0</track>
           <up>2</up>
@@ -4195,7 +4173,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>569</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="34"/>
+          <Slur type="start" id="33"/>
           <Note>
             <lid>568</lid>
             <pitch>55</pitch>
@@ -4207,7 +4185,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>567</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="34"/>
+          <Slur type="stop" id="33"/>
           <Note>
             <lid>566</lid>
             <pitch>53</pitch>
@@ -4316,7 +4294,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="35">
+        <Slur id="34">
           <lid>1178</lid>
           <track>0</track>
           <up>2</up>
@@ -4324,7 +4302,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>551</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="35"/>
+          <Slur type="start" id="34"/>
           <Note>
             <lid>550</lid>
             <pitch>64</pitch>
@@ -4336,7 +4314,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>549</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="35"/>
+          <Slur type="stop" id="34"/>
           <Note>
             <lid>548</lid>
             <pitch>65</pitch>
@@ -4389,7 +4367,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="36">
+        <Slur id="35">
           <lid>1177</lid>
           <track>0</track>
           <up>2</up>
@@ -4397,7 +4375,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>537</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="36"/>
+          <Slur type="start" id="35"/>
           <Note>
             <lid>536</lid>
             <Accidental>
@@ -4412,7 +4390,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>535</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="36"/>
+          <Slur type="stop" id="35"/>
           <Note>
             <lid>534</lid>
             <pitch>57</pitch>
@@ -4473,7 +4451,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="20">
-        <Slur id="37">
+        <Slur id="36">
           <lid>1176</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -4485,7 +4463,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <lid>524</lid>
           <offset x="-1" y="0"/>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="37"/>
+          <Slur type="stop" id="36"/>
           <grace8after/>
           <Note>
             <lid>523</lid>
@@ -4498,7 +4476,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>527</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="37"/>
+          <Slur type="start" id="36"/>
           <Note>
             <lid>526</lid>
             <pitch>48</pitch>
@@ -4517,7 +4495,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="38">
+        <Slur id="37">
           <lid>1175</lid>
           <track>0</track>
           <up>2</up>
@@ -4526,7 +4504,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <lid>520</lid>
           <offset x="-1" y="0"/>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="38"/>
+          <Slur type="stop" id="37"/>
           <grace8after/>
           <Note>
             <lid>519</lid>
@@ -4539,7 +4517,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>522</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="38"/>
+          <Slur type="start" id="37"/>
           <Note>
             <lid>521</lid>
             <pitch>55</pitch>
@@ -4658,7 +4636,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="39">
+        <Slur id="38">
           <lid>1174</lid>
           <track>0</track>
           <up>2</up>
@@ -4666,7 +4644,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>496</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="39"/>
+          <Slur type="start" id="38"/>
           <Note>
             <lid>495</lid>
             <pitch>65</pitch>
@@ -4678,7 +4656,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>494</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="39"/>
+          <Slur type="stop" id="38"/>
           <Note>
             <lid>493</lid>
             <pitch>62</pitch>
@@ -4723,7 +4701,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <name>IV.</name>
           <pos x="-3.4" y="-2.6"/>
           </Harmony>
-        <Slur id="40">
+        <Slur id="39">
           <lid>1173</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -4735,7 +4713,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>487</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="40"/>
+          <Slur type="start" id="39"/>
           <appoggiatura/>
           <Note>
             <lid>486</lid>
@@ -4748,7 +4726,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>490</lid>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="40"/>
+          <Slur type="stop" id="39"/>
           <Note>
             <lid>489</lid>
             <pitch>52</pitch>
@@ -4777,14 +4755,14 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <userLen1>3</userLen1>
             </Arpeggio>
           </Chord>
-        <Slur id="41">
+        <Slur id="40">
           <lid>1172</lid>
           <track>0</track>
           </Slur>
         <Chord>
           <lid>483</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="41"/>
+          <Slur type="start" id="40"/>
           <appoggiatura/>
           <Note>
             <lid>482</lid>
@@ -4797,7 +4775,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>485</lid>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="41"/>
+          <Slur type="stop" id="40"/>
           <Note>
             <lid>484</lid>
             <pitch>57</pitch>
@@ -4953,7 +4931,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="42">
+        <Slur id="41">
           <lid>1171</lid>
           <track>0</track>
           <up>2</up>
@@ -4961,7 +4939,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>455</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="42"/>
+          <Slur type="start" id="41"/>
           <Note>
             <lid>454</lid>
             <pitch>64</pitch>
@@ -4973,7 +4951,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>453</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="42"/>
+          <Slur type="stop" id="41"/>
           <Note>
             <lid>452</lid>
             <pitch>62</pitch>
@@ -5140,7 +5118,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="43">
+        <Slur id="42">
           <lid>1170</lid>
           <track>0</track>
           </Slur>
@@ -5150,7 +5128,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>429</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="43"/>
+          <Slur type="start" id="42"/>
           <acciaccatura/>
           <Note>
             <lid>428</lid>
@@ -5169,7 +5147,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>431</lid>
             </Articulation>
           <Beam>2</Beam>
-          <Slur type="stop" id="43"/>
+          <Slur type="stop" id="42"/>
           <Note>
             <lid>430</lid>
             <pitch>49</pitch>
@@ -5217,7 +5195,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="44">
+        <Slur id="43">
           <lid>1169</lid>
           <track>0</track>
           <up>2</up>
@@ -5225,7 +5203,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>419</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="44"/>
+          <Slur type="start" id="43"/>
           <Note>
             <lid>418</lid>
             <pitch>65</pitch>
@@ -5237,7 +5215,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>417</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="44"/>
+          <Slur type="stop" id="43"/>
           <Note>
             <lid>416</lid>
             <pitch>64</pitch>
@@ -5341,7 +5319,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="45">
+        <Slur id="44">
           <lid>1168</lid>
           <track>0</track>
           <up>2</up>
@@ -5349,7 +5327,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>404</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="45"/>
+          <Slur type="start" id="44"/>
           <Note>
             <lid>403</lid>
             <Accidental>
@@ -5364,7 +5342,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>402</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="45"/>
+          <Slur type="stop" id="44"/>
           <Note>
             <lid>401</lid>
             <pitch>57</pitch>
@@ -5395,7 +5373,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>3</string>
             </Note>
           </Chord>
-        <Slur id="46">
+        <Slur id="45">
           <lid>1167</lid>
           <track>0</track>
           <up>2</up>
@@ -5403,7 +5381,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>396</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="46"/>
+          <Slur type="start" id="45"/>
           <Note>
             <lid>395</lid>
             <Accidental>
@@ -5418,7 +5396,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>394</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="46"/>
+          <Slur type="stop" id="45"/>
           <Note>
             <lid>393</lid>
             <pitch>62</pitch>
@@ -5631,7 +5609,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="47">
+        <Slur id="46">
           <lid>1166</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -5642,7 +5620,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>348</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="47"/>
+          <Slur type="start" id="46"/>
           <acciaccatura/>
           <Note>
             <lid>347</lid>
@@ -5665,7 +5643,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>351</lid>
             </Articulation>
-          <Slur type="stop" id="47"/>
+          <Slur type="stop" id="46"/>
           <Note>
             <lid>350</lid>
             <pitch>57</pitch>
@@ -5898,7 +5876,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="48">
+        <Slur id="47">
           <lid>1165</lid>
           <track>0</track>
           <up>2</up>
@@ -5906,7 +5884,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>316</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="48"/>
+          <Slur type="start" id="47"/>
           <Note>
             <lid>315</lid>
             <Symbol>
@@ -5925,7 +5903,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>314</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="48"/>
+          <Slur type="stop" id="47"/>
           <Note>
             <lid>313</lid>
             <pitch>53</pitch>
@@ -6050,7 +6028,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="49">
+        <Slur id="48">
           <lid>1164</lid>
           <track>0</track>
           <up>2</up>
@@ -6058,7 +6036,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>300</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="49"/>
+          <Slur type="start" id="48"/>
           <Note>
             <lid>299</lid>
             <pitch>64</pitch>
@@ -6070,7 +6048,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>298</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="49"/>
+          <Slur type="stop" id="48"/>
           <Note>
             <lid>297</lid>
             <pitch>62</pitch>
@@ -6167,7 +6145,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="50">
+        <Slur id="49">
           <lid>1163</lid>
           <track>0</track>
           <up>2</up>
@@ -6175,7 +6153,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>278</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="50"/>
+          <Slur type="start" id="49"/>
           <Note>
             <lid>277</lid>
             <Accidental>
@@ -6190,7 +6168,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>276</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="50"/>
+          <Slur type="stop" id="49"/>
           <Note>
             <lid>275</lid>
             <pitch>67</pitch>
@@ -6355,7 +6333,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="51">
+        <Slur id="50">
           <lid>1162</lid>
           <track>0</track>
           <SlurSegment no="0">
@@ -6365,7 +6343,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>243</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="51"/>
+          <Slur type="start" id="50"/>
           <acciaccatura/>
           <Note>
             <lid>242</lid>
@@ -6383,7 +6361,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>246</lid>
             </Articulation>
-          <Slur type="stop" id="51"/>
+          <Slur type="stop" id="50"/>
           <Note>
             <lid>245</lid>
             <pitch>62</pitch>
@@ -6491,7 +6469,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <Note>
             <lid>232</lid>
             <Fingering>
-              <lid>2471</lid>
+              <lid>1284</lid>
               <pos x="1.05828" y="-8.44406"/>
               <text>4</text>
               </Fingering>
@@ -6512,7 +6490,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="52">
+        <Slur id="51">
           <lid>1161</lid>
           <track>0</track>
           <up>2</up>
@@ -6520,7 +6498,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>229</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="52"/>
+          <Slur type="start" id="51"/>
           <Note>
             <lid>228</lid>
             <pitch>64</pitch>
@@ -6532,7 +6510,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>227</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="52"/>
+          <Slur type="stop" id="51"/>
           <Note>
             <lid>226</lid>
             <pitch>62</pitch>
@@ -6803,7 +6781,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="53">
+        <Slur id="52">
           <lid>1160</lid>
           <track>0</track>
           <up>2</up>
@@ -6811,7 +6789,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>183</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="53"/>
+          <Slur type="start" id="52"/>
           <Note>
             <lid>182</lid>
             <Symbol>
@@ -6830,7 +6808,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>181</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="53"/>
+          <Slur type="stop" id="52"/>
           <Note>
             <lid>180</lid>
             <pitch>53</pitch>
@@ -7218,7 +7196,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="54">
+        <Slur id="53">
           <lid>1159</lid>
           <track>0</track>
           <up>2</up>
@@ -7226,7 +7204,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>119</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="54"/>
+          <Slur type="start" id="53"/>
           <Note>
             <lid>118</lid>
             <Fingering>
@@ -7243,7 +7221,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>117</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="54"/>
+          <Slur type="stop" id="53"/>
           <Note>
             <lid>116</lid>
             <pitch>57</pitch>
@@ -7420,14 +7398,14 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="55">
+        <Slur id="54">
           <lid>1158</lid>
           <track>0</track>
           </Slur>
         <Chord>
           <lid>92</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="55"/>
+          <Slur type="start" id="54"/>
           <acciaccatura/>
           <Note>
             <lid>91</lid>
@@ -7445,7 +7423,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <subtype>prall</subtype>
             <lid>94</lid>
             </Articulation>
-          <Slur type="stop" id="55"/>
+          <Slur type="stop" id="54"/>
           <Note>
             <lid>93</lid>
             <pitch>67</pitch>
@@ -7551,7 +7529,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="56">
+        <Slur id="55">
           <lid>1157</lid>
           <track>0</track>
           <up>2</up>
@@ -7559,7 +7537,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>76</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="56"/>
+          <Slur type="start" id="55"/>
           <Note>
             <lid>75</lid>
             <Fingering>
@@ -7576,7 +7554,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>74</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="56"/>
+          <Slur type="stop" id="55"/>
           <Note>
             <lid>73</lid>
             <Fingering>
@@ -7720,7 +7698,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="57">
+        <Slur id="56">
           <lid>1156</lid>
           <track>0</track>
           <up>2</up>
@@ -7728,7 +7706,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>54</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="57"/>
+          <Slur type="start" id="56"/>
           <Note>
             <lid>53</lid>
             <Fingering>
@@ -7745,7 +7723,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>52</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="57"/>
+          <Slur type="stop" id="56"/>
           <Note>
             <lid>51</lid>
             <pitch>67</pitch>
@@ -7870,7 +7848,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <durationType>quarter</durationType>
           <Note>
             <lid>1150</lid>
-            <Tie id="58">
+            <Tie id="57">
               <lid>1</lid>
               </Tie>
             <pitch>55</pitch>
@@ -7880,7 +7858,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>1149</lid>
-            <Tie id="59">
+            <Tie id="58">
               <lid>2</lid>
               </Tie>
             <pitch>60</pitch>
@@ -7890,7 +7868,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>1148</lid>
-            <Tie id="60">
+            <Tie id="59">
               <lid>3</lid>
               </Tie>
             <pitch>64</pitch>
@@ -7904,7 +7882,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <durationType>16th</durationType>
           <Note>
             <lid>1146</lid>
-            <endSpanner id="58"/>
+            <endSpanner id="57"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>2</fret>
@@ -7912,7 +7890,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>1145</lid>
-            <endSpanner id="59"/>
+            <endSpanner id="58"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             <fret>3</fret>
@@ -7920,7 +7898,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>1144</lid>
-            <endSpanner id="60"/>
+            <endSpanner id="59"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <fret>2</fret>
@@ -8026,7 +8004,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="61">
+        <Slur id="60">
           <lid>1205</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8036,7 +8014,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1125</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="61"/>
+          <Slur type="start" id="60"/>
           <Note>
             <lid>1124</lid>
             <pitch>64</pitch>
@@ -8048,7 +8026,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1123</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="61"/>
+          <Slur type="stop" id="60"/>
           <Note>
             <lid>1122</lid>
             <pitch>65</pitch>
@@ -8153,7 +8131,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="62">
+        <Slur id="61">
           <lid>1204</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8163,7 +8141,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1107</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="62"/>
+          <Slur type="start" id="61"/>
           <Note>
             <lid>1106</lid>
             <pitch>55</pitch>
@@ -8175,7 +8153,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1105</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="62"/>
+          <Slur type="stop" id="61"/>
           <Note>
             <lid>1104</lid>
             <pitch>53</pitch>
@@ -8228,7 +8206,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="63">
+        <Slur id="62">
           <lid>1203</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8238,7 +8216,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1095</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="63"/>
+          <Slur type="start" id="62"/>
           <Note>
             <lid>1094</lid>
             <pitch>59</pitch>
@@ -8250,7 +8228,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1093</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="63"/>
+          <Slur type="stop" id="62"/>
           <Note>
             <lid>1092</lid>
             <pitch>60</pitch>
@@ -8363,7 +8341,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="64">
+        <Slur id="63">
           <lid>1202</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8373,7 +8351,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1073</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="64"/>
+          <Slur type="start" id="63"/>
           <Note>
             <lid>1072</lid>
             <pitch>59</pitch>
@@ -8385,7 +8363,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1071</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="64"/>
+          <Slur type="stop" id="63"/>
           <Note>
             <lid>1070</lid>
             <pitch>60</pitch>
@@ -8460,7 +8438,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="65">
+        <Slur id="64">
           <lid>1201</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8470,7 +8448,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1057</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="65"/>
+          <Slur type="start" id="64"/>
           <Note>
             <lid>1056</lid>
             <pitch>65</pitch>
@@ -8482,7 +8460,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1055</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="65"/>
+          <Slur type="stop" id="64"/>
           <Note>
             <lid>1054</lid>
             <pitch>62</pitch>
@@ -8593,7 +8571,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="66">
+        <Slur id="65">
           <lid>1200</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8603,7 +8581,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1039</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="66"/>
+          <Slur type="start" id="65"/>
           <Note>
             <lid>1038</lid>
             <pitch>52</pitch>
@@ -8615,7 +8593,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1037</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="66"/>
+          <Slur type="stop" id="65"/>
           <Note>
             <lid>1036</lid>
             <pitch>48</pitch>
@@ -8743,7 +8721,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="67">
+        <Slur id="66">
           <lid>1199</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8753,7 +8731,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1015</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="67"/>
+          <Slur type="start" id="66"/>
           <Note>
             <lid>1014</lid>
             <pitch>65</pitch>
@@ -8765,7 +8743,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>1013</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="67"/>
+          <Slur type="stop" id="66"/>
           <Note>
             <lid>1012</lid>
             <pitch>62</pitch>
@@ -8818,7 +8796,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="68">
+        <Slur id="67">
           <lid>1198</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8827,7 +8805,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <pos x="0" y="-0.6"/>
             </SlurSegment>
           </Slur>
-        <Slur id="69">
+        <Slur id="68">
           <lid>1197</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8839,7 +8817,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>998</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="68"/>
+          <Slur type="start" id="67"/>
           <acciaccatura/>
           <Note>
             <lid>997</lid>
@@ -8863,8 +8841,8 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>1000</lid>
             <pos x="0.75" y="3"/>
             </Articulation>
-          <Slur type="stop" id="68"/>
-          <Slur type="start" id="69"/>
+          <Slur type="stop" id="67"/>
+          <Slur type="start" id="68"/>
           <Note>
             <lid>999</lid>
             <Accidental>
@@ -8897,7 +8875,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="70">
+        <Slur id="69">
           <lid>1196</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -8907,7 +8885,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>994</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="70"/>
+          <Slur type="start" id="69"/>
           <Note>
             <lid>993</lid>
             <pitch>64</pitch>
@@ -8919,7 +8897,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>992</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="70"/>
+          <Slur type="stop" id="69"/>
           <Note>
             <lid>991</lid>
             <pitch>62</pitch>
@@ -9071,16 +9049,6 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <TextLine id="71">
-          <lid>1195</lid>
-          <lineWidth>0.15</lineWidth>
-          <lineStyle>2</lineStyle>
-          <Segment>
-            <subtype>0</subtype>
-            <off2 x="-3.28197" y="0"/>
-            <pos x="80.098" y="-0.47"/>
-            </Segment>
-          </TextLine>
         <Chord>
           <lid>970</lid>
           <durationType>16th</durationType>
@@ -9096,12 +9064,6 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <fret>2</fret>
             <string>5</string>
             </Note>
-          <Arpeggio>
-            <lid>968</lid>
-            <subtype>3</subtype>
-            <userLen1>7.42601</userLen1>
-            <userLen2>0.226543</userLen2>
-            </Arpeggio>
           </Chord>
         <Chord>
           <lid>967</lid>
@@ -9186,7 +9148,6 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="7">
-        <endSpanner id="71"/>
         <Chord>
           <lid>953</lid>
           <durationType>16th</durationType>
@@ -9209,7 +9170,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="72">
+        <Slur id="70">
           <lid>1194</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -9219,7 +9180,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>949</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="72"/>
+          <Slur type="start" id="70"/>
           <Note>
             <lid>948</lid>
             <pitch>57</pitch>
@@ -9231,7 +9192,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>947</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="72"/>
+          <Slur type="stop" id="70"/>
           <Note>
             <lid>946</lid>
             <pitch>59</pitch>
@@ -9355,7 +9316,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="73">
+        <Slur id="71">
           <lid>1193</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -9365,7 +9326,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>927</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="73"/>
+          <Slur type="start" id="71"/>
           <Note>
             <lid>926</lid>
             <pitch>60</pitch>
@@ -9377,7 +9338,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>925</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="73"/>
+          <Slur type="stop" id="71"/>
           <Note>
             <lid>924</lid>
             <pitch>57</pitch>
@@ -9442,7 +9403,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="8">
-        <Slur id="74">
+        <Slur id="72">
           <lid>1192</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -9456,7 +9417,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>912</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="74"/>
+          <Slur type="start" id="72"/>
           <acciaccatura/>
           <Note>
             <lid>911</lid>
@@ -9474,7 +9435,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>916</lid>
             <pos x="0.75" y="1.5"/>
             </Articulation>
-          <Slur type="stop" id="74"/>
+          <Slur type="stop" id="72"/>
           <Note>
             <lid>915</lid>
             <Fingering>
@@ -9556,7 +9517,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>3</string>
             </Note>
           </Chord>
-        <Slur id="75">
+        <Slur id="73">
           <lid>1191</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -9566,7 +9527,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>902</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="75"/>
+          <Slur type="start" id="73"/>
           <Note>
             <lid>901</lid>
             <pitch>60</pitch>
@@ -9578,7 +9539,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>900</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="75"/>
+          <Slur type="stop" id="73"/>
           <Note>
             <lid>899</lid>
             <pitch>57</pitch>
@@ -9653,7 +9614,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="76">
+        <Slur id="74">
           <lid>1190</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -9663,7 +9624,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>884</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="76"/>
+          <Slur type="start" id="74"/>
           <Note>
             <lid>883</lid>
             <Accidental>
@@ -9679,7 +9640,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>882</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="76"/>
+          <Slur type="stop" id="74"/>
           <Note>
             <lid>881</lid>
             <pitch>62</pitch>
@@ -9849,7 +9810,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="77">
+        <Slur id="75">
           <lid>1189</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -9859,7 +9820,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>852</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="77"/>
+          <Slur type="start" id="75"/>
           <Note>
             <lid>851</lid>
             <pitch>64</pitch>
@@ -9871,7 +9832,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>850</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="77"/>
+          <Slur type="stop" id="75"/>
           <Note>
             <lid>849</lid>
             <Accidental>
@@ -10025,7 +9986,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="78">
+        <Slur id="76">
           <lid>1188</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10035,7 +9996,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>824</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="78"/>
+          <Slur type="start" id="76"/>
           <Note>
             <lid>823</lid>
             <pitch>66</pitch>
@@ -10047,7 +10008,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>822</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="78"/>
+          <Slur type="stop" id="76"/>
           <Note>
             <lid>821</lid>
             <pitch>62</pitch>
@@ -10170,7 +10131,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="11">
-        <Slur id="79">
+        <Slur id="77">
           <lid>1187</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10184,7 +10145,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>800</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="79"/>
+          <Slur type="start" id="77"/>
           <acciaccatura/>
           <Note>
             <lid>799</lid>
@@ -10208,7 +10169,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>803</lid>
             <pos x="0.75" y="1.5"/>
             </Articulation>
-          <Slur type="stop" id="79"/>
+          <Slur type="stop" id="77"/>
           <Note>
             <lid>1208</lid>
             <Fingering>
@@ -10279,7 +10240,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="80">
+        <Slur id="78">
           <lid>1186</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10289,7 +10250,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>792</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="80"/>
+          <Slur type="start" id="78"/>
           <Note>
             <lid>791</lid>
             <pitch>59</pitch>
@@ -10301,7 +10262,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>790</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="80"/>
+          <Slur type="stop" id="78"/>
           <Note>
             <lid>789</lid>
             <pitch>57</pitch>
@@ -10428,7 +10389,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="12">
-        <Slur id="81">
+        <Slur id="79">
           <lid>1185</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10440,7 +10401,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>765</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="81"/>
+          <Slur type="start" id="79"/>
           <acciaccatura/>
           <Note>
             <lid>764</lid>
@@ -10464,7 +10425,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>767</lid>
             <pos x="0.75" y="4.5"/>
             </Articulation>
-          <Slur type="stop" id="81"/>
+          <Slur type="stop" id="79"/>
           <Note>
             <lid>766</lid>
             <Fingering>
@@ -10494,7 +10455,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="82">
+        <Slur id="80">
           <lid>1184</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10504,7 +10465,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>761</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="82"/>
+          <Slur type="start" id="80"/>
           <Note>
             <lid>760</lid>
             <pitch>55</pitch>
@@ -10516,7 +10477,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>759</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="82"/>
+          <Slur type="stop" id="80"/>
           <Note>
             <lid>758</lid>
             <pitch>53</pitch>
@@ -10591,7 +10552,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="83">
+        <Slur id="81">
           <lid>1183</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10601,7 +10562,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>745</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="83"/>
+          <Slur type="start" id="81"/>
           <Note>
             <lid>744</lid>
             <pitch>52</pitch>
@@ -10613,7 +10574,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>743</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="83"/>
+          <Slur type="stop" id="81"/>
           <Note>
             <lid>742</lid>
             <pitch>48</pitch>
@@ -10689,7 +10650,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>732</lid>
             <Fingering>
               <lid>1227</lid>
-              <pos x="0.658281" y="-2.20188"/>
+              <pos x="0.658281" y="-2.10188"/>
               <text>2</text>
               </Fingering>
             <pitch>50</pitch>
@@ -10969,7 +10930,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>12</string>
             </Note>
           </Chord>
-        <Slur id="84">
+        <Slur id="82">
           <lid>1182</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -10979,7 +10940,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>695</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="84"/>
+          <Slur type="start" id="82"/>
           <Note>
             <lid>694</lid>
             <Fingering>
@@ -10996,7 +10957,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>693</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="84"/>
+          <Slur type="stop" id="82"/>
           <Note>
             <lid>692</lid>
             <Fingering>
@@ -11119,7 +11080,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="85">
+        <Slur id="83">
           <lid>1181</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -11132,7 +11093,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>666</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="85"/>
+          <Slur type="start" id="83"/>
           <acciaccatura/>
           <Note>
             <lid>665</lid>
@@ -11156,7 +11117,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>670</lid>
             <pos x="0.75" y="1.77636e-16"/>
             </Articulation>
-          <Slur type="stop" id="85"/>
+          <Slur type="stop" id="83"/>
           <Note>
             <lid>669</lid>
             <pitch>55</pitch>
@@ -11652,7 +11613,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <durationType>quarter</durationType>
           <Note>
             <lid>594</lid>
-            <Tie id="86">
+            <Tie id="84">
               <lid>4</lid>
               </Tie>
             <pitch>55</pitch>
@@ -11662,7 +11623,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>593</lid>
-            <Tie id="87">
+            <Tie id="85">
               <lid>5</lid>
               </Tie>
             <pitch>59</pitch>
@@ -11672,7 +11633,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>592</lid>
-            <Tie id="88">
+            <Tie id="86">
               <lid>6</lid>
               </Tie>
             <pitch>62</pitch>
@@ -11686,7 +11647,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <durationType>16th</durationType>
           <Note>
             <lid>590</lid>
-            <endSpanner id="86"/>
+            <endSpanner id="84"/>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>2</fret>
@@ -11694,7 +11655,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>589</lid>
-            <endSpanner id="87"/>
+            <endSpanner id="85"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             <fret>2</fret>
@@ -11702,7 +11663,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </Note>
           <Note>
             <lid>588</lid>
-            <endSpanner id="88"/>
+            <endSpanner id="86"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             <fret>0</fret>
@@ -11764,7 +11725,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="89">
+        <Slur id="87">
           <lid>1180</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -11774,7 +11735,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>577</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="89"/>
+          <Slur type="start" id="87"/>
           <Note>
             <lid>576</lid>
             <pitch>59</pitch>
@@ -11786,7 +11747,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>575</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="89"/>
+          <Slur type="stop" id="87"/>
           <Note>
             <lid>574</lid>
             <pitch>60</pitch>
@@ -11817,7 +11778,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="90">
+        <Slur id="88">
           <lid>1179</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -11827,7 +11788,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>569</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="90"/>
+          <Slur type="start" id="88"/>
           <Note>
             <lid>568</lid>
             <pitch>55</pitch>
@@ -11839,7 +11800,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>567</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="90"/>
+          <Slur type="stop" id="88"/>
           <Note>
             <lid>566</lid>
             <pitch>53</pitch>
@@ -11944,7 +11905,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="91">
+        <Slur id="89">
           <lid>1178</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -11954,7 +11915,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>551</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="91"/>
+          <Slur type="start" id="89"/>
           <Note>
             <lid>550</lid>
             <pitch>64</pitch>
@@ -11966,7 +11927,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>549</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="91"/>
+          <Slur type="stop" id="89"/>
           <Note>
             <lid>548</lid>
             <pitch>65</pitch>
@@ -12019,7 +11980,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="92">
+        <Slur id="90">
           <lid>1177</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12029,7 +11990,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>537</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="92"/>
+          <Slur type="start" id="90"/>
           <Note>
             <lid>536</lid>
             <Accidental>
@@ -12044,7 +12005,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>535</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="92"/>
+          <Slur type="stop" id="90"/>
           <Note>
             <lid>534</lid>
             <pitch>57</pitch>
@@ -12105,7 +12066,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="20">
-        <Slur id="93">
+        <Slur id="91">
           <lid>1176</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12116,7 +12077,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <lid>524</lid>
           <offset x="-1.5" y="0"/>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="93"/>
+          <Slur type="stop" id="91"/>
           <grace8after/>
           <Note>
             <lid>523</lid>
@@ -12129,7 +12090,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>527</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="93"/>
+          <Slur type="start" id="91"/>
           <Note>
             <lid>526</lid>
             <pitch>48</pitch>
@@ -12145,7 +12106,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="94">
+        <Slur id="92">
           <lid>1175</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12156,7 +12117,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <lid>520</lid>
           <offset x="-1.5" y="0"/>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="94"/>
+          <Slur type="stop" id="92"/>
           <grace8after/>
           <Note>
             <lid>519</lid>
@@ -12169,7 +12130,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>522</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="94"/>
+          <Slur type="start" id="92"/>
           <Note>
             <lid>521</lid>
             <pitch>55</pitch>
@@ -12288,7 +12249,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="95">
+        <Slur id="93">
           <lid>1174</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12298,7 +12259,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>496</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="95"/>
+          <Slur type="start" id="93"/>
           <Note>
             <lid>495</lid>
             <pitch>65</pitch>
@@ -12310,7 +12271,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>494</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="95"/>
+          <Slur type="stop" id="93"/>
           <Note>
             <lid>493</lid>
             <pitch>62</pitch>
@@ -12348,7 +12309,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Chord>
         </Measure>
       <Measure number="21">
-        <Slur id="96">
+        <Slur id="94">
           <lid>1173</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12359,7 +12320,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>487</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="96"/>
+          <Slur type="start" id="94"/>
           <appoggiatura/>
           <Note>
             <lid>486</lid>
@@ -12372,7 +12333,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>490</lid>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="96"/>
+          <Slur type="stop" id="94"/>
           <Note>
             <lid>489</lid>
             <pitch>52</pitch>
@@ -12401,7 +12362,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <userLen1>2</userLen1>
             </Arpeggio>
           </Chord>
-        <Slur id="97">
+        <Slur id="95">
           <lid>1172</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12412,7 +12373,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>483</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="97"/>
+          <Slur type="start" id="95"/>
           <appoggiatura/>
           <Note>
             <lid>482</lid>
@@ -12425,7 +12386,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>485</lid>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="97"/>
+          <Slur type="stop" id="95"/>
           <Note>
             <lid>484</lid>
             <pitch>57</pitch>
@@ -12581,7 +12542,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="98">
+        <Slur id="96">
           <lid>1171</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12591,7 +12552,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>455</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="98"/>
+          <Slur type="start" id="96"/>
           <Note>
             <lid>454</lid>
             <pitch>64</pitch>
@@ -12603,7 +12564,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>453</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="98"/>
+          <Slur type="stop" id="96"/>
           <Note>
             <lid>452</lid>
             <pitch>62</pitch>
@@ -12767,7 +12728,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="99">
+        <Slur id="97">
           <lid>1170</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12779,7 +12740,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>429</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="99"/>
+          <Slur type="start" id="97"/>
           <acciaccatura/>
           <Note>
             <lid>428</lid>
@@ -12798,7 +12759,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>431</lid>
             <pos x="0.75" y="4.4"/>
             </Articulation>
-          <Slur type="stop" id="99"/>
+          <Slur type="stop" id="97"/>
           <Note>
             <lid>430</lid>
             <pitch>49</pitch>
@@ -12845,7 +12806,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="100">
+        <Slur id="98">
           <lid>1169</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12855,7 +12816,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>419</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="100"/>
+          <Slur type="start" id="98"/>
           <Note>
             <lid>418</lid>
             <pitch>65</pitch>
@@ -12867,7 +12828,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>417</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="100"/>
+          <Slur type="stop" id="98"/>
           <Note>
             <lid>416</lid>
             <pitch>64</pitch>
@@ -12964,7 +12925,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="101">
+        <Slur id="99">
           <lid>1168</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -12974,7 +12935,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>404</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="101"/>
+          <Slur type="start" id="99"/>
           <Note>
             <lid>403</lid>
             <Accidental>
@@ -12989,7 +12950,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>402</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="101"/>
+          <Slur type="stop" id="99"/>
           <Note>
             <lid>401</lid>
             <pitch>57</pitch>
@@ -13020,7 +12981,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>3</string>
             </Note>
           </Chord>
-        <Slur id="102">
+        <Slur id="100">
           <lid>1167</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -13030,7 +12991,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>396</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="102"/>
+          <Slur type="start" id="100"/>
           <Note>
             <lid>395</lid>
             <Accidental>
@@ -13045,7 +13006,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>394</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="102"/>
+          <Slur type="stop" id="100"/>
           <Note>
             <lid>393</lid>
             <pitch>62</pitch>
@@ -13252,7 +13213,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="103">
+        <Slur id="101">
           <lid>1166</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -13266,7 +13227,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>348</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="103"/>
+          <Slur type="start" id="101"/>
           <acciaccatura/>
           <Note>
             <lid>347</lid>
@@ -13290,7 +13251,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>351</lid>
             <pos x="0.75" y="1.77636e-16"/>
             </Articulation>
-          <Slur type="stop" id="103"/>
+          <Slur type="stop" id="101"/>
           <Note>
             <lid>350</lid>
             <pitch>57</pitch>
@@ -13516,7 +13477,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>2</string>
             </Note>
           </Chord>
-        <Slur id="104">
+        <Slur id="102">
           <lid>1165</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -13526,7 +13487,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>316</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="104"/>
+          <Slur type="start" id="102"/>
           <Note>
             <lid>315</lid>
             <Symbol>
@@ -13544,7 +13505,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>314</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="104"/>
+          <Slur type="stop" id="102"/>
           <Note>
             <lid>313</lid>
             <pitch>53</pitch>
@@ -13666,7 +13627,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="105">
+        <Slur id="103">
           <lid>1164</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -13676,7 +13637,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>300</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="105"/>
+          <Slur type="start" id="103"/>
           <Note>
             <lid>299</lid>
             <pitch>64</pitch>
@@ -13688,7 +13649,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>298</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="105"/>
+          <Slur type="stop" id="103"/>
           <Note>
             <lid>297</lid>
             <pitch>62</pitch>
@@ -13785,7 +13746,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="106">
+        <Slur id="104">
           <lid>1163</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -13795,7 +13756,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>278</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="106"/>
+          <Slur type="start" id="104"/>
           <Note>
             <lid>277</lid>
             <Accidental>
@@ -13810,7 +13771,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>276</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="106"/>
+          <Slur type="stop" id="104"/>
           <Note>
             <lid>275</lid>
             <pitch>67</pitch>
@@ -13972,7 +13933,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="107">
+        <Slur id="105">
           <lid>1162</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -13985,7 +13946,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>243</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="107"/>
+          <Slur type="start" id="105"/>
           <acciaccatura/>
           <Note>
             <lid>242</lid>
@@ -14002,9 +13963,9 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <Articulation>
             <subtype>prall</subtype>
             <lid>246</lid>
-            <pos x="-0.55" y="-1"/>
+            <pos x="-0.55" y="-0.95"/>
             </Articulation>
-          <Slur type="stop" id="107"/>
+          <Slur type="stop" id="105"/>
           <Note>
             <lid>245</lid>
             <pitch>62</pitch>
@@ -14112,7 +14073,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           <Note>
             <lid>232</lid>
             <Fingering>
-              <lid>2471</lid>
+              <lid>1284</lid>
               <pos x="0.658281" y="-2.10188"/>
               <text>4</text>
               </Fingering>
@@ -14133,7 +14094,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="108">
+        <Slur id="106">
           <lid>1161</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -14143,7 +14104,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>229</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="108"/>
+          <Slur type="start" id="106"/>
           <Note>
             <lid>228</lid>
             <pitch>64</pitch>
@@ -14155,7 +14116,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>227</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="108"/>
+          <Slur type="stop" id="106"/>
           <Note>
             <lid>226</lid>
             <pitch>62</pitch>
@@ -14423,7 +14384,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="109">
+        <Slur id="107">
           <lid>1160</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -14433,7 +14394,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>183</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="109"/>
+          <Slur type="start" id="107"/>
           <Note>
             <lid>182</lid>
             <Symbol>
@@ -14451,7 +14412,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>181</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="109"/>
+          <Slur type="stop" id="107"/>
           <Note>
             <lid>180</lid>
             <pitch>53</pitch>
@@ -14834,7 +14795,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>1</string>
             </Note>
           </Chord>
-        <Slur id="110">
+        <Slur id="108">
           <lid>1159</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -14844,7 +14805,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>119</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="110"/>
+          <Slur type="start" id="108"/>
           <Note>
             <lid>118</lid>
             <Fingering>
@@ -14861,7 +14822,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>117</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="110"/>
+          <Slur type="stop" id="108"/>
           <Note>
             <lid>116</lid>
             <pitch>57</pitch>
@@ -15034,7 +14995,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="111">
+        <Slur id="109">
           <lid>1158</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -15046,7 +15007,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>92</lid>
           <durationType>eighth</durationType>
-          <Slur type="start" id="111"/>
+          <Slur type="start" id="109"/>
           <acciaccatura/>
           <Note>
             <lid>91</lid>
@@ -15065,7 +15026,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <lid>94</lid>
             <pos x="0.75" y="1"/>
             </Articulation>
-          <Slur type="stop" id="111"/>
+          <Slur type="stop" id="109"/>
           <Note>
             <lid>93</lid>
             <pitch>67</pitch>
@@ -15171,7 +15132,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>4</string>
             </Note>
           </Chord>
-        <Slur id="112">
+        <Slur id="110">
           <lid>1157</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -15181,7 +15142,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>76</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="112"/>
+          <Slur type="start" id="110"/>
           <Note>
             <lid>75</lid>
             <Fingering>
@@ -15198,7 +15159,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>74</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="112"/>
+          <Slur type="stop" id="110"/>
           <Note>
             <lid>73</lid>
             <Fingering>
@@ -15342,7 +15303,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <string>0</string>
             </Note>
           </Chord>
-        <Slur id="113">
+        <Slur id="111">
           <lid>1156</lid>
           <track>4</track>
           <SlurSegment no="0">
@@ -15352,7 +15313,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>54</lid>
           <durationType>16th</durationType>
-          <Slur type="start" id="113"/>
+          <Slur type="start" id="111"/>
           <Note>
             <lid>53</lid>
             <Fingering>
@@ -15369,7 +15330,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <Chord>
           <lid>52</lid>
           <durationType>16th</durationType>
-          <Slur type="stop" id="113"/>
+          <Slur type="stop" id="111"/>
           <Note>
             <lid>51</lid>
             <pitch>67</pitch>
