@@ -6395,12 +6395,8 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <color r="255" g="0" b="255" a="255"/>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>7</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
@@ -6431,7 +6427,6 @@
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
-                <color r="255" g="0" b="255" a="255"/>
                 </Accidental>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -7228,7 +7223,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>2</fret>
@@ -7238,7 +7232,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>3</fret>
@@ -7248,7 +7241,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -7607,6 +7599,16 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -7625,6 +7627,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -7812,7 +7821,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>3</fret>
@@ -7821,6 +7829,16 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -7845,8 +7863,14 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
@@ -8938,7 +8962,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalFlat</subtype>
@@ -9233,7 +9256,6 @@
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                <color r="255" g="0" b="255" a="255"/>
                 </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -9437,7 +9459,6 @@
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                <color r="255" g="0" b="255" a="255"/>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -10978,7 +10999,7 @@
             <durationType>16th</durationType>
             </Rest>
           <Beam>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
@@ -10992,9 +11013,12 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="255" a="255"/>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
+              <color r="0" g="0" b="255" a="255"/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               <fret>2</fret>
               <string>0</string>
               </Note>
@@ -11002,6 +11026,10 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
