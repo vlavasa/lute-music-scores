@@ -214,8 +214,9 @@
             </Chord>
           <FiguredBass>
             <ticks>3/8</ticks>
-            <offset x="0" y="1.49991"/>
-            <offset x="0" y="1.49991"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
+            <offset x="0" y="2.5"/>
             <text>7 6</text>
             </FiguredBass>
           <Chord>
@@ -223,6 +224,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -270,14 +273,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <FiguredBass>
-            <ticks>1/8</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>6</digit>
-              </FiguredBassItem>
-            <offset x="0" y="1.49991"/>
-            </FiguredBass>
           <Rest>
             <offset x="0" y="2"/>
             <durationType>eighth</durationType>
@@ -355,6 +350,15 @@
         </Measure>
       <Measure>
         <voice>
+          <FiguredBass>
+            <ticks>1/8</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              </FiguredBassItem>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
+            </FiguredBass>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -377,6 +381,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <Accidental>
@@ -470,6 +476,8 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <pitch>65</pitch>
@@ -511,6 +519,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -574,7 +584,8 @@
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
               </FiguredBassItem>
-            <offset x="0" y="1.49991"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
             </FiguredBass>
           <Chord>
             <durationType>quarter</durationType>
@@ -654,7 +665,8 @@
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
               </FiguredBassItem>
-            <offset x="0" y="1.49991"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
             </FiguredBass>
           <Chord>
             <durationType>eighth</durationType>
@@ -676,6 +688,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -814,6 +828,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -916,6 +932,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1002,7 +1020,8 @@
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>4</digit>
               </FiguredBassItem>
-            <offset x="0" y="1.5"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
             </FiguredBass>
           <location>
             <fractions>1/8</fractions>
@@ -1024,7 +1043,8 @@
               <prefix>4</prefix>
               <digit>3</digit>
               </FiguredBassItem>
-            <offset x="0" y="1.5"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
             </FiguredBass>
           <Chord>
             <durationType>eighth</durationType>
@@ -1416,6 +1436,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <pitch>64</pitch>
@@ -1552,6 +1574,7 @@
         <startRepeat/>
         <Marker>
           <style>Repeat Text Left</style>
+          <placement>below</placement>
           <offset x="6" y="-2"/>
           <text><sym>segno</sym></text>
           <label>segno</label>
@@ -1712,6 +1735,8 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <pitch>64</pitch>
@@ -1871,13 +1896,16 @@
               <prefix>4</prefix>
               <digit>3</digit>
               </FiguredBassItem>
-            <offset x="0" y="1.5"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
             </FiguredBass>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1925,6 +1953,7 @@
         <endRepeat>2</endRepeat>
         <Marker>
           <style>Repeat Text Left</style>
+          <placement>below</placement>
           <offset x="2" y="-2"/>
           <text><sym>segno</sym></text>
           <label>segno</label>
@@ -2026,13 +2055,16 @@
               <prefix>4</prefix>
               <digit>3</digit>
               </FiguredBassItem>
-            <offset x="0" y="1.5"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
             </FiguredBass>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <Accidental>
@@ -2094,6 +2126,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <pitch>57</pitch>
@@ -2143,6 +2177,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -2265,8 +2301,9 @@
             </Chord>
           <FiguredBass>
             <ticks>3/8</ticks>
-            <offset x="0" y="1.5"/>
-            <offset x="0" y="1.5"/>
+            <autoplace>0</autoplace>
+            <offset x="0" y="2.5"/>
+            <offset x="0" y="2.5"/>
             <text>7 6</text>
             </FiguredBass>
           <Chord>
@@ -2274,6 +2311,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -2418,6 +2457,8 @@
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>ornamentTrill</subtype>
+              <autoplace>0</autoplace>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <Accidental>
