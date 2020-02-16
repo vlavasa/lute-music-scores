@@ -851,10 +851,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -1590,11 +1588,9 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <linkedMain/>
                 </Slur>
               <next>
                 <location>
@@ -1603,7 +1599,6 @@
                 </next>
               </Spanner>
             <Note>
-              <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -2896,10 +2891,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -3771,10 +3764,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Note>
-              <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -4633,10 +4624,8 @@
         <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Note>
-              <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -5077,6 +5066,16 @@
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -5088,6 +5087,13 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -5859,10 +5865,8 @@
         <stretch>0.8</stretch>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Note>
-              <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -7008,10 +7012,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -9164,12 +9166,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>eighth</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -10021,13 +10019,9 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <linked>
-                  </linked>
                 <up>down</up>
                 </Slur>
               <next>
@@ -10037,8 +10031,6 @@
                 </next>
               </Spanner>
             <Note>
-              <linked>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -11535,12 +11527,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -12541,12 +12529,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -13534,12 +13518,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -14049,6 +14029,18 @@
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -14062,6 +14054,13 @@
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <prev>
                 <location>
@@ -14951,12 +14950,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>16th</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -16289,12 +16284,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
-              <linked>
-                </linked>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
