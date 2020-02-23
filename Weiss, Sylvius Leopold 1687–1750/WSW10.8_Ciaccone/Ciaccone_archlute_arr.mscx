@@ -128,10 +128,6 @@
             <concertClefType>G8vb</concertClefType>
             <transposingClefType>G8vb</transposingClefType>
             </Clef>
-          <KeySig>
-            <linkedMain/>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <linkedMain/>
             <sigN>3</sigN>
@@ -830,10 +826,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
-              <linkedMain/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -1569,11 +1563,9 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <linkedMain/>
                 </Slur>
               <next>
                 <location>
@@ -1582,7 +1574,6 @@
                 </next>
               </Spanner>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2875,10 +2866,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>4</fret>
@@ -3750,10 +3739,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -4612,10 +4599,8 @@
         <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -5854,10 +5839,8 @@
         <stretch>0.8</stretch>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>16th</durationType>
             <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -7003,10 +6986,8 @@
       <Measure>
         <voice>
           <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
-              <linkedMain/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -8354,11 +8335,15 @@
       <currentLayer>0</currentLayer>
       <Division>480</Division>
       <Style>
-        <pageWidth>8.27</pageWidth>
-        <pageHeight>11.69</pageHeight>
-        <pagePrintableWidth>7.4826</pagePrintableWidth>
+        <pageWidth>8.27008</pageWidth>
+        <pageHeight>11.6902</pageHeight>
+        <pagePrintableWidth>7.48268</pagePrintableWidth>
+        <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
+        <pageOddBottomMargin>0.393701</pageOddBottomMargin>
+        <staffUpperBorder>0</staffUpperBorder>
+        <staffLowerBorder>0</staffLowerBorder>
         <createMultiMeasureRests>1</createMultiMeasureRests>
-        <Spatium>1.76389</Spatium>
+        <Spatium>1.764</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
       <showUnprintable>1</showUnprintable>
@@ -8388,7 +8373,6 @@
             <stemsThrough>0</stemsThrough>
             <upsideDown>0</upsideDown>
             <useNumbers>0</useNumbers>
-            <showBackTied>0</showBackTied>
             </StaffType>
           </Staff>
         <trackName>Arciloutna</trackName>
@@ -8485,11 +8469,6 @@
           </VBox>
         <Measure>
           <voice>
-            <KeySig>
-              <linked>
-                </linked>
-              <accidental>0</accidental>
-              </KeySig>
             <TimeSig>
               <linked>
                 </linked>
@@ -8517,6 +8496,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -8561,6 +8544,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -8635,7 +8622,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -8722,7 +8709,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -8741,6 +8728,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -8833,6 +8824,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8867,7 +8862,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -9014,6 +9009,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9027,6 +9026,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9040,6 +9043,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9083,7 +9090,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="7"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -9152,6 +9159,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9159,6 +9170,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -9265,6 +9279,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9306,12 +9324,8 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>eighth</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <fret>2</fret>
@@ -9378,6 +9392,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -9619,6 +9637,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9632,6 +9654,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9645,6 +9671,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9673,7 +9703,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="7"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -9853,6 +9883,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9866,6 +9900,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9879,6 +9917,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9940,7 +9982,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="7"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -9996,6 +10038,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10003,6 +10049,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -10032,6 +10081,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -10116,7 +10169,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -10138,6 +10191,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10173,13 +10230,13 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>16th</durationType>
               <Spanner type="Slur">
                 <Slur>
-                  <linked>
-                    </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -10188,8 +10245,6 @@
                   </next>
                 </Spanner>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -10328,6 +10383,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -10741,6 +10800,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10817,6 +10880,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -10985,6 +11052,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11029,6 +11100,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11099,6 +11174,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11167,6 +11246,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11180,6 +11263,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11193,6 +11280,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11227,6 +11318,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11336,6 +11431,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11417,6 +11516,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11424,6 +11527,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -11505,6 +11611,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11575,6 +11685,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11648,6 +11762,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11683,12 +11801,8 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>quarter</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>52</pitch>
                 <tpc>18</tpc>
                 <fret>4</fret>
@@ -11703,6 +11817,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11747,6 +11865,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -11813,7 +11935,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -12032,6 +12154,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -12087,6 +12213,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12113,7 +12243,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -12159,7 +12289,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -12360,6 +12490,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12373,6 +12507,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12386,6 +12524,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12429,7 +12571,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -12498,6 +12640,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12505,6 +12651,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -12560,6 +12709,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -12644,7 +12797,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -12666,6 +12819,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12701,12 +12858,8 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>16th</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -12823,6 +12976,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12899,6 +13056,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -13015,6 +13176,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -13125,6 +13290,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13281,6 +13450,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -13368,6 +13541,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -13425,6 +13602,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -13493,6 +13674,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13506,6 +13691,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13519,6 +13708,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13526,6 +13719,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -13555,6 +13751,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -13639,7 +13839,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -13661,6 +13861,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13696,12 +13900,8 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>16th</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -13833,6 +14033,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14203,6 +14407,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14214,6 +14422,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14392,6 +14604,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14436,6 +14652,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14654,6 +14874,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -14667,6 +14891,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -14680,6 +14908,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -14779,6 +15011,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14886,6 +15122,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -14893,6 +15133,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -14948,6 +15191,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -14992,6 +15239,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -15076,7 +15327,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -15098,6 +15349,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -15133,12 +15388,8 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>16th</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -15662,6 +15913,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16020,6 +16275,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16033,6 +16292,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16046,6 +16309,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16234,6 +16501,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16241,6 +16512,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -16429,6 +16703,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16477,12 +16755,8 @@
         <Measure>
           <voice>
             <Chord>
-              <linked>
-                </linked>
               <durationType>quarter</durationType>
               <Note>
-                <linked>
-                  </linked>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <fret>2</fret>
@@ -16497,6 +16771,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -16541,6 +16819,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -16615,7 +16897,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -16702,7 +16984,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -16721,6 +17003,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -16813,6 +17099,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -16847,7 +17137,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -16994,6 +17284,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17007,6 +17301,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17020,6 +17318,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17063,7 +17365,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="7"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -17132,6 +17434,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17139,6 +17445,9 @@
                   <Tie>
                     <linked>
                       </linked>
+                    <TieSegment no="0">
+                      <offset x="0" y="-0.5"/>
+                      </TieSegment>
                     </Tie>
                   <next>
                     <location>
@@ -17196,7 +17505,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -17247,6 +17556,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17295,6 +17608,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -17391,6 +17708,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -17444,6 +17765,10 @@
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17461,6 +17786,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -17525,6 +17854,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -17595,6 +17928,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -17665,6 +18002,10 @@
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.499969"/>
+                    </SlurSegment>
+                  <up>down</up>
                   </Slur>
                 <next>
                   <location>
@@ -17777,7 +18118,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -17867,6 +18208,10 @@
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <offset x="0" y="1"/>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -17889,7 +18234,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.99956"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -17943,7 +18288,7 @@
                 <minDistance>-999</minDistance>
                 <linked>
                   </linked>
-                <offset x="0" y="6.5"/>
+                <offset x="0" y="6.49959"/>
                 </Articulation>
               <Note>
                 <linked>
