@@ -9348,7 +9348,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -9389,13 +9389,6 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.8</userLen>
@@ -9411,6 +9404,13 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.8</userLen>
@@ -9419,8 +9419,8 @@
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Beam>
@@ -18211,7 +18211,7 @@
                   </Slur>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <fractions>3/16</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -18249,13 +18249,6 @@
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Spanner type="Slur">
-                <prev>
-                  <location>
-                    <fractions>-1/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -18269,13 +18262,20 @@
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-3/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
