@@ -538,6 +538,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -856,6 +862,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -1747,6 +1759,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -2450,6 +2468,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -3884,6 +3908,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -4342,6 +4372,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -4907,8 +4943,8 @@
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -4941,17 +4977,23 @@
               </Stem>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="2.5"/>
+                </Symbol>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>5</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -5028,10 +5070,16 @@
               </Stem>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="2.5"/>
+                </Symbol>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>5</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             </Chord>
           <Beam>
@@ -5049,10 +5097,16 @@
                 <role>1</role>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>56</pitch>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="2.5"/>
+                </Symbol>
+              <pitch>44</pitch>
               <tpc>10</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>1</fret>
+              <string>5</string>
               </Note>
             </Chord>
           <Chord>
@@ -5446,6 +5500,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -5931,21 +5991,6 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Stem>
-              <offset x="0" y="-0.5"/>
-              <userLen>-0.5</userLen>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
@@ -5965,9 +6010,9 @@
               </Stem>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
               <string>4</string>
               </Note>
             </Chord>
@@ -5981,6 +6026,21 @@
                   </location>
                 </prev>
               </Spanner>
+            <Stem>
+              <offset x="0" y="-0.5"/>
+              <userLen>-0.5</userLen>
+              </Stem>
+            <Note>
+              <linkedMain/>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -6155,6 +6215,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -7659,6 +7725,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -8341,10 +8413,10 @@
               </Stem>
             <Note>
               <linkedMain/>
-              <pitch>44</pitch>
+              <pitch>56</pitch>
               <tpc>10</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -8410,10 +8482,10 @@
               </Stem>
             <Note>
               <linkedMain/>
-              <pitch>34</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -8853,6 +8925,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -9175,6 +9253,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -9514,6 +9598,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>29</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -9756,6 +9846,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -9840,6 +9936,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>31</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -9896,6 +9998,18 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0.5" y="1.5"/>
+                </Symbol>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-0.5" y="1.5"/>
+                </Symbol>
               <pitch>32</pitch>
               <tpc>10</tpc>
               <fret>0</fret>
@@ -9933,6 +10047,12 @@
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="1.5"/>
+                </Symbol>
               <pitch>34</pitch>
               <tpc>12</tpc>
               <fret>0</fret>
@@ -9987,6 +10107,13 @@
               <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -10500,6 +10627,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -10793,6 +10927,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -11559,6 +11700,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -12166,6 +12314,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -13414,6 +13569,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -13817,6 +13979,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -14302,8 +14471,8 @@
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14330,18 +14499,25 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>58</pitch>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
+                <pitch>46</pitch>
                 <tpc>12</tpc>
-                <fret>5</fret>
-                <string>3</string>
+                <fret>3</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <fret>5</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14406,10 +14582,17 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>58</pitch>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
+                <pitch>46</pitch>
                 <tpc>12</tpc>
-                <fret>5</fret>
-                <string>3</string>
+                <fret>3</fret>
+                <string>5</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14423,10 +14606,17 @@
                   <role>1</role>
                   <subtype>accidentalFlat</subtype>
                   </Accidental>
-                <pitch>56</pitch>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
+                <pitch>44</pitch>
                 <tpc>10</tpc>
-                <fret>3</fret>
-                <string>3</string>
+                <fret>1</fret>
+                <string>5</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14771,6 +14961,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -15188,19 +15385,6 @@
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
-                <fret>0</fret>
-                <string>4</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>16th</durationType>
               <Spanner type="Slur">
                 <Slur>
                   <linked>
@@ -15215,9 +15399,9 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>51</pitch>
-                <tpc>11</tpc>
-                <fret>3</fret>
+                <pitch>48</pitch>
+                <tpc>14</tpc>
+                <fret>0</fret>
                 <string>4</string>
                 </Note>
               </Chord>
@@ -15232,6 +15416,19 @@
                     </location>
                   </prev>
                 </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>51</pitch>
+                <tpc>11</tpc>
+                <fret>3</fret>
+                <string>4</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>16th</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -15377,6 +15574,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -16667,6 +16871,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -17255,10 +17466,10 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>44</pitch>
+                <pitch>56</pitch>
                 <tpc>10</tpc>
-                <fret>1</fret>
-                <string>5</string>
+                <fret>3</fret>
+                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -17315,10 +17526,10 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>34</pitch>
+                <pitch>46</pitch>
                 <tpc>12</tpc>
-                <fret>0</fret>
-                <string>10</string>
+                <fret>3</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
@@ -17722,6 +17933,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -18020,6 +18238,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -18314,6 +18539,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>29</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -18525,6 +18757,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -18599,6 +18838,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>31</pitch>
                 <tpc>15</tpc>
                 <fret>0</fret>
@@ -18651,6 +18897,20 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0.5" y="2.5"/>
+                  </Symbol>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-0.5" y="2.5"/>
+                  </Symbol>
                 <pitch>32</pitch>
                 <tpc>10</tpc>
                 <fret>0</fret>
@@ -18685,6 +18945,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="2.5"/>
+                  </Symbol>
                 <pitch>34</pitch>
                 <tpc>12</tpc>
                 <fret>0</fret>
@@ -18742,6 +19009,14 @@
                 <tpc>11</tpc>
                 <fret>0</fret>
                 <string>7</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>46</pitch>
+                <tpc>12</tpc>
+                <fret>3</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
