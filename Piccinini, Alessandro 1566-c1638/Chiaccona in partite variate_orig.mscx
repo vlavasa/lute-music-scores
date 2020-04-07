@@ -7,6 +7,7 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
+      <akkoladeDistance>8.5</akkoladeDistance>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -37,14 +38,14 @@
       <Staff id="2">
         <linkedTo>1</linkedTo>
         <StaffType group="tablature">
-          <name>tab6StrFrench</name>
+          <name>tab6StrItalian</name>
           <lines>6</lines>
           <lineDistance>1.5</lineDistance>
           <clef>0</clef>
           <slashStyle>1</slashStyle>
           <stemless>1</stemless>
           <durations>1</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
+          <durationFontName>MuseScore French Baroque</durationFontName>
           <durationFontSize>15</durationFontSize>
           <durationFontY>0</durationFontY>
           <fretFontName>MuseScore Tab Renaiss</fretFontName>
@@ -52,12 +53,12 @@
           <fretFontY>0</fretFontY>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
-          <onLines>0</onLines>
-          <showRests>0</showRests>
+          <onLines>1</onLines>
+          <showRests>1</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
-          <upsideDown>0</upsideDown>
-          <useNumbers>0</useNumbers>
+          <upsideDown>1</upsideDown>
+          <useNumbers>1</useNumbers>
           </StaffType>
         </Staff>
       <trackName>Theorba</trackName>
@@ -135,46 +136,19 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <Measure len="1/8">
+      <Measure>
         <voice>
           <Clef>
             <concertClefType>G8vb</concertClefType>
             <transposingClefType>G8vb</transposingClefType>
             </Clef>
           <KeySig>
-            <linkedMain/>
             <accidental>1</accidental>
             </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>7</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <velocity>64</velocity>
-              <fret>4</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -410,6 +384,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -455,13 +430,10 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -719,6 +691,10 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -759,13 +735,10 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -941,6 +914,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -993,6 +967,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1271,6 +1246,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1371,6 +1347,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1546,6 +1523,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1605,13 +1583,10 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1812,6 +1787,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1891,6 +1867,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2123,6 +2100,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2172,13 +2150,10 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2442,6 +2417,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2530,13 +2506,10 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2694,6 +2667,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2746,6 +2720,7 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3046,6 +3021,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3145,11 +3121,10 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/4">
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
@@ -3177,50 +3152,46 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linkedMain/>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <fret>0</fret>
+              <string>7</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       </Staff>
     <Staff id="2">
-      <Measure len="1/8">
+      <Measure>
         <voice>
           <KeySig>
-            <linked>
-              </linked>
             <accidental>1</accidental>
             </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>7</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <velocity>64</velocity>
-              <fret>4</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <linked>
               </linked>
@@ -3537,11 +3508,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -3883,11 +3849,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -4844,11 +4805,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5488,11 +5444,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5897,11 +5848,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linked>
-              </linked>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -6596,12 +6542,11 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/4">
         <voice>
           <Chord>
             <linked>
               </linked>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <linked>
@@ -6630,6 +6575,38 @@
               <fret>3</fret>
               <string>1</string>
               <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <fret>0</fret>
+              <string>7</string>
               </Note>
             </Chord>
           </voice>
