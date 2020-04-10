@@ -140,6 +140,7 @@
         <Channel>
           <program value="25"/>
           <synti>Fluid</synti>
+          <mute>1</mute>
           <midiPort>0</midiPort>
           <midiChannel>4</midiChannel>
           </Channel>
@@ -2648,8 +2649,8 @@
               <pitch>55</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -3285,29 +3286,6 @@
             <subtype>end</subtype>
             <linkedMain/>
             </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       </Staff>
@@ -5991,8 +5969,8 @@
               <pitch>55</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -6711,31 +6689,6 @@
             <linked>
               </linked>
             </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>42</pitch>
-              <tpc>20</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       </Staff>
@@ -6758,6 +6711,13 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -6787,11 +6747,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -6833,6 +6793,13 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -6864,11 +6831,11 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -6893,10 +6860,8 @@
               <linkedMain/>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>0</string>
-              <veloType>user</veloType>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -6906,6 +6871,13 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -6937,11 +6909,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -6967,11 +6939,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -6989,11 +6961,11 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7015,11 +6987,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7028,6 +7000,13 @@
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -7042,11 +7021,11 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -7068,11 +7047,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7094,11 +7073,11 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7129,11 +7108,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7181,11 +7160,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7201,43 +7180,26 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -7246,11 +7208,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -7276,11 +7238,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -7533,11 +7495,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7555,11 +7517,11 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -7611,11 +7573,11 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7646,11 +7608,11 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7711,211 +7673,10 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
               <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
               <string>5</string>
               <veloType>user</veloType>
               </Note>
@@ -7944,7 +7705,20 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -7952,6 +7726,194 @@
               <velocity>64</velocity>
               <fret>1</fret>
               <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>7</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>5</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>64</velocity>
+              <fret>2</fret>
+              <string>3</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>6</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>10</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -7974,11 +7936,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -8025,6 +7987,13 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -8051,11 +8020,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -8078,11 +8047,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -8113,11 +8082,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -8273,8 +8242,8 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>1</string>
+              <fret>0</fret>
+              <string>0</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8286,8 +8255,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8312,8 +8281,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8355,8 +8324,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8391,8 +8360,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8418,11 +8387,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -8483,6 +8452,13 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -8512,11 +8488,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8546,8 +8522,8 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>3</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8558,6 +8534,13 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -8589,11 +8572,11 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8632,11 +8615,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -8654,11 +8637,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -8671,6 +8654,358 @@
               <tpc>17</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>10</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>5</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>5</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>6</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>8</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>7</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>6</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
               <string>2</string>
               <veloType>user</veloType>
               </Note>
@@ -8691,351 +9026,6 @@
               <string>5</string>
               <veloType>user</veloType>
               </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
             </Chord>
           <Chord>
             <linkedMain/>
@@ -9077,11 +9067,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9111,8 +9101,8 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>3</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9125,11 +9115,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9169,11 +9159,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9186,11 +9176,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -9208,11 +9198,11 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9638,12 +9628,26 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9657,29 +9661,6 @@
             <subtype>end</subtype>
             <linkedMain/>
             </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       </Staff>
@@ -9700,6 +9681,14 @@
             <Note>
               <linked>
                 </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -9733,11 +9722,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9784,6 +9773,14 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linked>
                 </linked>
@@ -9820,11 +9817,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -9852,10 +9849,8 @@
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>0</string>
-              <veloType>user</veloType>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -9866,6 +9861,14 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linked>
                 </linked>
@@ -9902,11 +9905,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -9936,11 +9939,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -9961,11 +9964,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -9990,11 +9993,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10004,6 +10007,14 @@
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linked>
@@ -10021,11 +10032,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -10051,11 +10062,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10080,11 +10091,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10120,11 +10131,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10179,11 +10190,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10201,25 +10212,14 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  </linked>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -10227,21 +10227,14 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -10252,11 +10245,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -10286,11 +10279,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -10577,11 +10570,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10602,11 +10595,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -10666,11 +10659,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10706,11 +10699,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -10780,239 +10773,10 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
               <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
               <string>5</string>
               <veloType>user</veloType>
               </Note>
@@ -11045,7 +10809,22 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -11054,6 +10833,220 @@
               <velocity>64</velocity>
               <fret>1</fret>
               <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>7</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>5</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>64</velocity>
+              <fret>2</fret>
+              <string>3</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>6</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>10</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11079,11 +11072,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11136,6 +11129,14 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
             <Note>
               <linked>
                 </linked>
@@ -11167,11 +11168,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11197,11 +11198,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11237,11 +11238,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11417,8 +11418,8 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>1</string>
+              <fret>0</fret>
+              <string>0</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11432,8 +11433,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11462,8 +11463,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11511,8 +11512,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11552,8 +11553,8 @@
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11583,11 +11584,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11656,11 +11657,21 @@
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
+              </Note>
+            <Note>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linked>
@@ -11690,11 +11701,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11728,8 +11739,8 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>3</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11743,11 +11754,21 @@
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linked>
@@ -11777,11 +11798,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11826,11 +11847,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -11851,11 +11872,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -11870,6 +11891,410 @@
               <tpc>17</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>10</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>5</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>5</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>6</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>1</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>8</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>7</string>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <velocity>64</velocity>
+              <fret>1</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>6</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <velocity>64</velocity>
+              <fret>0</fret>
+              <string>2</string>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>64</velocity>
+              <fret>3</fret>
               <string>2</string>
               <veloType>user</veloType>
               </Note>
@@ -11892,400 +12317,6 @@
               <string>5</string>
               <veloType>user</veloType>
               </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>1</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <velocity>64</velocity>
-              <fret>1</fret>
-              <string>2</string>
-              <veloType>user</veloType>
-              </Note>
             </Chord>
           <Chord>
             <linked>
@@ -12333,11 +12364,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -12371,8 +12402,8 @@
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>3</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -12387,11 +12418,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>5</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -12437,11 +12468,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -12456,11 +12487,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               <veloType>user</veloType>
               </Note>
             <Note>
@@ -12481,11 +12512,11 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>3</string>
+              <string>6</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -12971,12 +13002,28 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -12992,32 +13039,6 @@
             <linked>
               </linked>
             </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       </Staff>
