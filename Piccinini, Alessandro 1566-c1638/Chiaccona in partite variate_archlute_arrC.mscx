@@ -10,6 +10,8 @@
       <pageWidth>8.27</pageWidth>
       <pageHeight>11.69</pageHeight>
       <pagePrintableWidth>7.4826</pagePrintableWidth>
+      <composerAlign>right,top</composerAlign>
+      <lyricistAlign>left,top</lyricistAlign>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -131,14 +133,15 @@
           <text>Piccinini, Alessandro 1566-c.1638
 Intavolatura di liuto, et di chitarrone
 libro primo. 1623. p.121
+inspired by Monteverdi's Zefiro
 </text>
           </Text>
         <Text>
           <linkedMain/>
           <style>Lyricist</style>
-          <text>for lute arr. Vladimír Váša
+          <text>for archlute arr. Vladimír Váša
 tuning:
-F-G-A-B-C-D-E-F-G-c-f-a-d'-g
+F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
 </text>
           </Text>
         </VBox>
@@ -148,10 +151,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
             <concertClefType>G8vb</concertClefType>
             <transposingClefType>G8vb</transposingClefType>
             </Clef>
-          <KeySig>
-            <linkedMain/>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <linkedMain/>
             <sigN>3</sigN>
@@ -344,13 +343,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
               <tpc>17</tpc>
               <fret>2</fret>
               <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2052,13 +2044,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -2351,13 +2336,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
               <tpc>17</tpc>
               <fret>2</fret>
               <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -3145,6 +3123,7 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -3156,9 +3135,9 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>4</fret>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
               <string>4</string>
               </Note>
             <Note>
@@ -3187,7 +3166,10 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
         <pageWidth>8.27</pageWidth>
         <pageHeight>11.69</pageHeight>
         <pagePrintableWidth>7.4826</pagePrintableWidth>
+        <frameSystemDistance>10</frameSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
+        <composerAlign>right,top</composerAlign>
+        <lyricistAlign>left,top</lyricistAlign>
         <Spatium>1.76389</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -3323,25 +3305,21 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
             <text>Piccinini, Alessandro 1566-c.1638
 Intavolatura di liuto, et di chitarrone
 libro primo. 1623. p.121
+inspired by Monteverdi's Zefiro
 </text>
             </Text>
           <Text>
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>for lute arr. Vladimír Váša
+            <text>for archlute arr. Vladimír Váša
 tuning:
-F-G-A-B-C-D-E-F-G-c-f-a-d'-g
+F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
 </text>
             </Text>
           </VBox>
         <Measure len="1/4">
           <voice>
-            <KeySig>
-              <linked>
-                </linked>
-              <accidental>0</accidental>
-              </KeySig>
             <TimeSig>
               <linked>
                 </linked>
@@ -3560,14 +3538,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
                 <tpc>17</tpc>
                 <fret>2</fret>
                 <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <fret>4</fret>
-                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -4007,10 +3977,8 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
+              <offset x="-0.8" y="0"/>
               </BarLine>
-            <Segment>
-              <leadingSpace>-1.8</leadingSpace>
-              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -4716,10 +4684,8 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
+              <offset x="-0.8" y="0"/>
               </BarLine>
-            <Segment>
-              <leadingSpace>-1.8</leadingSpace>
-              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -5312,10 +5278,8 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
+              <offset x="-0.8" y="0"/>
               </BarLine>
-            <Segment>
-              <leadingSpace>-1.8</leadingSpace>
-              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -5496,14 +5460,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
                 <tpc>17</tpc>
                 <fret>2</fret>
                 <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <fret>4</fret>
-                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -5840,14 +5796,6 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
                 <tpc>17</tpc>
                 <fret>2</fret>
                 <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <fret>4</fret>
-                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -6761,9 +6709,9 @@ F-G-A-B-C-D-E-F-G-c-f-a-d'-g
               <Note>
                 <linked>
                   </linked>
-                <pitch>52</pitch>
-                <tpc>18</tpc>
-                <fret>4</fret>
+                <pitch>48</pitch>
+                <tpc>14</tpc>
+                <fret>0</fret>
                 <string>4</string>
                 </Note>
               <Note>
