@@ -53,11 +53,12 @@
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
           <onLines>0</onLines>
-          <showRests>0</showRests>
+          <showRests>1</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
           <useNumbers>0</useNumbers>
+          <showBackTied>1</showBackTied>
           </StaffType>
         </Staff>
       <trackName>Arciloutna</trackName>
@@ -146,9 +147,13 @@
             <accidental>-2</accidental>
             </KeySig>
           <TimeSig>
-            <sigN>3</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -161,18 +166,12 @@
               <string>5</string>
               <veloType>user</veloType>
               </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
               <tpc>13</tpc>
-              <velocity>64</velocity>
               <fret>0</fret>
               <string>3</string>
-              <veloType>user</veloType>
               </Note>
             <Note>
               <linkedMain/>
@@ -224,10 +223,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -339,6 +334,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -436,10 +438,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -530,23 +528,20 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>34</pitch>
               <tpc>12</tpc>
-              <velocity>64</velocity>
               <fret>0</fret>
               <string>10</string>
-              <veloType>user</veloType>
               </Note>
             </Chord>
           <BarLine>
@@ -559,7 +554,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -581,7 +576,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -594,7 +589,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -607,7 +602,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -620,7 +615,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -633,7 +628,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -650,7 +645,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -672,7 +667,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -685,7 +680,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -698,7 +693,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -711,7 +706,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -724,7 +719,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -741,7 +736,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -754,7 +749,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -767,7 +762,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -780,7 +775,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>45</pitch>
@@ -793,7 +788,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -806,7 +801,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -823,7 +818,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -836,7 +831,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>51</pitch>
@@ -849,7 +844,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -862,7 +857,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -875,7 +870,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -888,7 +883,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -901,15 +896,14 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>34</pitch>
@@ -928,7 +922,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -950,7 +944,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -963,7 +957,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>51</pitch>
@@ -976,7 +970,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -989,7 +983,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1002,7 +996,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1015,7 +1009,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -1032,7 +1026,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>51</pitch>
@@ -1054,7 +1048,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1067,7 +1061,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1098,7 +1092,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1129,7 +1123,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -1142,7 +1136,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1155,7 +1149,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -1172,7 +1166,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -1194,7 +1188,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -1207,7 +1201,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>45</pitch>
@@ -1220,7 +1214,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1233,7 +1227,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1246,7 +1240,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -1263,7 +1257,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1276,7 +1270,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1289,7 +1283,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1302,7 +1296,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -1315,7 +1309,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -1328,7 +1322,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1341,15 +1335,14 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>34</pitch>
@@ -1368,7 +1361,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -1390,7 +1383,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1412,7 +1405,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1425,7 +1418,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1438,7 +1431,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1451,7 +1444,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1468,7 +1461,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1490,7 +1483,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -1503,7 +1496,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -1516,7 +1509,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1529,7 +1522,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1542,7 +1535,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1555,7 +1548,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1572,7 +1565,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -1585,7 +1578,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1598,7 +1591,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1611,7 +1604,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1624,7 +1617,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -1637,7 +1630,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1654,7 +1647,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -1667,7 +1660,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1680,7 +1673,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -1693,16 +1686,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>5</string>
-              <veloType>user</veloType>
-              </Note>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -1715,7 +1699,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -1728,7 +1712,7 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1741,20 +1725,17 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
               <tpc>16</tpc>
-              <velocity>64</velocity>
               <fret>7</fret>
               <string>0</string>
-              <veloType>user</veloType>
               </Note>
             </Chord>
           </voice>
@@ -1769,9 +1750,14 @@
             <accidental>-2</accidental>
             </KeySig>
           <TimeSig>
-            <sigN>3</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <linked>
               </linked>
@@ -1786,20 +1772,13 @@
               <string>5</string>
               <veloType>user</veloType>
               </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
-              <velocity>64</velocity>
               <fret>0</fret>
               <string>3</string>
-              <veloType>user</veloType>
               </Note>
             <Note>
               <linked>
@@ -1857,10 +1836,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <linked>
               </linked>
@@ -1966,6 +1941,16 @@
             <durationType>quarter</durationType>
             <Note>
               <linked>
+                <indexDiff>2</indexDiff>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -1976,6 +1961,7 @@
               </Note>
             <Note>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -2095,10 +2081,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <linked>
               </linked>
@@ -2201,22 +2183,19 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <Chord>
             <linked>
               </linked>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
               <pitch>34</pitch>
               <tpc>12</tpc>
-              <velocity>64</velocity>
               <fret>0</fret>
               <string>10</string>
-              <veloType>user</veloType>
               </Note>
             </Chord>
           <BarLine>
@@ -2231,7 +2210,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2256,7 +2235,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2271,7 +2250,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2286,7 +2265,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2301,7 +2280,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2316,7 +2295,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2335,7 +2314,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2360,7 +2339,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2375,7 +2354,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2390,7 +2369,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2405,7 +2384,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2420,7 +2399,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2439,7 +2418,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2454,7 +2433,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2469,7 +2448,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2484,7 +2463,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2499,7 +2478,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2514,7 +2493,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2533,7 +2512,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2548,7 +2527,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2563,7 +2542,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2578,7 +2557,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2593,7 +2572,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2608,7 +2587,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2622,13 +2601,12 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <Chord>
             <linked>
               </linked>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2650,7 +2628,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2675,7 +2653,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2690,7 +2668,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2705,7 +2683,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2720,7 +2698,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2735,7 +2713,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2750,7 +2728,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2769,7 +2747,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2794,7 +2772,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2809,7 +2787,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2844,7 +2822,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2879,7 +2857,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2894,7 +2872,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2909,7 +2887,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2928,7 +2906,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2953,7 +2931,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2968,7 +2946,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2983,7 +2961,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -2998,7 +2976,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3013,7 +2991,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3032,7 +3010,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3047,7 +3025,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3062,7 +3040,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3077,7 +3055,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3092,7 +3070,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3107,7 +3085,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3121,13 +3099,12 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <Chord>
             <linked>
               </linked>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3149,7 +3126,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3174,7 +3151,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3199,7 +3176,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3214,7 +3191,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3229,7 +3206,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3244,7 +3221,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3263,7 +3240,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3288,7 +3265,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3303,7 +3280,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3318,7 +3295,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3333,7 +3310,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3348,7 +3325,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3363,7 +3340,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3382,7 +3359,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3397,7 +3374,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3412,7 +3389,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3427,7 +3404,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3442,7 +3419,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3457,7 +3434,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3476,7 +3453,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3491,7 +3468,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3506,7 +3483,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3521,17 +3498,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <velocity>64</velocity>
-              <fret>0</fret>
-              <string>5</string>
-              <veloType>user</veloType>
-              </Note>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3546,7 +3513,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3561,7 +3528,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -3575,22 +3542,19 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <Chord>
             <linked>
               </linked>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
               <pitch>74</pitch>
               <tpc>16</tpc>
-              <velocity>64</velocity>
               <fret>7</fret>
               <string>0</string>
-              <veloType>user</veloType>
               </Note>
             </Chord>
           </voice>
