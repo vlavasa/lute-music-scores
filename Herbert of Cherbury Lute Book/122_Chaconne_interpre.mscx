@@ -13,9 +13,9 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger">interpretive edit. Vladimír Váša</metaTag>
+    <metaTag name="arranger">retypeset by Vladimír Váša</metaTag>
     <metaTag name="composer">anonymous; composed c.1620~1640</metaTag>
-    <metaTag name="copyright">© 2020 This work is licensed under a Creative Commons Zero 1.0 International License.</metaTag>
+    <metaTag name="copyright">© 2020 this work is licensed under a Creative Commons Zero 1.0 International License.</metaTag>
     <metaTag name="creationDate">2020-05-01</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -34,17 +34,20 @@
           <lines>6</lines>
           <lineDistance>1.5</lineDistance>
           <clef>0</clef>
-          <durations>0</durations>
+          <slashStyle>1</slashStyle>
+          <stemless>1</stemless>
+          <durations>1</durations>
           <durationFontName>MuseScore Tab French</durationFontName>
           <durationFontSize>15</durationFontSize>
           <durationFontY>0</durationFontY>
           <fretFontName>MuseScore Tab Renaiss</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
+          <symbolRepeat>2</symbolRepeat>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
           <onLines>0</onLines>
-          <showRests>1</showRests>
+          <showRests>0</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
@@ -149,7 +152,7 @@ c.1620~1640
         <Text>
           <linkedMain/>
           <style>Lyricist</style>
-          <text>interpretive edit.
+          <text>retypeset by
 Vladimír Váša
 </text>
           </Text>
@@ -178,7 +181,12 @@ Vladimír Váša
                 <z>499</z>
                 </Symbol>
               <linkedMain/>
-              <offset x="-1" y="2"/>
+              <offset x="-0.9" y="2"/>
+              </Symbol>
+            <Symbol>
+              <name>restQuarter</name>
+              <font>Emmentaler</font>
+              <linkedMain/>
               </Symbol>
             </Rest>
           <Chord>
@@ -461,10 +469,10 @@ Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               <fret>0</fret>
-              <string>7</string>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
@@ -579,14 +587,9 @@ Vladimír Váša
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <linkedMain/>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -608,7 +611,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -621,8 +624,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -635,8 +637,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -649,8 +650,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -663,7 +663,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -680,8 +680,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -703,8 +702,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -717,7 +715,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -730,7 +728,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -743,7 +741,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -756,8 +754,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -774,8 +771,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -788,8 +784,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -802,7 +797,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -815,7 +810,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>45</pitch>
@@ -828,7 +823,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -841,7 +836,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -858,7 +853,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -871,7 +866,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>51</pitch>
@@ -884,7 +879,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -897,7 +892,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -910,7 +905,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -923,7 +918,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -936,7 +931,7 @@ Vladimír Váša
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/8">
+      <Measure len="1/4">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -962,7 +957,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -984,8 +979,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -998,8 +992,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>51</pitch>
@@ -1012,8 +1005,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1026,8 +1018,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1040,8 +1031,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1054,8 +1044,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -1072,8 +1061,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>51</pitch>
@@ -1095,8 +1083,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1109,8 +1096,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1141,8 +1127,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1173,7 +1158,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -1186,8 +1171,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1200,7 +1184,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -1217,8 +1201,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -1240,8 +1223,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -1254,8 +1236,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>45</pitch>
@@ -1268,8 +1249,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1282,8 +1262,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1296,7 +1275,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -1313,7 +1292,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1326,7 +1305,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1339,7 +1318,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1352,7 +1331,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -1365,7 +1344,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -1378,7 +1357,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1391,7 +1370,7 @@ Vladimír Váša
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/8">
+      <Measure len="1/4">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1417,7 +1396,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -1439,7 +1418,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1461,8 +1440,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1475,8 +1453,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1489,8 +1466,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1503,7 +1479,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1520,8 +1496,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1543,8 +1518,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -1557,7 +1531,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -1570,8 +1544,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1584,7 +1557,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1597,8 +1570,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>50</pitch>
@@ -1611,7 +1583,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1628,8 +1600,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -1642,7 +1613,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1655,8 +1626,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1669,8 +1639,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1683,8 +1652,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -1697,7 +1665,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -1714,8 +1682,7 @@ Vladimír Váša
         <voice>
           <Chord>
             <linkedMain/>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -1728,8 +1695,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1742,7 +1708,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -1755,7 +1721,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -1768,7 +1734,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -1781,7 +1747,7 @@ Vladimír Váša
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -1794,21 +1760,8 @@ Vladimír Váša
             </Chord>
           </voice>
         </Measure>
-      <Measure len="2/8">
+      <Measure len="1/4">
         <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <linkedMain/>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -1820,60 +1773,6 @@ Vladimír Váša
               <string>0</string>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>2.</beginText>
-              <linkedMain/>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              <fret>7</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -2003,7 +1902,7 @@ c.1620~1640
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>interpretive edit.
+            <text>retypeset by
 Vladimír Váša
 </text>
             </Text>
@@ -2039,6 +1938,14 @@ Vladimír Váša
                 <linked>
                   </linked>
                 <offset x="-1" y="2"/>
+                </Symbol>
+              <Symbol>
+                <name>restQuarter</name>
+                <font>Emmentaler</font>
+                <linked>
+                  </linked>
+                <offset x="0" y="-3"/>
+                <visible>0</visible>
                 </Symbol>
               </Rest>
             <Chord>
@@ -2358,10 +2265,10 @@ Vladimír Váša
               <Note>
                 <linked>
                   </linked>
-                <pitch>39</pitch>
-                <tpc>11</tpc>
+                <pitch>41</pitch>
+                <tpc>13</tpc>
                 <fret>0</fret>
-                <string>7</string>
+                <string>6</string>
                 </Note>
               </Chord>
             <Chord>
@@ -2491,16 +2398,10 @@ Vladimír Váša
           </Measure>
         <Measure>
           <voice>
-            <TimeSig>
-              <linked>
-                </linked>
-              <sigN>6</sigN>
-              <sigD>8</sigD>
-              </TimeSig>
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2525,7 +2426,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2540,8 +2441,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2556,8 +2456,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2572,8 +2471,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2588,7 +2486,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2607,8 +2505,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2633,8 +2530,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2649,7 +2545,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2664,7 +2560,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2679,7 +2575,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2694,8 +2590,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2714,8 +2609,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2730,8 +2624,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2746,7 +2639,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2761,7 +2654,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2776,7 +2669,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2791,7 +2684,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2810,7 +2703,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2825,7 +2718,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2840,7 +2733,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2855,7 +2748,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2870,7 +2763,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2885,7 +2778,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2899,7 +2792,7 @@ Vladimír Váša
               </Chord>
             </voice>
           </Measure>
-        <Measure len="2/8">
+        <Measure len="1/4">
           <LayoutBreak>
             <subtype>line</subtype>
             </LayoutBreak>
@@ -2929,7 +2822,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2954,8 +2847,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2970,8 +2862,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -2986,8 +2877,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3002,8 +2892,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3018,8 +2907,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>16th</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3034,8 +2922,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>16th</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3054,8 +2941,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3080,8 +2966,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3096,8 +2981,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3132,8 +3016,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3168,7 +3051,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3183,8 +3066,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>16th</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3199,7 +3081,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>16th</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3218,8 +3100,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3244,8 +3125,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3260,8 +3140,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3276,8 +3155,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3292,8 +3170,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3308,7 +3185,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3327,7 +3204,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3342,7 +3219,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3357,7 +3234,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3372,7 +3249,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3387,7 +3264,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3402,7 +3279,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3416,7 +3293,7 @@ Vladimír Váša
               </Chord>
             </voice>
           </Measure>
-        <Measure len="2/8">
+        <Measure len="1/4">
           <LayoutBreak>
             <subtype>line</subtype>
             </LayoutBreak>
@@ -3446,7 +3323,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3471,7 +3348,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3496,8 +3373,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3512,8 +3388,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3528,8 +3403,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3544,7 +3418,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3563,8 +3437,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3589,8 +3462,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3605,7 +3477,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3620,8 +3492,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3636,7 +3507,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3651,8 +3522,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>16th</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3667,7 +3537,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>16th</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3686,8 +3556,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3702,7 +3571,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3717,8 +3586,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3733,8 +3601,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3749,8 +3616,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3765,7 +3631,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3784,8 +3650,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>mid</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3800,8 +3665,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <BeamMode>begin</BeamMode>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3816,7 +3680,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3831,7 +3695,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3846,7 +3710,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3861,7 +3725,7 @@ Vladimír Váša
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -3875,22 +3739,8 @@ Vladimír Váša
               </Chord>
             </voice>
           </Measure>
-        <Measure len="2/8">
+        <Measure len="1/4">
           <voice>
-            <Spanner type="Volta">
-              <Volta>
-                <endHookType>1</endHookType>
-                <beginText>1.</beginText>
-                <linked>
-                  </linked>
-                <endings>1</endings>
-                </Volta>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -3904,65 +3754,6 @@ Vladimír Váša
                 <string>0</string>
                 </Note>
               </Chord>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Spanner type="Volta">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Volta">
-              <Volta>
-                <endHookType>1</endHookType>
-                <beginText>2.</beginText>
-                <linked>
-                  </linked>
-                <endings>2</endings>
-                </Volta>
-              <next>
-                <location>
-                  <fractions>3/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Chord>
-              <linked>
-                </linked>
-              <dots>1</dots>
-              <durationType>half</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>38</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>8</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>74</pitch>
-                <tpc>16</tpc>
-                <fret>7</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Spanner type="Volta">
-              <prev>
-                <location>
-                  <fractions>-3/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             </voice>
           </Measure>
         </Staff>
