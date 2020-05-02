@@ -15,7 +15,7 @@
     <showMargins>0</showMargins>
     <metaTag name="arranger">interpretive edit. Vladimír Váša</metaTag>
     <metaTag name="composer">anonymous; composed c.1620~1640</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">© 2020 This work is licensed under a Creative Commons Zero 1.0 International License.</metaTag>
     <metaTag name="creationDate">2020-05-01</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -1854,17 +1854,17 @@ Vladimír Váša
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              <fret>7</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
               <string>8</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <fret>7</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Spanner type="Volta">
@@ -3941,7 +3941,6 @@ Vladimír Váša
               <durationType>half</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
                   </linked>
                 <pitch>38</pitch>
                 <tpc>16</tpc>
@@ -3950,7 +3949,6 @@ Vladimír Váša
                 </Note>
               <Note>
                 <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <pitch>74</pitch>
                 <tpc>16</tpc>
