@@ -167,7 +167,7 @@ GB-Lbl Ms. Add. 30387
 
 <b>*</b> (<b>**</b>) marks bass note transposed
 one (two) octave lower then the original
-<b>+</b> means an ornament not necessarily the trill
+<b>)</b> means an ornament from up <b>(</b> from down
 
 tuning: F'-G'-<b>Ab'</b>-<b>Bb'</b>-C-D-<b>Eb</b>-F-G-c-f-a-d'-<b>f'
 </b></text>
@@ -334,11 +334,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -359,6 +354,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -419,11 +420,6 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -447,12 +443,21 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentRightFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-0.8" y="0"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Beam>
             </Beam>
           <Chord>
@@ -559,11 +564,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -590,6 +590,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -772,18 +778,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.2" y="0"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -1347,12 +1353,6 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -1366,6 +1366,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1635,18 +1641,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -1813,17 +1819,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3613,11 +3620,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -3638,6 +3640,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -3929,11 +3937,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -3960,6 +3963,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4001,17 +4010,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.2" y="-0.5"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -4267,18 +4277,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -4495,18 +4505,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -5031,6 +5041,19 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <offset x="0" y="-0.5"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -5046,6 +5069,13 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -5554,17 +5584,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -5575,6 +5606,9 @@ Sm 53 / Klima 56
         </Measure>
       <Measure>
         <startRepeat/>
+        <MeasureNumber>
+          <text>35</text>
+          </MeasureNumber>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
@@ -5726,8 +5760,8 @@ Sm 53 / Klima 56
               <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -5741,8 +5775,8 @@ Sm 53 / Klima 56
               <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>6</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -5769,8 +5803,8 @@ Sm 53 / Klima 56
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -5791,8 +5825,8 @@ Sm 53 / Klima 56
               <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>6</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -6023,6 +6057,21 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Stem>
+              <offset x="0" y="-0.5"/>
+              <userLen>-0.5</userLen>
+              </Stem>
+            <Note>
+              <linkedMain/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
@@ -6042,9 +6091,9 @@ Sm 53 / Klima 56
               </Stem>
             <Note>
               <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
               <string>4</string>
               </Note>
             </Chord>
@@ -6058,21 +6107,6 @@ Sm 53 / Klima 56
                   </location>
                 </prev>
               </Spanner>
-            <Stem>
-              <offset x="0" y="-0.5"/>
-              <userLen>-0.5</userLen>
-              </Stem>
-            <Note>
-              <linkedMain/>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -7110,18 +7144,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -8721,11 +8755,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -8746,6 +8775,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -8806,11 +8841,6 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -8834,12 +8864,21 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentRightFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-0.8" y="0"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.4</leadingSpace>
+            </Segment>
           <Beam>
             </Beam>
           <Chord>
@@ -8946,11 +8985,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -8977,6 +9011,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -9159,18 +9199,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.2" y="0"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -9274,11 +9314,6 @@ Sm 53 / Klima 56
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -9305,6 +9340,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -9909,18 +9950,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2" y="-0.5"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -10018,12 +10059,6 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <minDistance>-999</minDistance>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
@@ -10049,6 +10084,12 @@ Sm 53 / Klima 56
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -10108,17 +10149,18 @@ Sm 53 / Klima 56
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>brassMuteClosed</subtype>
-              <linkedMain/>
-              <offset x="0" y="2"/>
-              </Articulation>
             <Stem>
               <offset x="0" y="-0.5"/>
               <userLen>-0.5</userLen>
               </Stem>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLeftFacingHalfCircle</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.8" y="0"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -10307,7 +10349,7 @@ GB-Lbl Ms. Add. 30387
 
 <b>*</b> (<b>**</b>) marks bass note transposed
 one (two) octave lower then the original
-<b>+</b> means an ornament not necessarily the trill
+<b>)</b> means an ornament from up <b>(</b> from down
 
 tuning: F'-G'-<b>Ab'</b>-<b>Bb'</b>-C-D-<b>Eb</b>-F-G-c-f-a-d'-<b>f'
 </b></text>
@@ -10466,12 +10508,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -10491,6 +10527,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -10544,12 +10587,6 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -10572,6 +10609,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentRightFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-1" y="0.5"/>
+                  </Symbol>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>1</fret>
@@ -10676,12 +10720,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -10708,6 +10746,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -10881,15 +10926,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>2</fret>
@@ -11375,12 +11421,6 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -11392,6 +11432,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -11624,15 +11671,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -11783,15 +11831,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -13339,12 +13388,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -13364,6 +13407,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -13618,12 +13668,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -13650,6 +13694,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -13686,15 +13737,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>58</pitch>
                 <tpc>12</tpc>
                 <fret>1</fret>
@@ -13922,15 +13974,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>2</fret>
@@ -14121,15 +14174,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -14582,6 +14636,17 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -14595,6 +14660,13 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -15044,15 +15116,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -15185,8 +15258,8 @@ Sm 53 / Klima 56
                   </linked>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
-                <fret>5</fret>
-                <string>1</string>
+                <fret>2</fret>
+                <string>0</string>
                 </Note>
               </Chord>
             <Chord>
@@ -15198,8 +15271,8 @@ Sm 53 / Klima 56
                   </linked>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
-                <fret>6</fret>
-                <string>2</string>
+                <fret>1</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -15222,8 +15295,8 @@ Sm 53 / Klima 56
                   </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>5</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -15242,8 +15315,8 @@ Sm 53 / Klima 56
                   </linked>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
-                <fret>6</fret>
-                <string>2</string>
+                <fret>1</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
@@ -15443,17 +15516,6 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>16th</durationType>
-              <Spanner type="Slur">
-                <Slur>
-                  <linked>
-                    </linked>
-                  </Slur>
-                <next>
-                  <location>
-                    <fractions>1/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -15468,11 +15530,15 @@ Sm 53 / Klima 56
                 </linked>
               <durationType>16th</durationType>
               <Spanner type="Slur">
-                <prev>
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
                   <location>
-                    <fractions>-1/16</fractions>
+                    <fractions>1/16</fractions>
                     </location>
-                  </prev>
+                  </next>
                 </Spanner>
               <Note>
                 <linked>
@@ -15487,6 +15553,13 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -16384,15 +16457,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -17772,12 +17846,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -17797,6 +17865,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -17850,12 +17925,6 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -17878,6 +17947,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentRightFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="-1" y="0.5"/>
+                  </Symbol>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>1</fret>
@@ -17982,12 +18058,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -18014,6 +18084,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -18187,15 +18264,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>2</fret>
@@ -18287,12 +18365,6 @@ Sm 53 / Klima 56
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -18319,6 +18391,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="0.5"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -18848,15 +18927,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>58</pitch>
                 <tpc>12</tpc>
                 <fret>1</fret>
@@ -18946,12 +19026,6 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -18977,6 +19051,13 @@ Sm 53 / Klima 56
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
@@ -19036,15 +19117,16 @@ Sm 53 / Klima 56
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>brassMuteClosed</subtype>
-                <linked>
-                  </linked>
-                <offset x="0" y="1"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLeftFacingHalfCircle</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.5" y="0.5"/>
+                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
