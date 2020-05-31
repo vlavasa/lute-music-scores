@@ -15,7 +15,8 @@
     <showMargins>0</showMargins>
     <metaTag name="arranger">retypeset by Vladimír Váša</metaTag>
     <metaTag name="composer">anonymous; composed c.1620~1640</metaTag>
-    <metaTag name="copyright">© 2020 this work is licensed under a Creative Commons Zero 1.0 International License.</metaTag>
+    <metaTag name="copyright">© 2020 this work is licensed under a Creative Commons Zero 1.0 International License.
+* The solution of the fourth beat of the second measure I heard from Anna Kowalska.</metaTag>
     <metaTag name="creationDate">2020-05-01</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -152,8 +153,9 @@ c.1620~1640
         <Text>
           <linkedMain/>
           <style>Lyricist</style>
-          <text>retypeset by
-Vladimír Váša
+          <text>retypeset by Vladimír Váša
+tuning:
+Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
 </text>
           </Text>
         </VBox>
@@ -469,6 +471,12 @@ Vladimír Váša
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarGolpe</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.5" y="1.5"/>
+                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -1902,8 +1910,9 @@ c.1620~1640
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>retypeset by
-Vladimír Váša
+            <text>retypeset by Vladimír Váša
+tuning:
+Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
 </text>
             </Text>
           </VBox>
@@ -2265,6 +2274,13 @@ Vladimír Váša
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarGolpe</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.5" y="-9"/>
+                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
