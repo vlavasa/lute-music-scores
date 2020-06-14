@@ -48,14 +48,6 @@
       <Staff id="1">
         <StaffType group="pitched">
           <name>stdNormal</name>
-          <small>1</small>
-          </StaffType>
-        <defaultClef>F</defaultClef>
-        <cutaway>1</cutaway>
-        </Staff>
-      <Staff id="2">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
           </StaffType>
         </Staff>
       <trackName>Arciloutna</trackName>
@@ -169,592 +161,6 @@ Manuscrit Vaudry de Saizenay.
 </text>
           </Text>
         </VBox>
-      <Measure len="2/4">
-        <voice>
-          <Clef>
-            <concertClefType>G8vb</concertClefType>
-            <transposingClefType>G8vb</transposingClefType>
-            </Clef>
-          <KeySig>
-            <linkedMain/>
-            <accidental>-1</accidental>
-            </KeySig>
-          <TimeSig>
-            <linkedMain/>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            <Groups>
-              <Node pos="4" action="512"/>
-              <Node pos="8" action="273"/>
-              <Node pos="12" action="512"/>
-              <Node pos="16" action="273"/>
-              <Node pos="20" action="512"/>
-              </Groups>
-            </TimeSig>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="2/4">
-        <startRepeat/>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="2/4">
-        <startRepeat/>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="2/4">
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="2/4">
-        <startRepeat/>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <dotPosition>up</dotPosition>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-2.2"/>
-                </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <dotPosition>up</dotPosition>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              <fret>4</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure len="2/4">
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <endRepeat>2</endRepeat>
-        <voice>
-          <Spanner type="Volta">
-            <Volta>
-              <endHookType>1</endHookType>
-              <beginText>1.</beginText>
-              <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>1</endings>
-              </Volta>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="1/4">
-        <voice>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="Volta">
-            <Volta>
-              <beginText>2.</beginText>
-              <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <endings>2</endings>
-              </Volta>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          </voice>
-        </Measure>
-      </Staff>
-    <Staff id="2">
       <Measure len="2/4">
         <voice>
           <Clef>
@@ -1067,6 +473,10 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1133,6 +543,7 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="2/4">
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1489,6 +900,10 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1554,6 +969,7 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="2/4">
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1850,6 +1266,10 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1869,13 +1289,10 @@ Manuscrit Vaudry de Saizenay.
               <string>0</string>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure len="2/4">
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2185,6 +1602,10 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2536,6 +1957,9 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3008,6 +2432,9 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3030,6 +2457,7 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="2/4">
+        <startRepeat/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3217,7 +2645,7 @@ Manuscrit Vaudry de Saizenay.
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -3225,14 +2653,12 @@ Manuscrit Vaudry de Saizenay.
               <fret>0</fret>
               <string>6</string>
               </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-3.5"/>
-                </Symbol>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -3246,13 +2672,6 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -3290,7 +2709,7 @@ Manuscrit Vaudry de Saizenay.
                 <name>luteFrenchMordentUpper</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-3"/>
+                <offset x="0" y="-2.2"/>
                 </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -3316,6 +2735,9 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3670,7 +3092,26 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <linkedMain/>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-4"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -3693,6 +3134,30 @@ Manuscrit Vaudry de Saizenay.
         </Measure>
       <Measure len="1/4">
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <linkedMain/>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-4"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -3739,6 +3204,13 @@ Manuscrit Vaudry de Saizenay.
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -3778,36 +3250,6 @@ Manuscrit Vaudry de Saizenay.
       <Part>
         <Staff id="1">
           <linkedTo>1</linkedTo>
-          <StaffType group="tablature">
-            <name>tab6StrFrench</name>
-            <lines>6</lines>
-            <lineDistance>1.5</lineDistance>
-            <small>1</small>
-            <clef>0</clef>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <durations>1</durations>
-            <durationFontName>MuseScore French Baroque (headless)</durationFontName>
-            <durationFontSize>15</durationFontSize>
-            <durationFontY>0</durationFontY>
-            <fretFontName>MuseScore Bonneuil-de Visée</fretFontName>
-            <fretFontSize>10</fretFontSize>
-            <fretFontY>0</fretFontY>
-            <symbolRepeat>2</symbolRepeat>
-            <linesThrough>1</linesThrough>
-            <minimStyle>0</minimStyle>
-            <onLines>0</onLines>
-            <showRests>0</showRests>
-            <stemsDown>0</stemsDown>
-            <stemsThrough>0</stemsThrough>
-            <upsideDown>0</upsideDown>
-            <useNumbers>0</useNumbers>
-            </StaffType>
-          <defaultClef>F</defaultClef>
-          <cutaway>1</cutaway>
-          </Staff>
-        <Staff id="2">
-          <linkedTo>2</linkedTo>
           <StaffType group="tablature">
             <name>tab6StrFrench</name>
             <lines>6</lines>
@@ -3950,668 +3392,6 @@ Manuscrit Vaudry de Saizenay.
 </text>
             </Text>
           </VBox>
-        <Measure len="2/4">
-          <voice>
-            <KeySig>
-              <linked>
-                </linked>
-              <accidental>-1</accidental>
-              </KeySig>
-            <TimeSig>
-              <linked>
-                </linked>
-              <sigN>3</sigN>
-              <sigD>4</sigD>
-              <Groups>
-                <Node pos="4" action="512"/>
-                <Node pos="8" action="273"/>
-                <Node pos="12" action="512"/>
-                <Node pos="16" action="273"/>
-                <Node pos="20" action="512"/>
-                </Groups>
-              </TimeSig>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <endRepeat>2</endRepeat>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="2/4">
-          <startRepeat/>
-          <voice>
-            <BarLine>
-              <subtype>start-repeat</subtype>
-              </BarLine>
-            <Segment>
-              <leadingSpace>-1.5</leadingSpace>
-              </Segment>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <endRepeat>2</endRepeat>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="2/4">
-          <startRepeat/>
-          <voice>
-            <BarLine>
-              <subtype>start-repeat</subtype>
-              </BarLine>
-            <Segment>
-              <leadingSpace>-1.5</leadingSpace>
-              </Segment>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
-        <Measure len="2/4">
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <endRepeat>2</endRepeat>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="2/4">
-          <startRepeat/>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>43</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>50</pitch>
-                <tpc>16</tpc>
-                <fret>2</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>58</pitch>
-                <tpc>12</tpc>
-                <fret>1</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>40</pitch>
-                <tpc>18</tpc>
-                <fret>0</fret>
-                <string>7</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
-                <fret>3</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>41</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>6</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <fret>0</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>43</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>5</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <dots>1</dots>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>45</pitch>
-                <tpc>17</tpc>
-                <dotPosition>up</dotPosition>
-                <fret>2</fret>
-                <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <Symbol>
-                  <name>luteFrenchMordentUpper</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-1.2"/>
-                  </Symbol>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <dotPosition>up</dotPosition>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>61</pitch>
-                <tpc>21</tpc>
-                <fret>4</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
-            </voice>
-          </Measure>
-        <Measure len="2/4">
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>measure</durationType>
-              <duration>3/4</duration>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <endRepeat>2</endRepeat>
-          <voice>
-            <Spanner type="Volta">
-              <Volta>
-                <endHookType>1</endHookType>
-                <beginText>1.</beginText>
-                <linked>
-                  </linked>
-                <Segment>
-                  <subtype>0</subtype>
-                  <offset x="-0.5" y="-4.5"/>
-                  <off2 x="0" y="0"/>
-                  </Segment>
-                <endings>1</endings>
-                </Volta>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            </voice>
-          </Measure>
-        <Measure len="1/4">
-          <voice>
-            <Spanner type="Volta">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
-            <Spanner type="Volta">
-              <Volta>
-                <beginText>2.</beginText>
-                <linked>
-                  </linked>
-                <Segment>
-                  <subtype>0</subtype>
-                  <offset x="-0.5" y="-4.5"/>
-                  <off2 x="0" y="0"/>
-                  </Segment>
-                <endings>2</endings>
-                </Volta>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Rest>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              </Rest>
-            <Spanner type="Volta">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            </voice>
-          </Measure>
-        </Staff>
-      <Staff id="2">
         <Measure len="2/4">
           <voice>
             <KeySig>
@@ -4966,6 +3746,10 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -5039,10 +3823,14 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="2/4">
+          <startRepeat/>
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
               </BarLine>
+            <Segment>
+              <leadingSpace>-1.5</leadingSpace>
+              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -5449,6 +4237,10 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -5522,10 +4314,14 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="2/4">
+          <startRepeat/>
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
               </BarLine>
+            <Segment>
+              <leadingSpace>-1.5</leadingSpace>
+              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -5866,6 +4662,10 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -5888,15 +4688,17 @@ Manuscrit Vaudry de Saizenay.
                 <string>0</string>
                 </Note>
               </Chord>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
             </voice>
           </Measure>
         <Measure len="2/4">
+          <startRepeat/>
           <voice>
+            <BarLine>
+              <subtype>start-repeat</subtype>
+              </BarLine>
+            <Segment>
+              <leadingSpace>-1.5</leadingSpace>
+              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -6252,6 +5054,10 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <endRepeat>2</endRepeat>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -6654,6 +5460,9 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure>
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -7200,6 +6009,9 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -7225,6 +6037,7 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="2/4">
+          <startRepeat/>
           <voice>
             <Chord>
               <linked>
@@ -7440,7 +6253,7 @@ Manuscrit Vaudry de Saizenay.
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -7449,16 +6262,14 @@ Manuscrit Vaudry de Saizenay.
                 <fret>0</fret>
                 <string>6</string>
                 </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
               <Note>
                 <linked>
                   </linked>
-                <Symbol>
-                  <name>luteFrenchMordentUpper</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-1.6"/>
-                  </Symbol>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
                 <fret>0</fret>
@@ -7473,14 +6284,6 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>41</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>6</string>
-                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -7525,7 +6328,7 @@ Manuscrit Vaudry de Saizenay.
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.7"/>
+                  <offset x="0" y="-2.2"/>
                   </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
@@ -7553,6 +6356,9 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -7963,7 +6769,27 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <endRepeat>2</endRepeat>
           <voice>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4.5"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -7989,6 +6815,31 @@ Manuscrit Vaudry de Saizenay.
           </Measure>
         <Measure len="1/4">
           <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <beginText>2.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4.5"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>2</endings>
+                </Volta>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -8042,6 +6893,13 @@ Manuscrit Vaudry de Saizenay.
                 <string>1</string>
                 </Note>
               </Chord>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             </voice>
           </Measure>
         </Staff>
