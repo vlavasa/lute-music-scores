@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.0</programVersion>
+  <programRevision>43c5553</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -146,7 +146,6 @@
           <text>Robert de Visée (1655 - 1732)
 for archlute arr. Vladimír Váša
 
-<font face="FreeSans"></font>x<font face="FreeSerif"></font> means an ornament not necessarily the trill
 tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
 </text>
           </Text>
@@ -155,7 +154,6 @@ tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
           <style>Lyricist</style>
           <text>de Visée. Pièces de théorbe et de luth.
 1716. page 87
-
 Manuscrit Vaudry de Saizenay.
 17xx. page 258 
 </text>
@@ -947,13 +945,6 @@ Manuscrit Vaudry de Saizenay.
               <tpc>16</tpc>
               <fret>0</fret>
               <string>8</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -3382,7 +3373,6 @@ Manuscrit Vaudry de Saizenay.
             <text>Robert de Visée (1655 - 1732)
 for archlute arr. Vladimír Váša
 
-<font face="FreeSans"></font>x<font face="FreeSerif"></font> means an ornament not necessarily the trill
 tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
 </text>
             </Text>
@@ -3392,7 +3382,6 @@ tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
             <style>Lyricist</style>
             <text>de Visée. Pièces de théorbe et de luth.
 1716. page 87
-
 Manuscrit Vaudry de Saizenay.
 17xx. page 258 
 </text>
@@ -3835,7 +3824,7 @@ Manuscrit Vaudry de Saizenay.
               <subtype>start-repeat</subtype>
               </BarLine>
             <Segment>
-              <leadingSpace>-1.5</leadingSpace>
+              <leadingSpace>-1.8</leadingSpace>
               </Segment>
             <Chord>
               <linked>
@@ -4279,8 +4268,7 @@ Manuscrit Vaudry de Saizenay.
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <o1 x="0.58841" y="-5.99959"/>
-                    <offset x="0" y="-0.2"/>
+                    <o1 x="-0.01159" y="-5.99959"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -4297,14 +4285,6 @@ Manuscrit Vaudry de Saizenay.
                 <tpc>16</tpc>
                 <fret>0</fret>
                 <string>8</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>53</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>3</string>
                 </Note>
               <Note>
                 <linked>
@@ -4335,7 +4315,7 @@ Manuscrit Vaudry de Saizenay.
               <subtype>start-repeat</subtype>
               </BarLine>
             <Segment>
-              <leadingSpace>-1.5</leadingSpace>
+              <leadingSpace>-1.8</leadingSpace>
               </Segment>
             <Chord>
               <linked>
@@ -4696,7 +4676,7 @@ Manuscrit Vaudry de Saizenay.
               <subtype>start-repeat</subtype>
               </BarLine>
             <Segment>
-              <leadingSpace>-1.5</leadingSpace>
+              <leadingSpace>-1.8</leadingSpace>
               </Segment>
             <Chord>
               <linked>
@@ -6038,6 +6018,12 @@ Manuscrit Vaudry de Saizenay.
         <Measure len="2/4">
           <startRepeat/>
           <voice>
+            <BarLine>
+              <subtype>start-repeat</subtype>
+              </BarLine>
+            <Segment>
+              <leadingSpace>-1.8</leadingSpace>
+              </Segment>
             <Chord>
               <linked>
                 </linked>
