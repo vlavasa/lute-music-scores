@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.0</programVersion>
+  <programRevision>43c5553</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -10,11 +10,6 @@
       <pageWidth>8.27008</pageWidth>
       <pageHeight>11.6902</pageHeight>
       <pagePrintableWidth>7.48268</pagePrintableWidth>
-      <pageEvenTopMargin>0.314961</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.472441</pageEvenBottomMargin>
-      <pageOddTopMargin>0.314961</pageOddTopMargin>
-      <pageOddBottomMargin>0.472441</pageOddBottomMargin>
-      <frameSystemDistance>6</frameSystemDistance>
       <hideEmptyStaves>1</hideEmptyStaves>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <titleFontSize>23</titleFontSize>
@@ -69,8 +64,8 @@
           <string open="1">34</string>
           <string open="1">36</string>
           <string open="1">38</string>
-          <string open="1">39</string>
-          <string open="1">41</string>
+          <string>39</string>
+          <string>41</string>
           <string>43</string>
           <string>48</string>
           <string>53</string>
@@ -146,8 +141,7 @@
           <text>Robert de Visée (1655 - 1732)
 for archlute arr. Vladimír Váša
 
-<font face="FreeSans"></font>x<font face="FreeSerif"></font> means an ornament not necessarily the trill
-tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
+tuning: F'-G'-Ab'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
 </text>
           </Text>
         <Text>
@@ -155,7 +149,6 @@ tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
           <style>Lyricist</style>
           <text>de Visée. Pièces de théorbe et de luth.
 1716. page 87
-
 Manuscrit Vaudry de Saizenay.
 17xx. page 258 
 </text>
@@ -527,7 +520,10 @@ Manuscrit Vaudry de Saizenay.
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-6.59329"/>
+                  </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -545,9 +541,9 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
@@ -983,7 +979,9 @@ Manuscrit Vaudry de Saizenay.
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
+                <SlurSegment no="0">
+                  <o1 x="0.000419259" y="-6.59371"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1001,16 +999,9 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
@@ -1092,7 +1083,7 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -1102,6 +1093,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.6" y="0.9"/>
+                </Symbol>
               <pitch>68</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -1125,10 +1122,10 @@ Manuscrit Vaudry de Saizenay.
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-2.5"/>
+                <offset x="2.2" y="0.8"/>
                 </Symbol>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -1180,6 +1177,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.6" y="0.9"/>
+                </Symbol>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -1189,7 +1192,7 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1203,10 +1206,10 @@ Manuscrit Vaudry de Saizenay.
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-2.5"/>
+                <offset x="2.2" y="0.8"/>
                 </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -1215,7 +1218,7 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1246,7 +1249,7 @@ Manuscrit Vaudry de Saizenay.
       <Measure>
         <voice>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1260,6 +1263,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.6" y="0.9"/>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -1278,7 +1287,7 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1294,6 +1303,29 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                </Symbol>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -1444,6 +1476,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.2" y="0.8"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -1532,6 +1570,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.2" y="0.8"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -1620,6 +1664,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.2" y="0.8"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -1648,12 +1698,6 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-3"/>
-                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <dotPosition>up</dotPosition>
@@ -1662,6 +1706,7 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <linkedMain/>
@@ -1671,6 +1716,12 @@ Manuscrit Vaudry de Saizenay.
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.2" y="0.8"/>
+                </Symbol>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1680,7 +1731,6 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1693,26 +1743,26 @@ Manuscrit Vaudry de Saizenay.
         </Measure>
       <Measure len="1/4">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <linkedMain/>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
@@ -1720,16 +1770,6 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1737,16 +1777,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.6" y="0.9"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -1755,9 +1791,30 @@ Manuscrit Vaudry de Saizenay.
             </Chord>
           </voice>
         </Measure>
-      <Measure>
-        <startRepeat/>
+      <Measure len="1/4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <linkedMain/>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1766,13 +1823,6 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
@@ -1780,13 +1830,6 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1794,13 +1837,6 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -1818,6 +1854,17 @@ Manuscrit Vaudry de Saizenay.
               <string>3</string>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -1826,10 +1873,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1893,10 +1940,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1962,10 +2009,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-1.5"/>
+                <offset x="2.2" y="0.8"/>
                 </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -1994,10 +2041,10 @@ Manuscrit Vaudry de Saizenay.
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>34</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2013,12 +2060,26 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-7.8"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>32</pitch>
+              <pitch>44</pitch>
               <tpc>10</tpc>
-              <fret>0</fret>
-              <string>11</string>
+              <fret>1</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2031,6 +2092,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -2045,12 +2113,26 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-7.8"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>29</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
-              <string>13</string>
+              <string>6</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2063,6 +2145,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -2074,7 +2163,6 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2117,10 +2205,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-3"/>
+                <offset x="2.2" y="1.1"/>
                 </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -2129,16 +2217,96 @@ Manuscrit Vaudry de Saizenay.
               <string>1</string>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <endRepeat>2</endRepeat>
+        <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <linkedMain/>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>9</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -2148,16 +2316,35 @@ Manuscrit Vaudry de Saizenay.
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <linkedMain/>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2172,6 +2359,13 @@ Manuscrit Vaudry de Saizenay.
       <Measure len="2/4">
         <startRepeat/>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <dots>1</dots>
@@ -2248,8 +2442,8 @@ Manuscrit Vaudry de Saizenay.
               <linkedMain/>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>5</fret>
-              <string>3</string>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -2279,10 +2473,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-3.5"/>
+                <offset x="2.7" y="0.8"/>
                 </Symbol>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -2334,6 +2528,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.6" y="0.9"/>
+                </Symbol>
               <pitch>56</pitch>
               <tpc>10</tpc>
               <fret>3</fret>
@@ -2435,10 +2635,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-2.2"/>
+                <offset x="2.7" y="0.8"/>
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -2465,6 +2665,7 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure len="1/4">
+        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -2495,7 +2696,12 @@ Manuscrit Vaudry de Saizenay.
             <Spanner type="Slur">
               <Slur>
                 <linkedMain/>
-                <up>up</up>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-2.9"/>
+                  <o2 x="2.22031e-18" y="-0.1"/>
+                  <o3 x="2.22031e-18" y="-0.1"/>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -2513,6 +2719,13 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -2522,13 +2735,10 @@ Manuscrit Vaudry de Saizenay.
               <string>2</string>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure len="2/4">
+        <startRepeat/>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2604,6 +2814,12 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.6" y="0.9"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -2631,10 +2847,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-3"/>
+                <offset x="2.2" y="0.8"/>
                 </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -2688,13 +2904,6 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>56</pitch>
               <tpc>10</tpc>
               <fret>3</fret>
@@ -2727,10 +2936,6 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>32</pitch>
               <tpc>10</tpc>
               <fret>0</fret>
@@ -2821,10 +3026,10 @@ Manuscrit Vaudry de Saizenay.
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-3.5"/>
+                <offset x="2.7" y="0.8"/>
                 </Symbol>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -2865,20 +3070,64 @@ Manuscrit Vaudry de Saizenay.
             </Spanner>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
+            <offset x="-1.5" y="0"/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  </location>
+                </prev>
+              </Spanner>
+            <grace8after/>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-6.4"/>
+                  <o4 x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <grace>0</grace>
+                  </location>
+                </next>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linkedMain/>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>9</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -2895,6 +3144,7 @@ Manuscrit Vaudry de Saizenay.
             </Spanner>
           <Spanner type="Volta">
             <Volta>
+              <endHookType>1</endHookType>
               <beginText>2.</beginText>
               <linkedMain/>
               <endings>2</endings>
@@ -2920,15 +3170,8 @@ Manuscrit Vaudry de Saizenay.
               <linkedMain/>
               <pitch>43</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>5</fret>
-              <string>5</string>
+              <fret>2</fret>
+              <string>6</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2970,13 +3213,6 @@ Manuscrit Vaudry de Saizenay.
         <pageWidth>8.27008</pageWidth>
         <pageHeight>11.6902</pageHeight>
         <pagePrintableWidth>7.48268</pagePrintableWidth>
-        <pageEvenTopMargin>0.314961</pageEvenTopMargin>
-        <pageEvenBottomMargin>0.472441</pageEvenBottomMargin>
-        <pageOddTopMargin>0.314961</pageOddTopMargin>
-        <pageOddBottomMargin>0.472441</pageOddBottomMargin>
-        <staffLowerBorder>3</staffLowerBorder>
-        <akkoladeDistance>8.5</akkoladeDistance>
-        <frameSystemDistance>6</frameSystemDistance>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <hideEmptyStaves>1</hideEmptyStaves>
         <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
@@ -3043,8 +3279,8 @@ Manuscrit Vaudry de Saizenay.
             <string open="1">34</string>
             <string open="1">36</string>
             <string open="1">38</string>
-            <string open="1">39</string>
-            <string open="1">41</string>
+            <string>39</string>
+            <string>41</string>
             <string>43</string>
             <string>48</string>
             <string>53</string>
@@ -3124,8 +3360,7 @@ Manuscrit Vaudry de Saizenay.
             <text>Robert de Visée (1655 - 1732)
 for archlute arr. Vladimír Váša
 
-<font face="FreeSans"></font>x<font face="FreeSerif"></font> means an ornament not necessarily the trill
-tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
+tuning: F'-G'-Ab'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
 </text>
             </Text>
           <Text>
@@ -3134,7 +3369,6 @@ tuning: F'-G'-A'-Bb'-C-D-E-F-G-c-f-a-d'-g'
             <style>Lyricist</style>
             <text>de Visée. Pièces de théorbe et de luth.
 1716. page 87
-
 Manuscrit Vaudry de Saizenay.
 17xx. page 258 
 </text>
@@ -3529,6 +3763,10 @@ Manuscrit Vaudry de Saizenay.
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0.000419259" y="0.00587"/>
+                    </SlurSegment>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -3560,9 +3798,9 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   <indexDiff>-1</indexDiff>
                   </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
+                <pitch>53</pitch>
+                <tpc>13</tpc>
+                <fret>0</fret>
                 <string>3</string>
                 </Note>
               </Chord>
@@ -3575,7 +3813,7 @@ Manuscrit Vaudry de Saizenay.
               <subtype>start-repeat</subtype>
               </BarLine>
             <Segment>
-              <leadingSpace>-1.5</leadingSpace>
+              <leadingSpace>-1.8</leadingSpace>
               </Segment>
             <Chord>
               <linked>
@@ -3586,7 +3824,7 @@ Manuscrit Vaudry de Saizenay.
                   <linked>
                     </linked>
                   <SlurSegment no="0">
-                    <o1 x="0.162876" y="-7.55516"/>
+                    <o1 x="-0.0545143" y="-7.50559"/>
                     </SlurSegment>
                   <up>down</up>
                   </Slur>
@@ -4018,6 +4256,10 @@ Manuscrit Vaudry de Saizenay.
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <o1 x="-0.01159" y="0.00041"/>
+                    </SlurSegment>
+                  <up>up</up>
                   </Slur>
                 <next>
                   <location>
@@ -4035,14 +4277,6 @@ Manuscrit Vaudry de Saizenay.
                 </Note>
               <Note>
                 <linked>
-                  </linked>
-                <pitch>51</pitch>
-                <tpc>11</tpc>
-                <fret>3</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
                   <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
@@ -4057,9 +4291,9 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   <indexDiff>-1</indexDiff>
                   </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
+                <pitch>53</pitch>
+                <tpc>13</tpc>
+                <fret>0</fret>
                 <string>3</string>
                 </Note>
               </Chord>
@@ -4072,7 +4306,7 @@ Manuscrit Vaudry de Saizenay.
               <subtype>start-repeat</subtype>
               </BarLine>
             <Segment>
-              <leadingSpace>-1.5</leadingSpace>
+              <leadingSpace>-1.8</leadingSpace>
               </Segment>
             <Chord>
               <linked>
@@ -4153,6 +4387,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLowLeftConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.6" y="0.9"/>
+                  </Symbol>
                 <pitch>68</pitch>
                 <tpc>10</tpc>
                 <fret>1</fret>
@@ -4178,11 +4419,11 @@ Manuscrit Vaudry de Saizenay.
                   <subtype>accidentalNatural</subtype>
                   </Accidental>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.5"/>
+                  <offset x="2.2" y="0.8"/>
                   </Symbol>
                 <pitch>69</pitch>
                 <tpc>17</tpc>
@@ -4237,6 +4478,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLowLeftConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0.8" y="1.1"/>
+                  </Symbol>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 <fret>3</fret>
@@ -4262,11 +4510,11 @@ Manuscrit Vaudry de Saizenay.
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.5"/>
+                  <offset x="2.2" y="0.8"/>
                   </Symbol>
                 <pitch>71</pitch>
                 <tpc>19</tpc>
@@ -4321,6 +4569,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLowLeftConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.6" y="0.9"/>
+                  </Symbol>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 <fret>5</fret>
@@ -4357,6 +4612,34 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -4433,7 +4716,7 @@ Manuscrit Vaudry de Saizenay.
               <subtype>start-repeat</subtype>
               </BarLine>
             <Segment>
-              <leadingSpace>-1.5</leadingSpace>
+              <leadingSpace>-1.8</leadingSpace>
               </Segment>
             <Chord>
               <linked>
@@ -4525,6 +4808,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentTopRightConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.7" y="0.1"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>5</fret>
@@ -4621,6 +4911,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentTopRightConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.4" y="0.1"/>
+                  </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>3</fret>
@@ -4717,6 +5014,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentTopRightConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.2" y="0.1"/>
+                  </Symbol>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>1</fret>
@@ -4748,13 +5052,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Symbol>
-                  <name>luteFrenchMordentUpper</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-1.7"/>
-                  </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <dotPosition>up</dotPosition>
@@ -4769,6 +5066,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentTopRightConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2.2" y="0.8"/>
+                  </Symbol>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
                 <fret>2</fret>
@@ -4792,10 +5096,26 @@ Manuscrit Vaudry de Saizenay.
           </Measure>
         <Measure len="1/4">
           <endRepeat>2</endRepeat>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -4803,17 +5123,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    </Tie>
-                  <next>
-                    <location>
-                      <measures>1</measures>
-                      </location>
-                    </next>
-                  </Spanner>
                 <pitch>36</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
@@ -4822,17 +5131,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    </Tie>
-                  <next>
-                    <location>
-                      <measures>1</measures>
-                      </location>
-                    </next>
-                  </Spanner>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -4841,17 +5139,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <Tie>
-                    <linked>
-                      </linked>
-                    </Tie>
-                  <next>
-                    <location>
-                      <measures>1</measures>
-                      </location>
-                    </next>
-                  </Spanner>
+                <Symbol>
+                  <name>ornamentLowLeftConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.7" y="0.4"/>
+                  </Symbol>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>1</fret>
@@ -4860,9 +5154,36 @@ Manuscrit Vaudry de Saizenay.
               </Chord>
             </voice>
           </Measure>
-        <Measure>
-          <startRepeat/>
+        <Measure len="1/4">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <beginText>2.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>2</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -4870,13 +5191,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      </location>
-                    </prev>
-                  </Spanner>
                 <pitch>36</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
@@ -4885,13 +5199,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      </location>
-                    </prev>
-                  </Spanner>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -4900,13 +5207,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Spanner type="Tie">
-                  <prev>
-                    <location>
-                      <measures>-1</measures>
-                      </location>
-                    </prev>
-                  </Spanner>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>1</fret>
@@ -4926,6 +5226,17 @@ Manuscrit Vaudry de Saizenay.
                 <string>3</string>
                 </Note>
               </Chord>
+            </voice>
+          </Measure>
+        <Measure len="2/4">
+          <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -4933,10 +5244,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>36</pitch>
+                <pitch>48</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
-                <string>9</string>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -5003,10 +5314,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>36</pitch>
+                <pitch>48</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
-                <string>9</string>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -5077,11 +5388,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.7"/>
+                  <offset x="1.9" y="0.6"/>
                   </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
@@ -5113,10 +5424,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>34</pitch>
+                <pitch>46</pitch>
                 <tpc>12</tpc>
-                <fret>0</fret>
-                <string>10</string>
+                <fret>3</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
@@ -5131,13 +5442,31 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0" y="-7.3"/>
+                    <o4 x="0" y="0.2"/>
+                    <autoplace>0</autoplace>
+                    <offset x="0" y="-0.2"/>
+                    </SlurSegment>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
-                <pitch>32</pitch>
+                <pitch>44</pitch>
                 <tpc>10</tpc>
-                <fret>0</fret>
-                <string>11</string>
+                <fret>1</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
@@ -5152,6 +5481,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5165,13 +5501,31 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0.0216388" y="-8.59975"/>
+                    <o4 x="0" y="0.4"/>
+                    <autoplace>0</autoplace>
+                    <offset x="0" y="-0.4"/>
+                    </SlurSegment>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
-                <pitch>29</pitch>
+                <pitch>41</pitch>
                 <tpc>13</tpc>
                 <fret>0</fret>
-                <string>13</string>
+                <string>6</string>
                 </Note>
               <Note>
                 <linked>
@@ -5186,6 +5540,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5198,7 +5559,6 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure>
-          <endRepeat>2</endRepeat>
           <voice>
             <Chord>
               <linked>
@@ -5244,11 +5604,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.7"/>
+                  <offset x="1.9" y="0.6"/>
                   </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
@@ -5260,7 +5620,19 @@ Manuscrit Vaudry de Saizenay.
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5270,6 +5642,84 @@ Manuscrit Vaudry de Saizenay.
                 <string>2</string>
                 </Note>
               </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure len="1/4">
+          <endRepeat>2</endRepeat>
+          <voice>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                <fret>0</fret>
+                <string>9</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>60</pitch>
+                <tpc>14</tpc>
+                <fret>3</fret>
+                <string>2</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>55</pitch>
+                <tpc>15</tpc>
+                <fret>2</fret>
+                <string>3</string>
+                </Note>
+              </Chord>
             </voice>
           </Measure>
         <Measure len="1/4">
@@ -5277,6 +5727,31 @@ Manuscrit Vaudry de Saizenay.
             <subtype>line</subtype>
             </LayoutBreak>
           <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <beginText>2.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>2</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -5284,10 +5759,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>48</pitch>
+                <pitch>36</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
-                <string>4</string>
+                <string>9</string>
                 </Note>
               <Note>
                 <linked>
@@ -5303,6 +5778,19 @@ Manuscrit Vaudry de Saizenay.
         <Measure len="2/4">
           <startRepeat/>
           <voice>
+            <BarLine>
+              <subtype>start-repeat</subtype>
+              </BarLine>
+            <Segment>
+              <leadingSpace>-1.8</leadingSpace>
+              </Segment>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -5387,8 +5875,8 @@ Manuscrit Vaudry de Saizenay.
                   </linked>
                 <pitch>58</pitch>
                 <tpc>12</tpc>
-                <fret>5</fret>
-                <string>3</string>
+                <fret>1</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -5421,11 +5909,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-3.2"/>
+                  <offset x="2.7" y="0.1"/>
                   </Symbol>
                 <pitch>56</pitch>
                 <tpc>10</tpc>
@@ -5482,6 +5970,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLowLeftConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.3" y="0.9"/>
+                  </Symbol>
                 <pitch>56</pitch>
                 <tpc>10</tpc>
                 <fret>3</fret>
@@ -5588,11 +6083,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-2.2"/>
+                  <offset x="2.2" y="0.8"/>
                   </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
@@ -5620,6 +6115,7 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure len="1/4">
+          <endRepeat>2</endRepeat>
           <LayoutBreak>
             <subtype>line</subtype>
             </LayoutBreak>
@@ -5627,7 +6123,7 @@ Manuscrit Vaudry de Saizenay.
             <Chord>
               <linked>
                 </linked>
-              <offset x="-5.3" y="0"/>
+              <offset x="-5.5" y="0"/>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
                 <prev>
@@ -5654,9 +6150,6 @@ Manuscrit Vaudry de Saizenay.
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="-0.9"/>
-                    </SlurSegment>
                   <up>up</up>
                   </Slur>
                 <next>
@@ -5675,6 +6168,7 @@ Manuscrit Vaudry de Saizenay.
                 </Note>
               <Note>
                 <linked>
+                  <indexDiff>1</indexDiff>
                   </linked>
                 <Accidental>
                   <subtype>accidentalSharp</subtype>
@@ -5684,16 +6178,27 @@ Manuscrit Vaudry de Saizenay.
                 <fret>2</fret>
                 <string>2</string>
                 </Note>
+              <Note>
+                <linked>
+                  <indexDiff>-1</indexDiff>
+                  </linked>
+                <pitch>53</pitch>
+                <tpc>13</tpc>
+                <fret>0</fret>
+                <string>3</string>
+                </Note>
               </Chord>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
             </voice>
           </Measure>
         <Measure len="2/4">
+          <startRepeat/>
           <voice>
+            <BarLine>
+              <subtype>start-repeat</subtype>
+              </BarLine>
+            <Segment>
+              <leadingSpace>-1.8</leadingSpace>
+              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -5773,6 +6278,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentLowLeftConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="1.6" y="0.9"/>
+                  </Symbol>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>1</fret>
@@ -5803,11 +6315,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.7"/>
+                  <offset x="2.5" y="0.5"/>
                   </Symbol>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
@@ -5862,14 +6374,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>51</pitch>
-                <tpc>11</tpc>
-                <fret>3</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>56</pitch>
                 <tpc>10</tpc>
                 <fret>3</fret>
@@ -5904,10 +6408,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <Accidental>
-                  <role>1</role>
-                  <subtype>accidentalFlat</subtype>
-                  </Accidental>
                 <pitch>32</pitch>
                 <tpc>10</tpc>
                 <fret>0</fret>
@@ -6004,11 +6504,11 @@ Manuscrit Vaudry de Saizenay.
                   <subtype>accidentalSharp</subtype>
                   </Accidental>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.6"/>
+                  <offset x="2.2" y="0.8"/>
                   </Symbol>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
@@ -6043,8 +6543,8 @@ Manuscrit Vaudry de Saizenay.
                   </linked>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="-0.5" y="-4.5"/>
-                  <off2 x="0" y="0"/>
+                  <offset x="-0.7" y="-4"/>
+                  <off2 x="0.2" y="0"/>
                   </Segment>
                 <endings>1</endings>
                 </Volta>
@@ -6057,15 +6557,16 @@ Manuscrit Vaudry de Saizenay.
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
-                <fret>0</fret>
-                <string>4</string>
-                </Note>
+              <offset x="-5" y="0"/>
+              <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    </location>
+                  </prev>
+                </Spanner>
+              <grace8after/>
+              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
@@ -6073,6 +6574,52 @@ Manuscrit Vaudry de Saizenay.
                 <tpc>14</tpc>
                 <fret>3</fret>
                 <string>2</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <up>up</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <grace>0</grace>
+                    </location>
+                  </next>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                <fret>0</fret>
+                <string>9</string>
+                </Note>
+              <Note>
+                <linked>
+                  <indexDiff>1</indexDiff>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalSharp</subtype>
+                  </Accidental>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <fret>2</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
+                  <indexDiff>-1</indexDiff>
+                  </linked>
+                <pitch>53</pitch>
+                <tpc>13</tpc>
+                <fret>0</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             </voice>
@@ -6088,13 +6635,14 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Spanner type="Volta">
               <Volta>
+                <endHookType>1</endHookType>
                 <beginText>2.</beginText>
                 <linked>
                   </linked>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="-0.5" y="-4.5"/>
-                  <off2 x="0" y="0"/>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0.5" y="0"/>
                   </Segment>
                 <endings>2</endings>
                 </Volta>
@@ -6121,16 +6669,8 @@ Manuscrit Vaudry de Saizenay.
                   </linked>
                 <pitch>43</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
-                <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
-                <fret>5</fret>
-                <string>5</string>
+                <fret>2</fret>
+                <string>6</string>
                 </Note>
               <Note>
                 <linked>
