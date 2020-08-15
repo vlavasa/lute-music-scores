@@ -1649,10 +1649,20 @@ Manuscrit Vaudry de Saizenay.
         </Measure>
       <Measure len="1/4">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <linkedMain/>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -1686,8 +1696,30 @@ Manuscrit Vaudry de Saizenay.
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <linkedMain/>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -1724,15 +1756,26 @@ Manuscrit Vaudry de Saizenay.
               <string>2</string>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1790,10 +1833,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1853,10 +1896,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-1.5"/>
+                <offset x="2.2" y="0.8"/>
                 </Symbol>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1882,12 +1925,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1897,15 +1941,32 @@ Manuscrit Vaudry de Saizenay.
               <string>0</string>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-7.8"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>34</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1918,6 +1979,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -1929,12 +1997,26 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-7.8"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>31</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
-              <string>12</string>
+              <string>5</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1947,6 +2029,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>69</pitch>
@@ -1958,9 +2047,6 @@ Manuscrit Vaudry de Saizenay.
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1999,10 +2085,10 @@ Manuscrit Vaudry de Saizenay.
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>luteFrenchMordentUpper</name>
+                <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="0" y="-3"/>
+                <offset x="2.2" y="1.1"/>
                 </Symbol>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -2013,7 +2099,17 @@ Manuscrit Vaudry de Saizenay.
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -2022,10 +2118,42 @@ Manuscrit Vaudry de Saizenay.
               <string>1</string>
               </Note>
             </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>7</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
+        <endRepeat>2</endRepeat>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <linkedMain/>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -2038,20 +2166,6 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2069,367 +2183,6 @@ Manuscrit Vaudry de Saizenay.
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
-              <fret>4</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-1.5"/>
-                </Symbol>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              <fret>7</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <dotPosition>up</dotPosition>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>49</pitch>
-              <tpc>21</tpc>
-              <dotPosition>up</dotPosition>
-              <fret>1</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <dotPosition>down</dotPosition>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <dotPosition>up</dotPosition>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>luteFrenchMordentUpper</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="0" y="-3"/>
-                </Symbol>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <dotPosition>up</dotPosition>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <BarLine>
-            <subtype>double</subtype>
-            <linkedMain/>
-            </BarLine>
           </voice>
         </Measure>
       <Measure len="1/4">
@@ -2437,15 +2190,34 @@ Manuscrit Vaudry de Saizenay.
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <beginText>2.</beginText>
+              <linkedMain/>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2460,6 +2232,13 @@ Manuscrit Vaudry de Saizenay.
       <Measure len="2/4">
         <startRepeat/>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <dots>1</dots>
@@ -3100,11 +2879,6 @@ Manuscrit Vaudry de Saizenay.
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>1</endings>
               </Volta>
             <next>
@@ -3146,11 +2920,6 @@ Manuscrit Vaudry de Saizenay.
             <Volta>
               <beginText>2.</beginText>
               <linkedMain/>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-4"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               <endings>2</endings>
               </Volta>
             <next>
@@ -5109,10 +4878,26 @@ Manuscrit Vaudry de Saizenay.
           </Measure>
         <Measure len="1/4">
           <endRepeat>2</endRepeat>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -5141,7 +4926,7 @@ Manuscrit Vaudry de Saizenay.
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="1.6" y="0.4"/>
+                  <offset x="1.7" y="0.4"/>
                   </Symbol>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
@@ -5151,8 +4936,36 @@ Manuscrit Vaudry de Saizenay.
               </Chord>
             </voice>
           </Measure>
-        <Measure>
+        <Measure len="1/4">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <beginText>2.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>2</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -5195,6 +5008,17 @@ Manuscrit Vaudry de Saizenay.
                 <string>2</string>
                 </Note>
               </Chord>
+            </voice>
+          </Measure>
+        <Measure len="2/4">
+          <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -5202,10 +5026,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>38</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>8</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -5272,10 +5096,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>38</pitch>
+                <pitch>50</pitch>
                 <tpc>16</tpc>
-                <fret>0</fret>
-                <string>8</string>
+                <fret>2</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -5346,11 +5170,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.7"/>
+                  <offset x="1.9" y="0.6"/>
                   </Symbol>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
@@ -5382,10 +5206,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>36</pitch>
+                <pitch>48</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
-                <string>9</string>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -5400,13 +5224,31 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0" y="-7.3"/>
+                    <o4 x="0" y="0.2"/>
+                    <autoplace>0</autoplace>
+                    <offset x="0" y="-0.2"/>
+                    </SlurSegment>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
-                <pitch>34</pitch>
+                <pitch>46</pitch>
                 <tpc>12</tpc>
-                <fret>0</fret>
-                <string>10</string>
+                <fret>3</fret>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
@@ -5421,6 +5263,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5434,13 +5283,31 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0.0216388" y="-7.29975"/>
+                    <o4 x="0" y="0.2"/>
+                    <autoplace>0</autoplace>
+                    <offset x="0" y="-0.2"/>
+                    </SlurSegment>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
-                <pitch>31</pitch>
+                <pitch>43</pitch>
                 <tpc>15</tpc>
                 <fret>0</fret>
-                <string>12</string>
+                <string>5</string>
                 </Note>
               <Note>
                 <linked>
@@ -5455,6 +5322,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5467,9 +5341,6 @@ Manuscrit Vaudry de Saizenay.
             </voice>
           </Measure>
         <Measure>
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -5515,11 +5386,11 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <Symbol>
-                  <name>luteFrenchMordentUpper</name>
+                  <name>ornamentTopRightConvexStroke</name>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="0" y="-1.7"/>
+                  <offset x="1.9" y="0.6"/>
                   </Symbol>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
@@ -5531,7 +5402,19 @@ Manuscrit Vaudry de Saizenay.
             <Chord>
               <linked>
                 </linked>
-              <durationType>eighth</durationType>
+              <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5541,10 +5424,50 @@ Manuscrit Vaudry de Saizenay.
                 <string>1</string>
                 </Note>
               </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>16th</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>64</pitch>
+                <tpc>18</tpc>
+                <fret>7</fret>
+                <string>2</string>
+                </Note>
+              </Chord>
             </voice>
           </Measure>
-        <Measure>
+        <Measure len="1/4">
+          <endRepeat>2</endRepeat>
           <voice>
+            <Spanner type="Volta">
+              <Volta>
+                <endHookType>1</endHookType>
+                <beginText>1.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>1</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -5560,22 +5483,6 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>53</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>3</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <fret>0</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <fret>0</fret>
@@ -5595,424 +5502,6 @@ Manuscrit Vaudry de Saizenay.
                 <string>2</string>
                 </Note>
               </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalNatural</subtype>
-                  </Accidental>
-                <pitch>59</pitch>
-                <tpc>19</tpc>
-                <fret>2</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>61</pitch>
-                <tpc>21</tpc>
-                <fret>4</fret>
-                <string>2</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>50</pitch>
-                <tpc>16</tpc>
-                <fret>2</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>53</pitch>
-                <tpc>13</tpc>
-                <fret>0</fret>
-                <string>3</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <fret>0</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>16th</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>16th</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Symbol>
-                  <name>luteFrenchMordentUpper</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-1.7"/>
-                  </Symbol>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
-                <fret>0</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
-                <fret>3</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>46</pitch>
-                <tpc>12</tpc>
-                <fret>3</fret>
-                <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>74</pitch>
-                <tpc>16</tpc>
-                <fret>7</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>72</pitch>
-                <tpc>14</tpc>
-                <fret>5</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>43</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>70</pitch>
-                <tpc>12</tpc>
-                <fret>3</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>65</pitch>
-                <tpc>13</tpc>
-                <fret>3</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <dots>1</dots>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>45</pitch>
-                <tpc>17</tpc>
-                <dotPosition>up</dotPosition>
-                <fret>2</fret>
-                <string>5</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalSharp</subtype>
-                  </Accidental>
-                <pitch>49</pitch>
-                <tpc>21</tpc>
-                <dotPosition>up</dotPosition>
-                <fret>1</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <dotPosition>down</dotPosition>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <dotPosition>up</dotPosition>
-                <fret>0</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <Symbol>
-                  <name>luteFrenchMordentUpper</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-1.7"/>
-                  </Symbol>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <dotPosition>up</dotPosition>
-                <fret>2</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              </Chord>
-            <BarLine>
-              <subtype>double</subtype>
-              <linked>
-                </linked>
-              </BarLine>
             </voice>
           </Measure>
         <Measure len="1/4">
@@ -6020,6 +5509,31 @@ Manuscrit Vaudry de Saizenay.
             <subtype>line</subtype>
             </LayoutBreak>
           <voice>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Volta">
+              <Volta>
+                <beginText>2.</beginText>
+                <linked>
+                  </linked>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="-0.5" y="-4"/>
+                  <off2 x="0" y="0"/>
+                  </Segment>
+                <endings>2</endings>
+                </Volta>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -6027,10 +5541,10 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
-                <pitch>50</pitch>
+                <pitch>38</pitch>
                 <tpc>16</tpc>
-                <fret>2</fret>
-                <string>4</string>
+                <fret>0</fret>
+                <string>8</string>
                 </Note>
               <Note>
                 <linked>
@@ -6052,6 +5566,13 @@ Manuscrit Vaudry de Saizenay.
             <Segment>
               <leadingSpace>-1.8</leadingSpace>
               </Segment>
+            <Spanner type="Volta">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -6403,9 +5924,6 @@ Manuscrit Vaudry de Saizenay.
                 <Slur>
                   <linked>
                     </linked>
-                  <SlurSegment no="0">
-                    <offset x="0" y="-0.9"/>
-                    </SlurSegment>
                   <up>up</up>
                   </Slur>
                 <next>
@@ -6790,11 +6308,6 @@ Manuscrit Vaudry de Saizenay.
                 <beginText>1.</beginText>
                 <linked>
                   </linked>
-                <Segment>
-                  <subtype>0</subtype>
-                  <offset x="-0.5" y="-4.5"/>
-                  <off2 x="0" y="0"/>
-                  </Segment>
                 <endings>1</endings>
                 </Volta>
               <next>
@@ -6840,11 +6353,6 @@ Manuscrit Vaudry de Saizenay.
                 <beginText>2.</beginText>
                 <linked>
                   </linked>
-                <Segment>
-                  <subtype>0</subtype>
-                  <offset x="-0.5" y="-4.5"/>
-                  <off2 x="0" y="0"/>
-                  </Segment>
                 <endings>2</endings>
                 </Volta>
               <next>
