@@ -6021,6 +6021,12 @@ Manuscrit Vaudry de Saizenay.
         <Measure len="2/4">
           <startRepeat/>
           <voice>
+            <BarLine>
+              <subtype>start-repeat</subtype>
+              </BarLine>
+            <Segment>
+              <leadingSpace>-1.8</leadingSpace>
+              </Segment>
             <Chord>
               <linked>
                 </linked>
@@ -6365,9 +6371,9 @@ Manuscrit Vaudry de Saizenay.
                   </linked>
                 <Segment>
                   <subtype>0</subtype>
-                  <offset x="-1" y="-4"/>
-                  <off2 x="0.5" y="0"/>
-                  <offset x="-1" y="-4"/>
+                  <offset x="-0.7" y="-4"/>
+                  <off2 x="0.2" y="0"/>
+                  <offset x="-0.7" y="-4"/>
                   </Segment>
                 <endings>1</endings>
                 </Volta>
@@ -6380,7 +6386,7 @@ Manuscrit Vaudry de Saizenay.
             <Chord>
               <linked>
                 </linked>
-              <offset x="-4.5" y="0"/>
+              <offset x="-5" y="0"/>
               <durationType>eighth</durationType>
               <Spanner type="Slur">
                 <prev>
@@ -6467,7 +6473,6 @@ Manuscrit Vaudry de Saizenay.
                   <subtype>0</subtype>
                   <offset x="-0.5" y="-4"/>
                   <off2 x="0.5" y="0"/>
-                  <offset x="-0.5" y="-4"/>
                   </Segment>
                 <endings>2</endings>
                 </Volta>
