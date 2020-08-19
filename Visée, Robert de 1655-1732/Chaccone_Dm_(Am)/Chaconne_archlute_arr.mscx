@@ -634,23 +634,34 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>ornamentTopRightConvexStroke</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="2.2" y="0.8"/>
-                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>1</fret>
-              <string>1</string>
+              <fret>6</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -3853,26 +3864,41 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0.7" y="0"/>
+                    </SlurSegment>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
-                <Symbol>
-                  <name>ornamentTopRightConvexStroke</name>
-                  <font>Bravura</font>
-                  <linked>
-                    </linked>
-                  <offset x="2.2" y="0.8"/>
-                  </Symbol>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
-                <fret>1</fret>
-                <string>1</string>
+                <fret>6</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
