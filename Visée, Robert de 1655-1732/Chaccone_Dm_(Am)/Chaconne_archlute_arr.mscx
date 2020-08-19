@@ -604,6 +604,10 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>4</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -622,6 +626,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>1</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -814,12 +822,24 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-4.37496</minDistance>
+                <offset x="-1.8" y="-1.77496"/>
+                <text>1</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <dotPosition>up</dotPosition>
               <fret>3</fret>
               <string>1</string>
               </Note>
+            <Arpeggio>
+              <linkedMain/>
+              <subtype>3</subtype>
+              <userLen1>0.2</userLen1>
+              <userLen2>-8.6</userLen2>
+              </Arpeggio>
             </Chord>
           <Chord>
             <linkedMain/>
@@ -836,6 +856,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>4</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -858,6 +882,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>1</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <dotPosition>up</dotPosition>
@@ -963,6 +991,10 @@ Manuscrit Vaudry de Saizenay.
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>4</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1471,6 +1503,12 @@ Manuscrit Vaudry de Saizenay.
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0.1" y="1.41816"/>
+                <text>2</text>
+                </Fingering>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>6</fret>
@@ -1484,6 +1522,16 @@ Manuscrit Vaudry de Saizenay.
                 <linkedMain/>
                 <offset x="2.2" y="0.8"/>
                 </Symbol>
+              <Fingering>
+                <linkedMain/>
+                <offset x="0.9" y="0"/>
+                <text>1</text>
+                </Fingering>
+              <Fingering>
+                <linkedMain/>
+                <offset x="-0.3" y="0"/>
+                <text>3</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -1542,6 +1590,10 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>2</text>
+                </Fingering>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>6</fret>
@@ -1549,6 +1601,10 @@ Manuscrit Vaudry de Saizenay.
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <text>1</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -3235,6 +3291,7 @@ Manuscrit Vaudry de Saizenay.
             <stemsDown>0</stemsDown>
             <stemsThrough>0</stemsThrough>
             <upsideDown>0</upsideDown>
+            <showTabFingering>1</showTabFingering>
             <useNumbers>0</useNumbers>
             <showBackTied>1</showBackTied>
             </StaffType>
@@ -3834,6 +3891,12 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <offset x="1" y="0"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>5</fret>
@@ -3854,6 +3917,11 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>3</fret>
@@ -4060,11 +4128,25 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <minDistance>-2.05996</minDistance>
+                  <offset x="-1.6" y="-2.95996"/>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>3</fret>
                 <string>1</string>
                 </Note>
+              <Arpeggio>
+                <linked>
+                  </linked>
+                <subtype>3</subtype>
+                <userLen1>1.4</userLen1>
+                <userLen2>-6</userLen2>
+                </Arpeggio>
               </Chord>
             <Chord>
               <linked>
@@ -4085,6 +4167,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <minDistance>-999</minDistance>
+                  <offset x="-0.3" y="2.2"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>5</fret>
@@ -4106,6 +4195,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <minDistance>-999</minDistance>
+                  <offset x="0.2" y="2.2"/>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <fret>3</fret>
@@ -4216,6 +4312,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <minDistance>-999</minDistance>
+                  <offset x="0" y="-2.2"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -4774,6 +4877,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <minDistance>-999</minDistance>
+                  <offset x="1" y="0.8"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>6</fret>
@@ -4789,6 +4899,18 @@ Manuscrit Vaudry de Saizenay.
                     </linked>
                   <offset x="2.2" y="0.8"/>
                   </Symbol>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <offset x="1.8" y="0"/>
+                  <text>1</text>
+                  </Fingering>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="0"/>
+                  <text>3</text>
+                  </Fingering>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>5</fret>
@@ -4852,6 +4974,13 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <minDistance>-999</minDistance>
+                  <offset x="1" y="0.8"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <fret>6</fret>
@@ -4860,6 +4989,12 @@ Manuscrit Vaudry de Saizenay.
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <offset x="0.8" y="0"/>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>5</fret>
