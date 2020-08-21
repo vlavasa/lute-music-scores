@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.4.2</programVersion>
-  <programRevision>148e43f</programRevision>
+  <programVersion>3.5.0</programVersion>
+  <programRevision>43c5553</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -145,33 +145,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
 </text>
           </Text>
         </VBox>
-      <Measure len="1/4">
-        <voice>
-          <Clef>
-            <concertClefType>G8vb</concertClefType>
-            <transposingClefType>G8vb</transposingClefType>
-            </Clef>
-          <TimeSig>
-            <linkedMain/>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
       <Measure>
         <startRepeat/>
         <voice>
+          <TimeSig>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -477,16 +457,19 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>43</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
-              <fret>0</fret>
-              <string>5</string>
+              <fret>2</fret>
+              <string>3</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -860,17 +843,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <tpc>17</tpc>
               <dotPosition>up</dotPosition>
               <velocity>64</velocity>
-              <fret>4</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <dotPosition>up</dotPosition>
-              <velocity>64</velocity>
-              <fret>3</fret>
+              <fret>0</fret>
               <string>2</string>
               <veloType>user</veloType>
               </Note>
@@ -915,6 +888,9 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -969,9 +945,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <startRepeat/>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <style>Expression</style>
+            <offset x="-1.5" y="-1"/>
+            <text>(*) 2. alt.</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -983,6 +966,21 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                </Symbol>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -991,9 +989,27 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                </Symbol>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>9</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1351,6 +1367,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <startRepeat/>
+        <Marker>
+          <linkedMain/>
+          <style>Repeat Text Left</style>
+          <offset x="4.5" y="-2"/>
+          <text><sym>segno</sym></text>
+          <label>segno</label>
+          </Marker>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1843,6 +1866,12 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2.5" y="0"/>
+                </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <dotPosition>up</dotPosition>
@@ -1883,17 +1912,40 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <startRepeat/>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <style>Expression</style>
+            <minDistance>-0.965</minDistance>
+            <offset x="-3.6" y="-1"/>
+            <text>(*) 2. alt.</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               <veloType>user</veloType>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                </Symbol>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2079,10 +2131,10 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
+              <fret>2</fret>
               <string>2</string>
               <veloType>user</veloType>
               </Note>
@@ -2104,6 +2156,9 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2385,12 +2440,22 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
+              <fret>2</fret>
               <string>2</string>
               <veloType>user</veloType>
               </Note>
@@ -2398,6 +2463,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -2430,11 +2502,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <velocity>64</velocity>
-              <fret>3</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               <veloType>user</veloType>
               </Note>
             </Chord>
@@ -2622,15 +2694,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <velocity>64</velocity>
-              <fret>4</fret>
-              <string>3</string>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -2665,6 +2728,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Marker>
+          <linkedMain/>
+          <style>Repeat Text Left</style>
+          <offset x="23" y="-2"/>
+          <text><sym>coda</sym></text>
+          <label>codab</label>
+          </Marker>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3019,6 +3092,15 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <Jump>
+          <linkedMain/>
+          <style>Repeat Text Right</style>
+          <offset x="-1.5" y="-2"/>
+          <text>D.S. al Coda</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>coda</playUntil>
+          <continueAt>codab</continueAt>
+          </Jump>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3119,6 +3201,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure len="2/4">
+        <Marker>
+          <linkedMain/>
+          <style>Repeat Text Left</style>
+          <offset x="2" y="-2"/>
+          <text><sym>coda</sym></text>
+          <label>codab</label>
+          </Marker>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3318,32 +3407,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
 </text>
             </Text>
           </VBox>
-        <Measure len="1/4">
-          <voice>
-            <TimeSig>
-              <linked>
-                </linked>
-              <sigN>3</sigN>
-              <sigD>4</sigD>
-              </TimeSig>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>47</pitch>
-                <tpc>19</tpc>
-                <fret>4</fret>
-                <string>5</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
         <Measure>
           <startRepeat/>
           <voice>
+            <TimeSig>
+              <sigN>3</sigN>
+              <sigD>4</sigD>
+              </TimeSig>
             <Chord>
               <linked>
                 </linked>
@@ -3696,11 +3766,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>43</pitch>
+                <pitch>55</pitch>
                 <tpc>15</tpc>
                 <velocity>64</velocity>
-                <fret>0</fret>
-                <string>5</string>
+                <fret>2</fret>
+                <string>3</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -4126,17 +4196,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <pitch>57</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
-                <fret>4</fret>
-                <string>3</string>
-                <veloType>user</veloType>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
-                <velocity>64</velocity>
-                <fret>3</fret>
+                <fret>0</fret>
                 <string>2</string>
                 <veloType>user</veloType>
                 </Note>
@@ -4246,6 +4306,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <Measure>
           <startRepeat/>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <offset x="-2" y="-5.925"/>
+              <text>(*) 2. alt.</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -4259,6 +4326,26 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <fret>0</fret>
                 <string>9</string>
                 <veloType>user</veloType>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  </Symbol>
+                <pitch>48</pitch>
+                <tpc>14</tpc>
+                <fret>0</fret>
+                <string>4</string>
                 </Note>
               <Note>
                 <linked>
@@ -4277,6 +4364,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <durationType>eighth</durationType>
               <Note>
                 <linked>
+                  <indexDiff>3</indexDiff>
                   </linked>
                 <pitch>48</pitch>
                 <tpc>14</tpc>
@@ -4284,6 +4372,29 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <fret>0</fret>
                 <string>4</string>
                 <veloType>user</veloType>
+                </Note>
+              <Note>
+                <linked>
+                  <indexDiff>-1</indexDiff>
+                  </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    <indexDiff>-1</indexDiff>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    <indexDiff>-1</indexDiff>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  </Symbol>
+                <pitch>36</pitch>
+                <tpc>14</tpc>
+                <fret>0</fret>
+                <string>9</string>
                 </Note>
               </Chord>
             <Chord>
@@ -4681,6 +4792,14 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <startRepeat/>
+          <Marker>
+            <linked>
+              </linked>
+            <style>Repeat Text Left</style>
+            <offset x="2.5" y="-2"/>
+            <text><sym>segno</sym></text>
+            <label>segno</label>
+            </Marker>
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
@@ -5233,6 +5352,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>ornamentTopRightConvexStroke</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="2" y="0"/>
+                  </Symbol>
                 <pitch>71</pitch>
                 <tpc>19</tpc>
                 <velocity>64</velocity>
@@ -5280,6 +5406,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <subtype>start-repeat</subtype>
               <offset x="-0.8" y="0"/>
               </BarLine>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <offset x="-2" y="-5.925"/>
+              <text>(*) 2. alt.</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -5287,12 +5420,32 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>36</pitch>
+                <pitch>48</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
                 <fret>0</fret>
-                <string>9</string>
+                <string>4</string>
                 <veloType>user</veloType>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  <offset x="-0.5" y="-0.5"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  </Symbol>
+                <pitch>60</pitch>
+                <tpc>14</tpc>
+                <fret>3</fret>
+                <string>2</string>
                 </Note>
               <Note>
                 <linked>
@@ -5504,10 +5657,10 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
                 <velocity>64</velocity>
-                <fret>3</fret>
+                <fret>2</fret>
                 <string>2</string>
                 <veloType>user</veloType>
                 </Note>
@@ -5852,13 +6005,28 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  <SlurSegment no="0">
+                    <offset x="0" y="-0.5"/>
+                    </SlurSegment>
+                  <up>down</up>
+                  </Slur>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
                 <velocity>64</velocity>
-                <fret>3</fret>
+                <fret>2</fret>
                 <string>2</string>
                 <veloType>user</veloType>
                 </Note>
@@ -5867,6 +6035,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -5903,11 +6078,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
                 <velocity>64</velocity>
-                <fret>3</fret>
-                <string>2</string>
+                <fret>0</fret>
+                <string>1</string>
                 <veloType>user</veloType>
                 </Note>
               </Chord>
@@ -6127,16 +6302,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <pitch>57</pitch>
-                <tpc>17</tpc>
-                <velocity>64</velocity>
-                <fret>4</fret>
-                <string>3</string>
-                <veloType>user</veloType>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -6174,6 +6339,14 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <Marker>
+            <linked>
+              </linked>
+            <style>Repeat Text Left</style>
+            <offset x="8" y="-2"/>
+            <text><sym>coda</sym></text>
+            <label>codab</label>
+            </Marker>
           <voice>
             <Chord>
               <linked>
@@ -6577,6 +6750,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
+          <Jump>
+            <linked>
+              </linked>
+            <style>Repeat Text Right</style>
+            <offset x="-2" y="-3"/>
+            <text>D.S. al Coda</text>
+            <jumpTo>segno</jumpTo>
+            <playUntil>coda</playUntil>
+            <continueAt>codab</continueAt>
+            </Jump>
           <voice>
             <Chord>
               <linked>
@@ -6691,6 +6874,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="2/4">
+          <Marker>
+            <linked>
+              </linked>
+            <style>Repeat Text Left</style>
+            <text><sym>coda</sym></text>
+            <label>codab</label>
+            </Marker>
           <voice>
             <Chord>
               <linked>
