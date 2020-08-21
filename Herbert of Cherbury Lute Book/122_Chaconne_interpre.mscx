@@ -52,6 +52,7 @@
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
+          <showTabFingering>1</showTabFingering>
           <useNumbers>0</useNumbers>
           </StaffType>
         </Staff>
@@ -517,6 +518,16 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <offset x="-0.5" y="-0.5"/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <offset x="0" y="-0.5"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -528,6 +539,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarStrumUp</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1" y="-6.5"/>
+                </Symbol>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -546,6 +563,16 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <offset x="-0.5" y="-0.5"/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <offset x="0" y="-0.5"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -557,6 +584,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>guitarStrumDown</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="0" y="-6.5"/>
+                </Symbol>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -575,6 +608,16 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <offset x="-0.5" y="-0.5"/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <offset x="0" y="-0.5"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -591,6 +634,13 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Marker>
+          <linkedMain/>
+          <style>Repeat Text Right</style>
+          <placement>below</placement>
+          <text>Fine</text>
+          <label>fine</label>
+          </Marker>
         <voice>
           <Spanner type="Volta">
             <Volta>
@@ -1255,6 +1305,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="1.1" y="-0.8"/>
+                <text>1</text>
+                </Fingering>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -1264,6 +1320,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="1.1" y="-0.8"/>
+                <text>2</text>
+                </Fingering>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
@@ -1290,6 +1352,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="0.7"/>
+                <text>4</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -1303,6 +1371,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="0.7"/>
+                <text>1</text>
+                </Fingering>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
@@ -1320,6 +1394,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="1"/>
+                <text>3</text>
+                </Fingering>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -1342,6 +1422,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-2.31</minDistance>
+                <offset x="0" y="-2.31"/>
+                <text>4</text>
+                </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -1355,6 +1441,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="1"/>
+                <text>2</text>
+                </Fingering>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <velocity>64</velocity>
@@ -1546,8 +1638,25 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHThumb</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>3</anchor>
+              <linkedMain/>
+              <offset x="0" y="-0.7"/>
+              </Articulation>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="1.2" y="-0.8"/>
+                <text>2</text>
+                </Fingering>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -1557,6 +1666,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="1.2" y="-0.7"/>
+                <text>1</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
@@ -1568,6 +1683,18 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHThumb</subtype>
+              <minDistance>-999</minDistance>
+              <linkedMain/>
+              <offset x="0" y="0.8"/>
+              </Articulation>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <linkedMain/>
+              <offset x="0" y="-5.8"/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1579,6 +1706,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="1.5" y="-0.8"/>
+                <text>4</text>
+                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <velocity>64</velocity>
@@ -1592,6 +1725,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0.2" y="-2.3"/>
+                <text>1</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -1605,6 +1744,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="-2.3"/>
+                <text>4</text>
+                </Fingering>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -1631,6 +1776,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0.2" y="-2.3"/>
+                <text>1</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -1664,6 +1815,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="-2.3"/>
+                <text>3</text>
+                </Fingering>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <velocity>64</velocity>
@@ -1688,8 +1845,20 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <linkedMain/>
+              <offset x="0" y="0.7"/>
+              </Articulation>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0" y="-2.2"/>
+                <text>2</text>
+                </Fingering>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
@@ -1701,8 +1870,20 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <linkedMain/>
+              <offset x="0" y="0.7"/>
+              </Articulation>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0.2" y="-2.3"/>
+                <text>1</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -1714,6 +1895,10 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHThumb</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1727,8 +1912,20 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <linkedMain/>
+              <offset x="0" y="0.7"/>
+              </Articulation>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <minDistance>-999</minDistance>
+                <offset x="0.2" y="-2.3"/>
+                <text>1</text>
+                </Fingering>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -1740,6 +1937,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <linkedMain/>
+              <offset x="0" y="0.7"/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1759,6 +1962,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <offset x="-1.9" y="-0.1"/>
+                <text>1</text>
+                </Fingering>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <velocity>64</velocity>
@@ -1766,6 +1974,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <string>5</string>
               <veloType>user</veloType>
               </Note>
+            <Arpeggio>
+              <linkedMain/>
+              <subtype>3</subtype>
+              <userLen1>7.7</userLen1>
+              </Arpeggio>
             </Chord>
           <Chord>
             <linkedMain/>
@@ -1835,6 +2048,7 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1917,7 +2131,14 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure len="1/4">
-        <endRepeat>2</endRepeat>
+        <Jump>
+          <linkedMain/>
+          <style>Repeat Text Right</style>
+          <text>D.S.</text>
+          <jumpTo>segno</jumpTo>
+          <playUntil>end</playUntil>
+          <continueAt></continueAt>
+          </Jump>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1930,6 +2151,10 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>dashed</subtype>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -2474,6 +2699,16 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -2490,6 +2725,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarStrumUp</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  </Symbol>
                 <pitch>48</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -2510,6 +2751,16 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -2523,6 +2774,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>guitarStrumDown</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  </Symbol>
                 <pitch>48</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -2543,6 +2800,16 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  </Symbol>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <fret>3</fret>
@@ -2561,6 +2828,14 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
           <LayoutBreak>
             <subtype>line</subtype>
             </LayoutBreak>
+          <Marker>
+            <linked>
+              </linked>
+            <style>Repeat Text Right</style>
+            <placement>below</placement>
+            <text>Fine</text>
+            <label>fine</label>
+            </Marker>
           <voice>
             <Spanner type="Volta">
               <Volta>
@@ -3284,6 +3559,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>58</pitch>
                 <tpc>12</tpc>
                 <velocity>64</velocity>
@@ -3294,6 +3574,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <velocity>64</velocity>
@@ -3324,6 +3609,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
@@ -3339,6 +3629,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>63</pitch>
                 <tpc>11</tpc>
                 <velocity>64</velocity>
@@ -3358,6 +3653,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>3</text>
+                  </Fingering>
                 <pitch>46</pitch>
                 <tpc>12</tpc>
                 <velocity>64</velocity>
@@ -3383,6 +3683,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 <velocity>64</velocity>
@@ -3398,6 +3703,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>45</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -3602,9 +3912,27 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHThumb</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <minDistance>-999</minDistance>
+                <anchor>3</anchor>
+                <linked>
+                  </linked>
+                <offset x="-0.5" y="2.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>46</pitch>
                 <tpc>12</tpc>
                 <velocity>64</velocity>
@@ -3615,6 +3943,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>55</pitch>
                 <tpc>15</tpc>
                 <velocity>64</velocity>
@@ -3627,6 +3960,19 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHThumb</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <minDistance>-999</minDistance>
+                <anchor>3</anchor>
+                <linked>
+                  </linked>
+                <offset x="-0.5" y="3.2"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -3640,6 +3986,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -3655,6 +4006,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -3670,6 +4026,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>58</pitch>
                 <tpc>12</tpc>
                 <velocity>64</velocity>
@@ -3700,6 +4061,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -3736,6 +4102,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>3</text>
+                  </Fingering>
                 <pitch>51</pitch>
                 <tpc>11</tpc>
                 <velocity>64</velocity>
@@ -3763,9 +4134,19 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>55</pitch>
                 <tpc>15</tpc>
                 <velocity>64</velocity>
@@ -3778,9 +4159,19 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -3793,6 +4184,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHThumb</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -3808,9 +4204,19 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -3823,6 +4229,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -3845,6 +4256,12 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <linked>
+                    </linked>
+                  <offset x="-1.7" y="-1"/>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>46</pitch>
                 <tpc>12</tpc>
                 <velocity>64</velocity>
@@ -3852,6 +4269,13 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
                 <string>5</string>
                 <veloType>user</veloType>
                 </Note>
+              <Arpeggio>
+                <linked>
+                  </linked>
+                <subtype>3</subtype>
+                <userLen1>6</userLen1>
+                <userLen2>1</userLen2>
+                </Arpeggio>
               </Chord>
             <Chord>
               <linked>
@@ -3931,6 +4355,7 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure>
+          <endRepeat>2</endRepeat>
           <voice>
             <Chord>
               <linked>
@@ -4025,7 +4450,15 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="1/4">
-          <endRepeat>2</endRepeat>
+          <Jump>
+            <linked>
+              </linked>
+            <style>Repeat Text Right</style>
+            <text>D.S.</text>
+            <jumpTo>segno</jumpTo>
+            <playUntil>end</playUntil>
+            <continueAt></continueAt>
+            </Jump>
           <voice>
             <Chord>
               <linked>
@@ -4040,6 +4473,11 @@ Bb'-(C-D)-Eb-F-G-c-f-a-d'-g'
                 <string>0</string>
                 </Note>
               </Chord>
+            <BarLine>
+              <subtype>dashed</subtype>
+              <linked>
+                </linked>
+              </BarLine>
             </voice>
           </Measure>
         </Staff>
