@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.5.0</programVersion>
-  <programRevision>43c5553</programRevision>
+  <programVersion>3.5.2</programVersion>
+  <programRevision>465e7b6</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -133,7 +133,6 @@
           <text>Piccinini, Alessandro 1566-c.1638
 Intavolatura di liuto, et di chitarrone
 libro primo. 1623. p.121
-inspired by Monteverdi's Zefiro
 </text>
           </Text>
         <Text>
@@ -3394,7 +3393,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <text>Piccinini, Alessandro 1566-c.1638
 Intavolatura di liuto, et di chitarrone
 libro primo. 1623. p.121
-inspired by Monteverdi's Zefiro
 </text>
             </Text>
           <Text>
@@ -4364,30 +4362,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <durationType>eighth</durationType>
               <Note>
                 <linked>
-                  <indexDiff>3</indexDiff>
-                  </linked>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
-                <velocity>64</velocity>
-                <fret>0</fret>
-                <string>4</string>
-                <veloType>user</veloType>
-                </Note>
-              <Note>
-                <linked>
-                  <indexDiff>-1</indexDiff>
                   </linked>
                 <Symbol>
                   <name>noteheadParenthesisLeft</name>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <offset x="0" y="-0.5"/>
                   </Symbol>
                 <Symbol>
                   <name>noteheadParenthesisRight</name>
                   <linked>
-                    <indexDiff>-1</indexDiff>
                     </linked>
                   <offset x="0" y="-0.5"/>
                   </Symbol>
@@ -4395,6 +4379,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <tpc>14</tpc>
                 <fret>0</fret>
                 <string>9</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>48</pitch>
+                <tpc>14</tpc>
+                <velocity>64</velocity>
+                <fret>0</fret>
+                <string>4</string>
+                <veloType>user</veloType>
                 </Note>
               </Chord>
             <Chord>
