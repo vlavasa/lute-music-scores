@@ -1081,12 +1081,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <startRepeat/>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <style>Expression</style>
-            <offset x="-1.5" y="-1"/>
-            <text>(*) 2. alt.</text>
-            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -1099,21 +1093,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <fret>0</fret>
               <string>9</string>
               <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <linkedMain/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <linkedMain/>
-                </Symbol>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -1131,21 +1110,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <linkedMain/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <linkedMain/>
-                </Symbol>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>9</string>
-              </Note>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1503,13 +1467,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <startRepeat/>
-        <Marker>
-          <linkedMain/>
-          <style>Repeat Text Left</style>
-          <offset x="4.5" y="-2"/>
-          <text><sym>segno</sym></text>
-          <label>segno</label>
-          </Marker>
         <voice>
           <Chord>
             <linkedMain/>
@@ -2048,13 +2005,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <startRepeat/>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <style>Expression</style>
-            <minDistance>-0.965</minDistance>
-            <offset x="-3.6" y="-1"/>
-            <text>(*) 2. alt.</text>
-            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -2867,13 +2817,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <Marker>
-          <linkedMain/>
-          <style>Repeat Text Left</style>
-          <offset x="23" y="-2"/>
-          <text><sym>coda</sym></text>
-          <label>codab</label>
-          </Marker>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3228,15 +3171,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <Jump>
-          <linkedMain/>
-          <style>Repeat Text Right</style>
-          <offset x="-1.5" y="-2"/>
-          <text>D.S. al Coda</text>
-          <jumpTo>segno</jumpTo>
-          <playUntil>coda</playUntil>
-          <continueAt>codab</continueAt>
-          </Jump>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3337,13 +3271,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </voice>
         </Measure>
       <Measure len="2/4">
-        <Marker>
-          <linkedMain/>
-          <style>Repeat Text Left</style>
-          <offset x="2" y="-2"/>
-          <text><sym>coda</sym></text>
-          <label>codab</label>
-          </Marker>
         <voice>
           <Chord>
             <linkedMain/>
@@ -4602,13 +4529,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <Measure>
           <startRepeat/>
           <voice>
-            <StaffText>
-              <linked>
-                </linked>
-              <style>Expression</style>
-              <offset x="-2" y="-5.925"/>
-              <text>(*) 2. alt.</text>
-              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -4628,29 +4548,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
-                <Symbol>
-                  <name>noteheadParenthesisLeft</name>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.5"/>
-                  <color r="170" g="0" b="0" a="255"/>
-                  </Symbol>
-                <Symbol>
-                  <name>noteheadParenthesisRight</name>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.5"/>
-                  <color r="170" g="0" b="0" a="255"/>
-                  </Symbol>
-                <pitch>48</pitch>
-                <tpc>14</tpc>
-                <fret>0</fret>
-                <string>4</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <color r="170" g="0" b="0" a="255"/>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -4663,26 +4560,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <Symbol>
-                  <name>noteheadParenthesisLeft</name>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.5"/>
-                  </Symbol>
-                <Symbol>
-                  <name>noteheadParenthesisRight</name>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.5"/>
-                  </Symbol>
-                <pitch>36</pitch>
-                <tpc>14</tpc>
-                <fret>0</fret>
-                <string>9</string>
-                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -5097,14 +4974,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <startRepeat/>
-          <Marker>
-            <linked>
-              </linked>
-            <style>Repeat Text Left</style>
-            <offset x="2.5" y="-2"/>
-            <text><sym>segno</sym></text>
-            <label>segno</label>
-            </Marker>
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
@@ -5728,13 +5597,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <subtype>start-repeat</subtype>
               <offset x="-0.8" y="0"/>
               </BarLine>
-            <StaffText>
-              <linked>
-                </linked>
-              <style>Expression</style>
-              <offset x="-2" y="-5.925"/>
-              <text>(*) 2. alt.</text>
-              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -6681,14 +6543,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
-          <Marker>
-            <linked>
-              </linked>
-            <style>Repeat Text Left</style>
-            <offset x="8" y="-2"/>
-            <text><sym>coda</sym></text>
-            <label>codab</label>
-            </Marker>
           <voice>
             <Chord>
               <linked>
@@ -7095,16 +6949,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <endRepeat>2</endRepeat>
-          <Jump>
-            <linked>
-              </linked>
-            <style>Repeat Text Right</style>
-            <offset x="-2" y="-3"/>
-            <text>D.S. al Coda</text>
-            <jumpTo>segno</jumpTo>
-            <playUntil>coda</playUntil>
-            <continueAt>codab</continueAt>
-            </Jump>
           <voice>
             <Chord>
               <linked>
@@ -7221,13 +7065,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         <Measure len="2/4">
-          <Marker>
-            <linked>
-              </linked>
-            <style>Repeat Text Left</style>
-            <text><sym>coda</sym></text>
-            <label>codab</label>
-            </Marker>
           <voice>
             <Chord>
               <linked>
