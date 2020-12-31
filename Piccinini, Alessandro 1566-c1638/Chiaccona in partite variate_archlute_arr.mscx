@@ -183,6 +183,12 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteItalianTimeTriple</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <velocity>64</velocity>
@@ -2035,6 +2041,18 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <offset x="-0.5" y="-0.5"/>
+                <color r="170" g="0" b="0" a="255"/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <offset x="0" y="-0.5"/>
+                <color r="170" g="0" b="0" a="255"/>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -3319,6 +3337,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <pageHeight>11.69</pageHeight>
         <pagePrintableWidth>7.4826</pagePrintableWidth>
         <frameSystemDistance>10</frameSystemDistance>
+        <useStandardNoteNames>0</useStandardNoteNames>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <composerAlign>right,top</composerAlign>
         <lyricistAlign>left,top</lyricistAlign>
@@ -3474,9 +3493,14 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <startRepeat/>
           <voice>
             <TimeSig>
+              <visible>0</visible>
               <sigN>3</sigN>
               <sigD>4</sigD>
               </TimeSig>
+            <BarLine>
+              <subtype>start-repeat</subtype>
+              <offset x="2.5" y="0"/>
+              </BarLine>
             <Chord>
               <linked>
                 </linked>
@@ -3510,6 +3534,14 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteItalianTimeTriple</name>
+                  <font>Bravura</font>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="-7.5" y="3.75"/>
+                  </Symbol>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <velocity>64</velocity>
@@ -5639,6 +5671,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  <color r="170" g="0" b="0" a="255"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.5"/>
+                  <color r="170" g="0" b="0" a="255"/>
+                  </Symbol>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
