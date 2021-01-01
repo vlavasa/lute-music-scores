@@ -14,7 +14,7 @@
       <lyricistAlign>left,top</lyricistAlign>
       <Spatium>1.76389</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -383,11 +383,28 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <visible>0</visible>
+            <style>Expression</style>
+            <size>8</size>
+            <text>(dim.)</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -420,9 +437,8 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <linkedMain/>
               <Fingering>
-                <autoplace>0</autoplace>
                 <linkedMain/>
-                <offset x="2.19842" y="-0.166309"/>
+                <visible>0</visible>
                 <text>1</text>
                 </Fingering>
               <pitch>59</pitch>
@@ -453,9 +469,8 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <linkedMain/>
               <Fingering>
-                <autoplace>0</autoplace>
                 <linkedMain/>
-                <offset x="2.2" y="0.16"/>
+                <visible>0</visible>
                 <text>3</text>
                 </Fingering>
               <pitch>60</pitch>
@@ -466,9 +481,8 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <linkedMain/>
               <Fingering>
-                <autoplace>0</autoplace>
                 <linkedMain/>
-                <offset x="2.2" y="-0.2"/>
+                <visible>0</visible>
                 <text>2</text>
                 </Fingering>
               <pitch>64</pitch>
@@ -484,9 +498,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <string>0</string>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -505,20 +516,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
-              <minDistance>-999</minDistance>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-999</minDistance>
-                <offset x="0" y="-4.5"/>
-                <text>i</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -532,8 +534,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <minDistance>-999</minDistance>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
@@ -548,13 +548,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-0.901875</minDistance>
-                <offset x="0" y="-3.9"/>
-                <text>m</text>
-                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <velocity>64</velocity>
@@ -572,8 +565,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <minDistance>-999</minDistance>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
@@ -588,13 +579,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-3.425</minDistance>
-                <offset x="0" y="-4.25"/>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -608,20 +592,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
-              <minDistance>-999</minDistance>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-999</minDistance>
-                <offset x="0" y="-4.5"/>
-                <text>i</text>
-                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <velocity>64</velocity>
@@ -635,8 +610,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <minDistance>-999</minDistance>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
@@ -651,13 +624,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-999</minDistance>
-                <offset x="0" y="-4.5"/>
-                <text>m</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -671,19 +637,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-0.901875</minDistance>
-                <offset x="0" y="-1.7"/>
-                <text>m</text>
-                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <velocity>64</velocity>
@@ -697,19 +655,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-1.54</minDistance>
-                <offset x="0" y="-1.8"/>
-                <text>i</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <velocity>64</velocity>
@@ -727,7 +677,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>0</anchor>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
@@ -742,13 +691,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
-              <Fingering>
-                <linkedMain/>
-                <style>RH Guitar Fingering</style>
-                <minDistance>-1.86</minDistance>
-                <offset x="0" y="-4.1"/>
-                <text>m</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -836,9 +778,8 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <Note>
               <linkedMain/>
               <Fingering>
-                <autoplace>0</autoplace>
                 <linkedMain/>
-                <offset x="2.1" y="-0.2"/>
+                <visible>0</visible>
                 <text>1</text>
                 </Fingering>
               <pitch>59</pitch>
@@ -1030,9 +971,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1090,7 +1028,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -1102,6 +1039,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>4</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -1110,9 +1052,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -1129,6 +1068,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1142,8 +1086,18 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>2</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <velocity>64</velocity>
@@ -1155,6 +1109,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1172,6 +1131,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1194,6 +1158,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>64</pitch>
@@ -1207,6 +1176,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1229,6 +1203,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1242,6 +1221,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>64</pitch>
@@ -1255,6 +1239,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1274,6 +1263,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>1</text>
+                </Fingering>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <velocity>64</velocity>
@@ -1283,6 +1277,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>4</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -1435,6 +1434,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>4</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -1461,6 +1465,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>2</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>64</velocity>
@@ -1478,6 +1487,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -1502,6 +1516,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1515,6 +1534,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -1542,6 +1566,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1566,6 +1595,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1579,6 +1613,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>59</pitch>
@@ -1597,6 +1636,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>45</pitch>
@@ -1617,6 +1661,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>59</pitch>
@@ -1630,6 +1679,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>40</pitch>
@@ -1658,6 +1712,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -1682,6 +1741,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -1695,6 +1759,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -1722,6 +1791,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -1733,6 +1807,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>4</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -1744,6 +1823,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -1757,6 +1841,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>35</pitch>
@@ -1783,6 +1872,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>33</pitch>
@@ -1805,6 +1899,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>31</pitch>
@@ -1831,6 +1930,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>29</pitch>
@@ -1853,6 +1957,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -1926,6 +2035,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>72</pitch>
@@ -1939,6 +2053,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>69</pitch>
@@ -1953,6 +2072,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>31</pitch>
@@ -1969,8 +2093,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="2.5" y="0"/>
+                <visible>0</visible>
                 </Symbol>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>4-3</text>
+                </Fingering>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <dotPosition>up</dotPosition>
@@ -1983,8 +2112,18 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>1--3--4</text>
+                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <velocity>64</velocity>
@@ -1996,6 +2135,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>71</pitch>
@@ -2011,10 +2155,18 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <startRepeat/>
         <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <linkedMain/>
+            <style>Expression</style>
+            <minDistance>-1.88</minDistance>
+            <size>8</size>
+            <offset x="-3.6" y="-0.2"/>
+            <text>* 2<sup>a</sup>v.</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -2023,21 +2175,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <fret>0</fret>
               <string>9</string>
               <veloType>user</veloType>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <linkedMain/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <linkedMain/>
-                </Symbol>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -2052,6 +2189,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -2065,6 +2207,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -2078,6 +2225,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHThird</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>64</pitch>
@@ -2086,6 +2238,26 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <fret>2</fret>
               <string>1</string>
               <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>3*</text>
+                </Fingering>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -2176,11 +2348,28 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <visible>0</visible>
+            <style>Expression</style>
+            <size>8</size>
+            <text>(dim.)</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -2248,15 +2437,22 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -2292,6 +2488,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>2</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>64</velocity>
@@ -2479,6 +2680,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -2544,6 +2755,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Spanner>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>2</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <velocity>64</velocity>
@@ -2564,6 +2780,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               </Spanner>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>4</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <velocity>64</velocity>
@@ -2585,6 +2806,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -2820,15 +3051,22 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -2908,6 +3146,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>2</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <velocity>64</velocity>
@@ -3143,6 +3386,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <text>1</text>
+                </Fingering>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <velocity>64</velocity>
@@ -3183,6 +3431,16 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -3281,7 +3539,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>36</pitch>
@@ -3332,7 +3589,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <Spatium>1.76389</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
-      <showUnprintable>1</showUnprintable>
+      <showUnprintable>0</showUnprintable>
       <showFrames>1</showFrames>
       <showMargins>0</showMargins>
       <metaTag name="partName">TAB</metaTag>
@@ -3752,6 +4009,15 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <Measure>
           <endRepeat>2</endRepeat>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>8</size>
+              <offset x="-1" y="4.5"/>
+              <text>(dim.)</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -3759,6 +4025,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
@@ -3800,7 +4080,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="2" y="-0.8"/>
+                  <offset x="0.7" y="-2.3"/>
                   <text>1</text>
                   </Fingering>
                 <pitch>59</pitch>
@@ -3902,13 +4182,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>i</text>
-                  </Fingering>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -3941,13 +4214,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>m</text>
-                  </Fingering>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <velocity>64</velocity>
@@ -3984,13 +4250,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>m</text>
-                  </Fingering>
                 <pitch>65</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
@@ -4013,13 +4272,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>i</text>
-                  </Fingering>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <velocity>64</velocity>
@@ -4054,13 +4306,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>m</text>
-                  </Fingering>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -4083,13 +4328,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>m</text>
-                  </Fingering>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <velocity>64</velocity>
@@ -4112,13 +4350,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>i</text>
-                  </Fingering>
                 <pitch>62</pitch>
                 <tpc>16</tpc>
                 <velocity>64</velocity>
@@ -4157,13 +4388,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
-                <Fingering>
-                  <linked>
-                    </linked>
-                  <visible>0</visible>
-                  <style>RH Guitar Fingering</style>
-                  <text>m</text>
-                  </Fingering>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -4267,7 +4491,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                   <autoplace>0</autoplace>
                   <linked>
                     </linked>
-                  <offset x="2" y="-0.8"/>
+                  <offset x="0.7" y="-2.3"/>
                   <text>1</text>
                   </Fingering>
                 <pitch>59</pitch>
@@ -4568,6 +4792,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="2" y="-0.8"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -4595,6 +4826,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4610,9 +4848,23 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="-2.3"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <velocity>64</velocity>
@@ -4625,6 +4877,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4644,6 +4903,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-3.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4669,6 +4935,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4684,6 +4957,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-5.3"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4711,6 +4991,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4726,6 +5013,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4741,6 +5035,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4764,6 +5065,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="0.7"/>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>45</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -4775,6 +5083,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.5" y="-2.3"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -4952,6 +5267,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.5" y="-2.3"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -4982,6 +5304,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="-2.3"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
                 <velocity>64</velocity>
@@ -5004,6 +5333,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-5.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5031,6 +5367,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5046,6 +5389,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-3.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5076,6 +5426,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-5.3"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5103,6 +5460,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5118,6 +5482,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5138,6 +5509,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-3.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5161,6 +5539,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5176,6 +5561,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-5.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5207,6 +5599,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-7.3"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5234,6 +5633,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5249,6 +5655,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-3.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5279,6 +5692,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-8.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5294,6 +5714,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="1.7" y="-2.3"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -5306,6 +5733,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5321,6 +5755,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-8.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5350,6 +5791,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-8.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5375,6 +5823,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-8.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5406,6 +5861,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-8.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5433,6 +5895,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5516,6 +5985,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5531,6 +6007,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5547,6 +6030,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="-8.8"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5570,6 +6060,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                   <offset x="2" y="0"/>
                   <color r="170" g="0" b="0" a="255"/>
                   </Symbol>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="1.8" y="-3.3"/>
+                  <text>4-3</text>
+                  </Fingering>
                 <pitch>71</pitch>
                 <tpc>19</tpc>
                 <velocity>64</velocity>
@@ -5582,9 +6079,23 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="3.4" y="-2.3"/>
+                  <text>1--3--4</text>
+                  </Fingering>
                 <pitch>69</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -5597,6 +6108,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.7"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5617,6 +6135,15 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <subtype>start-repeat</subtype>
               <offset x="-0.8" y="0"/>
               </BarLine>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>8</size>
+              <offset x="-1" y="4"/>
+              <text>* 2<sup>a</sup>v.</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -5636,29 +6163,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
-                <Symbol>
-                  <name>noteheadParenthesisLeft</name>
-                  <linked>
-                    </linked>
-                  <offset x="-0.5" y="-0.5"/>
-                  <color r="170" g="0" b="0" a="255"/>
-                  </Symbol>
-                <Symbol>
-                  <name>noteheadParenthesisRight</name>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.5"/>
-                  <color r="170" g="0" b="0" a="255"/>
-                  </Symbol>
-                <pitch>60</pitch>
-                <tpc>14</tpc>
-                <fret>3</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <color r="170" g="0" b="0" a="255"/>
                 <pitch>72</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -5671,6 +6175,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.2"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5686,6 +6197,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.2"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5701,6 +6219,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHThird</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="0.2"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5710,6 +6235,30 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <fret>2</fret>
                 <string>1</string>
                 <veloType>user</veloType>
+                </Note>
+              </Chord>
+            </voice>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <color r="170" g="0" b="0" a="255"/>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.5" y="0.7"/>
+                  <text>3*</text>
+                  </Fingering>
+                <pitch>60</pitch>
+                <tpc>14</tpc>
+                <small>1</small>
+                <fret>3</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             </voice>
@@ -5812,6 +6361,15 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>8</size>
+              <offset x="-1" y="4"/>
+              <text>(dim.)</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -5819,6 +6377,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>45</pitch>
                 <tpc>17</tpc>
                 <fret>2</fret>
@@ -5903,6 +6475,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
@@ -5944,6 +6530,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="-2.3"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
                 <velocity>64</velocity>
@@ -6160,6 +6753,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>45</pitch>
                 <tpc>17</tpc>
                 <fret>2</fret>
@@ -6239,6 +6846,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="-2.3"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>59</pitch>
                 <tpc>19</tpc>
                 <velocity>64</velocity>
@@ -6261,6 +6875,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.5" y="-2.3"/>
+                  <text>4</text>
+                  </Fingering>
                 <pitch>60</pitch>
                 <tpc>14</tpc>
                 <velocity>64</velocity>
@@ -6284,6 +6905,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
@@ -6571,6 +7206,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
@@ -6663,6 +7312,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="-2.3"/>
+                  <text>2</text>
+                  </Fingering>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <velocity>64</velocity>
@@ -6932,6 +7588,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <color r="170" g="0" b="0" a="255"/>
+                <Fingering>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0.7" y="0.7"/>
+                  <text>1</text>
+                  </Fingering>
                 <pitch>45</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -6977,6 +7640,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <autoplace>0</autoplace>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.7"/>
+                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
