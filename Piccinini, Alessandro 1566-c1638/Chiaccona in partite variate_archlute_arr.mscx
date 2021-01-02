@@ -383,28 +383,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <visible>0</visible>
-            <style>Expression</style>
-            <size>8</size>
-            <text>(dim.)</text>
-            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <linkedMain/>
-                <visible>0</visible>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <linkedMain/>
-                <visible>0</visible>
-                </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <velocity>64</velocity>
@@ -4015,15 +3998,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <Measure>
           <endRepeat>2</endRepeat>
           <voice>
-            <StaffText>
-              <linked>
-                </linked>
-              <style>Expression</style>
-              <placement>below</placement>
-              <size>8</size>
-              <offset x="-1" y="4.5"/>
-              <text>(dim.)</text>
-              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -4031,20 +4005,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
-                <Symbol>
-                  <name>noteheadParenthesisLeft</name>
-                  <autoplace>0</autoplace>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.7"/>
-                  </Symbol>
-                <Symbol>
-                  <name>noteheadParenthesisRight</name>
-                  <autoplace>0</autoplace>
-                  <linked>
-                    </linked>
-                  <offset x="0" y="-0.7"/>
-                  </Symbol>
                 <pitch>41</pitch>
                 <tpc>13</tpc>
                 <velocity>64</velocity>
