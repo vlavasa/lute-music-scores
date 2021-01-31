@@ -4602,6 +4602,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         </Measure>
       <Measure len="1/16">
         <startRepeat/>
+        <irregular>1</irregular>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
@@ -7712,6 +7713,12 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>luteFingeringRHThumb</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
@@ -8679,6 +8686,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
         <enableVerticalSpread>1</enableVerticalSpread>
         <minSystemSpread>10</minSystemSpread>
         <createMultiMeasureRests>1</createMultiMeasureRests>
+        <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
         <evenHeaderL></evenHeaderL>
         <oddHeaderR></oddHeaderR>
         <evenFooterR>$P</evenFooterR>
@@ -12383,6 +12391,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
               <durationType>quarter</durationType>
               <Stem>
                 <offset x="0" y="1"/>
+                <visible>0</visible>
                 <userLen>-1.5</userLen>
                 </Stem>
               <Note>
@@ -12399,8 +12408,13 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
                 </linked>
               <durationType>eighth</durationType>
               <Stem>
+                <visible>0</visible>
                 <userLen>-0.5</userLen>
                 </Stem>
+              <Hook>
+                <name>flag8thDown</name>
+                <visible>0</visible>
+                </Hook>
               <Note>
                 <linked>
                   </linked>
@@ -14517,6 +14531,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Measure>
         <Measure len="1/16">
           <startRepeat/>
+          <irregular>1</irregular>
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
@@ -14542,6 +14557,10 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
             </voice>
           </Measure>
         <Measure>
+          <MeasureNumber>
+            <offset x="-0.5715" y="-1.143"/>
+            <text>17</text>
+            </MeasureNumber>
           <voice>
             <Chord>
               <linked>
@@ -15208,7 +15227,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
           </Measure>
         <Measure>
           <MeasureNumber>
-            <text>20</text>
+            <text>19</text>
             </MeasureNumber>
           <voice>
             <Chord>
@@ -17150,7 +17169,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <visible>0</visible>
+                  <offset x="0.3" y="1.3"/>
                   </Symbol>
                 <pitch>55</pitch>
                 <tpc>15</tpc>
@@ -17190,7 +17209,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <visible>0</visible>
+                  <offset x="0.6" y="1.3"/>
                   </Symbol>
                 <pitch>52</pitch>
                 <tpc>18</tpc>
@@ -17210,7 +17229,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <visible>0</visible>
+                  <offset x="0.6" y="1.3"/>
                   </Symbol>
                 <pitch>50</pitch>
                 <tpc>16</tpc>
@@ -17265,7 +17284,7 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <visible>0</visible>
+                  <offset x="0.6" y="1.3"/>
                   </Symbol>
                 <pitch>48</pitch>
                 <tpc>14</tpc>
@@ -18466,6 +18485,13 @@ F'-G'-A'-(B♮')-C-D-E-F-G-c-f-a-d'-g'</text>
               <Note>
                 <linked>
                   </linked>
+                <Symbol>
+                  <name>luteFingeringRHThumb</name>
+                  <font>Bravura</font>
+                  <linked>
+                    </linked>
+                  <offset x="0.6" y="1.3"/>
+                  </Symbol>
                 <pitch>48</pitch>
                 <tpc>14</tpc>
                 <fret>0</fret>
