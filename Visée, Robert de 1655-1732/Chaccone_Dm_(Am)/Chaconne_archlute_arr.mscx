@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.5.0</programVersion>
-  <programRevision>43c5553</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -20,6 +20,8 @@
       <composerAlign>right,top</composerAlign>
       <lyricistFontSize>11</lyricistFontSize>
       <lyricistAlign>left,top</lyricistAlign>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.764</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -33,6 +35,7 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source">de Visée. Pièces de théorbe et de luth. 1716. page 87 / Manuscrit Vaudry de Saizenay. 17xx. page 258</metaTag>
@@ -46,7 +49,7 @@
           </StaffType>
         </Staff>
       <trackName>Arciloutna</trackName>
-      <Instrument>
+      <Instrument id="archlute-14-course">
         <longName>Arciloutna</longName>
         <shortName>A. lout.</shortName>
         <trackName>Arciloutna</trackName>
@@ -122,6 +125,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <boxAutoSize>0</boxAutoSize>
         <linkedMain/>
         <Text>
           <linkedMain/>
@@ -3639,7 +3643,7 @@ Manuscrit Vaudry de Saizenay.
             </StaffType>
           </Staff>
         <trackName>Arciloutna</trackName>
-        <Instrument>
+        <Instrument id="archlute-14-course">
           <longName>Arciloutna</longName>
           <shortName>A. lout.</shortName>
           <trackName>Arciloutna</trackName>
@@ -3715,6 +3719,7 @@ Manuscrit Vaudry de Saizenay.
       <Staff id="1">
         <VBox>
           <height>10</height>
+          <boxAutoSize>0</boxAutoSize>
           <linked>
             </linked>
           <Text>
