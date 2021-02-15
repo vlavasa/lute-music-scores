@@ -199,7 +199,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -217,7 +219,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -238,7 +242,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -255,11 +261,6 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>luteFingeringRHSecond</subtype>
-              <linkedMain/>
-              <offset x="0" y="1"/>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -328,6 +329,13 @@ Manuscrit Vaudry de Saizenay.
             <linkedMain/>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -340,6 +348,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -447,8 +462,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -470,8 +487,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -486,8 +505,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -502,8 +523,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -567,8 +590,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -683,8 +707,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -751,8 +777,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -825,8 +853,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -855,9 +885,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -898,8 +928,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1010,8 +1042,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.2"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1068,9 +1102,9 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="3.7"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1113,8 +1147,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1130,9 +1165,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1166,8 +1201,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1227,10 +1264,6 @@ Manuscrit Vaudry de Saizenay.
                   </location>
                 </next>
               </Spanner>
-            <Articulation>
-              <subtype>luteFingeringRHSecond</subtype>
-              <linkedMain/>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -1312,8 +1345,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1332,9 +1367,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1363,9 +1398,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1413,8 +1448,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1433,9 +1470,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -1464,9 +1501,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1514,8 +1551,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1537,9 +1575,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1602,9 +1640,9 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="3.7"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1640,8 +1678,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1667,9 +1707,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1716,8 +1756,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articTenutoAbove</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1855,8 +1896,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articTenutoAbove</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -1989,8 +2031,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articTenutoAbove</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2125,9 +2168,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2151,8 +2195,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2183,10 +2229,6 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>luteFingeringRHSecond</subtype>
-              <linkedMain/>
-              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -2273,6 +2315,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -2300,9 +2349,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2327,8 +2376,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2349,9 +2400,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2366,8 +2418,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2389,9 +2443,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2423,8 +2477,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.2"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2460,9 +2516,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2481,8 +2538,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2500,9 +2559,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2523,8 +2583,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2547,9 +2609,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2581,9 +2643,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2615,8 +2678,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2653,9 +2718,9 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="3.7"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2712,8 +2777,10 @@ Manuscrit Vaudry de Saizenay.
               </Spanner>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.2"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2747,9 +2814,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2783,8 +2850,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2803,9 +2872,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>16th</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2841,9 +2911,9 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
-              <anchor>3</anchor>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="2.5"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -2865,8 +2935,10 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
               <linkedMain/>
-              <offset x="0" y="1"/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -3001,6 +3073,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -3116,6 +3195,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -3132,6 +3218,12 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -3171,6 +3263,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -3196,6 +3295,12 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Fingering>
@@ -3220,7 +3325,16 @@ Manuscrit Vaudry de Saizenay.
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articTenutoAbove</subtype>
+              <anchor>0</anchor>
               <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -3249,6 +3363,13 @@ Manuscrit Vaudry de Saizenay.
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -3286,6 +3407,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -3394,6 +3522,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -3408,6 +3543,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Fingering>
@@ -3423,6 +3565,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -3506,6 +3655,13 @@ Manuscrit Vaudry de Saizenay.
             <linkedMain/>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -3518,6 +3674,12 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -3623,6 +3785,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>60</pitch>
@@ -3641,6 +3810,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -3652,6 +3828,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -3663,6 +3846,13 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHSecond</subtype>
+              <minDistance>-999</minDistance>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -3723,6 +3913,12 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>luteFingeringRHFirst</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -4164,14 +4360,6 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>luteFingeringRHSecond</subtype>
-                <anchor>3</anchor>
-                <autoplace>0</autoplace>
-                <linked>
-                  </linked>
-                <offset x="0" y="2.5"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4245,6 +4433,13 @@ Manuscrit Vaudry de Saizenay.
                 </linked>
               <dots>1</dots>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -4259,6 +4454,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -5241,14 +5443,6 @@ Manuscrit Vaudry de Saizenay.
                     </location>
                   </next>
                 </Spanner>
-              <Articulation>
-                <subtype>luteFingeringRHSecond</subtype>
-                <minDistance>-999</minDistance>
-                <anchor>3</anchor>
-                <linked>
-                  </linked>
-                <offset x="0" y="0.5"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -6311,14 +6505,6 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Articulation>
-                <subtype>luteFingeringRHSecond</subtype>
-                <minDistance>-999</minDistance>
-                <anchor>3</anchor>
-                <linked>
-                  </linked>
-                <offset x="0" y="-0.5"/>
-                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -6416,6 +6602,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7260,6 +7453,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7392,6 +7592,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7409,6 +7616,14 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <anchor>3</anchor>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="2.5"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7450,6 +7665,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7476,6 +7698,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7505,6 +7734,13 @@ Manuscrit Vaudry de Saizenay.
                 <linked>
                   </linked>
                 <offset x="0" y="-4.5"/>
+                </Articulation>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -7540,6 +7776,14 @@ Manuscrit Vaudry de Saizenay.
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <anchor>3</anchor>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="2.5"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7584,6 +7828,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7695,6 +7946,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7708,6 +7966,14 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <anchor>3</anchor>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="2.5"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7728,6 +7994,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7818,6 +8091,13 @@ Manuscrit Vaudry de Saizenay.
                 </linked>
               <dots>1</dots>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7832,6 +8112,14 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <anchor>3</anchor>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="2.5"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7944,6 +8232,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7961,6 +8256,14 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <anchor>3</anchor>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="2.5"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7974,6 +8277,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7987,6 +8297,14 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHSecond</subtype>
+                <anchor>3</anchor>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="2.5"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -8052,6 +8370,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>luteFingeringRHFirst</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0" y="1"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
