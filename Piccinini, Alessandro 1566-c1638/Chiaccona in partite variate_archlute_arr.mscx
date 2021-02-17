@@ -413,10 +413,8 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <voice>
           <StaffText>
             <linkedMain/>
+            <visible>0</visible>
             <style>Expression</style>
-            <placement>below</placement>
-            <size>9</size>
-            <offset x="-1.5" y="4"/>
             <text>(dim.)</text>
             </StaffText>
           <Chord>
@@ -2187,6 +2185,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <StaffText>
             <autoplace>0</autoplace>
             <linkedMain/>
+            <offset x="-3.6" y="-0.2"/>
             <style>Expression</style>
             <minDistance>-1.88</minDistance>
             <size>8</size>
@@ -2381,7 +2380,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <visible>0</visible>
             <style>Expression</style>
-            <size>8</size>
             <text>(dim.)</text>
             </StaffText>
           <Chord>
