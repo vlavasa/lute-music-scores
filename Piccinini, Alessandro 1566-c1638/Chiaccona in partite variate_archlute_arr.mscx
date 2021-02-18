@@ -1819,6 +1819,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
+            <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
               <linkedMain/>
               <visible>0</visible>
@@ -1851,6 +1856,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
+            <Articulation>
               <subtype>luteFingeringRHFirst</subtype>
               <linkedMain/>
               <visible>0</visible>
@@ -1868,6 +1878,12 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
               <linkedMain/>
@@ -1900,6 +1916,12 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
+            <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
               <linkedMain/>
               <visible>0</visible>
@@ -1926,6 +1948,12 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <anchor>0</anchor>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
               <linkedMain/>
@@ -1959,6 +1987,11 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>luteFingeringRHSecond</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
+            <Articulation>
+              <subtype>articMarcatoAbove</subtype>
               <linkedMain/>
               <visible>0</visible>
               </Articulation>
@@ -2095,6 +2128,26 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <lineWidth>0.1488</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <dots>1</dots>
@@ -2185,13 +2238,20 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <StaffText>
             <autoplace>0</autoplace>
             <linkedMain/>
-            <offset x="-3.6" y="-0.2"/>
             <style>Expression</style>
             <minDistance>-1.88</minDistance>
-            <size>8</size>
-            <offset x="-3.6" y="-0.2"/>
+            <size>9</size>
+            <offset x="-4.1" y="-0.2"/>
             <text>* 2<sup>a</sup>v.</text>
             </StaffText>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -5765,6 +5825,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <durationType>quarter</durationType>
               <Articulation>
+                <subtype>articTenutoAbove</subtype>
+                <anchor>0</anchor>
+                <linked>
+                  </linked>
+                <offset x="-0.22" y="-3"/>
+                </Articulation>
+              <Articulation>
                 <subtype>luteFingeringRHSecond</subtype>
                 <autoplace>0</autoplace>
                 <linked>
@@ -5806,6 +5873,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <durationType>quarter</durationType>
               <Articulation>
+                <subtype>articStaccatoAbove</subtype>
+                <anchor>0</anchor>
+                <linked>
+                  </linked>
+                <offset x="0" y="-2.9"/>
+                </Articulation>
+              <Articulation>
                 <subtype>luteFingeringRHFirst</subtype>
                 <autoplace>0</autoplace>
                 <linked>
@@ -5827,6 +5901,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>articStaccatoAbove</subtype>
+                <anchor>0</anchor>
+                <linked>
+                  </linked>
+                <offset x="0" y="-2.9"/>
+                </Articulation>
               <Articulation>
                 <subtype>luteFingeringRHSecond</subtype>
                 <autoplace>0</autoplace>
@@ -5864,6 +5945,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 </linked>
               <durationType>quarter</durationType>
               <Articulation>
+                <subtype>articStaccatoAbove</subtype>
+                <anchor>0</anchor>
+                <linked>
+                  </linked>
+                <offset x="-0.22" y="-2.9"/>
+                </Articulation>
+              <Articulation>
                 <subtype>luteFingeringRHSecond</subtype>
                 <autoplace>0</autoplace>
                 <linked>
@@ -5895,6 +5983,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Articulation>
+                <subtype>articTenutoAbove</subtype>
+                <anchor>0</anchor>
+                <linked>
+                  </linked>
+                <offset x="-0.22" y="-3"/>
+                </Articulation>
               <Articulation>
                 <subtype>luteFingeringRHSecond</subtype>
                 <autoplace>0</autoplace>
@@ -5939,6 +6034,13 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <linked>
                   </linked>
                 <offset x="0" y="-8.8"/>
+                </Articulation>
+              <Articulation>
+                <subtype>articMarcatoAbove</subtype>
+                <anchor>0</anchor>
+                <linked>
+                  </linked>
+                <offset x="-0.11" y="-2.5"/>
                 </Articulation>
               <Note>
                 <linked>
@@ -6097,6 +6199,27 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
                 <veloType>user</veloType>
                 </Note>
               </Chord>
+            <Spanner type="TextLine">
+              <TextLine>
+                <placement>below</placement>
+                <linked>
+                  </linked>
+                <diagonal>1</diagonal>
+                <lineWidth>0.1488</lineWidth>
+                <lineStyle>2</lineStyle>
+                <Segment>
+                  <subtype>0</subtype>
+                  <offset x="1.7" y="1.7"/>
+                  <off2 x="-1.7332" y="-0.932413"/>
+                  </Segment>
+                </TextLine>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -6216,6 +6339,14 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <offset x="-1" y="4.5"/>
               <text>* 2<sup>a</sup>v.</text>
               </StaffText>
+            <Spanner type="TextLine">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
