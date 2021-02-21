@@ -13,8 +13,8 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
-    <showUnprintable>1</showUnprintable>
+    <showInvisible>0</showInvisible>
+    <showUnprintable>0</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger">for archlute arr. Vladimír Váša</metaTag>
@@ -411,12 +411,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
       <Measure>
         <endRepeat>2</endRepeat>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <visible>0</visible>
-            <style>Expression</style>
-            <text>(dim.)</text>
-            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -2436,12 +2430,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <visible>0</visible>
-            <style>Expression</style>
-            <text>(dim.)</text>
-            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -4141,15 +4129,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
         <Measure>
           <endRepeat>2</endRepeat>
           <voice>
-            <StaffText>
-              <linked>
-                </linked>
-              <style>Expression</style>
-              <placement>below</placement>
-              <size>9</size>
-              <offset x="-1.5" y="4.5"/>
-              <text>(dim.)</text>
-              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -4604,6 +4583,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <color r="170" g="0" b="0" a="255"/>
                 <pitch>43</pitch>
                 <tpc>15</tpc>
                 <velocity>64</velocity>
@@ -4781,6 +4761,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <color r="170" g="0" b="0" a="255"/>
                 <pitch>33</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -4791,6 +4772,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <color r="170" g="0" b="0" a="255"/>
                 <pitch>57</pitch>
                 <tpc>17</tpc>
                 <velocity>64</velocity>
@@ -4801,6 +4783,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
               <Note>
                 <linked>
                   </linked>
+                <color r="170" g="0" b="0" a="255"/>
                 <pitch>64</pitch>
                 <tpc>18</tpc>
                 <velocity>64</velocity>
@@ -6564,15 +6547,6 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           </Measure>
         <Measure>
           <voice>
-            <StaffText>
-              <linked>
-                </linked>
-              <style>Expression</style>
-              <placement>below</placement>
-              <size>9</size>
-              <offset x="-1" y="4.5"/>
-              <text>(dim.)</text>
-              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -7223,6 +7197,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
+              <offset x="-0.8" y="0"/>
               </BarLine>
             <Segment>
               <leadingSpace>-1.8</leadingSpace>
@@ -8018,7 +7993,7 @@ F'-G'-A'-B♮'-C-D-E-F-G-c-f-a-d'-g'
             </voice>
           </Measure>
         </Staff>
-      <name>TAB</name>
+      <name>TAB_fingering</name>
       </Score>
     </Score>
   </museScore>
