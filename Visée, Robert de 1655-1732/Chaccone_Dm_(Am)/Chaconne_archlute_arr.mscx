@@ -2922,6 +2922,11 @@ Manuscrit Vaudry de Saizenay.
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatissimoStrokeBelow</subtype>
+              <linkedMain/>
+              <visible>0</visible>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -2956,6 +2961,11 @@ Manuscrit Vaudry de Saizenay.
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <linkedMain/>
+              <offset x="0" y="-3"/>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -2998,7 +3008,6 @@ Manuscrit Vaudry de Saizenay.
               <Fingering>
                 <linkedMain/>
                 <visible>0</visible>
-                <minDistance>0.5</minDistance>
                 <text>1</text>
                 </Fingering>
               <pitch>56</pitch>
@@ -7130,6 +7139,13 @@ Manuscrit Vaudry de Saizenay.
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>articStaccatissimoStrokeAbove</subtype>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="0.1" y="5.9"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7168,6 +7184,12 @@ Manuscrit Vaudry de Saizenay.
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>articTenutoAbove</subtype>
+                <linked>
+                  </linked>
+                <offset x="0" y="-6"/>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -7539,6 +7561,9 @@ Manuscrit Vaudry de Saizenay.
           </Measure>
         <Measure len="2/4">
           <startRepeat/>
+          <MeasureNumber>
+            <text>25</text>
+            </MeasureNumber>
           <voice>
             <BarLine>
               <subtype>start-repeat</subtype>
