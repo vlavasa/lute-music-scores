@@ -608,7 +608,6 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <defaultClef>F</defaultClef>
         </Staff>
       <Staff id="10">
         <linkedTo>9</linkedTo>
@@ -640,14 +639,18 @@
       <trackName>Liuto</trackName>
       <Instrument>
         <longName>Liuto</longName>
-        <trackName>Desítistrunná loutna</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>79</maxPitchP>
-        <minPitchA>36</minPitchA>
-        <maxPitchA>79</maxPitchA>
-        <instrumentId>pluck.lute</instrumentId>
+        <trackName>Arciloutna</trackName>
+        <minPitchP>29</minPitchP>
+        <maxPitchP>77</maxPitchP>
+        <minPitchA>29</minPitchA>
+        <maxPitchA>77</maxPitchA>
+        <instrumentId>pluck.archlute</instrumentId>
         <StringData>
           <frets>13</frets>
+          <string open="1">29</string>
+          <string open="1">31</string>
+          <string open="1">32</string>
+          <string open="1">34</string>
           <string open="1">36</string>
           <string open="1">38</string>
           <string>39</string>
@@ -24068,10 +24071,10 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
           <durationType>eighth</durationType>
           <Note>
             <lid>131</lid>
-            <pitch>46</pitch>
+            <pitch>34</pitch>
             <tpc>12</tpc>
-            <fret>3</fret>
-            <string>5</string>
+            <fret>0</fret>
+            <string>10</string>
             </Note>
           </Chord>
         <Chord>
@@ -33763,10 +33766,10 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
           <durationType>eighth</durationType>
           <Note>
             <lid>131</lid>
-            <pitch>46</pitch>
+            <pitch>34</pitch>
             <tpc>12</tpc>
-            <fret>3</fret>
-            <string>5</string>
+            <fret>0</fret>
+            <string>10</string>
             </Note>
           </Chord>
         <Chord>
@@ -43515,14 +43518,18 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
         <trackName>Liuto</trackName>
         <Instrument>
           <longName>Liuto</longName>
-          <trackName>Desítistrunná loutna</trackName>
-          <minPitchP>36</minPitchP>
-          <maxPitchP>79</maxPitchP>
-          <minPitchA>36</minPitchA>
-          <maxPitchA>79</maxPitchA>
-          <instrumentId>pluck.lute</instrumentId>
+          <trackName>Arciloutna</trackName>
+          <minPitchP>29</minPitchP>
+          <maxPitchP>77</maxPitchP>
+          <minPitchA>29</minPitchA>
+          <maxPitchA>77</maxPitchA>
+          <instrumentId>pluck.archlute</instrumentId>
           <StringData>
             <frets>13</frets>
+            <string open="1">29</string>
+            <string open="1">31</string>
+            <string open="1">32</string>
+            <string open="1">34</string>
             <string open="1">36</string>
             <string open="1">38</string>
             <string>39</string>
@@ -43631,10 +43638,10 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
             <durationType>eighth</durationType>
             <Note>
               <lid>131</lid>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             </Chord>
           <Chord>
@@ -53498,16 +53505,19 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
           </Staff>
         <trackName>Liuto</trackName>
         <Instrument>
-          <longName>Soprano
-% Liuto</longName>
-          <trackName>Desítistrunná loutna</trackName>
-          <minPitchP>36</minPitchP>
-          <maxPitchP>79</maxPitchP>
-          <minPitchA>36</minPitchA>
-          <maxPitchA>79</maxPitchA>
-          <instrumentId>pluck.lute</instrumentId>
+          <longName>Liuto</longName>
+          <trackName>Arciloutna</trackName>
+          <minPitchP>29</minPitchP>
+          <maxPitchP>77</maxPitchP>
+          <minPitchA>29</minPitchA>
+          <maxPitchA>77</maxPitchA>
+          <instrumentId>pluck.archlute</instrumentId>
           <StringData>
             <frets>13</frets>
+            <string open="1">29</string>
+            <string open="1">31</string>
+            <string open="1">32</string>
+            <string open="1">34</string>
             <string open="1">36</string>
             <string open="1">38</string>
             <string>39</string>
@@ -55493,10 +55503,10 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
             <durationType>eighth</durationType>
             <Note>
               <lid>131</lid>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             </Chord>
           <Chord>
@@ -65255,19 +65265,22 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
             <showTabFingering>1</showTabFingering>
             <useNumbers>0</useNumbers>
             </StaffType>
-          <defaultClef>F</defaultClef>
           </Staff>
         <trackName>Liuto</trackName>
         <Instrument>
           <longName>Liuto</longName>
-          <trackName>Desítistrunná loutna</trackName>
-          <minPitchP>36</minPitchP>
-          <maxPitchP>79</maxPitchP>
-          <minPitchA>36</minPitchA>
-          <maxPitchA>79</maxPitchA>
-          <instrumentId>pluck.lute</instrumentId>
+          <trackName>Arciloutna</trackName>
+          <minPitchP>29</minPitchP>
+          <maxPitchP>77</maxPitchP>
+          <minPitchA>29</minPitchA>
+          <maxPitchA>77</maxPitchA>
+          <instrumentId>pluck.archlute</instrumentId>
           <StringData>
             <frets>13</frets>
+            <string open="1">29</string>
+            <string open="1">31</string>
+            <string open="1">32</string>
+            <string open="1">34</string>
             <string open="1">36</string>
             <string open="1">38</string>
             <string>39</string>
@@ -65381,10 +65394,10 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
             <durationType>eighth</durationType>
             <Note>
               <lid>131</lid>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             </Chord>
           <Chord>
@@ -75126,10 +75139,10 @@ Lute tuning: C-D-Eb-F-G-c-f-a-d'-g'</text>
             <durationType>eighth</durationType>
             <Note>
               <lid>131</lid>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             </Chord>
           <Chord>
