@@ -471,6 +471,7 @@
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
+          <showTabFingering>1</showTabFingering>
           <useNumbers>0</useNumbers>
           </StaffType>
         </Staff>
@@ -1323,6 +1324,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -1390,6 +1392,7 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1416,6 +1419,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1463,6 +1467,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -1626,6 +1631,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1663,6 +1669,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1670,6 +1677,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1736,6 +1744,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1853,7 +1862,7 @@
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <color r="0" g="170" b="0" a="255"/>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1882,7 +1891,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="0" g="170" b="0" a="255"/>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1968,6 +1977,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1979,6 +1989,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1986,6 +1997,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -2028,7 +2040,6 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <color r="0" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2100,6 +2111,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -2111,6 +2123,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -2118,6 +2131,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -2138,6 +2152,7 @@
             <offset x="1.5" y="0"/>
             <durationType>whole</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -2479,7 +2494,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="0" g="170" b="0" a="255"/>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -2628,6 +2643,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -2663,6 +2679,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <color r="170" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -3237,8 +3254,8 @@
               <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -3291,22 +3308,7 @@
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <location>
-            <fractions>3/4</fractions>
-            </location>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          </voice>
+        <voice/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3576,18 +3578,9 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -3687,8 +3680,8 @@
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -3959,11 +3952,26 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
+              <Fingering>
+                <linkedMain/>
+                <text>2</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -3973,12 +3981,23 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <linkedMain/>
+                <text>4</text>
+                </Fingering>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -3987,18 +4006,9 @@
             </Chord>
           </voice>
         <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -4105,24 +4115,21 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.7" y="0"/>
+                <text>1</text>
+                </Fingering>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -4164,17 +4171,9 @@
           <location>
             <fractions>1/8</fractions>
             </location>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -4282,18 +4281,6 @@
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -4494,17 +4481,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
           </voice>
         <voice>
           <Chord>
@@ -4574,6 +4550,12 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4617,31 +4599,12 @@
             </Chord>
           </voice>
         <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>4</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -4700,6 +4663,7 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -4711,6 +4675,7 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
               <pitch>58</pitch>
@@ -4868,8 +4833,19 @@
             </Chord>
           </voice>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Chord>
             <linkedMain/>
@@ -5045,9 +5021,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           </voice>
         <voice>
           <Chord>
@@ -5195,6 +5168,13 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2" y="0.2"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -5226,32 +5206,12 @@
               <string>3</string>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>16th</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>3/16</fractions>
+            </location>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Chord>
             <linkedMain/>
             <dots>1</dots>
@@ -5291,17 +5251,6 @@
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
               <string>4</string>
               </Note>
             </Chord>
@@ -5369,62 +5318,11 @@
               <string>4</string>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
           <location>
             <fractions>1/8</fractions>
             </location>
           </voice>
+        <voice/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -5491,23 +5389,7 @@
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <offset x="1.5" y="0"/>
-            <durationType>whole</durationType>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          </voice>
+        <voice/>
         <voice>
           <Chord>
             <linkedMain/>
@@ -5677,8 +5559,8 @@
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -5737,24 +5619,7 @@
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <location>
-            <fractions>3/4</fractions>
-            </location>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          </voice>
+        <voice/>
         <voice>
           <Chord>
             <linked>
@@ -6060,19 +5925,9 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <linked>
               </linked>
@@ -6190,8 +6045,8 @@
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6503,9 +6358,30 @@
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <offset x="0" y="-0.5"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
+              <Fingering>
+                <linked>
+                  </linked>
+                <offset x="0" y="-1"/>
+                <text>2</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -6516,6 +6392,13 @@
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -6523,6 +6406,12 @@
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <linked>
+                  </linked>
+                <offset x="0" y="-1"/>
+                <text>4</text>
+                </Fingering>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -6531,19 +6420,9 @@
             </Chord>
           </voice>
         <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <Chord>
             <linked>
               </linked>
@@ -6666,25 +6545,21 @@
             <Note>
               <linked>
                 </linked>
+              <Fingering>
+                <linked>
+                  </linked>
+                <offset x="1.5" y="-2.3"/>
+                <text>1</text>
+                </Fingering>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <linked>
               </linked>
@@ -6730,19 +6605,9 @@
           <location>
             <fractions>1/8</fractions>
             </location>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <linked>
               </linked>
@@ -6866,19 +6731,6 @@
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -7103,19 +6955,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
           </voice>
         <voice>
           <Chord>
@@ -7197,6 +7036,14 @@
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="2" y="0.2"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -7246,32 +7093,12 @@
             </Chord>
           </voice>
         <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>4</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <linked>
               </linked>
@@ -7537,8 +7364,21 @@
             </Chord>
           </voice>
         <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Chord>
             <linked>
@@ -7747,9 +7587,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           </voice>
         <voice>
           <Chord>
@@ -7923,6 +7760,14 @@
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="2" y="0.2"/>
+                </Symbol>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -7957,33 +7802,12 @@
               <string>3</string>
               </Note>
             </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>16th</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>3/16</fractions>
+            </location>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Chord>
             <linked>
               </linked>
@@ -8031,19 +7855,6 @@
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
               <string>4</string>
               </Note>
             </Chord>
@@ -8120,69 +7931,11 @@
               <string>4</string>
               </Note>
             </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
           <location>
             <fractions>1/8</fractions>
             </location>
           </voice>
+        <voice/>
         <voice>
           <Chord>
             <linked>
@@ -8258,25 +8011,7 @@
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <offset x="1.5" y="0"/>
-            <durationType>whole</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          </voice>
+        <voice/>
         <voice>
           <Chord>
             <linked>
