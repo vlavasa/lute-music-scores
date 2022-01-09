@@ -28,9 +28,9 @@ $:copyright:</oddFooterC>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger">for guitar and lute arr. Vladimír Váša (2021)</metaTag>
+    <metaTag name="arranger">from guitar arr. Vladimír Váša</metaTag>
     <metaTag name="composer">Thomas Campion (1567-1620)</metaTag>
-    <metaTag name="copyright">© 2021 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
+    <metaTag name="copyright">© 2022 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2021-12-29</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -210,13 +210,13 @@ $:copyright:</oddFooterC>
           <linkedMain/>
           <style>Composer</style>
           <text>Thomas Campion (1567-1620)
-arr. Vladimír Váša (2021)
-version: 2022-01-04</text>
+from guitar arr. Vladimír Váša
+version: 2022-01-09</text>
           </Text>
         <Text>
           <linkedMain/>
           <style>Lyricist</style>
-          <text>Tuning: F-G-c-f-a-d'-g' </text>
+          <text>Tuning: G-c-f-a-d'-g' </text>
           </Text>
         </VBox>
       <Measure len="1/4">
@@ -445,11 +445,35 @@ version: 2022-01-04</text>
               <fret>2</fret>
               <string>3</string>
               </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
             </Chord>
-          <Rest>
+          <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -1957,18 +1981,8 @@ version: 2022-01-04</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -1976,16 +1990,22 @@ version: 2022-01-04</text>
               <fret>2</fret>
               <string>3</string>
               </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>0</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -2008,10 +2028,10 @@ version: 2022-01-04</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>0</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -2699,10 +2719,10 @@ version: 2022-01-04</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>0</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -2918,7 +2938,8 @@ version: 2022-01-04</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -2942,35 +2963,6 @@ version: 2022-01-04</text>
               <tpc>16</tpc>
               <fret>0</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -3486,10 +3478,17 @@ version: 2022-01-04</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Rest>
+          <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -4958,10 +4957,10 @@ version: 2022-01-04</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>0</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -5441,10 +5440,27 @@ version: 2022-01-04</text>
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>0</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6352,10 +6368,10 @@ version: 2022-01-04</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>0</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6568,42 +6584,30 @@ version: 2022-01-04</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
               </Note>
             </Chord>
           <BarLine>
@@ -6654,16 +6658,14 @@ $:copyright:</oddFooterC>
             <lines>6</lines>
             <lineDistance>1.5</lineDistance>
             <clef>0</clef>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <durations>1</durations>
+            <durations>0</durations>
             <durationFontName>MuseScore Tab French</durationFontName>
             <durationFontSize>15</durationFontSize>
             <durationFontY>0</durationFontY>
             <fretFontName>MuseScore Tab Renaiss</fretFontName>
             <fretFontSize>10.4</fretFontSize>
             <fretFontY>0</fretFontY>
-            <symbolRepeat>2</symbolRepeat>
+            <symbolRepeat>3</symbolRepeat>
             <linesThrough>1</linesThrough>
             <minimStyle>0</minimStyle>
             <onLines>0</onLines>
@@ -6672,6 +6674,7 @@ $:copyright:</oddFooterC>
             <stemsThrough>0</stemsThrough>
             <upsideDown>0</upsideDown>
             <useNumbers>0</useNumbers>
+            <showBackTied>0</showBackTied>
             </StaffType>
           </Staff>
         <trackName>Lute 1</trackName>
@@ -6754,9 +6757,7 @@ $:copyright:</oddFooterC>
             <lines>6</lines>
             <lineDistance>1.5</lineDistance>
             <clef>0</clef>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <durations>1</durations>
+            <durations>0</durations>
             <durationFontName>MuseScore Tab French</durationFontName>
             <durationFontSize>15</durationFontSize>
             <durationFontY>0</durationFontY>
@@ -6772,6 +6773,7 @@ $:copyright:</oddFooterC>
             <stemsThrough>0</stemsThrough>
             <upsideDown>0</upsideDown>
             <useNumbers>0</useNumbers>
+            <showBackTied>0</showBackTied>
             </StaffType>
           </Staff>
         <trackName>Lute 2</trackName>
@@ -6862,18 +6864,14 @@ $:copyright:</oddFooterC>
               </linked>
             <style>Composer</style>
             <text>Thomas Campion (1567-1620)
-arr. Vladimír Váša (2021)
-version: 2022-01-04</text>
+from guitar arr. Vladimír Váša
+version: 2022-01-09</text>
             </Text>
           <Text>
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>Tuning: F-G-c-f-a-d'-g' </text>
-            </Text>
-          <Text>
-            <style>Instrument Name (Part)</style>
-            <text>Tab</text>
+            <text>Tuning: G-c-f-a-d'-g' </text>
             </Text>
           </VBox>
         <Measure len="1/4">
@@ -6898,6 +6896,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -6967,6 +6968,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -6980,6 +6984,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -6997,6 +7004,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7010,6 +7020,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7026,6 +7039,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7039,6 +7055,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7056,6 +7075,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7095,6 +7117,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7108,6 +7133,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7137,12 +7165,39 @@ version: 2022-01-04</text>
                 <fret>2</fret>
                 <string>3</string>
                 </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <fret>2</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
               </Chord>
-            <Rest>
+            <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              </Rest>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>55</pitch>
+                <tpc>15</tpc>
+                <fret>2</fret>
+                <string>3</string>
+                </Note>
+              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -7151,6 +7206,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7164,6 +7222,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7177,6 +7238,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7193,6 +7257,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7211,6 +7278,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7224,6 +7294,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7267,6 +7340,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7311,6 +7387,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7324,6 +7403,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7337,6 +7419,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7371,6 +7456,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7448,6 +7536,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7461,6 +7552,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7489,6 +7583,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7528,6 +7625,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7682,6 +7782,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7695,6 +7798,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7708,6 +7814,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7721,6 +7830,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7849,6 +7961,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7873,6 +7988,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7887,6 +8005,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7900,6 +8021,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7925,6 +8049,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7964,6 +8091,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7977,6 +8107,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -7994,6 +8127,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8026,6 +8162,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8039,6 +8178,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8052,6 +8194,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8096,6 +8241,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8109,6 +8257,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8153,6 +8304,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8166,6 +8320,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8205,6 +8362,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8225,6 +8385,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8264,6 +8427,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8277,6 +8443,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8308,6 +8477,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8352,6 +8524,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8365,6 +8540,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8378,6 +8556,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8473,6 +8654,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8520,6 +8704,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8533,6 +8720,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8546,6 +8736,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8566,6 +8759,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8579,6 +8775,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8592,6 +8791,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8687,6 +8889,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8700,6 +8905,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8717,6 +8925,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8812,6 +9023,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8825,6 +9039,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8864,6 +9081,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8880,20 +9100,8 @@ version: 2022-01-04</text>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
+              <dots>1</dots>
+              <durationType>half</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -8902,24 +9110,30 @@ version: 2022-01-04</text>
                 <fret>2</fret>
                 <string>3</string>
                 </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <fret>2</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
                 <fret>0</fret>
-                <string>0</string>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8940,6 +9154,25 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8953,19 +9186,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8990,6 +9213,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9008,6 +9234,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9029,6 +9258,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9072,6 +9304,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9127,6 +9362,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9148,6 +9386,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9169,6 +9410,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9194,6 +9438,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9207,6 +9454,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9220,6 +9470,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9233,6 +9486,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9250,6 +9506,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9292,6 +9551,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9675,6 +9937,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9743,10 +10008,10 @@ version: 2022-01-04</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
                 <fret>0</fret>
-                <string>0</string>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -9997,7 +10262,8 @@ version: 2022-01-04</text>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <dots>1</dots>
+              <durationType>half</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -10025,45 +10291,14 @@ version: 2022-01-04</text>
                 <fret>0</fret>
                 <string>1</string>
                 </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
               </Chord>
             <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10112,6 +10347,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10125,6 +10363,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10169,6 +10410,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10182,6 +10426,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10224,6 +10471,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10244,6 +10494,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10283,6 +10536,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10296,6 +10552,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10327,6 +10586,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10371,6 +10633,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10384,6 +10649,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10397,6 +10665,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10495,6 +10766,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10512,6 +10786,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10577,6 +10854,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10594,6 +10874,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10607,6 +10890,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10652,11 +10938,22 @@ version: 2022-01-04</text>
               <sigN>4</sigN>
               <sigD>4</sigD>
               </TimeSig>
-            <Rest>
+            <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              </Rest>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>43</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>5</string>
+                </Note>
+              </Chord>
             </voice>
           </Measure>
         <Measure>
@@ -10665,6 +10962,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10678,6 +10978,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10691,6 +10994,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10707,6 +11013,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10725,6 +11034,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10738,6 +11050,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10781,6 +11096,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10825,6 +11143,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10838,6 +11159,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10851,6 +11175,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10885,6 +11212,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10954,6 +11284,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10967,6 +11300,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10984,6 +11320,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -10997,6 +11336,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11013,6 +11355,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11026,6 +11371,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11043,6 +11391,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11083,6 +11434,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11096,6 +11450,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11146,6 +11503,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11194,6 +11554,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11207,6 +11570,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11251,6 +11617,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11264,6 +11633,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11303,6 +11675,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11320,6 +11695,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11359,6 +11737,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11372,6 +11753,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11403,6 +11787,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11447,6 +11834,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11460,6 +11850,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11481,6 +11874,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11633,6 +12029,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11646,6 +12045,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11659,6 +12061,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11693,6 +12098,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11767,6 +12175,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11780,6 +12191,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11808,6 +12222,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -11847,6 +12264,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12001,6 +12421,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12022,6 +12445,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12035,6 +12461,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12048,6 +12477,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12173,6 +12605,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12197,6 +12632,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12211,6 +12649,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12224,6 +12665,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12241,6 +12685,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12280,6 +12727,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12293,6 +12743,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12343,6 +12796,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12360,6 +12816,25 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12373,19 +12848,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12410,6 +12875,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12428,6 +12896,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12449,6 +12920,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12560,6 +13034,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12573,6 +13050,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12594,6 +13074,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12619,6 +13102,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12632,6 +13118,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12645,6 +13134,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12658,6 +13150,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12727,6 +13222,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12740,6 +13238,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12757,6 +13258,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12852,6 +13356,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12865,6 +13372,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12904,6 +13414,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12925,16 +13438,35 @@ version: 2022-01-04</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
+                <pitch>55</pitch>
                 <tpc>15</tpc>
+                <fret>2</fret>
+                <string>3</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <fret>2</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
                 <fret>0</fret>
-                <string>0</string>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12979,6 +13511,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -12992,6 +13527,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13036,6 +13574,9 @@ version: 2022-01-04</text>
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13049,6 +13590,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13088,6 +13632,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13105,6 +13652,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13144,6 +13694,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13157,6 +13710,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13188,6 +13744,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13232,6 +13791,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13245,6 +13807,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13258,6 +13823,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13356,6 +13924,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13373,6 +13944,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13438,6 +14012,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13455,6 +14032,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13468,6 +14048,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13498,6 +14081,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13540,6 +14126,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13920,6 +14509,9 @@ version: 2022-01-04</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13988,10 +14580,10 @@ version: 2022-01-04</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
                 <fret>0</fret>
-                <string>0</string>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -14239,7 +14831,23 @@ version: 2022-01-04</text>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
+              <durationType>whole</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>43</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>5</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <fret>2</fret>
+                <string>2</string>
+                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -14247,40 +14855,6 @@ version: 2022-01-04</text>
                 <tpc>16</tpc>
                 <fret>0</fret>
                 <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
                 </Note>
               </Chord>
             <BarLine>
