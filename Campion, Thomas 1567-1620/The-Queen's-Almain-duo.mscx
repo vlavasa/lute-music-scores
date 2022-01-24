@@ -211,7 +211,7 @@ $:copyright:</oddFooterC>
           <style>Composer</style>
           <text>Thomas Campion (1567-1620)
 from guitar version arr. Vladimír Váša
-version: 2022-01-11</text>
+version: 2022-01-24</text>
           </Text>
         <Text>
           <linkedMain/>
@@ -654,6 +654,11 @@ version: 2022-01-11</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>caesuraCurved</symbol>
+            <pause>2</pause>
+            <linkedMain/>
+            </Breath>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -1200,16 +1205,10 @@ version: 2022-01-11</text>
               <fret>2</fret>
               <string>3</string>
               </Note>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -1223,26 +1222,27 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
               <fret>2</fret>
-              <string>3</string>
+              <string>2</string>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>caesuraCurved</symbol>
+            <pause>2</pause>
+            <linkedMain/>
+            </Breath>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
+            <Stem>
+              <userLen>-1</userLen>
+              </Stem>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -1255,6 +1255,16 @@ version: 2022-01-11</text>
               <string>0</string>
               </Note>
             </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>3/4</fractions>
+            </location>
+          <Rest>
+            <linkedMain/>
+            <offset x="0" y="-1"/>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -1927,22 +1937,44 @@ version: 2022-01-11</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>10</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>7</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -1956,39 +1988,21 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -2191,6 +2205,13 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2200,6 +2221,13 @@ version: 2022-01-11</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
@@ -2220,31 +2248,38 @@ version: 2022-01-11</text>
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>74</pitch>
+              <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>7</fret>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
@@ -2896,15 +2931,7 @@ version: 2022-01-11</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -2915,6 +2942,21 @@ version: 2022-01-11</text>
               <fret>2</fret>
               <string>2</string>
               </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -3395,10 +3437,10 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -3441,10 +3483,10 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>43</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -3839,8 +3881,7 @@ version: 2022-01-11</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -3848,16 +3889,10 @@ version: 2022-01-11</text>
               <fret>2</fret>
               <string>3</string>
               </Note>
-            <Note>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -3872,6 +3907,29 @@ version: 2022-01-11</text>
             <Note>
               <linkedMain/>
               <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Breath>
+            <symbol>caesuraCurved</symbol>
+            <pause>2</pause>
+            <linkedMain/>
+            </Breath>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Stem>
+              <userLen>-1</userLen>
+              </Stem>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linkedMain/>
+              <Accidental>
                 <role>1</role>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -3881,6 +3939,16 @@ version: 2022-01-11</text>
               <string>0</string>
               </Note>
             </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>3/4</fractions>
+            </location>
+          <Rest>
+            <linkedMain/>
+            <offset x="0" y="-1"/>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -4336,6 +4404,11 @@ version: 2022-01-11</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>caesuraCurved</symbol>
+            <pause>2</pause>
+            <linkedMain/>
+            </Breath>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -5088,15 +5161,11 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -5108,6 +5177,31 @@ version: 2022-01-11</text>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
@@ -5122,35 +5216,64 @@ version: 2022-01-11</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>74</pitch>
+              <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>7</fret>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
               <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>8</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>7</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>8</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -5335,17 +5458,10 @@ version: 2022-01-11</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -5355,8 +5471,8 @@ version: 2022-01-11</text>
               <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>10</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -5364,27 +5480,27 @@ version: 2022-01-11</text>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
+          <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -5844,29 +5960,29 @@ version: 2022-01-11</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
             <durationType>half</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>67</pitch>
@@ -6517,14 +6633,7 @@ version: 2022-01-11</text>
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>whole</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
+            <durationType>half</durationType>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -6548,6 +6657,17 @@ version: 2022-01-11</text>
               <tpc>16</tpc>
               <fret>0</fret>
               <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
               </Note>
             </Chord>
           <BarLine>
@@ -6805,7 +6925,7 @@ $:copyright:</oddFooterC>
             <style>Composer</style>
             <text>Thomas Campion (1567-1620)
 from guitar version arr. Vladimír Váša
-version: 2022-01-11</text>
+version: 2022-01-24</text>
             </Text>
           <Text>
             <linked>
@@ -7388,6 +7508,12 @@ version: 2022-01-11</text>
                 <string>0</string>
                 </Note>
               </Chord>
+            <Breath>
+              <symbol>caesuraCurved</symbol>
+              <pause>2</pause>
+              <linked>
+                </linked>
+              </Breath>
             <Chord>
               <linked>
                 </linked>
@@ -8090,9 +8216,6 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -8101,17 +8224,11 @@ version: 2022-01-11</text>
                 <fret>2</fret>
                 <string>3</string>
                 </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalNatural</subtype>
-                  </Accidental>
-                <pitch>59</pitch>
-                <tpc>19</tpc>
-                <fret>2</fret>
-                <string>2</string>
-                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -8125,50 +8242,53 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
                 <fret>2</fret>
-                <string>3</string>
+                <string>2</string>
                 </Note>
               </Chord>
+            <Breath>
+              <symbol>caesuraCurved</symbol>
+              <pause>2</pause>
+              <linked>
+                </linked>
+              </Breath>
             <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
+              <StemDirection>down</StemDirection>
               <Note>
                 <linked>
                   </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
+                <Accidental>
+                  <role>1</role>
+                  <subtype>accidentalFlat</subtype>
+                  </Accidental>
                 <pitch>70</pitch>
                 <tpc>12</tpc>
                 <fret>3</fret>
                 <string>0</string>
                 </Note>
               </Chord>
+            </voice>
+          <voice>
+            <location>
+              <fractions>3/4</fractions>
+              </location>
+            <Rest>
+              <linked>
+                </linked>
+              <offset x="0" y="-3"/>
+              <durationType>quarter</durationType>
+              </Rest>
             </voice>
           </Measure>
         <Measure>
@@ -9060,24 +9180,49 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>69</pitch>
                 <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
+                <fret>7</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>10</fret>
+                <string>2</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>69</pitch>
+                <tpc>17</tpc>
+                <fret>7</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
+            </voice>
+          </Measure>
+        <Measure>
+          <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -9091,40 +9236,6 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>69</pitch>
-                <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            </voice>
-          </Measure>
-        <Measure>
-          <voice>
-            <Rest>
-              <linked>
-                </linked>
-              <offset x="0" y="-6.5"/>
-              <durationType>quarter</durationType>
-              </Rest>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>half</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -9132,6 +9243,19 @@ version: 2022-01-11</text>
                 <tpc>15</tpc>
                 <fret>2</fret>
                 <string>3</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
                 </Note>
               </Chord>
             <Chord>
@@ -9330,9 +9454,6 @@ version: 2022-01-11</text>
           </Measure>
         <Measure>
           <voice>
-            <Beam>
-              <offset x="0" y="1"/>
-              </Beam>
             <Chord>
               <linked>
                 </linked>
@@ -9375,9 +9496,6 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -9399,9 +9517,14 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -9415,9 +9538,14 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>5</fret>
+                <string>2</string>
+                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -9438,41 +9566,49 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>74</pitch>
+                <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>7</fret>
+                <fret>5</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
                 <string>0</string>
                 </Note>
               </Chord>
@@ -10282,16 +10418,7 @@ version: 2022-01-11</text>
             <Chord>
               <linked>
                 </linked>
-              <dots>1</dots>
-              <durationType>half</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <fret>2</fret>
-                <string>3</string>
-                </Note>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -10303,6 +10430,24 @@ version: 2022-01-11</text>
                 <fret>2</fret>
                 <string>2</string>
                 </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>55</pitch>
+                <tpc>15</tpc>
+                <fret>2</fret>
+                <string>3</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -10943,10 +11088,10 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
+                <pitch>55</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
+                <fret>2</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             <Chord>
@@ -10995,10 +11140,10 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>43</pitch>
+                <pitch>55</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
-                <string>5</string>
+                <fret>2</fret>
+                <string>3</string>
                 </Note>
               </Chord>
             </voice>
@@ -11528,8 +11673,7 @@ version: 2022-01-11</text>
             <Chord>
               <linked>
                 </linked>
-              <dots>1</dots>
-              <durationType>half</durationType>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -11538,17 +11682,11 @@ version: 2022-01-11</text>
                 <fret>2</fret>
                 <string>3</string>
                 </Note>
-              <Note>
-                <linked>
-                  </linked>
-                <Accidental>
-                  <subtype>accidentalNatural</subtype>
-                  </Accidental>
-                <pitch>59</pitch>
-                <tpc>19</tpc>
-                <fret>2</fret>
-                <string>2</string>
-                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -11562,9 +11700,28 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <Accidental>
+                  <subtype>accidentalNatural</subtype>
+                  </Accidental>
+                <pitch>59</pitch>
+                <tpc>19</tpc>
+                <fret>2</fret>
+                <string>2</string>
+                </Note>
+              </Chord>
+            <Breath>
+              <symbol>caesuraCurved</symbol>
+              <pause>2</pause>
+              <linked>
+                </linked>
+              </Breath>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -11578,6 +11735,17 @@ version: 2022-01-11</text>
                 <string>0</string>
                 </Note>
               </Chord>
+            </voice>
+          <voice>
+            <location>
+              <fractions>3/4</fractions>
+              </location>
+            <Rest>
+              <linked>
+                </linked>
+              <offset x="0" y="-3"/>
+              <durationType>quarter</durationType>
+              </Rest>
             </voice>
           </Measure>
         <Measure>
@@ -12177,13 +12345,16 @@ version: 2022-01-11</text>
                 <string>0</string>
                 </Note>
               </Chord>
+            <Breath>
+              <symbol>caesuraCurved</symbol>
+              <pause>2</pause>
+              <linked>
+                </linked>
+              </Breath>
             <Chord>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
               <Note>
                 <linked>
                   </linked>
@@ -13150,9 +13321,14 @@ version: 2022-01-11</text>
               <linked>
                 </linked>
               <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>64</pitch>
+                <tpc>18</tpc>
+                <fret>2</fret>
+                <string>1</string>
+                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -13172,6 +13348,14 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>0</fret>
+                <string>1</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
                 <fret>0</fret>
@@ -13185,6 +13369,14 @@ version: 2022-01-11</text>
               <Stem>
                 <userLen>-1</userLen>
                 </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>62</pitch>
+                <tpc>16</tpc>
+                <fret>5</fret>
+                <string>2</string>
+                </Note>
               <Note>
                 <linked>
                   </linked>
@@ -13201,19 +13393,6 @@ version: 2022-01-11</text>
             <Chord>
               <linked>
                 </linked>
-              <durationType>half</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
               <durationType>quarter</durationType>
               <Stem>
                 <userLen>-1</userLen>
@@ -13221,26 +13400,79 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>74</pitch>
+                <pitch>62</pitch>
                 <tpc>16</tpc>
-                <fret>7</fret>
+                <fret>5</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
                 <string>0</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Stem>
+                <userLen>-1</userLen>
+                </Stem>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>70</pitch>
+                <tpc>12</tpc>
+                <fret>8</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
+            <Beam>
+              <offset x="0" y="1"/>
+              </Beam>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>69</pitch>
+                <tpc>17</tpc>
+                <fret>7</fret>
+                <string>1</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>70</pitch>
+                <tpc>12</tpc>
+                <fret>8</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
@@ -13484,18 +13716,10 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>69</pitch>
                 <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
+                <fret>7</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             <Chord>
@@ -13507,8 +13731,8 @@ version: 2022-01-11</text>
                   </linked>
                 <pitch>67</pitch>
                 <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
+                <fret>10</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -13521,30 +13745,29 @@ version: 2022-01-11</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <pitch>69</pitch>
                 <tpc>17</tpc>
-                <fret>2</fret>
-                <string>0</string>
+                <fret>7</fret>
+                <string>1</string>
                 </Note>
               </Chord>
             </voice>
           </Measure>
         <Measure>
           <voice>
-            <Rest>
+            <Chord>
               <linked>
                 </linked>
-              <offset x="0" y="-6.5"/>
               <durationType>quarter</durationType>
-              </Rest>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
+                </Note>
+              </Chord>
             <Chord>
               <linked>
                 </linked>
@@ -14156,39 +14379,33 @@ version: 2022-01-11</text>
             <Chord>
               <linked>
                 </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
-              <durationType>quarter</durationType>
-              <Stem>
-                <userLen>-1</userLen>
-                </Stem>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>67</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>0</string>
-                </Note>
-              </Chord>
-            <Chord>
-              <linked>
-                </linked>
               <durationType>half</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>67</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>0</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>quarter</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -14998,15 +15215,7 @@ version: 2022-01-11</text>
             <Chord>
               <linked>
                 </linked>
-              <durationType>whole</durationType>
-              <Note>
-                <linked>
-                  </linked>
-                <pitch>43</pitch>
-                <tpc>15</tpc>
-                <fret>0</fret>
-                <string>5</string>
-                </Note>
+              <durationType>half</durationType>
               <Note>
                 <linked>
                   </linked>
@@ -15030,6 +15239,19 @@ version: 2022-01-11</text>
                 <tpc>16</tpc>
                 <fret>0</fret>
                 <string>1</string>
+                </Note>
+              </Chord>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>half</durationType>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>43</pitch>
+                <tpc>15</tpc>
+                <fret>0</fret>
+                <string>5</string>
                 </Note>
               </Chord>
             <BarLine>
