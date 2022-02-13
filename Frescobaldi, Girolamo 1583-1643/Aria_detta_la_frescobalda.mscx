@@ -3926,8 +3926,12 @@
           </voice>
         <voice>
           <location>
-            <fractions>5/8</fractions>
+            <fractions>1/2</fractions>
             </location>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -4061,9 +4065,10 @@
             </BarLine>
           </voice>
         <voice>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
+          <Rest>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -7181,9 +7186,9 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <tpc2>16</tpc2>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <tpc2>14</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -10167,6 +10172,16 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
@@ -10177,6 +10192,13 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
@@ -10717,9 +10739,10 @@
             </BarLine>
           </voice>
         <voice>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -10964,9 +10987,10 @@
             </Chord>
           </voice>
         <voice>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -10998,9 +11022,10 @@
             </BarLine>
           </voice>
         <voice>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -37971,7 +37996,7 @@
             <Rest>
               <linked>
                 </linked>
-              <offset x="0" y="3.42901"/>
+              <offset x="0" y="4.42901"/>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
@@ -38376,13 +38401,13 @@
             <Rest>
               <linked>
                 </linked>
-              <offset x="0" y="2.57176"/>
+              <offset x="0" y="0.57176"/>
               <durationType>half</durationType>
               </Rest>
             <Rest>
               <linked>
                 </linked>
-              <offset x="0" y="2.57176"/>
+              <offset x="0" y="0.57176"/>
               <durationType>half</durationType>
               </Rest>
             <Chord>
@@ -40099,8 +40124,13 @@
             </voice>
           <voice>
             <location>
-              <fractions>5/8</fractions>
+              <fractions>1/2</fractions>
               </location>
+            <Rest>
+              <linked>
+                </linked>
+              <durationType>eighth</durationType>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -40257,9 +40287,12 @@
               </BarLine>
             </voice>
           <voice>
-            <location>
-              <fractions>1/8</fractions>
-              </location>
+            <Rest>
+              <linked>
+                </linked>
+              <offset x="0" y="1"/>
+              <durationType>eighth</durationType>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -40445,6 +40478,7 @@
             <Rest>
               <linked>
                 </linked>
+              <offset x="0" y="-2"/>
               <durationType>eighth</durationType>
               </Rest>
             <Chord>
@@ -43858,9 +43892,9 @@
               <Note>
                 <linked>
                   </linked>
-                <pitch>55</pitch>
-                <tpc>15</tpc>
-                <tpc2>16</tpc2>
+                <pitch>53</pitch>
+                <tpc>13</tpc>
+                <tpc2>14</tpc2>
                 </Note>
               </Chord>
             <Chord>
@@ -44345,7 +44379,7 @@
             <Rest>
               <linked>
                 </linked>
-              <offset x="0" y="3.42901"/>
+              <offset x="0" y="5.42901"/>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
@@ -45713,14 +45747,14 @@
             <Chord>
               <durationType>breve</durationType>
               <Note>
-                <pitch>43</pitch>
+                <pitch>31</pitch>
                 <tpc>15</tpc>
                 <tpc2>16</tpc2>
                 </Note>
               <Note>
-                <pitch>50</pitch>
-                <tpc>16</tpc>
-                <tpc2>17</tpc2>
+                <pitch>43</pitch>
+                <tpc>15</tpc>
+                <tpc2>16</tpc2>
                 </Note>
               </Chord>
             <BarLine>
@@ -45880,6 +45914,7 @@
         <Measure>
           <voice>
             <Rest>
+              <offset x="0" y="1"/>
               <durationType>eighth</durationType>
               </Rest>
             <Beam>
@@ -47282,6 +47317,17 @@
               <Note>
                 <linked>
                   </linked>
+                <Spanner type="Tie">
+                  <Tie>
+                    <linked>
+                      </linked>
+                    </Tie>
+                  <next>
+                    <location>
+                      <fractions>1/4</fractions>
+                      </location>
+                    </next>
+                  </Spanner>
                 <pitch>55</pitch>
                 <tpc>15</tpc>
                 <tpc2>16</tpc2>
@@ -47294,6 +47340,13 @@
               <Note>
                 <linked>
                   </linked>
+                <Spanner type="Tie">
+                  <prev>
+                    <location>
+                      <fractions>-1/4</fractions>
+                      </location>
+                    </prev>
+                  </Spanner>
                 <pitch>55</pitch>
                 <tpc>15</tpc>
                 <tpc2>16</tpc2>
@@ -47611,6 +47664,7 @@
         <Measure>
           <voice>
             <Rest>
+              <offset x="0" y="2"/>
               <durationType>quarter</durationType>
               </Rest>
             <Chord>
@@ -47910,9 +47964,12 @@
               </BarLine>
             </voice>
           <voice>
-            <location>
-              <fractions>1/4</fractions>
-              </location>
+            <Rest>
+              <linked>
+                </linked>
+              <offset x="0" y="1"/>
+              <durationType>quarter</durationType>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -48189,9 +48246,12 @@
               </Chord>
             </voice>
           <voice>
-            <location>
-              <fractions>1/4</fractions>
-              </location>
+            <Rest>
+              <linked>
+                </linked>
+              <offset x="0" y="-3"/>
+              <durationType>quarter</durationType>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
@@ -48228,9 +48288,12 @@
               </BarLine>
             </voice>
           <voice>
-            <location>
-              <fractions>1/4</fractions>
-              </location>
+            <Rest>
+              <linked>
+                </linked>
+              <offset x="0" y="-1"/>
+              <durationType>quarter</durationType>
+              </Rest>
             <Chord>
               <linked>
                 </linked>
