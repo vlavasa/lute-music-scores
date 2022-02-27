@@ -176,14 +176,17 @@
           <fretFontName>MuseScore Tab Renaiss</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
+          <symbolRepeat>2</symbolRepeat>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
           <onLines>0</onLines>
-          <showRests>0</showRests>
+          <showRests>1</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
+          <showTabFingering>1</showTabFingering>
           <useNumbers>0</useNumbers>
+          <showBackTied>1</showBackTied>
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
@@ -13565,13 +13568,6 @@
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <linkedMain/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -21189,6 +21185,7 @@
               <Fingering>
                 <linked>
                   </linked>
+                <placement>above</placement>
                 <text>4</text>
                 </Fingering>
               <pitch>70</pitch>
@@ -21212,6 +21209,7 @@
               <Fingering>
                 <linked>
                   </linked>
+                <placement>above</placement>
                 <text>3</text>
                 </Fingering>
               <pitch>65</pitch>
@@ -21549,14 +21547,6 @@
               <tpc>12</tpc>
               <fret>0</fret>
               <string>10</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
               </Note>
             <Note>
               <linked>
