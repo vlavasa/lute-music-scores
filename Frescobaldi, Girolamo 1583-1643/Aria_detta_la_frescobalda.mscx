@@ -2099,7 +2099,7 @@
         <voice>
           <Rest>
             <linkedMain/>
-            <offset x="0" y="2.8"/>
+            <offset x="0" y="4.5"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -2366,7 +2366,6 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
@@ -14094,6 +14093,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -24339,6 +24345,14 @@
               <tpc>17</tpc>
               <fret>4</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
