@@ -12652,26 +12652,6 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
                 <fractions>-1/2</fractions>
                 </location>
               </next>
@@ -12693,6 +12673,26 @@
               <location>
                 <measures>1</measures>
                 <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <lineWidth>0.0915992</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -12832,14 +12832,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -12872,6 +12864,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
@@ -21053,26 +21053,6 @@
               <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.80366" y="-1"/>
-                <off2 x="2.86267" y="1.41258"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
                 <offset x="-1.23863" y="5.15883"/>
                 <off2 x="-1.44051" y="0.226012"/>
                 <autoplace>0</autoplace>
@@ -21102,6 +21082,26 @@
               <location>
                 <measures>1</measures>
                 <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linked>
+                </linked>
+              <diagonal>1</diagonal>
+              <lineWidth>0.0915992</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.80366" y="-1"/>
+                <off2 x="-2.70892" y="1.31258"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -21263,14 +21263,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -21307,6 +21299,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
