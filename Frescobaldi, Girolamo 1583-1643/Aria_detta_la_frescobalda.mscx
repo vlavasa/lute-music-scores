@@ -7710,7 +7710,7 @@
         <voice>
           <Rest>
             <linkedMain/>
-            <offset x="0" y="2.8"/>
+            <offset x="0" y="3.8"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -14156,6 +14156,21 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <SlurSegment no="0">
+                  <o1 x="0" y="1.2"/>
+                  <o4 x="-0.2" y="-0.4"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articTenutoAbove</subtype>
               <anchor>3</anchor>
@@ -14261,6 +14276,19 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>3</anchor>
+              <autoplace>0</autoplace>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -14282,6 +14310,10 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>55</pitch>
@@ -14318,6 +14350,23 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -14372,6 +14421,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>48</pitch>
@@ -22857,6 +22914,22 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o1 x="0.9" y="0"/>
+                  <offset x="0" y="0.3"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Articulation>
               <subtype>articTenutoAbove</subtype>
               <autoplace>0</autoplace>
@@ -22882,6 +22955,7 @@
               <string>4</string>
               </Note>
             <Note>
+              <autoplace>0</autoplace>
               <linked>
                 </linked>
               <Accidental>
@@ -22983,6 +23057,20 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <autoplace>0</autoplace>
+              <linked>
+                </linked>
+              <offset x="0" y="-3"/>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -23007,6 +23095,13 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <autoplace>0</autoplace>
+              <linked>
+                </linked>
+              <offset x="0" y="-1.5"/>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -23049,6 +23144,32 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.6"/>
+                  <o3 x="0" y="-0.6"/>
+                  <offset x="0" y="-0.6"/>
+                  </SlurSegment>
+                <up>down</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <autoplace>0</autoplace>
+              <linked>
+                </linked>
+              <offset x="0" y="-1.5"/>
+              </Articulation>
             <Note>
               <linked>
                 </linked>
@@ -23111,6 +23232,14 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -26297,7 +26426,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -26317,7 +26446,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -26337,7 +26466,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -26357,7 +26486,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -27396,7 +27525,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -27416,7 +27545,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -27436,7 +27565,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -27456,7 +27585,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -27476,7 +27605,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
@@ -27499,7 +27628,7 @@
               <autoplace>0</autoplace>
               <linked>
                 </linked>
-              <offset x="0" y="-1.1"/>
+              <offset x="0" y="-1"/>
               </Articulation>
             <Note>
               <linked>
