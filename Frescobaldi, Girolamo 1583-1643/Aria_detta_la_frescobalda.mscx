@@ -19981,6 +19981,21 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <visible>0</visible>
+                <SlurSegment no="0">
+                  <visible>0</visible>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>41</pitch>
@@ -20017,6 +20032,30 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <visible>0</visible>
+                <SlurSegment no="0">
+                  <visible>0</visible>
+                  </SlurSegment>
+                <up>up</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>38</pitch>
@@ -20046,6 +20085,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -20066,6 +20113,23 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <visible>0</visible>
+                <SlurSegment no="0">
+                  <visible>0</visible>
+                  </SlurSegment>
+                <up>up</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -20133,6 +20197,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>46</pitch>
@@ -20427,6 +20499,25 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <visible>0</visible>
+                <SlurSegment no="0">
+                  <visible>0</visible>
+                  </SlurSegment>
+                <SlurSegment no="1">
+                  <visible>0</visible>
+                  </SlurSegment>
+                <up>down</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -20489,6 +20580,13 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -30572,6 +30670,24 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o2 x="0" y="0.2"/>
+                  <o3 x="0" y="0.2"/>
+                  <o4 x="-0.7" y="0"/>
+                  <offset x="0" y="-0.6"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -30614,6 +30730,30 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o4 x="-0.4" y="0"/>
+                  <offset x="0" y="-0.6"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -30647,6 +30787,14 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
@@ -30670,6 +30818,26 @@
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o1 x="0.3" y="0"/>
+                  <o2 x="0" y="-4.17773e-17"/>
+                  <o3 x="0" y="-4.17773e-17"/>
+                  <o4 x="-0.3" y="0"/>
+                  <offset x="0" y="-0.6"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
@@ -30696,7 +30864,7 @@
                 <autoplace>0</autoplace>
                 <linked>
                   </linked>
-                <offset x="2" y="-0.5"/>
+                <offset x="2" y="-0.1"/>
                 </Symbol>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -30744,6 +30912,14 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -31086,6 +31262,27 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-0.6"/>
+                  <o4 x="0.9" y="-0.4"/>
+                  </SlurSegment>
+                <SlurSegment no="1">
+                  <o1 x="0" y="-2"/>
+                  <o4 x="0" y="-0.4"/>
+                  </SlurSegment>
+                <up>down</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -31157,6 +31354,13 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
