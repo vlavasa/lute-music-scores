@@ -11922,7 +11922,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>2</measures>
+                  <measures>1</measures>
                   <fractions>-1/4</fractions>
                   </location>
                 </next>
@@ -11971,6 +11971,14 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
@@ -12050,14 +12058,6 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>34</pitch>
@@ -12879,25 +12879,6 @@
                 </location>
               </next>
             </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="-1.00265e-15" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -12973,13 +12954,6 @@
               </prev>
             </Spanner>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
               <linkedMain/>
               <visible>0</visible>
@@ -12994,8 +12968,7 @@
               </TextLine>
             <next>
               <location>
-                <measures>2</measures>
-                <fractions>-1/2</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -13162,25 +13135,6 @@
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="-3.34218e-16" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -13280,7 +13234,7 @@
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-1/2</fractions>
+                <measures>-1</measures>
                 </location>
               </prev>
             </Spanner>
@@ -13323,14 +13277,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
@@ -22818,8 +22764,8 @@
               <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.74723" y="-0.66"/>
-                <off2 x="0.995125" y="0"/>
+                <offset x="-1.44723" y="-0.66"/>
+                <off2 x="1.49513" y="0"/>
                 <minDistance>-1.185</minDistance>
                 </Segment>
               </TextLine>
@@ -22901,9 +22847,9 @@
                 <linked>
                   </linked>
                 <SlurSegment no="0">
-                  <o2 x="0" y="-0.5"/>
-                  <o3 x="0" y="-0.5"/>
-                  <o4 x="-4.17773e-17" y="-2"/>
+                  <o2 x="2.61108e-18" y="-0.3"/>
+                  <o3 x="2.61108e-18" y="-0.3"/>
+                  <o4 x="0" y="-0.4"/>
                   <autoplace>0</autoplace>
                   <offset x="0" y="-0.7"/>
                   </SlurSegment>
@@ -22911,7 +22857,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>2</measures>
+                  <measures>1</measures>
                   <fractions>-1/4</fractions>
                   </location>
                 </next>
@@ -22967,6 +22913,14 @@
             <linked>
               </linked>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
@@ -23018,7 +22972,7 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.11031" y="0.684567"/>
-                <off2 x="0.610311" y="0"/>
+                <off2 x="1.61031" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -23055,14 +23009,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -23992,25 +23938,6 @@
                 </location>
               </next>
             </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.6" y="3.855"/>
-                <off2 x="-3" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24097,13 +24024,6 @@
               </prev>
             </Spanner>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
               <linked>
                 </linked>
@@ -24111,15 +24031,14 @@
               <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1.75134" y="-1"/>
-                <off2 x="-6.30312" y="1.21258"/>
+                <offset x="1.85134" y="-1"/>
+                <off2 x="-1.63153" y="0.61258"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>2</measures>
-                <fractions>-1/2</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -24300,25 +24219,6 @@
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.7" y="0.755"/>
-                <off2 x="-3.2" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24428,7 +24328,7 @@
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-1/2</fractions>
+                <measures>-1</measures>
                 </location>
               </prev>
             </Spanner>
@@ -24475,14 +24375,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -27300,6 +27192,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="-0.745"/>
@@ -27561,6 +27454,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="3" y="0.743698"/>
@@ -27677,6 +27571,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-2.83633" y="2.2437"/>
@@ -28073,6 +27968,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="0.755"/>
@@ -28159,6 +28055,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="2.3"/>
@@ -29032,6 +28929,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.5" y="3.8"/>
@@ -29050,6 +28948,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="-0.730617"/>
@@ -29132,6 +29031,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="0.755"/>
@@ -29151,6 +29051,7 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
+              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="2.3"/>
