@@ -6115,7 +6115,6 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -6274,7 +6273,6 @@
               </Note>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
@@ -6389,7 +6387,6 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <color r="170" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <tpc2>14</tpc2>
@@ -11772,21 +11769,6 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <visible>0</visible>
-                <SlurSegment no="0">
-                  <visible>0</visible>
-                  </SlurSegment>
-                <lineType>2</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>43</pitch>
@@ -11878,13 +11860,6 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
@@ -11991,7 +11966,14 @@
               <linkedMain/>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
+              <fret>4</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>5</fret>
               <string>2</string>
               </Note>
             <Note>
@@ -12285,6 +12267,19 @@
               <tpc>13</tpc>
               <fret>0</fret>
               <string>6</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Fingering>
+                <linkedMain/>
+                <visible>0</visible>
+                <offset x="2" y="-0.7"/>
+                <text>2</text>
+                </Fingering>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -12607,7 +12602,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>2</measures>
+                  <measures>1</measures>
                   <fractions>-3/8</fractions>
                   </location>
                 </next>
@@ -12664,6 +12659,14 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>38</pitch>
@@ -12742,14 +12745,6 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -16091,21 +16086,6 @@
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>7/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
               <linkedMain/>
               <visible>0</visible>
@@ -16142,6 +16122,21 @@
                 <fractions>3/8</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>7/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -22687,24 +22682,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  </linked>
-                <SlurSegment no="0">
-                  <o1 x="0.1" y="0.3"/>
-                  <o4 x="-0.1" y="-2.3"/>
-                  <autoplace>0</autoplace>
-                  <offset x="0" y="-1"/>
-                  </SlurSegment>
-                <lineType>2</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -22806,13 +22783,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -22935,7 +22905,15 @@
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
+              <fret>4</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>5</fret>
               <string>2</string>
               </Note>
             <Note>
@@ -23262,6 +23240,21 @@
               <tpc>13</tpc>
               <fret>0</fret>
               <string>6</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="2" y="-0.7"/>
+                <text>2</text>
+                </Fingering>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             <Note>
               <linked>
@@ -23631,10 +23624,10 @@
                 <linked>
                   </linked>
                 <SlurSegment no="0">
-                  <o1 x="0.321516" y="-1.3291"/>
-                  <o2 x="1.73921" y="-2.23122"/>
-                  <o3 x="1.07864" y="-0.666552"/>
-                  <o4 x="0.5" y="-6.1"/>
+                  <o1 x="0.875307" y="-2.63668"/>
+                  <o2 x="0.853145" y="-1.21288"/>
+                  <o3 x="0.746366" y="0.684062"/>
+                  <o4 x="-0.7" y="0.2"/>
                   <autoplace>0</autoplace>
                   <offset x="0" y="-0.8"/>
                   </SlurSegment>
@@ -23642,7 +23635,7 @@
                 </Slur>
               <next>
                 <location>
-                  <measures>2</measures>
+                  <measures>1</measures>
                   <fractions>-3/8</fractions>
                   </location>
                 </next>
@@ -23704,6 +23697,14 @@
             <linked>
               </linked>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -23741,7 +23742,7 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="0.655"/>
-                <off2 x="-2.7" y="0"/>
+                <off2 x="-1.7" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -23791,14 +23792,6 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-2</measures>
-                  <fractions>3/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -27533,21 +27526,6 @@
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>7/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <linked>
@@ -27584,6 +27562,21 @@
                 <fractions>3/8</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>7/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <linked>
