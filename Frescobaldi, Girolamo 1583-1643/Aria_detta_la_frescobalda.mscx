@@ -11752,7 +11752,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -11819,7 +11818,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -12003,7 +12001,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -12697,7 +12694,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -12860,7 +12856,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -12953,7 +12948,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13009,7 +13003,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13029,7 +13022,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13049,7 +13041,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13069,7 +13060,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13196,7 +13186,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13399,6 +13388,24 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -13418,6 +13425,31 @@
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -13429,6 +13461,13 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -13495,7 +13534,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13533,7 +13571,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13611,7 +13648,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13622,7 +13658,7 @@
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-1/2</fractions>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -13707,14 +13743,6 @@
               <string>5</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -13733,6 +13761,14 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -13869,7 +13905,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -13938,7 +13973,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -14079,7 +14113,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -14254,7 +14287,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -14264,7 +14296,7 @@
               </TextLine>
             <next>
               <location>
-                <fractions>1/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -14294,13 +14326,6 @@
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -14313,6 +14338,13 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -14360,7 +14392,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -14577,7 +14608,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -14587,7 +14617,8 @@
               </TextLine>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
+                <fractions>-3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -14620,13 +14651,6 @@
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -14642,6 +14666,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -14692,7 +14724,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -14924,7 +14955,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -15073,7 +15103,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -15092,7 +15121,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -15779,7 +15807,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -15957,7 +15984,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -15997,7 +16023,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -16016,7 +16041,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -16086,44 +16110,6 @@
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
             <prev>
               <location>
                 <measures>-1</measures>
@@ -16137,6 +16123,42 @@
                 <fractions>-3/8</fractions>
                 </location>
               </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -16481,7 +16503,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -16561,7 +16582,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -16658,7 +16678,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0915992</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -17335,7 +17354,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -17354,7 +17372,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -17430,7 +17447,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -17450,7 +17466,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -19027,7 +19042,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -19222,7 +19236,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -19269,7 +19282,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -20278,7 +20290,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -20925,7 +20936,6 @@
               <linkedMain/>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <lineWidth>0.0908663</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -22664,7 +22674,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.6" y="-0.845"/>
@@ -22738,7 +22747,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.44723" y="-0.66"/>
@@ -22946,7 +22954,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.11031" y="0.684567"/>
@@ -23738,7 +23745,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="0.655"/>
@@ -23917,7 +23923,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.59205" y="2.055"/>
@@ -24021,7 +24026,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.85134" y="-1"/>
@@ -24084,7 +24088,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.47937" y="3.60893"/>
@@ -24104,7 +24107,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.72515" y="2.10767"/>
@@ -24124,7 +24126,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.53863" y="5.35883"/>
@@ -24144,7 +24145,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.78165" y="3.84625"/>
@@ -24284,7 +24284,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.33138" y="3.58209"/>
@@ -24510,6 +24509,24 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linked>
+                </linked>
+              <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.9" y="-0.8"/>
+                <off2 x="-1.2" y="1.4"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24532,6 +24549,31 @@
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linked>
+                </linked>
+              <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.9" y="0.455"/>
+                <off2 x="-1.3" y="-1.2"/>
+                <minDistance>0.5</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24545,6 +24587,13 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24620,7 +24669,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.17083" y="0.729139"/>
@@ -24661,11 +24709,10 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="-0.715433"/>
-                <off2 x="-3" y="0"/>
+                <off2 x="-0.1" y="0"/>
                 <minDistance>0.4</minDistance>
                 </Segment>
               </TextLine>
@@ -24749,18 +24796,17 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="8.38215" y="-0.773889"/>
-                <off2 x="-4.01609" y="0"/>
+                <off2 x="-8.01609" y="0"/>
                 <minDistance>-1.8</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-1/2</fractions>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -24859,14 +24905,6 @@
               <string>5</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -24888,6 +24926,14 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -25045,7 +25091,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.04458" y="0.719661"/>
@@ -25121,7 +25166,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8314" y="2.31103"/>
@@ -25278,11 +25322,10 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.9" y="-0.745"/>
-                <off2 x="-3" y="0"/>
+                <off2 x="-1.9" y="0"/>
                 <minDistance>0.4</minDistance>
                 </Segment>
               </TextLine>
@@ -25476,17 +25519,16 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="2.255"/>
-                <off2 x="1" y="0"/>
+                <off2 x="-2" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -25520,13 +25562,6 @@
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -25541,6 +25576,13 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -25594,11 +25636,10 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="2.255"/>
-                <off2 x="-3.43486" y="0"/>
+                <off2 x="-1.73486" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -25840,17 +25881,17 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.7" y="-0.745"/>
-                <off2 x="1" y="0"/>
+                <off2 x="0.1" y="0"/>
                 <minDistance>0.4</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
+                <fractions>-3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -25888,13 +25929,6 @@
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -25912,6 +25946,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -25965,7 +26007,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-0.260239" y="-0.745"/>
@@ -26226,11 +26267,10 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-0.044601" y="0.721152"/>
-                <off2 x="-0.583959" y="0"/>
+                <off2 x="0.116041" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -26393,7 +26433,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-0.3" y="-0.8"/>
@@ -26412,10 +26451,9 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="4.45344" y="-0.745"/>
+                <offset x="4.55344" y="-0.745"/>
                 <off2 x="0.444223" y="0"/>
                 <minDistance>0.615</minDistance>
                 </Segment>
@@ -27185,7 +27223,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="-0.745"/>
@@ -27382,7 +27419,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.7" y="2.3"/>
@@ -27428,7 +27464,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.6" y="1"/>
@@ -27447,7 +27482,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="3" y="0.743698"/>
@@ -27526,12 +27560,26 @@
               </Note>
             </Chord>
           <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>7/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.4" y="1.2"/>
@@ -27549,7 +27597,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-2.83633" y="2.2437"/>
@@ -27562,21 +27609,6 @@
                 <fractions>3/8</fractions>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>7/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <linked>
@@ -27961,7 +27993,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="0.755"/>
@@ -28048,7 +28079,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="2.3"/>
@@ -28157,7 +28187,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.81533" y="1.11056"/>
@@ -28922,7 +28951,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.5" y="3.8"/>
@@ -28941,7 +28969,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="-0.730617"/>
@@ -29024,7 +29051,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="0.755"/>
@@ -29044,7 +29070,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="2.3"/>
@@ -30816,7 +30841,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.20146" y="2.13473"/>
@@ -31030,7 +31054,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.6" y="-0.875969"/>
@@ -31082,7 +31105,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.86533" y="-0.732839"/>
@@ -32215,7 +32237,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="5.2"/>
@@ -32951,7 +32972,6 @@
               <linked>
                 </linked>
               <diagonal>1</diagonal>
-              <lineWidth>0.105</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.9" y="2.2"/>
