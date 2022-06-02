@@ -8221,7 +8221,6 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
@@ -15093,8 +15092,7 @@
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -15113,7 +15111,8 @@
               </TextLine>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -26618,15 +26617,14 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.044601" y="0.721152"/>
-                <off2 x="0.116041" y="0"/>
+                <offset x="-0.3" y="5.18538"/>
+                <off2 x="0.3" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -26638,14 +26636,15 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.3" y="5.18538"/>
-                <off2 x="0.3" y="0"/>
+                <offset x="-0.044601" y="0.721152"/>
+                <off2 x="0.116041" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
