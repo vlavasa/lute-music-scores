@@ -13012,7 +13012,7 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.37937" y="3.60893"/>
-                <off2 x="-1.36922" y="-1.10538"/>
+                <off2 x="-1.76922" y="-1.10538"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -16908,14 +16908,14 @@ after the chord</text>
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2" y="5.2"/>
-                <off2 x="-2" y="0"/>
-                <minDistance>-999</minDistance>
+                <offset x="2.3" y="0.7"/>
+                <off2 x="-1.62176" y="0"/>
+                <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>3/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -16942,14 +16942,14 @@ after the chord</text>
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.3" y="0.7"/>
-                <off2 x="-1.62176" y="0"/>
-                <autoplace>0</autoplace>
+                <offset x="2" y="5.2"/>
+                <off2 x="-2" y="0"/>
+                <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/8</fractions>
+                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
