@@ -15716,7 +15716,7 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.8" y="-0.745"/>
-                <off2 x="-3.48821" y="0"/>
+                <off2 x="-1.48821" y="0"/>
                 <minDistance>0.615</minDistance>
                 </Segment>
               </TextLine>
@@ -15924,7 +15924,7 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="3" y="0.743698"/>
+                <offset x="3" y="0.7"/>
                 <off2 x="0" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
@@ -15949,6 +15949,7 @@
             <StemDirection>down</StemDirection>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>46</pitch>
@@ -16021,7 +16022,7 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-2.83633" y="2.2437"/>
+                <offset x="-2.6" y="2.2"/>
                 <off2 x="1.04995" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
@@ -16058,6 +16059,7 @@
               </Spanner>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>45</pitch>
@@ -16077,6 +16079,7 @@
             <durationType>quarter</durationType>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>46</pitch>
@@ -16147,6 +16150,7 @@
             <StemDirection>down</StemDirection>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>50</pitch>
@@ -16169,6 +16173,7 @@
             <StemDirection>down</StemDirection>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>3</text>
                 </Fingering>
               <pitch>46</pitch>
@@ -16497,13 +16502,13 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.81533" y="1.11056"/>
-                <off2 x="-14.2018" y="0"/>
+                <off2 x="2.2982" y="0"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>1</measures>
                 <fractions>-5/4</fractions>
                 </location>
               </next>
@@ -16541,6 +16546,22 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>8</size>
+            <offset x="-6" y="2.5"/>
+            <text>mute with thumb
+after the chord</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>whole</durationType>
@@ -16584,14 +16605,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>5/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -16896,6 +16909,57 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="5.2"/>
+                <off2 x="-2" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.8" y="-0.7"/>
+                <off2 x="-2.61482" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.3" y="0.7"/>
+                <off2 x="-1.62176" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -16916,27 +16980,60 @@
               <string>1</string>
               </Note>
             <Note>
-              <Fingering>
-                <autoplace>0</autoplace>
-                <offset x="1.9" y="-0.8"/>
-                <text>2</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.6" y="0.7"/>
+                <off2 x="-0.7" y="-1.5"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -16946,6 +17043,30 @@
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="0.7"/>
+                <off2 x="-1.4" y="-1.4"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -16956,6 +17077,48 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="-0.7"/>
+                <off2 x="-2" y="1.4"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.3" y="6.7"/>
+                <off2 x="-2.3" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -16995,6 +17158,13 @@
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -17012,6 +17182,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17034,6 +17212,12 @@
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <Accidental>
