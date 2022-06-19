@@ -4348,7 +4348,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -8952,7 +8951,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -9027,7 +9025,6 @@
             <durationType>half</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -9194,7 +9191,6 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -9281,7 +9277,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
@@ -9292,7 +9287,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalFlat</subtype>
@@ -9307,7 +9301,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <color r="170" g="0" b="0" a="255"/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
@@ -13055,7 +13048,7 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.53863" y="5.35883"/>
-                <off2 x="-1.14051" y="0.026012"/>
+                <off2 x="-1.34051" y="0.026012"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -13073,7 +13066,7 @@
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2.78165" y="3.84625"/>
-                <off2 x="-5.36079" y="-0.026012"/>
+                <off2 x="-5.66079" y="-0.026012"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -13131,8 +13124,8 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.4" y="5.35"/>
-                <off2 x="-1.5" y="0"/>
+                <offset x="2.5" y="5.35"/>
+                <off2 x="-1.6" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -13203,8 +13196,8 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.33138" y="3.58209"/>
-                <off2 x="-1.41727" y="-1.06141"/>
+                <offset x="-1.23138" y="3.58209"/>
+                <off2 x="-1.51727" y="-1.06141"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -17528,6 +17521,23 @@ after the chord</text>
               <Node pos="28" action="512"/>
               </Groups>
             </TimeSig>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.8" y="2.2"/>
+                <off2 x="-1.3" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -17602,6 +17612,13 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -17672,6 +17689,23 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.8" y="-0.7"/>
+                <off2 x="-1.8" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -17718,6 +17752,13 @@ after the chord</text>
               <string>5</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -17733,6 +17774,23 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.81056" y="-0.8"/>
+                <off2 x="-0.91056" y="1.3"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -17748,6 +17806,13 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -17779,6 +17844,24 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.24472" y="0.7"/>
+                <off2 x="1.24472" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -17801,6 +17884,7 @@ after the chord</text>
               </Spanner>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>45</pitch>
@@ -17818,13 +17902,6 @@ after the chord</text>
               <string>4</string>
               </Note>
             </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <minDistance>0.445</minDistance>
-            <size>9</size>
-            <offset x="-1.1" y="-0.5"/>
-            <text>altern.</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -17833,25 +17910,19 @@ after the chord</text>
               <fret>0</fret>
               <string>8</string>
               </Note>
-            <Note>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <offset x="0" y="-0.7"/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <offset x="0.1" y="-0.7"/>
-                </Symbol>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18025,6 +18096,23 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.74" y="0.75"/>
+                <off2 x="2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18066,6 +18154,32 @@ after the chord</text>
               <string>5</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endHookType>3</endHookType>
+              <endHookHeight>-0.5</endHookHeight>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.8" y="0.75"/>
+                <off2 x="-2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18114,21 +18228,14 @@ after the chord</text>
               <fret>0</fret>
               <string>8</string>
               </Note>
-            <Note>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <offset x="0" y="-0.7"/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <offset x="0.1" y="-0.7"/>
-                </Symbol>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -18140,20 +18247,6 @@ after the chord</text>
               <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
-              </Note>
-            <Note>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <offset x="-0.5" y="-0.7"/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <offset x="0" y="-0.7"/>
-                </Symbol>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
               </Note>
             <Note>
               <pitch>67</pitch>
@@ -18169,20 +18262,6 @@ after the chord</text>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>9</string>
-              </Note>
-            <Note>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <offset x="0" y="-0.7"/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <offset x="0.1" y="-0.7"/>
-                </Symbol>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -18206,20 +18285,6 @@ after the chord</text>
               <string>8</string>
               </Note>
             <Note>
-              <Symbol>
-                <name>noteheadParenthesisLeft</name>
-                <offset x="-0.1" y="-0.7"/>
-                </Symbol>
-              <Symbol>
-                <name>noteheadParenthesisRight</name>
-                <offset x="0" y="-0.7"/>
-                </Symbol>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>7</fret>
-              <string>5</string>
-              </Note>
-            <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -18229,6 +18294,11 @@ after the chord</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <offset x="2.2" y="-0.8"/>
+                <text>2</text>
+                </Fingering>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -18291,13 +18361,37 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.56718" y="-0.7"/>
+                <off2 x="1.56718" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
+                  <o1 x="0" y="0.4"/>
+                  <o2 x="0" y="-0.7"/>
+                  <o3 x="0" y="-0.7"/>
+                  <o4 x="0" y="-5.6"/>
+                  <autoplace>0</autoplace>
                   <offset x="0" y="-1"/>
                   </SlurSegment>
+                <up>down</up>
                 <lineType>2</lineType>
                 </Slur>
               <next>
@@ -18351,6 +18445,14 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18380,6 +18482,23 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.24796" y="6.7"/>
+                <off2 x="0.247959" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18431,12 +18550,42 @@ after the chord</text>
                 </prev>
               </Spanner>
             <Note>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <offset x="0.5" y="0.7"/>
+                <text>4</text>
+                </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.24796" y="-0.7"/>
+                <off2 x="1.24796" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18459,6 +18608,7 @@ after the chord</text>
               </Spanner>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>50</pitch>
@@ -18480,6 +18630,7 @@ after the chord</text>
             <durationType>eighth</durationType>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>2</text>
                 </Fingering>
               <pitch>46</pitch>
@@ -18492,6 +18643,31 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="-0.7"/>
+                <off2 x="-2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18504,6 +18680,7 @@ after the chord</text>
               </Spanner>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>3</text>
                 </Fingering>
               <pitch>51</pitch>
@@ -18559,6 +18736,31 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="0.7"/>
+                <off2 x="-2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18630,6 +18832,14 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18659,6 +18869,23 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.41855" y="2.2"/>
+                <off2 x="1.41855" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18701,6 +18928,13 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -18754,13 +18988,13 @@ after the chord</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.20146" y="2.13473"/>
-                <off2 x="-4.88757" y="0.2"/>
+                <off2 x="3.31243" y="0.2"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>1</measures>
                 <fractions>-3/4</fractions>
                 </location>
               </next>
@@ -18769,6 +19003,7 @@ after the chord</text>
             <durationType>eighth</durationType>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>2</text>
                 </Fingering>
               <pitch>45</pitch>
@@ -18799,6 +19034,14 @@ after the chord</text>
         </Measure>
       <Measure len="2/4">
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -18841,14 +19084,6 @@ after the chord</text>
         </Measure>
       <Measure len="2/4">
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -18916,9 +19151,10 @@ after the chord</text>
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.6" y="-0.875969"/>
-                <off2 x="-6.59533" y="0.2"/>
+                <offset x="2.7" y="-0.875969"/>
+                <off2 x="-6.89533" y="0.1"/>
                 <minDistance>-2.54137</minDistance>
+                <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
             <next>
@@ -19009,9 +19245,9 @@ after the chord</text>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0" y="0.2"/>
+                  <o2 x="-0.4" y="0.2"/>
                   <o3 x="0" y="0.2"/>
-                  <offset x="0" y="-0.4"/>
+                  <offset x="0" y="-0.8"/>
                   </SlurSegment>
                 <up>up</up>
                 <lineType>2</lineType>
@@ -19233,6 +19469,9 @@ after the chord</text>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
+                  <o2 x="-1.30554e-18" y="-0.1"/>
+                  <o3 x="-1.30554e-18" y="-0.1"/>
+                  <o4 x="0" y="-0.2"/>
                   <offset x="0" y="-0.4"/>
                   </SlurSegment>
                 <up>down</up>
@@ -19381,6 +19620,23 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="2.3"/>
+                <off2 x="-2" y="1.4"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -19415,6 +19671,21 @@ after the chord</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="0.7"/>
+                  <o3 x="0" y="0.7"/>
+                  <offset x="0" y="-0.9"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -19436,6 +19707,13 @@ after the chord</text>
               <string>2</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -19480,6 +19758,13 @@ after the chord</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -19489,6 +19774,31 @@ after the chord</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o1 x="0.2" y="0"/>
+                  <o2 x="-2.61108e-18" y="-0.1"/>
+                  <o3 x="-2.61108e-18" y="-0.1"/>
+                  <o4 x="0" y="-1.1"/>
+                  <offset x="0" y="0.5"/>
+                  </SlurSegment>
+                <SlurSegment no="1">
+                  <o1 x="-1" y="0"/>
+                  <o2 x="0" y="3.34218e-16"/>
+                  <o3 x="0" y="3.34218e-16"/>
+                  <autoplace>0</autoplace>
+                  <offset x="0" y="-0.9"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -19500,6 +19810,7 @@ after the chord</text>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
               <Fingering>
+                <offset x="-0.1" y="0"/>
                 <text>1</text>
                 </Fingering>
               <pitch>64</pitch>
@@ -19527,6 +19838,23 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.2" y="6.7"/>
+                <off2 x="0" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -19534,6 +19862,7 @@ after the chord</text>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
               <Fingering>
+                <placement>below</placement>
                 <text>1</text>
                 </Fingering>
               <pitch>47</pitch>
@@ -19557,8 +19886,23 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Fingering>
                 <text>4</text>
@@ -19577,7 +19921,30 @@ after the chord</text>
               <fret>2</fret>
               <string>4</string>
               </Note>
+            <Arpeggio>
+              <autoplace>0</autoplace>
+              <offset x="1" y="0"/>
+              <subtype>3</subtype>
+              <userLen1>3</userLen1>
+              </Arpeggio>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="3.7"/>
+                <off2 x="-2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -19592,10 +19959,11 @@ after the chord</text>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o2 x="0" y="0.308825"/>
-                  <o3 x="0" y="0.308825"/>
+                  <o2 x="0" y="0.508825"/>
+                  <o3 x="0" y="0.508825"/>
                   <o4 x="0" y="0.2"/>
-                  <offset x="0" y="-0.4"/>
+                  <autoplace>0</autoplace>
+                  <offset x="0" y="-0.7"/>
                   </SlurSegment>
                 <lineType>2</lineType>
                 </Slur>
@@ -19630,6 +19998,13 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -19744,7 +20119,7 @@ after the chord</text>
               <Fingering>
                 <autoplace>0</autoplace>
                 <offset x="0.5" y="0.7"/>
-                <text>3</text>
+                <text>2</text>
                 </Fingering>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -19758,9 +20133,44 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.71217" y="5.2"/>
+                <off2 x="1.71217" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-1"/>
+                  <o4 x="-0.5" y="-0.6"/>
+                  </SlurSegment>
+                <up>up</up>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
+              <autoplace>0</autoplace>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalFlat</subtype>
@@ -19774,19 +20184,60 @@ after the chord</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <offset x="0.5" y="0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.71217" y="2.3"/>
+                <off2 x="-2.06197" y="-1.5"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.1" y="3.6"/>
+                <off2 x="-5.87414" y="-1.4"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <BarLine>
@@ -19796,6 +20247,14 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <endHookType>3</endHookType>
@@ -19817,6 +20276,14 @@ after the chord</text>
             </Spanner>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -19842,8 +20309,38 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o3 x="0.8" y="-0.3"/>
+                  <offset x="0" y="-1"/>
+                  </SlurSegment>
+                <lineType>2</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -19888,6 +20385,13 @@ after the chord</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
