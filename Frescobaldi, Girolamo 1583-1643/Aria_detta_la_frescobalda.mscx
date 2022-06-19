@@ -1168,11 +1168,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
-          <linkedMain/>
-          <subtype>section</subtype>
-          </LayoutBreak>
-        <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Fermata>
@@ -1812,7 +1808,7 @@
         </Measure>
       <Measure len="3/4">
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -2390,10 +2386,7 @@
         <irregular>1</irregular>
         <stretch>0.8</stretch>
         <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
-        <LayoutBreak>
-          <subtype>section</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Fermata>
@@ -22321,11 +22314,6 @@
             </voice>
           </Measure>
         <Measure>
-          <LayoutBreak>
-            <linked>
-              </linked>
-            <subtype>section</subtype>
-            </LayoutBreak>
           <LayoutBreak>
             <subtype>page</subtype>
             </LayoutBreak>
