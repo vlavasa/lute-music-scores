@@ -11770,6 +11770,24 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.30903" y="0.7"/>
+                <off2 x="-1.84878" y="1.6"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -11817,6 +11835,23 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="2.2"/>
+                <off2 x="0.2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -11837,6 +11872,14 @@
               <string>2</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -11910,6 +11953,30 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.2" y="3.7"/>
+                <off2 x="0.1" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -11930,7 +11997,7 @@
             <Note>
               <Fingering>
                 <autoplace>0</autoplace>
-                <offset x="2" y="-0.75"/>
+                <offset x="0.7" y="0.75"/>
                 <text>1</text>
                 </Fingering>
               <pitch>57</pitch>
@@ -12007,6 +12074,30 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.9" y="3.7"/>
+                <off2 x="0.3" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -12102,6 +12193,30 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.9" y="3.65"/>
+                <off2 x="-4.6" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -12200,6 +12315,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
