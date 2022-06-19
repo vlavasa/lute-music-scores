@@ -12480,6 +12480,23 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="0.7"/>
+                <off2 x="-2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -12592,6 +12609,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -13468,6 +13492,23 @@
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.9" y="2.2"/>
+                <off2 x="-1.3" y="-1.4"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -13484,6 +13525,13 @@
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
@@ -13523,9 +13571,9 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1.8" y="-0.715433"/>
+                <offset x="1.8" y="-0.7"/>
                 <off2 x="-0.1" y="0"/>
-                <minDistance>0.4</minDistance>
+                <minDistance>0.35</minDistance>
                 </Segment>
               </TextLine>
             <next>
@@ -13592,9 +13640,9 @@
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="8.38215" y="-0.773889"/>
+                <offset x="8.38" y="-0.7"/>
                 <off2 x="-8.01609" y="0"/>
-                <minDistance>-1.8</minDistance>
+                <minDistance>0.35</minDistance>
                 </Segment>
               </TextLine>
             <next>
@@ -13697,6 +13745,24 @@
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.9" y="-0.7"/>
+                <off2 x="-2" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -13725,6 +13791,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -14705,6 +14779,7 @@
             <StemDirection>up</StemDirection>
             <Note>
               <Fingering>
+                <placement>below</placement>
                 <text>3</text>
                 </Fingering>
               <pitch>46</pitch>
@@ -14772,6 +14847,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <minDistance>-2.33444</minDistance>
+                <offset x="0.1" y="-2.3"/>
+                <text>3</text>
+                </Fingering>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -15250,6 +15330,12 @@
               <string>4</string>
               </Note>
             <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -15304,6 +15390,12 @@
               <string>5</string>
               </Note>
             <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
@@ -15337,6 +15429,18 @@
               <tpc>15</tpc>
               <fret>0</fret>
               <string>5</string>
+              </Note>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             <Note>
               <Accidental>
