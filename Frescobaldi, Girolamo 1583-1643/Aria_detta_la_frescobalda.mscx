@@ -17229,6 +17229,23 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.94112" y="0.6"/>
+                <off2 x="-1.14112" y="-1.3"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -17261,6 +17278,13 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
