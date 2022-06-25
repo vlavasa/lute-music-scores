@@ -19,6 +19,14 @@
       <enableVerticalSpread>1</enableVerticalSpread>
       <concertPitch>1</concertPitch>
       <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+      <evenFooterC>$:copyright:
+
+
+</evenFooterC>
+      <oddFooterC>$:copyright:
+
+
+</oddFooterC>
       <Spatium>1.5</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -27,7 +35,7 @@
     <showMargins>0</showMargins>
     <metaTag name="arranger">for archlute arr. Vladimír Váša</metaTag>
     <metaTag name="composer">Girolamo Frescobaldi 1583-1643</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">© 2022 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</metaTag>
     <metaTag name="creationDate">2021-03-20</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">32</metaTag>
@@ -287,6 +295,12 @@ Libro 2; No.32 (1627)</text>
           <text>for archlute arr. Vladimír Váša
 tuning:
 F'-G'-Ab'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Translator</style>
+          <align>right,top</align>
+          <text>v. 2022-06-25</text>
           </Text>
         </VBox>
       <Measure>
@@ -23100,6 +23114,13 @@ Libro 2; No.32 (1627)</text>
             <text>for archlute arr. Vladimír Váša
 tuning:
 F'-G'-Ab'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Translator</style>
+            <align>right,top</align>
+            <text>v. 2022-06-25</text>
             </Text>
           </VBox>
         <Measure>
