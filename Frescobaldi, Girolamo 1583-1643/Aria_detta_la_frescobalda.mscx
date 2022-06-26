@@ -20147,6 +20147,14 @@ after the chord</text>
       <Measure>
         <voice>
           <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
             <TextLine>
               <endHookType>3</endHookType>
               <endHookHeight>0.5</endHookHeight>
@@ -20164,14 +20172,6 @@ after the chord</text>
                 <fractions>1/4</fractions>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>5/8</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>eighth</durationType>
@@ -21156,7 +21156,7 @@ after the chord</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="0.7"/>
-                <off2 x="-2" y="0"/>
+                <off2 x="-1.7" y="-1.2"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -21605,6 +21605,24 @@ after the chord</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="2.2"/>
+                <off2 x="-1.95088" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -21686,6 +21704,14 @@ after the chord</text>
         </Measure>
       <Measure len="2/4">
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -21863,7 +21889,7 @@ after the chord</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="0.7"/>
-                <off2 x="-2" y="0"/>
+                <off2 x="-1.4" y="1.4"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -21880,7 +21906,7 @@ after the chord</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="2" y="2.2"/>
-                <off2 x="-2" y="0"/>
+                <off2 x="-1.4" y="1.4"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
@@ -21905,6 +21931,24 @@ after the chord</text>
               <string>1</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.16</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="5.2"/>
+                <off2 x="-3" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -21954,6 +21998,14 @@ after the chord</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
@@ -22396,15 +22448,14 @@ after the chord</text>
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.327704" y="3.7"/>
-                <off2 x="0.327704" y="0"/>
+                <offset x="1.2" y="-0.6"/>
+                <off2 x="-0.6" y="1.4"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-3/8</fractions>
+                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -22414,14 +22465,15 @@ after the chord</text>
               <lineWidth>0.16</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1.2" y="-0.6"/>
-                <off2 x="-0.6" y="1.4"/>
+                <offset x="-0.327704" y="3.7"/>
+                <off2 x="0.327704" y="0"/>
                 <autoplace>0</autoplace>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/8</fractions>
+                <measures>1</measures>
+                <fractions>-3/8</fractions>
                 </location>
               </next>
             </Spanner>
