@@ -300,7 +300,7 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
           <linkedMain/>
           <style>Translator</style>
           <align>right,top</align>
-          <text>v. 2022-06-25</text>
+          <text>v. 2022-06-27</text>
           </Text>
         </VBox>
       <Measure>
@@ -1192,7 +1192,8 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <linkedMain/>
+          <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Fermata>
@@ -2405,7 +2406,8 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         <irregular>1</irregular>
         <stretch>0.8</stretch>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <linkedMain/>
+          <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <Fermata>
@@ -24193,6 +24195,11 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
           <LayoutBreak>
             <subtype>page</subtype>
             </LayoutBreak>
+          <LayoutBreak>
+            <linked>
+              </linked>
+            <subtype>section</subtype>
+            </LayoutBreak>
           <voice>
             <Fermata>
               <subtype>fermataAbove</subtype>
@@ -25590,6 +25597,8 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         <Measure>
           <irregular>1</irregular>
           <LayoutBreak>
+            <linked>
+              </linked>
             <subtype>section</subtype>
             </LayoutBreak>
           <voice>
