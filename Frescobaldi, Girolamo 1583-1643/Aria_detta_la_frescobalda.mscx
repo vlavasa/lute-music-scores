@@ -19,6 +19,10 @@
       <enableVerticalSpread>1</enableVerticalSpread>
       <concertPitch>1</concertPitch>
       <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+      <evenHeaderL></evenHeaderL>
+      <evenHeaderR>$p</evenHeaderR>
+      <oddHeaderL>$p</oddHeaderL>
+      <oddHeaderR></oddHeaderR>
       <evenFooterC>$:copyright:
 
 
@@ -37602,6 +37606,10 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         <enableVerticalSpread>1</enableVerticalSpread>
         <concertPitch>1</concertPitch>
         <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+        <evenHeaderL></evenHeaderL>
+        <evenHeaderR>$p</evenHeaderR>
+        <oddHeaderL>$p</oddHeaderL>
+        <oddHeaderR></oddHeaderR>
         <evenFooterC>$:copyright:
 
 
@@ -37610,6 +37618,7 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
 
 
 </oddFooterC>
+        <measureNumberOffset x="-0.5" y="-5.5"/>
         <Spatium>1.5</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
