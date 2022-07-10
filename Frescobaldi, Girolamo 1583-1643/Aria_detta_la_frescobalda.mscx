@@ -33,6 +33,7 @@
 
 
 </oddFooterC>
+      <systemFontSize>16</systemFontSize>
       <Spatium>1.5</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -24612,6 +24613,7 @@ after the chord</text>
         <showMeasureNumberOne>1</showMeasureNumberOne>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+        <systemFontSize>16</systemFontSize>
         <Spatium>1.5</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -37558,6 +37560,7 @@ D minor</text>
 
 </oddFooterC>
         <measureNumberOffset x="-1.5" y="-3.5"/>
+        <systemFontSize>16</systemFontSize>
         <Spatium>1.5</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -37759,6 +37762,8 @@ arrangement</text>
                   </location>
                 <indexDiff>8</indexDiff>
                 </linked>
+              <placement>below</placement>
+              <offset x="0" y="4"/>
               <text>Prima parte</text>
               </SystemText>
             <Chord>
@@ -40022,6 +40027,8 @@ in the original</text>
                   </location>
                 <indexDiff>2</indexDiff>
                 </linked>
+              <placement>below</placement>
+              <offset x="0" y="4"/>
               <text>Seconda parte</text>
               </SystemText>
             <Chord>
@@ -42867,6 +42874,8 @@ in the original</text>
                   </location>
                 <indexDiff>2</indexDiff>
                 </linked>
+              <placement>below</placement>
+              <offset x="0" y="4"/>
               <text>Terza parte Gagliarda</text>
               </SystemText>
             <Rest>
@@ -45406,6 +45415,8 @@ after the chord</text>
                   </location>
                 <indexDiff>2</indexDiff>
                 </linked>
+              <placement>below</placement>
+              <offset x="0" y="4"/>
               <text>Quarta parte</text>
               </SystemText>
             <Spanner type="TextLine">
@@ -49362,6 +49373,8 @@ after the chord</text>
                   </location>
                 <indexDiff>2</indexDiff>
                 </linked>
+              <placement>below</placement>
+              <offset x="0" y="4"/>
               <text>Quinta parte Corrente</text>
               </SystemText>
             <Rest>
