@@ -328,6 +328,18 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
             <linkedMain/>
             <text>Prima parte</text>
             </SystemText>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <linkedMain/>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>8</size>
+            <offset x="-6.5" y="1.25"/>
+            <text>Original
+transposed
+from
+D minor</text>
+            </StaffText>
           <Rest>
             <linkedMain/>
             <durationType>half</durationType>
@@ -11450,6 +11462,15 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <linkedMain/>
+            <style>Expression</style>
+            <size>8</size>
+            <offset x="-6.5" y="-2.5"/>
+            <text>Lute
+arrangement</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
@@ -13394,6 +13415,15 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>8</size>
+            <offset x="-1" y="2.5"/>
+            <text>* minor chord
+in the original</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>whole</durationType>
@@ -24747,6 +24777,19 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
                 </linked>
               <text>Prima parte</text>
               </SystemText>
+            <StaffText>
+              <autoplace>0</autoplace>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>8</size>
+              <text>Original
+transposed
+from
+D minor</text>
+              </StaffText>
             <Rest>
               <linked>
                 </linked>
@@ -37758,6 +37801,17 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
               <sigN>4</sigN>
               <sigD>4</sigD>
               </TimeSig>
+            <StaffText>
+              <autoplace>0</autoplace>
+              <linked>
+                </linked>
+              <visible>0</visible>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>8</size>
+              <text>Lute
+arrangement</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -39928,6 +39982,15 @@ F'-G'-(A)'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
             <subtype>section</subtype>
             </LayoutBreak>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>8</size>
+              <text>* minor chord
+in the original</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
