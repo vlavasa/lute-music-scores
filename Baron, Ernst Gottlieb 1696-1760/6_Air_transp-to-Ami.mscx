@@ -763,16 +763,6 @@ transposed to a-moll</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>0</fret>
@@ -787,23 +777,9 @@ transposed to a-moll</text>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Chord>
+          <Rest>
             <durationType>eighth</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1747,16 +1723,6 @@ transposed to a-moll</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>0</fret>
@@ -1775,23 +1741,9 @@ transposed to a-moll</text>
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
-          <Chord>
+          <Rest>
             <durationType>eighth</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2121,7 +2073,6 @@ transposed to a-moll</text>
       <Measure>
         <voice>
           <Chord>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <pitch>40</pitch>
@@ -2130,6 +2081,9 @@ transposed to a-moll</text>
               <string>6</string>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2551,7 +2505,6 @@ transposed to a-moll</text>
       <Measure>
         <voice>
           <Chord>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <pitch>40</pitch>
@@ -2560,6 +2513,9 @@ transposed to a-moll</text>
               <string>6</string>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
