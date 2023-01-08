@@ -3,14 +3,14 @@
   <Style>
     <pageWidth>8.27007</pageWidth>
     <pageHeight>11.6901</pageHeight>
-    <pagePrintableWidth>7.32519</pagePrintableWidth>
-    <pageEvenLeftMargin>0.472441</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.472441</pageOddLeftMargin>
-    <pageEvenTopMargin>0.472441</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.472441</pageEvenBottomMargin>
-    <pageOddTopMargin>0.472441</pageOddTopMargin>
-    <pageOddBottomMargin>0.472441</pageOddBottomMargin>
-    <pageTwosided>1</pageTwosided>
+    <pagePrintableWidth>7.48267</pagePrintableWidth>
+    <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.393701</pageOddLeftMargin>
+    <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
+    <pageOddTopMargin>0.393701</pageOddTopMargin>
+    <pageOddBottomMargin>0.393701</pageOddBottomMargin>
+    <pageTwosided>0</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
@@ -394,21 +394,22 @@
     <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
-    <headerOddEven>1</headerOddEven>
+    <headerOddEven>0</headerOddEven>
     <evenHeaderL>$p</evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
     <oddHeaderC></oddHeaderC>
-    <oddHeaderR>$p</oddHeaderR>
+    <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>$C
+~ Baron ~ Suite c-moll ~ $P/4 ~</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -1345,6 +1346,6 @@
     <chordlineThickness>0.006</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>400</defaultsVersion>
-    <Spatium>1.764</Spatium>
+    <Spatium>1.6</Spatium>
     </Style>
   </museScore>
