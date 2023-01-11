@@ -170,7 +170,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Allemande</i></b></text>
+            <text><b><i><font size="14"></font>Allemande</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -3597,7 +3597,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Courante</i></b></text>
+            <text><b><i><font size="14"></font>Courante</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -6584,7 +6584,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Bouree</i></b></text>
+            <text><b><i><font size="14"></font>Bouree</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -9135,7 +9135,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Sarabande</i></b></text>
+            <text><b><i><font size="14"></font>Sarabande</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -11607,7 +11607,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Menuet</i></b></text>
+            <text><b><i><font size="14"></font>Menuet</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -14228,7 +14228,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Air</i></b></text>
+            <text><b><i><font size="14"></font>Air</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -15068,10 +15068,10 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>ornamentTopLeftConvexStroke</name>
+                <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="-0.272109" y="1.08844"/>
+                <offset x="-1.26984" y="1.17914"/>
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -15270,17 +15270,6 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linkedMain/>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
@@ -15292,13 +15281,6 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>68</pitch>
@@ -15319,6 +15301,12 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="1.81406" y="0.725624"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -15339,15 +15327,15 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -16491,10 +16479,10 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <Note>
               <linkedMain/>
               <Symbol>
-                <name>ornamentTopLeftConvexStroke</name>
+                <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
                 <linkedMain/>
-                <offset x="-0.272109" y="1.08844"/>
+                <offset x="-1.26984" y="1.17914"/>
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -16528,7 +16516,7 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <bold>1</bold>
             <italic>1</italic>
             <offset x="0" y="-4.25"/>
-            <text><b><i><font size="14"/>Gigue</i></b></text>
+            <text><b><i><font size="14"></font>Gigue</i></b></text>
             </SystemText>
           <Chord>
             <linkedMain/>
@@ -36223,11 +36211,11 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <Symbol>
-                <name>ornamentTopLeftConvexStroke</name>
+                <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
                 <linked>
                   </linked>
-                <offset x="-0.272109" y="1.08844"/>
+                <offset x="-1.26984" y="1.17914"/>
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -36458,18 +36446,6 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <linked>
-                  </linked>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -36483,13 +36459,6 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -36514,6 +36483,14 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="1.81406" y="0.725624"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -36538,8 +36515,8 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
                 </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linked>
@@ -36547,8 +36524,8 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -37866,11 +37843,11 @@ F'-G'-<b>A♭'</b>-<b>B♭'</b>-C-D-<b>E♭</b>-F-G-c-f-a-d'-g'
               <linked>
                 </linked>
               <Symbol>
-                <name>ornamentTopLeftConvexStroke</name>
+                <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
                 <linked>
                   </linked>
-                <offset x="-0.272109" y="1.08844"/>
+                <offset x="-1.26984" y="1.17914"/>
                 </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
