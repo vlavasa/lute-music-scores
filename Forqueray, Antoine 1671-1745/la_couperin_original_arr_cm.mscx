@@ -238,6 +238,10 @@
           <offset x="0" y="-0.0612423"/>
           <text><font size="22"></font>6. La Couperin</text>
           </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>Cmi</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -4636,7 +4640,7 @@
             </Clef>
           <KeySig>
             <linkedMain/>
-            <accidental>-3</accidental>
+            <accidental>-2</accidental>
             </KeySig>
           <TimeSig>
             <sigN>2</sigN>
@@ -5029,6 +5033,9 @@
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>56</pitch>
               <tpc>10</tpc>
               <fret>3</fret>
@@ -5584,6 +5591,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -6092,9 +6102,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
@@ -6513,6 +6520,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -6734,6 +6744,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -7103,6 +7116,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -7183,6 +7199,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -7401,6 +7420,9 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -7721,6 +7743,9 @@
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
@@ -7963,6 +7988,9 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
               <fret>1</fret>
@@ -8435,7 +8463,7 @@
           <KeySig>
             <linked>
               </linked>
-            <accidental>-3</accidental>
+            <accidental>-2</accidental>
             </KeySig>
           <TimeSig>
             <sigN>2</sigN>
