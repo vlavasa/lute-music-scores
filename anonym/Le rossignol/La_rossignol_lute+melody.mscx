@@ -10,6 +10,8 @@
       <pageWidth>8.27008</pageWidth>
       <pageHeight>11.6902</pageHeight>
       <pageEvenLeftMargin>0.592913</pageEvenLeftMargin>
+      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+      <staffDistance>9</staffDistance>
       <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
       <evenHeaderL></evenHeaderL>
       <evenHeaderR>$p</evenHeaderR>
@@ -118,8 +120,28 @@ $:copyright:</oddFooterC>
       </Part>
     <Part>
       <Staff id="2">
-        <StaffType group="pitched">
-          <name>stdNormal</name>
+        <StaffType group="tablature">
+          <name>tab6StrFrench</name>
+          <lines>6</lines>
+          <lineDistance>1.5</lineDistance>
+          <clef>0</clef>
+          <slashStyle>1</slashStyle>
+          <stemless>1</stemless>
+          <durations>1</durations>
+          <durationFontName>MuseScore Tab French</durationFontName>
+          <durationFontSize>15</durationFontSize>
+          <durationFontY>0</durationFontY>
+          <fretFontName>MuseScore Tab Renaiss</fretFontName>
+          <fretFontSize>10</fretFontSize>
+          <fretFontY>0</fretFontY>
+          <linesThrough>1</linesThrough>
+          <minimStyle>0</minimStyle>
+          <onLines>0</onLines>
+          <showRests>0</showRests>
+          <stemsDown>0</stemsDown>
+          <stemsThrough>0</stemsThrough>
+          <upsideDown>0</upsideDown>
+          <useNumbers>0</useNumbers>
           </StaffType>
         </Staff>
       <trackName>Lute 2</trackName>
@@ -197,23 +219,29 @@ $:copyright:</oddFooterC>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>29.5</height>
-        <topMargin>16</topMargin>
-        <bottomMargin>6</bottomMargin>
-        <boxAutoSize>0</boxAutoSize>
+        <height>10</height>
+        <linkedMain/>
         <Text>
+          <linkedMain/>
           <style>Composer</style>
           <text>Anonym
 Pickering lute book (1616)
 arr. Vladimír Váša</text>
           </Text>
         <Text>
+          <linkedMain/>
           <style>Title</style>
           <text>Le Rossignol</text>
           </Text>
         <Text>
+          <linkedMain/>
           <style>Subtitle</style>
           <text>lute + melodic instrument</text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Lyricist</style>
+          <text>ver. 2023-06-26</text>
           </Text>
         </VBox>
       <Measure>
@@ -2305,10 +2333,6 @@ arr. Vladimír Váša</text>
     <Staff id="2">
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G8vb</concertClefType>
-            <transposingClefType>G8vb</transposingClefType>
-            </Clef>
           <KeySig>
             <accidental>-2</accidental>
             </KeySig>
@@ -2752,11 +2776,6 @@ arr. Vladimír Váša</text>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <Symbol>
-                <name>guitarGolpe</name>
-                <font>Bravura</font>
-                <offset x="0" y="-1"/>
-                </Symbol>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -3715,11 +3734,6 @@ arr. Vladimír Váša</text>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
             <Note>
-              <Symbol>
-                <name>guitarGolpe</name>
-                <font>Bravura</font>
-                <offset x="0" y="-1"/>
-                </Symbol>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
