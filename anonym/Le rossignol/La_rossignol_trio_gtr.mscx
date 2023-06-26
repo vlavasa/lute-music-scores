@@ -32,7 +32,7 @@ $:copyright:</oddFooterC>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer">Anonymous</metaTag>
     <metaTag name="copyright">1st &amp; 2nd voice is public domain
-!rights to 3rd Voice belong to Steward McCoy!</metaTag>
+!Rights to 3rd voice belong to Steward McCoy!</metaTag>
     <metaTag name="creationDate">2023-06-25</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -293,9 +293,7 @@ $:copyright:</oddFooterC>
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <linkedMain/>
         <Text>
-          <linkedMain/>
           <style>Composer</style>
           <text>Anonym
 Pickering lute book (1616)
@@ -303,12 +301,10 @@ Pickering lute book (1616)
 for guitar arr. Vladimír Váša</text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Title</style>
           <text>Le Rossignol</text>
           </Text>
         <Text>
-          <linkedMain/>
           <style>Subtitle</style>
           <text>trio
 guitar arr.</text>
@@ -833,6 +829,10 @@ guitar arr.</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>3</fret>
@@ -968,6 +968,10 @@ guitar arr.</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>1</fret>
@@ -3627,6 +3631,10 @@ guitar arr.</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>3</fret>
@@ -5425,6 +5433,10 @@ guitar arr.</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>1</fret>
