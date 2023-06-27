@@ -13,9 +13,10 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="composer">Anonymous</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="arranger">Vladimír Váša</metaTag>
+    <metaTag name="composer">Anonym</metaTag>
+    <metaTag name="copyright">© 2023 This is exactly transcription of the original work which is public domain.
+Everything added that is not a public domain is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2023-06-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -28,29 +29,10 @@
     <metaTag name="workTitle">Greensleeves</metaTag>
     <Part>
       <Staff id="1">
-        <StaffType group="tablature">
-          <name>tab6StrFrench</name>
-          <lines>6</lines>
-          <lineDistance>1.5</lineDistance>
-          <clef>0</clef>
-          <slashStyle>1</slashStyle>
-          <stemless>1</stemless>
-          <durations>1</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
-          <durationFontSize>15</durationFontSize>
-          <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Renaiss</fretFontName>
-          <fretFontSize>10</fretFontSize>
-          <fretFontY>0</fretFontY>
-          <linesThrough>1</linesThrough>
-          <minimStyle>0</minimStyle>
-          <onLines>0</onLines>
-          <showRests>0</showRests>
-          <stemsDown>0</stemsDown>
-          <stemsThrough>0</stemsThrough>
-          <upsideDown>0</upsideDown>
-          <useNumbers>0</useNumbers>
+        <StaffType group="pitched">
+          <name>stdNormal</name>
           </StaffType>
+        <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Lute</trackName>
       <Instrument id="piano">
@@ -116,29 +98,10 @@
       </Part>
     <Part>
       <Staff id="2">
-        <StaffType group="tablature">
-          <name>tab6StrFrench</name>
-          <lines>6</lines>
-          <lineDistance>1.5</lineDistance>
-          <clef>0</clef>
-          <slashStyle>1</slashStyle>
-          <stemless>1</stemless>
-          <durations>1</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
-          <durationFontSize>15</durationFontSize>
-          <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Renaiss</fretFontName>
-          <fretFontSize>10</fretFontSize>
-          <fretFontY>0</fretFontY>
-          <linesThrough>1</linesThrough>
-          <minimStyle>0</minimStyle>
-          <onLines>0</onLines>
-          <showRests>0</showRests>
-          <stemsDown>0</stemsDown>
-          <stemsThrough>0</stemsThrough>
-          <upsideDown>0</upsideDown>
-          <useNumbers>0</useNumbers>
+        <StaffType group="pitched">
+          <name>stdNormal</name>
           </StaffType>
+        <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Loutna</trackName>
       <Instrument id="lute">
@@ -218,11 +181,19 @@
         <Text>
           <style>Composer</style>
           <text>Anonym
-Folger's lute book</text>
+Folger's lute book
+rewritten by Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure len="1/2">
         <voice>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            </Clef>
+          <KeySig>
+            <accidental>-2</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>2</subtype>
             <sigN>2</sigN>
@@ -243,12 +214,8 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>75</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>8</fret>
               <string>0</string>
               </Note>
@@ -267,10 +234,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -295,10 +258,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -329,10 +288,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -358,10 +313,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -392,10 +343,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -405,6 +352,9 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -420,12 +370,11 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>4</fret>
               <string>1</string>
               </Note>
@@ -442,9 +391,6 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -461,12 +407,8 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>75</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>8</fret>
               <string>0</string>
               </Note>
@@ -485,10 +427,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -513,10 +451,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -547,10 +481,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -585,10 +515,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -599,6 +525,9 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -609,10 +538,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -633,10 +558,10 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -646,6 +571,9 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -661,10 +589,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -685,6 +609,9 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -695,10 +622,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -736,10 +659,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -760,10 +679,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -773,9 +691,6 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -791,10 +706,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -805,10 +716,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -884,6 +791,9 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -899,10 +809,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -913,10 +819,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -964,10 +866,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -988,10 +886,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -1016,10 +913,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -1030,1201 +923,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>5</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>5</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>5</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <voice>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>eighth</durationType>
-            <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2312,6 +1010,9 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2322,6 +1023,9 @@ Folger's lute book</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -2343,6 +1047,1111 @@ Folger's lute book</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>5</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>5</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>5</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -2380,10 +2189,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2405,10 +2210,9 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -2434,10 +2238,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2459,10 +2259,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -2472,9 +2268,6 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2491,10 +2284,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -2516,10 +2305,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2529,13 +2314,19 @@ Folger's lute book</text>
           </voice>
         </Measure>
       <Measure len="1/2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>4</fret>
               <string>1</string>
               </Note>
@@ -2544,10 +2335,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2573,12 +2360,8 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -2598,10 +2381,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -2626,10 +2405,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -2661,10 +2436,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2679,6 +2450,9 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -2689,10 +2463,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -2713,6 +2486,10 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -2723,10 +2500,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -2757,6 +2530,9 @@ Folger's lute book</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -2803,6 +2579,13 @@ Folger's lute book</text>
     <Staff id="2">
       <Measure len="1/2">
         <voice>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            </Clef>
+          <KeySig>
+            <accidental>-2</accidental>
+            </KeySig>
           <TimeSig>
             <subtype>2</subtype>
             <sigN>2</sigN>
@@ -2835,10 +2618,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2859,10 +2638,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -2887,10 +2665,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -2901,10 +2675,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2995,10 +2765,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3009,10 +2775,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -3060,10 +2822,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3084,10 +2842,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -3112,10 +2869,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -3126,10 +2879,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3227,6 +2976,9 @@ Folger's lute book</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -3248,6 +3000,10 @@ Folger's lute book</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -3284,10 +3040,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -3308,10 +3060,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -3332,10 +3080,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -3360,10 +3104,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3384,10 +3124,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3408,10 +3144,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3436,10 +3168,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -3460,10 +3188,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -3484,10 +3208,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -3512,10 +3232,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3536,6 +3252,9 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -3546,10 +3265,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3574,10 +3289,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -3608,10 +3319,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>8</fret>
@@ -3636,10 +3343,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3670,10 +3373,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -3698,10 +3397,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3722,10 +3417,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -3746,10 +3437,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -3764,6 +3451,9 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -3826,10 +3516,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3850,10 +3536,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -3878,10 +3563,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -3892,10 +3573,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3986,10 +3663,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4000,10 +3673,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -4051,10 +3720,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -4075,10 +3740,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -4103,10 +3767,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -4117,10 +3777,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -4218,6 +3874,9 @@ Folger's lute book</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -4239,6 +3898,10 @@ Folger's lute book</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -4284,10 +3947,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>8</fret>
@@ -4312,10 +3971,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -4350,10 +4005,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -4384,10 +4035,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -4412,10 +4059,9 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -4446,12 +4092,8 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>75</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>8</fret>
               <string>0</string>
               </Note>
@@ -4474,10 +4116,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
@@ -4508,10 +4146,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -4536,10 +4170,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -4570,10 +4200,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -4608,10 +4234,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -4622,6 +4244,9 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -4632,10 +4257,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -4656,10 +4277,10 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -4684,10 +4305,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -4698,6 +4315,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -4708,10 +4328,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -4722,6 +4338,10 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -4732,10 +4352,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -4773,10 +4389,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -4797,10 +4409,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -4825,10 +4436,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -4839,10 +4446,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -4933,10 +4536,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4947,10 +4546,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -4998,10 +4593,6 @@ Folger's lute book</text>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -5022,10 +4613,9 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -5050,10 +4640,6 @@ Folger's lute book</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>m</text>
-                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -5064,10 +4650,6 @@ Folger's lute book</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Fingering>
-                <style>RH Guitar Fingering</style>
-                <text>i</text>
-                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -5165,6 +4747,9 @@ Folger's lute book</text>
               <string>5</string>
               </Note>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -5186,6 +4771,10 @@ Folger's lute book</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
