@@ -7,10 +7,14 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
+      <staffLowerBorder>8</staffLowerBorder>
       <evenHeaderL></evenHeaderL>
       <evenHeaderR>$p</evenHeaderR>
       <oddHeaderL>$p</oddHeaderL>
       <oddHeaderR></oddHeaderR>
+      <footerOddEven>0</footerOddEven>
+      <oddFooterC>Greensleeves - Folger's lute book
+$:copyright:</oddFooterC>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -5637,6 +5641,9 @@ rewritten by Vladimír Váša</text>
         <evenHeaderR>$p</evenHeaderR>
         <oddHeaderL>$p</oddHeaderL>
         <oddHeaderR></oddHeaderR>
+        <footerOddEven>0</footerOddEven>
+        <oddFooterC>Greensleeves - Folger's lute book
+$:copyright:</oddFooterC>
         <Spatium>1.74978</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -10613,19 +10620,25 @@ rewritten by Vladimír Váša</text>
               <durationType>eighth</durationType>
               <Note>
                 <linked>
-                  <indexDiff>1</indexDiff>
+                  </linked>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
+                <small>1</small>
+                <fret>1</fret>
+                <string>2</string>
+                </Note>
+              <Note>
+                <linked>
                   </linked>
                 <Symbol>
                   <name>noteheadParenthesisLeft</name>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-0.7"/>
                   </Symbol>
                 <Symbol>
                   <name>noteheadParenthesisRight</name>
                   <linked>
-                    <indexDiff>1</indexDiff>
                     </linked>
                   <offset x="0" y="-0.7"/>
                   </Symbol>
@@ -10633,16 +10646,6 @@ rewritten by Vladimír Váša</text>
                 <tpc>16</tpc>
                 <fret>0</fret>
                 <string>1</string>
-                </Note>
-              <Note>
-                <linked>
-                  <indexDiff>-3</indexDiff>
-                  </linked>
-                <pitch>58</pitch>
-                <tpc>12</tpc>
-                <small>1</small>
-                <fret>1</fret>
-                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
