@@ -7,7 +7,6 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <staffLowerBorder>8</staffLowerBorder>
       <evenHeaderL></evenHeaderL>
       <evenHeaderR>$p</evenHeaderR>
       <oddHeaderL>$p</oddHeaderL>
@@ -91,6 +90,7 @@ $:copyright:</oddFooterC>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
           <synti>Fluid</synti>
@@ -104,6 +104,7 @@ $:copyright:</oddFooterC>
           <midiChannel>2</midiChannel>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -169,6 +170,7 @@ $:copyright:</oddFooterC>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
           <synti>Fluid</synti>
@@ -182,6 +184,7 @@ $:copyright:</oddFooterC>
           <midiChannel>4</midiChannel>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -192,7 +195,7 @@ $:copyright:</oddFooterC>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>13</height>
         <Text>
           <style>Title</style>
           <text>Greensleeves</text>
@@ -205,11 +208,12 @@ arr. Vladimír Váša</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>melodic instrument (violin) arr.</text>
+          <text>melodic instrument (violin) arr.
+(with voices swap)</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>ver. 2023-06-27</text>
+          <text>ver. 2023-06-28</text>
           </Text>
         </VBox>
       <Measure len="1/2">

@@ -13,7 +13,7 @@
       <oddHeaderL>$p</oddHeaderL>
       <oddHeaderR></oddHeaderR>
       <footerOddEven>0</footerOddEven>
-      <oddFooterC>Greensleeves - Folger's lute book
+      <oddFooterC>Greensleeves - Folger's lute book - lute duet (with voices swap)
 $:copyright:</oddFooterC>
       <Spatium>1.74978</Spatium>
       </Style>
@@ -23,7 +23,7 @@ $:copyright:</oddFooterC>
     <showMargins>0</showMargins>
     <metaTag name="arranger">Vladimír Váša</metaTag>
     <metaTag name="composer">Anonym</metaTag>
-    <metaTag name="copyright">© 2023 This is exactly transcription of the original work which is public domain.
+    <metaTag name="copyright">© 2023 This is transcription of the original work which is public domain.
 Everything added that is not a public domain is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2023-06-27</metaTag>
     <metaTag name="lyricist"></metaTag>
@@ -198,7 +198,12 @@ rewritten by Vladimír Váša</text>
         <Text>
           <linkedMain/>
           <style>Lyricist</style>
-          <text>ver. 2023-06-27</text>
+          <text>ver. 2023-06-28</text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Subtitle</style>
+          <text>lute duet (with voices swap)</text>
           </Text>
         </VBox>
       <Measure len="1/2">
@@ -5647,7 +5652,7 @@ rewritten by Vladimír Váša</text>
         <oddHeaderL>$p</oddHeaderL>
         <oddHeaderR></oddHeaderR>
         <footerOddEven>0</footerOddEven>
-        <oddFooterC>Greensleeves - Folger's lute book
+        <oddFooterC>Greensleeves - Folger's lute book - lute duet (with voices swap)
 $:copyright:</oddFooterC>
         <Spatium>1.74978</Spatium>
         </Style>
@@ -5865,7 +5870,13 @@ rewritten by Vladimír Váša</text>
             <linked>
               </linked>
             <style>Lyricist</style>
-            <text>ver. 2023-06-27</text>
+            <text>ver. 2023-06-28</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Subtitle</style>
+            <text>lute duet (with voices swap)</text>
             </Text>
           </VBox>
         <Measure len="1/2">
@@ -12092,7 +12103,7 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         </Staff>
-      <name>Tab</name>
+      <name>tab</name>
       </Score>
     </Score>
   </museScore>
