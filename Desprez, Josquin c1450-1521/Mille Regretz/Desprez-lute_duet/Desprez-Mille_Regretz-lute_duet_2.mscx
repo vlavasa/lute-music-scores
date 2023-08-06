@@ -341,6 +341,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>gretz</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.4" y="-3.6"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -378,6 +384,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>Mil</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="3.35"/>
+                </Symbol>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
@@ -1491,6 +1503,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>pai</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="-2.1"/>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -1609,6 +1627,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>se,</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.4" y="-2.1"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1636,6 +1660,12 @@ for lute duet arr. Vladimír Váša</text>
                 <style>RH Guitar Fingering</style>
                 <text>p</text>
                 </Fingering>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="6.35"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2298,6 +2328,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>me</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.4" y="-2.1"/>
+                </Symbol>
               <Spanner type="Tie">
                 <Tie>
                   <up>down</up>
@@ -2347,6 +2383,12 @@ for lute duet arr. Vladimír Váša</text>
                 <style>RH Guitar Fingering</style>
                 <text>p</text>
                 </Fingering>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="4.85"/>
+                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -3319,7 +3361,16 @@ for lute duet arr. Vladimír Váša</text>
               <placement>above</placement>
               <text>gretz</text>
               </Lyrics>
+            <Stem>
+              <offset x="0" y="1"/>
+              </Stem>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.4" y="-2.6"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3338,6 +3389,12 @@ for lute duet arr. Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="3.35"/>
+                </Symbol>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
@@ -3709,8 +3766,7 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -3835,6 +3891,12 @@ for lute duet arr. Vladimír Váša</text>
               <offset x="0" y="1"/>
               </Stem>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.4" y="-2.6"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -3871,6 +3933,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>tre</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="3.35"/>
+                </Symbol>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <fret>3</fret>
@@ -4376,6 +4444,7 @@ for lute duet arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="-1.5"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -4427,6 +4496,12 @@ for lute duet arr. Vladimír Váša</text>
               <offset x="0" y="1"/>
               </Stem>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.4" y="-2.6"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -4547,6 +4622,12 @@ for lute duet arr. Vladimír Váša</text>
               <text>se,</text>
               </Lyrics>
             <Note>
+              <Symbol>
+                <name>accdnCombDot</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="1.38" y="4.85"/>
+                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -5085,12 +5166,38 @@ for lute duet arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <Fingering>
                 <style>RH Guitar Fingering</style>
                 <text>p</text>
                 </Fingering>
+              <Spanner type="Tie">
+                <Tie>
+                  <up>up</up>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
