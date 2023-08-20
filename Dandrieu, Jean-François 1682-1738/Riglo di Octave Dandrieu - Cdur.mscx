@@ -13,7 +13,6 @@
       <pageEvenLeftMargin>0.592913</pageEvenLeftMargin>
       <enableVerticalSpread>1</enableVerticalSpread>
       <spreadSystem>1</spreadSystem>
-      <minSpreadSpread>10</minSpreadSpread>
       <figuredBassStyle>1</figuredBassStyle>
       <chordSymbolPosAbove x="0" y="-2.8"/>
       <chordSymbolAFontSize>10</chordSymbolAFontSize>
@@ -25,6 +24,7 @@
       <oddHeaderR></oddHeaderR>
       <evenFooterR>$P</evenFooterR>
       <oddFooterL>$P</oddFooterL>
+      <fingeringFontSize>5</fingeringFontSize>
       <rehearsalMarkFontSize>8</rehearsalMarkFontSize>
       <rehearsalMarkPosAbove x="0.5" y="-3"/>
       <Spatium>2</Spatium>
@@ -96,6 +96,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <bracket type="1" span="2" col="0"/>
         </Staff>
       <Staff id="2">
         <StaffType group="pitched">
@@ -212,6 +213,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <bracket type="1" span="2" col="0"/>
         </Staff>
       <Staff id="5">
         <StaffType group="pitched">
@@ -242,6 +244,7 @@
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
+          <showTabFingering>1</showTabFingering>
           <useNumbers>0</useNumbers>
           </StaffType>
         <defaultClef>F</defaultClef>
@@ -332,14 +335,28 @@
           <SystemText>
             <swing unit="eighth" ratio= "60"/>
             <style>Tempo</style>
+            <offset x="0" y="-7.5"/>
             <text>Pravidlo oktávy - podle Dandrieu - Cdur</text>
             </SystemText>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <text>I</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -347,6 +364,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -354,56 +378,32 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.474456" y="-0.517311"/>
+                <text>6</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -411,6 +411,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.5" y="-0.6"/>
+                <text>3</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -418,6 +425,60 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.904899" y="-1.13544"/>
+                <text>4</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <frameType>2</frameType>
+            <text>III</text>
+            </StaffText>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.77" y="0"/>
+                <text>6</text>
+                </Fingering>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <color r="255" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.68252" y="-0.1"/>
+                <text>3</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -425,54 +486,23 @@
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
+              <endTextOffset x="0" y="42.2"/>
               <linkedMain/>
-              <visible>0</visible>
               <diagonal>1</diagonal>
+              <lineWidth>0.112334</lineWidth>
+              <lineStyle>2</lineStyle>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
+                <offset x="2.90514" y="2.4934"/>
+                <off2 x="-10.0093" y="41.8164"/>
                 <autoplace>0</autoplace>
-                <visible>0</visible>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -482,6 +512,13 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.758038" y="-0.00407992"/>
+                <text>5</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -489,39 +526,13 @@
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="1.83" y="-0.5"/>
+                <text>6</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -529,6 +540,20 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.832138" y="-0.00453902"/>
+                <text>3</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4"/>
+                </Symbol>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -545,6 +570,9 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
@@ -623,52 +651,27 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="7/4">
+      <Measure len="5/4">
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <text>V</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.78252" y="0.5"/>
+                <text>3</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -676,6 +679,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.758038" y="-0.50408"/>
+                <text>5</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -683,6 +693,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.79116" y="-0.102526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -692,73 +709,10 @@
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-1/4</fractions>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
                 </location>
               </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linkedMain/>
@@ -766,6 +720,13 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.68252" y="1.25332e-16"/>
+                <text>3</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -773,33 +734,19 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.601789" y="-0.592054"/>
+                <text>6</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linkedMain/>
             <visible>0</visible>
@@ -811,6 +758,13 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.68252" y="0.5"/>
+                <text>3</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -818,6 +772,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.558038" y="-0.60408"/>
+                <text>5-</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -825,23 +786,45 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.907287" y="-1.18959"/>
+                <text>6</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <text>VIII</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.79116" y="-0.002526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -849,6 +832,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.78252" y="1.25332e-16"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -856,17 +846,19 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.7" y="0"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         <voice>
           <Chord>
@@ -909,24 +901,29 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
+              <visible>0</visible>
               <pitch>47</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>5</string>
               </Note>
             </Chord>
-          <Rest>
-            <linkedMain/>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
+              <visible>0</visible>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
@@ -937,52 +934,25 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <text>VIII</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -990,6 +960,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -997,72 +974,32 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.58" y="0.5"/>
+                <text>3</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1070,92 +1007,32 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.56784" y="-0.051379"/>
+                <text>6</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.48252" y="0.1"/>
+                <text>3</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1163,42 +1040,48 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.43216" y="-1.15138"/>
+                <text>6+</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-5"/>
+                </Symbol>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <text>V</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.68" y="0.5"/>
+                <text>3</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1206,6 +1089,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.658038" y="-0.50408"/>
+                <text>5</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1213,6 +1103,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.69116" y="-0.102526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1292,52 +1189,19 @@
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.68" y="0.5"/>
+                <text>4+</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1345,6 +1209,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.658038" y="-0.50408"/>
+                <text>6</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1352,72 +1223,46 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.69116" y="-0.102526"/>
+                <text>2</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4.5"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0" y="-4.5"/>
+            <frameType>2</frameType>
+            <text>III</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.658038" y="-0.00408"/>
+                <text>6</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1425,32 +1270,32 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.68252" y="-0.1"/>
+                <text>3</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.358038" y="-0.50408"/>
+                <text>6</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1458,6 +1303,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.28252" y="-0.6"/>
+                <text>3</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -1465,6 +1317,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <Symbol>
                 <name>noteheadParenthesisRight</name>
                 <linkedMain/>
@@ -1473,18 +1326,44 @@
                 <name>noteheadParenthesisLeft</name>
                 <linkedMain/>
                 </Symbol>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.93216" y="-1.25138"/>
+                <text>(4)</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0" y="-4.5"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-4.5"/>
+            <text>I</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.59116" y="-0.002526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1492,6 +1371,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.6" y="1.25332e-16"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -1499,6 +1385,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.558038" y="-0.10408"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -1584,10 +1477,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>I</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1612,10 +1501,6 @@
               <digit>3</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>!</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1632,11 +1517,6 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <frameType>2</frameType>
-            <text>III</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1657,10 +1537,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1682,7 +1558,7 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="7/4">
+      <Measure len="5/4">
         <voice>
           <FiguredBass>
             <ticks>1/4</ticks>
@@ -1691,10 +1567,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>V</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1736,10 +1608,6 @@
               <suffix>7</suffix>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1749,20 +1617,13 @@
               <string>5</string>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>VIII</text>
-            </StaffText>
           <FiguredBass>
             <ticks>1/4</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
+            <autoplace>0</autoplace>
             </FiguredBass>
           <Chord>
             <durationType>quarter</durationType>
@@ -1773,10 +1634,6 @@
               <string>4</string>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -1788,10 +1645,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>VIII</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1834,10 +1687,6 @@
               </FiguredBassItem>
             <autoplace>0</autoplace>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1854,10 +1703,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>V</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1887,10 +1732,6 @@
               <digit>2</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>!</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1907,11 +1748,6 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <frameType>2</frameType>
-            <text>III</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1937,10 +1773,6 @@
               </FiguredBassItem>
             <autoplace>0</autoplace>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1957,10 +1789,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>I</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1975,19 +1803,8 @@
       </Staff>
     <Staff id="3">
       <Measure len="5/4">
+        <vspacerUp>10</vspacerUp>
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.7699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.48447" y="-0.378745"/>
-            <text>V</text>
-            </StaffText>
           <Chord>
             <linked>
               </linked>
@@ -1996,6 +1813,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-1.19116" y="-0.802526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2004,6 +1830,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-1.18252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -2012,66 +1847,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.1" y="-0.6"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.9699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.9699" y="-0.35642"/>
-            <text>IV</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.91747" y="2.64551"/>
-            <text>VI</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.00915" y="0.657618"/>
-                <off2 x="-2.77044" y="-1.10194"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.96892" y="-0.714564"/>
-                <off2 x="-2.75969" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2080,6 +1869,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.16784" y="-0.651379"/>
+                <text>6</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -2088,6 +1885,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-1.18252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -2096,71 +1902,83 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.16784" y="-0.551379"/>
+                <text>4</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.32" y="-0.36"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.91747" y="2.64551"/>
-            <text>VI</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linked>
+                </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.96784" y="-0.651379"/>
+                <text>6</text>
+                </Fingering>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <color r="255" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.98252" y="-0.6"/>
+                <text>3</text>
+                </Fingering>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <linked>
                 </linked>
+              <visible>0</visible>
               <diagonal>1</diagonal>
+              <lineWidth>0.112334</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.60727" y="-0.714564"/>
-                <off2 x="-2.83154" y="-0.0237863"/>
-                <autoplace>0</autoplace>
+                <offset x="0" y="-1"/>
+                <off2 x="0" y="0"/>
+                <visible>0</visible>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.65485" y="-0.381555"/>
-                <off2 x="-2.82669" y="1.28446"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -2172,6 +1990,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.98108" y="-0.695259"/>
+                <text>5</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2180,60 +2006,14 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="2.04562" y="2.66105"/>
-            <text>V</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.7932" y="1.12318"/>
-            <text>VI</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.75048" y="-0.373891"/>
-            <text>III</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.96784" y="-0.651379"/>
+                <text>6</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2242,6 +2022,22 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.98252" y="-0.6"/>
+                <text>3</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0" y="-4.5"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -2307,12 +2103,14 @@
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -2330,56 +2128,8 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="7/4">
+      <Measure len="5/4">
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.16065" y="1.13179"/>
-            <text>V</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.3699" y="2.64358"/>
-            <text>III</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.11447" y="0.736889"/>
-                <off2 x="-3.35854" y="1.28379"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.18999" y="2.32274"/>
-                <off2 x="-3.48509" y="-0.0244831"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2388,6 +2138,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.68252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -2396,6 +2154,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.658038" y="-0.80408"/>
+                <text>5</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2404,91 +2170,27 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.69116" y="-0.702526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.81747" y="1.14551"/>
-            <text>VI</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.7699" y="2.64358"/>
-            <text>III</text>
-            </StaffText>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-1/4</fractions>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
                 </location>
               </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.58792" y="0.736889"/>
-                <off2 x="3.25419" y="-1.28379"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.58999" y="2.04723"/>
-                <off2 x="3.25005" y="-1.2593"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.56551" y="2.37378"/>
-                <off2 x="3.25005" y="0.0244831"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
             </Spanner>
           <Chord>
             <linked>
@@ -2498,6 +2200,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.28252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2506,57 +2216,26 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.26784" y="-0.651379"/>
+                <text>6</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
               <string>1</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <linked>
               </linked>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.58253" y="-0.35449"/>
-            <text>VI</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.83935" y="1.13179"/>
-            <text>V-</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.6301" y="2.64358"/>
-            <text>III</text>
-            </StaffText>
           <Chord>
             <linked>
               </linked>
@@ -2565,6 +2244,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.08252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -2573,6 +2260,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.958038" y="-0.80408"/>
+                <text>5-</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -2581,30 +2276,28 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.06784" y="-0.751379"/>
+                <text>6</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Rest>
-            <linked>
-              </linked>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.48447" y="-0.378745"/>
-            <text>V</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.7699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
           <Chord>
             <linked>
               </linked>
@@ -2613,6 +2306,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.99116" y="-0.802526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2621,6 +2323,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.98252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -2629,18 +2340,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.9" y="-0.6"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Rest>
-            <linked>
-              </linked>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         <voice>
           <Chord>
@@ -2688,12 +2401,6 @@
               <string>5</string>
               </Note>
             </Chord>
-          <Rest>
-            <linked>
-              </linked>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           <Chord>
             <linked>
               </linked>
@@ -2711,54 +2418,6 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.3699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.18447" y="-0.378745"/>
-            <text>V</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.18201" y="0.695297"/>
-                <off2 x="-3.2414" y="-0.0152351"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.19724" y="2.22106"/>
-                <off2 x="-3.42616" y="-1.14765"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2767,6 +2426,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.99116" y="-0.702526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2775,6 +2442,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.98252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -2783,74 +2459,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1" y="-0.672778"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.3699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.41747" y="-0.35449"/>
-            <text>VI</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.20389" y="0.464827"/>
-                <off2 x="-3.46952" y="1.50194"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.28865" y="1.11912"/>
-                <off2 x="-3.72381" y="1.35624"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2859,6 +2481,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.78252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2867,92 +2497,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.76784" y="-0.751379"/>
+                <text>6</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.7699" y="2.64358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.81747" y="1.14551"/>
-            <text>VI+</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.54295" y="0.695297"/>
-                <off2 x="-2.50623" y="-1.27147"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.62771" y="1.95154"/>
-                <off2 x="-2.76053" y="-1.25624"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.71248" y="2.37536"/>
-                <off2 x="-2.691" y="0.0304703"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -2961,6 +2519,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.28" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2969,48 +2535,31 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.16784" y="-0.751379"/>
+                <text>6+</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
               <string>1</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.6301" y="2.64358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="1.83935" y="1.13179"/>
-            <text>V</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3019,6 +2568,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.68252" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -3027,6 +2584,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.658038" y="-0.70408"/>
+                <text>5</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3035,6 +2600,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.69116" y="-0.702526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -3099,60 +2672,6 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.4699" y="2.64358"/>
-            <text>IV+</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.41747" y="1.14551"/>
-            <text>VI</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.21747" y="-0.35449"/>
-            <text>II</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.45818" y="0.780062"/>
-                <off2 x="-3.73512" y="1.17147"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.45818" y="2.3363"/>
-                <off2 x="-3.70465" y="-0.0457054"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3161,6 +2680,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.68252" y="-0.8"/>
+                <text>4+</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -3169,6 +2696,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.758038" y="-0.70408"/>
+                <text>6</text>
+                </Fingering>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3177,74 +2712,28 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.69116" y="-0.702526"/>
+                <text>2</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.91747" y="2.64551"/>
-            <text>VI</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.54952" y="-0.373891"/>
-            <text>III</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.31248" y="2.39059"/>
-                <off2 x="-3.81963" y="0.0152351"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.21248" y="1.79724"/>
-                <off2 x="-3.72822" y="-0.932413"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3253,6 +2742,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.05804" y="-0.70408"/>
+                <text>6</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3261,44 +2758,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.98252" y="-0.6"/>
+                <text>3</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.91747" y="2.64551"/>
-            <text>VI</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.9699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-2.3699" y="-0.35642"/>
-            <text>(IV)</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -3307,6 +2780,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.35804" y="-0.70408"/>
+                <text>6</text>
+                </Fingering>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -3315,6 +2796,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.4" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -3323,17 +2812,35 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <Symbol>
                 <name>noteheadParenthesisRight</name>
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
+                </Symbol>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.46784" y="-0.551379"/>
+                <text>(4)</text>
+                </Fingering>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4"/>
+                <visible>0</visible>
                 </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -3341,18 +2848,6 @@
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.7699" y="1.14358"/>
-            <text>III</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>5</size>
-            <offset x="-1.48447" y="-0.378745"/>
-            <text>V</text>
-            </StaffText>
           <Chord>
             <linked>
               </linked>
@@ -3361,6 +2856,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-1.19116" y="-0.802526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3369,6 +2873,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.2" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -3377,6 +2889,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-1.15804" y="-0.60408"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
@@ -3442,17 +2962,31 @@
       </Staff>
     <Staff id="4">
       <Measure len="5/4">
+        <vspacerUp>14</vspacerUp>
         <voice>
           <Clef>
             <concertClefType>G8vb</concertClefType>
             <transposingClefType>G8vb</transposingClefType>
             </Clef>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <text>I</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -3460,6 +2994,13 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.88" y="0"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -3467,56 +3008,33 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <minDistance>-0.890417</minDistance>
+                <offset x="-0.89116" y="-0.002526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.48" y="0.5"/>
+                <text>3</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -3524,70 +3042,46 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4.5"/>
+                </Symbol>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.48" y="-0.1"/>
+                <text>6</text>
+                </Fingering>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <frameType>2</frameType>
+            <text>III</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.78" y="1.25332e-16"/>
+                <text>3</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -3595,32 +3089,26 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-0.78" y="0.1"/>
+                <text>6</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -3628,6 +3116,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>7</fret>
@@ -3635,6 +3124,14 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4"/>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -3790,52 +3287,21 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure len="7/4">
+      <Measure len="5/4">
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <text>V</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -3843,6 +3309,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -3850,96 +3317,20 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -3947,202 +3338,125 @@
               </Note>
             <Note>
               <linkedMain/>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <size>8</size>
-            <text>alt.</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>csymParensLeftVeryTall</name>
-                <font>Bravura</font>
-                <Symbol>
-                  <name>csymParensRightVeryTall</name>
-                  <font>Bravura</font>
-                  <offset x="3" y="0"/>
-                  <z>499</z>
-                  </Symbol>
-                <linkedMain/>
-                <offset x="-1" y="3"/>
-                </Symbol>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
           <StaffText>
             <style>Expression</style>
             <size>8</size>
             <text>alt.</text>
             </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <linkedMain/>
+              <diagonal>1</diagonal>
+              <lineWidth>0.112334</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.12117" y="-5.65127"/>
+                <off2 x="-0.239138" y="-37.3615"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-1.18252" y="1.25332e-16"/>
+                <text>3</text>
+                </Fingering>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <small>1</small>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="-1.20179" y="0.407946"/>
+                <text>6</text>
+                </Fingering>
               <Symbol>
                 <name>csymParensLeftVeryTall</name>
                 <font>Bravura</font>
                 <Symbol>
                   <name>csymParensRightVeryTall</name>
                   <font>Bravura</font>
-                  <offset x="3" y="0"/>
+                  <offset x="2" y="0"/>
                   <z>499</z>
                   </Symbol>
                 <linkedMain/>
-                <offset x="-1" y="3"/>
+                <offset x="-0.8" y="2"/>
+                </Symbol>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <small>1</small>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <offset x="-1.20179" y="0.007946"/>
+                <text>8</text>
+                </Fingering>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>5</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-3.5"/>
                 </Symbol>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -4150,36 +3464,11 @@
               <string>0</string>
               </Note>
             </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
           <StaffText>
-            <style>Expression</style>
-            <size>8</size>
-            <text>alt.</text>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <text>VIII</text>
             </StaffText>
           <Chord>
             <linkedMain/>
@@ -4187,6 +3476,7 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -4194,6 +3484,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4201,18 +3492,7 @@
               </Note>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>csymParensLeftVeryTall</name>
-                <font>Bravura</font>
-                <Symbol>
-                  <name>csymParensRightVeryTall</name>
-                  <font>Bravura</font>
-                  <offset x="3" y="0"/>
-                  <z>499</z>
-                  </Symbol>
-                <linkedMain/>
-                <offset x="-1" y="3.5"/>
-                </Symbol>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -4265,6 +3545,7 @@
               <visible>0</visible>
               <pitch>45</pitch>
               <tpc>17</tpc>
+              <small>1</small>
               <fret>2</fret>
               <string>5</string>
               </Note>
@@ -4288,45 +3569,9 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
             <StemDirection>down</StemDirection>
             <Note>
               <linkedMain/>
-              <visible>0</visible>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <linkedMain/>
-              <visible>0</visible>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
@@ -4337,12 +3582,19 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <text>VIII</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -4350,6 +3602,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4357,6 +3610,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -4369,6 +3623,7 @@
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4376,79 +3631,29 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
                 <linkedMain/>
+                <offset x="-0.1" y="0"/>
                 </Symbol>
               <Symbol>
                 <name>noteheadParenthesisRight</name>
                 <linkedMain/>
+                <offset x="0.3" y="0"/>
                 </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -4457,6 +3662,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -4467,77 +3673,33 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4"/>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <text>V</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -4545,6 +3707,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4552,6 +3715,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -4628,68 +3792,13 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -4697,6 +3806,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4704,68 +3814,34 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4.5"/>
+                </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <frameType>2</frameType>
+            <text>III</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4773,68 +3849,20 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linkedMain/>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -4842,32 +3870,33 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <linkedMain/>
+                <offset x="0.5" y="-4.5"/>
+                </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Rehearsal Mark</style>
+            <offset x="0.5" y="-5.5"/>
+            <text>I</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linkedMain/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -4875,6 +3904,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -4882,6 +3912,7 @@
               </Note>
             <Note>
               <linkedMain/>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -4967,10 +3998,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>I</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4996,10 +4023,6 @@
               </FiguredBassItem>
             <autoplace>0</autoplace>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>!</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5016,11 +4039,6 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <frameType>2</frameType>
-            <text>III</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5041,10 +4059,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5066,7 +4080,7 @@
             </Rest>
           </voice>
         </Measure>
-      <Measure len="7/4">
+      <Measure len="5/4">
         <voice>
           <FiguredBass>
             <ticks>1/4</ticks>
@@ -5075,10 +4089,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>V</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5104,10 +4114,31 @@
               <string>5</string>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
+          <FiguredBass>
+            <ticks>1/4</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              </FiguredBassItem>
+            </FiguredBass>
+          <Chord>
+            <small>1</small>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <offset x="-0.2" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <offset x="0.3" y="0"/>
+                </Symbol>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
           <FiguredBass>
             <ticks>1/4</ticks>
             <FiguredBassItem>
@@ -5120,10 +4151,6 @@
               <suffix>7</suffix>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5134,34 +4161,12 @@
               </Note>
             </Chord>
           <FiguredBass>
-            <onNote>0</onNote>
-            <ticks>1/4</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>6</digit>
-              </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="1" b2="0" b3="2" b4="0"/>
-              <digit>5</digit>
-              <suffix>7</suffix>
-              </FiguredBassItem>
-            <autoplace>0</autoplace>
-            </FiguredBass>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <FiguredBass>
             <ticks>1/4</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>VIII</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5171,10 +4176,6 @@
               <string>4</string>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -5186,10 +4187,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>VIII</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5232,10 +4229,6 @@
               </FiguredBassItem>
             <autoplace>0</autoplace>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5252,10 +4245,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>V</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5285,10 +4274,6 @@
               <digit>2</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>!</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5305,11 +4290,6 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <frameType>2</frameType>
-            <text>III</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5335,10 +4315,6 @@
               </FiguredBassItem>
             <autoplace>0</autoplace>
             </FiguredBass>
-          <StaffText>
-            <style>Chord Symbol</style>
-            <text>‼</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5355,10 +4331,6 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <StaffText>
-            <style>Rehearsal Mark</style>
-            <text>I</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5373,6 +4345,7 @@
       </Staff>
     <Staff id="6">
       <Measure len="5/4">
+        <vspacerUp>10</vspacerUp>
         <voice>
           <Chord>
             <linked>
@@ -5382,6 +4355,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.58" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -5390,6 +4372,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.58" y="-0.722778"/>
+                <text>5</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -5398,50 +4389,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.59116" y="-0.702526"/>
+                <text>8</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5450,6 +4411,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.98" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -5458,64 +4428,29 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4"/>
+                <visible>0</visible>
+                </Symbol>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.98" y="-0.7"/>
+                <text>6</text>
+                </Fingering>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5524,6 +4459,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.48" y="-0.7"/>
+                <text>3</text>
+                </Fingering>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -5532,26 +4476,21 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <minDistance>-999</minDistance>
+                <offset x="-0.48" y="-0.7"/>
+                <text>6</text>
+                </Fingering>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5560,6 +4499,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -5568,6 +4508,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>7</fret>
@@ -5576,6 +4517,15 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4.5"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -5595,22 +4545,27 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <small>1</small>
               <fret>5</fret>
               <string>2</string>
               </Note>
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
+              <small>1</small>
               <fret>7</fret>
               <string>1</string>
               </Note>
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <Symbol>
                 <name>csymParensLeftVeryTall</name>
                 <font>Bravura</font>
@@ -5619,15 +4574,18 @@
                   <font>Bravura</font>
                   <linked>
                     </linked>
-                  <offset x="2.5" y="0"/>
+                  <offset x="2" y="0"/>
+                  <visible>0</visible>
                   <z>499</z>
                   </Symbol>
                 <linked>
                   </linked>
-                <offset x="-1" y="3"/>
+                <offset x="-0.8" y="3.5"/>
+                <visible>0</visible>
                 </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
+              <small>1</small>
               <fret>5</fret>
               <string>0</string>
               </Note>
@@ -5685,12 +4643,14 @@
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -5715,52 +4675,15 @@
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
+              <small>1</small>
               <fret>5</fret>
               <string>4</string>
               </Note>
             </Chord>
           </voice>
         </Measure>
-      <Measure len="7/4">
+      <Measure len="5/4">
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -5769,6 +4692,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -5777,6 +4701,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -5785,70 +4710,56 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <Chord>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <linked>
+                </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <fret>5</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>8</size>
+            <offset x="-5.2" y="2.5"/>
+            <text>paralelní oktávy!</text>
+            </StaffText>
+          <StaffText>
+            <style>Expression</style>
+            <size>8</size>
+            <text>alt.</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <linked>
                 </linked>
               <visible>0</visible>
               <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
+              <lineWidth>0.112334</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="-1"/>
@@ -5865,11 +4776,20 @@
           <Chord>
             <linked>
               </linked>
+            <small>1</small>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.68252" y="1.25332e-16"/>
+                <text>3</text>
+                </Fingering>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -5878,6 +4798,28 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
+              <Fingering>
+                <autoplace>0</autoplace>
+                <linked>
+                  </linked>
+                <offset x="-0.601789" y="-0.592054"/>
+                <text>6</text>
+                </Fingering>
+              <Symbol>
+                <name>csymParensLeftVeryTall</name>
+                <font>Bravura</font>
+                <Symbol>
+                  <name>csymParensRightVeryTall</name>
+                  <font>Bravura</font>
+                  <offset x="2" y="0"/>
+                  <z>499</z>
+                  </Symbol>
+                <linked>
+                  </linked>
+                <offset x="-0.8" y="2"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -5886,144 +4828,13 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <size>8</size>
-            <text>alt.</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <Symbol>
-                <name>csymParensLeftVeryTall</name>
-                <font>Bravura</font>
-                <Symbol>
-                  <name>csymParensRightVeryTall</name>
-                  <font>Bravura</font>
-                  <offset x="2.5" y="0"/>
-                  <z>499</z>
-                  </Symbol>
-                <linked>
-                  </linked>
-                <offset x="-1" y="2.5"/>
-                </Symbol>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -6039,41 +4850,7 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>5</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <size>8</size>
-            <text>alt.</text>
-            </StaffText>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linked>
-                </linked>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6082,18 +4859,14 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <Symbol>
-                <name>csymParensLeftVeryTall</name>
+                <name>harpStringNoiseStem</name>
                 <font>Bravura</font>
-                <Symbol>
-                  <name>csymParensRightVeryTall</name>
-                  <font>Bravura</font>
-                  <offset x="3" y="0"/>
-                  <z>499</z>
-                  </Symbol>
                 <linked>
                   </linked>
-                <offset x="-1" y="2"/>
+                <offset x="0.5" y="-4.5"/>
+                <visible>0</visible>
                 </Symbol>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -6109,41 +4882,7 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <StaffText>
-            <style>Expression</style>
-            <size>8</size>
-            <text>alt.</text>
-            </StaffText>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <linked>
-                </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -6152,6 +4891,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6160,19 +4900,7 @@
             <Note>
               <linked>
                 </linked>
-              <Symbol>
-                <name>csymParensLeftVeryTall</name>
-                <font>Bravura</font>
-                <Symbol>
-                  <name>csymParensRightVeryTall</name>
-                  <font>Bravura</font>
-                  <offset x="3" y="0"/>
-                  <z>499</z>
-                  </Symbol>
-                <linked>
-                  </linked>
-                <offset x="-1" y="3"/>
-                </Symbol>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
@@ -6198,6 +4926,22 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <linked>
+              </linked>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <linked>
                 </linked>
@@ -6215,19 +4959,6 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
               <pitch>47</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -6238,32 +4969,7 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <linked>
                 </linked>
@@ -6285,6 +4991,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -6293,6 +5000,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6301,12 +5009,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
+          <StaffText>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>8</size>
+            <offset x="-1.9" y="2.5"/>
+            <text>paralelní oktávy!</text>
+            </StaffText>
           <Chord>
             <linked>
               </linked>
@@ -6315,6 +5031,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6323,69 +5040,13 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <fret>7</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -6394,17 +5055,20 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <Symbol>
                 <name>noteheadParenthesisRight</name>
                 <linked>
                   </linked>
                 <offset x="0" y="-0.7"/>
+                <visible>0</visible>
                 </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -6414,6 +5078,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>66</pitch>
               <tpc>20</tpc>
               <fret>4</fret>
@@ -6422,73 +5087,21 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4.5"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -6497,6 +5110,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -6505,6 +5119,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6513,6 +5128,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
@@ -6578,62 +5194,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <lineWidth>0.116002</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -6642,6 +5202,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>5</fret>
@@ -6650,6 +5211,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6658,64 +5220,21 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4.5"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -6724,6 +5243,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6732,64 +5252,13 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <linked>
-                </linked>
-              <visible>0</visible>
-              <diagonal>1</diagonal>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="0" y="0"/>
-                <visible>0</visible>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -6798,6 +5267,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="170" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -6806,26 +5276,21 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <Symbol>
+                <name>harpStringNoiseStem</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="0.5" y="-4.5"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>71</pitch>
               <tpc>19</tpc>
               <fret>4</fret>
               <string>0</string>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linked>
               </linked>
@@ -6834,6 +5299,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>7</fret>
@@ -6842,6 +5308,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>5</fret>
@@ -6850,6 +5317,7 @@
             <Note>
               <linked>
                 </linked>
+              <color r="0" g="0" b="255" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <fret>5</fret>
