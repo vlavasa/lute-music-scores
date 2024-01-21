@@ -41,26 +41,8 @@ ver. $MT$m</oddFooterC>
     <metaTag name="workTitle">L’unziesme livre Contenant Vingt &amp; neuf Chãsons</metaTag>
     <Part>
       <Staff id="1">
-        <StaffType group="tablature">
-          <name>tab6StrFrench</name>
-          <lines>6</lines>
-          <lineDistance>1.5</lineDistance>
-          <clef>0</clef>
-          <durations>0</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
-          <durationFontSize>15</durationFontSize>
-          <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Renaiss</fretFontName>
-          <fretFontSize>10</fretFontSize>
-          <fretFontY>0</fretFontY>
-          <linesThrough>1</linesThrough>
-          <minimStyle>2</minimStyle>
-          <onLines>0</onLines>
-          <showRests>1</showRests>
-          <stemsDown>0</stemsDown>
-          <stemsThrough>0</stemsThrough>
-          <upsideDown>0</upsideDown>
-          <useNumbers>0</useNumbers>
+        <StaffType group="pitched">
+          <name>stdNormal</name>
           </StaffType>
         </Staff>
       <trackName>Desítistrunná loutna</trackName>
@@ -137,26 +119,8 @@ ver. $MT$m</oddFooterC>
       </Part>
     <Part>
       <Staff id="2">
-        <StaffType group="tablature">
-          <name>tab6StrFrench</name>
-          <lines>6</lines>
-          <lineDistance>1.5</lineDistance>
-          <clef>0</clef>
-          <durations>0</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
-          <durationFontSize>15</durationFontSize>
-          <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Renaiss</fretFontName>
-          <fretFontSize>10</fretFontSize>
-          <fretFontY>0</fretFontY>
-          <linesThrough>1</linesThrough>
-          <minimStyle>2</minimStyle>
-          <onLines>0</onLines>
-          <showRests>1</showRests>
-          <stemsDown>0</stemsDown>
-          <stemsThrough>0</stemsThrough>
-          <upsideDown>0</upsideDown>
-          <useNumbers>0</useNumbers>
+        <StaffType group="pitched">
+          <name>stdNormal</name>
           </StaffType>
         </Staff>
       <trackName>Desítistrunná loutna</trackName>
@@ -251,6 +215,10 @@ for lute duet arr. Vladimír Váša</text>
         </VBox>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            </Clef>
           <KeySig>
             <accidental>-2</accidental>
             </KeySig>
@@ -1744,6 +1712,9 @@ for lute duet arr. Vladimír Váša</text>
               <text>reu</text>
               </Lyrics>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Fingering>
                 <style>RH Guitar Fingering</style>
                 <text>p</text>
@@ -2306,6 +2277,9 @@ for lute duet arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Fingering>
                 <style>RH Guitar Fingering</style>
                 <text>i</text>
@@ -3237,6 +3211,10 @@ for lute duet arr. Vladimír Váša</text>
     <Staff id="2">
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            </Clef>
           <KeySig>
             <accidental>-2</accidental>
             </KeySig>
