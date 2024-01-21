@@ -7,14 +7,15 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <staffLowerBorder>8</staffLowerBorder>
+      <staffLowerBorder>10</staffLowerBorder>
       <evenHeaderL></evenHeaderL>
       <evenHeaderR>$p</evenHeaderR>
       <oddHeaderL>$p</oddHeaderL>
       <oddHeaderR></oddHeaderR>
       <footerOddEven>0</footerOddEven>
       <oddFooterC>Greensleeves - Folger's lute book - lute duet (with voices swap)
-$:copyright:</oddFooterC>
+$:copyright:
+Last modified: $M $m</oddFooterC>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -23,7 +24,7 @@ $:copyright:</oddFooterC>
     <showMargins>0</showMargins>
     <metaTag name="arranger">Vladimír Váša</metaTag>
     <metaTag name="composer">Anonym</metaTag>
-    <metaTag name="copyright">© 2023 This is transcription of the original work which is public domain.
+    <metaTag name="copyright">© 2024 This is transcription of the original work which is public domain.
 Everything added that is not a public domain is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2023-06-27</metaTag>
     <metaTag name="lyricist"></metaTag>
@@ -194,11 +195,6 @@ Everything added that is not a public domain is licensed under a Creative Common
           <text>Anonym
 Folger's lute book
 rewritten by Vladimír Váša</text>
-          </Text>
-        <Text>
-          <linkedMain/>
-          <style>Lyricist</style>
-          <text>ver. 2023-06-28</text>
           </Text>
         <Text>
           <linkedMain/>
@@ -1216,6 +1212,7 @@ rewritten by Vladimír Váša</text>
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
@@ -2508,6 +2505,7 @@ rewritten by Vladimír Váša</text>
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
@@ -4363,18 +4361,21 @@ rewritten by Vladimír Váša</text>
               <string>2</string>
               </Note>
             </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <linkedMain/>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>7</size>
+            <align>center,baseline</align>
+            <offset x="2.6" y="3.5"/>
+            <text>d – ♮e
+in orig.</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Note>
-              <linkedMain/>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <small>1</small>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             <Note>
               <linkedMain/>
               <Symbol>
@@ -4385,10 +4386,10 @@ rewritten by Vladimír Váša</text>
                 <name>noteheadParenthesisRight</name>
                 <linkedMain/>
                 </Symbol>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -4397,12 +4398,17 @@ rewritten by Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>2</fret>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <linkedMain/>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <linkedMain/>
+                </Symbol>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
               <string>1</string>
               </Note>
             </Chord>
@@ -5646,6 +5652,7 @@ rewritten by Vladimír Váša</text>
       <Style>
         <pageWidth>8.27</pageWidth>
         <pageHeight>11.69</pageHeight>
+        <staffLowerBorder>8</staffLowerBorder>
         <createMultiMeasureRests>1</createMultiMeasureRests>
         <evenHeaderL></evenHeaderL>
         <evenHeaderR>$p</evenHeaderR>
@@ -5653,7 +5660,8 @@ rewritten by Vladimír Váša</text>
         <oddHeaderR></oddHeaderR>
         <footerOddEven>0</footerOddEven>
         <oddFooterC>Greensleeves - Folger's lute book - lute duet (with voices swap)
-$:copyright:</oddFooterC>
+$:copyright:
+Last modified: $M $m</oddFooterC>
         <Spatium>1.74978</Spatium>
         </Style>
       <showInvisible>1</showInvisible>
@@ -5865,12 +5873,6 @@ $:copyright:</oddFooterC>
             <text>Anonym
 Folger's lute book
 rewritten by Vladimír Váša</text>
-            </Text>
-          <Text>
-            <linked>
-              </linked>
-            <style>Lyricist</style>
-            <text>ver. 2023-06-28</text>
             </Text>
           <Text>
             <linked>
@@ -7032,6 +7034,7 @@ rewritten by Vladimír Váša</text>
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>no</BeamMode>
               <durationType>quarter</durationType>
               <Note>
                 <linked>
@@ -7419,6 +7422,9 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/2">
+          <LayoutBreak>
+            <subtype>page</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8310,6 +8316,9 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/2">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8370,9 +8379,6 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/2">
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8509,6 +8515,7 @@ rewritten by Vladimír Váša</text>
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>no</BeamMode>
               <durationType>quarter</durationType>
               <Note>
                 <linked>
@@ -8669,6 +8676,9 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/2">
+          <LayoutBreak>
+            <subtype>line</subtype>
+            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -8731,9 +8741,6 @@ rewritten by Vladimír Váša</text>
             </voice>
           </Measure>
         <Measure len="1/2">
-          <LayoutBreak>
-            <subtype>line</subtype>
-            </LayoutBreak>
           <voice>
             <Chord>
               <linked>
@@ -10635,6 +10642,16 @@ rewritten by Vladimír Váša</text>
                 <string>2</string>
                 </Note>
               </Chord>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <size>7</size>
+              <offset x="1.8" y="1.8"/>
+              <text>d – ♮e
+in orig.</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -10643,31 +10660,22 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
-                <pitch>58</pitch>
-                <tpc>12</tpc>
-                <small>1</small>
-                <fret>1</fret>
-                <string>2</string>
-                </Note>
-              <Note>
-                <linked>
-                  </linked>
                 <Symbol>
                   <name>noteheadParenthesisLeft</name>
                   <linked>
                     </linked>
-                  <offset x="0" y="-0.7"/>
+                  <offset x="0" y="-0.8"/>
                   </Symbol>
                 <Symbol>
                   <name>noteheadParenthesisRight</name>
                   <linked>
                     </linked>
-                  <offset x="0" y="-0.7"/>
+                  <offset x="0" y="-0.8"/>
                   </Symbol>
-                <pitch>62</pitch>
-                <tpc>16</tpc>
-                <fret>0</fret>
-                <string>1</string>
+                <pitch>58</pitch>
+                <tpc>12</tpc>
+                <fret>1</fret>
+                <string>2</string>
                 </Note>
               </Chord>
             <Chord>
@@ -10678,12 +10686,21 @@ rewritten by Vladimír Váša</text>
               <Note>
                 <linked>
                   </linked>
-                <Accidental>
-                  <subtype>accidentalNatural</subtype>
-                  </Accidental>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
-                <fret>2</fret>
+                <Symbol>
+                  <name>noteheadParenthesisLeft</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.8"/>
+                  </Symbol>
+                <Symbol>
+                  <name>noteheadParenthesisRight</name>
+                  <linked>
+                    </linked>
+                  <offset x="0" y="-0.8"/>
+                  </Symbol>
+                <pitch>63</pitch>
+                <tpc>11</tpc>
+                <fret>1</fret>
                 <string>1</string>
                 </Note>
               </Chord>
