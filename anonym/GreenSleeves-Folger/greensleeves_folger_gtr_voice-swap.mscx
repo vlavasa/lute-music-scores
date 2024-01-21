@@ -7,13 +7,15 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
+      <staffLowerBorder>8</staffLowerBorder>
       <evenHeaderL></evenHeaderL>
       <evenHeaderR>$p</evenHeaderR>
       <oddHeaderL>$p</oddHeaderL>
       <oddHeaderR></oddHeaderR>
       <footerOddEven>0</footerOddEven>
       <oddFooterC>Greensleeves - Folger's lute book - guitar arr. duet (with voices swap)
-$:copyright:</oddFooterC>
+$:copyright:
+Last modified: $M $m</oddFooterC>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -22,7 +24,7 @@ $:copyright:</oddFooterC>
     <showMargins>0</showMargins>
     <metaTag name="arranger">Vladimír Váša</metaTag>
     <metaTag name="composer">Anonym</metaTag>
-    <metaTag name="copyright">© 2023 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
+    <metaTag name="copyright">© 2024 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2023-06-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -193,10 +195,6 @@ arr. Vladimír Váša</text>
         <Text>
           <style>Subtitle</style>
           <text>guitar arr. duet (with voices swap)</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text>ver. 2023-06-28</text>
           </Text>
         </VBox>
       <Measure len="1/2">
@@ -3740,16 +3738,19 @@ arr. Vladimír Váša</text>
               <string>2</string>
               </Note>
             </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <style>Expression</style>
+            <placement>below</placement>
+            <size>7</size>
+            <align>center,baseline</align>
+            <offset x="3.8" y="3"/>
+            <text>h – ♯c
+in orig.</text>
+            </StaffText>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <small>1</small>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             <Note>
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
@@ -3757,21 +3758,24 @@ arr. Vladimír Váša</text>
               <Symbol>
                 <name>noteheadParenthesisRight</name>
                 </Symbol>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                </Symbol>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <fret>2</fret>
               <string>1</string>
               </Note>
