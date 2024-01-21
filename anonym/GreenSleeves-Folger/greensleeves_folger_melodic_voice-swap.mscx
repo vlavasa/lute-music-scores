@@ -13,7 +13,8 @@
       <oddHeaderR></oddHeaderR>
       <footerOddEven>0</footerOddEven>
       <oddFooterC>Greensleeves - Folger's lute book - melodic instrument (violin) arr.
-$:copyright:</oddFooterC>
+$:copyright:
+last modified: $M $m</oddFooterC>
       <Spatium>1.74978</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -22,7 +23,7 @@ $:copyright:</oddFooterC>
     <showMargins>0</showMargins>
     <metaTag name="arranger">Vladimír Váša</metaTag>
     <metaTag name="composer">Anonym</metaTag>
-    <metaTag name="copyright">© 2023 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
+    <metaTag name="copyright">© 2024 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2023-06-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -210,10 +211,6 @@ arr. Vladimír Váša</text>
           <style>Subtitle</style>
           <text>melodic instrument (violin) arr.
 (with voices swap)</text>
-          </Text>
-        <Text>
-          <style>Lyricist</style>
-          <text>ver. 2023-06-28</text>
           </Text>
         </VBox>
       <Measure len="1/2">
@@ -794,8 +791,8 @@ arr. Vladimír Váša</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
@@ -3222,8 +3219,8 @@ arr. Vladimír Váša</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               <fret>0</fret>
               <string>2</string>
               </Note>
@@ -3267,11 +3264,8 @@ arr. Vladimír Váša</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               <fret>2</fret>
               <string>2</string>
               </Note>
