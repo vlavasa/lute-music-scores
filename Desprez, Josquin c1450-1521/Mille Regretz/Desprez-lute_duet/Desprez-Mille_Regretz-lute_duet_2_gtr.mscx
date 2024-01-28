@@ -7,8 +7,11 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <pageEvenTopMargin>0.472441</pageEvenTopMargin>
-      <pageOddTopMargin>0.472441</pageOddTopMargin>
+      <pageWidth>8.27008</pageWidth>
+      <pageHeight>11.6902</pageHeight>
+      <pagePrintableWidth>7.48268</pagePrintableWidth>
+      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
       <staffUpperBorder>12</staffUpperBorder>
       <staffLowerBorder>12</staffLowerBorder>
       <maxSystemDistance>30</maxSystemDistance>
@@ -20,15 +23,15 @@
 ver. $MT$m</evenFooterC>
       <oddFooterC>$:copyright:
 ver. $MT$m</oddFooterC>
-      <Spatium>1.6</Spatium>
+      <Spatium>1.75</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger">for lute duet arr. Vladimír Váša</metaTag>
+    <metaTag name="arranger">for guitar duet arr. Vladimír Váša</metaTag>
     <metaTag name="composer">Iosquin des Pres (c.1450 - 1521) - Tylman Susato ed. (1549)</metaTag>
-    <metaTag name="copyright">© 2023 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
+    <metaTag name="copyright">© 2024 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2023-05-21</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
@@ -204,13 +207,13 @@ ver. $MT$m</oddFooterC>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>arr. for 2 lutes</text>
+          <text>arr. for 2 guitars</text>
           </Text>
         <Text>
           <style>Composer</style>
           <text>Iosquin des Pres (c.1450 - 1521)
 Tylman Susato ed. (1549)
-for lute duet arr. Vladimír Váša</text>
+for guitar duet arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -248,7 +251,6 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
             <durationType>whole</durationType>
             </Rest>
           </voice>
@@ -290,9 +292,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -496,7 +499,7 @@ for lute duet arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1.5"/>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -621,7 +624,6 @@ for lute duet arr. Vladimír Váša</text>
           </LayoutBreak>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -704,9 +706,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -773,16 +776,16 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -1030,9 +1033,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1089,9 +1093,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1117,7 +1122,6 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -1165,8 +1169,12 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>dotted</subtype>
@@ -1406,14 +1414,16 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <subtype>line</subtype>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -1453,6 +1463,7 @@ for lute duet arr. Vladimír Váša</text>
               </Lyrics>
             <Articulation>
               <subtype>ornamentTurn</subtype>
+              <offset x="0" y="1"/>
               </Articulation>
             <Note>
               <Accidental>
@@ -1488,6 +1499,9 @@ for lute duet arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>1</accidental>
+            </KeySig>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -1504,7 +1518,6 @@ for lute duet arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-2"/>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -1545,8 +1558,12 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>dotted</subtype>
@@ -1600,6 +1617,7 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -1753,7 +1771,6 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -1773,7 +1790,7 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <offset x="0" y="-2"/>
+            <offset x="0" y="-1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -1848,6 +1865,9 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1936,7 +1956,7 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
+            <offset x="0" y="-1"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -1956,8 +1976,10 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>dotted</subtype>
@@ -2030,7 +2052,6 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <offset x="0" y="-1.5"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -2307,9 +2328,11 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
-            <offset x="0" y="-2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Breath>
@@ -2701,7 +2724,7 @@ for lute duet arr. Vladimír Váša</text>
               <placement>above</placement>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="-9"/>
+                <offset x="0" y="-8"/>
                 <off2 x="0" y="0"/>
                 <autoplace>0</autoplace>
                 </Segment>
@@ -3063,6 +3086,7 @@ for lute duet arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
@@ -3105,8 +3129,12 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>dotted</subtype>
@@ -3146,6 +3174,7 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -3244,8 +3273,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -3458,8 +3489,12 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -3500,6 +3535,7 @@ for lute duet arr. Vladimír Váša</text>
         <voice>
           <Rest>
             <autoplace>0</autoplace>
+            <offset x="0" y="2"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -4021,7 +4057,7 @@ for lute duet arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Rest>
-            <offset x="0" y="-1.5"/>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -4094,8 +4130,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4149,6 +4187,7 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -4167,6 +4206,9 @@ for lute duet arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>1</accidental>
+            </KeySig>
           <Chord>
             <durationType>whole</durationType>
             <Lyrics>
@@ -4219,8 +4261,12 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <offset x="0" y="2"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <offset x="0" y="2"/>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>dotted</subtype>
@@ -4271,6 +4317,7 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>whole</durationType>
             </Rest>
           <BarLine>
@@ -4460,7 +4507,6 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <offset x="0" y="-2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -4508,8 +4554,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4652,8 +4700,12 @@ for lute duet arr. Vladimír Váša</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <offset x="0" y="1"/>
+            <durationType>half</durationType>
             </Rest>
           <BarLine>
             <subtype>dotted</subtype>
@@ -4793,8 +4845,10 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4866,6 +4920,7 @@ for lute duet arr. Vladimír Váša</text>
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="1"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -5177,7 +5232,7 @@ for lute duet arr. Vladimír Váša</text>
               <continueText>(rit..)</continueText>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="9"/>
+                <offset x="0" y="12"/>
                 <off2 x="0" y="0"/>
                 <autoplace>0</autoplace>
                 </Segment>
