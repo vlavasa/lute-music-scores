@@ -20,6 +20,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -31,8 +32,9 @@
           </StaffType>
         </Staff>
       <trackName>Sopran</trackName>
+      <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="soprano">
-        <longName>S</longName>
+        <longName>C</longName>
         <trackName>Sopran</trackName>
         <minPitchP>60</minPitchP>
         <maxPitchP>84</maxPitchP>
