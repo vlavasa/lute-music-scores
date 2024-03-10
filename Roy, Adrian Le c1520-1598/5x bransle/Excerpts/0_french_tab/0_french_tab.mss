@@ -418,11 +418,11 @@
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>5x Bransle de Poućtou. - Adrian Le Roy
+    <evenFooterC>5x Bransle de Poictou. - Adrian Le Roy
 $C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>5x Bransle de Poućtou. - Adrian Le Roy
+    <oddFooterC>5x Bransle de Poictou. - Adrian Le Roy
 $C</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
