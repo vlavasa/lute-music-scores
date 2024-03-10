@@ -2,29 +2,29 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>3451</LastEID>
+  <LastEID>4649</LastEID>
   <Score>
     <Division>480</Division>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
+    <metaTag name="arranger">rewritten from original by Vladimír Váša</metaTag>
     <metaTag name="audioComUrl"></metaTag>
-    <metaTag name="composer">Skladatel/aranžér</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="composer">Adrian Le Roy c.1520-1598</metaTag>
+    <metaTag name="copyright">© 2024 This is an exact transcription of Roy's original work, which is in the public domain.
+If something is not public domain, it is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-03-10</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Podnázev skladby</metaTag>
+    <metaTag name="subtitle">TIERS LIVRE DE TABULATURE DE GUITERRE (1552)</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Nepojmenovaný notový zápis</metaTag>
+    <metaTag name="workTitle">5x BRANSLE DE POIĆTOU.</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
       <instrument id="guitar-steel">
@@ -139,7 +139,24 @@ DE GUITERRE (1552)</text>
           <eid>17179869190</eid>
           <linkedMain/>
           <style>composer</style>
-          <text>Adrian Le Roy c.1520-1598</text>
+          <text>Adrian Le Roy c.1520-1598
+rewritten from original by Vladimír Váša</text>
+          </Text>
+        <Text>
+          <eid>14826227105798</eid>
+          <linkedMain/>
+          <style>poet</style>
+          <text>Probable tuning of
+Renaissance guitar: G-c-e-a
+Notation transposed for modern guitar</text>
+          </Text>
+        <Text>
+          <eid>14834817040390</eid>
+          <linkedMain/>
+          <visible>0</visible>
+          <style>poet</style>
+          <text>Probable tuning of
+Renaissance guitar: G-c-e-a</text>
           </Text>
         </VBox>
       <Measure>
@@ -3028,6 +3045,7 @@ DE GUITERRE (1552)</text>
           <eid>9582072037456</eid>
           <linkedMain/>
           <subtype>section</subtype>
+          <pause>0</pause>
           </LayoutBreak>
         <LayoutBreak>
           <eid>9685151252560</eid>
@@ -4154,6 +4172,7 @@ DE GUITERRE (1552)</text>
           <eid>1584842932304</eid>
           <linkedMain/>
           <subtype>section</subtype>
+          <pause>0</pause>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -6024,6 +6043,7 @@ DE GUITERRE (1552)</text>
           <eid>4075923963984</eid>
           <linkedMain/>
           <subtype>section</subtype>
+          <pause>0</pause>
           </LayoutBreak>
         <LayoutBreak>
           <eid>9689446219856</eid>
@@ -7238,6 +7258,7 @@ DE GUITERRE (1552)</text>
           <eid>5145370820688</eid>
           <linkedMain/>
           <subtype>section</subtype>
+          <pause>0</pause>
           </LayoutBreak>
         <voice>
           <Chord>
