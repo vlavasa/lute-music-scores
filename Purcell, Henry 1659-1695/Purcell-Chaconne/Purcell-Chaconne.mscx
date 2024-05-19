@@ -24660,21 +24660,17 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>1434519076980</eid>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <eid>1438814044192</eid>
-              <linkedMain/>
               </Articulation>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <eid>1443109011488</eid>
-              <linkedMain/>
               </Articulation>
             <Note>
               <eid>28497108008981</eid>
-              <linkedMain/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -24682,7 +24678,6 @@ e Continuo</longName>
               </Note>
             <Note>
               <eid>1447403978773</eid>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -26179,7 +26174,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>16819091931162</eid>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -30244,25 +30238,17 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>28969554411636</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <eid>28973849378848</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <eid>28978144346144</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Note>
               <eid>28982439313429</eid>
-              <linked>
-                </linked>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -30270,8 +30256,6 @@ e Continuo</longName>
               </Note>
             <Note>
               <eid>28986734280725</eid>
-              <linked>
-                </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -30372,6 +30356,10 @@ e Continuo</longName>
         </Measure>
       <Measure>
         <voice>
+          <Expression>
+            <eid>30030411333669</eid>
+            <text>simile</text>
+            </Expression>
           <Chord>
             <eid>29055453757556</eid>
             <linked>
@@ -31973,8 +31961,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>17858474016794</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -35908,13 +35894,11 @@ e Continuo</longName>
             </Dynamic>
           <Chord>
             <eid>13700945674356</eid>
-            <linkedMain/>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <eid>13705240641557</eid>
-              <linkedMain/>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -41647,15 +41631,11 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>27663884353652</eid>
-            <linked>
-              </linked>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <eid>27668179320853</eid>
-              <linked>
-                </linked>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
