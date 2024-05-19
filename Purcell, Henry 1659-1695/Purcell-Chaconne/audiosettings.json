@@ -21,6 +21,10 @@
                     }
                 },
                 "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
             }
         },
         {
@@ -29,6 +33,10 @@
                 "fxChain": {
                 },
                 "volumeDb": 0
+            },
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
             }
         }
     ],
@@ -86,6 +94,48 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Strings",
+                        "museName": "Violin 2 (Solo)",
+                        "musePack": "Muse Strings",
+                        "museUID": "104",
+                        "museVendorName": "",
+                        "playbackSetupData": "strings.violin.orchestral:secondary"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Strings\\Violin 2 (Solo)\\104",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violin",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
                         "museName": "Violoncello (Solo)",
                         "musePack": "Muse Strings",
                         "museUID": "106",
@@ -128,54 +178,16 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Strings",
-                        "museName": "Violin 2 (Solo)",
+                        "museName": "Viola (Solo)",
                         "musePack": "Muse Strings",
-                        "museUID": "104",
+                        "museUID": "105",
                         "museVendorName": "",
-                        "playbackSetupData": "strings.violin.orchestral:secondary"
+                        "playbackSetupData": "strings.viola.orchestral"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violin 2 (Solo)\\104",
+                    "id": "Muse Strings\\Viola (Solo)\\105",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "violin",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "2",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -225,19 +237,27 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "999"
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
+                        "museCategory": "Muse Harp",
+                        "museName": "Harp",
+                        "musePack": "Muse Harp",
+                        "museUID": "165",
+                        "museVendorName": "",
+                        "playbackSetupData": "strings.harp.plucked"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
+                    "id": "Muse Harp\\Harp\\165",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
@@ -259,19 +279,27 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "5"
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
+                        "museCategory": "Muse Harp",
+                        "museName": "Harp",
+                        "musePack": "Muse Harp",
+                        "museUID": "165",
+                        "museVendorName": "",
+                        "playbackSetupData": "strings.harp.plucked"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
+                    "id": "Muse Harp\\Harp\\165",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
@@ -293,7 +321,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "6"
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         }
     ]
 }

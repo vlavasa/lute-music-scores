@@ -20,6 +20,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">The Fairy Queen</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -33,10 +34,10 @@
         <bracket type="1" span="2" col="1" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>Скрипка</trackName>
+      <trackName>Violino 1</trackName>
       <Instrument id="violin">
         <longName>Violino 1</longName>
-        <trackName>Скрипка</trackName>
+        <trackName>Violino 1</trackName>
         <minPitchP>55</minPitchP>
         <maxPitchP>103</maxPitchP>
         <minPitchA>55</minPitchA>
@@ -112,10 +113,10 @@
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>Скрипка</trackName>
+      <trackName>Violino 2</trackName>
       <Instrument id="violin">
         <longName>Violino 2</longName>
-        <trackName>Скрипка</trackName>
+        <trackName>Violino 2</trackName>
         <minPitchP>55</minPitchP>
         <maxPitchP>103</maxPitchP>
         <minPitchA>55</minPitchA>
@@ -272,11 +273,11 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Виолончель</trackName>
+      <trackName>Basso e Continuo</trackName>
       <Instrument id="violoncello">
         <longName>Basso 
 e Continuo</longName>
-        <trackName>Виолончель</trackName>
+        <trackName>Basso e Continuo</trackName>
         <minPitchP>36</minPitchP>
         <maxPitchP>90</maxPitchP>
         <minPitchA>36</minPitchA>
@@ -353,12 +354,12 @@ e Continuo</longName>
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>Arciloutna</trackName>
+      <trackName>Liuto 1</trackName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="archlute-14-course">
         <longName>1</longName>
         <shortName>1</shortName>
-        <trackName>Arciloutna</trackName>
+        <trackName>Liuto 1</trackName>
         <minPitchP>29</minPitchP>
         <maxPitchP>77</maxPitchP>
         <minPitchA>29</minPitchA>
@@ -398,12 +399,12 @@ e Continuo</longName>
           <name>stdNormal</name>
           </StaffType>
         </Staff>
-      <trackName>Arciloutna</trackName>
+      <trackName>Liuto 2</trackName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="archlute-14-course">
         <longName>2</longName>
         <shortName>2</shortName>
-        <trackName>Arciloutna</trackName>
+        <trackName>Liuto 2</trackName>
         <minPitchP>29</minPitchP>
         <maxPitchP>77</maxPitchP>
         <minPitchA>29</minPitchA>
