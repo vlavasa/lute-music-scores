@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.30">
-  <programVersion>4.3.0</programVersion>
-  <programRevision>5f36e74</programRevision>
-  <LastEID>7821</LastEID>
+  <programVersion>4.3.1</programVersion>
+  <programRevision>026c26b</programRevision>
+  <LastEID>7825</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -22175,6 +22175,7 @@ e Continuo</longName>
             <eid>326417514612</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <eid>330712481813</eid>
               <linkedMain/>
@@ -22189,11 +22190,13 @@ e Continuo</longName>
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <eid>339302416405</eid>
               <linkedMain/>
               <pitch>67</pitch>
               <tpc>15</tpc>
+              <dotPosition>up</dotPosition>
               <fret>0</fret>
               <string>0</string>
               </Note>
@@ -22203,6 +22206,7 @@ e Continuo</longName>
             <linkedMain/>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <eid>347892350997</eid>
               <linkedMain/>
@@ -22210,42 +22214,6 @@ e Continuo</longName>
               <tpc>17</tpc>
               <fret>2</fret>
               <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Expression>
-            <eid>21917218111525</eid>
-            <text>???</text>
-            </Expression>
-          <Chord>
-            <eid>21303037788276</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>21307332755477</eid>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Expression>
-            <eid>21921513078821</eid>
-            <text>???</text>
-            </Expression>
-          <Chord>
-            <eid>21311627722868</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <eid>21315922690069</eid>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -22364,42 +22332,6 @@ e Continuo</longName>
               <tpc>12</tpc>
               <fret>3</fret>
               <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Expression>
-            <eid>21925808046117</eid>
-            <text>???</text>
-            </Expression>
-          <Chord>
-            <eid>21354577395828</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>21358872363029</eid>
-              <linkedMain/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Expression>
-            <eid>21912923144229</eid>
-            <text>???</text>
-            </Expression>
-          <Chord>
-            <eid>21363167330420</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <eid>21367462297621</eid>
-              <linkedMain/>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -24731,24 +24663,19 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>1434519076980</eid>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <eid>1438814044192</eid>
-              <linkedMain/>
               </Articulation>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <eid>1443109011488</eid>
-              <linkedMain/>
               </Articulation>
             <Note>
               <eid>1447403978773</eid>
-              <linkedMain/>
               <Fingering>
                 <eid>30167850287149</eid>
-                <linkedMain/>
                 <style>string_number</style>
                 <text>1</text>
                 </Fingering>
@@ -25494,11 +25421,9 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>30421253357684</eid>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>30434138259477</eid>
-              <linkedMain/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -26122,7 +26047,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>1941325217818</eid>
-            <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
           <Dynamic>
@@ -28560,38 +28484,6 @@ e Continuo</longName>
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <Chord>
-            <eid>21552145891444</eid>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>21556440858645</eid>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>21560735826036</eid>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <eid>21565030793237</eid>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -28723,38 +28615,6 @@ e Continuo</longName>
               <tpc>12</tpc>
               <fret>3</fret>
               <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <eid>21655225106548</eid>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>21659520073749</eid>
-              <linked>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>21663815041140</eid>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            <Note>
-              <eid>21668110008341</eid>
-              <linked>
-                </linked>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -31346,29 +31206,19 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>30081950941300</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
               <eid>30086245908512</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <eid>30090540875808</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Note>
               <eid>30094835843093</eid>
-              <linked>
-                </linked>
               <Fingering>
                 <eid>30202210025517</eid>
-                <linked>
-                  </linked>
                 <style>string_number</style>
                 <text>1</text>
                 </Fingering>
@@ -32206,13 +32056,9 @@ e Continuo</longName>
         <voice>
           <Chord>
             <eid>30081950941300</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>30094835843093</eid>
-              <linked>
-                </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
@@ -32926,8 +32772,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>31409095835674</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -40463,7 +40307,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>7219840024602</eid>
-            <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -41430,7 +41273,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>17381732646938</eid>
-            <linkedMain/>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -48307,8 +48149,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>33049773342746</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
@@ -49397,8 +49237,6 @@ e Continuo</longName>
         <voice>
           <Rest>
             <eid>18421114732570</eid>
-            <linked>
-              </linked>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
