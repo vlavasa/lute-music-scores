@@ -94,48 +94,6 @@
                 "resourceMeta": {
                     "attributes": {
                         "museCategory": "Muse Strings",
-                        "museName": "Violoncello (Solo)",
-                        "musePack": "Muse Strings",
-                        "museUID": "106",
-                        "museVendorName": "",
-                        "playbackSetupData": "strings.violoncello.orchestral"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violoncello (Solo)\\106",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "violoncello",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "4",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Strings",
                         "museName": "Violin 2 (Solo)",
                         "musePack": "Muse Strings",
                         "museUID": "104",
@@ -168,6 +126,48 @@
                 "volumeDb": 0
             },
             "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violoncello (Solo)",
+                        "musePack": "Muse Strings",
+                        "museUID": "106",
+                        "museVendorName": "",
+                        "playbackSetupData": "strings.violoncello.orchestral"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Strings\\Violoncello (Solo)\\106",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "violoncello",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
