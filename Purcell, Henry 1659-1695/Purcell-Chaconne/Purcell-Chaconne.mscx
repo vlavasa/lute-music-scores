@@ -2,7 +2,7 @@
 <museScore version="4.30">
   <programVersion>4.3.2</programVersion>
   <programRevision>22b46f2</programRevision>
-  <LastEID>11231</LastEID>
+  <LastEID>11233</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -31390,6 +31390,14 @@ e Continuo</longName>
             <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
+              <eid>48241072668693</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>41420664602645</eid>
               <linkedMain/>
               <pitch>64</pitch>
@@ -31413,21 +31421,6 @@ e Continuo</longName>
               </Note>
             <Note>
               <eid>41442139439125</eid>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <eid>41455024341108</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>41459319308309</eid>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -44087,6 +44080,15 @@ e Continuo</longName>
               </linked>
             <durationType>quarter</durationType>
             <Note>
+              <eid>48245367635989</eid>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>43018392436757</eid>
               <linked>
                 </linked>
@@ -44113,23 +44115,6 @@ e Continuo</longName>
               </Note>
             <Note>
               <eid>43039867273237</eid>
-              <linked>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <eid>43052752175220</eid>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>43057047142421</eid>
               <linked>
                 </linked>
               <pitch>60</pitch>
@@ -69173,7 +69158,8 @@ e Continuo</longName>
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>38710540238880</eid>
               <linked>
                 </linked>
@@ -69316,7 +69302,8 @@ e Continuo</longName>
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>38779259715616</eid>
               <linked>
                 </linked>
@@ -69345,7 +69332,8 @@ e Continuo</longName>
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>38792144617504</eid>
               <linked>
                 </linked>
@@ -69742,7 +69730,8 @@ e Continuo</longName>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>38981123178528</eid>
               <linked>
                 </linked>
@@ -70003,7 +69992,8 @@ e Continuo</longName>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>39109972197408</eid>
               <linked>
                 </linked>
@@ -70025,7 +70015,8 @@ e Continuo</longName>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>39122857099296</eid>
               <linked>
                 </linked>
@@ -70282,7 +70273,8 @@ e Continuo</longName>
                 </next>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>39247411150880</eid>
               <linked>
                 </linked>
@@ -70448,7 +70440,8 @@ e Continuo</longName>
                 </prev>
               </Spanner>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
+              <anchor>0</anchor>
               <eid>39324720562208</eid>
               <linked>
                 </linked>
