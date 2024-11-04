@@ -263,6 +263,10 @@
       <Measure len="3/8">
         <irregular>1</irregular>
         <voice>
+          <KeySig>
+            <linkedMain/>
+            <accidental>-2</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -437,7 +441,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -462,7 +466,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -480,7 +484,7 @@
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -529,7 +533,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -539,7 +543,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -651,7 +655,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -672,7 +676,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -693,7 +697,7 @@
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -739,7 +743,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -861,7 +865,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -971,9 +975,9 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -1425,6 +1429,12 @@
                 <linkedMain/>
                 <offset x="-0.4" y="1"/>
                 </Symbol>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -1655,12 +1665,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>ornamentLowLeftConvexStroke</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="-0.4" y="1"/>
-                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1911,6 +1915,12 @@
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -1976,6 +1986,12 @@
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -2267,7 +2283,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
               </Note>
@@ -2349,7 +2365,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -2467,7 +2483,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -2478,7 +2494,7 @@
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -2546,7 +2562,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -2647,7 +2663,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -2658,7 +2674,7 @@
             <Note>
               <linkedMain/>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -2683,7 +2699,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -2800,7 +2816,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
               </Note>
@@ -2977,7 +2993,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>51</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>4</string>
               </Note>
@@ -2998,7 +3014,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -3023,18 +3039,12 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>51</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>4</string>
               </Note>
             <Note>
               <linkedMain/>
-              <Symbol>
-                <name>ornamentLowLeftConvexStroke</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="-0.4" y="1"/>
-                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -3067,7 +3077,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3247,7 +3257,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3357,7 +3367,7 @@
                 <offset x="-0.4" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3376,8 +3386,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -3435,7 +3445,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3545,7 +3555,7 @@
                 <offset x="-0.4" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3563,7 +3573,7 @@
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -3716,6 +3726,7 @@
           </voice>
         </Measure>
       <Measure len="3/8">
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <linkedMain/>
@@ -3768,6 +3779,11 @@
     <Staff id="2">
       <Measure len="3/8">
         <voice>
+          <KeySig>
+            <linked>
+              </linked>
+            <accidental>-2</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -3822,9 +3838,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -3845,9 +3858,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -3924,9 +3934,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -3966,11 +3973,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3994,11 +3998,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4019,7 +4020,7 @@
               <linked>
                 </linked>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4031,9 +4032,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4071,22 +4069,16 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4105,9 +4097,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4210,11 +4199,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -4234,11 +4220,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4262,7 +4245,7 @@
               <linked>
                 </linked>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4281,9 +4264,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -4310,11 +4290,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4408,9 +4385,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -4449,11 +4423,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4502,9 +4473,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -4555,9 +4523,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -4579,9 +4544,9 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -4603,9 +4568,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -4639,6 +4601,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -4761,9 +4726,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -4780,9 +4742,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -4899,6 +4858,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -4977,6 +4939,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -5034,9 +4999,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -5083,6 +5045,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -5097,6 +5062,13 @@
                 <linked>
                   </linked>
                 <offset x="-0.4" y="1"/>
+                </Symbol>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="2" y="0.8"/>
                 </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -5144,6 +5116,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -5183,9 +5158,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -5223,9 +5195,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -5299,9 +5268,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -5348,9 +5314,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -5364,13 +5327,6 @@
             <Note>
               <linked>
                 </linked>
-              <Symbol>
-                <name>ornamentLowLeftConvexStroke</name>
-                <font>Bravura</font>
-                <linked>
-                  </linked>
-                <offset x="-0.4" y="1"/>
-                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -5461,9 +5417,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -5484,6 +5437,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -5546,9 +5502,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -5633,6 +5586,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -5658,6 +5614,13 @@
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -5733,6 +5696,13 @@
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -5764,9 +5734,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -5965,9 +5932,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -6068,10 +6032,10 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
               </Note>
@@ -6083,9 +6047,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -6161,11 +6122,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -6184,9 +6142,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -6296,10 +6251,10 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -6312,7 +6267,7 @@
               <linked>
                 </linked>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -6386,11 +6341,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -6409,9 +6361,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -6503,10 +6452,10 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -6519,7 +6468,7 @@
               <linked>
                 </linked>
               <pitch>66</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>0</string>
               </Note>
@@ -6544,11 +6493,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -6560,9 +6506,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -6601,9 +6544,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -6678,10 +6618,10 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
               </Note>
@@ -6796,9 +6736,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -6882,11 +6819,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>51</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>4</string>
               </Note>
@@ -6906,11 +6840,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -6934,24 +6865,14 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>51</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>4</string>
               </Note>
             <Note>
               <linked>
                 </linked>
-              <Symbol>
-                <name>ornamentLowLeftConvexStroke</name>
-                <font>Bravura</font>
-                <linked>
-                  </linked>
-                <offset x="-0.4" y="1"/>
-                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -6984,11 +6905,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -7007,9 +6925,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -7054,9 +6969,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -7119,9 +7031,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -7130,9 +7039,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -7188,11 +7094,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -7204,9 +7107,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -7308,9 +7208,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -7319,7 +7216,7 @@
                 <offset x="-0.4" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -7335,20 +7232,14 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -7404,11 +7295,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -7420,9 +7308,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -7524,9 +7409,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -7535,7 +7417,7 @@
                 <offset x="-0.4" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -7551,11 +7433,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -7625,9 +7504,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -7665,9 +7541,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -7681,9 +7554,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -7738,9 +7608,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -7765,9 +7632,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -7787,6 +7651,10 @@
     <Staff id="3">
       <Measure len="3/8">
         <voice>
+          <KeySig>
+            <linkedMain/>
+            <accidental>-2</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -8072,7 +7940,7 @@
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -9159,6 +9027,12 @@
               </Note>
             <Note>
               <linkedMain/>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linkedMain/>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -9866,7 +9740,7 @@
                 <offset x="2" y="0.8"/>
                 </Symbol>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
               </Note>
@@ -9953,6 +9827,17 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
@@ -9964,6 +9849,13 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>62</pitch>
@@ -10065,7 +9957,7 @@
             <Note>
               <linkedMain/>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -10392,7 +10284,7 @@
             <Note>
               <linkedMain/>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -10512,6 +10404,11 @@
     <Staff id="4">
       <Measure len="3/8">
         <voice>
+          <KeySig>
+            <linked>
+              </linked>
+            <accidental>-2</accidental>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
@@ -10590,9 +10487,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -10613,9 +10507,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -10672,9 +10563,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -10709,9 +10597,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -10856,11 +10741,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -10916,9 +10798,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -10962,9 +10841,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -10986,9 +10862,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -11203,9 +11076,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -11283,6 +11153,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -11397,9 +11270,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -11413,9 +11283,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -11496,6 +11363,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -11560,9 +11430,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -11637,6 +11504,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -11683,9 +11553,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -11833,9 +11700,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -11856,6 +11720,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -11942,6 +11809,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -11973,9 +11843,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12050,9 +11917,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12091,6 +11955,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>2</fret>
@@ -12142,6 +12009,13 @@
             <Note>
               <linked>
                 </linked>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <linked>
+                  </linked>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -12236,9 +12110,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12381,9 +12252,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12442,9 +12310,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12527,9 +12392,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12556,9 +12418,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -12621,9 +12480,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -12670,9 +12526,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12755,9 +12608,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12784,9 +12634,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -12849,9 +12696,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -12898,9 +12742,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -12988,7 +12829,7 @@
               <linked>
                 </linked>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <subtype>accidentalFlat</subtype>
                 </Accidental>
               <Symbol>
                 <name>ornamentTopRightConvexStroke</name>
@@ -12998,7 +12839,7 @@
                 <offset x="2" y="0.8"/>
                 </Symbol>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
               </Note>
@@ -13010,6 +12851,9 @@
             <Note>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -13099,12 +12943,20 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <fret>1</fret>
@@ -13115,6 +12967,13 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linked>
                 </linked>
@@ -13144,9 +13003,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -13235,11 +13091,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -13251,9 +13104,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <Symbol>
                 <name>ornamentTopRightConvexStroke</name>
                 <font>Bravura</font>
@@ -13291,9 +13141,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -13315,9 +13162,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -13429,9 +13273,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -13462,9 +13303,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -13486,9 +13324,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -13600,9 +13435,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -13640,11 +13472,8 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>8</string>
               </Note>
@@ -13659,9 +13488,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -13720,9 +13546,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -13775,9 +13598,6 @@
             <Note>
               <linked>
                 </linked>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
