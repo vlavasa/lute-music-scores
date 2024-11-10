@@ -985,6 +985,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1329,6 +1332,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1732,7 +1738,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <linkedMain/>
               <Symbol>
@@ -1752,26 +1758,30 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
               <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>9</string>
               </Note>
+            <Note>
+              <linkedMain/>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <linkedMain/>
@@ -1779,10 +1789,17 @@
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>29</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
-              <string>13</string>
+              <string>6</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <BarLine>
@@ -5156,7 +5173,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <linked>
                 </linked>
@@ -5180,23 +5197,23 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <linked>
-              </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
               <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>9</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -5211,10 +5228,23 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>29</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
-              <string>13</string>
+              <string>6</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.4" y="1"/>
+                </Symbol>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <BarLine>
@@ -8503,7 +8533,7 @@
         <voice>
           <Chord>
             <linkedMain/>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>53</pitch>
@@ -8514,28 +8544,6 @@
             </Chord>
           <Chord>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <linkedMain/>
-              <Symbol>
-                <name>ornamentTopRightConvexStroke</name>
-                <font>Bravura</font>
-                <linkedMain/>
-                <offset x="2" y="0.8"/>
-                </Symbol>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linkedMain/>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
@@ -8544,13 +8552,19 @@
               <fret>0</fret>
               <string>6</string>
               </Note>
-            <Note>
-              <linkedMain/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
+            </Chord>
+          <Rest>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
               <pitch>57</pitch>
@@ -11464,7 +11478,7 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -11477,31 +11491,6 @@
           <Chord>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
-            <Note>
-              <linked>
-                </linked>
-              <Symbol>
-                <name>ornamentTopRightConvexStroke</name>
-                <font>Bravura</font>
-                <linked>
-                  </linked>
-                <offset x="2" y="0.8"/>
-                </Symbol>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <linked>
-              </linked>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <linked>
@@ -11511,14 +11500,21 @@
               <fret>0</fret>
               <string>6</string>
               </Note>
-            <Note>
-              <linked>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
+            </Chord>
+          <Rest>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
               <linked>
                 </linked>
@@ -11679,8 +11675,6 @@
               <string>3</string>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linked>
               </linked>
