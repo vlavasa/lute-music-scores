@@ -5,6 +5,7 @@
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
+    <page-offset>3</page-offset>
     <Division>480</Division>
     <Style>
       <pagePrintableWidth>7.32283</pagePrintableWidth>
@@ -18,10 +19,8 @@
       <staffDistance>9</staffDistance>
       <maxSystemDistance>21.5</maxSystemDistance>
       <headerFirstPage>1</headerFirstPage>
-      <evenHeaderL></evenHeaderL>
-      <evenHeaderR>5</evenHeaderR>
-      <oddHeaderL>4</oddHeaderL>
-      <oddHeaderR></oddHeaderR>
+      <evenHeaderL>$P</evenHeaderL>
+      <oddHeaderR>$P</oddHeaderR>
       <footerOddEven>0</footerOddEven>
       <evenFooterC></evenFooterC>
       <oddFooterC>$:copyright:
