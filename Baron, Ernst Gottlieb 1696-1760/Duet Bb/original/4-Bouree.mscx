@@ -36,26 +36,28 @@
           <slashStyle>1</slashStyle>
           <stemless>1</stemless>
           <durations>1</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
+          <durationFontName>MuseScore French Baroque</durationFontName>
           <durationFontSize>15</durationFontSize>
-          <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Renaiss</fretFontName>
+          <durationFontY>-0.5</durationFontY>
+          <fretFontName>MuseScore Bonneuil-de Visée</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
+          <symbolRepeat>2</symbolRepeat>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
-          <onLines>0</onLines>
-          <showRests>0</showRests>
+          <onLines>1</onLines>
+          <showRests>1</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
           <useNumbers>0</useNumbers>
+          <showBackTied>1</showBackTied>
           </StaffType>
         </Staff>
       <trackName>P1</trackName>
       <Instrument id="baroque-lute-13-course">
-        <longName>Loutna</longName>
-        <shortName>Lout.</shortName>
+        <longName>I.</longName>
+        <shortName>I.</shortName>
         <trackName>Třináctistrunná loutna</trackName>
         <minPitchP>33</minPitchP>
         <maxPitchP>77</maxPitchP>
@@ -137,26 +139,28 @@
           <slashStyle>1</slashStyle>
           <stemless>1</stemless>
           <durations>1</durations>
-          <durationFontName>MuseScore Tab French</durationFontName>
+          <durationFontName>MuseScore French Baroque</durationFontName>
           <durationFontSize>15</durationFontSize>
-          <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Tab Renaiss</fretFontName>
+          <durationFontY>-0.5</durationFontY>
+          <fretFontName>MuseScore Bonneuil-de Visée</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
+          <symbolRepeat>2</symbolRepeat>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
-          <onLines>0</onLines>
-          <showRests>0</showRests>
+          <onLines>1</onLines>
+          <showRests>1</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
           <useNumbers>0</useNumbers>
+          <showBackTied>1</showBackTied>
           </StaffType>
         </Staff>
       <trackName>Třináctistrunná loutna</trackName>
       <Instrument id="baroque-lute-13-course">
-        <longName>Loutna</longName>
-        <shortName>Lout.</shortName>
+        <longName>II.</longName>
+        <shortName>II.</shortName>
         <trackName>Třináctistrunná loutna</trackName>
         <minPitchP>33</minPitchP>
         <maxPitchP>77</maxPitchP>
@@ -244,9 +248,13 @@
         <irregular>1</irregular>
         <voice>
           <TimeSig>
+            <subtype>1</subtype>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Segment>
+            <leadingSpace>1</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -299,6 +307,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -324,6 +337,11 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -347,12 +365,22 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -365,6 +393,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -403,6 +438,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -428,6 +468,11 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -451,8 +496,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
@@ -676,6 +721,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -694,6 +748,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -703,6 +764,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -715,6 +786,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -727,6 +805,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -739,6 +827,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -751,6 +846,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -760,6 +865,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -819,10 +931,151 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>5</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>4</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.5" y="1"/>
+                </Symbol>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>5</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
@@ -856,6 +1109,11 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.5" y="1"/>
+                </Symbol>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -902,6 +1160,11 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -925,112 +1188,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
@@ -1254,6 +1413,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -1272,6 +1440,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -1281,6 +1456,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -1293,6 +1478,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -1321,6 +1513,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -1329,7 +1526,8 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="3/4">
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -1337,6 +1535,11 @@
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -1360,13 +1563,16 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <startRepeat/>
+        <irregular>1</irregular>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1404,6 +1610,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -1413,6 +1624,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -1438,6 +1654,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -1499,6 +1720,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -1533,6 +1759,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -1588,6 +1819,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -1597,6 +1833,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -1606,6 +1847,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="0" y="1"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1646,6 +1892,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -1664,6 +1915,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="0" y="1"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1682,6 +1938,11 @@
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -1704,6 +1965,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -1757,6 +2023,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1766,6 +2042,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -1786,6 +2069,11 @@
               <string>10</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="0" y="1"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -1853,6 +2141,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -1918,6 +2211,11 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -1957,6 +2255,16 @@
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -1969,6 +2277,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -1982,6 +2297,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -2000,6 +2324,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2009,6 +2340,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -2018,6 +2359,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2089,6 +2437,11 @@
               <string>3</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="0" y="1"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2146,8 +2499,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <Accidental>
@@ -2180,6 +2533,11 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2207,8 +2565,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>62</pitch>
@@ -2271,8 +2629,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <Accidental>
@@ -2305,6 +2663,11 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -2332,8 +2695,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>62</pitch>
@@ -2400,6 +2763,11 @@
               <string>8</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>67</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -2431,6 +2799,11 @@
               <string>3</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2460,7 +2833,8 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="3/4">
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -2471,8 +2845,8 @@
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>50</pitch>
@@ -2496,9 +2870,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       </Staff>
@@ -2506,6 +2877,7 @@
       <Measure len="1/4">
         <voice>
           <TimeSig>
+            <subtype>1</subtype>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -2517,10 +2889,7 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -2568,6 +2937,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -2590,6 +2964,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -2610,12 +2989,22 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -2625,6 +3014,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -2902,6 +3298,15 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>39</pitch>
               <tpc>23</tpc>
@@ -2917,6 +3322,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2926,6 +3338,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>63</pitch>
               <tpc>23</tpc>
@@ -2935,6 +3357,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -3011,10 +3440,7 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -3044,6 +3470,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.5" y="1"/>
+                </Symbol>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -3062,6 +3493,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -3084,6 +3520,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -3104,8 +3545,8 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
           <Chord>
@@ -3133,6 +3574,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.5" y="1"/>
+                </Symbol>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>5</fret>
@@ -3151,6 +3597,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -3370,6 +3821,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -3396,6 +3852,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3405,6 +3871,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -3414,11 +3887,16 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="3/4">
         <voice>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -3439,13 +3917,14 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/4">
+        <voice>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -3454,10 +3933,7 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -3496,6 +3972,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -3527,6 +4008,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -3585,6 +4071,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
@@ -3594,6 +4085,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
@@ -3603,6 +4099,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>2</fret>
@@ -3622,6 +4123,11 @@
               <string>10</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="0" y="1"/>
+                </Symbol>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -3631,6 +4137,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3640,6 +4151,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -3655,6 +4171,11 @@
               <string>6</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -3683,6 +4204,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3692,6 +4218,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
               <pitch>63</pitch>
               <tpc>23</tpc>
               <fret>1</fret>
@@ -3707,6 +4238,11 @@
               <string>6</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -3741,6 +4277,11 @@
               <string>7</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -3766,6 +4307,11 @@
               <string>6</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
@@ -3835,87 +4381,7 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>4</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -3981,6 +4447,80 @@
               <string>1</string>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>4</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>7</string>
+              </Note>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>4</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3996,6 +4536,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>39</pitch>
               <tpc>23</tpc>
@@ -4011,6 +4560,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -4020,6 +4576,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>63</pitch>
               <tpc>23</tpc>
@@ -4029,6 +4595,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -4038,6 +4611,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4047,6 +4630,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4056,6 +4646,16 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4065,6 +4665,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4091,6 +4698,11 @@
               <string>3</string>
               </Note>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -4109,6 +4721,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -4123,10 +4740,7 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
@@ -4158,8 +4772,8 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>70</pitch>
@@ -4213,8 +4827,8 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>62</pitch>
@@ -4268,8 +4882,8 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>70</pitch>
@@ -4311,6 +4925,15 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>39</pitch>
               <tpc>23</tpc>
@@ -4326,6 +4949,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -4369,6 +4999,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -4377,7 +5012,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="3/4">
         <voice>
           <Chord>
             <dots>1</dots>
@@ -4385,8 +5020,8 @@
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
+              <fret>3</fret>
+              <string>6</string>
               </Note>
             <Note>
               <pitch>50</pitch>
@@ -4407,9 +5042,6 @@
               <string>2</string>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       </Staff>
