@@ -24,7 +24,7 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger">for archlutes arr. Vladimír Váša</metaTag>
+    <metaTag name="arranger">for 10 c. lute and 14 c. archlute arr. Vladimír Váša</metaTag>
     <metaTag name="composer">Ernst Gottlieb Baron 1696-1760</metaTag>
     <metaTag name="copyright">© 2024 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-10-10</metaTag>
@@ -67,7 +67,8 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
         </Staff>
       <trackName>P1</trackName>
       <Instrument id="archlute-14-course">
-        <longName>I.</longName>
+        <longName>I.
+(10 c.)</longName>
         <shortName>I.</shortName>
         <trackName>Arciloutna</trackName>
         <minPitchP>29</minPitchP>
@@ -171,7 +172,8 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
         </Staff>
       <trackName>Arciloutna</trackName>
       <Instrument id="archlute-14-course">
-        <longName>II.</longName>
+        <longName>II.
+(14 c.)</longName>
         <shortName>II.</shortName>
         <trackName>Arciloutna</trackName>
         <minPitchP>29</minPitchP>
@@ -249,11 +251,6 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
       <VBox>
         <height>10</height>
         <Text>
-          <style>Lyricist</style>
-          <text>Archlute (14 c.) tuning:
-F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
-          </Text>
-        <Text>
           <style>Subtitle</style>
           <text>IV. Bourée</text>
           </Text>
@@ -264,7 +261,13 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         <Text>
           <style>Composer</style>
           <text>Ernst Gottlieb Baron 1696-1760
-for archlutes arr. Vladimír Váša</text>
+for 10 c. lute and 14 c. archlute
+arr. Vladimír Váša</text>
+          </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text>14 c. / 10 c. (arch)lute tuning:
+(F'-G'-A'-Bb')-C-D-Eb-F-G-c-f-a-d'-g'</text>
           </Text>
         </VBox>
       <Measure len="1/4">
@@ -336,7 +339,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -467,7 +470,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -540,12 +543,6 @@ for archlutes arr. Vladimír Váša</text>
               <fret>1</fret>
               <string>2</string>
               </Note>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
             </Chord>
           </voice>
         </Measure>
@@ -558,7 +555,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -620,15 +617,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
-            <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -650,15 +638,6 @@ for archlutes arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -761,7 +740,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -805,7 +784,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -846,7 +825,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -918,12 +897,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
-            <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
@@ -1051,7 +1024,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -1165,7 +1138,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -1238,12 +1211,6 @@ for archlutes arr. Vladimír Váša</text>
               <fret>1</fret>
               <string>2</string>
               </Note>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
             </Chord>
           </voice>
         </Measure>
@@ -1256,7 +1223,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -1318,15 +1285,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
-            <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <fret>3</fret>
@@ -1348,15 +1306,6 @@ for archlutes arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -1459,7 +1408,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -1503,7 +1452,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -1534,12 +1483,6 @@ for archlutes arr. Vladimír Váša</text>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>6</string>
-              </Note>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -1565,33 +1508,8 @@ for archlutes arr. Vladimír Váša</text>
           </LayoutBreak>
         <voice>
           <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <Symbol>
-                <name>ornamentLowLeftConvexStroke</name>
-                <font>Bravura</font>
-                <offset x="-0.3" y="1"/>
-                </Symbol>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -1600,6 +1518,27 @@ for archlutes arr. Vladimír Váša</text>
               <tpc>12</tpc>
               <fret>3</fret>
               <string>5</string>
+              </Note>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -1852,12 +1791,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>9</string>
-              </Note>
-            <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -1867,7 +1800,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -1925,12 +1858,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>9</string>
-              </Note>
-            <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -1940,7 +1867,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -1998,10 +1925,10 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             <Note>
               <Accidental>
@@ -2013,19 +1940,13 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -2108,12 +2029,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>9</string>
-              </Note>
-            <Note>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -2141,7 +2056,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>51</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>3</fret>
               <string>4</string>
               </Note>
@@ -2192,7 +2107,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -2262,7 +2177,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -2345,21 +2260,12 @@ for archlutes arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -2372,13 +2278,24 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2399,10 +2316,13 @@ for archlutes arr. Vladimír Váša</text>
                 </next>
               </Spanner>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -2415,27 +2335,6 @@ for archlutes arr. Vladimír Váša</text>
                 </prev>
               </Spanner>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -2447,6 +2346,16 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -2456,6 +2365,13 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -2482,12 +2398,6 @@ for archlutes arr. Vladimír Váša</text>
               <string>6</string>
               </Note>
             <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
                 <font>Bravura</font>
@@ -2511,6 +2421,11 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
@@ -2548,15 +2463,6 @@ for archlutes arr. Vladimír Váša</text>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -2678,15 +2584,6 @@ for archlutes arr. Vladimír Váša</text>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <fret>3</fret>
@@ -2780,12 +2677,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
-            <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -2804,15 +2695,6 @@ for archlutes arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
             <Note>
               <Symbol>
                 <name>ornamentLowLeftConvexStroke</name>
@@ -2835,20 +2717,7 @@ for archlutes arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
-            <dots>1</dots>
             <durationType>quarter</durationType>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
             <Note>
               <Symbol>
                 <name>ornamentTopRightConvexStroke</name>
@@ -2862,6 +2731,15 @@ for archlutes arr. Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -2869,8 +2747,8 @@ for archlutes arr. Vladimír Váša</text>
                 </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>5</fret>
-              <string>3</string>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -2916,7 +2794,7 @@ for archlutes arr. Vladimír Váša</text>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>58</pitch>
-              <tpc>12</tpc>
+              <tpc>24</tpc>
               <fret>1</fret>
               <string>2</string>
               </Note>
@@ -2997,7 +2875,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3108,7 +2986,7 @@ for archlutes arr. Vladimír Váša</text>
             <durationType>quarter</durationType>
             <Note>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3129,12 +3007,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
-            <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
@@ -3218,7 +3090,7 @@ for archlutes arr. Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -3276,12 +3148,6 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3304,15 +3170,9 @@ for archlutes arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
             <Note>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3363,7 +3223,7 @@ for archlutes arr. Vladimír Váša</text>
               </Spanner>
             <Note>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -3404,7 +3264,7 @@ for archlutes arr. Vladimír Váša</text>
               </Spanner>
             <Note>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3556,7 +3416,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3660,7 +3520,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -3680,12 +3540,6 @@ for archlutes arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3770,7 +3624,7 @@ for archlutes arr. Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -3828,12 +3682,6 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
-              </Note>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3857,10 +3705,10 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
               </Note>
             <Note>
               <pitch>55</pitch>
@@ -3892,10 +3740,10 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
               <fret>0</fret>
-              <string>6</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -4217,19 +4065,13 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
             <Note>
               <Symbol>
                 <name>ornamentTopRightConvexStroke</name>
@@ -4284,7 +4126,7 @@ for archlutes arr. Vladimír Váša</text>
                 <offset x="-0.3" y="1"/>
                 </Symbol>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4292,10 +4134,10 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
               <fret>0</fret>
-              <string>5</string>
+              <string>8</string>
               </Note>
             <Note>
               <Symbol>
@@ -4317,7 +4159,7 @@ for archlutes arr. Vladimír Váša</text>
             <durationType>quarter</durationType>
             <Note>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
@@ -4352,7 +4194,7 @@ for archlutes arr. Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4360,12 +4202,6 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
-              </Note>
             <Note>
               <Symbol>
                 <name>ornamentTopRightConvexStroke</name>
@@ -4551,10 +4387,10 @@ for archlutes arr. Vladimír Váša</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>41</pitch>
+              <pitch>29</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
-              <string>6</string>
+              <string>13</string>
               </Note>
             <Note>
               <pitch>60</pitch>
@@ -4604,6 +4440,363 @@ for archlutes arr. Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Symbol>
+                <name>ornamentTopRightConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="2" y="0.8"/>
+                </Symbol>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>6</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>29</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>13</string>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <fret>0</fret>
+              <string>10</string>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <fret>0</fret>
+              <string>10</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>8</string>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-7.44365"/>
+                  </SlurSegment>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -4613,13 +4806,13 @@ for archlutes arr. Vladimír Váša</text>
               </Spanner>
             <Note>
               <pitch>39</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>0</fret>
               <string>7</string>
               </Note>
             <Note>
               <pitch>63</pitch>
-              <tpc>23</tpc>
+              <tpc>11</tpc>
               <fret>1</fret>
               <string>1</string>
               </Note>
@@ -4642,51 +4835,6 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4696,13 +4844,6 @@ for archlutes arr. Vladimír Váša</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4710,45 +4851,6 @@ for archlutes arr. Vladimír Váša</text>
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -4775,340 +4877,43 @@ for archlutes arr. Vladimír Váša</text>
               <string>2</string>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Symbol>
-                <name>ornamentTopRightConvexStroke</name>
-                <font>Bravura</font>
-                <offset x="2" y="0.8"/>
-                </Symbol>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
-              </Note>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
-            <Note>
-              <pitch>39</pitch>
-              <tpc>23</tpc>
-              <fret>0</fret>
-              <string>7</string>
-              </Note>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>6</string>
-              </Note>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Symbol>
-                <name>ornamentTopRightConvexStroke</name>
-                <font>Bravura</font>
-                <offset x="2" y="0.8"/>
-                </Symbol>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure len="3/4">
         <voice>
           <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
-              <pitch>46</pitch>
+              <Symbol>
+                <name>ornamentLowLeftConvexStroke</name>
+                <font>Bravura</font>
+                <offset x="-0.3" y="1"/>
+                </Symbol>
+              <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
-              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
             <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
+              <pitch>46</pitch>
+              <tpc>24</tpc>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             </Chord>
           </voice>

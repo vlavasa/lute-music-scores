@@ -20,7 +20,7 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger">for archlutes arr. Vladimír Váša</metaTag>
+    <metaTag name="arranger">for 10 c. lute and 14 c. archlute arr. Vladimír Váša</metaTag>
     <metaTag name="composer">Ernst Gottlieb Baron 1696-1760</metaTag>
     <metaTag name="copyright">© 2024 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-10-10</metaTag>
@@ -169,7 +169,7 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
       <trackName>Arciloutna</trackName>
       <Instrument id="archlute-14-course">
         <longName>II.
-(11 c.)</longName>
+(10 c.)</longName>
         <shortName>II.</shortName>
         <trackName>Arciloutna</trackName>
         <minPitchP>29</minPitchP>
@@ -246,11 +246,11 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <bottomGap>4.57143</bottomGap>
         <Text>
           <style>Composer</style>
           <text>Ernst Gottlieb Baron 1696-1760
-for archlutes arr. Vladimír Váša</text>
+for 10 c. lute and 14 c. archlute
+arr. Vladimír Váša</text>
           </Text>
         <Text>
           <style>Title</style>
@@ -262,8 +262,8 @@ for archlutes arr. Vladimír Váša</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>Archlute (14 c.) tuning:
-F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
+          <text>14 c. / 10 c. (arch)lute tuning:
+(F'-G'-A'-Bb')-C-D-Eb-F-G-c-f-a-d'-g'</text>
           </Text>
         </VBox>
       <Measure len="1/8">
@@ -4309,10 +4309,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             <Note>
               <pitch>62</pitch>
@@ -4351,10 +4351,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             </Chord>
           <Chord>
@@ -9153,10 +9153,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>34</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <pitch>62</pitch>
@@ -9178,10 +9178,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             <Note>
               <Symbol>

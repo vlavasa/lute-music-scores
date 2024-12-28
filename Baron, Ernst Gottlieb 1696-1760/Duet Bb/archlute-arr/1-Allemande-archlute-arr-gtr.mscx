@@ -27,7 +27,7 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="arranger">for archlutes arr. Vladimír Váša</metaTag>
+    <metaTag name="arranger">for 10 c. lute and 14 c. archlute arr. Vladimír Váša</metaTag>
     <metaTag name="composer">Ernst Gottlieb Baron 1696-1760</metaTag>
     <metaTag name="copyright">© 2024 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-10-10</metaTag>
@@ -154,7 +154,7 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
       <trackName>Arciloutna</trackName>
       <Instrument id="archlute-14-course">
         <longName>II.
-(11 c.)</longName>
+(10 c.)</longName>
         <shortName>II.</shortName>
         <trackName>Arciloutna</trackName>
         <minPitchP>29</minPitchP>
@@ -231,12 +231,6 @@ $:workTitle: - $:movementTitle: - ver. $MT$m</oddFooterC>
     <Staff id="1">
       <VBox>
         <height>10</height>
-        <bottomGap>4.57143</bottomGap>
-        <Text>
-          <style>Composer</style>
-          <text>Ernst Gottlieb Baron 1696-1760
-for archlutes arr. Vladimír Váša</text>
-          </Text>
         <Text>
           <style>Title</style>
           <text>Suite Bb dur</text>
@@ -247,9 +241,15 @@ for archlutes arr. Vladimír Váša</text>
           </Text>
         <Text>
           <style>Lyricist</style>
-          <text>Archlute (14 c.) tuning:
-F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
+          <text>14 c. / 10 c. (arch)lute tuning:
+(F'-G'-A'-Bb')-C-D-Eb-F-G-c-f-a-d'-g'
 <b>Verze pro Luboše</b></text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Ernst Gottlieb Baron 1696-1760
+for 10 c. lute and 14 c. archlute
+arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure len="1/8">
@@ -4248,10 +4248,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>46</pitch>
+              <pitch>34</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             <Note>
               <pitch>62</pitch>
@@ -4290,10 +4290,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             </Chord>
           <Chord>
@@ -9566,25 +9566,10 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <style>Expression</style>
-            <placement>below</placement>
-            <offset x="-1" y="8.5"/>
-            <text>G</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <style>Expression</style>
-            <placement>below</placement>
-            <offset x="1" y="8.5"/>
-            <frameType>2</frameType>
-            <text>11</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>31</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>10</string>
@@ -9605,27 +9590,12 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
               <string>3</string>
               </Note>
             </Chord>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <style>Expression</style>
-            <placement>below</placement>
-            <offset x="0.5" y="8"/>
-            <frameType>2</frameType>
-            <text>10</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <style>Expression</style>
-            <placement>below</placement>
-            <offset x="-1.5" y="8"/>
-            <text>A</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <SlurSegment no="0">
-                  <o4 x="-0.53436" y="-5.78081"/>
+                  <o4 x="-0.0447224" y="-2.10853"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -9650,7 +9620,7 @@ F'-G'-A'-Bb'-C-D-Eb-F-G-c-f-a-d'-g'
                 </prev>
               </Spanner>
             <Note>
-              <pitch>33</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>9</string>
