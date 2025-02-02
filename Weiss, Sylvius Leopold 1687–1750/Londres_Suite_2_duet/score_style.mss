@@ -6,10 +6,10 @@
     <pagePrintableWidth>7.7126</pagePrintableWidth>
     <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
     <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-    <pageEvenTopMargin>0.393701</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
-    <pageOddTopMargin>0.393701</pageOddTopMargin>
-    <pageOddBottomMargin>0.393701</pageOddBottomMargin>
+    <pageEvenTopMargin>0.314961</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.314961</pageEvenBottomMargin>
+    <pageOddTopMargin>0.314961</pageOddTopMargin>
+    <pageOddBottomMargin>0.314961</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>

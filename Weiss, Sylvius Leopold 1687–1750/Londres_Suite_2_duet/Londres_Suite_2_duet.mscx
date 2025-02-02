@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>199209</LastEID>
+  <LastEID>206688</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -30,6 +30,7 @@
         <linkedTo>2</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
+          <small>1</small>
           </StaffType>
         <defaultClef>G8vb</defaultClef>
         </Staff>
@@ -200,6 +201,7 @@
         <linkedTo>6</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
+          <small>1</small>
           </StaffType>
         </Staff>
       <Staff id="6">
@@ -269,7 +271,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>2</height>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>21474836602</eid>
@@ -597,10 +599,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>18695992639569</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>19408957210739</eid>
@@ -1037,10 +1035,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>20547123544145</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>1365799600166</eid>
@@ -1429,10 +1423,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>23609435226193</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1756641624179</eid>
@@ -1814,10 +1804,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>25121263714385</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>2461016260646</eid>
@@ -2468,10 +2454,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>27573690040401</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>3435973836838</eid>
@@ -3063,10 +3045,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>33105607917649</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>4372276707443</eid>
@@ -3669,10 +3647,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>36344013258833</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>5330054414374</eid>
@@ -4180,10 +4154,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>38371237822545</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>6098853560358</eid>
@@ -4706,10 +4676,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>40548786241617</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6910602379379</eid>
@@ -5165,10 +5131,6 @@ for mandora and theorbo arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>43538083479633</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>802098027430003</eid>
@@ -12340,6 +12302,14 @@ for mandora and theorbo arr. Vladimír Váša</text>
               <string>6</string>
               </Note>
             <Note>
+              <eid>865702198116372</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>751619276820</eid>
               <linkedMain/>
               <pitch>69</pitch>
@@ -18213,7 +18183,7 @@ for mandora and theorbo arr. Vladimír Váša</text>
             <Note>
               <eid>413064184725524</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -18229,6 +18199,16 @@ for mandora and theorbo arr. Vladimír Váša</text>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>6</string>
+              </Note>
+            <Note>
+              <eid>865706493083668</eid>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
