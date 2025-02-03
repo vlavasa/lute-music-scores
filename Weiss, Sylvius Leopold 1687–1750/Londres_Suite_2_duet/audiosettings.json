@@ -51,48 +51,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Guitars Vol 1",
-                        "museName": "Acoustic Nylon",
-                        "musePack": "Muse Guitars Vol. 1",
-                        "museUID": "13010",
-                        "museVendorName": "Muse",
-                        "playbackSetupData": "strings.guitar.plucked:acoustic:nylon"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Guitars Vol 1\\Acoustic Nylon\\13010",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "guitar-nylon",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "1",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
                         "playbackSetupData": "last.last.last",
                         "soundFontName": "MS Basic"
                     },
@@ -150,6 +108,44 @@
                 "volumeDb": 0
             },
             "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "archlute-14-course",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
