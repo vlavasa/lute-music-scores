@@ -18,7 +18,7 @@
     <instrumentNameOffset>1</instrumentNameOffset>
     <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
-    <maxSystemDistance>15</maxSystemDistance>
+    <maxSystemDistance>20</maxSystemDistance>
     <alignSystemToMargin>1</alignSystemToMargin>
     <enableVerticalSpread>0</enableVerticalSpread>
     <spreadSystem>2.5</spreadSystem>

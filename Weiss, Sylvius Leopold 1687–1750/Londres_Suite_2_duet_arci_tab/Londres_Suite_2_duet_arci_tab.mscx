@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>229241</LastEID>
+  <LastEID>249961</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -31,6 +31,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="2">
         <linkedTo>1</linkedTo>
@@ -38,6 +39,7 @@
           <name>tab6StrFrench</name>
           <lines>6</lines>
           <lineDistance>1.5</lineDistance>
+          <small>1</small>
           <clef>0</clef>
           <durations>0</durations>
           <durationFontName>MuseScore Tab French</durationFontName>
@@ -56,7 +58,6 @@
           <useNumbers>0</useNumbers>
           <showBackTied>0</showBackTied>
           </StaffType>
-        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <trackName>Arciloutna</trackName>
       <preferSharpFlat>none</preferSharpFlat>
@@ -102,6 +103,7 @@
           <name>stdNormal</name>
           <small>1</small>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="4">
         <linkedTo>3</linkedTo>
@@ -127,7 +129,6 @@
           <useNumbers>0</useNumbers>
           <showBackTied>0</showBackTied>
           </StaffType>
-        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <trackName>Arciloutna</trackName>
       <preferSharpFlat>none</preferSharpFlat>
@@ -169,7 +170,6 @@
     <Staff id="1">
       <VBox>
         <height>7.5</height>
-        <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>21474836602</eid>
@@ -2627,8 +2627,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>939240628158545</eid>
-          <subtype>page</subtype>
+          <eid>1001556308656209</eid>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -4099,8 +4099,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>913187356541009</eid>
-          <subtype>line</subtype>
+          <eid>1002385237344337</eid>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -7073,8 +7073,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>942109666312273</eid>
-          <subtype>line</subtype>
+          <eid>1022103432200273</eid>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -7524,8 +7524,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>946232834916433</eid>
-          <subtype>page</subtype>
+          <eid>1022618828275793</eid>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -9931,6 +9931,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1045051442462801</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>1340029796390</eid>
@@ -10623,6 +10627,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1050690734522449</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>2237677961254</eid>
@@ -11527,6 +11535,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1049904755507281</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3367254360179</eid>
@@ -11932,6 +11944,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1049496733614161</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>4024384356390</eid>
@@ -12440,8 +12456,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>954960208461905</eid>
-          <subtype>page</subtype>
+          <eid>1048577610612817</eid>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -12941,6 +12957,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1047679962447953</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>5708011536422</eid>
@@ -13423,8 +13443,8 @@ for archlutes arr. Vladimír Váša</text>
       <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
-          <eid>948444743073873</eid>
-          <subtype>line</subtype>
+          <eid>1030757791301713</eid>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -13792,10 +13812,6 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>954384682844241</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>7121055776806</eid>
@@ -13965,6 +13981,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1039540999422033</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>7404523618342</eid>
@@ -14822,6 +14842,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1040735000330321</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>8405250998310</eid>
@@ -15344,8 +15368,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>955823496888401</eid>
-          <subtype>page</subtype>
+          <eid>1041147317190737</eid>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
@@ -16133,6 +16157,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1043947635867729</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>10127532884006</eid>
@@ -16893,6 +16921,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1042242533851217</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>11282879086630</eid>
@@ -17623,6 +17655,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1043110117245009</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>12429635354662</eid>
@@ -18299,6 +18335,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1043535319007313</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>13563506720806</eid>
@@ -19241,6 +19281,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1052932707450961</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>712964571251</eid>
@@ -19485,6 +19529,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1053405153853521</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1133871366259</eid>
@@ -19974,6 +20022,10 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>1053920549929041</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1898375544947</eid>
@@ -20229,6 +20281,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1056398746058833</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>2332167241766</eid>
@@ -20679,6 +20735,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1054977111883857</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3002182140019</eid>
@@ -21021,6 +21081,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1055410903580753</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3577707757683</eid>
@@ -21445,6 +21509,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1055986429198417</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>4256312590374</eid>
@@ -22280,6 +22348,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1063030175563857</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>863288426534</eid>
@@ -22936,6 +23008,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1063773204906065</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>1803886264358</eid>
@@ -23548,6 +23624,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1064335845621841</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>2735894167590</eid>
@@ -24013,6 +24093,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1070391749509201</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3526168150131</eid>
@@ -24514,8 +24598,8 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>960165708824657</eid>
-          <subtype>page</subtype>
+          <eid>1065413882413137</eid>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -25015,6 +25099,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1065933573455953</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>5184025526310</eid>
@@ -25559,6 +25647,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1066487624237137</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>6077378723878</eid>
@@ -26103,6 +26195,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1070816951271505</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>6996501725222</eid>
@@ -26591,6 +26687,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1067398157303889</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>7752415969318</eid>
@@ -27031,6 +27131,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1067943618150481</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>8422430867494</eid>
@@ -27123,10 +27227,6 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>960573730717777</eid>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Beam>
             <eid>8555574853670</eid>
@@ -27575,6 +27675,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1068918575726673</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>9212704849958</eid>
@@ -28177,6 +28281,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1071263627870289</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>10110353014822</eid>
@@ -28695,6 +28803,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1069747504414801</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>10922101833766</eid>
