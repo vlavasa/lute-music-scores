@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.7126</pagePrintableWidth>
-    <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-    <pageEvenTopMargin>0.314961</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.314961</pageEvenBottomMargin>
-    <pageOddTopMargin>0.314961</pageOddTopMargin>
-    <pageOddBottomMargin>0.314961</pageOddBottomMargin>
+    <pageWidth>8.27</pageWidth>
+    <pageHeight>11.69</pageHeight>
+    <pagePrintableWidth>7.0889</pagePrintableWidth>
+    <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+    <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+    <pageOddTopMargin>0.590551</pageOddTopMargin>
+    <pageOddBottomMargin>0.590551</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
@@ -1532,6 +1532,6 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>301</defaultsVersion>
-    <Spatium>1.8</Spatium>
+    <Spatium>1.74978</Spatium>
     </Style>
   </museScore>
