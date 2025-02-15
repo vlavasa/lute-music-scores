@@ -81,7 +81,7 @@
             },
             "partId": "1",
             "soloMuteState": {
-                "mute": false,
+                "mute": true,
                 "solo": false
             }
         },
@@ -119,7 +119,7 @@
             },
             "partId": "2",
             "soloMuteState": {
-                "mute": false,
+                "mute": true,
                 "solo": false
             }
         },
@@ -193,27 +193,23 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Flute 1",
-                        "musePack": "Muse Woodwinds",
-                        "museUID": "118",
-                        "museVendorName": "Muse",
-                        "playbackSetupData": "winds.flute.primary"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Flute 1\\118",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "flute",
+            "instrumentId": "alto-recorder",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.4000000059604645
+                        "signalAmount": 0.30000001192092896
                     },
                     {
                         "active": true,
