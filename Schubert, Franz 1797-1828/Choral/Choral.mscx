@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>85728</LastEID>
+  <LastEID>103303</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -28,6 +28,7 @@
     <Part id="1">
       <Staff id="1">
         <StaffType group="pitched">
+          <small>1</small>
           </StaffType>
         <isStaffVisible>0</isStaffVisible>
         <bracket type="0" span="1" col="0" visible="1"/>
@@ -36,9 +37,11 @@
       <trackName>Voice</trackName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="boy-soprano">
-        <longName>Sopran
+        <longName>Original
+Sopran
 Alt</longName>
-        <shortName>S.
+        <shortName>O.
+S.
 A.</shortName>
         <trackName>Voice</trackName>
         <minPitchP>36</minPitchP>
@@ -75,6 +78,7 @@ A.</shortName>
     <Part id="2">
       <Staff id="2">
         <StaffType group="pitched">
+          <small>1</small>
           </StaffType>
         <isStaffVisible>0</isStaffVisible>
         <bracket type="-1" span="1" col="0" visible="1"/>
@@ -83,9 +87,11 @@ A.</shortName>
       <trackName>Voice</trackName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="boy-soprano">
-        <longName>Tenor
+        <longName>Original
+Tenor
 Bass</longName>
-        <shortName>T.
+        <shortName>O.
+T.
 B.</shortName>
         <trackName>Voice</trackName>
         <minPitchP>36</minPitchP>
@@ -148,16 +154,41 @@ F.</shortName>
           </Channel>
         </Instrument>
       </Part>
-    <Part id="3">
+    <Part id="5">
       <Staff id="4">
-        <linkedTo>5</linkedTo>
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <small>1</small>
+          </StaffType>
+        </Staff>
+      <trackName>Zpěv</trackName>
+      <preferSharpFlat>none</preferSharpFlat>
+      <Instrument id="voice">
+        <longName>Original</longName>
+        <shortName>O.</shortName>
+        <trackName>Zpěv</trackName>
+        <minPitchP>24</minPitchP>
+        <maxPitchP>96</maxPitchP>
+        <minPitchA>24</minPitchA>
+        <maxPitchA>84</maxPitchA>
+        <instrumentId>voice.vocals</instrumentId>
+        <Channel>
+          <program value="52"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part id="3">
+      <Staff id="5">
+        <linkedTo>6</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <isStaffVisible>0</isStaffVisible>
         </Staff>
-      <Staff id="5">
-        <linkedTo>4</linkedTo>
+      <Staff id="6">
+        <linkedTo>5</linkedTo>
         <StaffType group="tablature">
           <name>tab6StrFrench</name>
           <lines>6</lines>
@@ -3968,6 +3999,3020 @@ arr. Vladimír Váša</text>
             <concertClefType>G8vb</concertClefType>
             <transposingClefType>G8vb</transposingClefType>
             <isHeader>1</isHeader>
+            <eid>383802572537878</eid>
+            </Clef>
+          <KeySig>
+            <eid>383742442995735</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
+          <TimeSig>
+            <eid>383471860056089</eid>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <eid>133143986291</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>146028888084</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>154618822771</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>167503724564</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>176093659251</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>188978561044</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>193273528435</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>206158430228</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2946347565171</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2959232466964</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2963527434355</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2976412336148</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2980707303539</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2993592205332</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2997887172723</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3010772074516</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>236223201395</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>249108103188</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>257698037875</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>270582939668</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>279172874355</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>292057776148</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>296352743539</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>309237645332</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3015067041907</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3027951943700</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3032246911091</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3045131812884</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3049426780275</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3062311682068</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3066606649459</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3079491551252</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>339302416499</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>352187318292</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>412587443355733</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>360777252979</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>373662154772</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>412583148388437</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3083786518643</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3096671420436</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>412578853421141</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3100966387827</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3113851289620</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>412574558453845</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>399431958643</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>412316860436</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>412750652112981</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>420906795123</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>433791696916</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>412746357145685</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3118146257011</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3131031158804</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>412742062178389</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3135326126195</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3148211027988</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>412737767211093</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>459561500787</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>472446402580</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>481036337267</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>493921239060</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>502511173747</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>515396075540</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>519691042931</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>532575944724</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3152505995379</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3165390897172</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3169685864563</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3182570766356</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3186865733747</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3199750635540</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3204045602931</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3216930504724</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>562640715891</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>575525617684</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>584115552371</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>597000454164</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>605590388851</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>618475290644</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>622770258035</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>635655159828</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3221225472115</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3234110373908</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3238405341299</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3251290243092</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3255585210483</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3268470112276</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3272765079667</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3285649981460</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>665719930995</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>51539607668</eid>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>678604832788</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>413257458253909</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>687194767475</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>55834574964</eid>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>700079669268</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>413253163286613</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3289944948851</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>60129542260</eid>
+                <up>up</up>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>3302829850644</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>413248868319317</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3307124818035</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>64424509556</eid>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>3320009719828</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>413244573352021</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>730144440435</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>743029342228</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>747324309530</eid>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>760209211507</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>773094113300</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3324304687219</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>3337189589012</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3345779523699</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>3358664425492</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>803158884467</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>816043786260</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>824633720947</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>837518622740</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>846108557427</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>858993459220</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>863288426611</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>876173328404</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3367254360179</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3380139261972</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3384434229363</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3397319131156</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3401614098547</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3414499000340</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3418793967731</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3431678869524</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>906238099571</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>919123001364</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>927712936051</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>940597837844</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>949187772531</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>962072674324</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>966367641715</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>979252543508</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3435973836915</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3448858738708</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3453153706099</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3466038607892</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>5287104741392</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3470333575283</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3483218477076</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3487513444467</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3500398346260</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1009317314675</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1022202216468</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>414030552367189</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1030792151155</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1043677052948</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>414026257399893</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3504693313651</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3517578215444</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>414021962432597</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3521873182835</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3534758084628</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>414017667465301</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1069446856819</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1082331758612</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>414193761124437</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1090921693299</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1103806595092</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>414189466157141</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3539053052019</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3551937953812</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>414185171189845</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3556232921203</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3569117822996</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>414180876222549</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1129576398963</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1142461300756</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1151051235443</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1163936137236</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1172526071923</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1185410973716</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1189705941107</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1202590842900</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3573412790387</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3586297692180</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3590592659571</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3603477561364</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3607772528755</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3620657430548</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3624952397939</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3637837299732</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1232655614067</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1245540515860</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1254130450547</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1267015352340</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1275605287027</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1288490188820</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1292785156211</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1305670058004</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3642132267123</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3655017168916</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3659312136307</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3672197038100</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3676492005491</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3689376907284</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3693671874675</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3706556776468</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1335734829171</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1348619730964</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>414687682363477</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>1352914698271</eid>
+                  <color r="46" g="134" b="171" a="255"/>
+                  <TieSegment no="0">
+                    <eid>414889545826314</eid>
+                    <color r="46" g="134" b="171" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1361504632947</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1374389534740</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>414683387396181</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>1378684502047</eid>
+                  <color r="48" g="107" b="52" a="255"/>
+                  <TieSegment no="0">
+                    <eid>414898135760906</eid>
+                    <color r="48" g="107" b="52" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3710851743859</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3723736645652</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>414679092428885</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>3728031612959</eid>
+                  <color r="199" g="62" b="29" a="255"/>
+                  <TieSegment no="0">
+                    <eid>414906725695498</eid>
+                    <color r="199" g="62" b="29" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3732326580339</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3745211482132</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>414674797461589</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>3749506449439</eid>
+                  <color r="141" g="30" b="75" a="255"/>
+                  <TieSegment no="0">
+                    <eid>414915315630090</eid>
+                    <color r="141" g="30" b="75" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1408749273203</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1421634174996</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>1425929142298</eid>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1438814044275</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1451698946068</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3753801416819</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3766686318612</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3775276253299</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3788161155092</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1481763717235</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1494648619028</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1503238553715</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1516123455508</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1524713390195</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1537598291988</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1541893259379</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1554778161172</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3796751089779</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3809635991572</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3813930958963</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3826815860756</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3831110828147</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3843995729940</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3848290697331</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3861175599124</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1593432866931</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1606317768724</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1614907703411</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1627792605204</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1636382539891</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1649267441684</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1653562409075</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1666447310868</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3865470566515</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3878355468308</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3882650435699</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3895535337492</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3899830304883</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3912715206676</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>5789615915024</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3917010174067</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>3929895075860</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1705102016627</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1717986918420</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>415546675822677</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1726576853107</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1739461754900</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>248734441013264</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </Accidental>
+              <NoteDot>
+                <eid>415542380855381</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3934190043251</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>68719476852</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>3947074945044</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>3955664879731</eid>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>3968549781524</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3972844748915</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>3985729650708</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>415538085888085</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1769526526067</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1782411427860</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>415709884579925</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1791001362547</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1803886264340</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>415705589612629</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>3990024618099</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4002909519892</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>415701294645333</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4007204487283</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4020089389076</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>415696999678037</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1833951035507</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1846835937300</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1855425871987</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1868310773780</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1876900708467</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1889785610260</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1894080577651</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>1906965479444</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4024384356467</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4037269258260</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4041564225651</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4054449127444</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4058744094835</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4071628996628</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4075923964019</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4088808865812</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>1945620185203</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>1958505086996</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1967095021683</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>1979979923476</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>1988569858163</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2001454759956</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2005749727347</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2018634629140</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4093103833203</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4105988734996</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4110283702387</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4123168604180</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4127463571571</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4140348473364</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4144643440755</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4157528342548</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2057289334899</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2070174236692</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>416212395753557</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2074469203999</eid>
+                  <color r="46" g="134" b="171" a="255"/>
+                  <TieSegment no="0">
+                    <eid>416401374314506</eid>
+                    <color r="46" g="134" b="171" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2083059138675</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2095944040468</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>416208100786261</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2100239007775</eid>
+                  <color r="48" g="107" b="52" a="255"/>
+                  <TieSegment no="0">
+                    <eid>416409964249098</eid>
+                    <color r="48" g="107" b="52" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4161823309939</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4174708211732</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>416203805818965</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>4179003179039</eid>
+                  <color r="199" g="62" b="29" a="255"/>
+                  <TieSegment no="0">
+                    <eid>416418554183690</eid>
+                    <color r="199" g="62" b="29" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4183298146419</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4196183048212</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>416199510851669</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>4200478015519</eid>
+                  <color r="141" g="30" b="75" a="255"/>
+                  <TieSegment no="0">
+                    <eid>416427144118282</eid>
+                    <color r="141" g="30" b="75" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2134598746227</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2147483648020</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>2151778615322</eid>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2164663517299</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2177548419092</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4204772982899</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4217657884692</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4226247819379</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4239132721172</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2207613190259</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2220498092052</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2229088026739</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2241972928532</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2250562863219</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2263447765012</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>6184752906256</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2267742732403</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2280627634196</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4247722655859</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4260607557652</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4264902525043</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4277787426836</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4282082394227</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4294967296020</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4299262263411</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4312147165204</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2319282339955</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2332167241748</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2340757176435</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2353642078228</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2362232012915</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2375116914708</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>6335076761616</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2379411882099</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2392296783892</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4316442132595</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4329327034388</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4333622001779</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4346506903572</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4350801870963</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4363686772756</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4367981740147</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4380866641940</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2430951489651</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2443836391444</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>417105748951125</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2452426326131</eid>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>73014444148</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2465311227924</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2473901162611</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2486786064404</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4385161609331</eid>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>77309411444</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>4398046511124</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4402341478515</eid>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>4415226380308</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4419521347699</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4432406249492</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>417101453983829</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2516850835571</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2529735737364</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>417277547642965</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2538325672051</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2551210573844</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>417273252675669</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4436701216883</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4449586118676</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>417268957708373</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4453881086067</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4466765987860</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>417264662741077</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2581275345011</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2594160246804</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2602750181491</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2615635083284</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2624225017971</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2637109919764</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2641404887155</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2654289788948</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4471060955251</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4483945857044</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4488240824435</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4501125726228</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4505420693619</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4518305595412</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4522600562803</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4535485464596</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2692944494707</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2705829396500</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2714419331187</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2727304232980</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2735894167667</eid>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2748779069460</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2753074036851</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2765958938644</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4539780431987</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4552665333780</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4556960301171</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4569845202964</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4574140170355</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4587025072148</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>4591320039539</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4604204941332</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2804613644403</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2817498546196</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <NoteDot>
+                <eid>417818713522261</eid>
+                <color r="46" g="134" b="171" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2821793513503</eid>
+                  <color r="46" g="134" b="171" a="255"/>
+                  <TieSegment no="0">
+                    <eid>418003397115914</eid>
+                    <color r="46" g="134" b="171" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2830383448179</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2843268349972</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <NoteDot>
+                <eid>417814418554965</eid>
+                <color r="48" g="107" b="52" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2847563317279</eid>
+                  <color r="48" g="107" b="52" a="255"/>
+                  <TieSegment no="0">
+                    <eid>418011987050506</eid>
+                    <color r="48" g="107" b="52" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4608499908723</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4621384810516</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <NoteDot>
+                <eid>417810123587669</eid>
+                <color r="199" g="62" b="29" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>4625679777823</eid>
+                  <color r="199" g="62" b="29" a="255"/>
+                  <TieSegment no="0">
+                    <eid>418020576985098</eid>
+                    <color r="199" g="62" b="29" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4629974745203</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>4642859646996</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <NoteDot>
+                <eid>417805828620373</eid>
+                <color r="141" g="30" b="75" a="255"/>
+                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>4647154614303</eid>
+                  <color r="141" g="30" b="75" a="255"/>
+                  <TieSegment no="0">
+                    <eid>418029166919690</eid>
+                    <color r="141" g="30" b="75" a="255"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>2877628088435</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2890512990228</eid>
+              <color r="46" g="134" b="171" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>2894807957530</eid>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>2907692859507</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>2920577761300</eid>
+              <color r="48" g="107" b="52" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4651449581683</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4664334483476</eid>
+              <color r="199" g="62" b="29" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>4672924418163</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>4685809319956</eid>
+              <color r="141" g="30" b="75" a="255"/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="5">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>G8vb</concertClefType>
+            <transposingClefType>G8vb</transposingClefType>
+            <isHeader>1</isHeader>
             <eid>7954279432214</eid>
             </Clef>
           <KeySig>
@@ -4994,7 +8039,10 @@ arr. Vladimír Váša</text>
         <voice/>
         <voice>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
+            </location>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Chord>
             <eid>3955664879731</eid>
@@ -5678,7 +8726,7 @@ arr. Vladimír Váša</text>
           </voice>
         </Measure>
       </Staff>
-    <Staff id="5">
+    <Staff id="6">
       <Measure>
         <voice>
           <KeySig>
@@ -6833,7 +9881,10 @@ arr. Vladimír Váša</text>
         <voice/>
         <voice>
           <location>
-            <fractions>1/2</fractions>
+            <fractions>1/4</fractions>
+            </location>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Chord>
             <eid>318068098072691</eid>
@@ -7057,9 +10108,17 @@ arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
+              <eid>340569431736340</eid>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>346423472160788</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -7069,7 +10128,6 @@ arr. Vladimír Váša</text>
             <Note>
               <eid>346286033207316</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -7079,22 +10137,11 @@ arr. Vladimír Váša</text>
             <Note>
               <eid>324201311371284</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <eid>340569431736340</eid>
-              <linked>
-                <indexDiff>-3</indexDiff>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
               </Note>
             </Chord>
           </voice>
