@@ -100,44 +100,6 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "boy-soprano",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "2",
-            "soloMuteState": {
-                "mute": true,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
             "instrumentId": "alto-recorder",
             "out": {
                 "auxSends": [
@@ -158,6 +120,44 @@
             "partId": "6",
             "soloMuteState": {
                 "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "boy-soprano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "2",
+            "soloMuteState": {
+                "mute": true,
                 "solo": false
             }
         },
@@ -204,7 +204,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "ren.-tenor-lute-10-course",
+            "instrumentId": "voice",
             "out": {
                 "auxSends": [
                     {
@@ -221,7 +221,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "3",
+            "partId": "5",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -242,7 +242,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "voice",
+            "instrumentId": "ren.-tenor-lute-10-course",
             "out": {
                 "auxSends": [
                     {
@@ -259,7 +259,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "5",
+            "partId": "3",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
