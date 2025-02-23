@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>129441</LastEID>
+  <LastEID>143376</LastEID>
   <Score>
     <eid>546173811163140</eid>
     <name>Std Notation</name>
@@ -39,6 +39,10 @@
       <tieMidWidth>0.21</tieMidWidth>
       <musicalSymbolFont>Leland</musicalSymbolFont>
       <musicalTextFont>Leland Text</musicalTextFont>
+      <evenFooterC>$C
+$:composer: ~ $:workTitle: ~ ver. $MT$m</evenFooterC>
+      <oddFooterC>$C
+$:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
       <voltaPosAbove x="0" y="-2"/>
       <voltaLineWidth>0.11</voltaLineWidth>
       <ottavaLineWidth>0.11</ottavaLineWidth>
@@ -63,9 +67,9 @@
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="alto-recorder">
         <longName>Alt
-Recorder</longName>
+Blockflöte</longName>
         <shortName>A.
-R.</shortName>
+Bf.</shortName>
         <trackName>Altová zobcová flétna</trackName>
         <minPitchP>64</minPitchP>
         <maxPitchP>96</maxPitchP>
@@ -151,7 +155,8 @@ R.</shortName>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>11</height>
+        <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>546178106130554</eid>
         <Text>
@@ -162,7 +167,8 @@ R.</shortName>
         <Text>
           <eid>546186696065029</eid>
           <style>subtitle</style>
-          <text>Deutsche Messe, D.872 - 5. Zum Sanctus</text>
+          <text>Deutsche Messe, D.872 - 5. Zum Sanctus
+arr. für Maya ♡</text>
           </Text>
         <Text>
           <eid>546190991032325</eid>

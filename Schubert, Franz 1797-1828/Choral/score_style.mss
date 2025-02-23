@@ -447,10 +447,12 @@
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL>$p</evenFooterL>
-    <evenFooterC>$:copyright:</evenFooterC>
+    <evenFooterC>$C
+$:composer: ~ $:workTitle: ~ ver. $MT$m</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$:copyright:</oddFooterC>
+    <oddFooterC>$C
+$:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <oddFooterR>$p</oddFooterR>
     <voltaPosAbove x="0" y="-2"/>
     <voltaHook>1.9</voltaHook>
