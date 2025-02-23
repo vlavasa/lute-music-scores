@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>103303</LastEID>
+  <LastEID>129441</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -125,7 +125,7 @@ B.</shortName>
           </Channel>
         </Instrument>
       </Part>
-    <Part id="4">
+    <Part id="6">
       <Staff id="3">
         <StaffType group="pitched">
           <name>stdNormal</name>
@@ -135,16 +135,16 @@ B.</shortName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="alto-recorder">
         <longName>Alt
-Flöte</longName>
+Recorder</longName>
         <shortName>A.
-F.</shortName>
+R.</shortName>
         <trackName>Altová zobcová flétna</trackName>
-        <minPitchP>53</minPitchP>
-        <maxPitchP>84</maxPitchP>
-        <minPitchA>53</minPitchA>
-        <maxPitchA>76</maxPitchA>
-        <transposeDiatonic>-4</transposeDiatonic>
-        <transposeChromatic>-7</transposeChromatic>
+        <minPitchP>64</minPitchP>
+        <maxPitchP>96</maxPitchP>
+        <minPitchA>65</minPitchA>
+        <maxPitchA>88</maxPitchA>
+        <transposeDiatonic>3</transposeDiatonic>
+        <transposeChromatic>5</transposeChromatic>
         <instrumentId>wind.flutes.recorder.alto</instrumentId>
         <Channel>
           <program value="74"/>
@@ -268,7 +268,7 @@ F.</shortName>
           <eid>94489280517</eid>
           <style>composer</style>
           <text>Franz Schubert 1797-1828
-arr. Vladimír Váša</text>
+lute arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -3242,37 +3242,37 @@ arr. Vladimír Váša</text>
     <Staff id="3">
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G8vb</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <isHeader>1</isHeader>
-            <eid>208546432024598</eid>
-            </Clef>
           <KeySig>
-            <eid>17317308137495</eid>
+            <eid>526034709512215</eid>
+            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
-            <eid>17046725197849</eid>
+            <eid>525764126572569</eid>
+            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Chord>
             <eid>133143986291</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>146028888084</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>154618822771</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>167503724564</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3283,20 +3283,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>236223201395</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>249108103188</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>257698037875</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>270582939668</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3307,11 +3311,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>339302416499</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>352187318292</eid>
-              <pitch>60</pitch>
+              <linkedMain/>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3322,11 +3328,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>399431958643</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>412316860436</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3334,6 +3342,7 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>38955353374749</eid>
+            <linkedMain/>
             </Breath>
           </voice>
         </Measure>
@@ -3341,20 +3350,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>459561500787</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>472446402580</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>481036337267</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>493921239060</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
@@ -3365,20 +3378,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>562640715891</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>575525617684</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>584115552371</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>597000454164</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3389,11 +3406,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>665719930995</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>51539607668</eid>
+                <linkedMain/>
                 </Slur>
               <next>
                 <location>
@@ -3403,7 +3422,8 @@ arr. Vladimír Váša</text>
               </Spanner>
             <Note>
               <eid>678604832788</eid>
-              <pitch>60</pitch>
+              <linkedMain/>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3414,6 +3434,7 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>730144440435</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3424,7 +3445,8 @@ arr. Vladimír Váša</text>
               </Spanner>
             <Note>
               <eid>743029342228</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
@@ -3432,9 +3454,11 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39058432589853</eid>
+            <linkedMain/>
             </Breath>
           <Rest>
             <eid>747324309530</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -3443,20 +3467,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>803158884467</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>816043786260</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>824633720947</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>837518622740</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3467,20 +3495,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>906238099571</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>919123001364</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>927712936051</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>940597837844</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3491,11 +3523,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1009317314675</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>1022202216468</eid>
-              <pitch>60</pitch>
+              <linkedMain/>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3506,11 +3540,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1069446856819</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>1082331758612</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3518,6 +3554,7 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39101382262813</eid>
+            <linkedMain/>
             </Breath>
           </voice>
         </Measure>
@@ -3525,20 +3562,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1129576398963</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>1142461300756</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>1151051235443</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1163936137236</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
@@ -3549,20 +3590,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1232655614067</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>1245540515860</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>1254130450547</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1267015352340</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3573,13 +3618,16 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1335734829171</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>1348619730964</eid>
+              <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
                   <eid>1352914698271</eid>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3587,7 +3635,7 @@ arr. Vladimír Váša</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3598,9 +3646,11 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1408749273203</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1421634174996</eid>
+              <linkedMain/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -3608,7 +3658,7 @@ arr. Vladimír Váša</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3616,9 +3666,11 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39109972197405</eid>
+            <linkedMain/>
             </Breath>
           <Rest>
             <eid>1425929142298</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -3627,20 +3679,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1481763717235</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>1494648619028</eid>
-              <pitch>67</pitch>
+              <linkedMain/>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>1503238553715</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1516123455508</eid>
-              <pitch>67</pitch>
+              <linkedMain/>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
               </Note>
@@ -3651,20 +3707,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1593432866931</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>1606317768724</eid>
-              <pitch>67</pitch>
+              <linkedMain/>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>1614907703411</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1627792605204</eid>
-              <pitch>67</pitch>
+              <linkedMain/>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
               </Note>
@@ -3675,11 +3735,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1705102016627</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>1717986918420</eid>
-              <pitch>65</pitch>
+              <linkedMain/>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               <tpc2>14</tpc2>
               </Note>
@@ -3690,11 +3752,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1769526526067</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>1782411427860</eid>
-              <pitch>65</pitch>
+              <linkedMain/>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               <tpc2>14</tpc2>
               </Note>
@@ -3702,6 +3766,7 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39195871543325</eid>
+            <linkedMain/>
             </Breath>
           </voice>
         </Measure>
@@ -3709,20 +3774,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1833951035507</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>1846835937300</eid>
-              <pitch>67</pitch>
+              <linkedMain/>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>1855425871987</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1868310773780</eid>
-              <pitch>67</pitch>
+              <linkedMain/>
+              <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>16</tpc2>
               </Note>
@@ -3733,20 +3802,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>1945620185203</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>1958505086996</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>1967095021683</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>1979979923476</eid>
-              <pitch>60</pitch>
+              <linkedMain/>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3757,13 +3830,16 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2057289334899</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>2070174236692</eid>
+              <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
                   <eid>2074469203999</eid>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3771,7 +3847,7 @@ arr. Vladimír Váša</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
@@ -3782,9 +3858,11 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2134598746227</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>2147483648020</eid>
+              <linkedMain/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -3792,7 +3870,7 @@ arr. Vladimír Váša</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>62</pitch>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
@@ -3800,9 +3878,11 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39204461477917</eid>
+            <linkedMain/>
             </Breath>
           <Rest>
             <eid>2151778615322</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -3811,20 +3891,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2207613190259</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>2220498092052</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>2229088026739</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>2241972928532</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3835,20 +3919,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2319282339955</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>2332167241748</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>2340757176435</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>2353642078228</eid>
-              <pitch>60</pitch>
+              <linkedMain/>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3859,11 +3947,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2430951489651</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>2443836391444</eid>
-              <pitch>60</pitch>
+              <linkedMain/>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3874,11 +3964,13 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2516850835571</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>2529735737364</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3886,6 +3978,7 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39273180954653</eid>
+            <linkedMain/>
             </Breath>
           </voice>
         </Measure>
@@ -3893,20 +3986,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2581275345011</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>2594160246804</eid>
-              <pitch>65</pitch>
+              <linkedMain/>
+              <pitch>77</pitch>
               <tpc>13</tpc>
               <tpc2>14</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>2602750181491</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>2615635083284</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
@@ -3917,20 +4014,24 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2692944494707</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             <Note>
               <eid>2705829396500</eid>
-              <pitch>62</pitch>
+              <linkedMain/>
+              <pitch>74</pitch>
               <tpc>16</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Chord>
             <eid>2714419331187</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>2727304232980</eid>
-              <pitch>64</pitch>
+              <linkedMain/>
+              <pitch>76</pitch>
               <tpc>18</tpc>
               <tpc2>19</tpc2>
               </Note>
@@ -3941,13 +4042,16 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2804613644403</eid>
+            <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>2817498546196</eid>
+              <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
                   <eid>2821793513503</eid>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -3955,7 +4059,7 @@ arr. Vladimír Váša</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3966,9 +4070,11 @@ arr. Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>2877628088435</eid>
+            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>2890512990228</eid>
+              <linkedMain/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -3976,7 +4082,7 @@ arr. Vladimír Váša</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>60</pitch>
+              <pitch>72</pitch>
               <tpc>14</tpc>
               <tpc2>15</tpc2>
               </Note>
@@ -3984,9 +4090,11 @@ arr. Vladimír Váša</text>
           <Breath>
             <symbol>breathMarkComma</symbol>
             <eid>39281770889245</eid>
+            <linkedMain/>
             </Breath>
           <Rest>
             <eid>2894807957530</eid>
+            <linkedMain/>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -7014,6 +7122,7 @@ arr. Vladimír Váša</text>
             <transposingClefType>G8vb</transposingClefType>
             <isHeader>1</isHeader>
             <eid>7954279432214</eid>
+            <linkedMain/>
             </Clef>
           <KeySig>
             <eid>7911329759255</eid>
@@ -7022,6 +7131,7 @@ arr. Vladimír Váša</text>
             </KeySig>
           <TimeSig>
             <eid>7640746819609</eid>
+            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -8732,22 +8842,26 @@ arr. Vladimír Váša</text>
           <KeySig>
             <eid>39685497815063</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
             <eid>39406324940825</eid>
+            <linkedMain/>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Chord>
             <eid>322990130593907</eid>
             <linked>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>half</durationType>
             <Note>
               <eid>344464967073812</eid>
               <linked>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -8757,6 +8871,7 @@ arr. Vladimír Váša</text>
             <Note>
               <eid>344267398578196</eid>
               <linked>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -8766,6 +8881,7 @@ arr. Vladimír Váša</text>
             <Note>
               <eid>344112779755540</eid>
               <linked>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -8775,6 +8891,7 @@ arr. Vladimír Váša</text>
             <Note>
               <eid>323003015495700</eid>
               <linked>
+                <indexDiff>3</indexDiff>
                 </linked>
               <pitch>64</pitch>
               <tpc>18</tpc>
