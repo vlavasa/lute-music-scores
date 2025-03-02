@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>3939611</LastEID>
+  <LastEID>4024621</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -31,6 +31,7 @@
           <name>stdNormal</name>
           <small>1</small>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         <bracket type="0" span="3" col="0" visible="1"/>
         </Staff>
       <Staff id="2">
@@ -38,6 +39,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="3">
         <linkedTo>2</linkedTo>
@@ -50,7 +52,7 @@
           <durationFontName>MuseScore Tab French</durationFontName>
           <durationFontSize>15</durationFontSize>
           <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Bonneuil-Gaultier</fretFontName>
+          <fretFontName>MuseScore Bonneuil-de Visée</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
           <linesThrough>1</linesThrough>
@@ -107,6 +109,7 @@
           <name>stdNormal</name>
           <small>1</small>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         <bracket type="0" span="3" col="0" visible="1"/>
         </Staff>
       <Staff id="5">
@@ -114,6 +117,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="6">
         <linkedTo>5</linkedTo>
@@ -126,12 +130,12 @@
           <durationFontName>MuseScore Tab French</durationFontName>
           <durationFontSize>15</durationFontSize>
           <durationFontY>0</durationFontY>
-          <fretFontName>MuseScore Bonneuil-Gaultier</fretFontName>
+          <fretFontName>MuseScore Bonneuil-de Visée</fretFontName>
           <fretFontSize>10</fretFontSize>
           <fretFontY>0</fretFontY>
           <linesThrough>1</linesThrough>
           <minimStyle>0</minimStyle>
-          <onLines>0</onLines>
+          <onLines>1</onLines>
           <showRests>1</showRests>
           <stemsDown>0</stemsDown>
           <stemsThrough>0</stemsThrough>
@@ -180,7 +184,6 @@
     <Staff id="1">
       <VBox>
         <height>7.5</height>
-        <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>21474836602</eid>
@@ -199,6 +202,11 @@
           <style>composer</style>
           <text>Sylvius Leopold Weiss 1687-1750
 for archlutes arr. Vladimír Váša</text>
+          </Text>
+        <Text>
+          <eid>17276518833061893</eid>
+          <style>instrument_excerpt</style>
+          <text>C dur</text>
           </Text>
         </VBox>
       <Measure>
@@ -224,7 +232,7 @@ for archlutes arr. Vladimír Váša</text>
             <eid>73014444079</eid>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 55</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 55</b></text>
             </Tempo>
           <Rest>
             <eid>77309411354</eid>
@@ -4395,7 +4403,7 @@ for archlutes arr. Vladimír Váša</text>
             <eid>65270617997359</eid>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 65
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 65
 
 </b></text>
             </Tempo>
@@ -4662,6 +4670,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17216578269478993</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>648540061811</eid>
@@ -4951,6 +4963,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17217712140845137</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1309965025395</eid>
@@ -5209,6 +5225,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17214628354326609</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -6102,6 +6122,7 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <eid>3753801416819</eid>
@@ -6218,6 +6239,7 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <eid>3955664879731</eid>
@@ -6306,6 +6328,7 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Beam>
             <eid>4123168604198</eid>
@@ -6389,6 +6412,7 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Beam>
             <eid>4316442132518</eid>
@@ -6483,6 +6507,7 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <eid>4535485464691</eid>
@@ -6918,7 +6943,7 @@ for archlutes arr. Vladimír Váša</text>
             <visible>0</visible>
             <bold>0</bold>
             <offset x="-0.65222" y="-2.98857"/>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 65</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 65</b></text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -10189,6 +10214,10 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>17252316692349009</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6506875453555</eid>
@@ -14236,7 +14265,7 @@ for archlutes arr. Vladimír Váša</text>
             <visible>0</visible>
             <bold>0</bold>
             <offset x="0" y="-3.17544"/>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 55</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 55</b></text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -14492,6 +14521,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17257298854412369</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>648540061811</eid>
@@ -14655,6 +14688,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17258630294274129</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1030792151155</eid>
@@ -15042,6 +15079,10 @@ for archlutes arr. Vladimír Váša</text>
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>17260094878122065</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1898375544947</eid>
@@ -15230,6 +15271,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17261464972689489</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>2332167241766</eid>
@@ -15459,6 +15504,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17262624613859409</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>2869038153843</eid>
@@ -15711,6 +15760,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17263758485225553</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3444563771507</eid>
@@ -16008,6 +16061,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17265111399923793</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>4123168604198</eid>
@@ -19968,6 +20025,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17269668360224849</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>7859790151706</eid>
