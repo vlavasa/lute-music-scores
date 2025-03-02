@@ -446,14 +446,14 @@
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
-    <evenFooterL></evenFooterL>
+    <evenFooterL>Bb dur</evenFooterL>
     <evenFooterC>$C
 $:composer: ~ $:workTitle: ~ ver. $MT$m</evenFooterC>
     <evenFooterR>$p</evenFooterR>
     <oddFooterL>$p</oddFooterL>
     <oddFooterC>$C
 $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
-    <oddFooterR></oddFooterR>
+    <oddFooterR>Bb dur</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>1.9</voltaHook>
     <voltaLineWidth>0.11</voltaLineWidth>

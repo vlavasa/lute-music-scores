@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>4015520</LastEID>
+  <LastEID>4091184</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -31,6 +31,7 @@
           <name>stdNormal</name>
           <small>1</small>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         <bracket type="0" span="3" col="0" visible="1"/>
         </Staff>
       <Staff id="2">
@@ -38,6 +39,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="3">
         <linkedTo>2</linkedTo>
@@ -107,6 +109,7 @@
           <name>stdNormal</name>
           <small>1</small>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         <bracket type="0" span="3" col="0" visible="1"/>
         </Staff>
       <Staff id="5">
@@ -114,6 +117,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="6">
         <linkedTo>5</linkedTo>
@@ -180,7 +184,6 @@
     <Staff id="1">
       <VBox>
         <height>7.5</height>
-        <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>21474836602</eid>
@@ -199,6 +202,11 @@
           <style>composer</style>
           <text>Sylvius Leopold Weiss 1687-1750
 for archlutes arr. Vladimír Váša</text>
+          </Text>
+        <Text>
+          <eid>17540169695494149</eid>
+          <style>instrument_excerpt</style>
+          <text>Bb dur</text>
           </Text>
         </VBox>
       <Measure>
@@ -224,7 +232,7 @@ for archlutes arr. Vladimír Váša</text>
             <eid>73014444079</eid>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 55</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 55</b></text>
             </Tempo>
           <Rest>
             <eid>77309411354</eid>
@@ -4402,7 +4410,7 @@ for archlutes arr. Vladimír Váša</text>
             <eid>65270617997359</eid>
             <visible>0</visible>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 65
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 65
 
 </b></text>
             </Tempo>
@@ -4689,6 +4697,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17531661365280849</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>648540061811</eid>
@@ -4978,6 +4990,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17532868251091025</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1309965025395</eid>
@@ -5236,6 +5252,10 @@ for archlutes arr. Vladimír Váša</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17530342810320977</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="Volta">
             <prev>
@@ -6945,7 +6965,7 @@ for archlutes arr. Vladimír Váša</text>
             <visible>0</visible>
             <bold>0</bold>
             <offset x="-0.65222" y="-2.98857"/>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 65</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 65</b></text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -14263,7 +14283,7 @@ for archlutes arr. Vladimír Váša</text>
             <visible>0</visible>
             <bold>0</bold>
             <offset x="0" y="-3.17544"/>
-            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"></font> = 55</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><b><font face="FreeSerif"/> = 55</b></text>
             </Tempo>
           <Spanner type="Volta">
             <prev>
@@ -56298,24 +56318,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>4</string>
               </Note>
             <Note>
-              <eid>543455096864788</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
               <eid>17028269723353108</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>543455096864788</eid>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <BarLine>
@@ -122958,9 +122976,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>9</string>
               </Note>
             <Note>
+              <eid>16946295977541652</eid>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
               <eid>612513876017172</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -122970,22 +122996,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>612518170984468</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>16946295977541652</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
               </Note>
             </Chord>
           <Chord>
@@ -123003,9 +123018,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>9</string>
               </Note>
             <Note>
+              <eid>16948692569292820</eid>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
               <eid>864319218647060</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -123015,22 +123038,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>612543940788244</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>2</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>16948692569292820</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>5</string>
               </Note>
             </Chord>
           </voice>
@@ -123300,24 +123312,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
-              <eid>612913307975700</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>16952682593910804</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>612913307975700</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -125487,24 +125497,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
-              <eid>615821000835092</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>16987746706915348</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>615821000835092</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -125535,24 +125543,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
-              <eid>615851065606164</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>16994051718905876</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>615851065606164</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -125583,9 +125589,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
+              <eid>16995318734258196</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>615881130377236</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -125595,16 +125609,6 @@ for archlutes arr. Vladimír Váša</text>
               <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>16995318734258196</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -125635,9 +125639,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
+              <eid>16999158435020820</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>615915490115604</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -125647,16 +125659,6 @@ for archlutes arr. Vladimír Váša</text>
               <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>16999158435020820</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -125687,9 +125689,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
+              <eid>17000412565471252</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>615949849853972</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -125699,16 +125709,6 @@ for archlutes arr. Vladimír Váša</text>
               <tpc>8</tpc>
               <fret>1</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>17000412565471252</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -125739,24 +125739,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>4</string>
               </Note>
             <Note>
-              <eid>615984209592340</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
               <eid>17005738324918292</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>615984209592340</eid>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -125787,24 +125785,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>4</string>
               </Note>
             <Note>
-              <eid>616014274363412</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
               <eid>17011549415669780</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>54</pitch>
               <tpc>20</tpc>
               <fret>1</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>616014274363412</eid>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -125983,24 +125979,22 @@ for archlutes arr. Vladimír Váša</text>
               </linked>
             <durationType>16th</durationType>
             <Note>
-              <eid>616156008284180</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>17018266744520724</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>29</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>13</string>
+              </Note>
+            <Note>
+              <eid>616156008284180</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -126712,9 +126706,17 @@ for archlutes arr. Vladimír Váša</text>
               </linked>
             <durationType>half</durationType>
             <Note>
+              <eid>17081767835992084</eid>
+              <linked>
+                </linked>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <fret>0</fret>
+              <string>8</string>
+              </Note>
+            <Note>
               <eid>617075131285524</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -126724,22 +126726,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>617079426252820</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>17081767835992084</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <fret>0</fret>
-              <string>8</string>
               </Note>
             </Chord>
           <Chord>
@@ -126776,24 +126767,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>6</string>
               </Note>
             <Note>
-              <eid>617126670893076</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>17091607606067220</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>617126670893076</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>17097109459173396</eid>
@@ -126820,24 +126809,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>8</string>
               </Note>
             <Note>
-              <eid>617152440696852</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>17098337819820052</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>617152440696852</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>17111531959353364</eid>
@@ -126864,24 +126851,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
-              <eid>617178210500628</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>17112786089803796</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>617178210500628</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>17116514121416724</eid>
@@ -126908,24 +126893,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
-              <eid>617203980304404</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>17117781136769044</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>2</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>617203980304404</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>17119009497415700</eid>
@@ -126948,9 +126931,17 @@ for archlutes arr. Vladimír Váša</text>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <eid>17120405361786900</eid>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>617225455140884</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -126960,22 +126951,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>617234045075476</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>2</string>
-              </Note>
-            <Note>
-              <eid>17120405361786900</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -127115,19 +127095,8 @@ for archlutes arr. Vladimír Váša</text>
               </linked>
             <durationType>quarter</durationType>
             <Note>
-              <eid>617410138734612</eid>
-              <linked>
-                <indexDiff>2</indexDiff>
-                </linked>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            <Note>
               <eid>17124945142218772</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -127137,12 +127106,20 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>17127341733969940</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>617410138734612</eid>
+              <linked>
+                </linked>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -127657,9 +127634,17 @@ for archlutes arr. Vladimír Váša</text>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <eid>17158682110328852</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>5</string>
+              </Note>
+            <Note>
               <eid>618075858665492</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -127669,22 +127654,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>618084448600084</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>3</string>
-              </Note>
-            <Note>
-              <eid>17158682110328852</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>5</string>
               </Note>
             </Chord>
           <Chord>
@@ -127805,9 +127779,17 @@ for archlutes arr. Vladimír Váša</text>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
+              <eid>17167710131585044</eid>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>618247657357332</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -127817,22 +127799,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>618256247291924</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>2</string>
-              </Note>
-            <Note>
-              <eid>17167710131585044</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -128212,24 +128183,22 @@ for archlutes arr. Vladimír Váša</text>
               </linked>
             <durationType>half</durationType>
             <Note>
-              <eid>618707218858004</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>4</string>
-              </Note>
-            <Note>
               <eid>618711513825300</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>41</pitch>
               <tpc>13</tpc>
               <fret>0</fret>
               <string>6</string>
+              </Note>
+            <Note>
+              <eid>618707218858004</eid>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>0</fret>
+              <string>4</string>
               </Note>
             <Note>
               <eid>17183214963523604</eid>
@@ -128393,24 +128362,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>7</string>
               </Note>
             <Note>
-              <eid>618896197419028</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
-              </Note>
-            <Note>
               <eid>17195017533653012</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>43</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>5</string>
+              </Note>
+            <Note>
+              <eid>618896197419028</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -128428,24 +128395,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>7</string>
               </Note>
             <Note>
-              <eid>618921967222804</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              <fret>3</fret>
-              <string>4</string>
-              </Note>
-            <Note>
               <eid>17196207239594004</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <fret>2</fret>
               <string>5</string>
+              </Note>
+            <Note>
+              <eid>618921967222804</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <fret>3</fret>
+              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -129342,24 +129307,22 @@ for archlutes arr. Vladimír Váša</text>
               <string>13</string>
               </Note>
             <Note>
-              <eid>620030068785172</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>17221719345332244</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>0</fret>
               <string>4</string>
+              </Note>
+            <Note>
+              <eid>620030068785172</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Rest>
@@ -129888,9 +129851,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>5</string>
               </Note>
             <Note>
+              <eid>17232104576253972</eid>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>620661428977684</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -129900,22 +129871,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>620665723944980</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
-              </Note>
-            <Note>
-              <eid>17232104576253972</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
               </Note>
             </Chord>
           <Rest>
@@ -130154,9 +130114,17 @@ for archlutes arr. Vladimír Váša</text>
               <string>10</string>
               </Note>
             <Note>
+              <eid>17237812587790356</eid>
+              <linked>
+                </linked>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <fret>2</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>620923421982740</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -130166,22 +130134,11 @@ for archlutes arr. Vladimír Váša</text>
             <Note>
               <eid>620932011917332</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>2</string>
-              </Note>
-            <Note>
-              <eid>17237812587790356</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              <fret>2</fret>
-              <string>4</string>
               </Note>
             </Chord>
           <Rest>
