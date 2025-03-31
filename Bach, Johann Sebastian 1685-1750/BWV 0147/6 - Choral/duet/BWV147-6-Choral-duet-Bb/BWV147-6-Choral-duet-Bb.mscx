@@ -176,7 +176,7 @@ liuto</longName>
           <eid>e1QfFSHYWFP_oPbauojTLKI</eid>
           <style>title</style>
           <text>6.&amp;10. Choral.
-<font size="14"/>duo Hautb. con Violino 1 in unisono</text>
+<font size="14"></font>duo Hautb. con Violino 1 in unisono</text>
           </Text>
         <Text>
           <eid>0U4mM1HgfCH_6Cr6cH3gn+O</eid>
@@ -25191,6 +25191,11 @@ tuning: F'-G'-(A')-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
                 <eid>YCCCk8V3fjM_l2ikSOryVcG</eid>
                 <linked>
                   </linked>
+                <SlurSegment no="0">
+                  <o1 x="0.208482" y="-0.573893"/>
+                  <o4 x="-9.27311e-15" y="-0.6925"/>
+                  <eid>1slmErGcOPG_Epp2BKUUdjO</eid>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -33252,7 +33257,9 @@ tuning: F'-G'-(A')-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
+            <offset x="0" y="-0.2"/>
             <eid>YRMvOH1IZ5L_rM2E8Ya83sK</eid>
+            <autoplace>0</autoplace>
             <linked>
               </linked>
             </Fermata>
@@ -48312,7 +48319,7 @@ tuning: F'-G'-(A')-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
                   </linked>
                 <SlurSegment no="0">
                   <o1 x="0.0619123" y="-0.398605"/>
-                  <o4 x="0.742947" y="-0.630588"/>
+                  <o4 x="-0.037123" y="-0.612404"/>
                   <eid>Yy4fbTafWEB_HqJNwNpqcJI</eid>
                   </SlurSegment>
                 </Slur>
@@ -50085,8 +50092,10 @@ tuning: F'-G'-(A')-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
             <Ornament>
               <subtype>ornamentTrill</subtype>
               <eid>xZjklFgRScH_GhUKhGzlLyB</eid>
+              <autoplace>0</autoplace>
               <linked>
                 </linked>
+              <offset x="0.5" y="0"/>
               </Ornament>
             <Note>
               <eid>3Ic1D6aY64F_OvWG/XQ0jd</eid>
@@ -52393,7 +52402,9 @@ tuning: F'-G'-(A')-Bb'-C-D-Eb-F-G-c-f-a-d'-g'</text>
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
+            <offset x="0" y="-0.2"/>
             <eid>4+OlA3le1MI_P72D2N+hC6J</eid>
+            <autoplace>0</autoplace>
             <linked>
               </linked>
             </Fermata>
