@@ -7,11 +7,11 @@
     <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
     <pageOddLeftMargin>0.393701</pageOddLeftMargin>
     <pageEvenTopMargin>0.393701</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
-    <pageOddTopMargin>0.393701</pageOddTopMargin>
-    <pageOddBottomMargin>0.393701</pageOddBottomMargin>
+    <pageEvenBottomMargin>0.472441</pageEvenBottomMargin>
+    <pageOddTopMargin>0.472441</pageOddTopMargin>
+    <pageOddBottomMargin>0.472441</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
-    <staffUpperBorder>7</staffUpperBorder>
+    <staffUpperBorder>4</staffUpperBorder>
     <staffLowerBorder>4</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
@@ -483,10 +483,10 @@
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL>$P</evenFooterL>
-    <evenFooterC>BWV 147 - Choral - Bb dur - ver. $MT$m</evenFooterC>
+    <evenFooterC>BWV 147 - Choral - lute duet - ver. $MT$m</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>BWV 147 - Choral - Bb dur - ver. $MT$m
+    <oddFooterC>BWV 147 - Choral - lute duet - ver. $MT$m
 $C</oddFooterC>
     <oddFooterR>$P</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
