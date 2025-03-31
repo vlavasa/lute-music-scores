@@ -428,7 +428,7 @@
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
     <hideEmptyStaves>0</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
-    <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+    <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
     <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
     <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
