@@ -14,7 +14,7 @@
     <staffUpperBorder>4</staffUpperBorder>
     <staffLowerBorder>4</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
-    <staffDistance>6.5</staffDistance>
+    <staffDistance>10</staffDistance>
     <instrumentNameOffset>1</instrumentNameOffset>
     <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
