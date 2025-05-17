@@ -31,7 +31,6 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <isStaffVisible>0</isStaffVisible>
         </Staff>
       <Staff id="2">
         <linkedTo>1</linkedTo>
@@ -1665,8 +1664,8 @@
               <linkedMain/>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -5508,9 +5507,9 @@
             <Note>
               <eid>WVRNE4FVcSP_eTRsJKGUdWK</eid>
               <linkedMain/>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
@@ -5789,8 +5788,8 @@
               <linkedMain/>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -10542,9 +10541,10 @@
           </LayoutBreak>
         <voice>
           <Fermata>
-            <subtype>fermataAbove</subtype>
+            <subtype>fermataBelow</subtype>
             <eid>ClwV3Lw5gzN_HiCobQAoXEJ</eid>
             <linkedMain/>
+            <placement>below</placement>
             </Fermata>
           <Chord>
             <eid>vMCM0RHqxHO_tYWLWtom/XP</eid>
@@ -38746,8 +38746,8 @@ da Capo</text>
                 </linked>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -43071,9 +43071,9 @@ da Capo</text>
               <eid>MIwaRy1OupF_UKqtyRFCQZB</eid>
               <linked>
                 </linked>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
               <string>0</string>
               </Note>
             </Chord>
@@ -43389,8 +43389,8 @@ da Capo</text>
                 </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>0</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
