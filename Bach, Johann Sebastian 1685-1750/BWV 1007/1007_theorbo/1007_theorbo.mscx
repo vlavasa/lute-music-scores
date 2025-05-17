@@ -29,61 +29,38 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Violoncello</trackName>
-      <Instrument id="violoncello">
-        <longName>Violoncello</longName>
-        <shortName>Vc.</shortName>
-        <trackName>Violoncello</trackName>
-        <minPitchP>36</minPitchP>
-        <maxPitchP>90</maxPitchP>
-        <minPitchA>36</minPitchA>
-        <maxPitchA>67</maxPitchA>
-        <instrumentId>strings.cello</instrumentId>
-        <clef>F</clef>
-        <Articulation>
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="staccatissimo">
-          <velocity>100</velocity>
-          <gateTime>33</gateTime>
-          </Articulation>
-        <Articulation name="staccato">
-          <velocity>100</velocity>
-          <gateTime>50</gateTime>
-          </Articulation>
-        <Articulation name="portato">
-          <velocity>100</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="tenuto">
-          <velocity>100</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
-        <Articulation name="marcato">
-          <velocity>120</velocity>
-          <gateTime>67</gateTime>
-          </Articulation>
-        <Articulation name="sforzato">
-          <velocity>120</velocity>
-          <gateTime>100</gateTime>
-          </Articulation>
+      <trackName>Theorba</trackName>
+      <preferSharpFlat>none</preferSharpFlat>
+      <Instrument id="theorbo-14-course">
+        <trackName>Theorba</trackName>
+        <minPitchP>31</minPitchP>
+        <maxPitchP>71</maxPitchP>
+        <minPitchA>31</minPitchA>
+        <maxPitchA>71</maxPitchA>
+        <instrumentId>pluck.theorbo</instrumentId>
+        <singleNoteDynamics>0</singleNoteDynamics>
+        <StringData>
+          <frets>13</frets>
+          <string open="1">31</string>
+          <string open="1">33</string>
+          <string open="1">36</string>
+          <string open="1">37</string>
+          <string open="1">38</string>
+          <string open="1">40</string>
+          <string open="1">42</string>
+          <string open="1">43</string>
+          <string>45</string>
+          <string>50</string>
+          <string>55</string>
+          <string>59</string>
+          <string>52</string>
+          <string>57</string>
+          </StringData>
         <Channel>
           <controller ctrl="0" value="0"/>
-          <controller ctrl="32" value="17"/>
-          <program value="42"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="pizzicato">
-          <program value="45"/>
-          <synti>Fluid</synti>
-          </Channel>
-        <Channel name="tremolo">
-          <controller ctrl="0" value="0"/>
-          <controller ctrl="32" value="17"/>
-          <program value="44"/>
+          <controller ctrl="32" value="8"/>
+          <program value="25"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -121,6 +98,12 @@
       <Measure>
         <eid>f45cuYFdcLG_94gjmU6XsGM</eid>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <isHeader>1</isHeader>
+            <eid>7KInfZ7gYLN_8cFS40rpv2F</eid>
+            </Clef>
           <KeySig>
             <eid>B2ua7Zs8qZG_6KSld0AtMLO</eid>
             <concertKey>1</concertKey>
@@ -19280,7 +19263,6 @@
         </Measure>
       <Measure>
         <eid>mKhuJTXG9aK_i4W6mRnmmtB</eid>
-        <vspacerUp>10.6495</vspacerUp>
         <voice>
           <Chord>
             <eid>PqtNUribCKM_qK6gIhd5acJ</eid>
@@ -19799,7 +19781,6 @@
       <Measure>
         <eid>YcqiGMnKg5N_qxX0AIFIBRL</eid>
         <startRepeat/>
-        <vspacerUp>17.5491</vspacerUp>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
@@ -20441,7 +20422,6 @@
         </Measure>
       <Measure>
         <eid>q8kQJmxOVsP_CTzjrm8URfP</eid>
-        <vspacerUp>17.5491</vspacerUp>
         <voice>
           <Chord>
             <eid>DUMyWlhLAnJ_Qe/7WPCsYTH</eid>
@@ -21115,7 +21095,6 @@
         </Measure>
       <Measure>
         <eid>u94XXUxZYsK_cCfz+TN/NRC</eid>
-        <vspacerUp>18.749</vspacerUp>
         <voice>
           <TimeSig>
             <eid>Lvr9N6g2fcP_Sdn5zHnyxcL</eid>
@@ -21716,7 +21695,6 @@
         </Measure>
       <Measure>
         <eid>OdThIf8Fut_SOLcNnsfurC</eid>
-        <vspacerUp>17.8491</vspacerUp>
         <voice>
           <Chord>
             <eid>LamGwkbvICK_Q/nRc1ZaGlO</eid>
@@ -22186,7 +22164,6 @@
         </Measure>
       <Measure>
         <eid>vdz/x/OysyB_+4305cEhcGE</eid>
-        <vspacerUp>20.2489</vspacerUp>
         <voice>
           <Chord>
             <eid>NRTsTVDfBfN_6xsenJjNviP</eid>
@@ -22664,7 +22641,6 @@
         </Measure>
       <Measure>
         <eid>o00WgaARdfK_+DgX/+uNol</eid>
-        <vspacerUp>27.2985</vspacerUp>
         <voice>
           <Beam>
             <eid>Z7m4DKG6JsL_0isEnmDWY+C</eid>
@@ -23662,7 +23638,6 @@
       <Measure>
         <eid>sgPyrN9v0o_GTT41OxT7rK</eid>
         <startRepeat/>
-        <vspacerUp>11.038</vspacerUp>
         <voice>
           <BarLine>
             <subtype>start-repeat</subtype>
@@ -24231,7 +24206,6 @@
         </Measure>
       <Measure>
         <eid>2P4of43rvOE_t0jh8dYIFNJ</eid>
-        <vspacerUp>18.43</vspacerUp>
         <voice>
           <Chord>
             <eid>gkPjLU6QZ/E_oc37OvIZ1zB</eid>
@@ -24804,7 +24778,6 @@ da Capo</i></b></text>
       <Measure len="1/8">
         <eid>nhW/WJY061F_QNjKgbaMADN</eid>
         <irregular>1</irregular>
-        <vspacerUp>25.5432</vspacerUp>
         <voice>
           <KeySig>
             <eid>q9tdZLZ3GiB_cG+NXH2ii0G</eid>
@@ -25477,7 +25450,6 @@ da Capo</i></b></text>
         </Measure>
       <Measure>
         <eid>e4JnNaREVeE_3JwORvL6c8H</eid>
-        <vspacerUp>18.4329</vspacerUp>
         <voice>
           <Chord>
             <eid>H8iJK5eGHvG_ZlAvN2T0MXP</eid>
@@ -26102,7 +26074,6 @@ da Capo</i></b></text>
         </Measure>
       <Measure>
         <eid>VxWJ2qyvs8D_z5SA0RDHMsL</eid>
-        <vspacerUp>18.43</vspacerUp>
         <voice>
           <Chord>
             <eid>6ZR95vm1UGI_Gq9VJoEBJGO</eid>
@@ -26737,7 +26708,6 @@ da Capo</i></b></text>
         </Measure>
       <Measure>
         <eid>dTsvnmMWYSL_nupmcL8LuzG</eid>
-        <vspacerUp>18.43</vspacerUp>
         <voice>
           <Chord>
             <eid>rvtgWqZJ6aN_QnJugYd9w4H</eid>
@@ -27322,7 +27292,6 @@ da Capo</i></b></text>
         </Measure>
       <Measure>
         <eid>dZxxTQ5ClVG_88Aus73kc8L</eid>
-        <vspacerUp>18.43</vspacerUp>
         <voice>
           <Chord>
             <eid>YSJ1ma5vgSE_IEHu+9ZOyML</eid>
