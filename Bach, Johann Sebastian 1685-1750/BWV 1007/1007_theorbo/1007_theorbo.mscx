@@ -13,14 +13,13 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="audioComUrl"></metaTag>
     <metaTag name="composer">Johann Sebastian Bach</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">© 2025 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -30,6 +29,7 @@
         <linkedTo>2</linkedTo>
         <StaffType group="pitched">
           <name>stdNormal</name>
+          <small>1</small>
           </StaffType>
         </Staff>
       <Staff id="2">
@@ -112,7 +112,8 @@
         <Text>
           <eid>gsRqHZIV4DP_j/HqUQYZbMB</eid>
           <style>composer</style>
-          <text>Johann Sebastian Bach</text>
+          <text>Johann Sebastian Bach 1685 - 1750
+for theorbo arr. Vladimír Váša</text>
           </Text>
         <Text>
           <eid>ikL+7cNtPHF_hNiFYMvUaQI</eid>
@@ -152,18 +153,6 @@
             <eid>J5T7ZZuzvnG_Fp45xfnaDtB</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>juLjP4/QrGH_5X3lU6Gw3yI</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>s0eZdxu7jzJ_ADSns5Jm6WJ</eid>
               <linkedMain/>
@@ -191,11 +180,16 @@
             <linkedMain/>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>juLjP4/QrGH_5X3lU6Gw3yI</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>1/16</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>AICw3NFy1AD_hp8y2en1UWB</eid>
@@ -210,6 +204,13 @@
             <eid>Xrw57f00m7F_YZ6awSQL+jO</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Kj4TPuA1bJN_1GQ5XF37WqH</eid>
               <linkedMain/>
@@ -275,18 +276,6 @@
             <eid>y09kb9+HwQE_KrHgR6DmJsH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>N65FJHHeUwD_UZb1pWwgO5F</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>ueRDEMtzxaM_A3WWssioktP</eid>
               <linkedMain/>
@@ -314,11 +303,16 @@
             <linkedMain/>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>N65FJHHeUwD_UZb1pWwgO5F</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>1/16</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>DTaz/O44+lP_+iIF2SLukJK</eid>
@@ -333,6 +327,13 @@
             <eid>UMmp6cbEbND_OwPyQJgJirM</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>BHRO4YarFeG_8tFK+0reBF</eid>
               <linkedMain/>
@@ -654,18 +655,6 @@
             <eid>D1m/9IxUGnH_zwva/FkCovP</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>Z/OuWdTuYPM_VjR5wMQ7KVB</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>ZBReUIe1uGE_ypyEtVQVj+B</eid>
               <linkedMain/>
@@ -692,13 +681,6 @@
             <eid>qRgKYvHDnuF_weh2IuO77nG</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>mwrsSM1wXy_PW15OiwYADE</eid>
               <linkedMain/>
@@ -2642,18 +2624,6 @@
             <eid>9z6udrEpqhJ_Vk2Yg8WXSOH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>isO1gFVA0uM_04181ChsuE</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>0N8IRVjiVaC_LVT2I3aVjrB</eid>
               <linkedMain/>
@@ -2667,6 +2637,18 @@
             <eid>FDUuluQc0YB_WvbRC9PgSqK</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>isO1gFVA0uM_04181ChsuE</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>cyLAqr6/FrK_LWfLUObjWXH</eid>
               <linkedMain/>
@@ -2687,7 +2669,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2774,18 +2756,6 @@
             <eid>MbCVLllJknL_soiIRN+/TkH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>BZ8T79XfGoB_YMSnW7jgStO</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>Kiteh9moYfE_szc6OZyinwI</eid>
               <linkedMain/>
@@ -2799,6 +2769,18 @@
             <eid>1QSGuGxKgEB_Vsxsf7qzVRC</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>BZ8T79XfGoB_YMSnW7jgStO</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>qJbMorUYAWG_tSGiPVZNgnB</eid>
               <linkedMain/>
@@ -2820,7 +2802,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2894,6 +2876,10 @@
         </Measure>
       <Measure>
         <eid>a59apQ9ee6F_poP5u9rer6D</eid>
+        <LayoutBreak>
+          <eid>I4wB0SPTn6F_H5Bf96UXRqN</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>+P33pFGxZdM_Y1O7B3k2CeC</eid>
@@ -3163,7 +3149,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3197,13 +3183,6 @@
             <eid>Vic8Q6ixSmP_LEOq8PFh8GJ</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>XUK0fn0OWBJ_B7YNZuUdK+I</eid>
               <linkedMain/>
@@ -3217,6 +3196,13 @@
             <eid>zkzTJdonRhK_o8100Kv0KKG</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>NFs8cH1J1DB_o/PHiET+ccJ</eid>
               <linkedMain/>
@@ -3642,18 +3628,6 @@
             <eid>rfHQBCbchnF_23mROZgVONJ</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>bH4ftACbUXC_SNoQoUzkGlM</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>E6oRM8lQuJB_+YQhGkIL8jO</eid>
               <linkedMain/>
@@ -3667,6 +3641,18 @@
             <eid>GG/1ftQC25C_zrpinFMHJ9H</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>bH4ftACbUXC_SNoQoUzkGlM</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>h0GZPpZIZpJ_chd1u74+mfD</eid>
               <linkedMain/>
@@ -3680,13 +3666,6 @@
             <eid>f9FwWwITet_m3++Xv8YHNG</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>bu16l1j3ZiH_uw5o/ywnhfG</eid>
               <linkedMain/>
@@ -3700,6 +3679,13 @@
             <eid>MGtBU41FN8C_1adBzNZvQBP</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>LC1P8+B+sXJ_iK0pHO/kXeB</eid>
               <linkedMain/>
@@ -3765,18 +3751,6 @@
             <eid>rRea5y/XCxB_eRNY8pM9P0O</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>OMVqF/giiiH_ektHgVK/jvN</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>KEtp+gX8QIK_DFcMEgQn7aD</eid>
               <linkedMain/>
@@ -3790,6 +3764,18 @@
             <eid>11gcEx5NaeJ_0wxmyMn6X/K</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>OMVqF/giiiH_ektHgVK/jvN</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>QIRVOjQhWfD_hkNibvhZxKH</eid>
               <linkedMain/>
@@ -3803,13 +3789,6 @@
             <eid>hxZ5EvWzhMD_oNGj57G8xGP</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>OTKIfKE68EI_H7wuBJUPXSK</eid>
               <linkedMain/>
@@ -3823,6 +3802,13 @@
             <eid>aJoxX06S80F_nC80Zg6NBEF</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>W2wuI6A3PdO_A+P5BUhEu+C</eid>
               <linkedMain/>
@@ -3896,18 +3882,6 @@
             <eid>8jHSo0vOSC_tTK+vbOSOaB</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>1pGutr3rIDE_XcgNVfDEwwK</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>aEF/r5SlaRJ_9Mf7OLdAEmJ</eid>
               <linkedMain/>
@@ -3921,6 +3895,18 @@
             <eid>e5EWtDUA4+N_qxHtwj34HkH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>1pGutr3rIDE_XcgNVfDEwwK</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>4IAFUAteeCO_EHAvCQvZdRN</eid>
               <linkedMain/>
@@ -3934,13 +3920,6 @@
             <eid>IVxGGgsk64K_h/6Z/QeP27E</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>HeeNA54I+XK_fl4I6XkVp0M</eid>
               <linkedMain/>
@@ -3958,6 +3937,13 @@
             <eid>sR8NO0nzhiK_EymO6hwLu8P</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>ad0jav29orL_mC566QpLFUO</eid>
               <linkedMain/>
@@ -4029,18 +4015,6 @@
             <eid>m61pK5mZSXF_b0mUjJEn73E</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>lkm61xQtWOK_NSqK3Nnl0GE</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>uUlJJi/tjKD_p3cmy30ZE0G</eid>
               <linkedMain/>
@@ -4054,6 +4028,18 @@
             <eid>ZNmIhk5NQ2O_FGKgL8Tgi0G</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>lkm61xQtWOK_NSqK3Nnl0GE</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>OD4QFx1S2XC_xJjdQ7mCwNN</eid>
               <linkedMain/>
@@ -4067,13 +4053,6 @@
             <eid>Cq5CZJmy55C_pmLBmLpk9xH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ARTq7MCTttI_xkTuPLPEABI</eid>
               <linkedMain/>
@@ -4092,6 +4071,13 @@
             <eid>TAloLod/s7I_PysgjXmd3YH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Pp4rDavcMOH_/95loak3BDO</eid>
               <linkedMain/>
@@ -4165,18 +4151,6 @@
             <eid>lFdhpKIeW8F_2+tYe/7nIQG</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>DGpEtaT2jaK_9tsxPxqR4mN</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>PmwDqCFX0oC_0ffikn3TCSI</eid>
               <linkedMain/>
@@ -4190,6 +4164,18 @@
             <eid>ba1nYhL1XWJ_YgRfzi2Y8PJ</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>DGpEtaT2jaK_9tsxPxqR4mN</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>iM7XeD1ptJ_hnbX4EGdQe</eid>
               <linkedMain/>
@@ -4203,13 +4189,6 @@
             <eid>k/zMaMgGRXH_TyBROcTW9+P</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>QKEFbF7tVBF_Mm+uIsnAwbP</eid>
               <linkedMain/>
@@ -4223,6 +4202,13 @@
             <eid>8qpcLElD6eG_CbS6ID8qS9F</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>DdH7hq+ZxfJ_8C44NZ9SNHD</eid>
               <linkedMain/>
@@ -4291,18 +4277,6 @@
             <eid>NPACA5Bnn5L_iCw2fumCG7D</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>vQGxWgcQNLL_YgKvkTGE7bB</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>tL6BlM+GykP_/zjHSWdTKL</eid>
               <linkedMain/>
@@ -4316,6 +4290,18 @@
             <eid>MQuG/Fy6KkE_wZWbFCsv9kL</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>vQGxWgcQNLL_YgKvkTGE7bB</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>UYirWEekaGO_MZu47NcNSEP</eid>
               <linkedMain/>
@@ -4329,13 +4315,6 @@
             <eid>8tBShsl87rM_HQexSz1vumC</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>9tNp/KaclNK_SYXck+afvVP</eid>
               <linkedMain/>
@@ -4349,6 +4328,13 @@
             <eid>11Otd5JwuKK_iY+tzLhTlUF</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>FQocDx9U1gG_nXb1L8xmy9L</eid>
               <linkedMain/>
@@ -4905,18 +4891,6 @@
             <eid>0gPrigMVGrE_2YMQ8cw4WJI</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>kPh/reDznzH_uLTryXFrycG</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>wkZKswappkO_pEuhkKl0AjM</eid>
               <linkedMain/>
@@ -4934,6 +4908,18 @@
             <eid>de6VjcQK3xB_mp+b+epi2cO</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>kPh/reDznzH_uLTryXFrycG</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>kWasMSnADCC_a02j5vDNXVJ</eid>
               <linkedMain/>
@@ -4947,13 +4933,6 @@
             <eid>inG3Lrym7xK_xBuwbPG6i8K</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>aJWGfbD7p5K_GDyliK5LoCC</eid>
               <linkedMain/>
@@ -4967,6 +4946,13 @@
             <eid>qlh+XLzV3EF_5RNfgb4Z3IP</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>coMomAr1UYL_XfDG5MaZsKO</eid>
               <linkedMain/>
@@ -5032,18 +5018,6 @@
             <eid>UQjqhwEu/WD_yTJTiydkUxP</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>NzV7Cfwx6gC_U3sVrDkCugH</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>xr0BQChy3+E_Th1JZRxmGZN</eid>
               <linkedMain/>
@@ -5070,13 +5044,6 @@
             <eid>UDXGUmtb3RC_dhVgO1d2HUE</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>mbMxO9l2ZlC_otjzH7uGwHP</eid>
               <linkedMain/>
@@ -5160,18 +5127,6 @@
             <eid>2FYYo66HAx_1koSwt+AmoJ</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>iD27O1dlLE_3ZZU9zYsYFF</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>qzeRXKmk2FB_hs+PtcemOsO</eid>
               <linkedMain/>
@@ -5190,6 +5145,18 @@
             <eid>6QLxIEsNV2O_E9t+qAT759F</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>iD27O1dlLE_3ZZU9zYsYFF</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>PSNvLgq2ClH_ZsXGlRPig6J</eid>
               <linkedMain/>
@@ -5203,13 +5170,6 @@
             <eid>NSYQY/kZ0RO_q3bHuFelCnN</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>MUF7hbKL8QI_301tl1zCIsN</eid>
               <linkedMain/>
@@ -5223,6 +5183,13 @@
             <eid>PC4HQR9UH4M_YkqW/6LTY2B</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Jxokxajwf6I_ZAdPVSih5ZL</eid>
               <linkedMain/>
@@ -5288,18 +5255,6 @@
             <eid>1VBlq5LeaWP_LBNncSFmEcF</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>VGu7JPMs0pI_UGtqU7mN/4J</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>1rxthNzJVJF_FSpEFo/Y80M</eid>
               <linkedMain/>
@@ -5318,6 +5273,18 @@
             <eid>AvB28Bum/tO_jvnWgMMg+DJ</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>VGu7JPMs0pI_UGtqU7mN/4J</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>kkOA4geiSZH_5OPM7l4FIJ</eid>
               <linkedMain/>
@@ -5331,13 +5298,6 @@
             <eid>phhjf2sKXUM_cRXN3+LkS1B</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ys4zps1kBuP_v1VnuGc6WIN</eid>
               <linkedMain/>
@@ -5351,6 +5311,13 @@
             <eid>Ddr7gD6h0EB_iN0EPRd1bSB</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Y7uMezph+DC_AaGBEVz9T1C</eid>
               <linkedMain/>
@@ -5421,18 +5388,6 @@
             <eid>MncYegLFGH_yCG3/lKJuTJ</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>975bpEP9Qu_JVBMtGLm6ED</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>2dURiyt0pmL_zVFyZgB6zoK</eid>
               <linkedMain/>
@@ -5446,6 +5401,18 @@
             <eid>cJRHmSwtY1I_WN6jGmTyoQI</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>975bpEP9Qu_JVBMtGLm6ED</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>NB7ddJaIh8C_nP4a8CrBQ3E</eid>
               <linkedMain/>
@@ -5459,13 +5426,6 @@
             <eid>s7r843V+RcN_Na4obPb1CdB</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>+Is2fRHLJBC_FiMp7A1V3BM</eid>
               <linkedMain/>
@@ -5479,6 +5439,13 @@
             <eid>VoA0FdBt9TP_9wbsRfUxl1P</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>DnLribMxBsK_6GokLtt/WBP</eid>
               <linkedMain/>
@@ -5905,18 +5872,6 @@
             <eid>Kmj+yOHPJUM_47eu5rjVCpK</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>cH0GVClK1IJ_tQM9xbX6cWE</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>sPeXRQIqWIB_xPyGXAFVUMP</eid>
               <linkedMain/>
@@ -5964,13 +5919,6 @@
             <eid>8jK2f0xTgaE_jQLwDxgv8jK</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>BrakymVCvmC_NjTwKYKbUCE</eid>
               <linkedMain/>
@@ -5984,18 +5932,6 @@
             <eid>DRsb0ggdiRO_TPXK5RSh5BN</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>itqzB70ynEB_nuEPuwpXsRE</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>9KYseKOHGrK_CiwlD8CCtbN</eid>
               <linkedMain/>
@@ -6039,13 +5975,6 @@
             <eid>LvepIWErMkD_dXVyWU855PO</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>vSK64am5hrB_2u0wt0JfpAF</eid>
               <linkedMain/>
@@ -6173,18 +6102,6 @@
             <eid>DipLiPGrSGD_EYmq7i18HVD</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>JKzN1VLciiI_htwi1BvU52D</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>sFghgqNbPL_0tPcNcOYX+C</eid>
               <linkedMain/>
@@ -6198,6 +6115,18 @@
             <eid>RrjyVMQYu_7bIxM3HNcZO</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>JKzN1VLciiI_htwi1BvU52D</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>fC/g92RNOzP_fX4xEEarSvF</eid>
               <linkedMain/>
@@ -6211,13 +6140,6 @@
             <eid>pCDD/jkZbiC_Cn4tOzi/uUF</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>aszmfn/dS3B_mbOa9zh0eVP</eid>
               <linkedMain/>
@@ -6231,6 +6153,13 @@
             <eid>UzC2t/9GxOC_ewxBNj2yMPE</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>csWqjczBdkE_6ZfgEYIVJGH</eid>
               <linkedMain/>
@@ -6405,18 +6334,6 @@
             <eid>VZc2AltDmnP_7tJqkKF7QM</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>bn9kd8JL3CK_+dnKh96fAkP</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>hKhvOMbTLGI_rOKXP+eugpM</eid>
               <linkedMain/>
@@ -6430,6 +6347,18 @@
             <eid>lz7klGCxVaB_uXdfCrnRbTB</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>bn9kd8JL3CK_+dnKh96fAkP</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>mdMuFIYBrzB_YH/7yuQLjUP</eid>
               <linkedMain/>
@@ -6443,13 +6372,6 @@
             <eid>SmaZXYKdsWO_RZPPP76sEuC</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>LUsnaWTJUCE_B+YkfHlp9aE</eid>
               <linkedMain/>
@@ -6463,6 +6385,13 @@
             <eid>h2gqlZazKoO_JbT+G62Hs9N</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>XWxZcbPeCNL_ip2gf58e+7P</eid>
               <linkedMain/>
@@ -6687,18 +6616,6 @@
             <eid>diJbjREAHRL_Tx34npqJHbM</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>1CpOyyRX5OP_6VnTYsPKwxF</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>VB5kDusoXqH_V3sx1oHaEEH</eid>
               <linkedMain/>
@@ -6712,6 +6629,18 @@
             <eid>FT2rgAqep0I_EU6sD9GNb3M</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>1CpOyyRX5OP_6VnTYsPKwxF</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>60HldBUr1oG_252vsMDLODC</eid>
               <linkedMain/>
@@ -6730,13 +6659,6 @@
             <eid>VZIFVVmDwdC_yI1iksiOqmL</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>FswCIjqiZ0O_LrKVn896V3J</eid>
               <linkedMain/>
@@ -6750,6 +6672,13 @@
             <eid>rIkiTioC7tP_htslVYCo0zE</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>0ObCcQP0K/C_g0Ub75U1uwB</eid>
               <linkedMain/>
@@ -6822,18 +6751,6 @@
             <eid>h4OPh2dBzDP_ZelxXvdPdFD</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>iVTRkfBhi0M_bXIugI74HyK</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>DdOsQzXR+nG_ok75tWKG5AG</eid>
               <linkedMain/>
@@ -6847,6 +6764,18 @@
             <eid>SPyFdxObVhB_a+gHmkuYb+E</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>iVTRkfBhi0M_bXIugI74HyK</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>xk/GpS5M8MF_Xy9qdZS7sGP</eid>
               <linkedMain/>
@@ -6860,13 +6789,6 @@
             <eid>VuY0XnH70nJ_WyQtvqco8EG</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>3CSqDnYsOeJ_nDqzmUULkrJ</eid>
               <linkedMain/>
@@ -6880,6 +6802,13 @@
             <eid>4HNAjvYsKFJ_5x9UgaG318I</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>S9g9IqpIdY_CnGvGek7HnE</eid>
               <linkedMain/>
@@ -6954,18 +6883,6 @@
             <eid>xZt9rsqYDpK_TXE2YtwME/M</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>AEakx8It1cD_tLDrpF6qsiF</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>A8RKXNJOUjG_aiM5QBBuDRF</eid>
               <linkedMain/>
@@ -6992,13 +6909,6 @@
             <eid>kXqLRzMHjAJ_jcaoDYr9TGG</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>tYKVUL5RIgG_tQOPzESIC6H</eid>
               <linkedMain/>
@@ -7214,7 +7124,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -7249,6 +7159,25 @@
             <eid>+Rt6eAkR25P_+6uvPnd+9AD</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>CTsWtS/vSFI_4eHhhzV+vdC</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>h4Hj2Eg3NRM_O8JBB9h1DqG</eid>
               <linkedMain/>
@@ -7291,7 +7220,7 @@
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/16</fractions>
+                  <fractions>-3/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -7703,6 +7632,18 @@
             <eid>mfonl3JK8SJ_3mKhBRv9I0C</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>rmdwHUynmvE_QaJouLrlVBK</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>IsdGW0VulmC_e1PyWuCObAM</eid>
               <linkedMain/>
@@ -7729,6 +7670,13 @@
             <eid>G5jrh8kwDL_TFt1VyekLdO</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>FO9dwfdVovE_5E91doECf2K</eid>
               <linkedMain/>
@@ -9787,18 +9735,6 @@
             <eid>FGPWwAe2Q2B_3KWNNvVhheH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>u+hzVM7+oTN_Af8jkIEGQ0P</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>l5cxVGsxqmN_I0xtpTrkmoM</eid>
               <linkedMain/>
@@ -9812,6 +9748,18 @@
             <eid>c4Q80NR5F2H_gxgvyUAwlSF</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>u+hzVM7+oTN_Af8jkIEGQ0P</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>atqsO1Vi0GL_1rtY0AupBwN</eid>
               <linkedMain/>
@@ -9825,13 +9773,6 @@
             <eid>hxaNTIjLzEG_Qaq1yENphHH</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>gDU+Yz31WsG_fBK+3Nfu+xB</eid>
               <linkedMain/>
@@ -9845,6 +9786,13 @@
             <eid>fGKQAaoYs2K_kK8RXeHE4FM</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>bZzkOp0BB1M_6VpiCsMbUaL</eid>
               <linkedMain/>
@@ -9910,18 +9858,6 @@
             <eid>IS9qUi+1RlI_w4g8f+NzHKP</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>Ed/fexpjfkF_RMG3USVRa3G</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>5L2dHljwciI_EOW1qVB+zlL</eid>
               <linkedMain/>
@@ -9948,13 +9884,6 @@
             <eid>eOO28d4cAlK_cJoBJGRYqoO</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>wAKDVAIS3EG_zP4T+VIhUpD</eid>
               <linkedMain/>
@@ -10038,18 +9967,6 @@
             <eid>XqIkSndAV6E_c1rOkit0N8C</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>jaDkGpX9oXN_TQSo62l9v4N</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>3OC931pFBiC_s2lj98WyWj</eid>
               <linkedMain/>
@@ -10063,6 +9980,18 @@
             <eid>xB2kcZBTQ0D_Rp1zLrhWNHN</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>jaDkGpX9oXN_TQSo62l9v4N</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>OoiQfZqcsQB_6AnzZ28dhdD</eid>
               <linkedMain/>
@@ -10076,13 +10005,6 @@
             <eid>83G1Wlbi1wJ_YOsrJfijB8C</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>I20Vgw0srJB_PDi5haI7qnG</eid>
               <linkedMain/>
@@ -10096,6 +10018,13 @@
             <eid>BAq6lO/fRqJ_NjLRuNzKw6H</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>9gN88moxykF_GI2MNa4+w8P</eid>
               <linkedMain/>
@@ -10161,18 +10090,6 @@
             <eid>iJPGlL/ll5B_HPV1seZwa4E</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>BhyQ9ntjunH_Ch8JVR0CaEB</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>Wt4YH4QOR2L_eqtU4JkZrMM</eid>
               <linkedMain/>
@@ -10199,13 +10116,6 @@
             <eid>v07y2ReDuxL_Lgi3MxyzT0N</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>jcZY77b7wUO_b/kyI6sVPTI</eid>
               <linkedMain/>
@@ -10289,18 +10199,6 @@
             <eid>7GdIWCE23PK_brfzHZjCCtM</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>doZ/KCgLquL_vHaF9xFy+7J</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>SSNWzXVnZBE_1hUD0A+hxpO</eid>
               <linkedMain/>
@@ -10314,6 +10212,18 @@
             <eid>o3wtA0D1hND_GBiFVVW65uD</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>doZ/KCgLquL_vHaF9xFy+7J</eid>
+                <linkedMain/>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>v5hyPg4Yni_5FG0j2liFCH</eid>
               <linkedMain/>
@@ -10327,13 +10237,6 @@
             <eid>bZneEo+s6AN_zqzIM+T3W3B</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ozBKIUbeYGB_o4gOZ0eorYI</eid>
               <linkedMain/>
@@ -10347,6 +10250,13 @@
             <eid>4/AbsENkEBC_KtilF0QvG0E</eid>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>lm6aq3JZ6PM_z++5/GbMixG</eid>
               <linkedMain/>
@@ -10412,18 +10322,6 @@
             <eid>bYdyW6bM3DE_AsqpQw/hGwN</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>YI4HD/dHi+C_EtYeQZSxpoP</eid>
-                <linkedMain/>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>/Dfw1iWPESG_Sv7qC3cXWuE</eid>
               <linkedMain/>
@@ -10450,13 +10348,6 @@
             <eid>R5CAlF4RfXF_cqMdIGZSQGL</eid>
             <linkedMain/>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>gEXC90/B6aF_t3aMunEFn+</eid>
               <linkedMain/>
@@ -10541,10 +10432,9 @@
           </LayoutBreak>
         <voice>
           <Fermata>
-            <subtype>fermataBelow</subtype>
+            <subtype>fermataAbove</subtype>
             <eid>ClwV3Lw5gzN_HiCobQAoXEJ</eid>
             <linkedMain/>
-            <placement>below</placement>
             </Fermata>
           <Chord>
             <eid>vMCM0RHqxHO_tYWLWtom/XP</eid>
@@ -10882,6 +10772,7 @@
             <eid>7+qLqBZP4eH_TImiEUsxZTK</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <eid>I8F5JkOt8jI_jD2wljB3IHI</eid>
               <linkedMain/>
@@ -10909,6 +10800,7 @@
             <eid>JDsxMPa+N5F_11LctDDSOEL</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <eid>/jNiQBs5pbO_4Hq3NzgEdjG</eid>
               <linkedMain/>
@@ -14362,6 +14254,10 @@
       <Measure len="15/16">
         <eid>5CH7vpKvNzI_RQ4SXBhvBlD</eid>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>pWLMh4AwgDB_Nflx6PWikbC</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>q0WXnyfiYEH_gFv0PqUSotL</eid>
@@ -18200,6 +18096,10 @@
       <Measure len="15/16">
         <eid>ZTsiZV8BUCP_ULjSmHVPYUN</eid>
         <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>hPB8+gk284C_IUMkHyTdd9I</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <eid>jsmEhqTaolL_nIw5dnZVAZE</eid>
@@ -37033,20 +36933,6 @@ da Capo</text>
               <indexDiff>1</indexDiff>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>w2ZrM8Kic6I_K+Rheu9YLfH</eid>
-                <linked>
-                  <indexDiff>1</indexDiff>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>fm2Iuy6ULMD_vH/A/HBwy8D</eid>
               <linked>
@@ -37079,11 +36965,17 @@ da Capo</text>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>w2ZrM8Kic6I_K+Rheu9YLfH</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>1/16</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>gBSRVx3OqyE_CzwJ7WU5wx</eid>
@@ -37100,6 +36992,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>VNU3KGIy6+M_QkWZ7jGlx2M</eid>
               <linked>
@@ -37175,19 +37074,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>zI0yOuqlIiK_YMDmHpJXGAL</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>N6pqx6DhjbI_kg5smAC4SEI</eid>
               <linked>
@@ -37219,11 +37105,17 @@ da Capo</text>
               </linked>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>zI0yOuqlIiK_YMDmHpJXGAL</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>1/16</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>OUNVb9jcMNK_POgKy1j3F6I</eid>
@@ -37240,6 +37132,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>OD87IQgIDjL_I08CcAF5GOE</eid>
               <linked>
@@ -37324,6 +37223,7 @@ da Capo</text>
                 <eid>EMajuJmWg5_0cSy+80nUJO</eid>
                 <linked>
                   </linked>
+                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -37603,19 +37503,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>oA+/9P+Bv4D_dYgAczSPEKF</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>1+rudWlPmpO_AqmFFEyfQiO</eid>
               <linked>
@@ -37646,13 +37533,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>8q/h7CQrbrJ_/4SuHFXwI0J</eid>
               <linked>
@@ -39696,6 +39576,7 @@ da Capo</text>
                 <eid>ytTB9YcLcnD_+9nWaCVkz9E</eid>
                 <linked>
                   </linked>
+                <up>up</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -39854,19 +39735,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>1vFPYvjM4IC_4bK5l6pjgyK</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>2YChWjIQz6D_PeVQ48HG4tO</eid>
               <linked>
@@ -39882,6 +39750,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>1vFPYvjM4IC_4bK5l6pjgyK</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>VjK9aWKOKv_HOOqph+G+9B</eid>
               <linked>
@@ -39904,7 +39785,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -40003,19 +39884,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>rLwKG4xEdQD_ZZfLBVaHzcF</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>Al9JHIoDQYF_GG+eYSfKllB</eid>
               <linked>
@@ -40031,6 +39899,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>rLwKG4xEdQD_ZZfLBVaHzcF</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>/J/4Ci9SlzC_8Y0eeu4uXnI</eid>
               <linked>
@@ -40054,7 +39935,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/8</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -40436,11 +40317,12 @@ da Capo</text>
                 <eid>g7iLC6UCbyK_tAJbDlpvTJG</eid>
                 <linked>
                   </linked>
+                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -40478,13 +40360,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>kWVEvXDW3/F_0Tox30rjd0I</eid>
               <linked>
@@ -40500,6 +40375,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>zl/WZPpfpsE_Ez5IQB15T9N</eid>
               <linked>
@@ -40580,6 +40462,7 @@ da Capo</text>
                 <eid>ULk8u87tfRF_7gIqcaU+4sL</eid>
                 <linked>
                   </linked>
+                <up>up</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -40983,19 +40866,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>AXZcVnNT0kN_oifhy4sNjMN</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>wdhz6fMVp8F_rcB2WzYiCPH</eid>
               <linked>
@@ -41011,6 +40881,24 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>AXZcVnNT0kN_oifhy4sNjMN</eid>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <eid>BaTqku5/naI_2kBgTkqDcGN</eid>
+                  <offset x="0" y="2"/>
+                  </SlurSegment>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>YOcHk+367yO_tJLFDGOmPmB</eid>
               <linked>
@@ -41026,13 +40914,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>dN2vDA9aZsG_ElFG4Mnd/EI</eid>
               <linked>
@@ -41048,6 +40929,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>IdB73E//VO_qS4EtwXgiBG</eid>
               <linked>
@@ -41123,19 +41011,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>No9f1mDkba_Xc0GYLjjWNG</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>ekzR1ypSKoF_nnCPo7TL+ME</eid>
               <linked>
@@ -41151,6 +41026,24 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>No9f1mDkba_Xc0GYLjjWNG</eid>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <eid>+NcubVuVEkB_OYRcnyG9vdB</eid>
+                  <offset x="0" y="2"/>
+                  </SlurSegment>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>xxZbtHxETML_wv0CdS09yAP</eid>
               <linked>
@@ -41166,13 +41059,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>tZbQfpAzMkI_LqEnyyATTeL</eid>
               <linked>
@@ -41188,6 +41074,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>9CRwMiEhcGF_Im4oMdcKU/C</eid>
               <linked>
@@ -41267,19 +41160,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>d8macV+qchI_ANsTGXTdFRE</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>qia9BK6sriN_WOW2H3Sl3yF</eid>
               <linked>
@@ -41295,6 +41175,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>d8macV+qchI_ANsTGXTdFRE</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>VVzuVEQIkfP_8/UhLL603hJ</eid>
               <linked>
@@ -41310,13 +41203,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>rprIvKOVYnJ_BPlvcd67LTF</eid>
               <linked>
@@ -41336,6 +41222,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>MNzdGk4uZ6I_LjaRaMcrMv</eid>
               <linked>
@@ -41411,19 +41304,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>SW2xvK9y2TK_CGuzg3on5CL</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>RWWJYvBdPhM_VSPlne7EQZD</eid>
               <linked>
@@ -41439,6 +41319,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>SW2xvK9y2TK_CGuzg3on5CL</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>KzfOPiHK8kK_6SURJOnNm2M</eid>
               <linked>
@@ -41454,13 +41347,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>oK768Tun4OB_Io+0SlC2VHE</eid>
               <linked>
@@ -41481,6 +41367,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>TjRO1khcXuF_nxQ3ZqxftzL</eid>
               <linked>
@@ -41560,19 +41453,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>2I6Wu9Y/SuE_Yu1mQAa1WM</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>5uGU3aY0tAE_IqSbIT/0hFC</eid>
               <linked>
@@ -41588,6 +41468,20 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>2I6Wu9Y/SuE_Yu1mQAa1WM</eid>
+                <linked>
+                  </linked>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>hWL/QGG+GTL_yCHToMImCtH</eid>
               <linked>
@@ -41603,13 +41497,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>APKL92/Uiy_P0Ta9cyuOZB</eid>
               <linked>
@@ -41625,6 +41512,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Fo9KNSe4cUD_YZvCwpOCV8L</eid>
               <linked>
@@ -41700,19 +41594,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>MBFP71Q0stH_bX+8eWYUJNI</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>4D5H6UNTRkO_ZWUw5Zo8EDF</eid>
               <linked>
@@ -41728,6 +41609,20 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>MBFP71Q0stH_bX+8eWYUJNI</eid>
+                <linked>
+                  </linked>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>o67OxGHUtzN_FEuFXtb4hcP</eid>
               <linked>
@@ -41743,13 +41638,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>KvWKPetb4jL_kgk7XVKiDpD</eid>
               <linked>
@@ -41765,6 +41653,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Sgo3nPdnE0_JqRj4xSIKS</eid>
               <linked>
@@ -42392,19 +42287,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>j6+fMR/5uLD_Qp13jU9yUQL</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>tc8DzFYTStJ_TXwncBM7PzH</eid>
               <linked>
@@ -42424,6 +42306,20 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>j6+fMR/5uLD_Qp13jU9yUQL</eid>
+                <linked>
+                  </linked>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>R6WqdZo04GE_pC1CeqqbthK</eid>
               <linked>
@@ -42439,13 +42335,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>CC7FsCTvvwH_m4LIMY8diqN</eid>
               <linked>
@@ -42461,6 +42350,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>umC+l2PbaGF_Mycy4jyPSKL</eid>
               <linked>
@@ -42536,19 +42432,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>58WscxD7AhH_icobqFoqqIE</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>8ycOwaY2I2P_UN4X6UZIDoB</eid>
               <linked>
@@ -42579,13 +42462,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>VJU9tOJXUgL_Fm7AU4yZnQE</eid>
               <linked>
@@ -42680,19 +42556,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>YD1qsmIlEoB_fqrLjbSVqoI</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>soUHICdeYHD_XKU1HaXMtyI</eid>
               <linked>
@@ -42713,6 +42576,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>YD1qsmIlEoB_fqrLjbSVqoI</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>8GO2LXpzB1D_wR5bMnqOKeG</eid>
               <linked>
@@ -42728,13 +42604,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>5xMOT24OATF_tj7Gv36+UZI</eid>
               <linked>
@@ -42750,6 +42619,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>ZFdYWF0g2gD_jjWtQVhNVpJ</eid>
               <linked>
@@ -42825,19 +42701,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>SYcRYfQsP9_gEOq5nXMhVL</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>5P1RSGLKnHO_VcoTZz/dPzC</eid>
               <linked>
@@ -42858,6 +42721,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>SYcRYfQsP9_gEOq5nXMhVL</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>a4r9QKba5mM_gAs5mhSM80O</eid>
               <linked>
@@ -42873,13 +42749,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ynhDB6Z8g8J_OfoGQ35IeFK</eid>
               <linked>
@@ -42895,6 +42764,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>u4xE6+QbTEJ_vJ/nme8bs/L</eid>
               <linked>
@@ -42974,19 +42850,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>vDySKP4d6pG_VARIx5Bn0sK</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>5EfRVqH208O_gSgb2m9sR+O</eid>
               <linked>
@@ -43002,6 +42865,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>vDySKP4d6pG_VARIx5Bn0sK</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>pUjL1/g6cWM_ZpBGI2ZyaIJ</eid>
               <linked>
@@ -43017,13 +42893,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>Pfi4LP5ShEE_Ewi4mRa8sCN</eid>
               <linked>
@@ -43039,6 +42908,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>rYTIvHaWX5E_hOL4icFpoYH</eid>
               <linked>
@@ -43522,19 +43398,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>ggzRX8PpSVD_pNLE66VE3XF</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>6ueqySmupgM_q7yh80OBMqH</eid>
               <linked>
@@ -43588,13 +43451,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>89VOnrM/TdM_+I5/WOeF9XF</eid>
               <linked>
@@ -43610,19 +43466,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>RhfmZmgPeqO_ZVNQKZ34qBK</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>WZXRhrJeVrK_5Y+SjGz1aZC</eid>
               <linked>
@@ -43672,13 +43515,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ujZndtBvcc_gasBGnGyZ9N</eid>
               <linked>
@@ -43823,19 +43659,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>41QLmgJdigD_v1ZIwZZs59N</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>BjUFKBvNrc_rQWtONGaHoP</eid>
               <linked>
@@ -43851,6 +43674,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>41QLmgJdigD_v1ZIwZZs59N</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>BtcUenvV7LM_+TVuiagEaaN</eid>
               <linked>
@@ -43866,13 +43702,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>2lCq6pMI0WE_Dk7QtHVVZ+P</eid>
               <linked>
@@ -43888,6 +43717,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>VoqM6YtUcNO_lSBvqfJA9rE</eid>
               <linked>
@@ -44087,19 +43923,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>wR/uUBeex9J_y9AVoiFzzwF</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>ruczu949umK_Upq0nl3IsnM</eid>
               <linked>
@@ -44115,6 +43938,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>wR/uUBeex9J_y9AVoiFzzwF</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>aPy+qgg+CF_eCWjIIXyqqI</eid>
               <linked>
@@ -44130,13 +43966,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>wboDo5UFYlF_e3J98qnstbG</eid>
               <linked>
@@ -44152,6 +43981,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>XMEHs7IsLeH_bGLcpj306nK</eid>
               <linked>
@@ -44403,19 +44239,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>3IfIGGq8VIB_B13SJuMMVON</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>MKWVSwIN+yC_HGwwtV0SbcD</eid>
               <linked>
@@ -44431,6 +44254,24 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>3IfIGGq8VIB_B13SJuMMVON</eid>
+                <linked>
+                  </linked>
+                <SlurSegment no="0">
+                  <eid>MHAow75NisB_jxMwUuv9PD</eid>
+                  <offset x="0" y="1"/>
+                  </SlurSegment>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>iL1sT9bj4IP_qGVoLJNSwgN</eid>
               <linked>
@@ -44451,13 +44292,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>J8x98uWjN7E_GFozdHL0xxH</eid>
               <linked>
@@ -44473,6 +44307,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>uV2FT0ePEoH_mUpKrjIwKsN</eid>
               <linked>
@@ -44552,19 +44393,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>KqJx1ooI9fN_N4KmPFG2Ls</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>Nh0j7oCMH/C_a3VK9k5znBP</eid>
               <linked>
@@ -44580,6 +44408,20 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>KqJx1ooI9fN_N4KmPFG2Ls</eid>
+                <linked>
+                  </linked>
+                <up>up</up>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>5vcmldCzrZF_S/mQUIpb/OL</eid>
               <linked>
@@ -44595,13 +44437,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>80A1Ib7+et_Baw9NmgnKNI</eid>
               <linked>
@@ -44617,6 +44452,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>bgJNktfN2DP_NfIElzB2RcH</eid>
               <linked>
@@ -44700,19 +44542,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>grwvwwD7MoO_7SoqX8cYIYF</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>U9pXswCRfxK_zmrSco7j4i</eid>
               <linked>
@@ -44743,13 +44572,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>OwXeBhuFtWE_oiLpkIpHIRJ</eid>
               <linked>
@@ -44992,7 +44814,7 @@ da Capo</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>5/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -45031,6 +44853,26 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>RXRmxwZSgTK_5ikbyIxrMSO</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>FLdZ05P5zOK_zkqm9DyQBp</eid>
               <linked>
@@ -45079,7 +44921,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-5/16</fractions>
+                  <fractions>-3/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -45541,6 +45383,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>ofgEYY2A67O_gPoj1kMLRQC</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>WwYAGDpiqSJ_vYFmuSed6/F</eid>
               <linked>
@@ -45571,6 +45426,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>+n4YXvpwX1G_JYpXB5jRwVB</eid>
               <linked>
@@ -47903,19 +47765,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>sTVE2kHoefC_tCLva7kvZlD</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>XQUgkO0DkrK_dXIshf8YmmE</eid>
               <linked>
@@ -47931,6 +47780,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>sTVE2kHoefC_tCLva7kvZlD</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>6FpsI3OKYdI_MXlvaSF17mN</eid>
               <linked>
@@ -47946,13 +47808,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>rfTWkW4m02D_tQsPLFASoZO</eid>
               <linked>
@@ -47968,6 +47823,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>oleDuBzW1NL_+fgo6wP4xID</eid>
               <linked>
@@ -48043,19 +47905,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>MMKOXySSPxD_+teL6CGBUnK</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>eL2oq/mDKTH_9sGhE0i5Kz</eid>
               <linked>
@@ -48086,13 +47935,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>xWtW76LUxBK_jAA2seSBS7C</eid>
               <linked>
@@ -48187,19 +48029,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>jgi0YmaNFJM_fV6pjXodcw</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>UjhfdziFHSF_FsTMMDv7Z0E</eid>
               <linked>
@@ -48215,6 +48044,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>jgi0YmaNFJM_fV6pjXodcw</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>WWPosVPnoJO_SD/PGh3UXlK</eid>
               <linked>
@@ -48230,13 +48072,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>0S1qh8dvVdO_YBXUE0tCpHE</eid>
               <linked>
@@ -48252,6 +48087,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>qeJ/IAGgmpH_jyUNbFawRzI</eid>
               <linked>
@@ -48327,19 +48169,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>FiXrWHiSnSN_TrqliZbvjaF</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>sIePO+Xd1ZD_6HYAMc00BaP</eid>
               <linked>
@@ -48370,13 +48199,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>BmGVM1iA2XG_CtAAaPm1HFC</eid>
               <linked>
@@ -48471,19 +48293,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>7dNLAM2KVKC_2/e/UQ9RxhJ</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>4NlzviFo+AF_hdP4AhUuV6P</eid>
               <linked>
@@ -48499,6 +48308,19 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>7dNLAM2KVKC_2/e/UQ9RxhJ</eid>
+                <linked>
+                  </linked>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>sAA3PZ78uAO_J1OuqXHHji</eid>
               <linked>
@@ -48514,13 +48336,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>TZc+0FeHNfI_Rk+SWtaRoxP</eid>
               <linked>
@@ -48536,6 +48351,13 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>vPRkMQQgkIJ_jEHK1r1UcAJ</eid>
               <linked>
@@ -48611,19 +48433,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>WW6XuGuhJzJ_8u64LQQ2GuG</eid>
-                <linked>
-                  </linked>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>cpUOpn0efgL_UVMxDsbAyJB</eid>
               <linked>
@@ -48654,13 +48463,6 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>4SXH8nPVr9P_itA5Jcpvl4I</eid>
               <linked>
@@ -49113,6 +48915,7 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <eid>7jVeFRyvC5J_bIEYCv7LsLE</eid>
               <linked>
@@ -49144,6 +48947,7 @@ da Capo</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <eid>JqAF/SkR7PE_+XR5Ly5LJCD</eid>
               <linked>

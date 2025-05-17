@@ -7,12 +7,12 @@
     <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
     <pageOddLeftMargin>0.590551</pageOddLeftMargin>
     <pageEvenTopMargin>0.590551</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+    <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
     <pageOddTopMargin>0.590551</pageOddTopMargin>
-    <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+    <pageOddBottomMargin>0.393701</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
-    <staffLowerBorder>7</staffLowerBorder>
+    <staffLowerBorder>9</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
     <instrumentNameOffset>1</instrumentNameOffset>
@@ -483,10 +483,12 @@
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL>$p</evenFooterL>
-    <evenFooterC>$:copyright:</evenFooterC>
+    <evenFooterC>$C
+$:composer: ~ $:workTitle: ~ ver. $MT$m</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$:copyright:</oddFooterC>
+    <oddFooterC>$C
+$:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <oddFooterR>$p</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
