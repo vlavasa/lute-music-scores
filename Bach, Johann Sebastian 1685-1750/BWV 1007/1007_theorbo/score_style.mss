@@ -3,16 +3,16 @@
   <Style>
     <pageWidth>8.27</pageWidth>
     <pageHeight>11.69</pageHeight>
-    <pagePrintableWidth>7.0889</pagePrintableWidth>
-    <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.590551</pageOddLeftMargin>
-    <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+    <pagePrintableWidth>7.4826</pagePrintableWidth>
+    <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.393701</pageOddLeftMargin>
+    <pageEvenTopMargin>0.393701</pageEvenTopMargin>
     <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
-    <pageOddTopMargin>0.590551</pageOddTopMargin>
+    <pageOddTopMargin>0.393701</pageOddTopMargin>
     <pageOddBottomMargin>0.393701</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
-    <staffUpperBorder>7</staffUpperBorder>
-    <staffLowerBorder>9</staffLowerBorder>
+    <staffUpperBorder>0</staffUpperBorder>
+    <staffLowerBorder>0</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
     <instrumentNameOffset>1</instrumentNameOffset>
