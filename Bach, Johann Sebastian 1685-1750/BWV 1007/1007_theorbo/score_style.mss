@@ -12,7 +12,7 @@
     <pageOddBottomMargin>0.393701</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>0</staffUpperBorder>
-    <staffLowerBorder>0</staffLowerBorder>
+    <staffLowerBorder>7</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
     <instrumentNameOffset>1</instrumentNameOffset>
@@ -699,7 +699,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
     <composerFontStyle>0</composerFontStyle>
     <composerColor r="0" g="0" b="0" a="255"/>
-    <composerAlign>right,bottom</composerAlign>
+    <composerAlign>right,top</composerAlign>
     <composerOffset x="0" y="0"/>
     <composerOffsetType>0</composerOffsetType>
     <composerFrameType>0</composerFrameType>
@@ -714,7 +714,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <lyricistFontSpatiumDependent>0</lyricistFontSpatiumDependent>
     <lyricistFontStyle>0</lyricistFontStyle>
     <lyricistColor r="0" g="0" b="0" a="255"/>
-    <lyricistAlign>left,bottom</lyricistAlign>
+    <lyricistAlign>left,top</lyricistAlign>
     <lyricistOffset x="0" y="0"/>
     <lyricistOffsetType>0</lyricistOffsetType>
     <lyricistFrameType>0</lyricistFrameType>
