@@ -492,8 +492,8 @@
               <linkedMain/>
               <visible>0</visible>
               <subtype>3</subtype>
-              <userLen1>0.759712</userLen1>
-              <userLen2>-2.89822</userLen2>
+              <userLen1>1.00783</userLen1>
+              <userLen2>-2.6252</userLen2>
               </Arpeggio>
             </Chord>
           </voice>
@@ -1187,14 +1187,15 @@
               <string>5</string>
               </Note>
             <Note>
-              <eid>QSi2rQS/+gN_wAbqvK0rKNG</eid>
+              <eid>F5Av/hFmJGK_QiXTIwS1HFM</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
-              <color r="0" g="0" b="255" a="255"/>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>mWk6kwx5aLN_5i+7mJxDniD</eid>
@@ -1208,15 +1209,15 @@
               <string>2</string>
               </Note>
             <Note>
-              <eid>F5Av/hFmJGK_QiXTIwS1HFM</eid>
+              <eid>QSi2rQS/+gN_wAbqvK0rKNG</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <color r="0" g="0" b="255" a="255"/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -1238,15 +1239,15 @@
               <string>5</string>
               </Note>
             <Note>
-              <eid>SG4c+njWWlO_NSAUmdvFeKF</eid>
+              <eid>BNsSjjAP8QF_bMW5dy+LksI</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
-              <color r="255" g="0" b="0" a="255"/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>GC1/2BsGFWE_B1lu3h1PZFP</eid>
@@ -1260,17 +1261,29 @@
               <string>1</string>
               </Note>
             <Note>
-              <eid>BNsSjjAP8QF_bMW5dy+LksI</eid>
+              <eid>SG4c+njWWlO_NSAUmdvFeKF</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <color r="255" g="0" b="0" a="255"/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            <timeTick>1</timeTick>
+            </location>
+          <Expression>
+            <eid>SchtXwn6wCD_BwpdUnJOTQC</eid>
+            <size>20</size>
+            <offset x="0.109583" y="22.9165"/>
+            <text><font size="20"/>Varianta nahoře???</text>
+            </Expression>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Spanner type="TextLine">
             <TextLine>
               <eid>9di44Y8TyHE_LndeUyc/mGF</eid>
@@ -1280,7 +1293,7 @@
               <lineStyle>dotted</lineStyle>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.668415" y="3.725"/>
+                <offset x="-0.668415" y="4"/>
                 <off2 x="0.668415" y="0"/>
                 <eid>djrUek//WuD_4M/MfkzZAVC</eid>
                 <autoplace>0</autoplace>
@@ -1333,8 +1346,8 @@
               <linked>
                 </linked>
               <subtype>3</subtype>
-              <userLen1>0.759712</userLen1>
-              <userLen2>-2.89822</userLen2>
+              <userLen1>1.00783</userLen1>
+              <userLen2>-2.6252</userLen2>
               </Arpeggio>
             </Chord>
           </voice>
@@ -1419,9 +1432,20 @@
               <string>4</string>
               </Note>
             <Note>
+              <eid>ehvRx7ETReD_puuGy58dgdD</eid>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>2</fret>
+              <string>3</string>
+              </Note>
+            <Note>
               <eid>GpKkvJxXMmO_bwkPc0LrdjI</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
@@ -1432,24 +1456,13 @@
             <Note>
               <eid>7y584ad4FMI_FcpULP/48JN</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
               <color r="0" g="0" b="255" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>1</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <eid>ehvRx7ETReD_puuGy58dgdD</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -1549,9 +1562,20 @@
               <string>4</string>
               </Note>
             <Note>
+              <eid>YNOT1pecQbK_WZtpqWdDwUB</eid>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
               <eid>jwgtzXHoLNK_BhnSYXDSWlK</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <Accidental>
@@ -1566,24 +1590,13 @@
             <Note>
               <eid>FBC8GUdrvHF_PkYUsE7HWhH</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
               <color r="0" g="0" b="255" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <fret>1</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <eid>YNOT1pecQbK_WZtpqWdDwUB</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -1601,9 +1614,20 @@
               <string>5</string>
               </Note>
             <Note>
+              <eid>srrSuDx0D+G_gOz6SH6Dv4</eid>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
               <eid>xdDt5eF7iFD_mOsS0tvOMwB</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
@@ -1614,24 +1638,13 @@
             <Note>
               <eid>iDJYBb6nIKK_/1PQsKdiRSK</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
               <color r="0" g="0" b="255" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <eid>srrSuDx0D+G_gOz6SH6Dv4</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -1653,9 +1666,20 @@
               <string>5</string>
               </Note>
             <Note>
+              <eid>G5fHWNXPNwK_M/aI9zorfSE</eid>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
               <eid>cTEhTJfuBNC_C/nYQk6ToZM</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
@@ -1666,24 +1690,13 @@
             <Note>
               <eid>UEF2GwqsbS_AVyZTw2k3WK</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
               <color r="0" g="0" b="255" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <eid>G5fHWNXPNwK_M/aI9zorfSE</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
               </Note>
             </Chord>
           <Chord>
