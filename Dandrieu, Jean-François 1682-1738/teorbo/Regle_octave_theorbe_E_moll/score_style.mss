@@ -428,7 +428,7 @@
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
     <hideEmptyStaves>0</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
-    <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
+    <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
     <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
     <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
@@ -481,12 +481,15 @@
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C</oddFooterC>
+    <oddFooterC>* Dandrieu use simple 3 6 chord there.
+
+$C
+$MT$m</oddFooterC>
     <oddFooterR></oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
