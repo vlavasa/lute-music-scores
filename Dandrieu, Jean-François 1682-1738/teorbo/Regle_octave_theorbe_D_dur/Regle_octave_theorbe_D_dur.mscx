@@ -10,21 +10,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
+    <metaTag name="arranger">arr. Vladimír Váša</metaTag>
     <metaTag name="audioComUrl"></metaTag>
-    <metaTag name="composer">Skladatel/aranžér</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="composer">according to Dandrieu</metaTag>
+    <metaTag name="copyright">© 2025 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-08-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Podnázev skladby</metaTag>
+    <metaTag name="subtitle">D major</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Nepojmenovaný notový zápis</metaTag>
+    <metaTag name="workTitle">Règle de l'octave pour théorbe</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
       <instrument id="theorbo-14-course">
@@ -158,13 +157,14 @@
         <Text>
           <eid>EcmOYEq7yMD_udb3xL3rUeI</eid>
           <style>subtitle</style>
-          <text>D dur</text>
+          <text>D major</text>
           </Text>
         <Text>
           <eid>CmXgS5o26NO_UtrXjfCKu8I</eid>
           <style>composer</style>
           <offset x="-0.2" y="0"/>
-          <text>~ Dandrieu</text>
+          <text>according to Dandrieu
+arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -3218,16 +3218,10 @@
               <Symbol>
                 <name>noteheadParenthesisLeft</name>
                 <eid>Ze0l9bssPcM_hjZPbTMK4GJ</eid>
-                <linked>
-                  <indexDiff>-4</indexDiff>
-                  </linked>
                 </Symbol>
               <Symbol>
                 <name>noteheadParenthesisRight</name>
                 <eid>q+uz1q1oZ0P_iUbxDnnucGI</eid>
-                <linked>
-                  <indexDiff>-5</indexDiff>
-                  </linked>
                 </Symbol>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -3239,7 +3233,7 @@
             <Note>
               <eid>NA3lEMT0yOC_RSOtEahWDZF</eid>
               <linked>
-                <indexDiff>-3</indexDiff>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <color r="0" g="170" b="0" a="255"/>
               <pitch>57</pitch>
