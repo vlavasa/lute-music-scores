@@ -10,21 +10,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
+    <metaTag name="arranger">arr. Vladimír Váša</metaTag>
     <metaTag name="audioComUrl"></metaTag>
-    <metaTag name="composer">Skladatel/aranžér</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="composer">according to Dandrieu</metaTag>
+    <metaTag name="copyright">© 2025 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-08-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Podnázev skladby</metaTag>
+    <metaTag name="subtitle">A major</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Nepojmenovaný notový zápis</metaTag>
+    <metaTag name="workTitle">Règle de l'octave pour théorbe</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
       <instrument id="theorbo-14-course">
@@ -156,12 +155,13 @@
         <Text>
           <eid>1RPmYWXBqWN_Jd/WWRYlT4B</eid>
           <style>subtitle</style>
-          <text>A dur</text>
+          <text>A major</text>
           </Text>
         <Text>
           <eid>PNlNeto5VhB_f9iBOaFpvPM</eid>
           <style>composer</style>
-          <text>~ Dandrieu</text>
+          <text>according to Dandrieu
+arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -321,6 +321,15 @@
               <tpc>21</tpc>
               <fret>4</fret>
               <string>5</string>
+              </Note>
+            <Note>
+              <eid>4MU3OpEZaBJ_TYKuT3zT0xF</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>dmLOP3gxFiK_Fi/psxGK+3M</eid>
@@ -935,6 +944,15 @@
               <string>5</string>
               </Note>
             <Note>
+              <eid>ckU9f+gFYiF_/nUNyy91aEM</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              <fret>5</fret>
+              <string>1</string>
+              </Note>
+            <Note>
               <eid>mw7351yaAtI_YxXlpGTpK7G</eid>
               <linkedMain/>
               <color r="0" g="170" b="0" a="255"/>
@@ -1201,7 +1219,7 @@
             <Note>
               <eid>d6ZCUAus8dB_7+dU9yN3FLM</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
@@ -1212,13 +1230,23 @@
             <Note>
               <eid>KAP/cf6sIRC_9SY7nrJac+I</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <color r="0" g="170" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
+              </Note>
+            <Note>
+              <eid>DZzlqtwm9rM_wfAW/DjV3VK</eid>
+              <linked>
+                <indexDiff>-2</indexDiff>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1716,13 +1744,24 @@
             <Note>
               <eid>SVw+V+PYo6O_EG5hIEjRYMD</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>5</fret>
               <string>2</string>
+              </Note>
+            <Note>
+              <eid>jY5OKq1ekWK_Rl+jYElKuyJ</eid>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <small>1</small>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>vIJAZ/8dpjO_LzND3x2M8ZD</eid>
