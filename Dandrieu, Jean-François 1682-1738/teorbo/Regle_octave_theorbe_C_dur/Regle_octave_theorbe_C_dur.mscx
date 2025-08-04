@@ -10,21 +10,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
+    <metaTag name="arranger">C major</metaTag>
     <metaTag name="audioComUrl"></metaTag>
-    <metaTag name="composer">Skladatel/aranžér</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="composer">according to Dandrieu arr. Vladimír Váša</metaTag>
+    <metaTag name="copyright">© 2025 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-08-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">Podnázev skladby</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Nepojmenovaný notový zápis</metaTag>
+    <metaTag name="workTitle">Règle de l'octave pour théorbe</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
       <instrument id="theorbo-14-course">
@@ -157,13 +156,14 @@
         <Text>
           <eid>gnS3AUCneUO_Xa/o4uazmFD</eid>
           <style>subtitle</style>
-          <text>C dur</text>
+          <text>C major</text>
           </Text>
         <Text>
           <eid>TuYo4JYcVvK_GnYWqfwDapM</eid>
           <style>composer</style>
           <offset x="-0.2" y="0"/>
-          <text>~ Dandrieu</text>
+          <text>according to Dandrieu
+arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -1048,6 +1048,7 @@
         </Measure>
       <Measure>
         <eid>wG68IY8dcyM_zu/VGZNjUlB</eid>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
           <FiguredBass>
             <ticks>1/2</ticks>
@@ -3290,9 +3291,20 @@
               <string>4</string>
               </Note>
             <Note>
+              <eid>UVcfUoX3WvB_dmkw89I5KVP</eid>
+              <linked>
+                <indexDiff>1</indexDiff>
+                </linked>
+              <color r="255" g="170" b="0" a="255"/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>4</fret>
+              <string>3</string>
+              </Note>
+            <Note>
               <eid>0MjgY4CGxoE_lRewuxEvWEJ</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
@@ -3303,24 +3315,13 @@
             <Note>
               <eid>pxPZ2UINy/L_1EysOEo4aEM</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
               <color r="0" g="0" b="255" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>3</fret>
               <string>1</string>
-              </Note>
-            <Note>
-              <eid>UVcfUoX3WvB_dmkw89I5KVP</eid>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <color r="255" g="170" b="0" a="255"/>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>3</string>
               </Note>
             </Chord>
           <Chord>
