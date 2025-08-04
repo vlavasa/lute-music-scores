@@ -20,6 +20,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">e minor</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -160,7 +161,8 @@
         <Text>
           <eid>m9VW+NHdc/N_beLX3iVnC0B</eid>
           <style>composer</style>
-          <text>~ Dandrieu</text>
+          <text>~ according to Dandrieu
+arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -571,7 +573,7 @@
             <Note>
               <eid>KjyXcBw8yIO_1aOh1dJnrVM</eid>
               <linkedMain/>
-              <color r="0" g="0" b="255" a="255"/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>7</fret>
@@ -1259,9 +1261,18 @@
               <string>5</string>
               </Note>
             <Note>
+              <eid>whlFkMMRvXD_8w9LTpRo2jC</eid>
+              <linked>
+                </linked>
+              <color r="0" g="0" b="255" a="255"/>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>4</string>
+              </Note>
+            <Note>
               <eid>1VALmNekVuG_u2JX24845TM</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="170" b="0" a="255"/>
               <pitch>60</pitch>
@@ -1272,24 +1283,12 @@
             <Note>
               <eid>Q34by12XFiL_B97t5Ch8OOB</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <fret>5</fret>
               <string>2</string>
-              </Note>
-            <Note>
-              <eid>whlFkMMRvXD_8w9LTpRo2jC</eid>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <color r="0" g="0" b="255" a="255"/>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
               </Note>
             </Chord>
           </voice>
@@ -1474,7 +1473,7 @@
               <linked>
                 <indexDiff>-1</indexDiff>
                 </linked>
-              <color r="0" g="0" b="255" a="255"/>
+              <color r="0" g="170" b="0" a="255"/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               <fret>7</fret>
@@ -1671,24 +1670,23 @@
               <string>4</string>
               </Note>
             <Note>
-              <eid>NYO6n00fC1P_sYtIhaBqzHD</eid>
-              <linked>
-                <indexDiff>1</indexDiff>
-                </linked>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            <Note>
               <eid>ny9MiEW4C3O_Rq4YmLULQ8N</eid>
               <linked>
-                <indexDiff>-2</indexDiff>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
               <string>1</string>
+              </Note>
+            <Note>
+              <eid>NYO6n00fC1P_sYtIhaBqzHD</eid>
+              <linked>
+                </linked>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
