@@ -10,21 +10,20 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
+    <metaTag name="arranger">arr. Vladimír Váša</metaTag>
     <metaTag name="audioComUrl"></metaTag>
-    <metaTag name="composer">Skladatel/aranžér</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="composer">according to Dandrieu</metaTag>
+    <metaTag name="copyright">© 2025 This work is licensed under a Creative Commons Attribution 4.0 International License.</metaTag>
     <metaTag name="creationDate">2024-08-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="subtitle">Podnázev skladby</metaTag>
+    <metaTag name="subtitle">c minor</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Nepojmenovaný notový zápis</metaTag>
+    <metaTag name="workTitle">Règle de l'octave pour théorbe</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
       <instrument id="theorbo-14-course">
@@ -156,13 +155,13 @@
         <Text>
           <eid>TgNXZjZIgwO_aMdpk/V1OGD</eid>
           <style>subtitle</style>
-          <text>c moll
-<i>celé divné, nutno konzultovat!</i></text>
+          <text>c minor</text>
           </Text>
         <Text>
           <eid>s5Ex880MRXE_AP5sDnWfhVG</eid>
           <style>composer</style>
-          <text>~ Dandrieu</text>
+          <text>~ according to Dandrieu
+arr. Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -194,10 +193,10 @@
             <Note>
               <eid>73aLSjRsgJM_CGpcS3LNNiL</eid>
               <linkedMain/>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             <Note>
               <eid>YuvFutcc1WF_b6pxOkMaWhE</eid>
@@ -248,10 +247,10 @@
             <Note>
               <eid>jsk2EL0ixLB_VbKucM5bucI</eid>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             <Note>
               <eid>kRu3d0ysiiO_5IH7L9JAUnE</eid>
@@ -302,33 +301,34 @@
             <Note>
               <eid>C6lktEm+SuC_9ygO8eVQd/C</eid>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
-              <fret>6</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>8</string>
+              </Note>
+            <Note>
+              <eid>m3sRrJR1SjK_7+uYWhMAu/F</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>HgEdVPjEb/C_6ZAfo9Z5lwL</eid>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>c8589eehk9J_akfx6Bj3Y+</eid>
               <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>6</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <eid>m3sRrJR1SjK_7+uYWhMAu/F</eid>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>8</fret>
+              <small>1</small>
+              <fret>4</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -351,33 +351,33 @@
             <Note>
               <eid>gHuTXnb6Su_veJN3x79XaN</eid>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
-              <fret>8</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>7</string>
+              </Note>
+            <Note>
+              <eid>ZuMEvTa1EqL_FIb+TT8BkVJ</eid>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <fret>4</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>SrYHv3EdRJD_59uDsjldj1G</eid>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>lDfVHIqByqK_h8jHib3nd0C</eid>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>7</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>ZuMEvTa1EqL_FIb+TT8BkVJ</eid>
-              <linkedMain/>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              <fret>9</fret>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -405,10 +405,18 @@
             <Note>
               <eid>RDrWq0wi/6K_vJgwPOOLeRM</eid>
               <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>6</string>
+              </Note>
+            <Note>
+              <eid>HCnKLBKpKaI_LyKrT7Pij9E</eid>
+              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>3dF8NCgmesJ_PfLbmxC2LbB</eid>
@@ -419,23 +427,15 @@
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>7</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>2NS0jqH3LUP_rG0eoivROSN</eid>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <eid>HCnKLBKpKaI_LyKrT7Pij9E</eid>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>8</fret>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -458,25 +458,25 @@
                 <subtype>accidentalNatural</subtype>
                 <eid>eoLRerBxVlH_t49XdFI16NH</eid>
                 </Accidental>
-              <pitch>57</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
-              <fret>7</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <eid>xlnsHDDBFtP_AjZojeAxMdC</eid>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>F2dLWxocSBF_1qAVblO7sEI</eid>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>xlnsHDDBFtP_AjZojeAxMdC</eid>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>8</fret>
+              <fret>3</fret>
               <string>0</string>
               </Note>
             </Chord>
@@ -509,33 +509,33 @@
                 <subtype>accidentalNatural</subtype>
                 <eid>InwWPI9FQdN_ChLFeweGvDD</eid>
                 </Accidental>
-              <pitch>59</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <eid>u7VYANgJ7RN_N+Fa41GvtVN</eid>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>+fOL3X/UI7D_un5UD+lrPhF</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>RiE0VPl19BL_Qhp2qS5Q91L</eid>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>10</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>u7VYANgJ7RN_N+Fa41GvtVN</eid>
-              <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>8</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <eid>+fOL3X/UI7D_un5UD+lrPhF</eid>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>8</fret>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -554,25 +554,33 @@
             <Note>
               <eid>LrdEObEYdvJ_Ufod0mjxSpJ</eid>
               <linkedMain/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <eid>bcq1aszhmzE_xzNXH0ytK4P</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>NDLxGqUdbfL_A7Be/61XErJ</eid>
+              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>i4wODtgEGKL_pTXmdlHopc</eid>
               <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>8</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>bcq1aszhmzE_xzNXH0ytK4P</eid>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>8</fret>
+              <fret>4</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -596,25 +604,33 @@
             <Note>
               <eid>KpHxKXfJtiO_7mcGAyfxnXG</eid>
               <linkedMain/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            <Note>
+              <eid>SMTFd4GMxtL_uZm8OT8jCqJ</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>IytCJlu2+PP_V6+yq8MjXhD</eid>
+              <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>jKUtLsSrbmG_B8UCLhmf7mL</eid>
               <linkedMain/>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>8</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>SMTFd4GMxtL_uZm8OT8jCqJ</eid>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>8</fret>
+              <fret>4</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -642,18 +658,10 @@
             <Note>
               <eid>rt8Z+5LUwoN_9+wI5lJuatO</eid>
               <linkedMain/>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>8</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <eid>cTPf/FhSEF_/NoUVdNOJoM</eid>
-              <linkedMain/>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>1</fret>
+              <string>5</string>
               </Note>
             <Note>
               <eid>JspTy3v8DmD_0TlClTD1FAG</eid>
@@ -662,18 +670,26 @@
                 <subtype>accidentalNatural</subtype>
                 <eid>ZaDEFSa9T7D_3OtXhL09NVL</eid>
                 </Accidental>
-              <pitch>64</pitch>
+              <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>9</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>+uWyVk9dahO_QLG4B8T30uM</eid>
               <linkedMain/>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <eid>cTPf/FhSEF_/NoUVdNOJoM</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -701,37 +717,82 @@
           <Chord>
             <eid>gygDFvy0t3D_mGK+SA6OeNJ</eid>
             <linkedMain/>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>zVth31dvaiJ_EtwlA4iUh9H</eid>
               <linkedMain/>
-              <pitch>56</pitch>
+              <pitch>44</pitch>
               <tpc>10</tpc>
-              <fret>6</fret>
-              <string>4</string>
+              <fret>1</fret>
+              <string>6</string>
+              </Note>
+            <Note>
+              <eid>wsVbxM5jvaK_83CDnAVkOxI</eid>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>kd0iR+OZ/S_PmwOdzbtijM</eid>
               <linkedMain/>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>xu6ROvsCXkP_7jRL4PSATpE</eid>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>7</fret>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <FiguredBass>
+            <ticks>1/2</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              <suffix>6</suffix>
+              </FiguredBassItem>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>4</digit>
+              </FiguredBassItem>
+            <eid>INWd40dWtxP_vOfZt9MXwwG</eid>
+            <offset x="-1.5" y="0"/>
+            </FiguredBass>
+          <Chord>
+            <eid>welWgEfEAsD_sQCoZjJhuo</eid>
+            <linkedMain/>
+            <offset x="-1.5" y="0"/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>ZD7zRI2gO5E_vs7uDyeskoC</eid>
+              <linkedMain/>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <fret>1</fret>
               <string>3</string>
               </Note>
             <Note>
-              <eid>wsVbxM5jvaK_83CDnAVkOxI</eid>
+              <eid>/DfMT31tRLM_unNLj+nT9HE</eid>
               <linkedMain/>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>6</fret>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>GoSQ2PwcYGD_din0gvyTLbO</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -754,10 +815,18 @@
             <Note>
               <eid>dAlS8ScHdIJ_+NAulGxJjeG</eid>
               <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>6</string>
+              </Note>
+            <Note>
+              <eid>PJrwYjUIN2B_hXjzAarAqYG</eid>
+              <linkedMain/>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>UMRAGTDp8kK_kgZdwg6f8+H</eid>
@@ -768,23 +837,15 @@
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>7</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>QQ49GxjCTCE_7qUJ7KLUzcO</eid>
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <eid>PJrwYjUIN2B_hXjzAarAqYG</eid>
-              <linkedMain/>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <fret>8</fret>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -817,10 +878,10 @@
             <Note>
               <eid>84atLSCyehC_i7+XgqIBj7O</eid>
               <linkedMain/>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               </Note>
             <Note>
               <eid>CP9lsi50Y2P_RGEiFUtvBUJ</eid>
@@ -866,10 +927,10 @@
             <Note>
               <eid>q2DDpkpy0dB_ENWIcVc0g4L</eid>
               <linkedMain/>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
-              <fret>1</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               </Note>
             <Note>
               <eid>iLn0/KcxaeO_wuT4Juxzt5M</eid>
@@ -917,10 +978,10 @@
             <Note>
               <eid>wrCYiOv4vgI_E2fHAow/ZOE</eid>
               <linkedMain/>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             <Note>
               <eid>zuOaBEN3xJJ_jS4NNgweNwO</eid>
@@ -955,6 +1016,7 @@
               <linkedMain/>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <small>1</small>
               <fret>3</fret>
               <string>2</string>
               </Note>
@@ -974,10 +1036,10 @@
             <Note>
               <eid>DtW5hG6L5CG_FbV6fxxF/2L</eid>
               <linkedMain/>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             <Note>
               <eid>yeVdk/IXIID_vaILbWXT6qJ</eid>
@@ -1025,10 +1087,10 @@
               <eid>qW1lKApG7mO_9asy0svrJYD</eid>
               <linked>
                 </linked>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             <Note>
               <eid>KqkZ1a5S77L_df35KauxdxG</eid>
@@ -1070,10 +1132,10 @@
               <eid>Wl3AccciUBJ_nmPE3K2j4tJ</eid>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             <Note>
               <eid>mPeRTSl3QUM_GV4VSutYI2G</eid>
@@ -1118,40 +1180,38 @@
               <eid>8vQauRshJLP_JPPw6lLLzaJ</eid>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
-              <fret>6</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>8</string>
               </Note>
             <Note>
               <eid>68VBoVMEsMO_yic4rZ4XQ1M</eid>
               <linked>
-                <indexDiff>2</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>H3+GLW1eZVK_K0yjwbGFumM</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>Y5/HeYzbkQF_5D3NlhWFb6G</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>6</fret>
-              <string>0</string>
+              <small>1</small>
+              <fret>4</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -1163,40 +1223,40 @@
               <eid>HZQsBaXv0pE_sx077470/U</eid>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
-              <fret>8</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>7</string>
               </Note>
             <Note>
               <eid>vqER0AZOxFL_GW6hGtTbCoC</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>7</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>BzO6u3tFBJO_Va5YKfDlQbJ</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>-1</indexDiff>
                 </linked>
-              <pitch>68</pitch>
+              <pitch>56</pitch>
               <tpc>10</tpc>
-              <fret>9</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>oYym39cfhe_y06WgTPmkUK</eid>
               <linked>
-                <indexDiff>-2</indexDiff>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -1212,40 +1272,37 @@
               <eid>fh9XkNZ6sAG_XSfKGPJxZUM</eid>
               <linked>
                 </linked>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>6</string>
               </Note>
             <Note>
               <eid>KJJ8jWWMqTG_4LnCopcRnlB</eid>
               <linked>
-                <indexDiff>2</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>BwuA3oIvZ8H_5Fefnh21+6F</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>7</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>iBvFPKgocdO_pNqUgpZdXfH</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>0</string>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -1257,28 +1314,30 @@
               <eid>QiU0+FWc3TC_5EpDn6rI7EE</eid>
               <linked>
                 </linked>
-              <pitch>57</pitch>
+              <pitch>45</pitch>
               <tpc>17</tpc>
-              <fret>7</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>5</string>
               </Note>
             <Note>
               <eid>lTxYaB0uurE_QALhWBL+cp</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>YT0Lk346bsL_2CTJR1LfZjO</eid>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
-              <pitch>65</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
-              <fret>8</fret>
-              <string>0</string>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -1294,40 +1353,40 @@
               <eid>TCx9zZi5y6D_hc2UqENhHZP</eid>
               <linked>
                 </linked>
-              <pitch>59</pitch>
+              <pitch>47</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>5</string>
               </Note>
             <Note>
               <eid>Y/2XsKhOhgB_e/JOBO8K+CC</eid>
               <linked>
-                <indexDiff>2</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>y4/IXHdXr0K_KEqOCfNNS2C</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>10</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>8KNhmiMa99E_Dq7D+ZtUGrO</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
+                <indexDiff>-2</indexDiff>
                 </linked>
-              <pitch>65</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
-              <fret>8</fret>
-              <string>0</string>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1339,28 +1398,40 @@
               <eid>x3dRma2M3W_NyAR6vsmw1I</eid>
               <linked>
                 </linked>
-              <pitch>60</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <eid>I3nB9cGbp6B_/9P54AoW5JG</eid>
               <linked>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>8</fret>
-              <string>3</string>
+              <fret>4</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>Sm/l46KXibO_XVFE1qiNKvM</eid>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>/PJxuJUZJAE_OQfW5fLT0+L</eid>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -1376,28 +1447,40 @@
               <eid>IdE3DH0eEOI_kGiSk4j+RhF</eid>
               <linked>
                 </linked>
-              <pitch>60</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             <Note>
               <eid>cnRIeCXukzB_2OOiMrO8qQB</eid>
               <linked>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              <fret>8</fret>
-              <string>3</string>
+              <fret>4</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>WI7cXN8YojP_fIkuCm3ex7D</eid>
               <linked>
+                <indexDiff>-1</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>sKcG2mHcm+P_W+mYHzViLtK</eid>
+              <linked>
+                <indexDiff>-1</indexDiff>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -1409,40 +1492,37 @@
               <eid>E0jIoIwQYlJ_7JqHVlnX8SH</eid>
               <linked>
                 </linked>
-              <pitch>58</pitch>
+              <pitch>46</pitch>
               <tpc>12</tpc>
-              <fret>8</fret>
-              <string>4</string>
+              <fret>1</fret>
+              <string>5</string>
               </Note>
             <Note>
               <eid>xWA+7Dai/8G_7thWlGa8mxB</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
-              <pitch>64</pitch>
+              <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>9</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>/uLyWEOSG0N_DYndLFuhKgB</eid>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>gBccIAZHCoN_jJrsoJdRXN</eid>
               <linked>
-                <indexDiff>-2</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -1453,45 +1533,80 @@
             <eid>YZhOoGZhKmF_kCu1uR+YvqL</eid>
             <linked>
               </linked>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>MxQLMZEFqkE_W70Y6TtsGMJ</eid>
               <linked>
                 </linked>
-              <pitch>56</pitch>
+              <pitch>44</pitch>
               <tpc>10</tpc>
-              <fret>6</fret>
-              <string>4</string>
+              <fret>1</fret>
+              <string>6</string>
               </Note>
             <Note>
               <eid>PuAIO2Q64UB_A0oFvx38MII</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>7</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>EAktVd2FxWE_PkONyPjf1aM</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>-1</indexDiff>
                 </linked>
-              <pitch>65</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
-              <fret>6</fret>
-              <string>2</string>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>QlByUoQtveO_zIxFn5Ia50M</eid>
               <linked>
-                <indexDiff>-2</indexDiff>
+                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>8</fret>
-              <string>1</string>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>jvtY/8V4JkK_MFZp43Hhcp</eid>
+            <linked>
+              </linked>
+            <offset x="-1.5" y="0"/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>PprnQTFn1CE_Xg9KapRFrxH</eid>
+              <linked>
+                </linked>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <fret>1</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <eid>VG8xotFz04B_vDUO9Lc8PxM</eid>
+              <linked>
+                </linked>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>nD0CIGhc5MI_xM5ODlAFhQH</eid>
+              <linked>
+                </linked>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -1503,25 +1618,23 @@
               <eid>rNxycl6P1dG_jFVupGa6xqP</eid>
               <linked>
                 </linked>
-              <pitch>55</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>6</string>
               </Note>
             <Note>
               <eid>VhvxlN5UQgC_sc4a7i/ge9C</eid>
               <linked>
-                <indexDiff>2</indexDiff>
                 </linked>
-              <pitch>67</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>8</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>IC0fO8wvGJG_/B30dDbE8E</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -1529,18 +1642,17 @@
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>7</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>J+YXUTb4ipJ_enFGQg6KvfE</eid>
               <linked>
-                <indexDiff>-1</indexDiff>
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>5</fret>
-              <string>0</string>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -1556,10 +1668,10 @@
               <eid>nxQ0LGza9TM_10/Gi4wk4DP</eid>
               <linked>
                 </linked>
-              <pitch>53</pitch>
+              <pitch>41</pitch>
               <tpc>13</tpc>
-              <fret>3</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>7</string>
               </Note>
             <Note>
               <eid>J9C1+rIR/vC_kYPB1M0e0CB</eid>
@@ -1601,10 +1713,10 @@
               <eid>OGr7oC4cO3F_GSf2OY27ZqB</eid>
               <linked>
                 </linked>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
-              <fret>1</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>8</string>
               </Note>
             <Note>
               <eid>fasTGO5AbiI_PlXz8x5D8YC</eid>
@@ -1638,10 +1750,10 @@
               <eid>MIgFxdx0BhM_ZCzHDARlHyG</eid>
               <linked>
                 </linked>
-              <pitch>50</pitch>
+              <pitch>38</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>4</string>
+              <string>9</string>
               </Note>
             <Note>
               <eid>NVOT15HlOCE_8zjlgi2/9yI</eid>
@@ -1660,6 +1772,7 @@
                 </linked>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <small>1</small>
               <fret>3</fret>
               <string>2</string>
               </Note>
@@ -1697,10 +1810,10 @@
               <eid>YMeVcRGsqy_75RS5p/y+pP</eid>
               <linked>
                 </linked>
-              <pitch>48</pitch>
+              <pitch>36</pitch>
               <tpc>14</tpc>
-              <fret>3</fret>
-              <string>5</string>
+              <fret>0</fret>
+              <string>10</string>
               </Note>
             <Note>
               <eid>M882zr24EkO_xib6VkzqeGC</eid>
