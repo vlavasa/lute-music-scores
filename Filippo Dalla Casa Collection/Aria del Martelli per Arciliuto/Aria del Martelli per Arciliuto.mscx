@@ -22,6 +22,7 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">Podnázev skladby</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -83,11 +84,11 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <bracket type="1" span="2" col="0" visible="1"/>
         </Staff>
       <trackName>Arciloutna</trackName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="archlute-14-course">
-        <shortName>A. lout.</shortName>
         <trackName>Arciloutna</trackName>
         <minPitchP>29</minPitchP>
         <maxPitchP>77</maxPitchP>
@@ -131,7 +132,6 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
         </Staff>
       <trackName>Theorba</trackName>
       <Instrument id="theorbo-14-course">
-        <shortName>Thb.</shortName>
         <trackName>Theorba</trackName>
         <minPitchP>31</minPitchP>
         <maxPitchP>71</maxPitchP>
@@ -1149,6 +1149,10 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
             <eid>7IeHWSotzCC_40xnDPiEB7G</eid>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Ornament>
+              <subtype>ornamentTrill</subtype>
+              <eid>wTDph8t2GUG_/HYUS052x8C</eid>
+              </Ornament>
             <Note>
               <eid>ch9RELvMQLI_CM2eUAj69mC</eid>
               <pitch>67</pitch>
