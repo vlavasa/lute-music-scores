@@ -13,8 +13,7 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="audioComUrl"></metaTag>
     <metaTag name="composer">Skladatel/aranžér</metaTag>
-    <metaTag name="copyright">© 2025. This is a transcription of a public domain work.
-http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=2255
+    <metaTag name="copyright">© 2025. This is a transcription of a public domain work: http://www.bibliotecamusica.it/cmbm/scripts/gaspari/scheda.asp?id=2255
 Any original additions are licensed under CC BY 4.0.</metaTag>
     <metaTag name="creationDate">2025-10-16</metaTag>
     <metaTag name="lyricist"></metaTag>
@@ -22,7 +21,6 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">Podnázev skladby</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -215,6 +213,7 @@ transcribed by Vladimír Váša</text>
             </TimeSig>
           <StaffText>
             <eid>9uWpCOpSzgK_rEGx0n7lMpP</eid>
+            <style>tempo</style>
             <text>Sonata</text>
             </StaffText>
           <Chord>
@@ -258,8 +257,8 @@ transcribed by Vladimír Váša</text>
             <durationType>16th</durationType>
             <Note>
               <eid>6QAVa9j1FvF_gVcY0Rs2EvJ</eid>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -267,8 +266,8 @@ transcribed by Vladimír Váša</text>
             <durationType>16th</durationType>
             <Note>
               <eid>ff5uSZk8oEG_zqsEEIysIAN</eid>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -276,8 +275,8 @@ transcribed by Vladimír Váša</text>
             <durationType>16th</durationType>
             <Note>
               <eid>jE4F01KdOzC_9sN7XThM0hB</eid>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -364,6 +363,10 @@ transcribed by Vladimír Váša</text>
           <Chord>
             <eid>EGtBDAWnL5M_2N/e+Gi7L7H</eid>
             <durationType>quarter</durationType>
+            <Ornament>
+              <subtype>ornamentTrill</subtype>
+              <eid>vCGuyXRA3SF_o3mVks6y7QM</eid>
+              </Ornament>
             <Note>
               <eid>GeniWhhep5L_ejH6PnFjefH</eid>
               <pitch>65</pitch>
@@ -574,6 +577,11 @@ transcribed by Vladimír Váša</text>
             <durationType>16th</durationType>
             <Note>
               <eid>vdY4YpOoX2P_m/bZzSZkNhP</eid>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                <eid>fS/czyzYWdG_DVszvEEj8UO</eid>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <eid>ZKwWbFlpwvK_/cD1Srh4rnD</eid>
@@ -631,6 +639,10 @@ transcribed by Vladimír Váša</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <eid>DykSp9PZ3SH_7mdHN/+VPMH</eid>
+            <text>?odrážka?</text>
+            </StaffText>
           <Chord>
             <eid>MLFzPdHD+EJ_GNhaTSSR+DK</eid>
             <durationType>32nd</durationType>
@@ -1117,6 +1129,16 @@ transcribed by Vladimír Váša</text>
             <durationType>eighth</durationType>
             <Note>
               <eid>tDlS5cRlqN_VUWJmvPsbvO</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>gZmvcK5VcpH_T5m2J5WEiP</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1126,6 +1148,13 @@ transcribed by Vladimír Váša</text>
             <durationType>16th</durationType>
             <Note>
               <eid>d8qsU1Vo8fE_xnznbHHOWfE</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1631,6 +1660,10 @@ transcribed by Vladimír Váša</text>
             <eid>8POhimuupAB_UPFqpBbYXYE</eid>
             <dots>1</dots>
             <durationType>eighth</durationType>
+            <Ornament>
+              <subtype>ornamentTrill</subtype>
+              <eid>gXRThfJFExO_ooNDZEjanEL</eid>
+              </Ornament>
             <Note>
               <eid>P1muCtqKn0G_8PjPUBYWnpK</eid>
               <pitch>59</pitch>
@@ -1927,6 +1960,7 @@ transcribed by Vladimír Váša</text>
             </TimeSig>
           <StaffText>
             <eid>EVO/VOcjhtH_s741RyHvkPB</eid>
+            <style>tempo</style>
             <text>Aria.
 Allegro</text>
             </StaffText>
@@ -1935,8 +1969,8 @@ Allegro</text>
             <durationType>eighth</durationType>
             <Note>
               <eid>BvKYjiozIvI_wAR9zD+FLQ</eid>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -2302,8 +2336,8 @@ Allegro</text>
             <durationType>16th</durationType>
             <Note>
               <eid>ZHZV5h2VybL_U+mDigH9pCG</eid>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -2361,8 +2395,8 @@ Allegro</text>
             <durationType>16th</durationType>
             <Note>
               <eid>PTuEwREzFD_LGqkv8WvSYH</eid>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3820,8 +3854,8 @@ Allegro</text>
             <durationType>16th</durationType>
             <Note>
               <eid>QQYIVSh7cUF_GH3GCbdrxuH</eid>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4375,6 +4409,7 @@ Allegro</text>
             </TimeSig>
           <StaffText>
             <eid>HAIEppX1neD_dgkApu3PYHE</eid>
+            <style>tempo</style>
             <text>Suo Minuetto.</text>
             </StaffText>
           <Chord>
@@ -5726,7 +5761,6 @@ Allegro</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerDown>10</vspacerDown>
         <voice>
           <Chord>
             <eid>UTpd9aSYkwM_agpsfAlhvFO</eid>
