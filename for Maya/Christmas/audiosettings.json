@@ -1,5 +1,5 @@
 {
-    "activeSoundProfile": "Muse Sounds",
+    "activeSoundProfile": "MuseSounds",
     "aux": [
         {
             "out": {
@@ -183,7 +183,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "6"
+            "partId": "6",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         }
     ]
 }

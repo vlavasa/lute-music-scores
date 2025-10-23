@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.50">
+<museScore version="4.60">
   <font id="0" family="default">
     <mag>1</mag>
     <sym name="accidentales" code="0x266d"/>
@@ -19,8 +19,8 @@
     <sym name="#" code="0x266f"/>
     <sym name="b" code="0x266d"/>
     </font>
-  <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
-  <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
+  <renderRoot>:n m:0:-0.140212 :a m:0.070106:0.140212</renderRoot>
+  <renderBass>m:-0.028042:0.140212 / m:0.028042:0.140212 :n :a m:0:-0.280424</renderBass>
   <chord id="1">
     <name></name>
     <name></name>
@@ -90,7 +90,7 @@
     <xml>major-ninth</xml>
     <voicing>C D G B</voicing>
     <degree>sub3</degree>
-    <render>Maj 9 (no 3)</render>
+    <render>Maj 9 ( no 3 )</render>
     </chord>
   <chord id="12">
     <name>+</name>
@@ -130,7 +130,7 @@
     <xml>minor</xml>
     <voicing>C Eb Ab</voicing>
     <degree>alt#5</degree>
-    <render>m+</render>
+    <render>m +</render>
     </chord>
   <chord id="18">
     <name>mMaj7</name>
@@ -142,31 +142,31 @@
     <name>m7</name>
     <xml>minor-seventh</xml>
     <voicing>C Eb G Bb</voicing>
-    <render>m7</render>
+    <render>m 7</render>
     </chord>
   <chord id="20">
     <name>m9</name>
     <xml>minor-ninth</xml>
     <voicing>C D Eb G Bb</voicing>
-    <render>m9</render>
+    <render>m 9</render>
     </chord>
   <chord id="21">
     <name>m11</name>
     <xml>minor-11th</xml>
     <voicing>C D Eb F G Bb</voicing>
-    <render>m11</render>
+    <render>m 11</render>
     </chord>
   <chord id="22">
     <name>m13</name>
     <xml>minor-13th</xml>
     <voicing>C D Eb F G A Bb</voicing>
-    <render>m13</render>
+    <render>m 13</render>
     </chord>
   <chord id="23">
     <name>m6</name>
     <xml>minor-sixth</xml>
     <voicing>C Eb G A</voicing>
-    <render>m6</render>
+    <render>m 6</render>
     </chord>
   <chord id="24">
     <name>m#5</name>
@@ -187,7 +187,7 @@
     <xml>minor-sixth</xml>
     <voicing>C D Eb G A</voicing>
     <degree>add9</degree>
-    <render>m69</render>
+    <render>m 69</render>
     </chord>
   <chord id="27">
     <name>Lyd</name>
@@ -214,7 +214,7 @@
     <name>m7b5</name>
     <xml>half-diminished</xml>
     <voicing>C Eb Gb Bb</voicing>
-    <render>m7 b 5</render>
+    <render>m 7 b 5</render>
     </chord>
   <chord id="33">
     <name>dim</name>
@@ -227,7 +227,7 @@
     <xml>minor-ninth</xml>
     <voicing>C D Eb Gb Bb</voicing>
     <degree>altb5</degree>
-    <render>m9 b 5</render>
+    <render>m 9 b 5</render>
     </chord>
   <chord id="40">
     <name>5</name>
@@ -239,34 +239,34 @@
     <name>7+</name>
     <xml>augmented-seventh</xml>
     <voicing>C E Ab</voicing>
-    <render>7+</render>
+    <render>7 +</render>
     </chord>
   <chord id="57">
     <name>9+</name>
     <xml>augmented-ninth</xml>
     <voicing>C D E Ab Bb</voicing>
-    <render>9+</render>
+    <render>9 +</render>
     </chord>
   <chord id="58">
     <name>13+</name>
     <xml>dominant-13th</xml>
     <voicing>C D E Ab A Bb</voicing>
     <degree>alt#5</degree>
-    <render>13+</render>
+    <render>13 +</render>
     </chord>
   <chord id="59">
     <name>(blues)</name>
     <xml>major</xml>
     <voicing>C Eb E G</voicing>
     <degree>add#9</degree>
-    <render>(blues)</render>
+    <render>( blues )</render>
     </chord>
   <chord id="60">
     <name>7(Blues)</name>
     <xml>dominant</xml>
     <voicing>C E G Bb</voicing>
     <degree>add#9</degree>
-    <render>7(blues)</render>
+    <render>7 ( Blues )</render>
     </chord>
   <chord id="64">
     <name>7</name>
@@ -1139,7 +1139,7 @@
     <xml>major</xml>
     <voicing>C E G Bb</voicing>
     <degree>add#13</degree>
-    <render># 13</render>
+    <render>add # 13</render>
     </chord>
   <chord id="189">
     <name>add#11#13</name>
@@ -1241,7 +1241,7 @@
     <xml>augmented-seventh</xml>
     <voicing>C D E Ab</voicing>
     <degree>add9</degree>
-    <render># 5 9</render>
+    <render>aug 9</render>
     </chord>
   <chord id="204">
     <name>omit5</name>
