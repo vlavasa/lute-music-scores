@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.60">
-  <programVersion>4.6.2</programVersion>
-  <programRevision>d8d4f8f</programRevision>
+  <programVersion>4.6.3</programVersion>
+  <programRevision>5d3c963</programRevision>
   <Score>
     <eid>lJec0FzCyuE_jROtvnIngWN</eid>
     <Division>480</Division>
@@ -21,6 +21,7 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">Podnázev skladby</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -76,6 +77,9 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
         <family>orchestral-strings</family>
         </section>
       </Order>
+    <SystemObjects>
+      <Instance staffId="2"/>
+      </SystemObjects>
     <Part id="1">
       <Staff>
         <eid>fCqefRQkbZG_cUg7mWzvVbF</eid>
@@ -2451,6 +2455,10 @@ Allegro</text>
           <Chord>
             <eid>h4Wfz0zfjnE_yf0wCjPSmKO</eid>
             <durationType>quarter</durationType>
+            <Ornament>
+              <subtype>ornamentTrill</subtype>
+              <eid>mgVWzzuqOcH_G6N4LSj+igB</eid>
+              </Ornament>
             <Note>
               <eid>KqT+AiZydcJ_aQbEZraeuIC</eid>
               <pitch>60</pitch>
@@ -2489,6 +2497,11 @@ Allegro</text>
       <Measure>
         <eid>z0D+bVsbcND_l/TYDmCRRtO</eid>
         <voice>
+          <RehearsalMark>
+            <eid>gnapbJ2KkWC_PRBEHVL88hF</eid>
+            <style>staff</style>
+            <text><i><font size="14"/>R°</i></text>
+            </RehearsalMark>
           <Chord>
             <eid>KzYKOyrPKXC_ojTuZJjEKjP</eid>
             <durationType>16th</durationType>
@@ -3822,6 +3835,13 @@ Allegro</text>
       <Measure>
         <eid>OPid3l9plIG_gauujqCNbCO</eid>
         <voice>
+          <RehearsalMark>
+            <eid>ZjeAHF4vBDL_IrV620YpXWO</eid>
+            <style>staff</style>
+            <size>14</size>
+            <italic>1</italic>
+            <text><i><font size="14"></font>R°</i></text>
+            </RehearsalMark>
           <Chord>
             <eid>jWmQ8WdKYAK_IngQ5u1Wg6L</eid>
             <durationType>16th</durationType>
@@ -6398,6 +6418,16 @@ Allegro</text>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <eid>zTubtdTgYMF_wyTvGBV0lxL</eid>
+            <linkedTo>gnapbJ2KkWC_PRBEHVL88hF</linkedTo>
+            <style>staff</style>
+            <placement>below</placement>
+            <size>14</size>
+            <italic>1</italic>
+            <offset x="-0.194337" y="2.39529"/>
+            <text><i><font size="14"/>R°</i></text>
+            </RehearsalMark>
           <Chord>
             <eid>rUPro/sh/f_t4+07f5j74K</eid>
             <durationType>eighth</durationType>
@@ -7138,6 +7168,15 @@ Allegro</text>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <eid>Ux5KfO7jzlI_kKb0Cr8XAmF</eid>
+            <linkedTo>ZjeAHF4vBDL_IrV620YpXWO</linkedTo>
+            <style>staff</style>
+            <placement>below</placement>
+            <size>14</size>
+            <italic>1</italic>
+            <text><i><font size="14"></font>R°</i></text>
+            </RehearsalMark>
           <Chord>
             <eid>ykkaTzUrH1L_tka8AIZKdTG</eid>
             <durationType>eighth</durationType>

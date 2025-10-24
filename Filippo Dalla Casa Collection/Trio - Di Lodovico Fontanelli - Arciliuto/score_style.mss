@@ -3,13 +3,13 @@
   <Style>
     <pageWidth>11.69</pageWidth>
     <pageHeight>8.27</pageHeight>
-    <pagePrintableWidth>10.508897637795275</pagePrintableWidth>
-    <pageEvenLeftMargin>0.5905511811023623</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.5905511811023623</pageOddLeftMargin>
-    <pageEvenTopMargin>0.3937007874015748</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.1968503937007874</pageEvenBottomMargin>
-    <pageOddTopMargin>0.3937007874015748</pageOddTopMargin>
-    <pageOddBottomMargin>0.1968503937007874</pageOddBottomMargin>
+    <pagePrintableWidth>10.5089</pagePrintableWidth>
+    <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+    <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.19685</pageEvenBottomMargin>
+    <pageOddTopMargin>0.393701</pageOddTopMargin>
+    <pageOddBottomMargin>0.19685</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
@@ -1798,6 +1798,6 @@
     <repeatPlayCountShow>1</repeatPlayCountShow>
     <repeatPlayCountShowSingleRepeats>0</repeatPlayCountShowSingleRepeats>
     <systemObjectsBelowBottomStaff>0</systemObjectsBelowBottomStaff>
-    <spatium>1.7497777777777777</spatium>
+    <spatium>1.74978</spatium>
     </Style>
   </museScore>
