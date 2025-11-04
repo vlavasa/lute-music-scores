@@ -2498,13 +2498,33 @@ Allegro</text>
       <Measure>
         <eid>z0D+bVsbcND_l/TYDmCRRtO</eid>
         <voice>
-          <RehearsalMark>
-            <eid>gnapbJ2KkWC_PRBEHVL88hF</eid>
-            <style>staff</style>
-            <size>14</size>
-            <italic>1</italic>
-            <text><i><font size="14"></font>R°</i></text>
-            </RehearsalMark>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <eid>ir8oLRmC4iG_HqJAKk0u59B</eid>
+            </Dynamic>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <endHookType>1</endHookType>
+              <endHookHeight>1</endHookHeight>
+              <eid>3Xj24mTlDZB_iqeaJZuKU4O</eid>
+              <diagonal>1</diagonal>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.5" y="2.525"/>
+                <off2 x="-1.5" y="0"/>
+                <eid>bU3p8frxvyH_EZvu71cfGqH</eid>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>3</measures>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>KzYKOyrPKXC_ojTuZJjEKjP</eid>
             <durationType>16th</durationType>
@@ -2753,6 +2773,21 @@ Allegro</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            <timeTick>1</timeTick>
+            </location>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-3</measures>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <eid>gBjcyHDRLfP_7Cy+kZ/PS5C</eid>
             <durationType>eighth</durationType>
@@ -3839,13 +3874,33 @@ Allegro</text>
       <Measure>
         <eid>OPid3l9plIG_gauujqCNbCO</eid>
         <voice>
-          <RehearsalMark>
-            <eid>ZjeAHF4vBDL_IrV620YpXWO</eid>
-            <style>staff</style>
-            <size>14</size>
-            <italic>1</italic>
-            <text><i><font size="14"></font>R°</i></text>
-            </RehearsalMark>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <eid>Puuq+7g/w5_p16Esc6Y0XG</eid>
+            </Dynamic>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <endHookType>1</endHookType>
+              <endHookHeight>1</endHookHeight>
+              <eid>+rMs2O/Uy7O_jlqUqtzZbAH</eid>
+              <diagonal>1</diagonal>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.5" y="2.525"/>
+                <off2 x="-1.5" y="0"/>
+                <eid>ZtZmzSBPpnF_o8yPbUwEGMD</eid>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>jWmQ8WdKYAK_IngQ5u1Wg6L</eid>
             <durationType>16th</durationType>
@@ -3950,6 +4005,21 @@ Allegro</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            <timeTick>1</timeTick>
+            </location>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <eid>DFSbSWXqy9D_ai0lQvmOfdG</eid>
             <durationType>16th</durationType>
@@ -6422,16 +6492,6 @@ Allegro</text>
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <eid>zTubtdTgYMF_wyTvGBV0lxL</eid>
-            <linkedTo>gnapbJ2KkWC_PRBEHVL88hF</linkedTo>
-            <style>staff</style>
-            <placement>below</placement>
-            <size>14</size>
-            <italic>1</italic>
-            <offset x="-0.194337" y="2.39529"/>
-            <text><i><font size="14"></font>R°</i></text>
-            </RehearsalMark>
           <Chord>
             <eid>rUPro/sh/f_t4+07f5j74K</eid>
             <durationType>eighth</durationType>
@@ -7172,15 +7232,6 @@ Allegro</text>
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <eid>Ux5KfO7jzlI_kKb0Cr8XAmF</eid>
-            <linkedTo>ZjeAHF4vBDL_IrV620YpXWO</linkedTo>
-            <style>staff</style>
-            <placement>below</placement>
-            <size>14</size>
-            <italic>1</italic>
-            <text><i><font size="14"></font>R°</i></text>
-            </RehearsalMark>
           <Chord>
             <eid>ykkaTzUrH1L_tka8AIZKdTG</eid>
             <durationType>eighth</durationType>
