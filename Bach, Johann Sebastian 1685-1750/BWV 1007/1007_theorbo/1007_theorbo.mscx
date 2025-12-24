@@ -1014,8 +1014,8 @@ Sarge Gerbode</text>
               <eid>A1jaMRH8YnK_7nzU52TwjNH</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Breath>
@@ -1053,18 +1053,12 @@ Sarge Gerbode</text>
           <Chord>
             <eid>Fa4KDImgSzM_itSycuakiMF</eid>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>luteFingeringRHThird</subtype>
-              <minDistance>-999</minDistance>
-              <eid>u9DlQ18POBI_1GJZbNIajPC</eid>
-              <visible>0</visible>
-              </Articulation>
             <Note>
               <eid>mRoNL72HgZF_XVbEIcsPARE</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -1140,8 +1134,8 @@ Sarge Gerbode</text>
               <eid>3xwQQ6Uhk/G_CtCUHNPZK+J</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -1194,7 +1188,8 @@ Sarge Gerbode</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <measures>1</measures>
+                  <fractions>-3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1220,6 +1215,16 @@ Sarge Gerbode</text>
           <Chord>
             <eid>elVjf5IDU2G_J4B+KPzZH0</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>HGLMvxC8XKB_ApBEnWu9BGM</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>zlHCLW6LujD_4u1Wj9PcF/</eid>
               <Accidental>
@@ -1238,7 +1243,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -1258,6 +1263,14 @@ Sarge Gerbode</text>
           <Chord>
             <eid>jRVnE5wBRyG_9MUW5PRSgq</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <eid>B6J6n+8sGFI_JeY/PVt+2ZK</eid>
@@ -1512,6 +1525,16 @@ Sarge Gerbode</text>
           <Chord>
             <eid>rCEcWTsKNbN_l0YJAHEO9FG</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>mab9o+dCR4F_i0vr++2NwdH</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>SLGDYFw8+EK_poCykeejehC</eid>
               <pitch>62</pitch>
@@ -1523,6 +1546,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>5E96SCogCrO_oLngn+d6bQN</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>d8N3VKCs7rI_uf0L4NWVzxC</eid>
               <Accidental>
@@ -1531,8 +1561,8 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -1564,8 +1594,8 @@ Sarge Gerbode</text>
               <eid>jJ1WIKHIcxD_sGOBP5nVkeH</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -1608,8 +1638,8 @@ Sarge Gerbode</text>
               <eid>haJUX9SxWoB_QSXrxViCSCC</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -1655,9 +1685,20 @@ Sarge Gerbode</text>
           <Chord>
             <eid>rttcrxOvYvM_GBIQvNzGGa</eid>
             <durationType>16th</durationType>
+            <Note>
+              <eid>j9G3JlCzmLN_kIq3Dl4Xn4B</eid>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>T4YkitDNEvL_LcfpBpy7m7B</eid>
+            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>ZTtldzGkyKP_h7qqR2gEkYL</eid>
+                <eid>RQ93XC4RXMD_NknUXDei6UC</eid>
                 </Slur>
               <next>
                 <location>
@@ -1666,29 +1707,11 @@ Sarge Gerbode</text>
                 </next>
               </Spanner>
             <Note>
-              <eid>j9G3JlCzmLN_kIq3Dl4Xn4B</eid>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>T4YkitDNEvL_LcfpBpy7m7B</eid>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
               <eid>27oCzZVv8uH_mjybz0l7iiC</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -1698,6 +1721,13 @@ Sarge Gerbode</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2068,12 +2098,11 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>7TflVNDy4ID_F2GBRbqRXqP</eid>
-                <lineType>1</lineType>
+                <eid>sQRk6N357wF_EtcAzzljkcK</eid>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2081,23 +2110,13 @@ Sarge Gerbode</text>
               <eid>CoZqfkov6yH_nq9ZZRg1QuH</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>6EJoSxUlXAP_Yqyv5SUDTvC</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>clc3Lto624D_/U+x1e7jk+J</eid>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>QWm9ZgxcuVB_+U8G935Z7aG</eid>
               <pitch>54</pitch>
@@ -2112,7 +2131,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2128,11 +2147,14 @@ Sarge Gerbode</text>
             <eid>lebVd3GT2oE_fvhhGvKtQ3K</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>K7OzFmO+X2C_QscpRVhRz2H</eid>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>eg36AN92ngJ_FJPY6wYJZQE</eid>
@@ -2145,17 +2167,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>wkYwzJvxIqN_Hx+ZrzksD0B</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>CA74J8BWmdF_stDU/lRC5oB</eid>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>n6dfesDJrnJ_kyltGEMjjPL</eid>
               <Accidental>
@@ -2164,13 +2175,20 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
             <eid>HROVzuQImZL_gCH40rY6bJL</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>6WGLYOBlsJP_sbO4nK04qXP</eid>
               <pitch>59</pitch>
@@ -2182,12 +2200,22 @@ Sarge Gerbode</text>
           <Chord>
             <eid>2Md/gvzHoPH_D1wl/Txu01P</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>9TGLa1C7cpC_VE64GO1nZBI</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>CRQkrgkW0KH_PtTXBLvg8BK</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -2196,7 +2224,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2218,12 +2246,11 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>zHz8jQvYYlK_224Ye42g2aL</eid>
-                <lineType>1</lineType>
+                <eid>nXd5DhgU6kC_UvyjlIH/xDG</eid>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2242,13 +2269,20 @@ Sarge Gerbode</text>
               <eid>ce82Zp2JPbF_jZsdy24jhzD</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <eid>HmuFBpeD2dN_ivsGA+iCVZI</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>JrvyBhDQHpE_r5fmOqlNkvP</eid>
               <pitch>50</pitch>
@@ -2261,11 +2295,15 @@ Sarge Gerbode</text>
             <eid>Q5MANcb1eML_2LIAUB7BicM</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>rqXayceyYjO_DVm27I3zfXN</eid>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>1/4</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>7G0XXuDiFKL_2iIWQIYZeWL</eid>
@@ -2278,17 +2316,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>LFfok/RVznL_Ke/fuMJ0U0F</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>h50Ri96+PII_fgis2Mh9k2D</eid>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>4cIGZKQvRTH_WBlfvVoC9ZJ</eid>
               <pitch>57</pitch>
@@ -2315,8 +2342,8 @@ Sarge Gerbode</text>
               <eid>t9VQex+VTHM_92QR7VAIiAJ</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -2325,7 +2352,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2333,8 +2360,8 @@ Sarge Gerbode</text>
               <eid>BiZg1ffVyAF_mFU48Lnm4nM</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -2342,12 +2369,11 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>1A0hfQeG3X_whAR/2xpW2</eid>
-                <lineType>1</lineType>
+                <eid>6TzdlAxMRXP_xXwrVbFsPmP</eid>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2366,13 +2392,20 @@ Sarge Gerbode</text>
               <eid>+Ze+TSg2bzO_tud4jwGHApB</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <eid>YT8FKTP2NyN_OBUwFoHsb7E</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>D6Pkv3059EI_2yNf4e+E6YN</eid>
               <pitch>54</pitch>
@@ -2385,11 +2418,15 @@ Sarge Gerbode</text>
             <eid>3x9AeJqFYrN_qzecVAayOXP</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>hYto+0WrBZG_enQvCxi3BFN</eid>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>1/4</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>7maWXtAQHS_UcbF1k/KeB</eid>
@@ -2402,17 +2439,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>L/r4eVd+5qP_CJqhpeuVcmM</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>hYto+0WrBZG_enQvCxi3BFN</eid>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>Bhni4yiIJfM_xqLurxLh9hN</eid>
               <pitch>55</pitch>
@@ -2466,7 +2492,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -2912,12 +2938,22 @@ Sarge Gerbode</text>
           <Chord>
             <eid>PGignnYp9GH_y8/hmifhrYG</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>RgC6QtQ8jJF_KCa+AryCp2K</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>VUxV24TBJZE_ncCeMfxgVnL</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -2927,6 +2963,13 @@ Sarge Gerbode</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3116,12 +3159,12 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>RutCPlJdaIK_nZbepjekimG</eid>
+                <eid>cDQEc6o9ojI_MsUyYGIDmNM</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>7/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3162,13 +3205,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>zkzTJdonRhK_o8100Kv0KKG</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>NFs8cH1J1DB_o/PHiET+ccJ</eid>
               <pitch>54</pitch>
@@ -3213,6 +3249,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>+j5PXVXXdS_wxCUY2s+mYD</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>UQw+OyJ8dON_H9GtDuuCdRO</eid>
               <pitch>54</pitch>
@@ -3226,12 +3269,12 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>eaGD2gHA5hO_QnnOcwzP2lO</eid>
+                <eid>WNLpCodyvLO_NNLEe5ksNzE</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>7/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3268,13 +3311,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>we9kyan/SZD_dlfxns/zVcD</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>yf9cH/0dCPG_YVU+R/uZLbK</eid>
               <pitch>54</pitch>
@@ -3319,6 +3355,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>8Pp2cbDGgmJ_FgWj5iwqa3</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>5HrKptXjxME_AejD5+fquKH</eid>
               <pitch>54</pitch>
@@ -3346,27 +3389,27 @@ Sarge Gerbode</text>
                   </location>
                 </next>
               </Spanner>
-            <Note>
-              <eid>7guzGxvhLhK_n5a+KR+14yP</eid>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>0wEzB1IqUyP_7JgUzq16eJG</eid>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>XxH1IlkQSrJ_0+1Zm6cRS/M</eid>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <eid>7guzGxvhLhK_n5a+KR+14yP</eid>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>0wEzB1IqUyP_7JgUzq16eJG</eid>
+            <durationType>16th</durationType>
             <Note>
               <eid>gGoEamxs4lN_yYmS95twUqP</eid>
               <pitch>54</pitch>
@@ -3381,7 +3424,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3425,6 +3468,16 @@ Sarge Gerbode</text>
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>lfmKyQfqtzC_KellrcG/ihG</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>xQN8jyTTm+J_WE0lzmKUGdE</eid>
               <pitch>54</pitch>
@@ -3436,12 +3489,19 @@ Sarge Gerbode</text>
           <Chord>
             <eid>IRTmqzveyLG_3Ea54zN48bM</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>NybqBFZmomD_BSO6QaB14+P</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -3487,27 +3547,27 @@ Sarge Gerbode</text>
                   </location>
                 </next>
               </Spanner>
-            <Note>
-              <eid>iuFRwe0Hl8H_GVupaHqtgoN</eid>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>KIIniyBXv1K_hFAsbs7oieP</eid>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>0pzbTGNegfO_2owOBIe+REG</eid>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <eid>iuFRwe0Hl8H_GVupaHqtgoN</eid>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>KIIniyBXv1K_hFAsbs7oieP</eid>
+            <durationType>16th</durationType>
             <Note>
               <eid>wuO/r7gTUmL_RUxW2VyfQxP</eid>
               <pitch>54</pitch>
@@ -3522,7 +3582,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -3548,6 +3608,16 @@ Sarge Gerbode</text>
           <Chord>
             <eid>j01sM4T2cy_m4hDgh8Xt1E</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>F2UhsxYB4OK_JOE8Cj/5MOM</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>x2TbOKmEnzD_syvhkJBeisM</eid>
               <pitch>48</pitch>
@@ -3570,6 +3640,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>OzYDZ6ZV3HL_HfN/dC2jXPJ</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>7pfeU7X+kQH_nbRLh/Cj2lL</eid>
               <pitch>45</pitch>
@@ -4092,12 +4169,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>k/zMaMgGRXH_TyBROcTW9+P</eid>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>luteFingeringRHThird</subtype>
-              <minDistance>-999</minDistance>
-              <eid>71Go9nPXRjB_fmHcCJEa26J</eid>
-              <visible>0</visible>
-              </Articulation>
             <Note>
               <eid>QKEFbF7tVBF_Mm+uIsnAwbP</eid>
               <pitch>52</pitch>
@@ -4538,12 +4609,22 @@ Sarge Gerbode</text>
           <Chord>
             <eid>/WdvhWz6kBK_JWixFdOD9SC</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>HHsKOOPsJTD_vG45JeluPSK</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>6VzmT3UJzoE_noE3oY/A5hM</eid>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -4553,6 +4634,13 @@ Sarge Gerbode</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -4589,27 +4677,27 @@ Sarge Gerbode</text>
           <Chord>
             <eid>2zdpsVnnd8N_X6691rRKFzM</eid>
             <durationType>16th</durationType>
-            <Note>
-              <eid>Bt74Qg9+B1H_JKRaC6oI37O</eid>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>wcBDSzdb/iI_bOs0dVWCtjN</eid>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>PBub6KbL0UN_SlLzWghnRHG</eid>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <eid>Bt74Qg9+B1H_JKRaC6oI37O</eid>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>wcBDSzdb/iI_bOs0dVWCtjN</eid>
+            <durationType>16th</durationType>
             <Note>
               <eid>bQODUVUQi3E_oO9rMb5Kz3N</eid>
               <pitch>54</pitch>
@@ -4624,7 +4712,7 @@ Sarge Gerbode</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -4650,6 +4738,16 @@ Sarge Gerbode</text>
           <Chord>
             <eid>z/pqacQoATI_SW07S2FmrcJ</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>DiJBgFXsObE_WiPyrNdK8GP</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>ZrmNbg/allE_XSkiH9UhkZE</eid>
               <pitch>48</pitch>
@@ -4672,6 +4770,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>GgiX8fF0JWH_4LLh4LDiD5</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>TPz+GIUbWTK_2cZ8YhxC4P</eid>
               <pitch>45</pitch>
@@ -5395,16 +5500,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>KqLi2QVYbkM_UyyAhQLeacG</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>eUP2kTy1S+B_D8q+TLpU/J</eid>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>WVRNE4FVcSP_eTRsJKGUdWK</eid>
               <pitch>57</pitch>
@@ -5417,11 +5512,14 @@ Sarge Gerbode</text>
             <eid>tcMGWSsWQ2C_7PxD7Im8CdI</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>DQDQ7pXK5CG_NHZrMKQBkGG</eid>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>1/16</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>ReFb60RhrzF_d8s9nF+nPZI</eid>
@@ -5431,8 +5529,8 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Fermata>
@@ -5443,6 +5541,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>R6GSWreqgXC_iWXb5JUNYRE</eid>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>ymoyVi5fACP_UkblZl856cC</eid>
               <Spanner type="Tie">
@@ -5500,6 +5605,16 @@ Sarge Gerbode</text>
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>UJGmUEI4JuH_HVMVZ1KeK1K</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>RlwDEe3a7qJ_+H/QC5TRxbC</eid>
               <pitch>45</pitch>
@@ -5522,6 +5637,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>uxiGk/c44WB_AHkkJZ7YIHI</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>/GsR5SnHNSP_ZIVY+o285tG</eid>
               <Accidental>
@@ -5555,7 +5677,7 @@ Sarge Gerbode</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -5570,13 +5692,6 @@ Sarge Gerbode</text>
           <Chord>
             <eid>MnLheACG8PM_L13P0+CFOKD</eid>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>+2InJaoXM3M_laHI1FEauOF</eid>
               <pitch>54</pitch>
@@ -5595,12 +5710,19 @@ Sarge Gerbode</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>OO1IpUS4WkB_KtwkoXcWwLI</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -5644,6 +5766,16 @@ Sarge Gerbode</text>
           <Chord>
             <eid>b3EDSyqlueD_NM0nK94F7jB</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>jcAuWGCg4lD_UsnxiMqEv3N</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>rFX6UjL7WpE_z/5jD1xRA5O</eid>
               <pitch>50</pitch>
@@ -5655,12 +5787,19 @@ Sarge Gerbode</text>
           <Chord>
             <eid>NBsNtukSU4P_eX8EbWDLCrB</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>P5Nn0TeOp/O_VDHz8zW36IL</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -5681,8 +5820,8 @@ Sarge Gerbode</text>
               <eid>8Z2GbTe1PNC_ALn2cTunIKN</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -5728,6 +5867,16 @@ Sarge Gerbode</text>
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>DN4hMkY68qH_KLZAgF5CKHP</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>cNXw3MJ31oD_ie1kJdheXiN</eid>
               <pitch>60</pitch>
@@ -5739,6 +5888,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>7RgjLaRnx0_A5MsmtJOodO</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>7jxYPY5BeY_A7tSGjUi43M</eid>
               <pitch>57</pitch>
@@ -5750,23 +5906,40 @@ Sarge Gerbode</text>
           <Chord>
             <eid>5PphlD5IsBP_Vw/c9O0PXON</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>9EKZ1WYbL3J_EoSzqmozMmH</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>Q2UugghaWwN_zAAwFqqyJXG</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>TD6WKX5ES7H_9VpqW4YB1hE</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>I0XXVQznqPF_lk1e9Qx3o5H</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6532,8 +6705,8 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>2</fret>
-              <string>2</string>
+              <fret>6</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -6547,19 +6720,29 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>6</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>gZKg+eDIOrD_j2ZmQargOVM</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>UUvrAuPOQVK_7w1SfCHf7w</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>SAaVUIcRcPN_v3fmJjQP6JF</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6572,12 +6755,19 @@ Sarge Gerbode</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>8vhGrJMb/rC_dshoBpSuytK</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>6</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6609,13 +6799,23 @@ Sarge Gerbode</text>
               <eid>h38g42HymsB_ircuNTzO02D</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>jBpVPIjXoUL_SVvlR9kadpK</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>lIUD10PDJ9L_zpIMZhroIoE</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>TT5Qi35t8yN_dQTzwr+eKJD</eid>
               <Accidental>
@@ -6624,8 +6824,8 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <fret>1</fret>
-              <string>3</string>
+              <fret>4</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6638,22 +6838,25 @@ Sarge Gerbode</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>6uROhbNJgwO_7rbmYkU9ssP</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <eid>3TlyWmjg7uC_tjaJ36X+e0J</eid>
-        <LayoutBreak>
-          <eid>oUCQK8eWuWB_2OkgHarvVNE</eid>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>diJbjREAHRL_Tx34npqJHbM</eid>
@@ -6673,8 +6876,8 @@ Sarge Gerbode</text>
               <eid>VB5kDusoXqH_V3sx1oHaEEH</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -6689,13 +6892,23 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>VZIFVVmDwdC_yI1iksiOqmL</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>d+MHjAnol/K_VJeSc8TFyu</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>FswCIjqiZ0O_LrKVn896V3J</eid>
               <pitch>54</pitch>
@@ -6714,12 +6927,19 @@ Sarge Gerbode</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>0ObCcQP0K/C_g0Ub75U1uwB</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -6868,13 +7088,23 @@ Sarge Gerbode</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
             <eid>8H6lnkEs5/I_rxqAj+mW9gB</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>1qFZZFuuuRP_uXuXVe6+6KL</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>O3YxHmxJvzN_PF38faaVxsP</eid>
               <pitch>62</pitch>
@@ -6893,12 +7123,19 @@ Sarge Gerbode</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Cp4Uf+SkrdJ_q3qamF3EOFG</eid>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -6911,7 +7148,7 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>Km5OgA4Mh+B_7j7tpjAT03K</eid>
+                <eid>oRiRWQIU+RE_jmjywOjWi3L</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -6942,17 +7179,34 @@ Sarge Gerbode</text>
           <Chord>
             <eid>kXqLRzMHjAJ_jcaoDYr9TGG</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>rkYrc7YailL_HOtJtD2MW3F</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>tYKVUL5RIgG_tQOPzESIC6H</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>5qNJiIALM1E_phHDhrIkhxN</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>StcwcR2RlzF_xCRr7G0Xse</eid>
               <pitch>52</pitch>
@@ -6968,8 +7222,8 @@ Sarge Gerbode</text>
               <eid>7QxlmPecjhH_Y7s7HxedIvH</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -7049,6 +7303,16 @@ Sarge Gerbode</text>
           <Chord>
             <eid>PWbmw/i1o+M_L/Fn5vbekVM</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>C1QrZgJylAM_e9tGt4VL6UH</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>VKBOMpjcQ8B_cn8gKV06VyC</eid>
               <Accidental>
@@ -7064,6 +7328,13 @@ Sarge Gerbode</text>
           <Chord>
             <eid>+yJT00u7/fM_qpX3ft9zmUP</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>54PgV/k/gMG_MExT/EcTjIF</eid>
               <pitch>47</pitch>
@@ -7226,8 +7497,8 @@ Sarge Gerbode</text>
               <eid>8oXU2Tv/iCP_W12ZxUIcJJG</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -7322,8 +7593,8 @@ Sarge Gerbode</text>
               <eid>XZixss1KjYM_HxjdCQ2GO/H</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -7423,8 +7694,8 @@ Sarge Gerbode</text>
               <eid>I/zVkGzYADD_8dvjnLdE+6C</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -7472,7 +7743,7 @@ Sarge Gerbode</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>+C1au6VrWaE_0ZRmCzCrZZM</eid>
+                <eid>eZ2UQvWbg6P_90esq19araJ</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -7522,8 +7793,8 @@ Sarge Gerbode</text>
               <eid>KbxUGbxSYpL_OtmqC/VZm+E</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -7608,12 +7879,22 @@ Sarge Gerbode</text>
           <Chord>
             <eid>/Q9sfyQgXSC_brfIdERmfcF</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>iO48eRI2/zC_7M3ejxHIlUN</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>yUMwY1ACMMK_3ohmCie8FBE</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -7623,6 +7904,13 @@ Sarge Gerbode</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -34597,8 +34885,8 @@ da Capo</text>
               <linkedTo>A1jaMRH8YnK_7nzU52TwjNH</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Breath>
@@ -34640,20 +34928,13 @@ da Capo</text>
             <eid>pdv57B9+VrL_YTzomnHXJ3</eid>
             <linkedTo>Fa4KDImgSzM_itSycuakiMF</linkedTo>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>luteFingeringRHThird</subtype>
-              <minDistance>-999</minDistance>
-              <eid>kQNr7dtXHYL_eq8VlGL41mN</eid>
-              <linkedTo>u9DlQ18POBI_1GJZbNIajPC</linkedTo>
-              <offset x="0.2" y="-6.8"/>
-              </Articulation>
             <Note>
               <eid>aXxcTeNSE8G_uQA+y1BCo9H</eid>
               <linkedTo>mRoNL72HgZF_XVbEIcsPARE</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -34743,8 +35024,8 @@ da Capo</text>
               <linkedTo>3xwQQ6Uhk/G_CtCUHNPZK+J</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -34805,7 +35086,8 @@ da Capo</text>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <measures>1</measures>
+                  <fractions>-3/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -34835,6 +35117,21 @@ da Capo</text>
             <eid>1jOKQpooVXP_7w+YJGodBVH</eid>
             <linkedTo>elVjf5IDU2G_J4B+KPzZH0</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>JEK3EfjQa3_U55976BpWWC</eid>
+                <linkedTo>HGLMvxC8XKB_ApBEnWu9BGM</linkedTo>
+                <SlurSegment no="0">
+                  <eid>Mr65RRlfwSC_N2ptFIAIeUF</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>y5MCX1/7K6E_4QhZzFYEsfG</eid>
               <linkedTo>zlHCLW6LujD_4u1Wj9PcF/</linkedTo>
@@ -34855,7 +35152,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -34876,6 +35173,14 @@ da Capo</text>
             <eid>bCv5SjrfUwL_QyeZcEVo4/I</eid>
             <linkedTo>jRVnE5wBRyG_9MUW5PRSgq</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Spanner type="Slur">
               <Slur>
                 <eid>zxyXzrQQ75I_2rkLRIoNiPD</eid>
@@ -35134,6 +35439,13 @@ da Capo</text>
               <Slur>
                 <eid>Pu976nRqmHL_gyMBPab1WEK</eid>
                 <linkedTo>m+TEeacLZRD_tRAeBYaOmSF</linkedTo>
+                <SlurSegment no="0">
+                  <o1 x="0" y="0.6925"/>
+                  <o2 x="3.15771" y="-2.97197"/>
+                  <o3 x="7.42991" y="0.557244"/>
+                  <o4 x="-2.29207e-14" y="2.47498"/>
+                  <eid>82asbBlCQlO_PEM2xMHjGHC</eid>
+                  </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -35168,6 +35480,21 @@ da Capo</text>
             <eid>E1Zi9WP5RnJ_f5cjy8NkexF</eid>
             <linkedTo>rCEcWTsKNbN_l0YJAHEO9FG</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>L5LuAIMoyXD_519gF5/tBGH</eid>
+                <linkedTo>mab9o+dCR4F_i0vr++2NwdH</linkedTo>
+                <SlurSegment no="0">
+                  <eid>HFjrZ0Q/QjM_KMikbmDQsDE</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>n2GaJqPH+uP_ezTEExefJDI</eid>
               <linkedTo>SLGDYFw8+EK_poCykeejehC</linkedTo>
@@ -35181,6 +35508,13 @@ da Capo</text>
             <eid>FFQ54/ynuuP_HGTdXbdhdBG</eid>
             <linkedTo>5E96SCogCrO_oLngn+d6bQN</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>90WUCwBj/wD_cXk9qWPrr7L</eid>
               <linkedTo>d8N3VKCs7rI_uf0L4NWVzxC</linkedTo>
@@ -35190,8 +35524,8 @@ da Capo</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -35229,8 +35563,8 @@ da Capo</text>
               <linkedTo>jJ1WIKHIcxD_sGOBP5nVkeH</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -35281,8 +35615,8 @@ da Capo</text>
               <linkedTo>haJUX9SxWoB_QSXrxViCSCC</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -35334,12 +35668,25 @@ da Capo</text>
             <eid>M4b9V8RBlQK_cqBWGdywhpP</eid>
             <linkedTo>rttcrxOvYvM_GBIQvNzGGa</linkedTo>
             <durationType>16th</durationType>
+            <Note>
+              <eid>+uMtZOrus+P_1ycvUV3jlrL</eid>
+              <linkedTo>j9G3JlCzmLN_kIq3Dl4Xn4B</linkedTo>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <fret>4</fret>
+              <string>4</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>a8nOJDQO4cP_RRWNrji6tSF</eid>
+            <linkedTo>T4YkitDNEvL_LcfpBpy7m7B</linkedTo>
+            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>J8Dd5GiKsAM_Wbuo4i/hWeN</eid>
-                <linkedTo>ZTtldzGkyKP_h7qqR2gEkYL</linkedTo>
+                <eid>Z5/K829lPEJ_4GSg7/yVL2</eid>
+                <linkedTo>RQ93XC4RXMD_NknUXDei6UC</linkedTo>
                 <SlurSegment no="0">
-                  <eid>Ul25xjk7VME_Xus4jCQnqjC</eid>
+                  <eid>VRdO07CbIKL_N/3Z4o4BrTF</eid>
                   <offset x="0" y="-0.38"/>
                   </SlurSegment>
                 </Slur>
@@ -35350,32 +35697,12 @@ da Capo</text>
                 </next>
               </Spanner>
             <Note>
-              <eid>+uMtZOrus+P_1ycvUV3jlrL</eid>
-              <linkedTo>j9G3JlCzmLN_kIq3Dl4Xn4B</linkedTo>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>a8nOJDQO4cP_RRWNrji6tSF</eid>
-            <linkedTo>T4YkitDNEvL_LcfpBpy7m7B</linkedTo>
-            <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <Note>
               <eid>4jjhW6Rey1F_5SPpeD3TplL</eid>
               <linkedTo>27oCzZVv8uH_mjybz0l7iiC</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -35386,6 +35713,13 @@ da Capo</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -35824,13 +36158,16 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>vmqgI2gND5P_3DcPH1xPtXD</eid>
-                <linkedTo>7TflVNDy4ID_F2GBRbqRXqP</linkedTo>
-                <lineType>1</lineType>
+                <eid>hdszGjwY8gH_Sbd/wggSnG</eid>
+                <linkedTo>sQRk6N357wF_EtcAzzljkcK</linkedTo>
+                <SlurSegment no="0">
+                  <eid>9923rsmlLCK_iKbdlP9dAdB</eid>
+                  <offset x="0" y="-0.1"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -35839,29 +36176,14 @@ da Capo</text>
               <linkedTo>CoZqfkov6yH_nq9ZZRg1QuH</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>pZSr7a1GWHL_SAV5GxVd+OH</eid>
             <linkedTo>6EJoSxUlXAP_Yqyv5SUDTvC</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>ugEsHpreKaD_588XTK4xhUG</eid>
-                <linkedTo>clc3Lto624D_/U+x1e7jk+J</linkedTo>
-                <SlurSegment no="0">
-                  <eid>VBGLTtrMJ+B_x4+Pys8X+5B</eid>
-                  <offset x="0" y="-0.38"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>25LfeDK2jPN_ru3FAd8TRPF</eid>
               <linkedTo>QWm9ZgxcuVB_+U8G935Z7aG</linkedTo>
@@ -35878,7 +36200,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -35896,11 +36218,19 @@ da Capo</text>
             <linkedTo>lebVd3GT2oE_fvhhGvKtQ3K</linkedTo>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>75+kylyjfQF_83eH+pRhOxP</eid>
+                <linkedTo>K7OzFmO+X2C_QscpRVhRz2H</linkedTo>
+                <SlurSegment no="0">
+                  <eid>Y5ei3DHW2WH_SKh1a+dKtNP</eid>
+                  <offset x="0" y="-0.1"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>gq+VkKXWz7P_XfTRpbuIIvL</eid>
@@ -35915,18 +36245,6 @@ da Capo</text>
             <eid>0KdEn1Twg/L_vsQKrvA4ciF</eid>
             <linkedTo>wkYwzJvxIqN_Hx+ZrzksD0B</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>lMDp8gPtZ/G_LDp/JmTvfvH</eid>
-                <linkedTo>CA74J8BWmdF_stDU/lRC5oB</linkedTo>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>Bdbvrrnp6bP_qU1kzdR3VsL</eid>
               <linkedTo>n6dfesDJrnJ_kyltGEMjjPL</linkedTo>
@@ -35936,14 +36254,21 @@ da Capo</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
             <eid>dGOfxLYEkIC_vCvn3R8z7y</eid>
             <linkedTo>HROVzuQImZL_gCH40rY6bJL</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>Md8wv3meM9K_SC7BV+SmN</eid>
               <linkedTo>6WGLYOBlsJP_sbO4nK04qXP</linkedTo>
@@ -35957,13 +36282,28 @@ da Capo</text>
             <eid>VmDHpD5X4gK_vXHNAt0X1TH</eid>
             <linkedTo>2Md/gvzHoPH_D1wl/Txu01P</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>nsTNNZmK4cE_qmWaAz7u0wP</eid>
+                <linkedTo>9TGLa1C7cpC_VE64GO1nZBI</linkedTo>
+                <SlurSegment no="0">
+                  <eid>rTQmdop5BMF_Uj2EzccuwqM</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>QqRYNOi6sBM_/NcnJFLEXfJ</eid>
               <linkedTo>CRQkrgkW0KH_PtTXBLvg8BK</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -35973,7 +36313,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -35996,13 +36336,16 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>fn0dy8+sDzH_XaTd97NTjFJ</eid>
-                <linkedTo>zHz8jQvYYlK_224Ye42g2aL</linkedTo>
-                <lineType>1</lineType>
+                <eid>XyQO7CdjbDB_1kL6A9PntMM</eid>
+                <linkedTo>nXd5DhgU6kC_UvyjlIH/xDG</linkedTo>
+                <SlurSegment no="0">
+                  <eid>q57rKjSwl7D_4NqJr24a1SE</eid>
+                  <offset x="0" y="-0.1"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -36024,14 +36367,21 @@ da Capo</text>
               <linkedTo>ce82Zp2JPbF_jZsdy24jhzD</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <eid>hUDbJMys8SL_LlzeKf9oXQJ</eid>
             <linkedTo>HmuFBpeD2dN_ivsGA+iCVZI</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>56q5AS8rEM_jyWWyUWZdDD</eid>
               <linkedTo>JrvyBhDQHpE_r5fmOqlNkvP</linkedTo>
@@ -36046,11 +36396,16 @@ da Capo</text>
             <linkedTo>Q5MANcb1eML_2LIAUB7BicM</linkedTo>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>ysfnqcnX+kC_B0xMaYgIQj</eid>
+                <linkedTo>rqXayceyYjO_DVm27I3zfXN</linkedTo>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>1/4</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>Khys8ekHymE_13e2Wpony/B</eid>
@@ -36065,23 +36420,6 @@ da Capo</text>
             <eid>UlOXkmAQ+eG_VOfygtqvjQJ</eid>
             <linkedTo>LFfok/RVznL_Ke/fuMJ0U0F</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>H4MhdOMaeeP_AC4QIwkLIDD</eid>
-                <linkedTo>h50Ri96+PII_fgis2Mh9k2D</linkedTo>
-                <SlurSegment no="0">
-                  <o2 x="2.30174" y="0.858857"/>
-                  <o3 x="12.4781" y="0.927566"/>
-                  <eid>qZwFKQAQYmD_B7BpVtqWvEJ</eid>
-                  </SlurSegment>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>TuJ4l1ucgyK_NPHDmv3ikcC</eid>
               <linkedTo>4cIGZKQvRTH_WBlfvVoC9ZJ</linkedTo>
@@ -36113,8 +36451,8 @@ da Capo</text>
               <linkedTo>t9VQex+VTHM_92QR7VAIiAJ</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -36124,7 +36462,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -36133,8 +36471,8 @@ da Capo</text>
               <linkedTo>BiZg1ffVyAF_mFU48Lnm4nM</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -36143,17 +36481,16 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>ytTB9YcLcnD_+9nWaCVkz9E</eid>
-                <linkedTo>1A0hfQeG3X_whAR/2xpW2</linkedTo>
+                <eid>Q8Hx22ZCoiM_If4LdQc5WJF</eid>
+                <linkedTo>6TzdlAxMRXP_xXwrVbFsPmP</linkedTo>
                 <SlurSegment no="0">
-                  <o4 x="0" y="3.95036"/>
-                  <eid>jUVjPrUK0WJ_kGSlVhdOevE</eid>
+                  <eid>3u3WVioyMkM_gItBi/kdB2L</eid>
+                  <offset x="0" y="-0.1"/>
                   </SlurSegment>
-                <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -36175,14 +36512,21 @@ da Capo</text>
               <linkedTo>+Ze+TSg2bzO_tud4jwGHApB</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <eid>eekuxUH8gRI_+EUqHPn1XdC</eid>
             <linkedTo>YT8FKTP2NyN_OBUwFoHsb7E</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>FpozWretd6E_eOir49PoHNK</eid>
               <linkedTo>D6Pkv3059EI_2yNf4e+E6YN</linkedTo>
@@ -36197,11 +36541,16 @@ da Capo</text>
             <linkedTo>3x9AeJqFYrN_qzecVAayOXP</linkedTo>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>DERyRAsMHRB_XazE7ftNCxC</eid>
+                <linkedTo>hYto+0WrBZG_enQvCxi3BFN</linkedTo>
+                <lineType>1</lineType>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>1/4</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>Ul+CmUqYGaB_eUP5dgT5nBP</eid>
@@ -36216,18 +36565,6 @@ da Capo</text>
             <eid>jFFGoc6oscK_8dIOEUSNmhC</eid>
             <linkedTo>L/r4eVd+5qP_CJqhpeuVcmM</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>DERyRAsMHRB_XazE7ftNCxC</eid>
-                <linkedTo>hYto+0WrBZG_enQvCxi3BFN</linkedTo>
-                <lineType>1</lineType>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>3/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>VG4yhzrsroD_MhINKEEVcR</eid>
               <linkedTo>Bhni4yiIJfM_xqLurxLh9hN</linkedTo>
@@ -36292,7 +36629,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-3/16</fractions>
+                  <fractions>-1/4</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -36818,13 +37155,28 @@ da Capo</text>
             <eid>d51pvXMZj+H_uMS/caKFM3I</eid>
             <linkedTo>PGignnYp9GH_y8/hmifhrYG</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>4JjBXYXGq/M_oVqTF4GVJkI</eid>
+                <linkedTo>RgC6QtQ8jJF_KCa+AryCp2K</linkedTo>
+                <SlurSegment no="0">
+                  <eid>46r3uLZRn6F_BSyPjmUQV/H</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>wmOYoYtbU8G_tgeHd0/Dy2L</eid>
               <linkedTo>VUxV24TBJZE_ncCeMfxgVnL</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -36835,6 +37187,13 @@ da Capo</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -36945,6 +37304,7 @@ da Capo</text>
                   <o1 x="0" y="1.6925"/>
                   <o4 x="0" y="0.6925"/>
                   <eid>XdqXUnPn0VE_9zHz2GM3icD</eid>
+                  <offset x="0" y="-1"/>
                   </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
@@ -37059,17 +37419,13 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>Ifk+nMsIsaL_AuCW7Vik2aP</eid>
-                <linkedTo>RutCPlJdaIK_nZbepjekimG</linkedTo>
-                <SlurSegment no="0">
-                  <o4 x="0.26993" y="1.58993"/>
-                  <eid>7RwpooklxbP_0wluTE6awFM</eid>
-                  </SlurSegment>
+                <eid>AX+Rq9TJvSH_9YJiHyZyCdE</eid>
+                <linkedTo>cDQEc6o9ojI_MsUyYGIDmNM</linkedTo>
                 <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>7/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -37116,13 +37472,6 @@ da Capo</text>
             <eid>ArrjM31JXKG_btiFvaSfJkM</eid>
             <linkedTo>zkzTJdonRhK_o8100Kv0KKG</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>zl/WZPpfpsE_Ez5IQB15T9N</eid>
               <linkedTo>NFs8cH1J1DB_o/PHiET+ccJ</linkedTo>
@@ -37175,6 +37524,13 @@ da Capo</text>
             <eid>eBPFsBu03mF_WFlChGmZnrD</eid>
             <linkedTo>+j5PXVXXdS_wxCUY2s+mYD</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>ngygMYnaoKP_ctWxtaPgK2M</eid>
               <linkedTo>UQw+OyJ8dON_H9GtDuuCdRO</linkedTo>
@@ -37190,17 +37546,13 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>rdFuToyKNDF_p49w6Ijfi4B</eid>
-                <linkedTo>eaGD2gHA5hO_QnnOcwzP2lO</linkedTo>
-                <SlurSegment no="0">
-                  <o4 x="0.26993" y="1.39712"/>
-                  <eid>PqR3UoofGlJ_NYp8OJRapPJ</eid>
-                  </SlurSegment>
+                <eid>lZKWeoBX71J_DDu3uLw6AJP</eid>
+                <linkedTo>WNLpCodyvLO_NNLEe5ksNzE</linkedTo>
                 <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>7/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -37243,13 +37595,6 @@ da Capo</text>
             <eid>miiCJIHVWPJ_gJ+N7LJ2ekJ</eid>
             <linkedTo>we9kyan/SZD_dlfxns/zVcD</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>ciepMVH4ZWI_ZOH3zsTTLMC</eid>
               <linkedTo>yf9cH/0dCPG_YVU+R/uZLbK</linkedTo>
@@ -37302,6 +37647,13 @@ da Capo</text>
             <eid>rU5aYPdj0KO_xgmWZ5BWFiK</eid>
             <linkedTo>8Pp2cbDGgmJ_FgWj5iwqa3</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>cceL2ACK0oO_EpGmTWuvCKK</eid>
               <linkedTo>5HrKptXjxME_AejD5+fquKH</linkedTo>
@@ -37331,34 +37683,34 @@ da Capo</text>
                   </location>
                 </next>
               </Spanner>
-            <Note>
-              <eid>93OKf3oRuaI_ymgl4pZ2jAF</eid>
-              <linkedTo>7guzGxvhLhK_n5a+KR+14yP</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>DB7vTmNCggK_Ws9FyfJtPsK</eid>
-            <linkedTo>0wEzB1IqUyP_7JgUzq16eJG</linkedTo>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>OUPvdy35o7I_wY6fDjLvARC</eid>
                 <linkedTo>XxH1IlkQSrJ_0+1Zm6cRS/M</linkedTo>
                 <SlurSegment no="0">
                   <eid>WhY4D6YnSmE_aQSXTmpzPGJ</eid>
-                  <offset x="0" y="-0.38"/>
+                  <offset x="0" y="-0.1"/>
                   </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <eid>93OKf3oRuaI_ymgl4pZ2jAF</eid>
+              <linkedTo>7guzGxvhLhK_n5a+KR+14yP</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>DB7vTmNCggK_Ws9FyfJtPsK</eid>
+            <linkedTo>0wEzB1IqUyP_7JgUzq16eJG</linkedTo>
+            <durationType>16th</durationType>
             <Note>
               <eid>Ks0eT8ajg3F_M4PGlGE+LNB</eid>
               <linkedTo>gGoEamxs4lN_yYmS95twUqP</linkedTo>
@@ -37375,7 +37727,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -37416,11 +37768,31 @@ da Capo</text>
               <Slur>
                 <eid>9D3z5h1geaF_Ia8xedhYkWI</eid>
                 <linkedTo>ouYE3OZWE7E_35YFQZqIwyI</linkedTo>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-0.26"/>
+                  <o4 x="0" y="0.24"/>
+                  <eid>uI0yhzQEyxO_7BzllZP82+L</eid>
+                  </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
               <next>
                 <location>
                   <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>y6nmidYVcjC_kyQGNBR/FZE</eid>
+                <linkedTo>lfmKyQfqtzC_KellrcG/ihG</linkedTo>
+                <SlurSegment no="0">
+                  <eid>vaGxFfCJDWJ_OrfGfEcQp/L</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -37437,13 +37809,20 @@ da Capo</text>
             <eid>9/R57CIQnzC_29rwB0dkZ9</eid>
             <linkedTo>IRTmqzveyLG_3Ea54zN48bM</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>ScBtvmaAAYK_Q4kD/Vi0c8P</eid>
               <linkedTo>NybqBFZmomD_BSO6QaB14+P</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>5</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -37487,6 +37866,10 @@ da Capo</text>
               <Slur>
                 <eid>Q0KSci7tiBO_tPVYBH/XLi</eid>
                 <linkedTo>T7gT9Vo/BLJ_wc1czO6UgTO</linkedTo>
+                <SlurSegment no="0">
+                  <o1 x="0" y="-0.5"/>
+                  <eid>LRQS0fh/lUE_v52md0yMgPJ</eid>
+                  </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -37495,34 +37878,34 @@ da Capo</text>
                   </location>
                 </next>
               </Spanner>
-            <Note>
-              <eid>dvBMT4Yn/qN_qjlu+72vnWN</eid>
-              <linkedTo>iuFRwe0Hl8H_GVupaHqtgoN</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>lHvD9IvtapB_zM5cxRXnvcF</eid>
-            <linkedTo>KIIniyBXv1K_hFAsbs7oieP</linkedTo>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>eSV43uOTQzI_yGmHu8mSL7O</eid>
                 <linkedTo>0pzbTGNegfO_2owOBIe+REG</linkedTo>
                 <SlurSegment no="0">
                   <eid>ntroHn+hKNM_gH9K7QySrP</eid>
-                  <offset x="0" y="-0.38"/>
+                  <offset x="0" y="-0.1"/>
                   </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <eid>dvBMT4Yn/qN_qjlu+72vnWN</eid>
+              <linkedTo>iuFRwe0Hl8H_GVupaHqtgoN</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>lHvD9IvtapB_zM5cxRXnvcF</eid>
+            <linkedTo>KIIniyBXv1K_hFAsbs7oieP</linkedTo>
+            <durationType>16th</durationType>
             <Note>
               <eid>fYAnoiAcs3C_IrFFUgqQ66C</eid>
               <linkedTo>wuO/r7gTUmL_RUxW2VyfQxP</linkedTo>
@@ -37539,7 +37922,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -37569,6 +37952,21 @@ da Capo</text>
             <eid>t2dUK65X2mK_1qcy9uK3xDI</eid>
             <linkedTo>j01sM4T2cy_m4hDgh8Xt1E</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>PIxgUqBTyjK_hwkCq6JEOOJ</eid>
+                <linkedTo>F2UhsxYB4OK_JOE8Cj/5MOM</linkedTo>
+                <SlurSegment no="0">
+                  <eid>8TtQLpdf3ZB_FMVP8j/yx0H</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>futVDWcN51F_kV9XSj6Dc1P</eid>
               <linkedTo>x2TbOKmEnzD_syvhkJBeisM</linkedTo>
@@ -37595,6 +37993,13 @@ da Capo</text>
             <eid>INkr/SrfPVH_z4Ukl/bMwiG</eid>
             <linkedTo>OzYDZ6ZV3HL_HfN/dC2jXPJ</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>4PPypjW9ZbH_swUoOAXfHDD</eid>
               <linkedTo>7pfeU7X+kQH_nbRLh/Cj2lL</linkedTo>
@@ -38179,13 +38584,6 @@ da Capo</text>
             <eid>5Swqex7wBdE_9Kxcozzb4DJ</eid>
             <linkedTo>k/zMaMgGRXH_TyBROcTW9+P</linkedTo>
             <durationType>16th</durationType>
-            <Articulation>
-              <subtype>luteFingeringRHThird</subtype>
-              <minDistance>-999</minDistance>
-              <eid>5eheiSqlYJB_DJYqbcmsGJB</eid>
-              <linkedTo>71Go9nPXRjB_fmHcCJEa26J</linkedTo>
-              <offset x="0.2" y="-6.8"/>
-              </Articulation>
             <Note>
               <eid>APKL92/Uiy_P0Ta9cyuOZB</eid>
               <linkedTo>QKEFbF7tVBF_Mm+uIsnAwbP</linkedTo>
@@ -38690,13 +39088,28 @@ da Capo</text>
             <eid>egjgVP9oKQD_/IujQGekfcM</eid>
             <linkedTo>/WdvhWz6kBK_JWixFdOD9SC</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>7lk+yW1BBWC_0OJuQBuRm0H</eid>
+                <linkedTo>HHsKOOPsJTD_vG45JeluPSK</linkedTo>
+                <SlurSegment no="0">
+                  <eid>HCd1GbZEoFI_M8xf4qE8IcI</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>rqLndRd2mRE_7KXSsS0BdaL</eid>
               <linkedTo>6VzmT3UJzoE_noE3oY/A5hM</linkedTo>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>2</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -38707,6 +39120,13 @@ da Capo</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -38753,34 +39173,34 @@ da Capo</text>
             <eid>18JTDuRdkDL_UGII6fXGVb</eid>
             <linkedTo>2zdpsVnnd8N_X6691rRKFzM</linkedTo>
             <durationType>16th</durationType>
-            <Note>
-              <eid>LTmibyOmQrL_beY67XQNARC</eid>
-              <linkedTo>Bt74Qg9+B1H_JKRaC6oI37O</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>KhLNQ2AiB9B_aKNsapjbRgO</eid>
-            <linkedTo>wcBDSzdb/iI_bOs0dVWCtjN</linkedTo>
-            <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>VxV4HVNMHS_86d2wqj/OMP</eid>
                 <linkedTo>PBub6KbL0UN_SlLzWghnRHG</linkedTo>
                 <SlurSegment no="0">
                   <eid>6QcPOHXLpRP_MWB2C8BwQyM</eid>
-                  <offset x="0" y="-0.38"/>
+                  <offset x="0" y="-0.1"/>
                   </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
+            <Note>
+              <eid>LTmibyOmQrL_beY67XQNARC</eid>
+              <linkedTo>Bt74Qg9+B1H_JKRaC6oI37O</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>KhLNQ2AiB9B_aKNsapjbRgO</eid>
+            <linkedTo>wcBDSzdb/iI_bOs0dVWCtjN</linkedTo>
+            <durationType>16th</durationType>
             <Note>
               <eid>HHEyolSMUvL_8dU4Y4r+fq</eid>
               <linkedTo>bQODUVUQi3E_oO9rMb5Kz3N</linkedTo>
@@ -38797,7 +39217,7 @@ da Capo</text>
             <Spanner type="Slur">
               <prev>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>-1/8</fractions>
                   </location>
                 </prev>
               </Spanner>
@@ -38827,6 +39247,21 @@ da Capo</text>
             <eid>wWuE83SjI0D_D4TCKsYarTO</eid>
             <linkedTo>z/pqacQoATI_SW07S2FmrcJ</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>jnaNLSweDkN_AelG82FBOu</eid>
+                <linkedTo>DiJBgFXsObE_WiPyrNdK8GP</linkedTo>
+                <SlurSegment no="0">
+                  <eid>zqtzWZy4dKH_0q1QB1/YNkF</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>tybxalyMhKM_QMrEBjTgaoM</eid>
               <linkedTo>ZrmNbg/allE_XSkiH9UhkZE</linkedTo>
@@ -38853,6 +39288,13 @@ da Capo</text>
             <eid>fWs1TWCCc2H_rGs9kyD2jQO</eid>
             <linkedTo>GgiX8fF0JWH_4LLh4LDiD5</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>dpr6Qjc6VoM_SJ8E2A+jt0J</eid>
               <linkedTo>TPz+GIUbWTK_2cZ8YhxC4P</linkedTo>
@@ -39714,21 +40156,6 @@ da Capo</text>
             <eid>brBpoaUlqRN_gZHJ3miZTH</eid>
             <linkedTo>KqLi2QVYbkM_UyyAhQLeacG</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <eid>S5ScwqIR8KK_ic/XwKQH7DD</eid>
-                <linkedTo>eUP2kTy1S+B_D8q+TLpU/J</linkedTo>
-                <SlurSegment no="0">
-                  <eid>bmEMyqKyS+N_ZYmbKbB/uQM</eid>
-                  <offset x="0" y="-0.38"/>
-                  </SlurSegment>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/16</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <eid>MIwaRy1OupF_UKqtyRFCQZB</eid>
               <linkedTo>WVRNE4FVcSP_eTRsJKGUdWK</linkedTo>
@@ -39743,11 +40170,19 @@ da Capo</text>
             <linkedTo>tcMGWSsWQ2C_7PxD7Im8CdI</linkedTo>
             <durationType>16th</durationType>
             <Spanner type="Slur">
-              <prev>
+              <Slur>
+                <eid>P5U8WwXP+iF_ivyzds8SczB</eid>
+                <linkedTo>DQDQ7pXK5CG_NHZrMKQBkGG</linkedTo>
+                <SlurSegment no="0">
+                  <eid>zHKZKEQEucL_uKY/v/OSKfN</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
                 <location>
-                  <fractions>-1/16</fractions>
+                  <fractions>1/16</fractions>
                   </location>
-                </prev>
+                </next>
               </Spanner>
             <Note>
               <eid>O++tzapuUGF_FpJdDxXljsG</eid>
@@ -39758,8 +40193,8 @@ da Capo</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Fermata>
@@ -39772,6 +40207,13 @@ da Capo</text>
             <eid>v8PJjVcsINM_fMVaXoeRoCN</eid>
             <linkedTo>R6GSWreqgXC_iWXb5JUNYRE</linkedTo>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>vHdBnaDyuxH_4y18N4v2CaM</eid>
               <linkedTo>ymoyVi5fACP_UkblZl856cC</linkedTo>
@@ -39839,6 +40281,21 @@ da Capo</text>
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>0d1C1U0+EOF_TErHQ3+zeKL</eid>
+                <linkedTo>UJGmUEI4JuH_HVMVZ1KeK1K</linkedTo>
+                <SlurSegment no="0">
+                  <eid>N8IBSMgUGUM_EhnAY5Qqr2F</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>0SK4BQtrSoH_ldqN37bBe/C</eid>
               <linkedTo>RlwDEe3a7qJ_+H/QC5TRxbC</linkedTo>
@@ -39865,6 +40322,13 @@ da Capo</text>
             <eid>rbLgOzX5jGH_zHsWCtSaXoP</eid>
             <linkedTo>uxiGk/c44WB_AHkkJZ7YIHI</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>3NDQz40FFjD_ZAfn+o8wvvD</eid>
               <linkedTo>/GsR5SnHNSP_ZIVY+o285tG</linkedTo>
@@ -39902,12 +40366,12 @@ da Capo</text>
                 <linkedTo>NUnXMTPs+aO_BMmivliyqLJ</linkedTo>
                 <SlurSegment no="0">
                   <eid>7yivrWEqR4G_JGA8iYMuMgF</eid>
-                  <offset x="0" y="-0.38"/>
+                  <offset x="0" y="-0.1"/>
                   </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -39924,13 +40388,6 @@ da Capo</text>
             <eid>kCyHWyjTdbC_F6EoD7OOg9F</eid>
             <linkedTo>MnLheACG8PM_L13P0+CFOKD</linkedTo>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>qOm0TknW+FM_GAEcAm47vsL</eid>
               <linkedTo>+2InJaoXM3M_laHI1FEauOF</linkedTo>
@@ -39951,13 +40408,20 @@ da Capo</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>h7yN+J2utOO_HwQ6IdZ7ZVN</eid>
               <linkedTo>OO1IpUS4WkB_KtwkoXcWwLI</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -39972,6 +40436,11 @@ da Capo</text>
               <Slur>
                 <eid>ydkV6I+UjyL_iLerYu1+2yO</eid>
                 <linkedTo>6TlnXxUK8nB_ylWNDTJcrvL</linkedTo>
+                <SlurSegment no="0">
+                  <o1 x="0" y="2.836"/>
+                  <o4 x="-4.58414e-15" y="-0.00406257"/>
+                  <eid>K5lQV6yjabJ_mBwvvF29hAB</eid>
+                  </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -40006,6 +40475,21 @@ da Capo</text>
             <eid>fd4WT3ArELJ_lezXiaHj9VJ</eid>
             <linkedTo>b3EDSyqlueD_NM0nK94F7jB</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>/jQh9IgiKeE_O8b770gLBiH</eid>
+                <linkedTo>jcAuWGCg4lD_UsnxiMqEv3N</linkedTo>
+                <SlurSegment no="0">
+                  <eid>tecG9BowN0E_Z0Vx7y1x9ZB</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>BnupuYyVHlD_lZRdtTWGthI</eid>
               <linkedTo>rFX6UjL7WpE_z/5jD1xRA5O</linkedTo>
@@ -40019,13 +40503,20 @@ da Capo</text>
             <eid>EigimcRiFqC_1PKQM0RzoNB</eid>
             <linkedTo>NBsNtukSU4P_eX8EbWDLCrB</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>CKTzOMYPGdK_Mo5iiwS3u/J</eid>
               <linkedTo>P5Nn0TeOp/O_VDHz8zW36IL</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -40050,8 +40541,8 @@ da Capo</text>
               <linkedTo>8Z2GbTe1PNC_ALn2cTunIKN</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -40103,6 +40594,21 @@ da Capo</text>
                   </location>
                 </next>
               </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>yJ593mxw5bB_z2M/jehvRFM</eid>
+                <linkedTo>DN4hMkY68qH_KLZAgF5CKHP</linkedTo>
+                <SlurSegment no="0">
+                  <eid>uEiJyYmodOC_nVf8iBgAPGP</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>kekvbKd+0yM_DYQbAdpHwAN</eid>
               <linkedTo>cNXw3MJ31oD_ie1kJdheXiN</linkedTo>
@@ -40116,6 +40622,13 @@ da Capo</text>
             <eid>5W68s6RwnoJ_krCRe6t9KmG</eid>
             <linkedTo>7RgjLaRnx0_A5MsmtJOodO</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>uzaGPO3ug8_QbifT8uewY</eid>
               <linkedTo>7jxYPY5BeY_A7tSGjUi43M</linkedTo>
@@ -40129,26 +40642,48 @@ da Capo</text>
             <eid>F3ZSqlW2wCJ_tq+K5utWQ7</eid>
             <linkedTo>5PphlD5IsBP_Vw/c9O0PXON</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>WQktm00T3uB_TVpUhYl/5J</eid>
+                <linkedTo>9EKZ1WYbL3J_EoSzqmozMmH</linkedTo>
+                <SlurSegment no="0">
+                  <eid>ZhdThf2gf3D_XpQTbUzgH1G</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>qsXHRwdgd6K_Q8leQHDm7LE</eid>
               <linkedTo>Q2UugghaWwN_zAAwFqqyJXG</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>qADIs7Ep0eC_2Nv80wmKSqF</eid>
             <linkedTo>TD6WKX5ES7H_9VpqW4YB1hE</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>bMeJ0pb4eUH_5Eqn+lUiXCM</eid>
               <linkedTo>I0XXVQznqPF_lk1e9Qx3o5H</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41053,8 +41588,8 @@ da Capo</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>2</fret>
-              <string>2</string>
+              <fret>6</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -41070,21 +41605,36 @@ da Capo</text>
                 </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>6</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>1uGQHGzehHC_5R11XvjZpDN</eid>
             <linkedTo>gZKg+eDIOrD_j2ZmQargOVM</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>lHppWyh86cH_+QkN68mqvBL</eid>
+                <linkedTo>UUvrAuPOQVK_7w1SfCHf7w</linkedTo>
+                <SlurSegment no="0">
+                  <eid>dAse1viXwhE_H305hh5hk3D</eid>
+                  <offset x="0" y="-0.1"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>UeQZWiuDB0G_39fEhw5ixNH</eid>
               <linkedTo>SAaVUIcRcPN_v3fmJjQP6JF</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41098,13 +41648,20 @@ da Capo</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>LfGAhNQ805L_QWB68/ao98L</eid>
               <linkedTo>8vhGrJMb/rC_dshoBpSuytK</linkedTo>
               <pitch>58</pitch>
               <tpc>12</tpc>
-              <fret>3</fret>
-              <string>3</string>
+              <fret>6</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41141,14 +41698,29 @@ da Capo</text>
               <linkedTo>h38g42HymsB_ircuNTzO02D</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>2H+XsC68CKE_gcEplRmZluI</eid>
             <linkedTo>jBpVPIjXoUL_SVvlR9kadpK</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>B5RIT79OxbD_Ak6EQUffYSK</eid>
+                <linkedTo>lIUD10PDJ9L_zpIMZhroIoE</linkedTo>
+                <SlurSegment no="0">
+                  <eid>hdcIFl3kTID_3cHrKh6p3/M</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>A3RQpejaDwJ_uxx+AC+uuvI</eid>
               <linkedTo>TT5Qi35t8yN_dQTzwr+eKJD</linkedTo>
@@ -41158,8 +41730,8 @@ da Capo</text>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <fret>1</fret>
-              <string>3</string>
+              <fret>4</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41173,13 +41745,20 @@ da Capo</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>rOfEWzSXDMM_TMXQ2olHpRN</eid>
               <linkedTo>6uROhbNJgwO_7rbmYkU9ssP</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -41207,8 +41786,8 @@ da Capo</text>
               <linkedTo>VB5kDusoXqH_V3sx1oHaEEH</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -41225,14 +41804,29 @@ da Capo</text>
                 </Accidental>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>36Wa8CQz2sJ_tXyqnJ82cBE</eid>
             <linkedTo>VZIFVVmDwdC_yI1iksiOqmL</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>AS+0OnZGyqE_JrkcrGSzxxF</eid>
+                <linkedTo>d+MHjAnol/K_VJeSc8TFyu</linkedTo>
+                <SlurSegment no="0">
+                  <eid>nWxGmwJeXEJ_U8u9QByaENK</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>J8x98uWjN7E_GFozdHL0xxH</eid>
               <linkedTo>FswCIjqiZ0O_LrKVn896V3J</linkedTo>
@@ -41253,13 +41847,20 @@ da Capo</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>uV2FT0ePEoH_mUpKrjIwKsN</eid>
               <linkedTo>0ObCcQP0K/C_g0Ub75U1uwB</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41427,14 +42028,29 @@ da Capo</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
             <eid>nI3y+3wlENH_tbbYeJVA3rI</eid>
             <linkedTo>8H6lnkEs5/I_rxqAj+mW9gB</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>dM6TUJfdNKO_+GwsOrWjkaK</eid>
+                <linkedTo>1qFZZFuuuRP_uXuXVe6+6KL</linkedTo>
+                <SlurSegment no="0">
+                  <eid>VHLtWM9RZjC_gSZ3L4ri9lD</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>Xf73eVEt0f_HAUdI86LMvI</eid>
               <linkedTo>O3YxHmxJvzN_PF38faaVxsP</linkedTo>
@@ -41455,13 +42071,20 @@ da Capo</text>
                   </location>
                 </prev>
               </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>M3NwFeXvuHJ_5gV3mPIpNFD</eid>
               <linkedTo>Cp4Uf+SkrdJ_q3qamF3EOFG</linkedTo>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>4</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -41474,14 +42097,13 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>x95NTZdru+N_G5jxj8tQlFD</eid>
-                <linkedTo>Km5OgA4Mh+B_7j7tpjAT03K</linkedTo>
+                <eid>+6n0chAJpKK_5i3Bg7eEfTM</eid>
+                <linkedTo>oRiRWQIU+RE_jmjywOjWi3L</linkedTo>
                 <SlurSegment no="0">
-                  <o1 x="0" y="0.6925"/>
-                  <o2 x="1.99049" y="-0.790744"/>
-                  <o3 x="1.99049" y="-0.790744"/>
-                  <o4 x="0" y="2.1925"/>
-                  <eid>H+sf0cicuwC_Liv2/zwm+5B</eid>
+                  <o2 x="4.44683" y="0.161703"/>
+                  <o3 x="7.11493" y="0.404257"/>
+                  <o4 x="-1.83366e-14" y="2.6925"/>
+                  <eid>vctKhCvR7qE_lB+yLcWLLdK</eid>
                   </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
@@ -41517,19 +42139,41 @@ da Capo</text>
             <eid>lK58clOHbTP_Lo8OjPbFg8E</eid>
             <linkedTo>kXqLRzMHjAJ_jcaoDYr9TGG</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>nuup3rO/UwP_t+SE9rm+yLO</eid>
+                <linkedTo>rkYrc7YailL_HOtJtD2MW3F</linkedTo>
+                <SlurSegment no="0">
+                  <eid>esa5h2jyyqF_/y9kYcO7vVK</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>OwXeBhuFtWE_oiLpkIpHIRJ</eid>
               <linkedTo>tYKVUL5RIgG_tQOPzESIC6H</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
             <eid>5dOnJDp3+jC_a66AXEcJtOE</eid>
             <linkedTo>5qNJiIALM1E_phHDhrIkhxN</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>9G8vdNASMHC_c1noVmuajhK</eid>
               <linkedTo>StcwcR2RlzF_xCRr7G0Xse</linkedTo>
@@ -41548,8 +42192,8 @@ da Capo</text>
               <linkedTo>7QxlmPecjhH_Y7s7HxedIvH</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41641,6 +42285,21 @@ da Capo</text>
             <eid>NsPm/RrY+cG_GqskFdvBAyN</eid>
             <linkedTo>PWbmw/i1o+M_L/Fn5vbekVM</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>rfguelbz8OE_vrTNdGli6cE</eid>
+                <linkedTo>C1QrZgJylAM_e9tGt4VL6UH</linkedTo>
+                <SlurSegment no="0">
+                  <eid>uCkxoPL8YDC_xZssI2A622P</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>9zpWzb8aaSP_BNt/Ux/UufL</eid>
               <linkedTo>VKBOMpjcQ8B_cn8gKV06VyC</linkedTo>
@@ -41658,6 +42317,13 @@ da Capo</text>
             <eid>m9J8LGxYlpB_Bp7W3CbS5/J</eid>
             <linkedTo>+yJT00u7/fM_qpX3ft9zmUP</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>V2N0uqdNhON_IuZKS2bMFSO</eid>
               <linkedTo>54PgV/k/gMG_MExT/EcTjIF</linkedTo>
@@ -41841,8 +42507,8 @@ da Capo</text>
               <linkedTo>8oXU2Tv/iCP_W12ZxUIcJJG</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -41952,8 +42618,8 @@ da Capo</text>
               <linkedTo>XZixss1KjYM_HxjdCQ2GO/H</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -42067,8 +42733,8 @@ da Capo</text>
               <linkedTo>I/zVkGzYADD_8dvjnLdE+6C</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -42123,12 +42789,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>J7B/hFE/8pK_SuK3WY5OOnH</eid>
-                <linkedTo>+C1au6VrWaE_0ZRmCzCrZZM</linkedTo>
+                <eid>Zs1DxcUY6PL_BCKV7y/UF/I</eid>
+                <linkedTo>eZ2UQvWbg6P_90esq19araJ</linkedTo>
                 <SlurSegment no="0">
-                  <o1 x="0" y="0.6925"/>
-                  <o4 x="3" y="-1.32472"/>
-                  <eid>gAAGuJrl2/N_Z0QNc5cA4zH</eid>
+                  <o1 x="0" y="2.1925"/>
+                  <o2 x="0.323406" y="-1.37447"/>
+                  <o3 x="0.0808515" y="-4.93194"/>
+                  <o4 x="0" y="0.101878"/>
+                  <eid>+VEXI/hl/3P_yPGGoi2fSkB</eid>
                   </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
@@ -42183,8 +42851,8 @@ da Capo</text>
               <linkedTo>KbxUGbxSYpL_OtmqC/VZm+E</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -42280,13 +42948,28 @@ da Capo</text>
             <eid>tYvVepBM27H_IG+kAUnZrUP</eid>
             <linkedTo>/Q9sfyQgXSC_brfIdERmfcF</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>YSLZDjC19uB_HeuGVJuGVeJ</eid>
+                <linkedTo>iO48eRI2/zC_7M3ejxHIlUN</linkedTo>
+                <SlurSegment no="0">
+                  <eid>xNcYFk8IxdE_GLaqaDt6WfN</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>IUEqPhjFQ6M_ynH/qB8X//M</eid>
               <linkedTo>yUMwY1ACMMK_3ohmCie8FBE</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -42297,6 +42980,13 @@ da Capo</text>
               <prev>
                 <location>
                   <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
                   </location>
                 </prev>
               </Spanner>
