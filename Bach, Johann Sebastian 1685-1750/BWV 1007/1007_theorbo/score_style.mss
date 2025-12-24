@@ -162,11 +162,11 @@
     <shortestStem>2.5</shortestStem>
     <combineVoice>1</combineVoice>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
-    <minNoteDistance>0.5</minNoteDistance>
+    <minNoteDistance>0.35</minNoteDistance>
     <barNoteDistance>1.25</barNoteDistance>
     <barAccidentalDistance>0.65</barAccidentalDistance>
     <noteBarDistance>1.5</noteBarDistance>
-    <spacingDensity>1.3</spacingDensity>
+    <spacingDensity>1</spacingDensity>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
     <mrNumberSeries>0</mrNumberSeries>
@@ -506,12 +506,10 @@
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL>$p</evenFooterL>
-    <evenFooterC>$C
-$:composer: ~ $:workTitle: ~ ver. $MT$m</evenFooterC>
+    <evenFooterC>$C $:composer: ~ $:workTitle: ~ ver. $MT$m</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC>$C
-$:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
+    <oddFooterC>$C $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <oddFooterR>$p</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
@@ -744,7 +742,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
     <composerFontStyle>0</composerFontStyle>
     <composerColor r="0" g="0" b="0" a="255"/>
-    <composerAlign>right,top</composerAlign>
+    <composerAlign>right,bottom</composerAlign>
     <composerOffset x="0" y="0"/>
     <composerOffsetType>0</composerOffsetType>
     <composerFrameType>0</composerFrameType>
@@ -760,7 +758,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <lyricistFontSpatiumDependent>0</lyricistFontSpatiumDependent>
     <lyricistFontStyle>0</lyricistFontStyle>
     <lyricistColor r="0" g="0" b="0" a="255"/>
-    <lyricistAlign>left,top</lyricistAlign>
+    <lyricistAlign>left,bottom</lyricistAlign>
     <lyricistOffset x="0" y="0"/>
     <lyricistOffsetType>0</lyricistOffsetType>
     <lyricistFrameType>0</lyricistFrameType>
