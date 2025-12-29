@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.60">
-  <programVersion>4.6.4</programVersion>
-  <programRevision>8af129b</programRevision>
+  <programVersion>4.6.5</programVersion>
+  <programRevision>653f38d</programRevision>
   <Score>
     <eid>4ifRGSzDaQB_AWJbxEbD9KN</eid>
     <Division>480</Division>
@@ -21,6 +21,7 @@ However, performance for hire is permitted.</metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -98,34 +99,39 @@ However, performance for hire is permitted.</metaTag>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>8</height>
+        <height>150</height>
+        <topMargin>60</topMargin>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>cR06WvL2xsI_xpdbmeOhluB</eid>
         <Text>
           <eid>X7BE1fRQZtP_MijMUCL/lyK</eid>
-          <style>title</style>
-          <text>Cello Suite No. 1</text>
-          </Text>
-        <Text>
-          <eid>Bv8Zwl/sxgF_AAmtD281FrB</eid>
-          <style>subtitle</style>
-          <text>BWV. 1007</text>
-          </Text>
-        <Text>
-          <eid>ikL+7cNtPHF_hNiFYMvUaQI</eid>
-          <style>poet</style>
-          <text>/a → F♯
- 4 → C♯
- 5 → C</text>
+          <textLineSpacing>1.5</textLineSpacing>
+          <align>center,top</align>
+          <text><font size="32"/>Johann Sebastian Bach
+<font size="20"/>1685 - 1750
+
+<font size="32"/>Cello Suite No. 1
+<font size="20"/>BWV. 1007
+
+for theorbo arr.
+Vladimír Váša
+
+tuning:
+<font size="16"/>/a → F♯
+4 → C♯
+5 → C
+</text>
           </Text>
         <Text>
           <eid>KihOrI2Jh2F_Acg6a4aJ9CD</eid>
           <style>composer</style>
-          <text>Johann Sebastian Bach 1685 - 1750
-for theorbo arr.
-Vladimír Váša</text>
+          <text/>
           </Text>
+        <LayoutBreak>
+          <eid>lLy2Gzh/uLO_6nE8gTWXZHO</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         </VBox>
       <Measure>
         <eid>f45cuYFdcLG_94gjmU6XsGM</eid>
@@ -3367,8 +3373,8 @@ Vladimír Váša</text>
       <Measure>
         <eid>3HHiaqPG/pC_WvRf1zlsphG</eid>
         <LayoutBreak>
-          <eid>PKPd4Fat0dM_i/zFIA8MGnD</eid>
-          <subtype>line</subtype>
+          <eid>2hlN3yX/hvO_DD2LUEUYI0C</eid>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
@@ -7393,6 +7399,15 @@ Vladimír Váša</text>
             <durationType>16th</durationType>
             <Note>
               <eid>c4hrs/H/VGG_wzbGjds5qAH</eid>
+              <Symbol>
+                <name>luteFrench10thCourse</name>
+                <font>Leland</font>
+                <symbolsSize>0.7</symbolsSize>
+                <eid>nba4lr6Vmw_jsbkMngW6KP</eid>
+                <autoplace>0</autoplace>
+                <offset x="2.45" y="0.14"/>
+                <visible>0</visible>
+                </Symbol>
               <pitch>40</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
@@ -42403,6 +42418,15 @@ da Capo</text>
             <Note>
               <eid>clM0c2nN14E_CHSrl79DQwC</eid>
               <linkedTo>c4hrs/H/VGG_wzbGjds5qAH</linkedTo>
+              <Symbol>
+                <name>luteFrench10thCourse</name>
+                <font>Leland</font>
+                <symbolsSize>0.7</symbolsSize>
+                <eid>hXTZUroGqgO_1E549/AqTxN</eid>
+                <autoplace>0</autoplace>
+                <linkedTo>nba4lr6Vmw_jsbkMngW6KP</linkedTo>
+                <offset x="3.5" y="0.2"/>
+                </Symbol>
               <pitch>40</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
