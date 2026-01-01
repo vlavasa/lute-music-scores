@@ -14,7 +14,7 @@ Sections that are not yet finalized and still contain Rob MacKillop’s fingerin
 ### Prélude
 
 - [x] Initial transcription
-- [ ] Source-checked transcription
+- [x] Source-checked transcription
 - [x] Interpretative editing
   - [x] Initial fingering by Rob MacKillop
   - [x] My own interpretative version
