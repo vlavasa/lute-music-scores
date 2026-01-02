@@ -25,7 +25,7 @@ Sections that are not yet finalized and still contain Rob MacKillop’s fingerin
 ### Allemande
 
 - [x] Initial transcription
-- [ ] Source-checked transcription
+- [X] Source-checked transcription
 - [ ] Interpretative editing
   - [x] Initial fingering by Rob MacKillop
   - [ ] My own interpretative version
