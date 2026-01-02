@@ -26,7 +26,7 @@ Sections that are not yet finalized and still contain Rob MacKillop’s fingerin
 
 - [x] Initial transcription
 - [ ] Source-checked transcription
-- [x] Interpretative editing
+- [ ] Interpretative editing
   - [x] Initial fingering by Rob MacKillop
   - [ ] My own interpretative version
   - [ ] Final review
