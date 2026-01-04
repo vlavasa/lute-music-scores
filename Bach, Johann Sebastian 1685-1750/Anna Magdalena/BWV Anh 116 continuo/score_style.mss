@@ -12,7 +12,7 @@
     <pageOddBottomMargin>0.787403</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
-    <staffLowerBorder>7</staffLowerBorder>
+    <staffLowerBorder>4</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
     <instrumentNameOffset>1</instrumentNameOffset>
@@ -716,7 +716,7 @@
     <titleFrameType>0</titleFrameType>
     <titleFramePadding>0.5</titleFramePadding>
     <titleFrameWidth>0.2</titleFrameWidth>
-    <titleFrameRound>25</titleFrameRound>
+    <titleFrameRound>0</titleFrameRound>
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
     <titlePosition>center</titlePosition>
