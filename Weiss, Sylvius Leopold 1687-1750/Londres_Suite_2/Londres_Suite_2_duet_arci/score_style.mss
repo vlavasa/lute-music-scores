@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.40">
+<museScore version="4.70">
   <Style>
     <pageWidth>8.27</pageWidth>
     <pageHeight>11.69</pageHeight>
@@ -53,6 +53,10 @@
     <lyricsMelismaForce>0</lyricsMelismaForce>
     <lyricsMelismaMinLength>1</lyricsMelismaMinLength>
     <lyricsDashPosAtStartOfSystem>0</lyricsDashPosAtStartOfSystem>
+    <lyricsAvoidBarlines>1</lyricsAvoidBarlines>
+    <lyricsLimitDashCount>0</lyricsLimitDashCount>
+    <lyricsMaxDashCount>1</lyricsMaxDashCount>
+    <lyricsCenterDashedSyllables>0</lyricsCenterDashedSyllables>
     <lyricsOddFontFace>FreeSerif</lyricsOddFontFace>
     <lyricsOddFontSize>11</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
@@ -66,6 +70,7 @@
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
+    <lyricsOddPosition>center</lyricsOddPosition>
     <lyricsEvenFontFace>FreeSerif</lyricsEvenFontFace>
     <lyricsEvenFontSize>11</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
@@ -79,6 +84,7 @@
     <lyricsEvenFrameRound>0</lyricsEvenFrameRound>
     <lyricsEvenFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsEvenFrameBgColor r="255" g="255" b="255" a="0"/>
+    <lyricsEvenPosition>center</lyricsEvenPosition>
     <figuredBassFontFamily>MScoreBC</figuredBassFontFamily>
     <figuredBassYOffset>6</figuredBassYOffset>
     <figuredBassLineHeight>1</figuredBassLineHeight>
@@ -86,6 +92,8 @@
     <figuredBassStyle>0</figuredBassStyle>
     <systemFrameDistance>7</systemFrameDistance>
     <frameSystemDistance>7</frameSystemDistance>
+    <paddingToNotationAbove>2</paddingToNotationAbove>
+    <paddingToNotationBelow>2</paddingToNotationBelow>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.18</barWidth>
     <doubleBarWidth>0.18</doubleBarWidth>
@@ -96,6 +104,7 @@
     <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
+    <maskBarlinesForText>0</maskBarlinesForText>
     <bracketWidth>0.44</bracketWidth>
     <bracketDistance>0.45</bracketDistance>
     <akkoladeWidth>1.6</akkoladeWidth>
@@ -108,11 +117,14 @@
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
+    <dividerLeftAlignToSystemBarline>0</dividerLeftAlignToSystemBarline>
+    <dividerRightAlignToSystemBarline>0</dividerRightAlignToSystemBarline>
+    <dividerLeftSize>1</dividerLeftSize>
+    <dividerRightSize>1</dividerRightSize>
     <clefLeftMargin>0.8</clefLeftMargin>
     <keysigLeftMargin>0.5</keysigLeftMargin>
     <ambitusMargin>0.5</ambitusMargin>
     <timesigLeftMargin>0.5</timesigLeftMargin>
-    <timesigScale w="1" h="1"/>
     <midClefKeyRightMargin>1</midClefKeyRightMargin>
     <clefKeyRightMargin>0.8</clefKeyRightMargin>
     <clefKeyDistance>1</clefKeyDistance>
@@ -121,14 +133,34 @@
     <keyBarlineDistance>1</keyBarlineDistance>
     <systemHeaderDistance>2.5</systemHeaderDistance>
     <systemHeaderTimeSigDistance>2</systemHeaderTimeSigDistance>
+    <systemHeaderMinStartOfSystemDistance>1.25</systemHeaderMinStartOfSystemDistance>
     <systemTrailerRightMargin>0.5</systemTrailerRightMargin>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
+    <timeSigPlacement>normal</timeSigPlacement>
+    <timeSigCenterOnBarline>1</timeSigCenterOnBarline>
+    <timeSigVSMarginCentered>hangIntoMargin</timeSigVSMarginCentered>
+    <timeSigVSMarginNonCentered>rightAlignToBarline</timeSigVSMarginNonCentered>
+    <timeSigCenterAcrossStaveGroup>0</timeSigCenterAcrossStaveGroup>
+    <timeSigNormalStyle>normal</timeSigNormalStyle>
+    <timeSigNormalScale w="1" h="1"/>
+    <timeSigNormalScaleLock>1</timeSigNormalScaleLock>
+    <timeSigNormalNumDist>0</timeSigNormalNumDist>
+    <timeSigNormalY>0</timeSigNormalY>
+    <timeSigAboveStyle>normal</timeSigAboveStyle>
+    <timeSigAboveScale w="2" h="2"/>
+    <timeSigAboveScaleLock>1</timeSigAboveScaleLock>
+    <timeSigAboveNumDist>0.1</timeSigAboveNumDist>
+    <timeSigAboveY>-1</timeSigAboveY>
+    <timeSigAcrossStyle>narrow</timeSigAcrossStyle>
+    <timeSigAcrossScale w="4" h="4"/>
+    <timeSigAcrossScaleLock>1</timeSigAcrossScaleLock>
+    <timeSigAcrossNumDist>0.1</timeSigAcrossNumDist>
+    <timeSigAcrossY>0</timeSigAcrossY>
     <useStraightNoteFlags>0</useStraightNoteFlags>
     <stemWidth>0.1</stemWidth>
     <shortenStem>1</shortenStem>
     <stemLength>3.5</stemLength>
-    <stemLengthSmall>2.25</stemLengthSmall>
     <shortStemStartLocation>1</shortStemStartLocation>
     <shortestStem>2.25</shortestStem>
     <combineVoice>1</combineVoice>
@@ -137,6 +169,7 @@
     <barNoteDistance>1</barNoteDistance>
     <barAccidentalDistance>0.3</barAccidentalDistance>
     <noteBarDistance>1</noteBarDistance>
+    <spacingDensity>1</spacingDensity>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
     <mrNumberSeries>0</mrNumberSeries>
@@ -180,6 +213,7 @@
     <articulationAnchorOther>0</articulationAnchorOther>
     <articulationStemHAlign>2</articulationStemHAlign>
     <articulationKeepTogether>1</articulationKeepTogether>
+    <trillAlwaysShowCueNote>0</trillAlwaysShowCueNote>
     <lastSystemFillLimit>0.3</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-3.5"/>
@@ -202,6 +236,7 @@
     <hairpinFrameRound>0</hairpinFrameRound>
     <hairpinFrameFgColor r="0" g="0" b="0" a="255"/>
     <hairpinFrameBgColor r="255" g="255" b="255" a="0"/>
+    <hairpinPosition>left</hairpinPosition>
     <hairpinText></hairpinText>
     <hairpinCrescText>cresc.</hairpinCrescText>
     <hairpinDecrescText>dim.</hairpinDecrescText>
@@ -213,6 +248,7 @@
     <hairpinLineLineStyle>dashed</hairpinLineLineStyle>
     <hairpinLineDashLineLen>6</hairpinLineDashLineLen>
     <hairpinLineDashGapLen>9</hairpinLineDashGapLen>
+    <hairpinOffset x="0" y="0"/>
     <pedalPlacement>1</pedalPlacement>
     <pedalPosAbove x="0" y="-4"/>
     <pedalPosBelow x="0" y="4"/>
@@ -220,7 +256,7 @@
     <pedalLineStyle>solid</pedalLineStyle>
     <pedalDashLineLen>4</pedalDashLineLen>
     <pedalDashGapLen>4</pedalDashGapLen>
-    <pedalHookHeight>-1.2</pedalHookHeight>
+    <pedalHookHeight>1.2</pedalHookHeight>
     <pedalFontFace>FreeSerif</pedalFontFace>
     <pedalFontSize>12</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
@@ -235,12 +271,14 @@
     <pedalFrameRound>0</pedalFrameRound>
     <pedalFrameFgColor r="0" g="0" b="0" a="255"/>
     <pedalFrameBgColor r="255" g="255" b="255" a="0"/>
+    <pedalPosition>left</pedalPosition>
     <pedalText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</pedalText>
     <pedalHookText></pedalHookText>
     <pedalContinueText>&lt;sym&gt;keyboardPedalParensLeft&lt;/sym&gt;&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;&lt;sym&gt;keyboardPedalParensRight&lt;/sym&gt;</pedalContinueText>
     <pedalContinueHookText></pedalContinueHookText>
     <pedalEndText></pedalEndText>
     <pedalRosetteEndText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</pedalRosetteEndText>
+    <pedalOffset x="0" y="0"/>
     <trillPlacement>0</trillPlacement>
     <trillPosAbove x="0" y="-1"/>
     <trillPosBelow x="0" y="1"/>
@@ -249,6 +287,7 @@
     <vibratoPosBelow x="0" y="1"/>
     <harmonyFretDist>1</harmonyFretDist>
     <minHarmonyDistance>0.5</minHarmonyDistance>
+    <harmonyHarmonyDistance>0.5</harmonyHarmonyDistance>
     <maxHarmonyBarDistance>3</maxHarmonyBarDistance>
     <maxChordShiftAbove>0</maxChordShiftAbove>
     <maxChordShiftBelow>0</maxChordShiftBelow>
@@ -318,6 +357,7 @@
     <nashvilleNumberFrameRound>0</nashvilleNumberFrameRound>
     <nashvilleNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <nashvilleNumberFrameBgColor r="255" g="255" b="255" a="0"/>
+    <displayCapoChords>0</displayCapoChords>
     <capoPosition>0</capoPosition>
     <fretNumMag>2</fretNumMag>
     <fretNumPos>0</fretNumPos>
@@ -326,7 +366,7 @@
     <fretMag>1</fretMag>
     <fretPlacement>0</fretPlacement>
     <fretStrings>6</fretStrings>
-    <fretFrets>5</fretFrets>
+    <fretFrets>4</fretFrets>
     <fretNut>1</fretNut>
     <fretDotSize>1</fretDotSize>
     <fretDotSpatiumSize>0.5</fretDotSpatiumSize>
@@ -349,8 +389,9 @@
     <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>5</measureNumberInterval>
     <measureNumberSystem>1</measureNumberSystem>
-    <measureNumberAllStaves>0</measureNumberAllStaves>
+    <measureNumberPlacementMode>above-system</measureNumberPlacementMode>
     <smallNoteMag>0.7</smallNoteMag>
+    <scaleRythmicSpacingForSmallNotes>0</scaleRythmicSpacingForSmallNotes>
     <graceNoteMag>0.7</graceNoteMag>
     <graceToMainNoteDist>0.45</graceToMainNoteDist>
     <graceToGraceNoteDist>0.3</graceToGraceNoteDist>
@@ -364,30 +405,46 @@
     <genCourtesyClef>1</genCourtesyClef>
     <keySigCourtesyBarlineMode>2</keySigCourtesyBarlineMode>
     <timeSigCourtesyBarlineMode>0</timeSigCourtesyBarlineMode>
+    <barlineBeforeSigChange>0</barlineBeforeSigChange>
+    <doubleBarlineBeforeKeySig>0</doubleBarlineBeforeKeySig>
+    <doubleBarlineBeforeTimeSig>0</doubleBarlineBeforeTimeSig>
     <swingRatio>60</swingRatio>
     <swingUnit></swingUnit>
-    <useStandardNoteNames>1</useStandardNoteNames>
-    <useGermanNoteNames>0</useGermanNoteNames>
-    <useFullGermanNoteNames>0</useFullGermanNoteNames>
-    <useSolfeggioNoteNames>0</useSolfeggioNoteNames>
-    <useFrenchNoteNames>0</useFrenchNoteNames>
+    <chordSymbolSpelling>standard</chordSymbolSpelling>
     <automaticCapitalization>1</automaticCapitalization>
     <lowerCaseMinorChords>0</lowerCaseMinorChords>
     <lowerCaseBassNotes>0</lowerCaseBassNotes>
     <allCapsNoteNames>0</allCapsNoteNames>
-    <chordStyle>std</chordStyle>
+    <chordStyle>legacy</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
-    <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
+    <chordDescriptionFile>chords_legacy.xml</chordDescriptionFile>
     <chordExtensionMag>1</chordExtensionMag>
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
+    <verticallyStackModifiers>0</verticallyStackModifiers>
+    <chordStackedModifierMag>0.75</chordStackedModifierMag>
+    <chordBassNoteStagger>0</chordBassNoteStagger>
+    <chordBassNoteScale>1</chordBassNoteScale>
+    <polychordDividerThickness>0.11</polychordDividerThickness>
+    <polychordDividerSpacing>0.4</polychordDividerSpacing>
+    <verticallyAlignChordSymbols>0</verticallyAlignChordSymbols>
+    <chordSymPosition>left</chordSymPosition>
+    <chordAlignmentToFretboard>center</chordAlignmentToFretboard>
+    <chordAlignmentExcludeModifiers>0</chordAlignmentExcludeModifiers>
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
+    <mergeMatchingRests>0</mergeMatchingRests>
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
+    <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
+    <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
     <minMMRestWidth>4</minMMRestWidth>
+    <mmRestConstantWidth>0</mmRestConstantWidth>
+    <mmRestReferenceWidth>2</mmRestReferenceWidth>
+    <mmRestMaxWidthIncrease>8</mmRestMaxWidthIncrease>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
+    <mmRestBetweenStaves>1</mmRestBetweenStaves>
     <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
     <mmRestHBarThickness>0.7</mmRestHBarThickness>
@@ -398,7 +455,7 @@
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
     <hideEmptyStaves>0</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
-    <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+    <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
     <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
     <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
@@ -415,22 +472,33 @@
     <arpeggioLineWidth>0.18</arpeggioLineWidth>
     <arpeggioHookLen>0.8</arpeggioHookLen>
     <arpeggioHiddenInStdIfTab>0</arpeggioHiddenInStdIfTab>
+    <chordBracketNoteDistance>0.15</chordBracketNoteDistance>
+    <chordBracketLineWidth>0.1</chordBracketLineWidth>
+    <chordBracketHookLen>0.7</chordBracketHookLen>
     <slurEndWidth>0.07</slurEndWidth>
     <slurMidWidth>0.21</slurMidWidth>
     <slurDottedWidth>0.1</slurDottedWidth>
+    <angleHangingSlursAwayFromStaff>0</angleHangingSlursAwayFromStaff>
     <tieEndWidth>0.07</tieEndWidth>
     <tieMidWidth>0.21</tieMidWidth>
     <tieDottedWidth>0.1</tieDottedWidth>
     <minTieLength>1</minTieLength>
+    <minHangingTieLength>1.5</minHangingTieLength>
     <minStraightGlissandoLength>1.2</minStraightGlissandoLength>
     <minWigglyGlissandoLength>2</minWigglyGlissandoLength>
     <slurMinDistance>0.5</slurMinDistance>
     <tieMinDistance>0.5</tieMinDistance>
+    <laissezVibMinDistance>0.5</laissezVibMinDistance>
     <headerToLineStartDistance>1</headerToLineStartDistance>
+    <lineEndToBarlineDistance>0.25</lineEndToBarlineDistance>
+    <barlineToLineStartDistance>0.65</barlineToLineStartDistance>
     <tiePlacementSingleNote>outside</tiePlacementSingleNote>
     <tiePlacementChord>inside</tiePlacementChord>
+    <tieDotsPlacement>auto</tieDotsPlacement>
     <tieMinShoulderHeight>0.3</tieMinShoulderHeight>
     <tieMaxShoulderHeight>2</tieMaxShoulderHeight>
+    <minLaissezVibLength>2</minLaissezVibLength>
+    <laissezVibUseSmuflSym>0</laissezVibUseSmuflSym>
     <sectionPause>3</sectionPause>
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
@@ -474,6 +542,9 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <voltaFrameRound>0</voltaFrameRound>
     <voltaFrameFgColor r="0" g="0" b="0" a="255"/>
     <voltaFrameBgColor r="255" g="255" b="255" a="0"/>
+    <voltaPosition>left</voltaPosition>
+    <voltaAlignStartBeforeKeySig>0</voltaAlignStartBeforeKeySig>
+    <voltaAlignEndLeftOfBarline>0</voltaAlignEndLeftOfBarline>
     <ottava8VAPlacement>0</ottava8VAPlacement>
     <ottava8VBPlacement>1</ottava8VBPlacement>
     <ottava15MAPlacement>0</ottava15MAPlacement>
@@ -507,7 +578,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <ottavaPosAbove x="0" y="-3"/>
     <ottavaPosBelow x="0" y="3"/>
     <ottavaHookAbove>1.9</ottavaHookAbove>
-    <ottavaHookBelow>-1.9</ottavaHookBelow>
+    <ottavaHookBelow>1.9</ottavaHookBelow>
     <ottavaLineWidth>0.11</ottavaLineWidth>
     <ottavaLineStyle>dashed</ottavaLineStyle>
     <ottavaDashLineLen>6</ottavaDashLineLen>
@@ -528,6 +599,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <ottavaFrameRound>0</ottavaFrameRound>
     <ottavaFrameFgColor r="0" g="0" b="0" a="255"/>
     <ottavaFrameBgColor r="255" g="255" b="255" a="0"/>
+    <ottavaPosition>left</ottavaPosition>
     <tabClef>31</tabClef>
     <tremoloWidth>1.2</tremoloWidth>
     <tremoloBoxHeight>0.65</tremoloBoxHeight>
@@ -540,6 +612,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
     <keySigNaturals>0</keySigNaturals>
+    <keySigShowNaturalsChangingSharpsFlats>1</keySigShowNaturalsChangingSharpsFlats>
     <tupletMaxSlope>0.5</tupletMaxSlope>
     <tupletOutOfStaff>1</tupletOutOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
@@ -569,6 +642,9 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <tupletFrameRound>0</tupletFrameRound>
     <tupletFrameFgColor r="0" g="0" b="0" a="255"/>
     <tupletFrameBgColor r="255" g="255" b="255" a="0"/>
+    <tupletPosition>center</tupletPosition>
+    <tupletExtendToEndOfDuration>0</tupletExtendToEndOfDuration>
+    <tupletNumberRythmicCenter>0</tupletNumberRythmicCenter>
     <scaleBarlines>1</scaleBarlines>
     <barGraceDistance>0.6</barGraceDistance>
     <minVerticalDistance>0.5</minVerticalDistance>
@@ -588,25 +664,36 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <snapToDynamics>1</snapToDynamics>
     <centerOnNotehead>1</centerOnNotehead>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
-    <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
     <textLinePlacement>0</textLinePlacement>
     <textLinePosAbove x="0" y="-1"/>
     <textLinePosBelow x="0" y="1"/>
+    <textLineLineWidth>0.15</textLineLineWidth>
+    <textLineLineStyle>solid</textLineLineStyle>
+    <textLineDashLineLen>4</textLineDashLineLen>
+    <textLineDashGapLen>4</textLineDashGapLen>
+    <textLineHookHeight>1.5</textLineHookHeight>
     <textLineFrameType>0</textLineFrameType>
     <textLineFramePadding>0.2</textLineFramePadding>
     <textLineFrameWidth>0.1</textLineFrameWidth>
     <textLineFrameRound>0</textLineFrameRound>
     <textLineFrameFgColor r="0" g="0" b="0" a="255"/>
     <textLineFrameBgColor r="255" g="255" b="255" a="0"/>
+    <textLinePosition>left</textLinePosition>
     <systemTextLinePlacement>0</systemTextLinePlacement>
     <systemTextLinePosAbove x="0" y="-1"/>
     <systemTextLinePosBelow x="0" y="1"/>
+    <systemTextLineLineWidth>0.15</systemTextLineLineWidth>
+    <systemTextLineLineStyle>solid</systemTextLineLineStyle>
+    <systemTextLineDashLineLen>4</systemTextLineDashLineLen>
+    <systemTextLineDashGapLen>4</systemTextLineDashGapLen>
+    <systemTextLineHookHeight>1.5</systemTextLineHookHeight>
     <systemTextLineFrameType>0</systemTextLineFrameType>
     <systemTextLineFramePadding>0.2</systemTextLineFramePadding>
     <systemTextLineFrameWidth>0.1</systemTextLineFrameWidth>
     <systemTextLineFrameRound>0</systemTextLineFrameRound>
     <systemTextLineFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemTextLineFrameBgColor r="255" g="255" b="255" a="0"/>
+    <systemTextLinePosition>left</systemTextLinePosition>
     <tremoloBarLineWidth>0.12</tremoloBarLineWidth>
     <jumpPosAbove x="0" y="-2"/>
     <markerPosAbove x="0" y="-2"/>
@@ -627,6 +714,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <defaultOffsetType>1</defaultOffsetType>
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
+    <defaultPosition>left</defaultPosition>
     <titleFontFace>FreeSerif</titleFontFace>
     <titleFontSize>24</titleFontSize>
     <titleLineSpacing>1</titleLineSpacing>
@@ -642,6 +730,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <titleFrameRound>0</titleFrameRound>
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
+    <titlePosition>center</titlePosition>
     <subTitleFontFace>FreeSerif</subTitleFontFace>
     <subTitleFontSize>14</subTitleFontSize>
     <subTitleLineSpacing>1</subTitleLineSpacing>
@@ -657,6 +746,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <subTitleFrameRound>0</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
+    <subTitlePosition>center</subTitlePosition>
     <composerFontFace>FreeSerif</composerFontFace>
     <composerFontSize>12</composerFontSize>
     <composerLineSpacing>1</composerLineSpacing>
@@ -672,6 +762,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <composerFrameRound>0</composerFrameRound>
     <composerFrameFgColor r="0" g="0" b="0" a="255"/>
     <composerFrameBgColor r="255" g="255" b="255" a="0"/>
+    <composerPosition>right</composerPosition>
     <lyricistFontFace>FreeSerif</lyricistFontFace>
     <lyricistFontSize>12</lyricistFontSize>
     <lyricistLineSpacing>1</lyricistLineSpacing>
@@ -687,6 +778,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <lyricistFrameRound>0</lyricistFrameRound>
     <lyricistFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricistFrameBgColor r="255" g="255" b="255" a="0"/>
+    <lyricistPosition>left</lyricistPosition>
     <fingeringFontFace>FreeSerif</fingeringFontFace>
     <fingeringFontSize>8</fingeringFontSize>
     <fingeringLineSpacing>1</fingeringLineSpacing>
@@ -701,6 +793,21 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <fingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <fingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <fingeringOffset x="0" y="0"/>
+    <fingeringPosition>center</fingeringPosition>
+    <tabFretNumberFontFace>FreeSans</tabFretNumberFontFace>
+    <tabFretNumberFontSize>9</tabFretNumberFontSize>
+    <tabFretNumberLineSpacing>1</tabFretNumberLineSpacing>
+    <tabFretNumberFontSpatiumDependent>1</tabFretNumberFontSpatiumDependent>
+    <tabFretNumberFontStyle>0</tabFretNumberFontStyle>
+    <tabFretNumberColor r="0" g="0" b="0" a="255"/>
+    <tabFretNumberAlign>left,baseline</tabFretNumberAlign>
+    <tabFretNumberOffset x="0" y="0"/>
+    <tabFretNumberFrameType>0</tabFretNumberFrameType>
+    <tabFretNumberFramePadding>0.2</tabFretNumberFramePadding>
+    <tabFretNumberFrameWidth>0.1</tabFretNumberFrameWidth>
+    <tabFretNumberFrameRound>0</tabFretNumberFrameRound>
+    <tabFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
+    <tabFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <lhGuitarFingeringFontFace>FreeSerif</lhGuitarFingeringFontFace>
     <lhGuitarFingeringFontSize>8</lhGuitarFingeringFontSize>
     <lhGuitarFingeringLineSpacing>1</lhGuitarFingeringLineSpacing>
@@ -715,6 +822,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <lhGuitarFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <lhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <lhGuitarFingeringOffset x="-0.5" y="0"/>
+    <lhGuitarFingeringPosition>right</lhGuitarFingeringPosition>
     <rhGuitarFingeringFontFace>FreeSerif</rhGuitarFingeringFontFace>
     <rhGuitarFingeringFontSize>8</rhGuitarFingeringFontSize>
     <rhGuitarFingeringLineSpacing>1</rhGuitarFingeringLineSpacing>
@@ -729,6 +837,35 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <rhGuitarFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <rhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <rhGuitarFingeringOffset x="0" y="0"/>
+    <rhGuitarFingeringPosition>center</rhGuitarFingeringPosition>
+    <hammerOnPullOffTappingFontFace>Edwin</hammerOnPullOffTappingFontFace>
+    <hammerOnPullOffTappingFontSize>8</hammerOnPullOffTappingFontSize>
+    <hammerOnPullOffTappingLineSpacing>1</hammerOnPullOffTappingLineSpacing>
+    <hammerOnPullOffTappingFontSpatiumDependent>1</hammerOnPullOffTappingFontSpatiumDependent>
+    <hammerOnPullOffTappingFontStyle>0</hammerOnPullOffTappingFontStyle>
+    <hammerOnPullOffTappingColor r="0" g="0" b="0" a="255"/>
+    <hammerOnPullOffTappingAlign>left,baseline</hammerOnPullOffTappingAlign>
+    <hammerOnPullOffTappingFrameType>0</hammerOnPullOffTappingFrameType>
+    <hammerOnPullOffTappingFramePadding>0.2</hammerOnPullOffTappingFramePadding>
+    <hammerOnPullOffTappingFrameWidth>0.1</hammerOnPullOffTappingFrameWidth>
+    <hammerOnPullOffTappingFrameRound>0</hammerOnPullOffTappingFrameRound>
+    <hammerOnPullOffTappingFrameFgColor r="0" g="0" b="0" a="255"/>
+    <hammerOnPullOffTappingFrameBgColor r="255" g="255" b="255" a="0"/>
+    <hammerOnPullOffTappingOffset x="0" y="0"/>
+    <hammerOnPullOffTappingPosition>left</hammerOnPullOffTappingPosition>
+    <hopoShowOnStandardStaves>1</hopoShowOnStandardStaves>
+    <hopoShowOnTabStaves>1</hopoShowOnTabStaves>
+    <hopoUpperCase>1</hopoUpperCase>
+    <hopoShowAll>1</hopoShowAll>
+    <hopoAlignLettersStandardStaves>1</hopoAlignLettersStandardStaves>
+    <hopoAlignLettersTabStaves>1</hopoAlignLettersTabStaves>
+    <lhTappingSymbolNormalStave>dot</lhTappingSymbolNormalStave>
+    <lhTappingSymbolTab>dot</lhTappingSymbolTab>
+    <lhTappingShowItemsNormalStave>0</lhTappingShowItemsNormalStave>
+    <lhTappingShowItemsTab>0</lhTappingShowItemsTab>
+    <lhTappingSlurTopAndBottomNoteOnTab>1</lhTappingSlurTopAndBottomNoteOnTab>
+    <rhTappingSymbolNormalStave>plus</rhTappingSymbolNormalStave>
+    <rhTappingSymbolTab>T</rhTappingSymbolTab>
     <stringNumberFontFace>FreeSerif</stringNumberFontFace>
     <stringNumberFontSize>8</stringNumberFontSize>
     <stringNumberLineSpacing>1</stringNumberLineSpacing>
@@ -743,7 +880,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <stringNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <stringNumberOffset x="0" y="0"/>
-    <preferSameStringForTranspose>0</preferSameStringForTranspose>
+    <stringNumberPosition>center</stringNumberPosition>
     <stringTuningsFontSize>9</stringTuningsFontSize>
     <harpPedalDiagramFontFace>Edwin</harpPedalDiagramFontFace>
     <harpPedalDiagramFontSize>10</harpPedalDiagramFontSize>
@@ -764,6 +901,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <harpPedalDiagramPosAbove x="0" y="-1"/>
     <harpPedalDiagramPosBelow x="0" y="2.5"/>
     <harpPedalDiagramMinDistance>0.5</harpPedalDiagramMinDistance>
+    <harpPedalDiagramPosition>center</harpPedalDiagramPosition>
     <harpPedalTextDiagramFontFace>Edwin</harpPedalTextDiagramFontFace>
     <harpPedalTextDiagramFontSize>8</harpPedalTextDiagramFontSize>
     <harpPedalTextDiagramLineSpacing>1</harpPedalTextDiagramLineSpacing>
@@ -782,6 +920,22 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <harpPedalTextDiagramPosAbove x="0" y="-1.5"/>
     <harpPedalTextDiagramPosBelow x="0" y="2.5"/>
     <harpPedalTextDiagramMinDistance>0.5</harpPedalTextDiagramMinDistance>
+    <harpPedalTextDiagramPosition>left</harpPedalTextDiagramPosition>
+    <articulationFontFace>Edwin</articulationFontFace>
+    <articulationFontSize>8</articulationFontSize>
+    <articulationLineSpacing>1</articulationLineSpacing>
+    <articulationFontSpatiumDependent>1</articulationFontSpatiumDependent>
+    <articulationFontStyle>0</articulationFontStyle>
+    <articulationColor r="0" g="0" b="0" a="255"/>
+    <articulationAlign>left,baseline</articulationAlign>
+    <articulationFrameType>0</articulationFrameType>
+    <articulationFramePadding>0.2</articulationFramePadding>
+    <articulationFrameWidth>0.1</articulationFrameWidth>
+    <articulationFrameRound>0</articulationFrameRound>
+    <articulationFrameFgColor r="0" g="0" b="0" a="255"/>
+    <articulationFrameBgColor r="255" g="255" b="255" a="0"/>
+    <articulationOffset x="0" y="0"/>
+    <articulationPosition>left</articulationPosition>
     <longInstrumentFontFace>FreeSerif</longInstrumentFontFace>
     <longInstrumentFontSize>12</longInstrumentFontSize>
     <longInstrumentLineSpacing>1</longInstrumentLineSpacing>
@@ -796,6 +950,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <longInstrumentFrameRound>0</longInstrumentFrameRound>
     <longInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <longInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
+    <longInstrumentPosition>right</longInstrumentPosition>
     <shortInstrumentFontFace>FreeSerif</shortInstrumentFontFace>
     <shortInstrumentFontSize>12</shortInstrumentFontSize>
     <shortInstrumentLineSpacing>1</shortInstrumentLineSpacing>
@@ -810,6 +965,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <shortInstrumentFrameRound>0</shortInstrumentFrameRound>
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
+    <shortInstrumentPosition>right</shortInstrumentPosition>
     <partInstrumentFontFace>FreeSerif</partInstrumentFontFace>
     <partInstrumentFontSize>18</partInstrumentFontSize>
     <partInstrumentLineSpacing>1</partInstrumentLineSpacing>
@@ -824,6 +980,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <partInstrumentFrameRound>0</partInstrumentFrameRound>
     <partInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <partInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
+    <partInstrumentPosition>left</partInstrumentPosition>
     <dynamicsFontFace>FreeSerif</dynamicsFontFace>
     <dynamicsFontSize>10</dynamicsFontSize>
     <dynamicsLineSpacing>1</dynamicsLineSpacing>
@@ -837,6 +994,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <dynamicsFrameRound>0</dynamicsFrameRound>
     <dynamicsFrameFgColor r="0" g="0" b="0" a="255"/>
     <dynamicsFrameBgColor r="255" g="255" b="255" a="0"/>
+    <dynamicsPosition>center</dynamicsPosition>
     <expressionFontFace>FreeSerif</expressionFontFace>
     <expressionFontSize>11</expressionFontSize>
     <expressionLineSpacing>1</expressionLineSpacing>
@@ -855,6 +1013,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <expressionFrameFgColor r="0" g="0" b="0" a="255"/>
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
     <expressionMinDistance>0.5</expressionMinDistance>
+    <expressionPosition>left</expressionPosition>
     <tempoFontFace>FreeSerif</tempoFontFace>
     <tempoFontSize>12</tempoFontSize>
     <tempoLineSpacing>1</tempoLineSpacing>
@@ -873,6 +1032,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <tempoFrameRound>0</tempoFrameRound>
     <tempoFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoFrameBgColor r="255" g="255" b="255" a="0"/>
+    <tempoPosition>left</tempoPosition>
     <tempoChangeFontFace>Edwin</tempoChangeFontFace>
     <tempoChangeFontSize>12</tempoChangeFontSize>
     <tempoChangeLineSpacing>1</tempoChangeLineSpacing>
@@ -891,6 +1051,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <tempoChangeFrameRound>0</tempoChangeFrameRound>
     <tempoChangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoChangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <tempoChangePosition>left</tempoChangePosition>
     <tempoChangeLineWidth>0.15</tempoChangeLineWidth>
     <tempoChangeLineStyle>dashed</tempoChangeLineStyle>
     <tempoChangeDashLineLen>6</tempoChangeDashLineLen>
@@ -910,6 +1071,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <metronomeFrameRound>0</metronomeFrameRound>
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <metronomePosition>left</metronomePosition>
     <measureNumberFontFace>FreeSerif</measureNumberFontFace>
     <measureNumberFontSize>8</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
@@ -920,7 +1082,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <measureNumberPosBelow x="0" y="2"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
-    <measureNumberHPlacement>0</measureNumberHPlacement>
+    <measureNumberHPlacement>center</measureNumberHPlacement>
     <measureNumberMinDistance>0.5</measureNumberMinDistance>
     <measureNumberAlign>center,baseline</measureNumberAlign>
     <measureNumberFrameType>0</measureNumberFrameType>
@@ -929,6 +1091,25 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <measureNumberFrameRound>0</measureNumberFrameRound>
     <measureNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <measureNumberFrameBgColor r="255" g="255" b="255" a="0"/>
+    <measureNumberPosition>center</measureNumberPosition>
+    <measureNumberTextStyle>measure_number</measureNumberTextStyle>
+    <measureNumberAlignToBarline>1</measureNumberAlignToBarline>
+    <measureNumberAlternateFontFace>Edwin</measureNumberAlternateFontFace>
+    <measureNumberAlternateFontSize>10</measureNumberAlternateFontSize>
+    <measureNumberAlternateLineSpacing>1</measureNumberAlternateLineSpacing>
+    <measureNumberAlternateFontSpatiumDependent>0</measureNumberAlternateFontSpatiumDependent>
+    <measureNumberAlternateFontStyle>3</measureNumberAlternateFontStyle>
+    <measureNumberAlternateColor r="0" g="0" b="0" a="255"/>
+    <measureNumberAlternateAlign>left,baseline</measureNumberAlternateAlign>
+    <measureNumberAlternatePosAbove x="0" y="-4"/>
+    <measureNumberAlternatePosBelow x="0" y="4"/>
+    <measureNumberAlternateFrameType>1</measureNumberAlternateFrameType>
+    <measureNumberAlternateFramePadding>0.2</measureNumberAlternateFramePadding>
+    <measureNumberAlternateFrameWidth>0.1</measureNumberAlternateFrameWidth>
+    <measureNumberAlternateFrameRound>0</measureNumberAlternateFrameRound>
+    <measureNumberAlternateFrameFgColor r="0" g="0" b="0" a="255"/>
+    <measureNumberAlternateFrameBgColor r="255" g="255" b="255" a="0"/>
+    <measureNumberAlternatePosition>left</measureNumberAlternatePosition>
     <mmRestShowMeasureNumberRange>0</mmRestShowMeasureNumberRange>
     <mmRestRangeBracketType>0</mmRestRangeBracketType>
     <mmRestRangeFontFace>Edwin</mmRestRangeFontFace>
@@ -940,7 +1121,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <mmRestRangePosBelow x="0" y="1"/>
     <mmRestRangeOffsetType>1</mmRestRangeOffsetType>
     <mmRestRangeVPlacement>1</mmRestRangeVPlacement>
-    <mmRestRangeHPlacement>1</mmRestRangeHPlacement>
+    <mmRestRangeHPlacement>center</mmRestRangeHPlacement>
     <mmRestRangeAlign>center,baseline</mmRestRangeAlign>
     <mmRestRangeFrameType>0</mmRestRangeFrameType>
     <mmRestRangeFramePadding>0.2</mmRestRangeFramePadding>
@@ -948,7 +1129,9 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <mmRestRangeFrameRound>0</mmRestRangeFrameRound>
     <mmRestRangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <mmRestRangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <mmRestRangePosition>center</mmRestRangePosition>
     <mmRestRangeMinDistance>0.5</mmRestRangeMinDistance>
+    <mmRestRangeTextStyle>mmrest_range</mmRestRangeTextStyle>
     <translatorFontFace>FreeSerif</translatorFontFace>
     <translatorFontSize>11</translatorFontSize>
     <translatorLineSpacing>1</translatorLineSpacing>
@@ -963,6 +1146,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <translatorFrameRound>0</translatorFrameRound>
     <translatorFrameFgColor r="0" g="0" b="0" a="255"/>
     <translatorFrameBgColor r="255" g="255" b="255" a="0"/>
+    <translatorPosition>left</translatorPosition>
     <systemTextFontFace>FreeSerif</systemTextFontFace>
     <systemTextFontSize>10</systemTextFontSize>
     <systemTextLineSpacing>1</systemTextLineSpacing>
@@ -981,6 +1165,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <systemTextFrameRound>0</systemTextFrameRound>
     <systemTextFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemTextFrameBgColor r="255" g="255" b="255" a="0"/>
+    <systemTextPosition>left</systemTextPosition>
     <staffTextFontFace>FreeSerif</staffTextFontFace>
     <staffTextFontSize>10</staffTextFontSize>
     <staffTextLineSpacing>1</staffTextLineSpacing>
@@ -999,6 +1184,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <staffTextFrameRound>0</staffTextFrameRound>
     <staffTextFrameFgColor r="0" g="0" b="0" a="255"/>
     <staffTextFrameBgColor r="255" g="255" b="255" a="0"/>
+    <staffTextPosition>left</staffTextPosition>
     <fretDiagramFingeringFontFace>FreeSans</fretDiagramFingeringFontFace>
     <fretDiagramFingeringFontSize>6</fretDiagramFingeringFontSize>
     <fretDiagramFingeringLineSpacing>1</fretDiagramFingeringLineSpacing>
@@ -1013,6 +1199,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <fretDiagramFingeringFrameRound>0</fretDiagramFingeringFrameRound>
     <fretDiagramFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <fretDiagramFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
+    <fretDiagramFingeringPosition>left</fretDiagramFingeringPosition>
     <fretDiagramFretNumberFontFace>FreeSans</fretDiagramFretNumberFontFace>
     <fretDiagramFretNumberFontSize>6</fretDiagramFretNumberFontSize>
     <fretDiagramFretNumberLineSpacing>1</fretDiagramFretNumberLineSpacing>
@@ -1027,6 +1214,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <fretDiagramFretNumberFrameRound>0</fretDiagramFretNumberFrameRound>
     <fretDiagramFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <fretDiagramFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
+    <fretDiagramFretNumberPosition>left</fretDiagramFretNumberPosition>
     <rehearsalMarkFontFace>FreeSerif</rehearsalMarkFontFace>
     <rehearsalMarkFontSize>14</rehearsalMarkFontSize>
     <rehearsalMarkLineSpacing>1</rehearsalMarkLineSpacing>
@@ -1037,13 +1225,32 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <rehearsalMarkFrameType>1</rehearsalMarkFrameType>
     <rehearsalMarkFramePadding>0.5</rehearsalMarkFramePadding>
     <rehearsalMarkFrameWidth>0.2</rehearsalMarkFrameWidth>
-    <rehearsalMarkFrameRound>20</rehearsalMarkFrameRound>
+    <rehearsalMarkFrameRound>0.403175</rehearsalMarkFrameRound>
     <rehearsalMarkFrameFgColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
+    <rehearsalMarkPosition>center</rehearsalMarkPosition>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>
     <rehearsalMarkPosAbove x="0" y="-3"/>
     <rehearsalMarkPosBelow x="0" y="4"/>
     <rehearsalMarkMinDistance>0.5</rehearsalMarkMinDistance>
+    <repeatPlayCountFontFace>Edwin</repeatPlayCountFontFace>
+    <repeatPlayCountFontSize>10</repeatPlayCountFontSize>
+    <repeatPlayCountLineSpacing>1</repeatPlayCountLineSpacing>
+    <repeatPlayCountFontSpatiumDependent>1</repeatPlayCountFontSpatiumDependent>
+    <repeatPlayCountFontStyle>0</repeatPlayCountFontStyle>
+    <repeatPlayCountColor r="0" g="0" b="0" a="255"/>
+    <repeatPlayCountAlign>left,baseline</repeatPlayCountAlign>
+    <repeatPlayCountPlacement>0</repeatPlayCountPlacement>
+    <repeatPlayCountFrameType>0</repeatPlayCountFrameType>
+    <repeatPlayCountFramePadding>0.2</repeatPlayCountFramePadding>
+    <repeatPlayCountFrameWidth>0.1</repeatPlayCountFrameWidth>
+    <repeatPlayCountFrameRound>0</repeatPlayCountFrameRound>
+    <repeatPlayCountFrameFgColor r="0" g="0" b="0" a="255"/>
+    <repeatPlayCountFrameBgColor r="255" g="255" b="255" a="0"/>
+    <repeatPlayCountPosition>left</repeatPlayCountPosition>
+    <repeatPlayCountPosAbove x="0" y="-2"/>
+    <repeatPlayCountPosBelow x="0" y="4"/>
+    <repeatPlayCountMinDistance>0.5</repeatPlayCountMinDistance>
     <repeatLeftFontFace>FreeSerif</repeatLeftFontFace>
     <repeatLeftFontSize>20</repeatLeftFontSize>
     <repeatLeftLineSpacing>1</repeatLeftLineSpacing>
@@ -1058,6 +1265,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <repeatLeftFrameRound>0</repeatLeftFrameRound>
     <repeatLeftFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
+    <repeatLeftPosition>left</repeatLeftPosition>
     <repeatRightFontFace>FreeSerif</repeatRightFontFace>
     <repeatRightFontSize>12</repeatRightFontSize>
     <repeatRightLineSpacing>1</repeatRightLineSpacing>
@@ -1072,6 +1280,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <repeatRightFrameRound>0</repeatRightFrameRound>
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
+    <repeatRightPosition>right</repeatRightPosition>
     <frameFontFace>FreeSerif</frameFontFace>
     <frameFontSize>12</frameFontSize>
     <frameLineSpacing>1</frameLineSpacing>
@@ -1086,6 +1295,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <frameFrameRound>0</frameFrameRound>
     <frameFrameFgColor r="0" g="0" b="0" a="255"/>
     <frameFrameBgColor r="255" g="255" b="255" a="0"/>
+    <framePosition>left</framePosition>
     <textLineFontFace>FreeSerif</textLineFontFace>
     <textLineFontSize>12</textLineFontSize>
     <textLineLineSpacing>1</textLineLineSpacing>
@@ -1096,11 +1306,32 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <textLineSystemFlag>0</textLineSystemFlag>
     <systemTextLineFontFace>Edwin</systemTextLineFontFace>
     <systemTextLineFontSize>10</systemTextLineFontSize>
+    <systemTextLineLineSpacing>1</systemTextLineLineSpacing>
     <systemTextLineFontSpatiumDependent>1</systemTextLineFontSpatiumDependent>
     <systemTextLineFontStyle>0</systemTextLineFontStyle>
     <systemTextLineColor r="0" g="0" b="0" a="255"/>
     <systemTextLineTextAlign>left,center</systemTextLineTextAlign>
     <systemTextLineSystemFlag>1</systemTextLineSystemFlag>
+    <noteLinePlacement>0</noteLinePlacement>
+    <noteLineFontFace>Edwin</noteLineFontFace>
+    <noteLineFontSize>10</noteLineFontSize>
+    <noteLineLineSpacing>1</noteLineLineSpacing>
+    <noteLineFontSpatiumDependent>1</noteLineFontSpatiumDependent>
+    <noteLineFontStyle>0</noteLineFontStyle>
+    <noteLineColor r="0" g="0" b="0" a="255"/>
+    <noteLineAlign>left,center</noteLineAlign>
+    <noteLineOffset x="0" y="0"/>
+    <noteLineFrameType>0</noteLineFrameType>
+    <noteLineFramePadding>0.2</noteLineFramePadding>
+    <noteLineFrameWidth>0.1</noteLineFrameWidth>
+    <noteLineFrameRound>0</noteLineFrameRound>
+    <noteLineFrameFgColor r="0" g="0" b="0" a="255"/>
+    <noteLineFrameBgColor r="255" g="255" b="255" a="0"/>
+    <noteLinePosition>left</noteLinePosition>
+    <noteLineWidth>0.15</noteLineWidth>
+    <noteLineStyle>solid</noteLineStyle>
+    <noteLineDashLineLen>5</noteLineDashLineLen>
+    <noteLineDashGapLen>5</noteLineDashGapLen>
     <glissandoFontFace>FreeSerif</glissandoFontFace>
     <glissandoFontSize>8</glissandoFontSize>
     <glissandoLineSpacing>1</glissandoLineSpacing>
@@ -1115,10 +1346,16 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <glissandoFrameRound>0</glissandoFrameRound>
     <glissandoFrameFgColor r="0" g="0" b="0" a="255"/>
     <glissandoFrameBgColor r="255" g="255" b="255" a="0"/>
+    <glissandoPosition>left</glissandoPosition>
     <glissandoLineWidth>0.15</glissandoLineWidth>
     <glissandoText>gliss.</glissandoText>
     <glissandoStyle>0</glissandoStyle>
     <glissandoStyleHarp>3</glissandoStyleHarp>
+    <glissandoType>0</glissandoType>
+    <glissandoLineStyle>solid</glissandoLineStyle>
+    <glissandoDashLineLen>5</glissandoDashLineLen>
+    <glissandoDashGapLen>5</glissandoDashGapLen>
+    <glissandoShowText>1</glissandoShowText>
     <bendFontFace>FreeSerif</bendFontFace>
     <bendFontSize>8</bendFontSize>
     <bendLineSpacing>1</bendLineSpacing>
@@ -1133,6 +1370,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <bendFrameRound>0</bendFrameRound>
     <bendFrameFgColor r="0" g="0" b="0" a="255"/>
     <bendFrameBgColor r="255" g="255" b="255" a="0"/>
+    <bendPosition>left</bendPosition>
     <bendLineWidth>0.15</bendLineWidth>
     <bendArrowWidth>0.5</bendArrowWidth>
     <guitarBendLineWidth>0.13</guitarBendLineWidth>
@@ -1143,6 +1381,12 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <guitarBendArrowWidth>1</guitarBendArrowWidth>
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
+    <showFretOnFullBendRelease>1</showFretOnFullBendRelease>
+    <alignPreBendAndPreDiveToGraceNote>0</alignPreBendAndPreDiveToGraceNote>
+    <useFractionCharacters>1</useFractionCharacters>
+    <guitarDivesAboveStaff>0</guitarDivesAboveStaff>
+    <guitarDiveLineWidth>0.13</guitarDiveLineWidth>
+    <guitarDiveLineWidthTab>0.15</guitarDiveLineWidthTab>
     <headerFontFace>FreeSerif</headerFontFace>
     <headerFontSize>8</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
@@ -1157,6 +1401,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <headerFrameRound>0</headerFrameRound>
     <headerFrameFgColor r="0" g="0" b="0" a="255"/>
     <headerFrameBgColor r="255" g="255" b="255" a="0"/>
+    <headerPosition>center</headerPosition>
     <footerFontFace>FreeSerif</footerFontFace>
     <footerFontSize>8</footerFontSize>
     <footerLineSpacing>1</footerLineSpacing>
@@ -1171,6 +1416,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <footerFrameRound>0</footerFrameRound>
     <footerFrameFgColor r="0" g="0" b="0" a="255"/>
     <footerFrameBgColor r="255" g="255" b="255" a="0"/>
+    <footerPosition>center</footerPosition>
     <copyrightFontFace>FreeSerif</copyrightFontFace>
     <copyrightFontSize>8</copyrightFontSize>
     <copyrightLineSpacing>1</copyrightLineSpacing>
@@ -1185,6 +1431,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <copyrightFrameRound>0</copyrightFrameRound>
     <copyrightFrameFgColor r="0" g="0" b="0" a="255"/>
     <copyrightFrameBgColor r="255" g="255" b="255" a="0"/>
+    <copyrightPosition>center</copyrightPosition>
     <pageNumberFontFace>FreeSerif</pageNumberFontFace>
     <pageNumberFontSize>8</pageNumberFontSize>
     <pageNumberLineSpacing>1</pageNumberLineSpacing>
@@ -1199,6 +1446,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <pageNumberFrameRound>0</pageNumberFrameRound>
     <pageNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <pageNumberFrameBgColor r="255" g="255" b="255" a="0"/>
+    <pageNumberPosition>center</pageNumberPosition>
     <instrumentChangeFontFace>FreeSerif</instrumentChangeFontFace>
     <instrumentChangeFontSize>12</instrumentChangeFontSize>
     <instrumentChangeLineSpacing>1</instrumentChangeLineSpacing>
@@ -1217,6 +1465,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <instrumentChangeFrameRound>0</instrumentChangeFrameRound>
     <instrumentChangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <instrumentChangeFrameBgColor r="255" g="255" b="255" a="0"/>
+    <instrumentChangePosition>left</instrumentChangePosition>
     <stickingFontFace>FreeSerif</stickingFontFace>
     <stickingFontSize>12</stickingFontSize>
     <stickingLineSpacing>1</stickingLineSpacing>
@@ -1235,6 +1484,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <stickingFrameRound>0</stickingFrameRound>
     <stickingFrameFgColor r="0" g="0" b="0" a="255"/>
     <stickingFrameBgColor r="255" g="255" b="255" a="0"/>
+    <stickingPosition>center</stickingPosition>
     <figuredBassFontFace>MScoreBC</figuredBassFontFace>
     <figuredBassFontSize>8</figuredBassFontSize>
     <figuredBassLineSpacing>1</figuredBassLineSpacing>
@@ -1257,6 +1507,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user1FrameRound>0</user1FrameRound>
     <user1FrameFgColor r="0" g="0" b="0" a="255"/>
     <user1FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user1Position>left</user1Position>
     <user2Name></user2Name>
     <user2FontFace>FreeSerif</user2FontFace>
     <user2FontSize>10</user2FontSize>
@@ -1273,6 +1524,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user2FrameRound>0</user2FrameRound>
     <user2FrameFgColor r="0" g="0" b="0" a="255"/>
     <user2FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user2Position>left</user2Position>
     <user3Name></user3Name>
     <user3FontFace>FreeSerif</user3FontFace>
     <user3FontSize>10</user3FontSize>
@@ -1289,6 +1541,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user3FrameRound>0</user3FrameRound>
     <user3FrameFgColor r="0" g="0" b="0" a="255"/>
     <user3FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user3Position>left</user3Position>
     <user4Name></user4Name>
     <user4FontFace>FreeSerif</user4FontFace>
     <user4FontSize>10</user4FontSize>
@@ -1305,6 +1558,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user4FrameRound>0</user4FrameRound>
     <user4FrameFgColor r="0" g="0" b="0" a="255"/>
     <user4FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user4Position>left</user4Position>
     <user5Name></user5Name>
     <user5FontFace>FreeSerif</user5FontFace>
     <user5FontSize>10</user5FontSize>
@@ -1321,6 +1575,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user5FrameRound>0</user5FrameRound>
     <user5FrameFgColor r="0" g="0" b="0" a="255"/>
     <user5FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user5Position>left</user5Position>
     <user6Name></user6Name>
     <user6FontFace>FreeSerif</user6FontFace>
     <user6FontSize>10</user6FontSize>
@@ -1337,6 +1592,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user6FrameRound>0</user6FrameRound>
     <user6FrameFgColor r="0" g="0" b="0" a="255"/>
     <user6FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user6Position>left</user6Position>
     <user7Name></user7Name>
     <user7FontFace>FreeSerif</user7FontFace>
     <user7FontSize>10</user7FontSize>
@@ -1353,6 +1609,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user7FrameRound>0</user7FrameRound>
     <user7FrameFgColor r="0" g="0" b="0" a="255"/>
     <user7FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user7Position>left</user7Position>
     <user8Name></user8Name>
     <user8FontFace>FreeSerif</user8FontFace>
     <user8FontSize>10</user8FontSize>
@@ -1369,6 +1626,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user8FrameRound>0</user8FrameRound>
     <user8FrameFgColor r="0" g="0" b="0" a="255"/>
     <user8FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user8Position>left</user8Position>
     <user9Name></user9Name>
     <user9FontFace>FreeSerif</user9FontFace>
     <user9FontSize>10</user9FontSize>
@@ -1385,6 +1643,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user9FrameRound>0</user9FrameRound>
     <user9FrameFgColor r="0" g="0" b="0" a="255"/>
     <user9FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user9Position>left</user9Position>
     <user10Name></user10Name>
     <user10FontFace>FreeSerif</user10FontFace>
     <user10FontSize>10</user10FontSize>
@@ -1401,6 +1660,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user10FrameRound>0</user10FrameRound>
     <user10FrameFgColor r="0" g="0" b="0" a="255"/>
     <user10FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user10Position>left</user10Position>
     <user11Name></user11Name>
     <user11FontFace>FreeSerif</user11FontFace>
     <user11FontSize>10</user11FontSize>
@@ -1417,6 +1677,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user11FrameRound>0</user11FrameRound>
     <user11FrameFgColor r="0" g="0" b="0" a="255"/>
     <user11FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user11Position>left</user11Position>
     <user12Name></user12Name>
     <user12FontFace>FreeSerif</user12FontFace>
     <user12FontSize>10</user12FontSize>
@@ -1433,6 +1694,7 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <user12FrameRound>0</user12FrameRound>
     <user12FrameFgColor r="0" g="0" b="0" a="255"/>
     <user12FrameBgColor r="255" g="255" b="255" a="0"/>
+    <user12Position>left</user12Position>
     <letRingFontFace>FreeSerif</letRingFontFace>
     <letRingFontSize>10</letRingFontSize>
     <letRingLineSpacing>1</letRingLineSpacing>
@@ -1455,7 +1717,34 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <letRingFrameRound>0</letRingFrameRound>
     <letRingFrameFgColor r="0" g="0" b="0" a="255"/>
     <letRingFrameBgColor r="255" g="255" b="255" a="0"/>
+    <letRingPosition>left</letRingPosition>
     <letRingEndHookType>3</letRingEndHookType>
+    <letRingOffset x="0" y="0"/>
+    <whammyBarFontFace>Edwin</whammyBarFontFace>
+    <whammyBarFontSize>10</whammyBarFontSize>
+    <whammyBarLineSpacing>1</whammyBarLineSpacing>
+    <whammyBarFontSpatiumDependent>1</whammyBarFontSpatiumDependent>
+    <whammyBarFontStyle>0</whammyBarFontStyle>
+    <whammyBarColor r="0" g="0" b="0" a="255"/>
+    <whammyBarTextAlign>left,center</whammyBarTextAlign>
+    <whammyBarHookHeight>0.6</whammyBarHookHeight>
+    <whammyBarPlacement>1</whammyBarPlacement>
+    <whammyBarPosAbove x="0" y="0"/>
+    <whammyBarPosBelow x="0" y="0"/>
+    <whammyBarLineWidth>0.11</whammyBarLineWidth>
+    <whammyBarLineStyle>dashed</whammyBarLineStyle>
+    <whammyBarDashLineLen>5</whammyBarDashLineLen>
+    <whammyBarDashGapLen>5</whammyBarDashGapLen>
+    <whammyBarText>w/bar</whammyBarText>
+    <whammyBarFrameType>0</whammyBarFrameType>
+    <whammyBarFramePadding>0.2</whammyBarFramePadding>
+    <whammyBarFrameWidth>0.1</whammyBarFrameWidth>
+    <whammyBarFrameRound>0</whammyBarFrameRound>
+    <whammyBarFrameFgColor r="0" g="0" b="0" a="255"/>
+    <whammyBarFrameBgColor r="255" g="255" b="255" a="0"/>
+    <whammyBarPosition>left</whammyBarPosition>
+    <whammyBarEndHookType>3</whammyBarEndHookType>
+    <whammyBarOffset x="0" y="0"/>
     <palmMuteFontFace>FreeSerif</palmMuteFontFace>
     <palmMuteFontSize>10</palmMuteFontSize>
     <palmMuteLineSpacing>1</palmMuteLineSpacing>
@@ -1478,7 +1767,9 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <palmMuteFrameRound>0</palmMuteFrameRound>
     <palmMuteFrameFgColor r="0" g="0" b="0" a="255"/>
     <palmMuteFrameBgColor r="255" g="255" b="255" a="0"/>
+    <palmMutePosition>left</palmMutePosition>
     <palmMuteEndHookType>3</palmMuteEndHookType>
+    <palmMuteOffset x="0" y="0"/>
     <fermataPosAbove x="0" y="-1"/>
     <fermataPosBelow x="0" y="1"/>
     <fermataMinDistance>0.4</fermataMinDistance>
@@ -1532,8 +1823,157 @@ $:composer: ~ $:workTitle: ~ ver. $MT$m</oddFooterC>
     <tabFretPadding>0.1</tabFretPadding>
     <chordlineThickness>0.16</chordlineThickness>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
+    <dummyMusicalSymbolSize>12</dummyMusicalSymbolSize>
+    <articulationMusicalSymbolSize>8</articulationMusicalSymbolSize>
+    <bendMusicalSymbolSize>8</bendMusicalSymbolSize>
+    <chordSymbolAMusicalSymbolSize>12</chordSymbolAMusicalSymbolSize>
+    <chordSymbolBMusicalSymbolSize>12</chordSymbolBMusicalSymbolSize>
+    <composerMusicalSymbolSize>12</composerMusicalSymbolSize>
+    <copyrightMusicalSymbolSize>8</copyrightMusicalSymbolSize>
+    <defaultMusicalSymbolSize>10</defaultMusicalSymbolSize>
+    <dynamicsMusicalSymbolSize>11</dynamicsMusicalSymbolSize>
+    <expressionMusicalSymbolSize>11</expressionMusicalSymbolSize>
+    <figuredBassMusicalSymbolSize>8</figuredBassMusicalSymbolSize>
+    <fingeringMusicalSymbolSize>8</fingeringMusicalSymbolSize>
+    <footerMusicalSymbolSize>8</footerMusicalSymbolSize>
+    <frameMusicalSymbolSize>12</frameMusicalSymbolSize>
+    <fretDiagramFingeringMusicalSymbolSize>6</fretDiagramFingeringMusicalSymbolSize>
+    <fretDiagramFretNumberMusicalSymbolSize>6</fretDiagramFretNumberMusicalSymbolSize>
+    <glissandoMusicalSymbolSize>8</glissandoMusicalSymbolSize>
+    <hairpinMusicalSymbolSize>10</hairpinMusicalSymbolSize>
+    <hammerOnPullOffTappingMusicalSymbolSize>8</hammerOnPullOffTappingMusicalSymbolSize>
+    <harpPedalDiagramMusicalSymbolSize>10</harpPedalDiagramMusicalSymbolSize>
+    <harpPedalTextDiagramMusicalSymbolSize>8</harpPedalTextDiagramMusicalSymbolSize>
+    <headerMusicalSymbolSize>8</headerMusicalSymbolSize>
+    <instrumentChangeMusicalSymbolSize>12</instrumentChangeMusicalSymbolSize>
+    <letRingMusicalSymbolSize>10</letRingMusicalSymbolSize>
+    <lhGuitarFingeringMusicalSymbolSize>8</lhGuitarFingeringMusicalSymbolSize>
+    <longInstrumentMusicalSymbolSize>12</longInstrumentMusicalSymbolSize>
+    <lyricistMusicalSymbolSize>12</lyricistMusicalSymbolSize>
+    <lyricsEvenMusicalSymbolSize>11</lyricsEvenMusicalSymbolSize>
+    <lyricsOddMusicalSymbolSize>11</lyricsOddMusicalSymbolSize>
+    <measureNumberAlternateMusicalSymbolSize>10</measureNumberAlternateMusicalSymbolSize>
+    <measureNumberMusicalSymbolSize>8</measureNumberMusicalSymbolSize>
+    <metronomeMusicalSymbolSize>12</metronomeMusicalSymbolSize>
+    <mmRestRangeMusicalSymbolSize>8</mmRestRangeMusicalSymbolSize>
+    <nashvilleNumberMusicalSymbolSize>12</nashvilleNumberMusicalSymbolSize>
+    <noteLineMusicalSymbolSize>10</noteLineMusicalSymbolSize>
+    <ottavaMusicalSymbolSize>10</ottavaMusicalSymbolSize>
+    <pageNumberMusicalSymbolSize>8</pageNumberMusicalSymbolSize>
+    <palmMuteMusicalSymbolSize>10</palmMuteMusicalSymbolSize>
+    <whammyBarMusicalSymbolSize>10</whammyBarMusicalSymbolSize>
+    <partInstrumentMusicalSymbolSize>18</partInstrumentMusicalSymbolSize>
+    <pedalMusicalSymbolSize>10</pedalMusicalSymbolSize>
+    <rehearsalMarkMusicalSymbolSize>14</rehearsalMarkMusicalSymbolSize>
+    <repeatLeftMusicalSymbolSize>18</repeatLeftMusicalSymbolSize>
+    <repeatPlayCountMusicalSymbolSize>10</repeatPlayCountMusicalSymbolSize>
+    <repeatRightMusicalSymbolSize>18</repeatRightMusicalSymbolSize>
+    <rhGuitarFingeringMusicalSymbolSize>8</rhGuitarFingeringMusicalSymbolSize>
+    <romanNumeralMusicalSymbolSize>12</romanNumeralMusicalSymbolSize>
+    <shortInstrumentMusicalSymbolSize>12</shortInstrumentMusicalSymbolSize>
+    <staffTextMusicalSymbolSize>10</staffTextMusicalSymbolSize>
+    <stickingMusicalSymbolSize>12</stickingMusicalSymbolSize>
+    <stringNumberMusicalSymbolSize>8</stringNumberMusicalSymbolSize>
+    <stringTuningsMusicalSymbolSize>9</stringTuningsMusicalSymbolSize>
+    <subTitleMusicalSymbolSize>14</subTitleMusicalSymbolSize>
+    <systemTextLineMusicalSymbolSize>10</systemTextLineMusicalSymbolSize>
+    <systemTextMusicalSymbolSize>10</systemTextMusicalSymbolSize>
+    <tabFretNumberMusicalSymbolSize>9</tabFretNumberMusicalSymbolSize>
+    <tempoChangeMusicalSymbolSize>12</tempoChangeMusicalSymbolSize>
+    <tempoMusicalSymbolSize>20</tempoMusicalSymbolSize>
+    <textLineMusicalSymbolSize>10</textLineMusicalSymbolSize>
+    <titleMusicalSymbolSize>24</titleMusicalSymbolSize>
+    <translatorMusicalSymbolSize>11</translatorMusicalSymbolSize>
+    <tupletMusicalSymbolSize>10</tupletMusicalSymbolSize>
+    <user1MusicalSymbolSize>10</user1MusicalSymbolSize>
+    <user2MusicalSymbolSize>10</user2MusicalSymbolSize>
+    <user3MusicalSymbolSize>10</user3MusicalSymbolSize>
+    <user4MusicalSymbolSize>10</user4MusicalSymbolSize>
+    <user5MusicalSymbolSize>10</user5MusicalSymbolSize>
+    <user6MusicalSymbolSize>10</user6MusicalSymbolSize>
+    <user7MusicalSymbolSize>10</user7MusicalSymbolSize>
+    <user8MusicalSymbolSize>10</user8MusicalSymbolSize>
+    <user9MusicalSymbolSize>10</user9MusicalSymbolSize>
+    <user10MusicalSymbolSize>10</user10MusicalSymbolSize>
+    <user11MusicalSymbolSize>10</user11MusicalSymbolSize>
+    <user12MusicalSymbolSize>10</user12MusicalSymbolSize>
+    <voltaMusicalSymbolSize>11</voltaMusicalSymbolSize>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>301</defaultsVersion>
-    <Spatium>1.74978</Spatium>
+    <changesBeforeBarlineRepeats>0</changesBeforeBarlineRepeats>
+    <changesBeforeBarlineOtherJumps>0</changesBeforeBarlineOtherJumps>
+    <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
+    <changesBetweenEndStartRepeat>1</changesBetweenEndStartRepeat>
+    <showCourtesiesRepeats>0</showCourtesiesRepeats>
+    <useParensRepeatCourtesies>1</useParensRepeatCourtesies>
+    <showCourtesiesOtherJumps>0</showCourtesiesOtherJumps>
+    <useParensOtherJumpCourtesies>1</useParensOtherJumpCourtesies>
+    <showCourtesiesAfterCancellingRepeats>0</showCourtesiesAfterCancellingRepeats>
+    <useParensRepeatCourtesiesAfterCancelling>1</useParensRepeatCourtesiesAfterCancelling>
+    <showCourtesiesAfterCancellingOtherJumps>0</showCourtesiesAfterCancellingOtherJumps>
+    <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
+    <smallParens>1</smallParens>
+    <harmonyParenUseSmuflSym>0</harmonyParenUseSmuflSym>
+    <repeatPlayCountPreset>nx</repeatPlayCountPreset>
+    <repeatPlayCountShow>0</repeatPlayCountShow>
+    <repeatPlayCountShowSingleRepeats>0</repeatPlayCountShowSingleRepeats>
+    <systemObjectsBelowBottomStaff>0</systemObjectsBelowBottomStaff>
+    <gradualTempoChangeBeginLineArrowHeight>1</gradualTempoChangeBeginLineArrowHeight>
+    <gradualTempoChangeBeginLineArrowWidth>0.5</gradualTempoChangeBeginLineArrowWidth>
+    <gradualTempoChangeEndLineArrowHeight>1</gradualTempoChangeEndLineArrowHeight>
+    <gradualTempoChangeEndLineArrowWidth>0.5</gradualTempoChangeEndLineArrowWidth>
+    <hairpinBeginLineArrowHeight>1</hairpinBeginLineArrowHeight>
+    <hairpinBeginLineArrowWidth>0.5</hairpinBeginLineArrowWidth>
+    <hairpinEndLineArrowHeight>1</hairpinEndLineArrowHeight>
+    <hairpinEndLineArrowWidth>0.5</hairpinEndLineArrowWidth>
+    <noteLineBeginLineArrowHeight>1</noteLineBeginLineArrowHeight>
+    <noteLineBeginLineArrowWidth>0.5</noteLineBeginLineArrowWidth>
+    <noteLineEndLineArrowHeight>1</noteLineEndLineArrowHeight>
+    <noteLineEndLineArrowWidth>0.5</noteLineEndLineArrowWidth>
+    <ottavaBeginLineArrowHeight>1</ottavaBeginLineArrowHeight>
+    <ottavaBeginLineArrowWidth>0.5</ottavaBeginLineArrowWidth>
+    <ottavaEndLineArrowHeight>1</ottavaEndLineArrowHeight>
+    <ottavaEndLineArrowWidth>0.5</ottavaEndLineArrowWidth>
+    <pedalBeginLineArrowHeight>1</pedalBeginLineArrowHeight>
+    <pedalBeginLineArrowWidth>0.5</pedalBeginLineArrowWidth>
+    <pedalEndLineArrowHeight>1</pedalEndLineArrowHeight>
+    <pedalEndLineArrowWidth>0.5</pedalEndLineArrowWidth>
+    <textLineBeginLineArrowHeight>1</textLineBeginLineArrowHeight>
+    <textLineBeginLineArrowWidth>0.5</textLineBeginLineArrowWidth>
+    <textLineEndLineArrowHeight>1</textLineEndLineArrowHeight>
+    <textLineEndLineArrowWidth>0.5</textLineEndLineArrowWidth>
+    <palmMuteBeginLineArrowHeight>1</palmMuteBeginLineArrowHeight>
+    <palmMuteBeginLineArrowWidth>0.5</palmMuteBeginLineArrowWidth>
+    <palmMuteEndLineArrowHeight>1</palmMuteEndLineArrowHeight>
+    <palmMuteEndLineArrowWidth>0.5</palmMuteEndLineArrowWidth>
+    <gradualTempoChangeBeginFilledArrowHeight>1</gradualTempoChangeBeginFilledArrowHeight>
+    <gradualTempoChangeBeginFilledArrowWidth>0.85</gradualTempoChangeBeginFilledArrowWidth>
+    <gradualTempoChangeEndFilledArrowHeight>1</gradualTempoChangeEndFilledArrowHeight>
+    <gradualTempoChangeEndFilledArrowWidth>0.85</gradualTempoChangeEndFilledArrowWidth>
+    <hairpinBeginFilledArrowHeight>1</hairpinBeginFilledArrowHeight>
+    <hairpinBeginFilledArrowWidth>0.85</hairpinBeginFilledArrowWidth>
+    <hairpinEndFilledArrowHeight>1</hairpinEndFilledArrowHeight>
+    <hairpinEndFilledArrowWidth>0.85</hairpinEndFilledArrowWidth>
+    <noteLineBeginFilledArrowHeight>1</noteLineBeginFilledArrowHeight>
+    <noteLineBeginFilledArrowWidth>0.85</noteLineBeginFilledArrowWidth>
+    <noteLineEndFilledArrowHeight>1</noteLineEndFilledArrowHeight>
+    <noteLineEndFilledArrowWidth>0.85</noteLineEndFilledArrowWidth>
+    <ottavaBeginFilledArrowHeight>1</ottavaBeginFilledArrowHeight>
+    <ottavaBeginFilledArrowWidth>0.85</ottavaBeginFilledArrowWidth>
+    <ottavaEndFilledArrowHeight>1</ottavaEndFilledArrowHeight>
+    <ottavaEndFilledArrowWidth>0.85</ottavaEndFilledArrowWidth>
+    <pedalBeginFilledArrowHeight>1</pedalBeginFilledArrowHeight>
+    <pedalBeginFilledArrowWidth>0.85</pedalBeginFilledArrowWidth>
+    <pedalEndFilledArrowHeight>1</pedalEndFilledArrowHeight>
+    <pedalEndFilledArrowWidth>0.85</pedalEndFilledArrowWidth>
+    <textLineBeginFilledArrowHeight>1</textLineBeginFilledArrowHeight>
+    <textLineBeginFilledArrowWidth>0.85</textLineBeginFilledArrowWidth>
+    <textLineEndFilledArrowHeight>1</textLineEndFilledArrowHeight>
+    <textLineEndFilledArrowWidth>0.85</textLineEndFilledArrowWidth>
+    <palmMuteBeginFilledArrowHeight>1</palmMuteBeginFilledArrowHeight>
+    <palmMuteBeginFilledArrowWidth>0.85</palmMuteBeginFilledArrowWidth>
+    <palmMuteEndFilledArrowHeight>1</palmMuteEndFilledArrowHeight>
+    <palmMuteEndFilledArrowWidth>0.85</palmMuteEndFilledArrowWidth>
+    <spatium>1.74978</spatium>
     </Style>
   </museScore>
