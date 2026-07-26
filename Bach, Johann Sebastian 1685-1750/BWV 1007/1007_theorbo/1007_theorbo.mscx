@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.60">
-  <programVersion>4.6.5</programVersion>
-  <programRevision>653f38d</programRevision>
+<museScore version="4.70">
+  <programVersion>4.7.4</programVersion>
+  <programRevision>7688c00</programRevision>
   <Score>
     <eid>4ifRGSzDaQB_AWJbxEbD9KN</eid>
     <Division>480</Division>
@@ -108,20 +108,8 @@ However, performance for hire is permitted.</metaTag>
           <eid>X7BE1fRQZtP_MijMUCL/lyK</eid>
           <textLineSpacing>1.5</textLineSpacing>
           <align>center,top</align>
-          <text><font size="32"></font>Johann Sebastian Bach
-<font size="20"></font>1685 - 1750
-
-<font size="32"></font>Cello Suite No. 1
-<font size="20"></font>BWV. 1007
-
-for theorbo arr.
-Vladimír Váša
-
-tuning:
-<font size="16"></font>/a → F♯
-4 → C♯
-5 → C
-</text>
+          <position>center</position>
+          <text><font size="32"/>Johann Sebastian Bach<br/><font size="20"/>1685 - 1750<br/><br/><font size="32"/>Cello Suite No. 1<br/><font size="20"/>BWV. 1007<br/><br/>for theorbo arr.<br/>Vladimír Váša<br/><br/>tuning:<br/><font size="16"/>/a → F♯<br/>4 → C♯<br/>5 → C<br/></text>
           </Text>
         <LayoutBreak>
           <eid>lLy2Gzh/uLO_6nE8gTWXZHO</eid>
@@ -1054,8 +1042,8 @@ tuning:
               <eid>mRoNL72HgZF_XVbEIcsPARE</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1087,8 +1075,8 @@ tuning:
               <eid>Fao+pMA4WgL_F7NWz5+bA/J</eid>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -1098,8 +1086,8 @@ tuning:
               <eid>EKcB2ggaUfC_I5gbT+24e4K</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1120,8 +1108,8 @@ tuning:
               <eid>PAv/HPLtDSF_WJHZuQyFngL</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1142,8 +1130,8 @@ tuning:
               <eid>+FKoKDjpuIP_n8ST5oQQKqL</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1171,8 +1159,8 @@ tuning:
               <eid>UJ9AwK2LyaD_6V1/XKBGDkK</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -1205,8 +1193,8 @@ tuning:
               <eid>bSdnyML+VpL_q8iC9481DMF</eid>
               <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>4</string>
+              <fret>5</fret>
+              <string>5</string>
               </Note>
             </Chord>
           <Chord>
@@ -2019,17 +2007,34 @@ tuning:
           <Chord>
             <eid>wEmQKH1V9vP_VnTLgr75ztB</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>Rcsxsbf8mRN_gbVNIS3Lj4H</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>p9XqcVoOrFM_b7yEPvOEvcP</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <eid>A3Z4cH0MkmL_jenuXhXNZ5D</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>p2RC7D86NxN_2Ev1vDGcjJO</eid>
               <pitch>50</pitch>
@@ -2322,8 +2327,8 @@ tuning:
               <eid>4cIGZKQvRTH_WBlfvVoC9ZJ</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -2344,8 +2349,8 @@ tuning:
               <eid>t9VQex+VTHM_92QR7VAIiAJ</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -3499,8 +3504,8 @@ tuning:
               <eid>xQN8jyTTm+J_WE0lzmKUGdE</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -3517,8 +3522,8 @@ tuning:
               <eid>NybqBFZmomD_BSO6QaB14+P</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -5504,6 +5509,27 @@ tuning:
               <string>4</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endHookHeight>0.5</endHookHeight>
+              <eid>GmqZ0a/AvuL_Mxb+SFrWF6O</eid>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-0.7"/>
+                <off2 x="0" y="0"/>
+                <eid>t2KvkGIZxdB_yC/h2Gc5LsM</eid>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>VoA0FdBt9TP_9wbsRfUxl1P</eid>
             <durationType>16th</durationType>
@@ -5522,6 +5548,35 @@ tuning:
               <string>4</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endHookHeight>0.5</endHookHeight>
+              <eid>Kf4xCQmIG0J_fDV3/8zofHI</eid>
+              <visible>0</visible>
+              <diagonal>1</diagonal>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.5" y="-3.5"/>
+                <off2 x="-0.1" y="0"/>
+                <minDistance>-1.18786</minDistance>
+                <eid>OP6N1LK4H/G_OwayPMPv6LO</eid>
+                <visible>0</visible>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>KqLi2QVYbkM_UyyAhQLeacG</eid>
             <durationType>16th</durationType>
@@ -5533,6 +5588,13 @@ tuning:
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>tcMGWSsWQ2C_7PxD7Im8CdI</eid>
             <durationType>16th</durationType>
@@ -7432,7 +7494,6 @@ tuning:
               <Symbol>
                 <name>luteFrench10thCourse</name>
                 <font>Leland</font>
-                <symbolsSize>0.85</symbolsSize>
                 <eid>nba4lr6Vmw_jsbkMngW6KP</eid>
                 <autoplace>0</autoplace>
                 <offset x="3.5" y="0"/>
@@ -7539,6 +7600,16 @@ tuning:
           <Chord>
             <eid>EtsnvRFwhvP_QvxE1fsjasJ</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>t1shpeb3knI_hCyi0M5m3sK</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>npjX1LE07PH_LSFH+0UFwUH</eid>
               <pitch>54</pitch>
@@ -7550,6 +7621,13 @@ tuning:
           <Chord>
             <eid>NmIQEfP4zIJ_kkcoawD5i9I</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>8oXU2Tv/iCP_W12ZxUIcJJG</eid>
               <pitch>52</pitch>
@@ -7635,6 +7713,16 @@ tuning:
           <Chord>
             <eid>WSslnu2iMcP_eF/+7L9IyyG</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>ELFq9GBXbp_Wn9HtqkWN4H</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>QEy0TqwGzaL_C+kC2Dtlr8F</eid>
               <pitch>54</pitch>
@@ -7646,6 +7734,13 @@ tuning:
           <Chord>
             <eid>XnNvfRCAZkG_4e6czuIZE8C</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>XZixss1KjYM_HxjdCQ2GO/H</eid>
               <pitch>52</pitch>
@@ -7751,6 +7846,16 @@ tuning:
           <Chord>
             <eid>pC/fmcSnoPJ_U68DY2VB+JP</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>CFYINnPs+jN_rA2w7DQE6MP</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>I/zVkGzYADD_8dvjnLdE+6C</eid>
               <pitch>52</pitch>
@@ -7762,6 +7867,13 @@ tuning:
           <Chord>
             <eid>7N0Mv8H+cJO_27xPaeY5+3E</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>B37IjTuMBrE_b+AEcR0EZvJ</eid>
               <pitch>50</pitch>
@@ -7850,6 +7962,16 @@ tuning:
           <Chord>
             <eid>qhYEqyQU8WJ_KsGnJaXaglN</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>HjgkOU3DRtG_Hap5vY3ZBME</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>KbxUGbxSYpL_OtmqC/VZm+E</eid>
               <pitch>52</pitch>
@@ -7861,6 +7983,13 @@ tuning:
           <Chord>
             <eid>Fh0jZKGFmiD_e0qsexHICFE</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>5mVju7Pjo+C_ZpAyWO8hSiD</eid>
               <pitch>50</pitch>
@@ -7872,6 +8001,16 @@ tuning:
           <Chord>
             <eid>lJWamoohpCF_brZ/HXRdKMN</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>wV/aPxYesLM_8R8G8XZfcyC</eid>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>zGC6DsXqxaC_WgZ+tyoiINN</eid>
               <pitch>48</pitch>
@@ -7883,6 +8022,13 @@ tuning:
           <Chord>
             <eid>oLUhpt7ETOJ_6uhB9cMicgE</eid>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>H/r7ahg7lDF_XoJ0IKPFM/C</eid>
               <pitch>47</pitch>
@@ -10073,7 +10219,7 @@ tuning:
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>0jL9U7lhRbP_4ONcIiQp/bF</eid>
+                <eid>1P1InJz3fSK_MQ3F9UbkjTL</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -10106,10 +10252,10 @@ tuning:
             <durationType>16th</durationType>
             <Note>
               <eid>gDU+Yz31WsG_fBK+3Nfu+xB</eid>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -10179,7 +10325,7 @@ tuning:
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>pesP6tFiY+P_jnCrxbsCz3G</eid>
+                <eid>2svAbBTPY7_RYcwIXhqXuK</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -10212,10 +10358,10 @@ tuning:
             <durationType>16th</durationType>
             <Note>
               <eid>wAKDVAIS3EG_zP4T+VIhUpD</eid>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -10290,7 +10436,7 @@ tuning:
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>fdTGIKELLQ_BnURu6YzjyP</eid>
+                <eid>qcyTkWM7cAP_gkD3Wm+RWU</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -10323,10 +10469,10 @@ tuning:
             <durationType>16th</durationType>
             <Note>
               <eid>I20Vgw0srJB_PDi5haI7qnG</eid>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -10396,7 +10542,7 @@ tuning:
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>EBXrtrvYneF_fp7oq13vVIH</eid>
+                <eid>IdnHs+zn50D_9i4RZzGzY2C</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -10429,10 +10575,10 @@ tuning:
             <durationType>16th</durationType>
             <Note>
               <eid>jcZY77b7wUO_b/kyI6sVPTI</eid>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -10507,7 +10653,7 @@ tuning:
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>SmNuzqWvmP_ovy6vcwWtbJ</eid>
+                <eid>QyNy59MvCNL_5DO1hyepJzM</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -10540,10 +10686,10 @@ tuning:
             <durationType>16th</durationType>
             <Note>
               <eid>ozBKIUbeYGB_o4gOZ0eorYI</eid>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -10613,7 +10759,7 @@ tuning:
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>1hduu9HWzMO_1soyZOWgHkC</eid>
+                <eid>pcAXK7SCnDD_Cnjt8JyYxoM</eid>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -10646,10 +10792,10 @@ tuning:
             <durationType>16th</durationType>
             <Note>
               <eid>gEXC90/B6aF_t3aMunEFn+</eid>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -10736,24 +10882,17 @@ tuning:
             <durationType>whole</durationType>
             <Note>
               <eid>fM/NpKqDPQL_8lnSqA6cvvB</eid>
-              <pitch>31</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
-              <string>13</string>
+              <string>6</string>
               </Note>
             <Note>
               <eid>r5nmFN7n29F_hiqnI4NGACE</eid>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <eid>1GRK8E8fsqN_sp0H4Y0VUGK</eid>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
               <fret>7</fret>
-              <string>3</string>
+              <string>1</string>
               </Note>
             <Note>
               <eid>BYKBKtrIyPN_CA1DMeN55bF</eid>
@@ -11901,8 +12040,8 @@ tuning:
               <eid>haRpEZ3qzQH_L+q1A+3rnF</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -13382,8 +13521,8 @@ tuning:
               <eid>kzl99slXx1H_CwsdYPyLvuH</eid>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -31336,8 +31475,7 @@ tuning:
         <voice>
           <StaffText>
             <eid>rQV4K7L+UiN_G1mCxUs59+H</eid>
-            <text>Menuet I.
-da Capo</text>
+            <text>Menuet I.<br/>da Capo</text>
             </StaffText>
           <Chord>
             <eid>8DqUzUZjL9D_LWqHct7g+TJ</eid>
@@ -35873,8 +36011,8 @@ da Capo</text>
               <linkedTo>mRoNL72HgZF_XVbEIcsPARE</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>4</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -35912,8 +36050,8 @@ da Capo</text>
               <linkedTo>Fao+pMA4WgL_F7NWz5+bA/J</linkedTo>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -35925,8 +36063,8 @@ da Capo</text>
               <linkedTo>EKcB2ggaUfC_I5gbT+24e4K</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -35951,8 +36089,8 @@ da Capo</text>
               <linkedTo>PAv/HPLtDSF_WJHZuQyFngL</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -35977,8 +36115,8 @@ da Capo</text>
               <linkedTo>+FKoKDjpuIP_n8ST5oQQKqL</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -36010,8 +36148,8 @@ da Capo</text>
               <linkedTo>UJ9AwK2LyaD_6V1/XKBGDkK</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -36049,8 +36187,8 @@ da Capo</text>
               <linkedTo>bSdnyML+VpL_q8iC9481DMF</linkedTo>
               <pitch>50</pitch>
               <tpc>16</tpc>
-              <fret>0</fret>
-              <string>4</string>
+              <fret>5</fret>
+              <string>5</string>
               </Note>
             </Chord>
           <Chord>
@@ -37006,19 +37144,41 @@ da Capo</text>
             <eid>O9WqIJPl7KI_46GYtB6JH7B</eid>
             <linkedTo>wEmQKH1V9vP_VnTLgr75ztB</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>FLDXxiX/sgH_5igo62CIr3K</eid>
+                <linkedTo>Rcsxsbf8mRN_gbVNIS3Lj4H</linkedTo>
+                <SlurSegment no="0">
+                  <eid>GT4pQc4NzNC_JtAAZBwA9IO</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>o+PZKNhhCFL_ZCCoC07jWDP</eid>
               <linkedTo>p9XqcVoOrFM_b7yEPvOEvcP</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
+              <fret>2</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
             <eid>5+3o69Y7FwB_pKXNCjPRDUE</eid>
             <linkedTo>A3Z4cH0MkmL_jenuXhXNZ5D</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>kV5QUw5KkuE_nAfUle0MeLE</eid>
               <linkedTo>p2RC7D86NxN_2Ev1vDGcjJO</linkedTo>
@@ -37052,7 +37212,7 @@ da Capo</text>
                 <SlurSegment no="0">
                   <eid>m8Gda7kdfYP_2inZn0CXTrP</eid>
                   <autoplace>0</autoplace>
-                  <offset x="0" y="-0.4"/>
+                  <offset x="0" y="-0.38"/>
                   </SlurSegment>
                 </Slur>
               <next>
@@ -37370,8 +37530,8 @@ da Capo</text>
               <linkedTo>4cIGZKQvRTH_WBlfvVoC9ZJ</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>2</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -37396,8 +37556,8 @@ da Capo</text>
               <linkedTo>t9VQex+VTHM_92QR7VAIiAJ</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>4</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -38761,8 +38921,8 @@ da Capo</text>
               <linkedTo>xQN8jyTTm+J_WE0lzmKUGdE</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -38781,8 +38941,8 @@ da Capo</text>
               <linkedTo>NybqBFZmomD_BSO6QaB14+P</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>5</fret>
-              <string>4</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -41092,6 +41252,27 @@ da Capo</text>
               <string>4</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endHookHeight>0.5</endHookHeight>
+              <eid>qf2Tgy1mXYM_zpyv0yfmEXH</eid>
+              <linkedTo>GmqZ0a/AvuL_Mxb+SFrWF6O</linkedTo>
+              <diagonal>1</diagonal>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="5.6"/>
+                <off2 x="8.5" y="0"/>
+                <minDistance>-999</minDistance>
+                <eid>qObQyrZ4Y3E_JO22CxH8YQH</eid>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>JWnw6APQIBM_1GyefuTzxEL</eid>
             <linkedTo>VoA0FdBt9TP_9wbsRfUxl1P</linkedTo>
@@ -41112,6 +41293,34 @@ da Capo</text>
               <string>4</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endHookHeight>0.5</endHookHeight>
+              <eid>RblrPqNGn9O_MRO+BcAA8YK</eid>
+              <linkedTo>Kf4xCQmIG0J_fDV3/8zofHI</linkedTo>
+              <diagonal>1</diagonal>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2" y="-0.4"/>
+                <off2 x="6.5" y="0"/>
+                <minDistance>-5.54717</minDistance>
+                <eid>Nj0NOaJR1JG_MSZQGQB0LOL</eid>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>brBpoaUlqRN_gZHJ3miZTH</eid>
             <linkedTo>KqLi2QVYbkM_UyyAhQLeacG</linkedTo>
@@ -41125,6 +41334,13 @@ da Capo</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>s/GhkapAqvC_eDh6XWnfBQG</eid>
             <linkedTo>tcMGWSsWQ2C_7PxD7Im8CdI</linkedTo>
@@ -42836,6 +43052,11 @@ da Capo</text>
               <Slur>
                 <eid>xpHnZtIfssP_v0dcTvUaOhM</eid>
                 <linkedTo>sjWn/WiHQ2M_ygn+Xs230mL</linkedTo>
+                <SlurSegment no="0">
+                  <o3 x="0" y="-1"/>
+                  <o4 x="1.10019e-14" y="0.22"/>
+                  <eid>0lWh3xr1/aG_aEY29VCwlrJ</eid>
+                  </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -43225,6 +43446,10 @@ da Capo</text>
               <Slur>
                 <eid>9k9adKF0ZTP_Vwl1WORtbMC</eid>
                 <linkedTo>SCrGQad0pSH_i3CRvb6DxjB</linkedTo>
+                <SlurSegment no="0">
+                  <o4 x="1.5" y="-0.5"/>
+                  <eid>33FlE6af3IJ_psAJPwl3UYE</eid>
+                  </SlurSegment>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -43357,11 +43582,10 @@ da Capo</text>
               <Symbol>
                 <name>luteFrench10thCourse</name>
                 <font>Leland</font>
-                <symbolsSize>0.85</symbolsSize>
                 <eid>hXTZUroGqgO_1E549/AqTxN</eid>
                 <autoplace>0</autoplace>
                 <linkedTo>nba4lr6Vmw_jsbkMngW6KP</linkedTo>
-                <offset x="3.5" y="0.3"/>
+                <offset x="3.7" y="0.36"/>
                 </Symbol>
               <pitch>40</pitch>
               <tpc>18</tpc>
@@ -43473,6 +43697,22 @@ da Capo</text>
             <eid>oNu6rGBu1BL_3AplEdhuO3N</eid>
             <linkedTo>EtsnvRFwhvP_QvxE1fsjasJ</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>v/U99Sm6H4F_a3V6sAUYsEH</eid>
+                <linkedTo>t1shpeb3knI_hCyi0M5m3sK</linkedTo>
+                <SlurSegment no="0">
+                  <eid>BvePSPY2ZAH_WHzl6yqaEGC</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                <up>down</up>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>zVFfWixGhzC_/dGBwcvb2pL</eid>
               <linkedTo>npjX1LE07PH_LSFH+0UFwUH</linkedTo>
@@ -43486,6 +43726,13 @@ da Capo</text>
             <eid>/aU2u0cwe9I_uiVtCmk1cLP</eid>
             <linkedTo>NmIQEfP4zIJ_kkcoawD5i9I</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>mERzmFvyGE_KbLvtkdjkSD</eid>
               <linkedTo>8oXU2Tv/iCP_W12ZxUIcJJG</linkedTo>
@@ -43584,6 +43831,21 @@ da Capo</text>
             <eid>3uq88qoXWHL_XAz8GA72CSJ</eid>
             <linkedTo>WSslnu2iMcP_eF/+7L9IyyG</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>Tmx3sXbAE4P_ZTbrUXCe+nC</eid>
+                <linkedTo>ELFq9GBXbp_Wn9HtqkWN4H</linkedTo>
+                <SlurSegment no="0">
+                  <eid>AbG36ebkckO_hxE0sMuKptM</eid>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>41ff8mZCASG_qa9TP2fiToM</eid>
               <linkedTo>QEy0TqwGzaL_C+kC2Dtlr8F</linkedTo>
@@ -43597,6 +43859,13 @@ da Capo</text>
             <eid>eYOrBr//CoI_ItRsCS0g7QJ</eid>
             <linkedTo>XnNvfRCAZkG_4e6czuIZE8C</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>TIJclbR4y2D_PQ4KPFlPU5N</eid>
               <linkedTo>XZixss1KjYM_HxjdCQ2GO/H</linkedTo>
@@ -43712,6 +43981,21 @@ da Capo</text>
             <eid>RJU8kHVZYQH_nAGGAYW7acH</eid>
             <linkedTo>pC/fmcSnoPJ_U68DY2VB+JP</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>18V033PnLoE_vYftvrmFRsF</eid>
+                <linkedTo>CFYINnPs+jN_rA2w7DQE6MP</linkedTo>
+                <SlurSegment no="0">
+                  <eid>RLWxXyLLlvI_iAOjAh2aDKN</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>Lucd4X5W9gL_7E1o6SAN8bG</eid>
               <linkedTo>I/zVkGzYADD_8dvjnLdE+6C</linkedTo>
@@ -43725,6 +44009,13 @@ da Capo</text>
             <eid>sbsvme/fb9N_k6pDq/VF5KL</eid>
             <linkedTo>7N0Mv8H+cJO_27xPaeY5+3E</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>jJqM3pyM9TH_37dfVxaJJFB</eid>
               <linkedTo>B37IjTuMBrE_b+AEcR0EZvJ</linkedTo>
@@ -43830,6 +44121,21 @@ da Capo</text>
             <eid>eGLfdfyEYvE_F72a0IkmqwF</eid>
             <linkedTo>qhYEqyQU8WJ_KsGnJaXaglN</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>eh87GZpfSnK_252sUwTiVaO</eid>
+                <linkedTo>HjgkOU3DRtG_Hap5vY3ZBME</linkedTo>
+                <SlurSegment no="0">
+                  <eid>fyt48Fac9VF_91n8stOU8a</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>cDQBMws8jiN_3HsBcKKiceE</eid>
               <linkedTo>KbxUGbxSYpL_OtmqC/VZm+E</linkedTo>
@@ -43843,6 +44149,13 @@ da Capo</text>
             <eid>kt0H03sdlgM_MLG0LCntI1H</eid>
             <linkedTo>Fh0jZKGFmiD_e0qsexHICFE</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>lNRQgQYfHeP_oAVWXI0Kz/C</eid>
               <linkedTo>5mVju7Pjo+C_ZpAyWO8hSiD</linkedTo>
@@ -43856,6 +44169,21 @@ da Capo</text>
             <eid>CrgDKcQJB4M_7z/HcrxU2DH</eid>
             <linkedTo>lJWamoohpCF_brZ/HXRdKMN</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>iplQFGS37NL_LVx4oMYpioJ</eid>
+                <linkedTo>wV/aPxYesLM_8R8G8XZfcyC</linkedTo>
+                <SlurSegment no="0">
+                  <eid>nrYNtqTVMXI_dt1hSW84+OL</eid>
+                  <offset x="0" y="-0.38"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>4vxhnAbMvDC_G/Lfw0s6Z0G</eid>
               <linkedTo>zGC6DsXqxaC_WgZ+tyoiINN</linkedTo>
@@ -43869,6 +44197,13 @@ da Capo</text>
             <eid>O+p+wxSd/lM_wA4kTKv/kuL</eid>
             <linkedTo>oLUhpt7ETOJ_6uhB9cMicgE</linkedTo>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>y54KRfZ1sLK_QjPqRSRK1hH</eid>
               <linkedTo>H/r7ahg7lDF_XoJ0IKPFM/C</linkedTo>
@@ -46409,15 +46744,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>CLnqMknzS3_8S+vV+3yW+K</eid>
-                <linkedTo>0jL9U7lhRbP_4ONcIiQp/bF</linkedTo>
+                <eid>t0qHNdjIq1K_dWs3YWI3KzC</eid>
+                <linkedTo>1P1InJz3fSK_MQ3F9UbkjTL</linkedTo>
                 <SlurSegment no="0">
-                  <o2 x="1.36036" y="7.87066"/>
-                  <o3 x="3.20656" y="8.25933"/>
-                  <eid>eNhI4IAa6uD_kQxaHSpGCdO</eid>
-                  <autoplace>0</autoplace>
+                  <o2 x="1.5" y="1"/>
+                  <o3 x="1.5" y="1"/>
+                  <o4 x="-1.10019e-14" y="0.1925"/>
+                  <eid>pSWK9ONBJfH_jXY/POm57RO</eid>
                   </SlurSegment>
-                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -46455,10 +46789,10 @@ da Capo</text>
             <Note>
               <eid>rfTWkW4m02D_tQsPLFASoZO</eid>
               <linkedTo>gDU+Yz31WsG_fBK+3Nfu+xB</linkedTo>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -46542,15 +46876,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>eWkqsB4xzxP_h2R+tXtfj+K</eid>
-                <linkedTo>pesP6tFiY+P_jnCrxbsCz3G</linkedTo>
+                <eid>IdAVlbRp3TD_Nq1MavU9ZdJ</eid>
+                <linkedTo>2svAbBTPY7_RYcwIXhqXuK</linkedTo>
                 <SlurSegment no="0">
-                  <o2 x="1.45753" y="8.06499"/>
-                  <o3 x="3.49807" y="7.7249"/>
-                  <eid>+68yFd8eaqF_BwyoaHdImMF</eid>
-                  <autoplace>0</autoplace>
+                  <o2 x="1.5" y="1"/>
+                  <o3 x="1.5" y="1"/>
+                  <o4 x="0" y="0.1925"/>
+                  <eid>+/cGZDqRVxH_QRZd7bdobKP</eid>
                   </SlurSegment>
-                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -46588,10 +46921,10 @@ da Capo</text>
             <Note>
               <eid>xWtW76LUxBK_jAA2seSBS7C</eid>
               <linkedTo>wAKDVAIS3EG_zP4T+VIhUpD</linkedTo>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -46676,15 +47009,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>LzXP94UWVgP_jBw1SQAB+qK</eid>
-                <linkedTo>fdTGIKELLQ_BnURu6YzjyP</linkedTo>
+                <eid>rl3H41IkSWO_L3WIbfVzSg</eid>
+                <linkedTo>qcyTkWM7cAP_gkD3Wm+RWU</linkedTo>
                 <SlurSegment no="0">
-                  <o2 x="2.67744" y="8.63653"/>
-                  <o3 x="2.93714" y="8.63653"/>
-                  <eid>Q8m3Ujps5kK_Tnm5dgpFf0I</eid>
-                  <autoplace>0</autoplace>
+                  <o2 x="1.5" y="2"/>
+                  <o3 x="1.5" y="2"/>
+                  <o4 x="-5.50097e-15" y="0.1925"/>
+                  <eid>q4umiM5KUxJ_8WtPjyu7MeJ</eid>
                   </SlurSegment>
-                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -46722,10 +47054,10 @@ da Capo</text>
             <Note>
               <eid>0S1qh8dvVdO_YBXUE0tCpHE</eid>
               <linkedTo>I20Vgw0srJB_PDi5haI7qnG</linkedTo>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -46806,15 +47138,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>cRf/wAqMzcH_abH0ZgnQ6UM</eid>
-                <linkedTo>EBXrtrvYneF_fp7oq13vVIH</linkedTo>
+                <eid>SvUys7xTlUM_xB6Eae+WSW</eid>
+                <linkedTo>IdnHs+zn50D_9i4RZzGzY2C</linkedTo>
                 <SlurSegment no="0">
-                  <o2 x="2.56967" y="8.57204"/>
-                  <o3 x="3.0025" y="8.57204"/>
-                  <eid>54B7cJ5mhyG_yaQF8mS1oEN</eid>
-                  <autoplace>0</autoplace>
+                  <o2 x="1.5" y="2"/>
+                  <o3 x="1.5" y="2"/>
+                  <o4 x="-5.50097e-15" y="0.1925"/>
+                  <eid>lSnTovAhR0M_VLXB91l7j0F</eid>
                   </SlurSegment>
-                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -46852,10 +47183,10 @@ da Capo</text>
             <Note>
               <eid>BmGVM1iA2XG_CtAAaPm1HFC</eid>
               <linkedTo>jcZY77b7wUO_b/kyI6sVPTI</linkedTo>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -46940,18 +47271,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>+E2aiZ2tz9C_QjDDu/wF0pM</eid>
-                <linkedTo>SmNuzqWvmP_ovy6vcwWtbJ</linkedTo>
+                <eid>x2BP5zmG4zH_nYf9Jv7loGO</eid>
+                <linkedTo>QyNy59MvCNL_5DO1hyepJzM</linkedTo>
                 <SlurSegment no="0">
-                  <o1 x="0.694105" y="-0.0771228"/>
-                  <o2 x="1.29851" y="8.4836"/>
-                  <o3 x="2.94329" y="8.44032"/>
-                  <o4 x="0" y="0.5"/>
-                  <eid>CuKFWPo/iQD_wn6sRxkmaSE</eid>
-                  <autoplace>0</autoplace>
-                  <offset x="0" y="-0.5"/>
+                  <o2 x="1" y="0.5"/>
+                  <o3 x="1" y="0.5"/>
+                  <o4 x="1.10019e-14" y="0.1925"/>
+                  <eid>wYfC/+gpyNG_D4ycDSwSXjF</eid>
                   </SlurSegment>
-                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -46989,10 +47316,10 @@ da Capo</text>
             <Note>
               <eid>TZc+0FeHNfI_Rk+SWtaRoxP</eid>
               <linkedTo>ozBKIUbeYGB_o4gOZ0eorYI</linkedTo>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -47073,18 +47400,14 @@ da Capo</text>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>FmRNYcIkykJ_LHA9q47d0vP</eid>
-                <linkedTo>1hduu9HWzMO_1soyZOWgHkC</linkedTo>
+                <eid>3dRE5c+dOkF_WJPJ0Q7U1kG</eid>
+                <linkedTo>pcAXK7SCnDD_Cnjt8JyYxoM</linkedTo>
                 <SlurSegment no="0">
-                  <o1 x="0.777349" y="-0.0485843"/>
-                  <o2 x="1.21194" y="8.57017"/>
-                  <o3 x="3.24628" y="8.35375"/>
-                  <o4 x="0" y="0.5"/>
-                  <eid>wnk13gf3pR_0L+d9+FMmHC</eid>
-                  <autoplace>0</autoplace>
-                  <offset x="0" y="-0.5"/>
+                  <o2 x="1" y="0.5"/>
+                  <o3 x="1" y="0.5"/>
+                  <o4 x="-1.10019e-14" y="0.1925"/>
+                  <eid>KvqN63JRvLC_DgMh/5t1agP</eid>
                   </SlurSegment>
-                <up>down</up>
                 <lineType>1</lineType>
                 </Slur>
               <next>
@@ -47122,10 +47445,10 @@ da Capo</text>
             <Note>
               <eid>4SXH8nPVr9P_itA5Jcpvl4I</eid>
               <linkedTo>gEXC90/B6aF_t3aMunEFn+</linkedTo>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
               <fret>0</fret>
-              <string>9</string>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -47216,26 +47539,18 @@ da Capo</text>
             <Note>
               <eid>vYdy7oRxPaK_wbEOI1VHnRJ</eid>
               <linkedTo>fM/NpKqDPQL_8lnSqA6cvvB</linkedTo>
-              <pitch>31</pitch>
+              <pitch>43</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
-              <string>13</string>
+              <string>6</string>
               </Note>
             <Note>
               <eid>Pi/RrsCcIrO_Vk+MKXKbdEN</eid>
               <linkedTo>r5nmFN7n29F_hiqnI4NGACE</linkedTo>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>4</string>
-              </Note>
-            <Note>
-              <eid>bhnZrQo9t6C_TirNzkY4e0G</eid>
-              <linkedTo>1GRK8E8fsqN_sp0H4Y0VUGK</linkedTo>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
               <fret>7</fret>
-              <string>3</string>
+              <string>1</string>
               </Note>
             <Note>
               <eid>UYaB7w+GS/_5tQuDl/pspF</eid>
@@ -48516,8 +48831,8 @@ da Capo</text>
               <linkedTo>haRpEZ3qzQH_L+q1A+3rnF</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -50232,8 +50547,8 @@ da Capo</text>
               <linkedTo>kzl99slXx1H_CwsdYPyLvuH</linkedTo>
               <pitch>54</pitch>
               <tpc>20</tpc>
-              <fret>4</fret>
-              <string>4</string>
+              <fret>2</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -53058,7 +53373,6 @@ da Capo</text>
                 </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <fret>1</fret>
               <string>6</string>
               </Note>
             </Chord>
@@ -65246,7 +65560,6 @@ da Capo</text>
                 </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <fret>1</fret>
               <string>6</string>
               </Note>
             </Chord>
@@ -68511,7 +68824,6 @@ da Capo</text>
               <linkedTo>0SGPd1EkqFC_G4+WZ3c4oOC</linkedTo>
               <pitch>41</pitch>
               <tpc>13</tpc>
-              <fret>1</fret>
               <string>8</string>
               </Note>
             </Chord>
@@ -68646,7 +68958,6 @@ da Capo</text>
                 </Accidental>
               <pitch>39</pitch>
               <tpc>11</tpc>
-              <fret>1</fret>
               <string>9</string>
               </Note>
             </Chord>
@@ -68873,7 +69184,6 @@ da Capo</text>
               <linkedTo>kyBObwYkTzH_4Er5yUFz8cC</linkedTo>
               <pitch>41</pitch>
               <tpc>13</tpc>
-              <fret>1</fret>
               <string>8</string>
               </Note>
             </Chord>
