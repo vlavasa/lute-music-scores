@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.60">
-  <programVersion>4.6.5</programVersion>
-  <programRevision>653f38d</programRevision>
+<museScore version="4.70">
+  <programVersion>4.7.4</programVersion>
+  <programRevision>7688c00</programRevision>
   <Score>
     <eid>lJec0FzCyuE_jROtvnIngWN</eid>
     <Division>480</Division>
@@ -20,6 +20,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="source"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle">Podnázev skladby</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -210,8 +211,7 @@
         <Text>
           <eid>9v7pffRiwAG_Jn/0xUs3lT</eid>
           <style>composer</style>
-          <text>Tommaso Martelli ?-1706
-theorbo continuo by Vladimír Váša</text>
+          <text>Tommaso Martelli ?-1706<br/>theorbo continuo by Vladimír Váša</text>
           </Text>
         </VBox>
       <Measure>
@@ -2606,13 +2606,6 @@ theorbo continuo by Vladimír Váša</text>
             <eid>3N2dkw47cXK_RBZjEe3dP0P</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>y9yUwVObGHN_VyL92okKluF</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>rhmnb+XWvkL_8EikQ1+OiNH</eid>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -2620,14 +2613,21 @@ theorbo continuo by Vladimír Váša</text>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>T/ve8VZ3qNL_AL9pLNQEawH</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>3</fret>
+              <fret>5</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>y9yUwVObGHN_VyL92okKluF</eid>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>6</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -2673,24 +2673,60 @@ theorbo continuo by Vladimír Váša</text>
             </FiguredBass>
           <Chord>
             <eid>hthfPgg35dC_WaHSIb0XxuJ</eid>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>XlmZXy5yYwM_mI7UykJc33H</eid>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>Qdo0iBPd54P_Gzz387RO2GC</eid>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
               <eid>K+wfLwkylwM_da8QuQqeieD</eid>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
+            </Chord>
+          <FiguredBass>
+            <ticks>1/4</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>5</digit>
+              </FiguredBassItem>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>3</digit>
+              </FiguredBassItem>
+            <eid>Nkj0wX1N7qI_WTH/CBxKgiE</eid>
+            </FiguredBass>
+          <Chord>
+            <eid>WbcmuqPiYvL_YgrxLggvh7D</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>WjmGZLDWqwD_CPWGFvf4n1E</eid>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
               <string>1</string>
               </Note>
             <Note>
-              <eid>XlmZXy5yYwM_mI7UykJc33H</eid>
+              <eid>EHE+M+lsX/C_SXnP4fegpJK</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>3</string>
               </Note>
             <Note>
-              <eid>Qdo0iBPd54P_Gzz387RO2GC</eid>
+              <eid>2hgdMg8CgPI_GlDTSur9nFG</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2701,10 +2737,20 @@ theorbo continuo by Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>ICnKExzUiKM_iUVm0rf5GUK</eid>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>Ugf+MTgvR1I_jPZQQL98lhI</eid>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>buFcT/4p9pO_vuEk50ObF8B</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>Ew9vKwdDGHE_nyhgM/x7nxP</eid>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -2809,6 +2855,11 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>0</string>
               </Note>
+            <ChordBracket>
+              <eid>cJFvwM6S5AC_ugwUqwDfhxC</eid>
+              <visible>0</visible>
+              <userLen2>1.35714</userLen2>
+              </ChordBracket>
             </Chord>
           </voice>
         <voice>
@@ -2848,24 +2899,24 @@ theorbo continuo by Vladimír Váša</text>
             <eid>t866PP0/hDG_hHshyt+sdKF</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>+LRST6/P1uI_Si/Yx8jTFZE</eid>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>L9F3MCPbItC_SX+bnh368aF</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>5</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>5p7m6bIZgJP_8NAfIsCNNGD</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>+LRST6/P1uI_Si/Yx8jTFZE</eid>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>5</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -2881,10 +2932,24 @@ theorbo continuo by Vladimír Váša</text>
             <eid>1wIIGzILpoI_T1AIK2++qaO</eid>
             <durationType>quarter</durationType>
             <Note>
+              <eid>NMG9uVGovBM_vZMyG21HunH</eid>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
               <eid>o2KWF98g1ID_CpIHuuv27V</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>s1l0FSkv0jI_4T28JuKlsfN</eid>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -2907,8 +2972,8 @@ theorbo continuo by Vladimír Váša</text>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -2956,24 +3021,24 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <eid>3WK7ZwbawXN_LDayiqpvhFK</eid>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>1+WLqHMtsOD_VZVUhtuuP9L</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>KDd6T4eW61D_inXVAKV9DNB</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>3WK7ZwbawXN_LDayiqpvhFK</eid>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>5</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -2985,10 +3050,10 @@ theorbo continuo by Vladimír Váša</text>
             <durationType>half</durationType>
             <Note>
               <eid>8M2kj3r3hJI_GG65eRjzpYM</eid>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             </Chord>
           </voice>
@@ -3067,6 +3132,15 @@ theorbo continuo by Vladimír Váša</text>
             <eid>YdRGq6PQA4L_kEeG+0iF0lL</eid>
             <durationType>quarter</durationType>
             <Note>
+              <eid>+uPbd3kqkBN_OxbadFjzYDI</eid>
+              <parentheses>both</parentheses>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>1</string>
+              <hideGeneratedParentheses>1</hideGeneratedParentheses>
+              </Note>
+            <Note>
               <eid>UEUmRDjrBrJ_unNZXBc4HCN</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -3080,6 +3154,11 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>2</string>
               </Note>
+            <NoteParenGroup>
+              <Notes>
+                <NoteIdx>0</NoteIdx>
+                </Notes>
+              </NoteParenGroup>
             </Chord>
           <FiguredBass>
             <ticks>1/4</ticks>
@@ -3089,7 +3168,7 @@ theorbo continuo by Vladimír Váša</text>
               </FiguredBassItem>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>3</digit>
+              <prefix>4</prefix>
               </FiguredBassItem>
             <eid>5HfEO1gLIP_wXMyMY2jJZN</eid>
             </FiguredBass>
@@ -3105,9 +3184,13 @@ theorbo continuo by Vladimír Váša</text>
               </Note>
             <Note>
               <eid>TZFVVqOQCYK_RFFDs9haHXE</eid>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>LQ9qyyEywUP_C/rrCc266VM</eid>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
               <string>0</string>
               </Note>
             <Note>
@@ -3197,7 +3280,7 @@ theorbo continuo by Vladimír Váša</text>
           <FiguredBass>
             <ticks>1/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="1" b2="2" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
@@ -3215,6 +3298,13 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>18</tpc>
               <fret>0</fret>
               <string>1</string>
+              </Note>
+            <Note>
+              <eid>9tpAWU8wyVP_DvbkwC+eoGE</eid>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
               </Note>
             <Note>
               <eid>O28ZGG81mDL_NF7l/HIIq7C</eid>
@@ -3265,10 +3355,6 @@ theorbo continuo by Vladimír Váša</text>
             <ticks>1/4</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>7</digit>
-              </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
@@ -3282,9 +3368,9 @@ theorbo continuo by Vladimír Váša</text>
             <durationType>quarter</durationType>
             <Note>
               <eid>TK0rTDR6fYF_z+TJOqXpZBD</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
               <string>1</string>
               </Note>
             <Note>
@@ -3306,17 +3392,6 @@ theorbo continuo by Vladimír Váša</text>
               <string>2</string>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            <timeTick>1</timeTick>
-            </location>
-          <StaffText>
-            <eid>hPom0Fp4HSB_QhWSHho4gCF</eid>
-            <autoplace>0</autoplace>
-            <color r="170" g="0" b="0" a="255"/>
-            <offset x="-0.4344" y="-0.7"/>
-            <text>???</text>
-            </StaffText>
           </voice>
         <voice>
           <Chord>
@@ -3925,12 +4000,26 @@ theorbo continuo by Vladimír Váša</text>
               <string>1</string>
               </Note>
             <Note>
+              <eid>lSZnf+SR9lM_uokHywfTScI</eid>
+              <parentheses>both</parentheses>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              <hideGeneratedParentheses>1</hideGeneratedParentheses>
+              </Note>
+            <Note>
               <eid>60LCoT6s2yI_iOCIqXJo+TC</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>1</fret>
               <string>2</string>
               </Note>
+            <NoteParenGroup>
+              <Notes>
+                <NoteIdx>1</NoteIdx>
+                </Notes>
+              </NoteParenGroup>
             </Chord>
           </voice>
         <voice>
@@ -3957,7 +4046,7 @@ theorbo continuo by Vladimír Váša</text>
               <digit>7</digit>
               </FiguredBassItem>
             <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <brackets b0="0" b1="1" b2="2" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
@@ -3966,26 +4055,15 @@ theorbo continuo by Vladimír Váša</text>
               </FiguredBassItem>
             <eid>Vn7FUspJdtI_oAtHP7pk2xM</eid>
             </FiguredBass>
-          <Beam>
-            <eid>Ehfm/6ROHBP_7NaTOkQaCLB</eid>
-            <visible>0</visible>
-            </Beam>
           <Chord>
             <eid>D4ZOXp5DNCC_XUK5OXSYAx</eid>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>Vey7bdeyB4D_cR9nwqdnuUJ</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
+            <durationType>quarter</durationType>
             <Note>
               <eid>w9pVka9gMCO_r1qkIl4uU/C</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>4WB4NvytPh_USlOJWEroZM</eid>
@@ -3996,53 +4074,7 @@ theorbo continuo by Vladimír Váša</text>
               </Note>
             </Chord>
           <FiguredBass>
-            <ticks>1/8</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>9</digit>
-              </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>5</digit>
-              </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>3</digit>
-              </FiguredBassItem>
-            <eid>Rge0635x1LJ_NykZ8Qpf9KC</eid>
-            </FiguredBass>
-          <Chord>
-            <eid>e944eITB7CN_R5J4mMTFXiL</eid>
-            <small>1</small>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>95wWuNaJYRG_X+z4jgjWXeP</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>jh+qIi8kshL_yM0UhtxprVO</eid>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <eid>ZzTkz84mEmL_XEtcqmqQXVK</eid>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <FiguredBass>
             <ticks>1/4</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>8</digit>
-              </FiguredBassItem>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
@@ -4053,20 +4085,9 @@ theorbo continuo by Vladimír Váša</text>
               </FiguredBassItem>
             <eid>cxa3sOzuc3F_G4cHXTxdLZ</eid>
             </FiguredBass>
-          <StaffText>
-            <eid>o9bnSW6xE9H_NBCWg3p4i4L</eid>
-            <autoplace>0</autoplace>
-            <color r="170" g="0" b="0" a="255"/>
-            <offset x="0" y="-1.7316"/>
-            <text>???</text>
-            </StaffText>
-          <Beam>
-            <eid>dw9d3owNsqP_CbInnBFiSCG</eid>
-            <visible>0</visible>
-            </Beam>
           <Chord>
             <eid>FRxNgnim9wG_LtLkfLF/3oN</eid>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>OtDbOaDHSQG_gKeZ6a4kQgN</eid>
               <pitch>53</pitch>
@@ -4078,47 +4099,14 @@ theorbo continuo by Vladimír Váša</text>
               <eid>EEh06FlE7JK_wPnCqwwKlbI</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>omTBmu1NV2H_yEFvN1+hgT</eid>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>LvW9bRb+7QD_QEf/dYoiG2F</eid>
-            <small>1</small>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>lE65FH1JFzJ_XGFMQQ5Wk8E</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>qo7lml3akvN_/dDxs4idFVL</eid>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>ZPJbJWtg2V_+YdQQL6YIuB</eid>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           <FiguredBass>
             <ticks>1/8</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <brackets b0="0" b1="1" b2="2" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
@@ -4129,7 +4117,6 @@ theorbo continuo by Vladimír Váša</text>
             </FiguredBass>
           <Beam>
             <eid>19Gjt8+7BMP_a73X9J+FolN</eid>
-            <visible>0</visible>
             </Beam>
           <Chord>
             <eid>39cAaIV5okH_h8rJlVBJWpL</eid>
@@ -4142,18 +4129,11 @@ theorbo continuo by Vladimír Váša</text>
               <string>1</string>
               </Note>
             <Note>
-              <eid>i47nznmGmiC_cT7drOExAWK</eid>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>Hc80UvBd9fH_8Jy32qAF4oJ</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <FiguredBass>
@@ -4162,34 +4142,11 @@ theorbo continuo by Vladimír Váša</text>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>7</digit>
               </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>5</digit>
-              </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>3</digit>
-              </FiguredBassItem>
             <eid>nS+E5gaCUwH_fT7WebDXFyE</eid>
             </FiguredBass>
           <Chord>
             <eid>M25lkEsjV0L_AQoyyolmwyG</eid>
-            <small>1</small>
             <durationType>eighth</durationType>
-            <Note>
-              <eid>fp6+MAxGTCL_AiS8ml4+ccK</eid>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>xpCdffnHVGE_7585+UH9okN</eid>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
             <Note>
               <eid>h8DDbZHKAoK_8zuSCERwLBF</eid>
               <pitch>58</pitch>
@@ -4202,7 +4159,7 @@ theorbo continuo by Vladimír Váša</text>
         <voice>
           <Chord>
             <eid>gdv4mTkdfjO_apOaY+ZHbSH</eid>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>BqdnNw/m4/H_UHG+Fwj6qnN</eid>
               <pitch>46</pitch>
@@ -4212,19 +4169,8 @@ theorbo continuo by Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
-            <eid>Q1LaMvCI5vN_mFOrjk7KBjK</eid>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>EzVAmJlmUPF_qKbxdAyooAC</eid>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
             <eid>eccHjR5wUUI_xaBzW3G2eyO</eid>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>fPtvTPGTCBO_yYuNql++jCF</eid>
               <pitch>48</pitch>
@@ -4234,36 +4180,14 @@ theorbo continuo by Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
-            <eid>oLLpvNckfLN_rV6Ed7dYelF</eid>
-            <durationType>eighth</durationType>
+            <eid>V+YdwMr2IX_zUtpbCqLKrE</eid>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>2L6FasiO2fF_crF2S+QClGH</eid>
+              <eid>+M0sIL838VJ_WevdoOb8+nH</eid>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>V+YdwMr2IX_zUtpbCqLKrE</eid>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>+M0sIL838VJ_WevdoOb8+nH</eid>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>esAKnhfExtN_t83w94n9k+L</eid>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>jZzVfKVqUQD_efMoYmYQk1H</eid>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
               </Note>
             </Chord>
           </voice>
@@ -4406,12 +4330,26 @@ theorbo continuo by Vladimír Váša</text>
               <string>1</string>
               </Note>
             <Note>
+              <eid>7LaQNsjMwmH_AGdsEjl9cwJ</eid>
+              <parentheses>both</parentheses>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              <hideGeneratedParentheses>1</hideGeneratedParentheses>
+              </Note>
+            <Note>
               <eid>Gu8AZreuSiG_7ASf7KXg0VO</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <fret>1</fret>
               <string>2</string>
               </Note>
+            <NoteParenGroup>
+              <Notes>
+                <NoteIdx>1</NoteIdx>
+                </Notes>
+              </NoteParenGroup>
             </Chord>
           </voice>
         <voice>
@@ -4438,7 +4376,7 @@ theorbo continuo by Vladimír Váša</text>
               <digit>7</digit>
               </FiguredBassItem>
             <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <brackets b0="0" b1="1" b2="2" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
@@ -4446,23 +4384,24 @@ theorbo continuo by Vladimír Váša</text>
               <digit>3</digit>
               </FiguredBassItem>
             <eid>KnT4ATYelrP_UTeO54tZleP</eid>
+            <parentheses>both</parentheses>
+            <Parenthesis>
+              <eid>ekt0dF+xgrI_OBEFHHx9A1P</eid>
+              </Parenthesis>
+            <Parenthesis>
+              <horizontalDirection>right</horizontalDirection>
+              <eid>cl3gbanpbDH_e9CMxau3cLL</eid>
+              </Parenthesis>
             </FiguredBass>
           <Chord>
             <eid>4okDldQ8afK_4lEPHB3YbN</eid>
             <durationType>quarter</durationType>
             <Note>
-              <eid>aPyorAfVUQ_DH2TkP8cz+M</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>JKD5eeCABGE_LWDMA0ppGtO</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>DSr2cplG9iJ_P7O6kNb+jeE</eid>
@@ -4484,13 +4423,6 @@ theorbo continuo by Vladimír Váša</text>
               </FiguredBassItem>
             <eid>3s8Wz58p0RF_8C3sflS68SF</eid>
             </FiguredBass>
-          <StaffText>
-            <eid>7nDPk9sCQBI_cbVT1PRQ3MD</eid>
-            <autoplace>0</autoplace>
-            <color r="170" g="0" b="0" a="255"/>
-            <offset x="-0.206319" y="-1.52528"/>
-            <text>???</text>
-            </StaffText>
           <Chord>
             <eid>PKoNjqL94GD_DJNPZ3hME8</eid>
             <durationType>quarter</durationType>
@@ -4505,21 +4437,14 @@ theorbo continuo by Vladimír Váša</text>
               <eid>7RT01rMBm8M_hUD3ygP1v0D</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>7wZJrhHNdfI_RsewhZIlMjB</eid>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <FiguredBass>
             <ticks>1/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <brackets b0="0" b1="1" b2="2" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
@@ -4530,7 +4455,7 @@ theorbo continuo by Vladimír Váša</text>
             </FiguredBass>
           <Chord>
             <eid>WZJlhk+OJrD_mq8vHV4cbNI</eid>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <eid>mRLd3EjtkkH_uHn28MuM4pH</eid>
               <pitch>52</pitch>
@@ -4539,18 +4464,30 @@ theorbo continuo by Vladimír Váša</text>
               <string>1</string>
               </Note>
             <Note>
-              <eid>5XhsO3v+nhD_9EQPVUkI1M</eid>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
               <eid>vXCwQN2SaeE_Np1JUJEph7N</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            </Chord>
+          <FiguredBass>
+            <ticks>1/8</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>7</digit>
+              </FiguredBassItem>
+            <eid>RelBo4r6PuD_hkcbhhGopgD</eid>
+            </FiguredBass>
+          <Chord>
+            <eid>D63vOd6MDsC_dEiEzkLi8U</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>xVlds8Z495E_wY0hb5D8dM</eid>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <fret>1</fret>
-              <string>2</string>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -4582,10 +4519,10 @@ theorbo continuo by Vladimír Váša</text>
             <durationType>quarter</durationType>
             <Note>
               <eid>6TwkUueS4zH_S3wm0Sg3Nz</eid>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             </Chord>
           </voice>
@@ -4780,6 +4717,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>jxpCUhkU/jN_alvb3MSXYdN</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>TU13CY9nz7C_JKn4rPrsJqN</eid>
+              <linkedTo>RWT00Av5gmC_IRdcsDa5i6C</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>U8aQMx//mfO_JEh+59UCWFI</eid>
               <linkedTo>bu387TBgB7J_57HTmsoAfPH</linkedTo>
               <pitch>53</pitch>
@@ -4794,14 +4739,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>TU13CY9nz7C_JKn4rPrsJqN</eid>
-              <linkedTo>RWT00Av5gmC_IRdcsDa5i6C</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -4854,6 +4791,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>Ec+SOr2AlpL_HITPunVUTqL</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>iBDK861kP5J_3rxGjxRk7NM</eid>
+              <linkedTo>KxmtJMUnxtI_o0CIcDQCivO</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>f2zZC5soU6O_5oicgkKp+SO</eid>
               <linkedTo>ZTFHaqEX3/F_Wleup/3f8vG</linkedTo>
               <pitch>53</pitch>
@@ -4869,26 +4814,18 @@ theorbo continuo by Vladimír Váša</text>
               <fret>0</fret>
               <string>0</string>
               </Note>
-            <Note>
-              <eid>iBDK861kP5J_3rxGjxRk7NM</eid>
-              <linkedTo>KxmtJMUnxtI_o0CIcDQCivO</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>vDWY3JaqVTI_CPf9zasnW5O</eid>
             <linkedTo>aAsLPvZTi5L_MjuimmMVw6P</linkedTo>
             <durationType>quarter</durationType>
             <Note>
-              <eid>sY/2Ll1K6BN_nb5MaCDpGuK</eid>
-              <linkedTo>Iax93bBkXdO_5uygsRlosGM</linkedTo>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>0</string>
+              <eid>a4wPoeeDTJF_D68f/K3RwQ</eid>
+              <linkedTo>JWlKpp/AOSC_3obpp4HdPeM</linkedTo>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>m2smQvHtFFE_rWrQnjNYMZN</eid>
@@ -4899,12 +4836,12 @@ theorbo continuo by Vladimír Váša</text>
               <string>1</string>
               </Note>
             <Note>
-              <eid>a4wPoeeDTJF_D68f/K3RwQ</eid>
-              <linkedTo>JWlKpp/AOSC_3obpp4HdPeM</linkedTo>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
+              <eid>sY/2Ll1K6BN_nb5MaCDpGuK</eid>
+              <linkedTo>Iax93bBkXdO_5uygsRlosGM</linkedTo>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <fret>1</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -4992,6 +4929,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>bCVQmMgSdJL_TFNt6pZcHZ</eid>
+              <linkedTo>sW+UPJTDRyP_77yQutJf2OL</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>HofpN+Bbg7D_8e9chtiHYBJ</eid>
               <linkedTo>3IOXbmf5CqL_klsdxDjcikC</linkedTo>
               <pitch>53</pitch>
@@ -5006,14 +4951,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>bCVQmMgSdJL_TFNt6pZcHZ</eid>
-              <linkedTo>sW+UPJTDRyP_77yQutJf2OL</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -5042,6 +4979,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>GHaaJOWfliO_whzdUByG1xI</eid>
+              <linkedTo>s4y8lg6e72G_olp1HOoFwfD</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>gX93EF63qDJ_VOtnxoAdelO</eid>
               <linkedTo>i0oIa63d5RB_qS5sY3ovSsG</linkedTo>
               <pitch>53</pitch>
@@ -5056,14 +5001,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>GHaaJOWfliO_whzdUByG1xI</eid>
-              <linkedTo>s4y8lg6e72G_olp1HOoFwfD</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -5091,14 +5028,6 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>AM/JeL/NYAE_Pvm+Nl05k1G</linkedTo>
             <durationType>quarter</durationType>
             <Note>
-              <eid>V+Aa4AyLiJO_PMPvJdtg+UD</eid>
-              <linkedTo>hCVOM00YCt_/7D7KExqoeB</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>v+JoANSWx4I_vy67uijhI5L</eid>
               <linkedTo>4+0y15oBfuI_meUbsqdiO4E</linkedTo>
               <pitch>62</pitch>
@@ -5106,19 +5035,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>2</string>
               </Note>
+            <Note>
+              <eid>V+Aa4AyLiJO_PMPvJdtg+UD</eid>
+              <linkedTo>hCVOM00YCt_/7D7KExqoeB</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
             </Chord>
           <Chord>
             <eid>uBJKt3GOKYK_eFiU2scLFYH</eid>
             <linkedTo>2zPX+iU1JtO_f6drG+IwHVJ</linkedTo>
             <durationType>quarter</durationType>
-            <Note>
-              <eid>/Rb/iFvCOdK_z1xTRueNIrF</eid>
-              <linkedTo>TAbr5gRVhsG_ZoG56ilxfjH</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
             <Note>
               <eid>1eSoFy6TK3L_trl8sPvu4aI</eid>
               <linkedTo>UjovsoMmCuO_H+WCTDpp7HJ</linkedTo>
@@ -5126,6 +5055,14 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>/Rb/iFvCOdK_z1xTRueNIrF</eid>
+              <linkedTo>TAbr5gRVhsG_ZoG56ilxfjH</linkedTo>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>48wohsowebN_N0ltXM7mvZB</eid>
@@ -5141,6 +5078,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>pcPQNnwWTxN_UhFZDG3rIs</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>tpF474Zp81M_ZU+ZYnJxr5</eid>
+              <linkedTo>6mHxcfBXAUH_WvmExgTNqAC</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>QX/tmCITXCM_Ot6+wfjxnzP</eid>
               <linkedTo>Oa+jNLqS2nC_oxvW11pjhXB</linkedTo>
               <pitch>53</pitch>
@@ -5155,14 +5100,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>tpF474Zp81M_ZU+ZYnJxr5</eid>
-              <linkedTo>6mHxcfBXAUH_WvmExgTNqAC</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -5249,20 +5186,20 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>nXSFIu5mU0L_2aelhBFrLsN</linkedTo>
             <durationType>eighth</durationType>
             <Note>
-              <eid>C7ZeNtNzp2L_RG3xSuP9w+J</eid>
-              <linkedTo>5f/c3AScfLP_BlIpf4wXj1B</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
-              <string>0</string>
-              </Note>
-            <Note>
               <eid>tpSQmZyWThN_/9GUxB0R1lH</eid>
               <linkedTo>3ClVlSz0XWO_gr5LlVwoHkD</linkedTo>
               <pitch>52</pitch>
               <tpc>18</tpc>
               <fret>0</fret>
               <string>1</string>
+              </Note>
+            <Note>
+              <eid>C7ZeNtNzp2L_RG3xSuP9w+J</eid>
+              <linkedTo>5f/c3AScfLP_BlIpf4wXj1B</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -5319,6 +5256,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>zErlivQCBTP_hvJPQiyy2TG</eid>
+              <linkedTo>kiuBOlO0MGM_1OkW1HLFs8M</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>cYZ5it/7Je_5DnVt3sNe9C</eid>
               <linkedTo>oilOF87JWYC_2qsBm64eXyB</linkedTo>
               <pitch>53</pitch>
@@ -5333,14 +5278,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>zErlivQCBTP_hvJPQiyy2TG</eid>
-              <linkedTo>kiuBOlO0MGM_1OkW1HLFs8M</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -5369,6 +5306,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>sKqA2XGOYjD_6g1M6r1vwzG</eid>
+              <linkedTo>Y9POjxGd8RE_pa9NoZFanUI</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>KRhhUahOPqF_6RzFUqYkHgM</eid>
               <linkedTo>o0+BxMwxSXM_biyWWWOuah</linkedTo>
               <pitch>53</pitch>
@@ -5383,14 +5328,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>sKqA2XGOYjD_6g1M6r1vwzG</eid>
-              <linkedTo>Y9POjxGd8RE_pa9NoZFanUI</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -5460,6 +5397,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>lYQ4Fo3QQYD_XvXdwGwP+JP</linkedTo>
             <durationType>half</durationType>
             <Note>
+              <eid>lB+uBKKu5AG_AuT5NOIECwK</eid>
+              <linkedTo>nt1Xrlk9BTG_39dtVuLKtg</linkedTo>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>v06F3obvJUK_0Nt+4P3/YdP</eid>
               <linkedTo>UlZFjkqzbKC_ISKTUtJIGjI</linkedTo>
               <pitch>57</pitch>
@@ -5475,41 +5420,33 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>0</string>
               </Note>
-            <Note>
-              <eid>lB+uBKKu5AG_AuT5NOIECwK</eid>
-              <linkedTo>nt1Xrlk9BTG_39dtVuLKtg</linkedTo>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>SDvfTZhZ8IH_vczbFDbJDpP</eid>
             <linkedTo>3N2dkw47cXK_RBZjEe3dP0P</linkedTo>
             <durationType>quarter</durationType>
             <Note>
-              <eid>HfEFX+VP9oL_44CKb9PIfgP</eid>
-              <linkedTo>rhmnb+XWvkL_8EikQ1+OiNH</linkedTo>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>2</fret>
-              <string>0</string>
-              </Note>
-            <Note>
               <eid>fpaXX548muG_ElzG5HykbPL</eid>
               <linkedTo>T/ve8VZ3qNL_AL9pLNQEawH</linkedTo>
               <pitch>62</pitch>
               <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
+              <fret>5</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>SfG/d+u7Q1H_RaV8bvSsQ5G</eid>
               <linkedTo>y9yUwVObGHN_VyL92okKluF</linkedTo>
-              <pitch>53</pitch>
+              <pitch>65</pitch>
               <tpc>13</tpc>
-              <fret>1</fret>
+              <fret>6</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <eid>HfEFX+VP9oL_44CKb9PIfgP</eid>
+              <linkedTo>rhmnb+XWvkL_8EikQ1+OiNH</linkedTo>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>7</fret>
               <string>1</string>
               </Note>
             </Chord>
@@ -5548,23 +5485,22 @@ theorbo continuo by Vladimír Váša</text>
           <Chord>
             <eid>75Qv6mtJ39O_BaLKELquB3</eid>
             <linkedTo>hthfPgg35dC_WaHSIb0XxuJ</linkedTo>
-            <dots>1</dots>
             <durationType>half</durationType>
-            <Note>
-              <eid>3HkuXWZpUgO_XFIsA1C+vUH</eid>
-              <linkedTo>K+wfLwkylwM_da8QuQqeieD</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
             <Note>
               <eid>xD6FuWpg8MC_Pg+VwLyhwTC</eid>
               <linkedTo>XlmZXy5yYwM_mI7UykJc33H</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>3HkuXWZpUgO_XFIsA1C+vUH</eid>
+              <linkedTo>K+wfLwkylwM_da8QuQqeieD</linkedTo>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>5</fret>
+              <string>2</string>
               </Note>
             <Note>
               <eid>ugtGaXVX3fG_W15md2MbroF</eid>
@@ -5575,16 +5511,57 @@ theorbo continuo by Vladimír Váša</text>
               <string>0</string>
               </Note>
             </Chord>
+          <Chord>
+            <eid>Su/HvJAIscG_VS4Ovf+mmdB</eid>
+            <linkedTo>WbcmuqPiYvL_YgrxLggvh7D</linkedTo>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>e79SYWWsptO_CnVObADyC0I</eid>
+              <linkedTo>EHE+M+lsX/C_SXnP4fegpJK</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
+            <Note>
+              <eid>muZ7mwqtlUK_N6CgKZels2H</eid>
+              <linkedTo>2hgdMg8CgPI_GlDTSur9nFG</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>0JjqNWjIOiE_AqNGnVzsOYK</eid>
+              <linkedTo>WjmGZLDWqwD_CPWGFvf4n1E</linkedTo>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>0</fret>
+              <string>1</string>
+              </Note>
+            </Chord>
           </voice>
         <voice>
           <Chord>
             <eid>YiUA042Uk/F_72RE+l7LxHM</eid>
             <linkedTo>ICnKExzUiKM_iUVm0rf5GUK</linkedTo>
-            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>1ujuKWIUg5N_PMZA1+f62/M</eid>
               <linkedTo>Ugf+MTgvR1I_jPZQQL98lhI</linkedTo>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>5</string>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>HhRn+k9ozUM_oUPqE85AKMO</eid>
+            <linkedTo>buFcT/4p9pO_vuEk50ObF8B</linkedTo>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>N6U27+NaHPJ_ZoYMUUGX3sF</eid>
+              <linkedTo>Ew9vKwdDGHE_nyhgM/x7nxP</linkedTo>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
@@ -5601,6 +5578,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>qJ7J0sLKE_ELLFVvdN5V</eid>
+              <linkedTo>oR/6mDJt4GI_eSOxLapHscC</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>HxQDLNa5+QI_02PhgKmuUeL</eid>
               <linkedTo>q5y8sd4fQzG_MjhThXzS6fL</linkedTo>
               <pitch>53</pitch>
@@ -5615,14 +5600,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>qJ7J0sLKE_ELLFVvdN5V</eid>
-              <linkedTo>oR/6mDJt4GI_eSOxLapHscC</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -5666,6 +5643,11 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>0</string>
               </Note>
+            <ChordBracket>
+              <eid>MEsQrxVF8oP_KLVs4KQZy4F</eid>
+              <linkedTo>cJFvwM6S5AC_ugwUqwDfhxC</linkedTo>
+              <userLen2>0.95</userLen2>
+              </ChordBracket>
             </Chord>
           </voice>
         <voice>
@@ -5692,27 +5674,27 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>t866PP0/hDG_hHshyt+sdKF</linkedTo>
             <durationType>quarter</durationType>
             <Note>
-              <eid>r0CvuOHqqNB_q8zmQADAo3G</eid>
-              <linkedTo>L9F3MCPbItC_SX+bnh368aF</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            <Note>
               <eid>TFMzaZigAXG_51N97p+qGAD</eid>
               <linkedTo>5p7m6bIZgJP_8NAfIsCNNGD</linkedTo>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
+              <fret>3</fret>
+              <string>0</string>
               </Note>
             <Note>
               <eid>C2PzSj/TOwF_QKA1v/IHosC</eid>
               <linkedTo>+LRST6/P1uI_Si/Yx8jTFZE</linkedTo>
-              <pitch>52</pitch>
+              <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
+              <fret>5</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <eid>r0CvuOHqqNB_q8zmQADAo3G</eid>
+              <linkedTo>L9F3MCPbItC_SX+bnh368aF</linkedTo>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>5</fret>
               <string>1</string>
               </Note>
             </Chord>
@@ -5725,7 +5707,23 @@ theorbo continuo by Vladimír Váša</text>
               <linkedTo>o2KWF98g1ID_CpIHuuv27V</linkedTo>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>iNOHeGcPJUK_JYK1RxEsYfD</eid>
+              <linkedTo>NMG9uVGovBM_vZMyG21HunH</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <eid>0WleR5/46n_Xfbke/qOIoE</eid>
+              <linkedTo>s1l0FSkv0jI_4T28JuKlsfN</linkedTo>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -5738,8 +5736,8 @@ theorbo continuo by Vladimír Váša</text>
               <linkedTo>18agCJ9BdEP_mclU7+W8fbL</linkedTo>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>0</fret>
-              <string>2</string>
+              <fret>4</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -5780,27 +5778,27 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <eid>POaQuYXcT9E_3bVjYgFJMrO</eid>
-              <linkedTo>3WK7ZwbawXN_LDayiqpvhFK</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>QTS7mSocsXN_btLvKo+mS7</eid>
               <linkedTo>1+WLqHMtsOD_VZVUhtuuP9L</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
+              <fret>3</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>zMuM+CLy9eE_vJYFyqCcXHD</eid>
               <linkedTo>KDd6T4eW61D_inXVAKV9DNB</linkedTo>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>1</fret>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
+            <Note>
+              <eid>POaQuYXcT9E_3bVjYgFJMrO</eid>
+              <linkedTo>3WK7ZwbawXN_LDayiqpvhFK</linkedTo>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>5</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -5814,10 +5812,10 @@ theorbo continuo by Vladimír Váša</text>
             <Note>
               <eid>u/+PTrEU/NB_Zz93hBesuGC</eid>
               <linkedTo>8M2kj3r3hJI_GG65eRjzpYM</linkedTo>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             </Chord>
           </voice>
@@ -5830,20 +5828,20 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <eid>IknSpvIqzZL_w1voeG1MOSM</eid>
-              <linkedTo>5jiosEYffwB_zu8obHKt79B</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>Wvnqa0Ohz/B_sBgnnO2F7VH</eid>
               <linkedTo>ma2cCePfNWI_yo5mtc5BrFP</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>IknSpvIqzZL_w1voeG1MOSM</eid>
+              <linkedTo>5jiosEYffwB_zu8obHKt79B</linkedTo>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>sO4Hl35fXoJ_Zv9I6mDdryN</eid>
@@ -5879,6 +5877,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>YdRGq6PQA4L_kEeG+0iF0lL</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>Tj0MUzr8Y4D_dmtgcJ+vfSB</eid>
+              <linkedTo>14DjEi4kH1_ZE/niLJ7dVC</linkedTo>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>ZhHRsGnjtzH_d2Mm7ZVYa2K</eid>
               <linkedTo>UEUmRDjrBrJ_unNZXBc4HCN</linkedTo>
               <pitch>57</pitch>
@@ -5887,26 +5893,24 @@ theorbo continuo by Vladimír Váša</text>
               <string>0</string>
               </Note>
             <Note>
-              <eid>Tj0MUzr8Y4D_dmtgcJ+vfSB</eid>
-              <linkedTo>14DjEi4kH1_ZE/niLJ7dVC</linkedTo>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
+              <eid>Ti4Y8nQd8AD_2QggrNResgF</eid>
+              <linkedTo>+uPbd3kqkBN_OxbadFjzYDI</linkedTo>
+              <parentheses>both</parentheses>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>1</string>
               </Note>
+            <NoteParenGroup>
+              <Notes>
+                <NoteIdx>2</NoteIdx>
+                </Notes>
+              </NoteParenGroup>
             </Chord>
           <Chord>
             <eid>0M4A/lcjHU_CosppKvDviF</eid>
             <linkedTo>lCQtZzteY7N_zb17kCSZU+I</linkedTo>
             <durationType>quarter</durationType>
-            <Note>
-              <eid>WA/6TGKKClC_zX8W1tro6uK</eid>
-              <linkedTo>TZFVVqOQCYK_RFFDs9haHXE</linkedTo>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>0</string>
-              </Note>
             <Note>
               <eid>WIWDqmpFhVE_JGrAChiLvbF</eid>
               <linkedTo>Xb20M1TPdwG_lPPCihDSN9</linkedTo>
@@ -5923,19 +5927,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>1</string>
               </Note>
+            <Note>
+              <eid>WA/6TGKKClC_zX8W1tro6uK</eid>
+              <linkedTo>TZFVVqOQCYK_RFFDs9haHXE</linkedTo>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>2</fret>
+              <string>0</string>
+              </Note>
             </Chord>
           <Chord>
             <eid>kk+fthPqULL_gLh2ikY5EjN</eid>
             <linkedTo>WZSovZAPK0L_mxRfdhzfMiE</linkedTo>
             <durationType>quarter</durationType>
-            <Note>
-              <eid>EaH8XW0Y3OH_V+8Imc+yaiE</eid>
-              <linkedTo>2v9rSdMD0+I_whulj9cXQlK</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
             <Note>
               <eid>E5HYzWNoIIL_qltxsgfqN2L</eid>
               <linkedTo>1hgzo8tkSU_iYe3tc4+HEM</linkedTo>
@@ -5943,6 +5947,14 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>EaH8XW0Y3OH_V+8Imc+yaiE</eid>
+              <linkedTo>2v9rSdMD0+I_whulj9cXQlK</linkedTo>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>TZkiEClyxjL_kJj06qcxIbD</eid>
@@ -6018,19 +6030,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>0</string>
               </Note>
+            <Note>
+              <eid>kAhwuFkPxMN_/nid9Lkqv/D</eid>
+              <linkedTo>9tpAWU8wyVP_DvbkwC+eoGE</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>0</fret>
+              <string>3</string>
+              </Note>
             </Chord>
           <Chord>
             <eid>hdeNcD47LZJ_pAOpcJmRR0K</eid>
             <linkedTo>5zADmT1XDJ_VJRK4a44FoB</linkedTo>
             <durationType>quarter</durationType>
-            <Note>
-              <eid>n3qO8+vcb+N_GYx8r9rQhbP</eid>
-              <linkedTo>abbK97hYvOE_PPi6TlweDRO</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
             <Note>
               <eid>ooV1GpGpFAO_6dub3gYqMKL</eid>
               <linkedTo>xcPE4rRcOSF_3yA85AyEfwK</linkedTo>
@@ -6046,6 +6058,14 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>13</tpc>
               <fret>1</fret>
               <string>1</string>
+              </Note>
+            <Note>
+              <eid>n3qO8+vcb+N_GYx8r9rQhbP</eid>
+              <linkedTo>abbK97hYvOE_PPi6TlweDRO</linkedTo>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -6063,9 +6083,9 @@ theorbo continuo by Vladimír Váša</text>
             <Note>
               <eid>FxTVOjqF6uP_7UHydH2SmGK</eid>
               <linkedTo>TK0rTDR6fYF_z+TJOqXpZBD</linkedTo>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
               <string>1</string>
               </Note>
             <Note>
@@ -6128,20 +6148,20 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <eid>Teej6wcFFgN_NkRXNLfp4fD</eid>
-              <linkedTo>2ksDRLuqT+K_swtW+kmK1vF</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>elmDRNMFO7_M3XWMESLSEC</eid>
               <linkedTo>MMQ3Cmv/vML_prbfiShSK5H</linkedTo>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>Teej6wcFFgN_NkRXNLfp4fD</eid>
+              <linkedTo>2ksDRLuqT+K_swtW+kmK1vF</linkedTo>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>aES2etKa1rL_EZWVl/7xIt</eid>
@@ -6178,6 +6198,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>dxhRlEIq3WL_/4d0fvLxCQH</eid>
+              <linkedTo>ly+TxgVhisO_Is4TXxLMcJH</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>hAt2I8wTazM_SYHuol//IZE</eid>
               <linkedTo>J/ix1TGWl2E_PmdF0WORa9H</linkedTo>
               <pitch>53</pitch>
@@ -6192,14 +6220,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>dxhRlEIq3WL_/4d0fvLxCQH</eid>
-              <linkedTo>ly+TxgVhisO_Is4TXxLMcJH</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -6227,14 +6247,6 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>wAuPF2mSziC_eLUzVS90wDM</linkedTo>
             <durationType>quarter</durationType>
             <Note>
-              <eid>2pbEc1umrq_OT++miiMApJ</eid>
-              <linkedTo>lpPJ7dd9c0E_kUfpCHPSQXN</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>3</fret>
-              <string>1</string>
-              </Note>
-            <Note>
               <eid>RW8xLrvPbIH_+WSHzamjIfO</eid>
               <linkedTo>NUk1o7NxHjD_DWrCW212brG</linkedTo>
               <pitch>62</pitch>
@@ -6242,19 +6254,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>2</string>
               </Note>
+            <Note>
+              <eid>2pbEc1umrq_OT++miiMApJ</eid>
+              <linkedTo>lpPJ7dd9c0E_kUfpCHPSQXN</linkedTo>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <fret>3</fret>
+              <string>1</string>
+              </Note>
             </Chord>
           <Chord>
             <eid>ijfydKRBYXL_nayRmQngS+B</eid>
             <linkedTo>YBIQesfKWMD_ed+5bdJ+0HM</linkedTo>
             <durationType>quarter</durationType>
-            <Note>
-              <eid>lgFY/RCVm2P_1o+ovaGWYPI</eid>
-              <linkedTo>f0Neiw22HtD_S1Tohhv6o6C</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
             <Note>
               <eid>QtDqxs9wbfE_vbVT+LuDoqL</eid>
               <linkedTo>oE/EpsW4dDB_rdMDfDOzA6K</linkedTo>
@@ -6262,6 +6274,14 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>15</tpc>
               <fret>0</fret>
               <string>3</string>
+              </Note>
+            <Note>
+              <eid>lgFY/RCVm2P_1o+ovaGWYPI</eid>
+              <linkedTo>f0Neiw22HtD_S1Tohhv6o6C</linkedTo>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <eid>+y52IQai1KC_lDNa5jwnv0N</eid>
@@ -6277,6 +6297,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>TOxI0WQFYDI_8XHmJNsE2yJ</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>NxJYLpsImqB_XeYAFs9ViPP</eid>
+              <linkedTo>2TvIbrIzkoB_8d9g0vjbdUB</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>twG43ckQ+pJ_kccBbZDpWfI</eid>
               <linkedTo>HOx/qdPlzkL_D6GvKNt5CGD</linkedTo>
               <pitch>53</pitch>
@@ -6291,14 +6319,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>NxJYLpsImqB_XeYAFs9ViPP</eid>
-              <linkedTo>2TvIbrIzkoB_8d9g0vjbdUB</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -6351,6 +6371,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>45kD38tKzGE_atMSLK/G+lG</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>qBxfZqErVHC_Hn6rmUP6onG</eid>
+              <linkedTo>OYzOtPqdUKM_zVNuQq5/r5G</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>2ImSJ46In6D_yP19VAhIk0P</eid>
               <linkedTo>X1FYfAdzmZP_81Pd+uAeKuH</linkedTo>
               <pitch>53</pitch>
@@ -6366,19 +6394,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>0</fret>
               <string>0</string>
               </Note>
-            <Note>
-              <eid>qBxfZqErVHC_Hn6rmUP6onG</eid>
-              <linkedTo>OYzOtPqdUKM_zVNuQq5/r5G</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>en93Rx2zoCM_na8zjt3UaLB</eid>
             <linkedTo>MWpgqxCH3eC_SrEsQjYFg9L</linkedTo>
             <durationType>quarter</durationType>
+            <Note>
+              <eid>pTV7jGEwaa_/OsgBAyTw3I</eid>
+              <linkedTo>kwZrrczff3O_mq54mIOsJDO</linkedTo>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <fret>3</fret>
+              <string>2</string>
+              </Note>
             <Note>
               <eid>S26bLXX0MOC_OOFn9MzW0TN</eid>
               <linkedTo>SUyrdUkH+JM_ykTT3IBVM+C</linkedTo>
@@ -6394,14 +6422,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>12</tpc>
               <fret>1</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>pTV7jGEwaa_/OsgBAyTw3I</eid>
-              <linkedTo>kwZrrczff3O_mq54mIOsJDO</linkedTo>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -6489,6 +6509,14 @@ theorbo continuo by Vladimír Váša</text>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
+              <eid>QbrEUwkfgiP_s/OJuTh9P5E</eid>
+              <linkedTo>MDWZZ4tCx7N_G0uuxxOu83B</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
+            <Note>
               <eid>7cZV0dNgL2K_hTLzFPL3OsK</eid>
               <linkedTo>170/yyV7eUD_HXg55BwZjsD</linkedTo>
               <pitch>53</pitch>
@@ -6503,14 +6531,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>QbrEUwkfgiP_s/OJuTh9P5E</eid>
-              <linkedTo>MDWZZ4tCx7N_G0uuxxOu83B</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
@@ -6604,6 +6624,20 @@ theorbo continuo by Vladimír Váša</text>
               <fret>1</fret>
               <string>1</string>
               </Note>
+            <Note>
+              <eid>Yvgy4m5hmXE_1F3RWvIArgN</eid>
+              <linkedTo>lSZnf+SR9lM_uokHywfTScI</linkedTo>
+              <parentheses>both</parentheses>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            <NoteParenGroup>
+              <Notes>
+                <NoteIdx>2</NoteIdx>
+                </Notes>
+              </NoteParenGroup>
             </Chord>
           </voice>
         <voice>
@@ -6628,56 +6662,18 @@ theorbo continuo by Vladimír Váša</text>
           <Chord>
             <eid>lvRfsFrPzpP_vq+bdfgwtWN</eid>
             <linkedTo>D4ZOXp5DNCC_XUK5OXSYAx</linkedTo>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>Fm6JvqogwEO_+XrojCsGJTH</eid>
-              <linkedTo>4WB4NvytPh_USlOJWEroZM</linkedTo>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              <fret>3</fret>
-              <string>2</string>
-              </Note>
-            <Note>
-              <eid>SmuScNAnPhN_vOTBpiYCx1N</eid>
-              <linkedTo>Vey7bdeyB4D_cR9nwqdnuUJ</linkedTo>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
+            <durationType>quarter</durationType>
             <Note>
               <eid>3TySQsRCTZH_m9VX0+HISxJ</eid>
               <linkedTo>w9pVka9gMCO_r1qkIl4uU/C</linkedTo>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>IZmcI2Zz+/I_WoidX+/WVFH</eid>
-            <linkedTo>e944eITB7CN_R5J4mMTFXiL</linkedTo>
-            <small>1</small>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>oVtxRHZ6cHI_fsWbz9J3B0N</eid>
-              <linkedTo>95wWuNaJYRG_X+z4jgjWXeP</linkedTo>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>V5vm+6vhaTD_G1glmCR8RdB</eid>
-              <linkedTo>jh+qIi8kshL_yM0UhtxprVO</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>3</fret>
+              <fret>0</fret>
               <string>0</string>
               </Note>
             <Note>
-              <eid>eB8x5JEa8FK_o893K4QOojB</eid>
-              <linkedTo>ZzTkz84mEmL_XEtcqmqQXVK</linkedTo>
+              <eid>Fm6JvqogwEO_+XrojCsGJTH</eid>
+              <linkedTo>4WB4NvytPh_USlOJWEroZM</linkedTo>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <fret>3</fret>
@@ -6687,7 +6683,15 @@ theorbo continuo by Vladimír Váša</text>
           <Chord>
             <eid>zeQeHzBBkNC_zUn5I7KZ4oH</eid>
             <linkedTo>FRxNgnim9wG_LtLkfLF/3oN</linkedTo>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>VBAH8fYDsjD_jQu3IuALayG</eid>
+              <linkedTo>EEh06FlE7JK_wPnCqwwKlbI</linkedTo>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
             <Note>
               <eid>7eZYEM25LOO_+WfJpV5Vv3N</eid>
               <linkedTo>OtDbOaDHSQG_gKeZ6a4kQgN</linkedTo>
@@ -6696,57 +6700,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>1</fret>
               <string>1</string>
               </Note>
-            <Note>
-              <eid>VBAH8fYDsjD_jQu3IuALayG</eid>
-              <linkedTo>EEh06FlE7JK_wPnCqwwKlbI</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>WVndytM7ssB_+tPJ6Wp6jz</eid>
-              <linkedTo>omTBmu1NV2H_yEFvN1+hgT</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>daOIQPHx1aE_MbilHARqBs</eid>
-            <linkedTo>LvW9bRb+7QD_QEf/dYoiG2F</linkedTo>
-            <small>1</small>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>RcTcZdXSoCO_Fs6fstxojcJ</eid>
-              <linkedTo>lE65FH1JFzJ_XGFMQQ5Wk8E</linkedTo>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>EIpuSCC85HO_yAlXqugawaP</eid>
-              <linkedTo>qo7lml3akvN_/dDxs4idFVL</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <eid>hBNteka/T6N_H7LNvU2GF9N</eid>
-              <linkedTo>ZPJbJWtg2V_+YdQQL6YIuB</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>LvZdEpU7BXJ_IT0t5kcDWbH</eid>
             <linkedTo>39cAaIV5okH_h8rJlVBJWpL</linkedTo>
             <durationType>eighth</durationType>
+            <Note>
+              <eid>3sKx99MWprK_l/msCxZ5/kL</eid>
+              <linkedTo>Hc80UvBd9fH_8Jy32qAF4oJ</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
             <Note>
               <eid>TH4iFAVTv7N_9CysaSr+aBP</eid>
               <linkedTo>ALvDHYBcLFO_dVZVbjbLUHF</linkedTo>
@@ -6755,44 +6721,11 @@ theorbo continuo by Vladimír Váša</text>
               <fret>0</fret>
               <string>1</string>
               </Note>
-            <Note>
-              <eid>9t58aV+HKDB_7ctG4TbPiW</eid>
-              <linkedTo>i47nznmGmiC_cT7drOExAWK</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>3sKx99MWprK_l/msCxZ5/kL</eid>
-              <linkedTo>Hc80UvBd9fH_8Jy32qAF4oJ</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>5SikjXVMIlI_VyFobHkWazL</eid>
             <linkedTo>M25lkEsjV0L_AQoyyolmwyG</linkedTo>
-            <small>1</small>
             <durationType>eighth</durationType>
-            <Note>
-              <eid>DmK9fKU22iG_On6eoJDkthI</eid>
-              <linkedTo>fp6+MAxGTCL_AiS8ml4+ccK</linkedTo>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              <fret>0</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>9E3f2kYoCSJ_tG07RadVhPL</eid>
-              <linkedTo>xpCdffnHVGE_7585+UH9okN</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
             <Note>
               <eid>ydTfbTd8w0C_lEWlt+yhX7I</eid>
               <linkedTo>h8DDbZHKAoK_8zuSCERwLBF</linkedTo>
@@ -6807,7 +6740,7 @@ theorbo continuo by Vladimír Váša</text>
           <Chord>
             <eid>a2xHun+iMuL_JfdXMBPgakO</eid>
             <linkedTo>gdv4mTkdfjO_apOaY+ZHbSH</linkedTo>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>ilNI8rOnIaB_4Na9RnVhJ2G</eid>
               <linkedTo>BqdnNw/m4/H_UHG+Fwj6qnN</linkedTo>
@@ -6818,22 +6751,9 @@ theorbo continuo by Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
-            <eid>byF8DQlobOH_7rv0lKFvR5E</eid>
-            <linkedTo>Q1LaMvCI5vN_mFOrjk7KBjK</linkedTo>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>4wcN5MXvD+G_6d2ELVAW9oP</eid>
-              <linkedTo>EzVAmJlmUPF_qKbxdAyooAC</linkedTo>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              <fret>1</fret>
-              <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
             <eid>GuXKMzwM70D_ludcIhzSOQK</eid>
             <linkedTo>eccHjR5wUUI_xaBzW3G2eyO</linkedTo>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>FokvKGe6kGI_a9Wk0/COCKH</eid>
               <linkedTo>fPtvTPGTCBO_yYuNql++jCF</linkedTo>
@@ -6844,42 +6764,16 @@ theorbo continuo by Vladimír Váša</text>
               </Note>
             </Chord>
           <Chord>
-            <eid>Jv3zxTc4fGI_xWygSq+DpnH</eid>
-            <linkedTo>oLLpvNckfLN_rV6Ed7dYelF</linkedTo>
-            <durationType>eighth</durationType>
+            <eid>ynFC3RucIfE_2smrd4HVkgK</eid>
+            <linkedTo>V+YdwMr2IX_zUtpbCqLKrE</linkedTo>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>x3QJNe7dsiL_GBVclgOpm2P</eid>
-              <linkedTo>2L6FasiO2fF_crF2S+QClGH</linkedTo>
+              <eid>KXtHvIwirzO_Iz9RV0B9vfD</eid>
+              <linkedTo>+M0sIL838VJ_WevdoOb8+nH</linkedTo>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <fret>3</fret>
               <string>5</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>ynFC3RucIfE_2smrd4HVkgK</eid>
-            <linkedTo>V+YdwMr2IX_zUtpbCqLKrE</linkedTo>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>KXtHvIwirzO_Iz9RV0B9vfD</eid>
-              <linkedTo>+M0sIL838VJ_WevdoOb8+nH</linkedTo>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>Fsp4EkYLrdC_m0fk/PXnlDK</eid>
-            <linkedTo>esAKnhfExtN_t83w94n9k+L</linkedTo>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>qsXCrx9oQlH_7oZImDPhXjP</eid>
-              <linkedTo>jZzVfKVqUQD_efMoYmYQk1H</linkedTo>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
               </Note>
             </Chord>
           </voice>
@@ -6891,14 +6785,6 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>uDCZ2IiaedB_3+DIjS2Uv8O</linkedTo>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Note>
-              <eid>HzExDb+XIbF_Q5Q7KRqtAHF</eid>
-              <linkedTo>7wgqVgYex/_+5MGeztjBKJ</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>0</fret>
-              <string>0</string>
-              </Note>
             <Note>
               <eid>GDq+sIf2a2I_iaRT7XLal+P</eid>
               <linkedTo>EjkwXrJfycL_/I9pQBgpDAH</linkedTo>
@@ -6914,6 +6800,14 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>13</tpc>
               <fret>1</fret>
               <string>1</string>
+              </Note>
+            <Note>
+              <eid>HzExDb+XIbF_Q5Q7KRqtAHF</eid>
+              <linkedTo>7wgqVgYex/_+5MGeztjBKJ</linkedTo>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -7007,6 +6901,20 @@ theorbo continuo by Vladimír Váša</text>
               <fret>1</fret>
               <string>1</string>
               </Note>
+            <Note>
+              <eid>D6m8MDyKwHH_TRbPUcAAwKP</eid>
+              <linkedTo>7LaQNsjMwmH_AGdsEjl9cwJ</linkedTo>
+              <parentheses>both</parentheses>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            <NoteParenGroup>
+              <Notes>
+                <NoteIdx>2</NoteIdx>
+                </Notes>
+              </NoteParenGroup>
             </Chord>
           </voice>
         <voice>
@@ -7033,6 +6941,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>4okDldQ8afK_4lEPHB3YbN</linkedTo>
             <durationType>quarter</durationType>
             <Note>
+              <eid>tGhQvF82fnH_3mUvniMfhZP</eid>
+              <linkedTo>JKD5eeCABGE_LWDMA0ppGtO</linkedTo>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
+            <Note>
               <eid>R+9AM7mManO_Ac5haZx5/wL</eid>
               <linkedTo>DSr2cplG9iJ_P7O6kNb+jeE</linkedTo>
               <pitch>62</pitch>
@@ -7040,27 +6956,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>3</fret>
               <string>2</string>
               </Note>
-            <Note>
-              <eid>VFJM0ycb3XP_GMCQk8vfkyE</eid>
-              <linkedTo>aPyorAfVUQ_DH2TkP8cz+M</linkedTo>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <eid>tGhQvF82fnH_3mUvniMfhZP</eid>
-              <linkedTo>JKD5eeCABGE_LWDMA0ppGtO</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>e4XeY/FWwfF_4Igl0KYBjcF</eid>
             <linkedTo>PKoNjqL94GD_DJNPZ3hME8</linkedTo>
             <durationType>quarter</durationType>
+            <Note>
+              <eid>1SVH6+lHfaB_rcVnGOAyLAL</eid>
+              <linkedTo>7RT01rMBm8M_hUD3ygP1v0D</linkedTo>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <fret>0</fret>
+              <string>0</string>
+              </Note>
             <Note>
               <eid>I0N/6DsuLoO_iLM40iLBY9M</eid>
               <linkedTo>zsSUw/XyLb_yxzFhH+Fs/O</linkedTo>
@@ -7069,27 +6977,19 @@ theorbo continuo by Vladimír Váša</text>
               <fret>1</fret>
               <string>1</string>
               </Note>
-            <Note>
-              <eid>1SVH6+lHfaB_rcVnGOAyLAL</eid>
-              <linkedTo>7RT01rMBm8M_hUD3ygP1v0D</linkedTo>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <fret>2</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>e6uZJ76WubH_0xrw/sbD9YK</eid>
-              <linkedTo>7wZJrhHNdfI_RsewhZIlMjB</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
-              </Note>
             </Chord>
           <Chord>
             <eid>KrwbfWgbIRE_KCRL5uMiP+</eid>
             <linkedTo>WZJlhk+OJrD_mq8vHV4cbNI</linkedTo>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>JM5my9ClsLL_bPgzQFY9PVB</eid>
+              <linkedTo>vXCwQN2SaeE_Np1JUJEph7N</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>3</fret>
+              <string>0</string>
+              </Note>
             <Note>
               <eid>zpmVm9y6lEF_INH4Lu7PEE</eid>
               <linkedTo>mRLd3EjtkkH_uHn28MuM4pH</linkedTo>
@@ -7098,21 +6998,18 @@ theorbo continuo by Vladimír Váša</text>
               <fret>0</fret>
               <string>1</string>
               </Note>
+            </Chord>
+          <Chord>
+            <eid>/zclgFvui7F_0LnoYGQFigF</eid>
+            <linkedTo>D63vOd6MDsC_dEiEzkLi8U</linkedTo>
+            <durationType>eighth</durationType>
             <Note>
-              <eid>HdDuEIc6QqJ_KVx2rifvJhJ</eid>
-              <linkedTo>5XhsO3v+nhD_9EQPVUkI1M</linkedTo>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              <fret>0</fret>
-              <string>3</string>
-              </Note>
-            <Note>
-              <eid>JM5my9ClsLL_bPgzQFY9PVB</eid>
-              <linkedTo>vXCwQN2SaeE_Np1JUJEph7N</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <eid>l4MQmPotwrJ_ecorOVRb3JF</eid>
+              <linkedTo>xVlds8Z495E_wY0hb5D8dM</linkedTo>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               <fret>1</fret>
-              <string>2</string>
+              <string>0</string>
               </Note>
             </Chord>
           </voice>
@@ -7150,10 +7047,10 @@ theorbo continuo by Vladimír Váša</text>
             <Note>
               <eid>eUMU395Vk2D_QOu/L0+aBFC</eid>
               <linkedTo>6TwkUueS4zH_S3wm0Sg3Nz</linkedTo>
-              <pitch>36</pitch>
+              <pitch>48</pitch>
               <tpc>14</tpc>
-              <fret>0</fret>
-              <string>10</string>
+              <fret>3</fret>
+              <string>5</string>
               </Note>
             </Chord>
           </voice>
@@ -7165,6 +7062,14 @@ theorbo continuo by Vladimír Váša</text>
             <linkedTo>CYz3URgNBsD_oZr0bvvM+IN</linkedTo>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Note>
+              <eid>XEGlGnaN4ZK_9+w0jD9R8bE</eid>
+              <linkedTo>Ap8i5PxsiDG_YcD11iroD+P</linkedTo>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <fret>1</fret>
+              <string>2</string>
+              </Note>
             <Note>
               <eid>36PBd5uZ//O_212FJeYZJUB</eid>
               <linkedTo>khuRH5aiaOK_JW1kNjlZLiO</linkedTo>
@@ -7180,14 +7085,6 @@ theorbo continuo by Vladimír Váša</text>
               <tpc>17</tpc>
               <fret>0</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <eid>XEGlGnaN4ZK_9+w0jD9R8bE</eid>
-              <linkedTo>Ap8i5PxsiDG_YcD11iroD+P</linkedTo>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <fret>1</fret>
-              <string>2</string>
               </Note>
             </Chord>
           </voice>
