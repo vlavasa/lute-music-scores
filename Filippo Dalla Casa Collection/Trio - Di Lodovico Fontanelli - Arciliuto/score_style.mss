@@ -513,13 +513,13 @@
     <oddHeaderR>$p</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$C</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
     <oddFooterC>$C</oddFooterC>
-    <oddFooterR></oddFooterR>
+    <oddFooterR>version $MT$m</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
     <voltaLineWidth>0.11</voltaLineWidth>
