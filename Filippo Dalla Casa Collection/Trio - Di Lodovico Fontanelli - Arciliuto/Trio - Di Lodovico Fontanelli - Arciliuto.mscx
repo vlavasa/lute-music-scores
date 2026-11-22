@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.60">
-  <programVersion>4.6.3</programVersion>
-  <programRevision>5d3c963</programRevision>
+<museScore version="4.70">
+  <programVersion>4.7.7</programVersion>
+  <programRevision>b750c43</programRevision>
   <Score>
     <eid>lJec0FzCyuE_jROtvnIngWN</eid>
     <Division>480</Division>
@@ -178,8 +178,7 @@ Any original additions are licensed under CC BY 4.0.</metaTag>
         <Text>
           <eid>9v7pffRiwAG_Jn/0xUs3lT</eid>
           <style>composer</style>
-          <text>Lodovico Fontanelli c.1682-1748
-transcribed by Vladimír Váša</text>
+          <text>Lodovico Fontanelli c.1682-1748<br/>transcribed by Vladimír Váša</text>
           </Text>
         <Text>
           <eid>LvWoK0qPiN_gR9U+IpigLL</eid>
@@ -643,15 +642,16 @@ transcribed by Vladimír Váša</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>DykSp9PZ3SH_7mdHN/+VPMH</eid>
-            <text>?odrážka?</text>
-            </StaffText>
           <Chord>
             <eid>MLFzPdHD+EJ_GNhaTSSR+DK</eid>
             <durationType>32nd</durationType>
             <Note>
               <eid>G/YRZB9axAO_afna53FiXZI</eid>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                <eid>qE6Hkfc4QSE_++iot7TRVQI</eid>
+                </Accidental>
               <pitch>66</pitch>
               <tpc>20</tpc>
               </Note>
@@ -1966,8 +1966,7 @@ transcribed by Vladimír Váša</text>
           <StaffText>
             <eid>EVO/VOcjhtH_s741RyHvkPB</eid>
             <style>tempo</style>
-            <text>Aria.
-Allegro</text>
+            <text>Aria.<br/>Allegro</text>
             </StaffText>
           <Chord>
             <eid>cYQfRWDVCLJ_jh4iNLOst+K</eid>
